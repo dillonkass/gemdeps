@@ -1,0 +1,17 @@
+body {
+  font: 16pt "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+table.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.gem {
+  font-family: Consolas, Inconsolata, monospace;
+}
