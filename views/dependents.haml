@@ -1,6 +1,7 @@
 %h1.gem= @gem_name
 
-%h2 Dependents
+%h2(style="margin-bottom: 0") Dependents
+.timestamp(style="margin-bottom: 12pt")= "(accurate as of #{@last_updated.utc})"
 
 - @dependents.each do |d|
   .gem= d

@@ -15,3 +15,7 @@ table.wrapper {
 .gem {
   font-family: Consolas, Inconsolata, monospace;
 }
+
+.timestamp {
+  font-size: 50%;
+}

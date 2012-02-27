@@ -26,7 +26,7 @@ get %r{^/([\w\-]*)(?:\.json)?$} do |gem_name|
 
   {
     :gem => gem_name,
-    :last_updated => last_updated,
+    :last_updated => last_updated.utc,
     :dependents => dependents[gem_name]
   }.to_json
 end
@@ -35,6 +35,7 @@ get %r{^/([\w\-]*)\.html$} do |gem_name|
   content_type :html
 
   @gem_name = gem_name
+  @last_updated = last_updated
   @dependents = dependents[gem_name] || []
   haml :dependents
 end
