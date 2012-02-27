@@ -19,10 +19,10 @@ helpers do
 
   def hash_for_gem(gem_name)
     {
-      :name => gem_name,
-      :status => dependents.include?(gem_name) ? "ok" : "not found",
-      :last_updated => last_updated.utc,
-      :dependents => dependents[gem_name]
+      "name" => gem_name,
+      "status" => dependents.include?(gem_name) ? "ok" : "not found",
+      "last_updated" => last_updated.utc,
+      "dependents" => dependents[gem_name]
     }
   end
 end
