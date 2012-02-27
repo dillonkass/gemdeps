@@ -19,3 +19,7 @@ table.wrapper {
 .timestamp {
   font-size: 50%;
 }
+
+.placeholder {
+  font-style: italic;
+}
