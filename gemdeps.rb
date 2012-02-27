@@ -46,21 +46,21 @@ class GemDependencies
   end
 
   def save_to_file
-    File.open("dependencies.json", "w").write(@dependents_hash.to_json)
+    File.open("dependents.json", "w").write(@dependents_hash.to_json)
   end
 end
 
 gem_dependencies = GemDependencies.new(`gem list --remote`.lines.map { |line| line.split(/\s+/)[0] })
 
-Parallel.each(gem_dependencies, :in_threads => 4) do |gem_name|
-    begin
-      json = HTTParty.get("https://rubygems.org/api/v1/gems/#{gem_name}.json").body
-      info = JSON.parse(json)
-      puts "Adding dependencies for #{gem_name}..."
-      gem_dependencies.read_dependencies(info)
-    rescue
-      # Oh well...
-    end
+Parallel.each(gem_dependencies, :in_threads => 16) do |gem_name|
+  begin
+    json = HTTParty.get("https://rubygems.org/api/v1/gems/#{gem_name}.json").body
+    info = JSON.parse(json)
+    puts "Adding dependencies for #{gem_name}..."
+    gem_dependencies.read_dependencies(info)
+  rescue
+    # Oh well...
+  end
 end
 
 gem_dependencies.delete_gems_without_dependents # just to save some space

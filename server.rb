@@ -3,13 +3,13 @@ require "json"
 require "haml"
 
 configure do
-  set :dependencies, JSON.parse(File.read("dependencies.json"))
-  set :last_updated, File.mtime("dependencies.json")
+  set :dependents, JSON.parse(File.read("dependents.json"))
+  set :last_updated, File.mtime("dependents.json")
 end
 
 helpers do
-  def dependencies
-    settings.dependencies
+  def dependents
+    settings.dependents
   end
 
   def last_updated
@@ -27,7 +27,7 @@ get %r{^/([\w\-]*)(?:\.json)?$} do |gem_name|
   {
     :gem => gem_name,
     :last_updated => last_updated,
-    :dependencies => dependencies[gem_name]
+    :dependents => dependents[gem_name]
   }.to_json
 end
 
@@ -35,6 +35,6 @@ get %r{^/([\w\-]*)\.html$} do |gem_name|
   content_type :html
 
   @gem_name = gem_name
-  @dependents = dependencies[gem_name]
+  @dependents = dependents[gem_name] || []
   haml :dependents
 end
