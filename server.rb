@@ -1,5 +1,6 @@
 require "sinatra"
 require "json"
+require "gyoku"
 require "haml"
 
 configure do
@@ -15,6 +16,15 @@ helpers do
   def last_updated
     settings.last_updated
   end
+
+  def hash_for_gem(gem_name)
+    {
+      :name => gem_name,
+      :status => dependents.include?(gem_name) ? "ok" : "not found",
+      :last_updated => last_updated.utc,
+      :dependents => dependents[gem_name]
+    }
+  end
 end
 
 get "/" do
@@ -23,13 +33,12 @@ end
 
 get %r{^/([\w\-]*)(?:\.json)?$} do |gem_name|
   content_type :json
+  hash_for_gem(gem_name).to_json
+end
 
-  {
-    :gem => gem_name,
-    :status => dependents.include?(gem_name) ? "ok" : "not found",
-    :last_updated => last_updated.utc,
-    :dependents => dependents[gem_name]
-  }.to_json
+get %r{^/([\w\-]*)(?:\.xml)?$} do |gem_name|
+  content_type :xml
+  Gyoku.xml(:gem => hash_for_gem(gem_name))
 end
 
 get %r{^/([\w\-]*)\.html$} do |gem_name|

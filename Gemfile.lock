@@ -1,6 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    builder (3.0.0)
+    gyoku (0.4.4)
+      builder (>= 2.1.2)
     haml (3.1.4)
     httparty (0.8.1)
       multi_json
@@ -24,6 +27,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  gyoku
   haml
   httparty
   json
