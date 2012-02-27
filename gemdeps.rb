@@ -63,6 +63,4 @@ Parallel.each(gem_dependencies, :in_threads => 16) do |gem_name|
   end
 end
 
-gem_dependencies.delete_gems_without_dependents # just to save some space
-
 gem_dependencies.save_to_file

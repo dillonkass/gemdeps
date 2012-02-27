@@ -3,5 +3,8 @@
 %h2(style="margin-bottom: 0") Dependents
 .timestamp(style="margin-bottom: 12pt")= "(accurate as of #{@last_updated.utc})"
 
-- @dependents.each do |d|
-  .gem= d
+- if @dependents.empty?
+  (none)
+- else
+  - @dependents.each do |d|
+    .gem= d
