@@ -20,9 +20,10 @@ helpers do
   def hash_for_gem(gem_name)
     {
       "name" => gem_name,
+      "version" => dependents[gem_name]["version"],
       "status" => dependents.include?(gem_name) ? "ok" : "not found",
       "last_updated" => last_updated.utc,
-      "dependents" => dependents[gem_name]
+      "dependents" => dependents[gem_name]["dependents"]
     }
   end
 end
@@ -48,7 +49,8 @@ get %r{^/([\w\-]*)\.html$} do |gem_name|
 
   if dependents.include?(gem_name)
     @last_updated = last_updated
-    @dependents = dependents[gem_name]
+    @version = dependents[gem_name]["version"]
+    @dependents = dependents[gem_name]["dependents"]
     haml :dependents
   else
     haml :gem_not_found

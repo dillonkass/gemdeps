@@ -1,4 +1,4 @@
-%h1.gem= @gem_name
+%h1.gem= "#{@gem_name} (#{@version})"
 
 %h2(style="margin-bottom: 0") Dependents
 .timestamp(style="margin-bottom: 12pt")= "(accurate as of #{@last_updated.utc})"
@@ -6,5 +6,13 @@
 - if @dependents.empty?
   (none)
 - else
-  - @dependents.each do |d|
-    .gem= d
+  %table
+    %tr
+      %th Dependent
+      %th.requirements Requirements
+    - @dependents.each do |d|
+      %tr
+        %td
+          .gem= d["name"]
+        %td.requirements
+          = d["requirements"]

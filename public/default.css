@@ -12,6 +12,10 @@ table.wrapper {
   width: 100%;
 }
 
+th.requirements, td.requirements {
+  padding-left: 16pt;
+}
+
 .gem {
   font-family: Consolas, Inconsolata, monospace;
 }
