@@ -18,7 +18,12 @@ task :update do
     end
   end
 
+  puts "All gemdeps:"
+  puts gem_dependencies.to_json
+
+  print "Saving... "; STDOUT.flush
   gem_dependencies.save_to_file("dependents.json")
+  puts "Done."
 end
 
 task :default => :update
