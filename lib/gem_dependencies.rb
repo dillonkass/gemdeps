@@ -19,6 +19,10 @@ class GemDependencies
     @dependents_hash.keys.to_a
   end
 
+  def to_json
+    @dependents_hash.to_json
+  end
+
   def read_version(string)
     match = string.match(/\(([^\)]*)\)/)
 
@@ -56,6 +60,6 @@ class GemDependencies
   end
 
   def save_to_file(file_name)
-    File.open(file_name, "w").write(@dependents_hash.to_json)
+    File.open(file_name, "w").write(self.to_json)
   end
 end
