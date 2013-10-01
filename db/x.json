@@ -3,103 +3,120 @@
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby utilities."
   },
   "x-editable-rails": {
     "version": "1.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "X-editable for Rails"
   },
   "x10-cm17a": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby based X10 CM17A Firecracker Controller"
   },
   "x11_client": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "X11 client"
   },
   "x12": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
   },
   "X12": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Library to parse X12 messages and manipulate their loops, segments, fields, composites, and validation tables."
   },
   "x12edi": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "X12 EDI Parser"
   },
   "x2c": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "the client itself is an irb shell executing commands on the client object, which has been extended to get a powerfull and easy interface to playback, playlists and collections. As it is all ruby, you can easily extend its functionality, create new aliases or functions, or create you own client ontop of it."
   },
   "x2ch": {
     "version": "0.9.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "2ch downloader and parser library"
   },
   "x2cs": {
     "version": "1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A tool for converting XML data to CSV. Generally meant for entities with fields, as supposed to many nodes deep."
   },
   "x86dis": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper for libdisasm, an x86 disassembly library"
   },
   "x_do": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Wraps libxdo using ffi, for high performance"
   },
   "x_runtime": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "由于使用到Redis的lua script,所以需要你的Redis服务支持,redis-server版本>2.6.x,redis(ruby gem)>3.0.1."
   },
   "x_to_json": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem to provide swappable JSON backends utilizing Yajl::Ruby, the JSON gem, ActiveSupport, or JSON pure."
   },
   "xaction": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Write a gem description"
   },
   "xagemu": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem-like gem that would allow you to sort by attribute"
   },
   "xail": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A lightweight Ruby DSL for building text-stream filters"
   },
   "xamarin-test-cloud": {
     "version": "0.9.25",
@@ -109,14 +126,15 @@
         "requirements": "~> 0.9.25"
       },
       {
-        "name": "calabash-cucumber",
-        "requirements": "~> 0.9.25"
-      },
-      {
         "name": "calabash-android",
         "requirements": ">= 0.9.23"
+      },
+      {
+        "name": "calabash-cucumber",
+        "requirements": "~> 0.9.25"
       }
-    ]
+    ],
+    "description": "Xamarin Test Cloud lets you automatically test your app on hundreds of mobile devices"
   },
   "xamplr": {
     "version": "1.9.20",
@@ -125,13 +143,15 @@
         "name": "xamplr-gen",
         "requirements": ">= 1.9.16"
       }
-    ]
+    ],
+    "description": "xamplr is the ruby version of xampl."
   },
   "xamplr-gen": {
     "version": "1.9.16",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is the xampl code generator for Ruby."
   },
   "xamplr-pp": {
     "version": "1.2.0",
@@ -144,19 +164,22 @@
         "name": "xamplr-gen",
         "requirements": ">= 1.2.0"
       }
-    ]
+    ],
+    "description": "A pure ruby XML pull parser"
   },
   "xan_markup": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple tag parser"
   },
   "xaop-exception_notification": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem differs from the exception_notifier gem in 3 ways:\na) It actually works, because the latest commits on from the github rails/exception_notification repository are incorporated\nb) The name of the gem is closer to the name of the github repository (hopefully causing less confusion)\nc) The options to the middleware are stored in the Rack env, meaning you can send exception notifications from your own code after catching an exception, while still sending back a response to the user (probably mainly useful with Ajax requests)"
   },
   "xaop-ntlm-http": {
     "version": "0.1.1.2",
@@ -165,13 +188,15 @@
         "name": "savon-xaop",
         "requirements": ">= 0.1.1.2"
       }
-    ]
+    ],
+    "description": "Ruby/NTLM HTTP provides NTLM authentication over http."
   },
   "xapi": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\nProvides an extension API for MRI that enables better performance and is safe\non Ruby implementations with modern garbage collection and concurrency\nfacilities.\n"
   },
   "xapian-core": {
     "version": "1.2.7.1",
@@ -180,7 +205,8 @@
         "name": "xapian-indexer",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Xapian is a framework for fast full-text searching."
   },
   "xapian-fu": {
     "version": "1.5.0",
@@ -197,19 +223,22 @@
         "name": "xapor",
         "requirements": ">= 1.1.0"
       }
-    ]
+    ],
+    "description": "A library to provide a more Ruby-like interface to the Xapian search engine."
   },
   "xapian-full": {
     "version": "1.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xapian bindings for Ruby without dependency on system Xapian library"
   },
   "xapian-full-alaveteli": {
     "version": "1.2.9.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xapian bindings for Ruby without dependency on system Xapian library"
   },
   "xapian-indexer": {
     "version": "1.2.3.4",
@@ -218,13 +247,15 @@
         "name": "xapian-rack",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Xapian::Indexer provides a flexible spider for indexing resources."
   },
   "xapian-rack": {
     "version": "1.2.3.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xapian::Rack provides indexing and searching integration with Rack."
   },
   "xapian-ruby": {
     "version": "1.2.15.1",
@@ -245,19 +276,22 @@
         "name": "xapian_db",
         "requirements": ">= 1.2.7.1"
       }
-    ]
+    ],
+    "description": "xapian libraries and ruby bindings"
   },
   "xapian_db": {
     "version": "1.3.5.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XapianDb is a ruby gem that combines features of nosql databases and fulltext indexing. It is based on Xapian, an efficient and powerful indexing library"
   },
   "xapit": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby library for interacting with Xapian. Includes full text search, faceted options, spelling suggestions, and more."
   },
   "xapor": {
     "version": "0.2.2",
@@ -266,55 +300,64 @@
         "name": "xapor",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Rails plugin for Xapian search, built on XapianFu and DelayedJob."
   },
   "xapper": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Give it an xml and define a mapping for it as a ruby hash and there you have it. A ruby hash for your XML"
   },
   "xarf": {
     "version": "0.6.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Read plain x-arf.org structured report emails (v0.2) and return machine-readable content in a ruby hash"
   },
   "xargs": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Module to emulate the 'xargs' utility from a unix system"
   },
   "xarray": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Good tool for small scripts and long array methods chains. Makes code look better and code faster"
   },
   "xattr": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "= xattr  == DESCRIPTION  Xattr provides the xattr (setxattr, getxattr, removexattr, listxattr) functions in a nice object-oriented wrapper. Ruby/DL is used so no compilation of modules is necessary.  Extended attributes extend the basic attributes associated with files and directories in the file system. They are stored as name:data pairs associated with file system objects (files, directories, symlinks, etc).  == SYNOPSIS  Using the library:  require &quot;xattr&quot;  xattr = Xattr.new(&quot;/path/to/file&quot;) xattr.list # =&gt; [...] xattr.get(&quot;...&quot;) xattr.set(&quot;...&quot;, &quot;...&quot;) xattr.remove(&quot;...&quot;)  Using the provided command-line tool:  $ xattr README.txt com.macromates.caret $ xattr README.txt com.macromates.caret  {column = 9; line = 26; } $ xattr README.txt com.macromates.caret &quot;{column = 0; line = 0; }&quot; {column = 0; line = 0; } $ xattr README.txt -com.macromates.caret {column = 0; line = 0; } $ xattr README.txt $   == REQUIREMENTS  * Mac OS X 10.4 (for now...)  == INSTALL  Using rubygems:  $ sudo gem install xattr  Using setup.rb:  $ sudo ruby setup.rb"
   },
   "xaviershay-dm-rails": {
     "version": "0.10.3.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Integrate DataMapper with Rails 3"
   },
   "xbar": {
     "version": "0.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Supports MongoDB style sharding and mirroring"
   },
   "xbd": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "The XBD gem allows you to create, load and save XBD files. XBD files are arbitrary, self-describing, hierarchical, binary data structures consisting of \"tags\", \"attributes\", and \"sub-tags\"."
   },
   "xbel": {
     "version": "0.2.7",
@@ -323,61 +366,71 @@
         "name": "habl",
         "requirements": ">= 0.2.6"
       }
-    ]
+    ],
+    "description": "Ruby API for XBEL based on Nokogiri."
   },
   "xbm_ruby": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "description of gem"
   },
   "xbmc": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "xbmc provides a super simple wrapper for controlling your Xbox Media Center."
   },
   "xbmc-client": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple API client for the XBMC Media Center JSON-RPC API"
   },
   "xbmc-jsonrpc": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A module for interacting with xbmc's json-rpc server"
   },
   "xbox-live": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This Xbox Live wrapper allows you to get profiles, games, achievements and friends data"
   },
   "xbox_leaders": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A wrapper for the Xbox Live API provided by Xbox Leaders: https://www.xboxleaders.com/"
   },
   "xbox_live": {
     "version": "0.3.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Log into Xbox Live and retrieve information about a player"
   },
   "xboxleaders": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Integrate with the Xboxleaders API to get Xbox Live user information http://www.xboxleaders.com/"
   },
   "xbrlware-ce": {
     "version": "1.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A fast, lightweight framework to parse, extract information from XBRL Instance, Taxonomy and Linkbase documents.\nxbrlware understands structure and relationship among elements of XBRL documents and\ndefines a set of APIs for accessing financial & business facts, meta & other related information\ndefined in XBRL documents."
   },
   "xbrlware-extras": {
     "version": "1.1.2.19.3",
@@ -386,7 +439,8 @@
         "name": "finmodeling",
         "requirements": "= 1.1.2.19.3"
       }
-    ]
+    ],
+    "description": "A set of extentions that make it easier to build on top of xbrlware"
   },
   "xbrlware-ruby19": {
     "version": "1.1.2.19.2",
@@ -399,97 +453,113 @@
         "name": "xbrlware-extras",
         "requirements": "= 1.1.2.19.2"
       }
-    ]
+    ],
+    "description": "Re-packaging of xbrlware for ruby19"
   },
   "xbuilder": {
     "version": "0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "API-compatible Builder implementation using libxml."
   },
   "xcal": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xcal displays a japan calendar like cal, ncal"
   },
   "xcapclient": {
     "version": "1.4.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XCAP (RFC 4825) is a protocol on top of HTTP allowing a client (usually built within a SIP user agent) to manipulate the content of XML documents stored in a server. These documents represent per user buddy list, presence authorization policy, media content (i.e. user avatar) and other kind of features.Ruby XCAPClient library implements the XCAP protocol in client side, allowing the application to get, store, modify and delete XML documents (totally or partially) in the server."
   },
   "xcb": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XCB provides the xcb command to continuously build a project in the background."
   },
   "xcbootstrap": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Bootstrap iOS projects with builds and testing already configured"
   },
   "xcdatamodel": {
     "version": "0.8.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Read and write Core Data model files"
   },
   "xcharts_rails": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem to include Xcharts into Rails 3.1+ Assets Pipeline"
   },
   "xcider": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Apple Xcode command line wrapper"
   },
   "xcli": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xrono Command Line Client"
   },
   "xcode": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rake tasks to deploy xcode project"
   },
   "xcode-installer": {
     "version": "0.1.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Installs Xcode GUI or command-line"
   },
   "xcode-project-renamer": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Project renaming is a pain with XCode. Use this gem to rename any XCode project in a very simple way"
   },
   "xcode-yamlizer": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Set of git hooks to store YAML files instead of Xcode projects and nibs in repo"
   },
   "xcode_make": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A wrapper for using Xcode's indexer with external targets"
   },
   "xcode_template_maker": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Much easier way to create templates for Xcode than editing the xml"
   },
   "xcodebuild-rb": {
     "version": "0.3.0",
@@ -510,13 +580,15 @@
         "name": "yolo",
         "requirements": "= 0.2.0"
       }
-    ]
+    ],
+    "description": "Build Xcode projects using Rake"
   },
   "xcodebuilder": {
     "version": "0.0.9.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A set of Rake tasks and utilities for building and releasing xcode projects"
   },
   "xcodeide": {
     "version": "0.1.1",
@@ -525,13 +597,15 @@
         "name": "leaves",
         "requirements": ">= 0.1.1"
       }
-    ]
+    ],
+    "description": "A Ruby library for parsing Xcode file formats."
   },
   "XcodePages": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\n    Helps you publish HTML web pages on the Internet somewhere appropriate, e.g.\n    on GitHub via the gh-pages branch feature.\n\n    Works for Objective-C projects built using Apple's Xcode IDE and\n    consequently focuses on documentation within Objective-C and Objective-C++\n    source files; files ending with extensions h, m or mm."
   },
   "xcodeproj": {
     "version": "0.11.1",
@@ -588,13 +662,15 @@
         "name": "motion-objc",
         "requirements": ">= 0.3.0"
       }
-    ]
+    ],
+    "description": "Xcodeproj lets you create and modify Xcode projects from Ruby. Script boring management tasks or build Xcode-friendly libraries. Also includes support for Xcode workspaces (.xcworkspace) and configuration files (.xcconfig)."
   },
   "xcodeproject": {
     "version": "0.3.12",
     "dependents": [
 
-    ]
+    ],
+    "description": "XcodeProject is the Ruby API for working with Xcode project files"
   },
   "xcoder": {
     "version": "0.1.18",
@@ -611,37 +687,43 @@
         "name": "xcode_make",
         "requirements": ">= 0.1.13"
       }
-    ]
+    ],
+    "description": "Provides a ruby based object-model for parsing project structures and invoking builds"
   },
   "xcoderake": {
     "version": "0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rake build script for XCode projects to handle dependencies."
   },
   "xcodesnippets": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command-line utility for managing Xcode 4 code snippets"
   },
   "xcpfix": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Restructures .xcodeproj directory structures to match the .pbxproj tree."
   },
   "xcselect": {
     "version": "0.1.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "A more user friendly interface to the xcode-select command showing more info, xcsim - access the simulator application folders quickly"
   },
   "XDCC-Fetch": {
     "version": "1.409",
     "dependents": [
 
-    ]
+    ],
+    "description": "XDCC-Fetch, written entirely in Ruby, is an intuitive, no-nonsense tool for searching, collecting and downloading XDCC  announcements within IRC  channels. XDCC-Fetch is released under the BSD license  and available for free."
   },
   "xdg": {
     "version": "2.2.3",
@@ -674,31 +756,36 @@
         "name": "stickyflag",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "XDG provides a module for supporting the XDG Base Directory Standard. See http://standards.freedesktop.org/basedir-spec/basedir-spec-0.6.html"
   },
   "xdo": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "XDo is a library to automate your mouse, fake keyboard input and \nmanipulate windows in a Linux X server environment. It's wrapped \naround a lot of command line tools (see requirements) of which xdotool \nis the main one, the others are usually installed. It's designed to work \nonly with Ruby 1.9. \n"
   },
   "xdojava": {
     "version": "1.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "basic cross-platform keystroke emulation ala xdo"
   },
   "xdry": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Autogenerates all kinds of funky stuff (like accessors) in Xcode projects"
   },
   "xdt": {
     "version": "1.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "xDT is a library that reads and writes LDT, GDT and BDT data."
   },
   "xduration": {
     "version": "3.0.0",
@@ -707,157 +794,183 @@
         "name": "timespan",
         "requirements": ">= 3.0.0"
       }
-    ]
+    ],
+    "description": "Duration with support for longer time periods"
   },
   "xebec": {
     "version": "2.7.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Helpers for generating navigation bars"
   },
   "xen": {
     "version": "0.1.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A package that is a link between Ruby and Xen API."
   },
   "xen-ruby": {
     "version": "0.7.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "simple gem to controle xen dom0"
   },
   "xenapi": {
     "version": "0.2.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xen API XMLRPC Client library for working with XenServers"
   },
   "xenapi-ruby": {
     "version": "0.1.29",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem to deal with Xen API"
   },
   "xenda-nifty-generators": {
     "version": "0.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A collection of useful generator scripts for Rails with extra juice"
   },
   "xenda-typhoeus": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Like a modern code version of the mythical beast with 100 serpent heads, Typhoeus runs HTTP requests in parallel while cleanly encapsulating handling logic."
   },
   "xendeploy": {
     "version": "0.20",
     "dependents": [
 
-    ]
+    ],
+    "description": "Building on the backs of Capistrano and Deprec, this is a collection of Recipes and other customizations for managing non-rails applications, specifically WordPress, WordPress-MU, and BuddyPress. This gem should be considered alpha software and not used for anything useful... yet.\n"
   },
   "xenrec": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Capistrano recipes that allow you to control a XenServer Host, for adding and removing VM's on the fly."
   },
   "xero": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Library for communicating with the xero API"
   },
   "xero-min": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "    Wires are oauth-ruby, typhoeus, nokogiri\n"
   },
   "xero_gateway": {
     "version": "2.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Enables ruby based applications to communicate with the Xero API"
   },
   "xero_gateway-float": {
     "version": "2.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Enables ruby based applications to communicate with the Xero API"
   },
   "xero_gateway-n8vision": {
     "version": "2.0.20",
     "dependents": [
 
-    ]
+    ],
+    "description": "Enables ruby based applications to communicate with the Xero API"
   },
   "xeroizer": {
     "version": "2.15.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby library for the Xero accounting system API."
   },
   "xeroizer-float": {
     "version": "2.15.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby library for the Xero accounting system API."
   },
   "xes": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "xes"
   },
   "xf-generators": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Generate concern files with grace."
   },
   "xfiles": {
     "version": "1.6.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Easy file transfer web interface built on Sinatra"
   },
   "xfn_stone": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simplify development of loading and parsing HTML pages with XFN social network information."
   },
   "xforge": {
     "version": "0.4.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XForge is a simple library to interact with RubyForge, SourceForge, GForge or other SourceForge clones."
   },
   "xforms": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem can be used to parse and fill XForms 1.1"
   },
   "xftdim": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Add a method to String:Class to get width and height of text for given string and xft-font"
   },
   "xgem": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A very tiny shim that dramatically speeds up gem requires"
   },
   "xh5-tweetstream": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "TweetStream allows you to easily consume the Twitter Streaming API utilizing the YAJL Ruby gem."
   },
   "xh5-twitter-stream": {
     "version": "0.1.0",
@@ -866,67 +979,78 @@
         "name": "xh5-tweetstream",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Fork of TwitterStream by Vladimir Koklesnikov. Simple Ruby client library for twitter streaming API. Uses EventMachine for connection handling. Adheres to twitter's reconnection guidline. JSON format only."
   },
   "xheditor": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xheditor is a online html editor"
   },
   "xhive": {
     "version": "1.6.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple Rails AJAX CMS"
   },
   "xhr": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "xhr-blackbook": {
     "version": "1.0.19",
     "dependents": [
 
-    ]
+    ],
+    "description": " Blackbook imports contacts from a number of sources and currently supports AOL Mail, GMail, Hotmail, Yahoo! Mail"
   },
   "xhr-ifconfig": {
     "version": "1.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a Ruby wrapper around the ifconfig command.  The goal is to make getting any information that ifconfig provides easy to access."
   },
   "xhr-president-news": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Aplicaţie Ruby care colectează toate ştirile despre alegerile prezidenţiale şi le grupează în funcţie de candidat."
   },
   "xhr-starling": {
     "version": "0.10.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Starling is a lightweight, transactional, distributed queue server"
   },
   "xhr_flash": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Flash object management in AJAX requests"
   },
   "xhtmldiff": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XHTMLDiff is a tool and library for taking valid XHTML documents as input, and generating redlined valid XHTML text highlighting the changes between them as output."
   },
   "xi": {
     "version": "99.99",
     "dependents": [
 
-    ]
+    ],
+    "description": "洗洗更健康升级版"
   },
   "xiacc": {
     "version": "0.1",
@@ -935,151 +1059,176 @@
         "name": "khammurabi",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "A Compiler-Compiler"
   },
   "xiami_sauce": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Xiami Downloader."
   },
   "xian-test-jasmine": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Jasmine Ruby"
   },
   "xiaohuangji": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xiaohuangji is a chatting robot based on SimiSimi."
   },
   "xiaonei": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "description of gem"
   },
   "xiaoXbao": {
     "version": "9.5.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple hello world gem"
   },
   "xibdiff": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xibdiff is a ruby command-line tool to diff two nib or xib files."
   },
   "xibe": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Developer Game"
   },
   "xibtoti": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Convert iPhone xib-files to Titanium javascript."
   },
   "xid": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds ability to ActiveRecord to retrieve the current transaction ID"
   },
   "xidle": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Get user inactivity time in milliseconds"
   },
   "xig_installer": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Installer for net-irc example irc gateways"
   },
   "xignite": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Access the Xignite financial data web services with a simple and intuitive Ruby library"
   },
   "xiki": {
     "version": "0.6.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xiki does what shell consoles do, but lets you edit everything at any time. It's trivial to make your own commands and menus to access other tools."
   },
   "xilence": {
     "version": "2.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails backtrace silencer for ajax requests"
   },
   "xilinx-provision": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Wraps the impact CLI tool in the Xilinx ISE"
   },
   "xilo": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Converts surrogate letters to Unicode equivalents. (Example for Esperanto: 'Cx' -&gt; '&#264;')"
   },
   "xim": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "vim-clone text editor"
   },
   "ximate": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Approximate fuzzy search for Ruby on Rails activerecord models."
   },
   "xing": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper for Xing API"
   },
   "xing-cap_gun": {
     "version": "0.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Super simple capistrano deployment notifications. Forked from relevance/cap_gun."
   },
   "xinuc-indofaker": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Indonesian Faker, cause &quot;good&quot; fakes are important here :). see http://faker.rubyforge.org/"
   },
   "xipio": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "When reading the subdomain of an xip.io request, you will get a different value\ncompared to a local pow request. The reason for this is that the tld length is\n1 by default, but an xip.io request has a tld length of 6. This gem inserts a\nmiddleware that corrects the tld length config of rails on the fly so that you\ncan use local and xip requests at the same time without restarting the server.\n"
   },
   "xisbn": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "look up related isbns with OCLCs xisbn service"
   },
   "xively-cli": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xively CLI"
   },
   "xively-rb": {
     "version": "0.2.10",
@@ -1088,79 +1237,92 @@
         "name": "xively-cli",
         "requirements": ">= 0.2"
       }
-    ]
+    ],
+    "description": "A library for communicating with the Xively REST API, parsing and rendering Xively feed formats"
   },
   "xj": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XJ is a web service that reads spreadsheets and outputs its data in JSON."
   },
   "xkcd": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem to get random img/comic url from xkcd"
   },
   "xkeys": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extended keys to facilitate fetching and storing in nested hash and array structures with Perl-ish auto-vivification."
   },
   "xkimo": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "xkimo is a railsview gem that add a vest to your app"
   },
   "xlib_ruby": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Some base libraries for writing a windowmanager in ruby"
   },
   "xls": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command line utilty for working with data in Excel."
   },
   "xls2csv": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xls2csv output csv_files by sheet haved xls_file to dir"
   },
   "xls2odat": {
     "version": "1.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "xls2odat converts one or more XLS files to flat files so they can be \nimported to a drugstore software or a pharmacy software in Switzerland.\n\nxls2odat parses XLS files depending on a configuration XLS file, and\noutputs the data separated by \"|\" symbol."
   },
   "xls_html_cleaner": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Clean up your Excel generated HTML"
   },
   "xls_porter": {
     "version": "1.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Export to and Import from XLS for Ruby and Rails apps"
   },
   "xls_to_csv-paperclip-processor": {
     "version": "0.4.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "If you want to convert .xls to .csv simply and unwittingly, then this gem is for you!"
   },
   "xlsx": {
     "version": "0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "XLSX is a Ruby library for writing simple XLSX-format Excel documents."
   },
   "xlsx_writer": {
     "version": "0.4.0",
@@ -1169,61 +1331,71 @@
         "name": "report",
         "requirements": ">= 0.3.1"
       }
-    ]
+    ],
+    "description": "Writes XLSX files. Minimal XML and style. Supports autofilters and headers/footers with images and page numbers."
   },
   "xlymian-cijoe": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "CI Joe is a simple Continuous Integration server."
   },
   "xlymian-redis-store": {
     "version": "0.3.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rack::Session, Rack::Cache and cache Redis stores for Ruby web frameworks."
   },
   "xm": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "\"send xm(pp) messages quickly everywhere\""
   },
   "xmapper": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XML Mapper. Maps XML to objects and vice-versa. Uses a nice nested-block syntax to define hierarchy."
   },
   "xmastree": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xmas tree"
   },
   "xmatch": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby library for comparing XML documents and reporting on mismatches"
   },
   "xmimerge": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A helper gem for merge XMI files"
   },
   "xmimodel": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A helper gem for working with XMI files"
   },
   "xml-focus": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extract subtrees from XML trees, making sure that the overall structure is preserved."
   },
   "xml-fu": {
     "version": "0.2.0",
@@ -1232,7 +1404,8 @@
         "name": "rightsignature",
         "requirements": ">= 0.1.7"
       }
-    ]
+    ],
+    "description": "\n    Inspired by the Gyoku gem for hash to xml conversion,\n    XmlFu is designed to require no meta tagging for\n    node attributes and content. (i.e. no :attributes! and no :order!)\n  "
   },
   "xml-magic": {
     "version": "0.1.1",
@@ -1273,7 +1446,8 @@
         "name": "userharmony-flickr_fu",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "xml-magic makes accessing xml objects more like any other ruby object"
   },
   "xml-mapping": {
     "version": "0.9.1",
@@ -1310,7 +1484,8 @@
         "name": "openaustralia",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "An easy to use, extensible library for mapping Ruby objects to XML and back. Includes an XPath interpreter."
   },
   "xml-motor": {
     "version": "0.1.6",
@@ -1343,7 +1518,8 @@
         "name": "wwwtf",
         "requirements": ">= 0.1.6"
       }
-    ]
+    ],
+    "description": "A new short XML Parsing Algorithm implemented directly in less-than-500 lines. An easy-to-use XML Parser without any Native Dependencies. Its under continuous improvement as being used/tested under my other xml-parsing required projects. [What, Why, HowTo]: http://justfewtuts.blogspot.in/2012/03/xml-motor-what-it-is-how-why-should-you.html "
   },
   "xml-object": {
     "version": "0.9.93",
@@ -1372,13 +1548,15 @@
         "name": "LitleOnline",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "XMLObject is a library for reading (not writing) XML. It is particularly suited for cases where one is dealing with small documents of a known structure. While not devoid of caveats, it does have a very pleasant, idiomatic Ruby syntax."
   },
   "xml-purifier": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "xml-purifier"
   },
   "xml-registry": {
     "version": "0.2.1",
@@ -1387,13 +1565,15 @@
         "name": "dws-registry",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "xml-registry"
   },
   "xml-sax-machines": {
     "version": "0.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "XML SAX Machines"
   },
   "xml-simple": {
     "version": "1.1.2",
@@ -1999,11 +2179,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_oauth2",
+        "name": "salesforce_bulk",
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk",
+        "name": "salesforce_bulk_quickfix",
         "requirements": ">= 0"
       },
       {
@@ -2011,7 +2191,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_quickfix",
+        "name": "salesforce_bulk_oauth2",
         "requirements": ">= 0"
       },
       {
@@ -2227,24 +2407,26 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "zohax",
+        "name": "zohoho",
         "requirements": ">= 0"
       },
       {
-        "name": "zohoho",
+        "name": "zohax",
         "requirements": ">= 0"
       },
       {
         "name": "zoro",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A simple API for XML processing."
   },
   "xml-sitemap": {
     "version": "1.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a wrapper to generate XML sitemaps and sitemap indexes."
   },
   "xml-smart": {
     "version": "0.3.8",
@@ -2257,37 +2439,43 @@
         "name": "ruby-xml-smart",
         "requirements": ">= 0.3.0"
       }
-    ]
+    ],
+    "description": "An xml library that doesn't suck (since 2004). Based on Nokogiri since 2012. For more info check out the Documentation link below."
   },
   "xml-to-haml": {
     "version": "0.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "xml-to-haml converts an XML string to HAML"
   },
   "xml_active": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "XML Active is an extension of ActiveRecord that provides features to synchronise an ActiveRecord Model with a supplied XML document"
   },
   "xml_convert": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xml_convert provides utility methods for encoding and\n                          decoding XML names."
   },
   "xml_data_builder": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XmlDataBuilder renders Ruby data structures as XML using Builder."
   },
   "xml_fixtures": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides your tests with the ability to load XML from fixture files and compare two XML documents using REXML."
   },
   "xml_hate": {
     "version": "0.8.3.4",
@@ -2296,31 +2484,36 @@
         "name": "ruby_yahoo_answers_api",
         "requirements": ">= 0.8.3.3"
       }
-    ]
+    ],
+    "description": "xml handling without the xml."
   },
   "xml_mapper": {
     "version": "0.5.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Declarative XML to Ruby mapping"
   },
   "xml_mini": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extraction of the XML handling code from ActiveSupport "
   },
   "xml_node_stream": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple XML parser wrapper that provides the benefits of stream parsing with the ease of using document nodes."
   },
   "xml_resource": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Turn XML into Ruby objects"
   },
   "xml_schema": {
     "version": "0.2.0",
@@ -2329,7 +2522,8 @@
         "name": "redlander",
         "requirements": "~> 0.2.0"
       }
-    ]
+    ],
+    "description": "Helper methods and constants to handle XmlSchema"
   },
   "xml_schema_mapper": {
     "version": "0.0.12",
@@ -2338,7 +2532,8 @@
         "name": "ezags-xsd",
         "requirements": ">= 0.0.8"
       }
-    ]
+    ],
+    "description": "XMLSchemaMapper is your way to use XSD for XML"
   },
   "xml_security": {
     "version": "0.0.3",
@@ -2347,7 +2542,8 @@
         "name": "samlurai",
         "requirements": "= 0.0.3"
       }
-    ]
+    ],
+    "description": "See http://github.com/phinze/xml_security"
   },
   "xml_serialization": {
     "version": "0.1.2",
@@ -2356,7 +2552,8 @@
         "name": "xsltgem",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Extends the XML serialization support in activesupport to allow for arrays containing strings, symbols, and integers."
   },
   "xml_signature": {
     "version": "0.1",
@@ -2365,25 +2562,29 @@
         "name": "saml",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A (partial) implementation of the XML Signature standard"
   },
   "xml_spec": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Test XML with RSpec and Cucumber"
   },
   "xml_split": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Split XML files on an element, yielding (streaming, so constant memory usage) each node in turn. Uses sgrep internally."
   },
   "xml_stream_parser": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "easily parse xml documents of any size with ruby"
   },
   "xml_to_json": {
     "version": "0.0.2",
@@ -2392,13 +2593,15 @@
         "name": "peaty",
         "requirements": "~> 0.0.2"
       }
-    ]
+    ],
+    "description": "Transforms a string of XML into a string of JSON"
   },
   "xmlblog-acts_as_versioned": {
     "version": "0.6.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "ActiveRecord plugin for versioning your models. Based on an old version of metaskills' fork."
   },
   "XMLCanonicalizer": {
     "version": "1.0.1",
@@ -2411,7 +2614,8 @@
         "name": "saml2ruby",
         "requirements": ">= 1.0.1"
       }
-    ]
+    ],
+    "description": "Implementation of w3c xml canonicalizer standart."
   },
   "xmlcanonicalizer": {
     "version": "0.1.2",
@@ -2436,13 +2640,15 @@
         "name": "xml_signature",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This is taken from XMLCanonicalizer/WSS4R and http://github.com/borisnadion/xml-canonicalizer"
   },
   "xmlcellent": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "An XML parser that uses Nokogiri and dynamic methods to transform XML data into a given Ruby model"
   },
   "xmlcodec": {
     "version": "0.3.2",
@@ -2451,19 +2657,22 @@
         "name": "eadcodec",
         "requirements": ">= 0.1.0"
       }
-    ]
+    ],
+    "description": "A framework to write object to XML mappers in Ruby that can then function both in whole-document manipulation as well as constant memory unlimited size importing and exporting of XML.\n"
   },
   "xmlconv": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "xmlconverter, convert XML to flat files."
   },
   "xmlconv2": {
     "version": "2.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Converts XML files to flat files. Works nicely with i2."
   },
   "xmldsig": {
     "version": "0.2.2",
@@ -2472,37 +2681,43 @@
         "name": "libsaml",
         "requirements": "~> 0.2.1"
       }
-    ]
+    ],
+    "description": "This gem is a (partial) implementation of the XMLDsig specification"
   },
   "xmldsign": {
     "version": "0.1.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xmldsign library for ruby with GOST algorithms"
   },
   "XmlEasy": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "ruby-easy offers you a way to handle xml quite easily.  == FEATURES/PROBLEMS:  * handle xml  == SYNOPSIS:  xml_easy = XmlEasy::Document.new 'text.html'"
   },
   "xmlelements": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A really easy xml-api."
   },
   "xmlenc": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A (partial)implementation of the XMLENC specificiation"
   },
   "xmlhash": {
     "version": "1.3.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "A small C module that wraps libxml2's xmlreader to parse a XML\nstring into a ruby hash"
   },
   "xmlhasher": {
     "version": "0.0.6",
@@ -2511,13 +2726,15 @@
         "name": "aggcat",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Fast XML to Ruby Hash converter"
   },
   "xmlize": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Convert Ruby objects to XML"
   },
   "xmlobject": {
     "version": "0.2",
@@ -2526,13 +2743,15 @@
         "name": "network-facade",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "Xml object abstraction for both REXML and libxml"
   },
   "xmlparsable": {
     "version": "1.5.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple declarative XML parsing"
   },
   "xmlparser": {
     "version": "0.7.2.1",
@@ -2549,97 +2768,113 @@
         "name": "rforce",
         "requirements": "~> 0.7"
       }
-    ]
+    ],
+    "description": "Ruby bindings to the Expat XML parsing library"
   },
   "xmlpipe2_indexer": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "xmlpipe2_indexer provides a small DSL which wrapps sphinx's xmlpipe2"
   },
   "xmlpretty": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "    Super simple utility to pretty print xml.  Pass the xml in on stdin.\n"
   },
   "xmlresume2x": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "xmlresume2x can convert CVs written in the XML Resume Library format (http://xmlresume.sourceforge.net) to a number of formats, including LaTeX markup which uses the europecv (http://www.ctan.org/tex-archive/help/Catalogue/entries/europecv.html) class which is based on the 'standard' European Curriculum Vitae format at http://www.cedefop.eu.int/transparency/cv.asp."
   },
   "XMLROCS": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Map XML Data into Ruby objects"
   },
   "xmlrpc-endpoint": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Expose Rails controller actions as XMLRPC method calls."
   },
   "xmlrpc-rack": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "a rack app that serves a XMLRPC::BasicServer"
   },
   "xmlrpc-rack_server": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extends the Ruby standard library XMLRPC::BasicServer, providing the Rack compatible XMLRPC::RackServer."
   },
   "xmlrpc-streaming": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "The built in xmlrpc client doesnt handle large binary data well, this client addresses the problem"
   },
   "xmlrpcs": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Changes sockets for the XMLRPC Library"
   },
   "xmlscan": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "The fastest XML parser written in 100% pure Ruby."
   },
   "xmlsec": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for xmlsec"
   },
   "xmlsec-ruby": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "\txmlsec-ruby is a project using SWIG to create ruby bindings\n\tfor the xmlsec library (http://www.aleksey.com/xmlsec/). \n"
   },
   "xmlsec-shim": {
     "version": "1.2.18.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A shim library for xmlsec1"
   },
   "xmlsig": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem that wraps up Verisign's XMLSIG for Dynamic Languages (http://xmlsig.sourceforge.net)"
   },
   "xmlsoccer": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Gem to interface with the xmlsoccer.com API"
   },
   "xmlss": {
     "version": "1.0.0",
@@ -2648,13 +2883,15 @@
         "name": "osheet-xmlss",
         "requirements": "~> 1.0"
       }
-    ]
+    ],
+    "description": "Generate spreadsheet docs for MS Excel using XML Spreedsheet"
   },
   "xmlstats": {
     "version": "1.5.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ruby client for xmlstats (https://erikberg.com/api)."
   },
   "xmlstreamin": {
     "version": "0.0.1",
@@ -2663,31 +2900,36 @@
         "name": "athena",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "XMLStreamin"
   },
   "xmlstruct": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Struct that allows you to create an XML layout quickly and easily"
   },
   "xmltv": {
     "version": "0.8.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xmltv consists of a single base grabber and a bunch of site specific grabbers. The base grabber provides: - a driver - option parsing - start/stop time fixing - xml production - helper functions that site specific grabbers might want to use"
   },
   "xmltv2html": {
     "version": "0.8.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xmltv2html is a Ruby script that generates a static HTML page from  the output of XMLTV. This is different from other XMLTV -&gt; HTML programs in that the times are on the horizontal axis and the channels on the vertical axis. The HTML output can be modified using a CSS file. The prefered method to view a show's info is via DHTML (the default). With version 0.5.3+, the attributes (fonts, colors, size) of the  DHTML can be modified."
   },
   "xmlvalidate": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xmlvalidate, a tool to validate XML documents against an XSD schema"
   },
   "xmp": {
     "version": "0.2.0",
@@ -2696,31 +2938,36 @@
         "name": "fury-bug",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Extensible Metadata Platform (XMP) parser"
   },
   "xmp-fixed_prefix": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extensible Metadata Platform (XMP) parser"
   },
   "xmp_fixed": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extensible Metadata Platform (XMP) parser"
   },
   "xmpfixed": {
     "version": "0.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extensible Metadata Platform (XMP) parser"
   },
   "xmpleton": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby XMP reader library for extracting metadata from media files"
   },
   "xmpp-agent": {
     "version": "0.2.1",
@@ -2729,25 +2976,29 @@
         "name": "send-to-switchboard",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "xmpp-agent"
   },
   "xmpp-logger": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "    For version bellow then 0.1.0 it's just a gem building test. Further it will be a logger or proxy logger that send information through xmpp.\n"
   },
   "xmpp4em": {
     "version": "0.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple XMPP client and component built on EventMachine."
   },
   "xmpp4log": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Logger via xmpp"
   },
   "xmpp4r": {
     "version": "0.5",
@@ -2865,12 +3116,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jab",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jabber-tee",
         "requirements": ">= 0.5"
+      },
+      {
+        "name": "jab",
+        "requirements": ">= 0"
       },
       {
         "name": "jabber_delivery",
@@ -2989,20 +3240,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp-logger",
-        "requirements": ">= 0.5"
-      },
-      {
         "name": "xmpp4em",
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp4r-hipchat",
-        "requirements": "~> 0.5"
+        "name": "xmpp-logger",
+        "requirements": ">= 0.5"
       },
       {
-        "name": "xmpp4r-observable",
-        "requirements": ">= 0.5.0"
+        "name": "xmpp4r-hipchat",
+        "requirements": "~> 0.5"
       },
       {
         "name": "xmpp4r-simple",
@@ -3013,30 +3260,37 @@
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp_server",
-        "requirements": ">= 0"
+        "name": "xmpp4r-observable",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "xmpp4r-simple-19",
         "requirements": ">= 0.3.2"
       },
       {
+        "name": "xmpp_server",
+        "requirements": ">= 0"
+      },
+      {
         "name": "zoe",
         "requirements": "~> 0.5.0"
       }
-    ]
+    ],
+    "description": "XMPP4R is an XMPP/Jabber library for Ruby."
   },
   "xmpp4r-hipchat": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "HipChat client extension to xmpp4r"
   },
   "xmpp4r-observable": {
     "version": "0.5.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Jabber::Observable builds on the strong foundation of XMPP4R and use a customized version of Ruby's builtin Observer pattern to expose XMPP observable things (as messages, pubsub events, presence, etc)."
   },
   "xmpp4r-simple": {
     "version": "0.8.8",
@@ -3069,13 +3323,15 @@
         "name": "xmpp4log",
         "requirements": ">= 0.8.8"
       }
-    ]
+    ],
+    "description": "Jabber::Simple takes the strong foundation laid by xmpp4r and hides the relatively high complexity of maintaining a simple instant messenger bot in Ruby."
   },
   "xmpp4r-simple-19": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "    Jabber::Simple takes the strong foundation laid by xmpp4r\n    and hides the relatively high complexity of maintaining a simple instant\n    messenger bot in Ruby.\n"
   },
   "xmpp4r_facebook": {
     "version": "0.1.1",
@@ -3088,43 +3344,50 @@
         "name": "invity",
         "requirements": "= 0.1.1"
       }
-    ]
+    ],
+    "description": "Expansion XMPP4R to authenticate with Facebook Connect in Ruby"
   },
   "xmpp_gateway": {
     "version": "0.0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XmppGateway is a server that allows XMPP stanzas to be posted via HTTP POST requests, it provides a synchronous API for IQ messages so that a reply is included in the body of the response"
   },
   "xmpp_server": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A queue for push message to xmpp server"
   },
   "xmppbot": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a simple implementation on top of StropheRuby 'http://github.com/flamontagne/strophe_ruby/'. It's for those who want to build xmpp bots quickly. It features only the essential : - auto accept subscriptions - callback for received messages - callback for received presences - a method to send messages and presences - That's about it  Warning : StropheRuby is quite experimental at the moment. It is definitely NOT ready for production!"
   },
   "xmvc": {
     "version": "0.1.12",
     "dependents": [
 
-    ]
+    ],
+    "description": "A full-stack, full-stack MVC framework generator geared towards generating towards the Ext JS framework.  The actual javascript framework implementation is provided by the Gem extjs-mvc.  This gem contains a series of builders and erb-templates for auto-generating javascript model, view and controller class-files."
   },
   "xmysql2psql": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "It can create postgresql dump from mysql database or directly load data from mysql to\n    postgresql (at about 100 000 records per minute). Translates most data types and indexes."
   },
   "xn-octokit": {
     "version": "0.6.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple wrapper for the GitHub API v2"
   },
   "xni": {
     "version": "0.1.0",
@@ -3133,25 +3396,29 @@
         "name": "walters",
         "requirements": ">= 0.1.0"
       }
-    ]
+    ],
+    "description": "Native C access for JRuby"
   },
   "xommelier": {
     "version": "0.1.31",
     "dependents": [
 
-    ]
+    ],
+    "description": "XML-Object Mapper with many built-in XML formats supported"
   },
   "Xooie": {
     "version": "0.0.13",
     "dependents": [
 
-    ]
+    ],
+    "description": "A highly modular, extensible JavaScript UI framework."
   },
   "xooie": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A highly modular, extensible JavaScript UI framework."
   },
   "xot": {
     "version": "0.1.6",
@@ -3172,31 +3439,36 @@
         "name": "spacy",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This library include some useful utility classes and functions for development with C++."
   },
   "xoxo": {
     "version": "1.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XOXO is a Ruby XOXO parser and generator. It provides a Ruby API \nsimilar to Marshal and YAML (though more specific) to load and dump\nXOXO[http://microformats.org/wiki/xoxo], a simple, open outline\nformat written in standard XHTML and suitable for embedding in\n(X)HTML, Atom, RSS, and arbitrary XML."
   },
   "xp5k": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A small Grid'5000 helper to submit jobs and deploy environments via REST API"
   },
   "xpain": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "  ruby dsl for creating xsd's\n"
   },
   "xparams": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "xparams"
   },
   "xpath": {
     "version": "2.0.0",
@@ -3237,19 +3509,22 @@
         "name": "skyruby",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "XPath is a Ruby DSL for generating XPath expressions"
   },
   "xpather": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quick and painless XPath searching for Ruby using libxml2"
   },
   "xpay": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides an abstraction layer to Xpay4. SecureTrading Xpay4 is a Java Applet that handles payments via SecureTrading and receives and sends xml documents."
   },
   "xpcomcore-rubygem": {
     "version": "0.6.4",
@@ -3266,73 +3541,85 @@
         "name": "xultestrunner",
         "requirements": ">= 0.6.3"
       }
-    ]
+    ],
+    "description": "Gem to allow for using XPCOMCore via RubyGems"
   },
   "xpgrep": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "grep(1) for XML, using XPath (or CSS selectors) instead of regex(3)."
   },
   "xplane": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Gem for communicate with X-Plane via UDP packages"
   },
   "xplanner": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper for XPlanner+ SOAP interface"
   },
   "xplenty-api": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby Client for the Xplenty API"
   },
   "xplenty-kensa": {
     "version": "1.4.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Kensa is a command-line tool to help add-on providers integrating their services with Xplenty. It manages manifest files, and provides a TDD-like approach for programmers to test and develop their APIs."
   },
   "xpool": {
     "version": "0.11.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A lightweight UNIX(X) Process Pool implementation"
   },
   "xproxy": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Rack compatible HTTP Proxy"
   },
   "xqcoretools": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Tools for synchronizing multiple CSharp projects and deploying to several platform"
   },
   "xqruby": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "JRuby DSL for XML Building and Manipulation with XPath & XQuery"
   },
   "xrails": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "xRails is a base Rails project that you can upgrade. It is used by\nAlessio Rocco to get a jump start on a working app. Use xRails if you're in a\nrush to build something amazing; don't use it if you like missing deadlines.\n"
   },
   "xrandrb": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper/enhancer for xrandr, the Linux CLI monitor manager."
   },
   "xray": {
     "version": "1.1",
@@ -3345,85 +3632,99 @@
         "name": "dp_stm_map",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Dump backtrace for all threads."
   },
   "XRay": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Dump backtrace for all threads."
   },
   "xray-rails": {
     "version": "0.1.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a dev bar and an overlay in-browser to visualize your UI's rendered partials and Backbone views"
   },
   "xrb": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XRB summary"
   },
   "xrd": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "An XRD parser and generator for Ruby.\n"
   },
   "xrefresh-server": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XRefresh is browser refresh automation for web developers"
   },
   "xroboter": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XMPP robot"
   },
   "xrono": {
     "version": "1.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xrono is an asset and time tracking application for consultants and consulting companies."
   },
   "xrvg": {
     "version": "0.0.82",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby vector graphics library"
   },
   "xs": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "FIX (describe your package)"
   },
   "xscreen_usb_unlocker": {
     "version": "0.91.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A CLI tool that scans your usb ports for a device, then locks/unlocks xscreensaver."
   },
   "xsettings-ruby": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "XSettings Manager bindings for ruby\n\ne.g\nrequire 'gtk2'\nrequire 'xsettings-ruby'\n\n"
   },
   "xslt-morpheus": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "No, really, this lets you use XSLT in Rails. Don't laugh, it can sometimes be a good idea! Occasionally."
   },
   "xsltgem": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "xsltgem"
   },
   "xspf": {
     "version": "0.4.1.1",
@@ -3436,31 +3737,36 @@
         "name": "xspf2m3u",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "XSPF for Ruby is a pure-Ruby library to parse XML Shareable Playlist Format documents. It provides an easy to use API. The only dependency is Ruby/XSLT (http://raa.ruby-lang.org/project/ruby-xslt/)"
   },
   "xspf2m3u": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Usage: xspf2m3u -i one.xspf -o two.m3u"
   },
   "xspond-delayed_job": {
     "version": "1.8.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Delayed_job (or DJ) encapsulates the common pattern of asynchronously executing longer tasks in the background. It is a direct extraction from Shopify where the job table is responsible for a multitude of core tasks."
   },
   "xspree": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "xSpree is a base Spree project that you can upgrade. It is used by\nAlessio Rocco to get a jump start on a working app. Use xSpree if you're in a\nrush to build something amazing; don't use it if you like missing deadlines.\n"
   },
   "xss_shield": {
     "version": "2.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This Rails plugin provides automatic cross site scripting (XSS) protection for your views. Once installed, you no longer have to manually and painstakingly sanitize all your views with HTML escaping."
   },
   "xss_terminate": {
     "version": "0.22",
@@ -3469,13 +3775,15 @@
         "name": "devise_russian",
         "requirements": ">= 0.2"
       }
-    ]
+    ],
+    "description": "XssTerminate for Rails 3.2"
   },
   "xstreamly": {
     "version": "0.7.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Send X-Stream.ly messages and manage callbacks"
   },
   "xstring": {
     "version": "0.0.7",
@@ -3484,25 +3792,29 @@
         "name": "syncer",
         "requirements": ">= 0.0.7"
       }
-    ]
+    ],
+    "description": "Ruby String extensions - currently only one extension: to_class"
   },
   "xtdo": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Minimal and fast command line todo manager"
   },
   "xteam_schedule": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Full control over schedules for use with adnX's xTeam software"
   },
   "xtendr": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Xtendr provides access to extended file system attributes. Ruby 1.9 compatible."
   },
   "xthread": {
     "version": "0.1.4.001",
@@ -3515,7 +3827,8 @@
         "name": "fiber-mon",
         "requirements": ">= 0.1.3"
       }
-    ]
+    ],
+    "description": "C-implementation version of thread.rb and monitor.eb libraries\n"
   },
   "xthreads": {
     "version": "0.1.2",
@@ -3524,43 +3837,50 @@
         "name": "run_every",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "xthreads"
   },
   "xtify": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client library for Xtify's API"
   },
   "xtotxt": {
     "version": "0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple wrapper calling, for each supported input format, a given command-line tool"
   },
   "xtrace": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "XTrace is a gem to evaluate .xt trace files generated by the XDebug PHP extension"
   },
   "xtrn": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Manage your externals without locking yourself into a single source control system."
   },
   "xttc": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command line bot for working with XTT, ENTP's rad time tracking app"
   },
   "xultestrunner": {
     "version": "0.5.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XUL based test runner for running your JS unit tests."
   },
   "xunitnet": {
     "version": "1.6.0",
@@ -3573,37 +3893,43 @@
         "name": "norm",
         "requirements": "> 1.5.0"
       }
-    ]
+    ],
+    "description": "xUnit.net is a developer testing framework, built to support Test Driven Development, with a design goal of extreme simplicity and alignment with framework features."
   },
   "xunlei": {
     "version": "0.0.13",
     "dependents": [
 
-    ]
+    ],
+    "description": "A browser script to access lixian.vip.xunlei.com tasks automatically"
   },
   "xupa_emec": {
     "version": "1.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Puxa dados sobre instituições de ensino superior do site do MEC para o formato CSV."
   },
   "xurrency": {
     "version": "002",
     "dependents": [
 
-    ]
+    ],
+    "description": "ruby-xurrency is a wrapper library for API xurrency(http://xurrency.com/api)."
   },
   "xvp": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "XVP password encryption for ruby"
   },
   "xws_breadcrumbs": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A rails 3 engine providing breadcrumbs the REST way"
   },
   "xx": {
     "version": "2.1.0",
@@ -3612,7 +3938,8 @@
         "name": "ruby-vpi",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "xx"
   },
   "xxhash": {
     "version": "0.2.0",
@@ -3621,12 +3948,14 @@
         "name": "sampling-hash",
         "requirements": ">= 0.2.0"
       }
-    ]
+    ],
+    "description": "Ruby wrapper for xxHash lib"
   },
   "xxx": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "To watch a porn just type from your command line: xxx"
   }
 }

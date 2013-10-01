@@ -3,19 +3,22 @@
     "version": "1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "_ allows you to write Ruby script by using only _."
   },
   "_amon": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Amon client that provides logging and exception handling"
   },
   "_bushido-faye": {
     "version": "0.8.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple pub/sub messaging for the web"
   },
   "_bushido-faye-websocket": {
     "version": "0.4.4",
@@ -24,24 +27,28 @@
         "name": "_bushido-faye",
         "requirements": ">= 0.4.0"
       }
-    ]
+    ],
+    "description": "Standards-compliant WebSocket server and client"
   },
   "_p_": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "tapp is tap and p, _p_ is an alias of tapp."
   },
   "_rubyapp": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A web application framework in Ruby"
   },
   "_vm": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Generic version manager"
   }
 }

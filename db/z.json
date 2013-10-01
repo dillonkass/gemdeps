@@ -3,55 +3,64 @@
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Summary"
   },
   "z-rqr": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ruby library to create qrcode. Output: PS, JPEG, PNG, EPS, TIFF."
   },
   "z2monitor": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command line interface for viewing alerts from a Zabbix instance (for Zabbix 2.0)"
   },
   "z404": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "404 route for rails 3.0"
   },
   "z_build": {
     "version": "1.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ditch your unweildy and heavyset build. Use Z'Build module with Rake/Thor/etc and make a light-weight alternative, written in pure Ruby."
   },
   "za-id-validator": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Validates South African identity numbers"
   },
   "zaarly-sinatra-sprockets": {
     "version": "0.0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use Sprockets effectively with Sinatra."
   },
   "zaarly-swearjar": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Put another nickel in the swearjar. Simple profanity detection with content analysis."
   },
   "zaarly-urbanairship": {
     "version": "1.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Urbanairship is a Ruby library for interacting with the Urbanairship (http://urbanairship.com) API."
   },
   "zabbix": {
     "version": "0.4.0",
@@ -61,124 +70,142 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix-simple-bufferd",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fluent-plugin-zabbix",
         "requirements": ">= 0"
       },
       {
-        "name": "zabbix_pusher",
-        "requirements": "~> 0.3.0"
+        "name": "fluent-plugin-zabbix-simple-bufferd",
+        "requirements": ">= 0"
       },
       {
         "name": "zabbix_nudge",
         "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "zabbix_pusher",
+        "requirements": "~> 0.3.0"
       }
-    ]
+    ],
+    "description": "send data to zabbix from ruby"
   },
   "zabbix-ruby-client": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "A zabbix alternative to zabbix-agent using zabbix-sender."
   },
   "zabbix_agent": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Class for creating Zabbix agents in Ruby"
   },
   "zabbix_nudge": {
     "version": "0.1.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "zabbix_nudge is a gem to collect metrics from different sources, parse zabbix templates and push (nudge) the data to zabbix proxy or server"
   },
   "zabbix_pusher": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "zabbix_pusher is a gem to parse zabbix templates and push the data to the corresponding zabbix server"
   },
   "zabbix_send": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Send data to Zabbix trappers from Ruby"
   },
   "zabbixapi": {
     "version": "0.6.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Allows you to work with zabbix api from ruby."
   },
   "zabbixapi-fotonsi": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby module for work with zabbix api. Forked from http://github.com/verm666/RubyZabbixApi (author: Eduard Snesarev)"
   },
   "zabby": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zabby is a Zabby API and CLI. It provides a provisioning tool for\ncreating, updating and querying Zabbix objects (hosts, items, triggers, etc.) through the web\nservice."
   },
   "zabcon": {
     "version": "0.0.392",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zabcon is a command line interface for Zabbix written in Ruby"
   },
   "zable": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "HTML searching, sorting and pagination made dead simple"
   },
   "zacharyw-ruby-aaws": {
     "version": "0.8.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby/AWS is a Ruby wrapper to the Amazon Product Advertising API."
   },
   "zack": {
     "version": "0.3.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby RPC calls via Cod"
   },
   "zactor": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zactor"
   },
   "zafu": {
     "version": "0.8.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a powerful templating language based on xhtml for rails"
   },
   "zaim": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby wrapper for the Zaim API."
   },
   "zake": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A set of Rake tasks and utilities for managing iOS ad-hoc builds (Based on betabuilder)"
   },
   "zalgo": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "H̬̜̩̲̤̞̊̂̐ͧ̿E̷͕̰̩̽͠ ̵͔̘̞̜̺͖͔̳̇͒͒̌͊̚C̡̗̦̱̀͝O̜̠̍ͤ͂͊M̗̣͓͈̘̼̍͑̎E͛ͮ̍̎́ͣ̓̇͏̳͎S̭̋ͪ̈ͬ̿̐̚ͅͅ.̔ͨ̒̋̆̾͏҉_̤̝͕̤"
   },
   "zaml": {
     "version": "0.1.3",
@@ -191,133 +218,155 @@
         "name": "rbbt-marq-www",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A partial replacement for YAML, writen with speed and code clarity in mind.  ZAML fixes one YAML bug (loading Exceptions) and provides a replacement for YAML.dump() unimaginatively called ZAML.dump(), which is faster on all known cases and an order of magnitude faster with complex structures."
   },
   "zandu": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Gem to fetch data from databse"
   },
   "zanox": {
     "version": "0.2.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "The easy way to the zanox web services."
   },
   "zap": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zap is a simple command line key-value store. There are no collections, just a single namespace, and only three letters in the command. ZAP!"
   },
   "zapi": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple zuora api connector"
   },
   "zapix": {
     "version": "0.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Communication with the Zabbix API made easy"
   },
   "zapt_in": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client ruby para os encurtadores http://zapt.in e http://abr.io"
   },
   "zaru": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zaru takes a given filename (a string) and normalizes, filters and truncates it, so it can be safely used as a filename in modern operating systems. Zaru doesn't remove Unicode characters when not necessary."
   },
   "zarya": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Fast-to-develop & customizable cms"
   },
   "zas-client": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client for communicating with ZeroAS"
   },
   "zas-service": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZeroAS provides an authentication service that uses 0mq as its transport protocol"
   },
   "zassets": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Standalone asset pipeline based on sprockets.\n"
   },
   "zassets-plugins-haml_coffee": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Haml Coffee processor for zassets.\n"
   },
   "zassets-plugins-handlebars": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Handlebars JST processor for zassets.\n"
   },
   "zassets-plugins-less": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "LESS template engine for zassets.\n"
   },
   "zayin": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A collection of Ruby utilities and Rake tasks."
   },
   "zaypay": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides you a PriceSetting class which allows you to send request to the Zaypay API in order to create payments, display payment details and contains other useful methods. Pleases refer to http://zaypay.com/developers for more information on the Zaypay API"
   },
   "zazz": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "The zazz gem provides an ever-growing collection of Sass mixins to solve layout problems that are common to most projects."
   },
   "zazzle": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zazzle.com API wrapper"
   },
   "zazzle_rails": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "A way to retrieve products from a Zazzle store."
   },
   "zbar": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for ZBar, a barcode recognition library. Uses FFI to interact with the underlying C library, but has no other dependencies."
   },
   "zbase32": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby implementation of zbase32, an easy-to-remember, unambiguous alphabet."
   },
   "zbatery": {
     "version": "4.1.2",
@@ -326,7 +375,8 @@
         "name": "universe-webserver",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Zbatery is an HTTP server for Rack applications on systems that either\ndo not support fork(), or have no memory (nor need) to run the\nmaster/worker model.  It is based on Rainbows! (which is based on\nUnicorn (which is based on Mongrel)) and inherits parts of each.\nZbatery supports your choice of all the thread/fiber/event/actor-based\nconcurrency models and Rack middleware that Rainbows! supports (or will\never support) in a single process."
   },
   "zbox": {
     "version": "0.0.4",
@@ -335,13 +385,15 @@
         "name": "unigems",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "zxy's ruby tool collections'"
   },
   "zbx": {
     "version": "1.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "yet another zabbix api wrapper and a dsl"
   },
   "zbxapi": {
     "version": "0.3.2",
@@ -350,19 +402,22 @@
         "name": "zabcon",
         "requirements": ">= 0.1.324"
       }
-    ]
+    ],
+    "description": "Provides a straight forward interface to manipulate Zabbix servers using the Zabbix API."
   },
   "zcc": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "zcc is a command line script for copy cataloging MARC records"
   },
   "zclip-rails": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Wrapper for jQuery - zClip (zeroclipboard). Adds easy copy to clipboard functionality to your Rails 3.x app"
   },
   "zcloudjp": {
     "version": "0.1.2",
@@ -371,49 +426,57 @@
         "name": "kitchen-zcloudjp",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A Ruby interface to the Z Cloud API."
   },
   "zcore": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "zcore package"
   },
   "zd": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZD implements zero-downtime migrations as a managed series of state changes, with hooks for you to manage your code and data throughout the migration."
   },
   "ZDevice": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZDevice is a Ruby DSL for assembling arbitrary ZeroMQ routing devices, with support for the ZDCF configuration syntax."
   },
   "zeal": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zeal allows you to eager-load associations on ActiveRecord objects that have already been loaded from the database."
   },
   "zebra": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zebra is a HTTP proxy server that uses ZMQ as the wire protocol between HTTP proxy gateway(s) and backend worker node(s). This allows for seamless load distribution to worker nodes behind a firewall."
   },
   "zebra-datepicker-rails": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zebra Datepicker packaged for rails"
   },
   "zebra-epl": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Print labels using EPL2 and Ruby"
   },
   "zebra_zpl": {
     "version": "0.0.1",
@@ -422,23 +485,30 @@
         "name": "zebra_zpl",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Use ruby to describe labels, fields, and barcodes for printing via ZPL II."
   },
   "zedbeans": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "gem for Zedbeans with all the applicable good stuff easily accessible"
   },
   "zeddb": {
     "version": "1.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "gem to access the ZedDB within Zedkit applications to CRUD application models, the KVS and queues"
   },
   "zedkit": {
     "version": "1.2.0",
     "dependents": [
+      {
+        "name": "zeddb",
+        "requirements": ">= 1.1.3"
+      },
       {
         "name": "zedbeans",
         "requirements": ">= 1.1.0"
@@ -446,30 +516,30 @@
       {
         "name": "zedlocales",
         "requirements": ">= 1.1.0"
-      },
-      {
-        "name": "zeddb",
-        "requirements": ">= 1.1.3"
       }
-    ]
+    ],
+    "description": "gem for Zedkit with all the applicable good stuff easily accessible"
   },
   "zedlocales": {
     "version": "1.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "gem for localization support in Zedkit applications to generate locale files and load translations via the Zedkit API"
   },
   "zeevex_cluster": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Using a shared data storage service like MySQL, Memcache, Redis, or ZooKeeper, one process of many can be elected a cluster master. Notification of cluster membership changes is also provided."
   },
   "zeevex_concurrency": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Concurrency utilities including Delays, Promises, Futures, Event Loops, Thread Pools, and Synchronizing wrappers"
   },
   "zeevex_delayed": {
     "version": "0.9.2",
@@ -478,11 +548,16 @@
         "name": "zeevex_threadsafe",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This gem provides a couple of classes useful for deferred computation."
   },
   "zeevex_proxy": {
     "version": "0.9.6",
     "dependents": [
+      {
+        "name": "zeevex_cluster",
+        "requirements": ">= 0"
+      },
       {
         "name": "zeevex_delayed",
         "requirements": ">= 0"
@@ -494,18 +569,16 @@
       {
         "name": "zeevex_threadsafe",
         "requirements": ">= 0"
-      },
-      {
-        "name": "zeevex_cluster",
-        "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This is a Proxy object; there are many others like it, but this one is ours."
   },
   "zeevex_reliability": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Includes a general and an ActiveRecord StaleObject-focused retry loop"
   },
   "zeevex_threadsafe": {
     "version": "0.1.0",
@@ -514,103 +587,120 @@
         "name": "zeevex_cluster",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Utilities to help in creating thread-safe apps"
   },
   "zeit": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "API client for Zeit.de API"
   },
   "zelda": {
     "version": "1.4.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "If you don't know what this is, you probably don't need it"
   },
   "zemanta": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby client for Zemanta"
   },
   "zemanta_client": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a ruby client for Zemanta api."
   },
   "zemax": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Describe package zemax"
   },
   "zen": {
     "version": "0.4.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zen is a modular CMS written using Ramaze. Zen gives you complete freedom to build whatever you want in whatever way you might want to build it."
   },
   "zen-grids": {
     "version": "1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zen Grids is an intuitive, flexible grid system that leverages the natural source order of your content to make it easier to create fluid responsive designs. With an easy-to-use Sass mixin set, the Zen Grids system can be applied to an infinite number of layouts, including responsive, adaptive, fluid and fixed-width layouts."
   },
   "zen_config": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zend_Config translated into Ruby"
   },
   "zen_pub": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Publication mixin"
   },
   "zen_seo": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Seo is missed when talking about web apps. Zen_seo comes to bring justice to this cruel world.\n"
   },
   "zen_slug": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Sluggable mixin for rails"
   },
   "zen_to_i": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "全角文字に含まれる数字を半角の数値に変換。兆まで対応"
   },
   "zena": {
     "version": "1.2.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "zena is a Ruby on Rails  CMS (content managment system) with a focus on usability, ease of customization and web 2.0 goodness (application like behaviour)."
   },
   "zenapi": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby client library for the agilezen.com api"
   },
   "zenbox": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Send your user information to our hosted service and zenbox your inbox."
   },
   "zencodable": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "provides a `has_video_encodings` class method to your models that   allows you to configure and set up any Zencoder settings you will need   to create multiple output video container formats (mp4, ogg, wmv, etc) from a single   uploaded source file. Uses the Zencoder API (zencoder.com) and (as of now) expects   you to have an S3 bucket where we can ask zencoder to place the generated files."
   },
   "zencoder": {
     "version": "2.4.4",
@@ -620,11 +710,11 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "forge-rad19",
+        "name": "forge-rad",
         "requirements": "= 2.4.4"
       },
       {
-        "name": "forge-rad",
+        "name": "forge-rad19",
         "requirements": "= 2.4.4"
       },
       {
@@ -643,48 +733,54 @@
         "name": "zencoder-cli",
         "requirements": "~> 2.3.1"
       }
-    ]
+    ],
+    "description": "Zencoder <http://zencoder.com> integration library."
   },
   "zencoder-cli": {
     "version": "0.1.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zencoder <http://zencoder.com> CLI client."
   },
   "zencoder-fetcher": {
     "version": "0.2.8",
     "dependents": [
       {
-        "name": "forge-rad19",
+        "name": "forge-rad",
         "requirements": "= 0.2.8"
       },
       {
-        "name": "forge-rad",
+        "name": "forge-rad19",
         "requirements": "= 0.2.8"
       },
       {
         "name": "forge-rad20",
         "requirements": "~> 0.2.8"
       }
-    ]
+    ],
+    "description": "Fetches notifications from Zencoder for local development where Zencoder is unable to communicate to the server, usually because it's localhost."
   },
   "zend": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interact with Zendesk through your terminal."
   },
   "zend-framework-deploy": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use this gem to deploy Zend Framework projects with Capistrano. It will adapt Capistrano configuration in order to be used with ZF project structure."
   },
   "zendConfigYaml": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple parser for yaml application zend framework file"
   },
   "zendesk": {
     "version": "0.1.9",
@@ -693,37 +789,43 @@
         "name": "ey_ronin",
         "requirements": "~> 0.1.14"
       }
-    ]
+    ],
+    "description": "Ruby wrapper around the Zendesk API"
   },
   "zendesk-api": {
     "version": "0.3.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "RubyGem wrapper for REST API to http://zendesk.com"
   },
   "zendesk-api-naoya": {
     "version": "0.3.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "RubyGem wrapper for REST API to http://zendesk.com"
   },
   "zendesk-ar_mailer": {
     "version": "2.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Even delivering email to the local machine may take too long when you have to send hundreds of messages.  ar_mailer allows you to store messages into the database for later delivery by a separate process, ar_sendmail."
   },
   "zendesk-populator": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command line tool to generate Zendesk orgs and users from CSV."
   },
   "zendesk2": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zendesk V2 API client"
   },
   "zendesk_api": {
     "version": "1.0.6",
@@ -740,13 +842,15 @@
         "name": "zend",
         "requirements": "~> 1.0.3"
       }
-    ]
+    ],
+    "description": "Ruby wrapper for the REST API at http://www.zendesk.com. Documentation at http://developer.zendesk.com."
   },
   "zendesk_apps_manager": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A wrapper for Zendesk Apps Manager"
   },
   "zendesk_apps_support": {
     "version": "1.4.1",
@@ -755,115 +859,134 @@
         "name": "zendesk_apps_tools",
         "requirements": "~> 1.4.1"
       }
-    ]
+    ],
+    "description": "Support to help you develop Zendesk Apps."
   },
   "zendesk_apps_tools": {
     "version": "1.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Tools to help you develop Zendesk Apps."
   },
   "zendesk_remote_auth": {
     "version": "1.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "See the README."
   },
   "zendesk_remote_authentication": {
     "version": "0.9.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Allow users to authenticate remotely"
   },
   "zenflow": {
     "version": "0.8.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zenflow is a development workflow management tool."
   },
   "zenfolio": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby wrapper for the Zenfolio API"
   },
   "ZenfolioAPI": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Basic implementation of the Zenfolio API."
   },
   "zeng": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "      Zeng(罾) is a fishing tool， it is target to capture data in nosql database。\n"
   },
   "ZenHacks": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This package is not supported in the same sense that my other packages are, but since it is such a fun playground, I am very open to contributions, suggestions, and bug fixes. I just can't put this project at the top of my priority list the way I can/do the others, so it may take me longer to get to than normal."
   },
   "zenith": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for Emmet text snippet expansion."
   },
   "zenity-wrapper": {
     "version": "2.30.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "What did you expect with that name? Zenity-wrapper is a ruby wrapper over\nthe zenity utilily.\n\nI wrote it because I need it for a personal project. It is far from complete,\nit could only open **list** and **message** dialog boxes.\nAnyway I release it because it could be helpfull to somebody."
   },
   "Zenity.rb": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "    Zenity.rb allows you to use Zenity to display GTK dialog boxes\n    with a ruby-ish syntax.\n"
   },
   "zenoss_client": {
     "version": "0.5.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "    This is a wrapper around the Zenoss JSON and REST APIs. For the most things it\n    should feel very familiar to zendmd, but there are some changes do to the merging\n    of the JSON and REST APIs. Please read the API docs for Zenoss and the YARDDoc for\n    this gem (rdoc.info).\n"
   },
   "zenprofile": {
     "version": "1.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "zenprofiler helps answer WHAT is being called the most. spy_on helps\nanswer WHERE those calls are being made. ZenProfiler provides a faster\nversion of the standard library ruby profiler. It is otherwise pretty\nmuch the same as before. spy_on provides a clean way to redefine a\nbottleneck method so you can account for and aggregate all the calls\nto it.\n\n    % ruby -Ilib bin/zenprofile misc/factorial.rb 50000\n    Total time = 3.056884\n    Total time = 2.390000\n    \n              total     self              self    total\n    % time  seconds  seconds    calls  ms/call  ms/call  name\n     50.70     1.64     1.64    50000     0.03     0.05 Integer#downto\n     19.63     2.27     0.63   200000     0.00     0.00 Fixnum#*\n     14.19     2.73     0.46    50000     0.01     0.05 Factorial#factorial\n      9.93     3.05     0.32        1   320.36  3047.10 Range#each\n      5.54     3.23     0.18        2    89.40   178.79 ZenProfiler#start_hook\n\nOnce you know that Integer#downto takes 50% of the entire run, you\ncan use spy_on to find it. (See misc/factorial.rb for the actual code):\n\n    % SPY=1 ruby -Ilib misc/factorial.rb 50000\n    Spying on Integer#downto\n    \n    Integer.downto\n    \n    50000: total\n    50000: ./misc/factorial.rb:6:in `factorial' via \n           ./misc/factorial.rb:6:in `factorial'"
   },
   "zenpush": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Push your markdown files to your Zendesk knowledge base"
   },
   "zenra": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "zenra-ize some text."
   },
   "zenslap": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client for zenslap continuous integration"
   },
   "zenStache": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Mustache Rails 3.1 support with Tilt integration"
   },
   "zentask": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "zengile.com rake tasks"
   },
   "ZenTest": {
     "version": "4.9.4",
@@ -905,12 +1028,12 @@
         "requirements": "~> 4.5"
       },
       {
-        "name": "autotest",
-        "requirements": ">= 4.4.1"
-      },
-      {
         "name": "autotest-aniki",
         "requirements": ">= 0"
+      },
+      {
+        "name": "autotest",
+        "requirements": ">= 4.4.1"
       },
       {
         "name": "autotest-cucumber-notification",
@@ -925,11 +1048,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-git",
+        "name": "autotest-growl",
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-growl",
+        "name": "autotest-git",
         "requirements": ">= 0"
       },
       {
@@ -1449,19 +1572,11 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_event",
-        "requirements": "~> 4.9.0"
-      },
-      {
-        "name": "tengine_job_agent",
-        "requirements": "~> 4.9.0"
-      },
-      {
         "name": "tengine_job",
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_rails_plugin",
+        "name": "tengine_event",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1469,7 +1584,15 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_resource_ec2",
+        "name": "tengine_rails_plugin",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource_wakame",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_job_agent",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1477,7 +1600,7 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_resource_ec2",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1600,13 +1723,15 @@
         "name": "zenprofile",
         "requirements": "~> 4.4"
       }
-    ]
+    ],
+    "description": "ZenTest provides 4 different tools: zentest, unit_diff, autotest, and\nmultiruby.\n\nzentest scans your target and unit-test code and writes your missing\ncode based on simple naming rules, enabling XP at a much quicker pace.\nzentest only works with Ruby and Minitest or Test::Unit. There is\nenough evidence to show that this is still proving useful to users, so\nit stays.\n\nunit_diff is a command-line filter to diff expected results from\nactual results and allow you to quickly see exactly what is wrong.\nDo note that minitest 2.2+ provides an enhanced assert_equal obviating\nthe need for unit_diff\n\nautotest is a continous testing facility meant to be used during\ndevelopment. As soon as you save a file, autotest will run the\ncorresponding dependent tests.\n\nmultiruby runs anything you want on multiple versions of ruby. Great\nfor compatibility checking! Use multiruby_setup to manage your\ninstalled versions."
   },
   "zentest-goodies": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "At the moment this package contains only a Gnome Notification but the intention is to  have a collection of goodies for ZenTest (@autotest@).  h2. Requirements"
   },
   "zentest-without-autotest": {
     "version": "4.4.0",
@@ -1615,19 +1740,22 @@
         "name": "capistrano-tags",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "ZenTest, without AutoTest and UnitDiff"
   },
   "zentradi": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "minimalistic tools for accessing mongodb"
   },
   "zenturio_batteries": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "UNCOMPLETED GEM!!! Do nothing for now."
   },
   "zenweb": {
     "version": "3.2.0",
@@ -1648,85 +1776,99 @@
         "name": "zenweb-template",
         "requirements": "~> 3.0"
       }
-    ]
+    ],
+    "description": "Zenweb is a set of classes/tools for organizing and formating a\nwebsite. It is website oriented rather than webpage oriented, unlike\nmost rendering tools. It is content oriented, rather than style\noriented, unlike most rendering tools. It uses a rubygems plugin\nsystem to provide a very flexible, and powerful system.\n\nZenweb 3 was inspired by jekyll. The filesystem layout is similar to\njekyll's layout, but zenweb isn't focused on blogs. It can do any sort\nof website just fine.\n\nZenweb uses rake to handle dependencies. As a result, scanning a\nwebsite and regenerating incrementally is not just possible, it is\nblazingly fast."
   },
   "zenweb-autolink": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A plugin for zenweb that automatically generates links between pages.\n\nFor example: If a page has a title attribute 'my page about zebweb' then\nany other page that contains text like 'see my page about zenweb' would\nhave some of the text replaced with a link to that page: \n'see <a href='/zenweb.html'>my page about zenweb</a>'"
   },
   "zenweb-haml": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A plugin for Zenweb to render HAML documents.\n\nRelated:\n\n* http://zenspider.com/projects/zenweb.html\n* http://haml.info"
   },
   "zenweb-template": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simply provides an example zenweb template website."
   },
   "zenweb-textile": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A plugin for zenweb to process .textile files with RedCloth"
   },
   "zephyr": {
     "version": "1.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Battle-tested HTTP client using Typhoeus, derived from the Riak client"
   },
   "zeppelin": {
     "version": "0.8.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby client for the Urban Airship Push Notification API"
   },
   "zepplen_aws": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "AWS tools for common needs"
   },
   "zepto-rails": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Injects Zepto into Rails with jQuery fallback."
   },
   "zepto_jquery_rails": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Loads Zepto (if supported) first, falling back to jQuery"
   },
   "zepto_rails": {
     "version": "1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides zepto.js for the rails asset pipeline"
   },
   "zerbo": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Build a serial cable for your Zeo and interface with it with this library."
   },
   "zerenity": {
     "version": "1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Zenity clone for Ruby"
   },
   "zerg": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Umbrella gem for the Zergling.Net deployment tools."
   },
   "zerg_support": {
     "version": "0.1.6",
@@ -1748,32 +1890,36 @@
         "requirements": ">= 0.0.9"
       },
       {
-        "name": "zerg",
+        "name": "zergling",
         "requirements": ">= 0.0.1"
       },
       {
-        "name": "zergling",
+        "name": "zerg",
         "requirements": ">= 0.0.1"
       }
-    ]
+    ],
+    "description": "Support libraries used by Zergling.Net deployment code."
   },
   "zerg_xcode": {
     "version": "0.5.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Automated modifications for Xcode project files"
   },
   "zergling": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Umbrella for the software driving a computer in the Zerg system."
   },
   "zerigo-designate": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Designate is a simple Ruby gem wrapper for the Zerigo DNS API v1.1 specification."
   },
   "zerigo_dns": {
     "version": "1.5.6",
@@ -1786,115 +1932,134 @@
         "name": "preview_add",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This gem is a resource wrapper of the example provide by zerigo dns"
   },
   "zero": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "The focus of this project is to provide small helpers for building web services without the need of learning a complete new web stack from the bottom to the top."
   },
   "zero-clipboard-rails": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides the Zero Clipboard Javascript/Flash library for your Rails 3.1 application."
   },
   "zero-fix18": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This little gem shall it make possible to run zero with ruby 1.8."
   },
   "zero_authorization": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Write a gem description"
   },
   "zero_clipboard-rails": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides ZeroClipboard v1.1.6 JavaScript/Flash library for a Rails 3.1+ application."
   },
   "zero_deploy": {
     "version": "1.4.13.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem that dramatically decreases your deployemnt time by improving all key actions like assets precompilation and gems installation"
   },
   "zero_generators": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Coletânea de geradores de código para Rails."
   },
   "zero_push": {
     "version": "2.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZeroPush is a simple service for sending iOS push notifications. (http://zeropush.com)"
   },
   "zerobearing-hashie": {
     "version": "0.1.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Hashie is a small collection of tools that make hashes more powerful. Currently includes Mash (Mocking Hash) and Dash (Discrete Hash)."
   },
   "zerobuf": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use Google's protobuf on top 0mq for RPC"
   },
   "zeroclipboard-rails": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZeroClipboard libary support for Rails"
   },
   "zeromq": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem provides a Ruby API for the ZeroMQ messaging library."
   },
   "zeromqrb": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "High level wrapper for ffi-rzmq gem"
   },
   "zerost": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Configure Zerostruct."
   },
   "zerostruct": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Configure Zerostruct"
   },
   "zerp": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "When a problem comes along..You must zerp it"
   },
   "zertico": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Easy Rails development using the Zertico Way"
   },
   "zester": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby API wrapper for Zillow API built with httparty designed for multiple keys"
   },
   "zeus": {
     "version": "0.13.3",
@@ -1916,50 +2081,57 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeus-parallel_tests",
-        "requirements": "~> 0.13.3"
-      },
-      {
         "name": "zeus-rails23",
         "requirements": ">= 0"
+      },
+      {
+        "name": "zeus-parallel_tests",
+        "requirements": "~> 0.13.3"
       }
-    ]
+    ],
+    "description": "Boot any rails app in under a second"
   },
   "zeus-api": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem implements a wrapper to the SOAP control API provided by Zeus Load Balancer (ZLB) and Zeus Traffic Manager (ZTM)."
   },
   "zeus-edge": {
     "version": "0.12.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Boot any rails app in under a second"
   },
   "zeus-parallel_tests": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Integration for zeus and parallel_tests"
   },
   "zeus-rails23": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a Zeus plan for Rails 2.3 - partially working"
   },
   "zfben_capistrano": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_extend": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_hanoi": {
     "version": "0.0.4",
@@ -1968,55 +2140,64 @@
         "name": "zfben_libjs",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_libjs": {
     "version": "0.0.29",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_rails_assets": {
     "version": "0.0.16",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_rails_jobs": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_rails_jqgrid": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfben_rails_rake": {
     "version": "0.0.23",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zferral": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby wrapper for the Zferral API, based on HTTParty."
   },
   "zff": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zfinifile": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ruby gem to pass ini files with inheritance such as those used by the Zend Framework"
   },
   "zfs": {
     "version": "0.1.1",
@@ -2025,85 +2206,99 @@
         "name": "vagrant-zfs",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Makes it possible to query and manipulate ZFS filesystems, snapshots, etc."
   },
   "zfs-mysql-backup": {
     "version": "0.0.10",
     "dependents": [
 
-    ]
+    ],
+    "description": "A script for backing up mysql databases using ZFS"
   },
   "zfs-snapshot": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Keeps one copy of the snapshot you create. Removes the old one before creating the new one."
   },
   "zfs-tools": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A few ZFS tools, mostly related to snapshotting, cleaning up and synching."
   },
   "zfstools": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZFS admin scripts, such as automatic snapshots, mysql snapshotting, scrubbing, etc."
   },
   "zgomot": {
     "version": "1.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "zgomot is a simple DSL for writting MIDI music."
   },
   "zgrid": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "an engine for handle mongo gridfs"
   },
   "zh-lorem": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Chinese lorem ipsum text generator"
   },
   "zh_kostev_ext": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZhKostevExt add some methods. It add some methods to ActionController::Base and Hash class.\n      Gem contains export to excel module to make export easier. See readme https://github.com/ZhKostev/zh_kostev_ext"
   },
   "zhangbanger": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZhangBang your web app!"
   },
   "zhanghd_kaminari": {
     "version": "0.10.4.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Kaminari is a Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3"
   },
   "zhangmen": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "CLI and library for downloading music from Baidu"
   },
   "zhaorong-mm-sluggable": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Tiny plugin for MongoMapper to cache a slugged version of a field"
   },
   "zhconv": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Convert chinese using mediawiki conversion table"
   },
   "zhexdump": {
     "version": "0.0.2",
@@ -2112,55 +2307,64 @@
         "name": "pedump",
         "requirements": ">= 0.0.2"
       }
-    ]
+    ],
+    "description": "A highly flexible hexdump implementation."
   },
   "zidian": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Chinese dictionary using the CEDICT word list"
   },
   "zig": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A parser for the ZIG data format."
   },
   "ziggy": {
     "version": "0.1.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "ziggy can be used to cache any method on any class and allows custom keys and expiration times"
   },
   "zik": {
     "version": "0.17.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZiK is an audio player based on gstreamer. It uses the path of your audio files instead of a music library."
   },
   "zikaron": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Dead-simple caching with Redis."
   },
   "zillow4r": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple ruby interface for the Zillow API. See http://www.zillow.com/howto/api/APIOverview.htm"
   },
   "zillow_demographics": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "wrapper for the zillow_demographics api"
   },
   "zillow_ruby": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A thin wrapper around the Zillow API.  Currently only supports retrieving mortgage rates."
   },
   "zim-ruby": {
     "version": "1.0.1",
@@ -2169,97 +2373,113 @@
         "name": "zim2epub",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This library can be used to read openzim files like the ones exported by wikipedia"
   },
   "zim2epub": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Convert zim files (for example exported from wikipedia) to epub format for reading on ebook readers."
   },
   "zimbra": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interface to Zimbra management API"
   },
   "zimbra_wsdl": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "WSDL document for the VMware Zimbra soap api"
   },
   "zimbreasy": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A no-nonsense gem for the nonsensical Zimbra API."
   },
   "zimdb": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Access movie information from IMDb via the API offered by http://www.imdbapi.com/"
   },
   "zimki": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zimki converts file written in the zim Desktop Wiki format and converts them to textile."
   },
   "zimt": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zimt downloads and adds files to your .xcodeproj."
   },
   "zinbei": {
     "version": "0.1.6.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Whale shark eats 10 kg per day of plankton."
   },
   "zinbeijett": {
     "version": "0.0.8.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "It designs to smart zinbei"
   },
   "zinc": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for the Zinc(https://zinc.io) API"
   },
   "zinfinit-actionwebservice": {
     "version": "2.3.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "SOAP XML/RPC Web service support for ActionController. Supporting ComplexTypes, SimpleTypes and Primitives"
   },
   "zing": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem will generate common code for a new or existing Sinatra project"
   },
   "zint": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby FFI wrapper on Zint barcode library. See README for more details"
   },
   "zinx": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple DSL for Sphinx Search Server"
   },
   "zion": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "GitHub style deployments"
   },
   "zip": {
     "version": "2.0.2",
@@ -2432,13 +2652,15 @@
         "name": "zip_dsl",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "zip is a Ruby library for reading and writing Zip files. Unlike the official rubyzip, zip is compatible with Ruby 1.9.1."
   },
   "zip-code-info": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "The data has been collected from wikipedia and stored in a yml file. This gem does not use an external service."
   },
   "zip-container": {
     "version": "0.9.0",
@@ -2447,31 +2669,36 @@
         "name": "ucf",
         "requirements": "~> 0.9.0"
       }
-    ]
+    ],
+    "description": "A Ruby library for working with ZIP Container Format files. See http://www.idpf.org/epub/30/spec/epub30-ocf.html for the OCF specification and https://learn.adobe.com/wiki/display/PDFNAV/Universal+Container+Format for the UCF specification."
   },
   "zip-zip": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\nIn Gem hell migrating to RubyZip v1.0.0?\nInclude zip-zip in your Gemfile and everythings coming up roses!\n"
   },
   "zip64writer": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple library to output Zip64 zip files from pure ruby.\n"
   },
   "zip_code_jp": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby gem for manipulating JP postal codes."
   },
   "zip_content_comparator": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "An utility for comparing content of ZIP files.\nIt does not extract the files anywhere, its's using instead ZIP::ZipFile class\nfrom rubyzip gem which enables to access ZIP files like a file system.\nIt uses MD5 to compare files.\n"
   },
   "zip_dsl": {
     "version": "1.2.0",
@@ -2484,73 +2711,85 @@
         "name": "zipit",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Library for working with zip file in DSL-way "
   },
   "zip_meta": {
     "version": "0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem that uses data formerly available from CivicSpace Labs (included with this project in CSV format in the lib/data directory) in conjunction with ActiveRecord to let you add fast zip code meta info lookups to your Rails app."
   },
   "zip_recruiter": {
     "version": "1.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a CLI and ruby interface to the ZipRecruiter Job Alerts API."
   },
   "zip_tax": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper for the Zip-Tax api"
   },
   "zip_to_timezone": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Map US postal codes to US timezones.  Compatible with Rails."
   },
   "zipcode": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Creates a Zipcode object class used for validating zipcodes."
   },
   "zipcode_ja": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZipcodeJa allows you to convert Japanese zipcode into a region."
   },
   "zipcodecoords": {
     "version": "1.0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "The Zip Code to Coordinates .NET Component enables you to retrieve the global coordinates (Latitude and Longitude) of a Zip Code."
   },
   "zipcodematch": {
     "version": "1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A rails plugin for searching and validating hungarian cities and zipcodes."
   },
   "zipcodr": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for looking up zip codes and their associated info."
   },
   "zipfian": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zipfian distribution"
   },
   "zipfinder": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A wrapper for ZipFinder.me Service"
   },
   "zipit": {
     "version": "0.3.6",
@@ -2559,55 +2798,64 @@
         "name": "etvnet-seek",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Rake helper for zipping/unzipping project files."
   },
   "zipkin-query": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client for accessing the Zipkin query service"
   },
   "zipkin-tracer": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds tracing instrumentation for ruby applications"
   },
   "ziplist": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Plugin for integrating a ruby app with ziplist.com"
   },
   "ziplookup": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Classes for standardizing addresses via the USPS web site."
   },
   "zipme-thinking-sphinx": {
     "version": "1.3.14",
     "dependents": [
 
-    ]
+    ],
+    "description": "A concise and easy-to-use Ruby library that connects ActiveRecord to the Sphinx search daemon, managing configuration, indexing and searching."
   },
   "zipper": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "API Testing Done Right"
   },
   "zipply": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zipply gives you info about ZIP codes."
   },
   "zippo": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "An (almost) pure-ruby Zip library"
   },
   "zippy": {
     "version": "0.2.1",
@@ -2632,7 +2880,8 @@
         "name": "upcloudify",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Zippy reads and writes zip files"
   },
   "zipruby": {
     "version": "unknown",
@@ -2745,37 +2994,43 @@
         "name": "zip_code_jp",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Ruby bindings for libzip."
   },
   "zipruby1.8": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for libzip."
   },
   "zipruby1.9": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for libzip."
   },
   "zipster": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Give zipster a zip code, it will tell you what state it belongs to"
   },
   "zipstream": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Create zip files directly to a stream."
   },
   "ziptastic": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby port of Thomas Schultz's Ziptastic API"
   },
   "zircon": {
     "version": "0.0.6",
@@ -2792,31 +3047,36 @@
         "name": "kris",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Zircon is a mineral belonging to the group of nesosilicates."
   },
   "zitdunyet": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Evaluate how done or complete a process or entity is."
   },
   "zitgit": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple sinatra-based web-interface to view git repository history"
   },
   "ziya": {
     "version": "2.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZiYa allows you to easily create interactive charts, gauges and maps for your web applications. ZiYa leverages\nflash which offload heavy server side processing to the client. At the root ZiYa allows you to easily generate an\nXML files that will be downloaded to the client for rendering. Using this gem, you will be able to easily create great\nlooking charts for your application. You will also be able to use the charts, gauges and maps has a navigation scheme \nby embedding various link in the graphical components thus bringing to the table an ideal scheme for reporting and dashboard\nlike applications. Your manager will love you for it !!\n\n\tSample site   : http://ziya.liquidrail.com\n\tDocumentation : http://ziya.liquidrail.com/docs\n\tForum         : http://groups.google.com/group/ziya-plugin\n\tRepositories  : git://github.com/derailed/ziya.git"
   },
   "zizu": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "static site generator and deployment tool."
   },
   "zk": {
     "version": "1.9.2",
@@ -2869,43 +3129,50 @@
         "name": "zoomq",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A high-level wrapper around the zookeeper driver\n"
   },
   "zk-assets": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Some functions useful for insert javascripts, stylesheets and images in html format "
   },
   "zk-eventmachine": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZK client for EventMachine-based (async) applications"
   },
   "zk-forms": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Permite crear formularios desde un Hash o un modelo ActiveRecord"
   },
   "zk-group": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Group abstraction on top of the high-level ZooKeeper library ZK"
   },
   "zk-ruby-zookeeper_jar": {
     "version": "3.4.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "the zookeeper jar file wrapped in a gem"
   },
   "zk-security": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Permite añadir interfaces de seguridad a los controladores"
   },
   "zk-server": {
     "version": "1.1.6",
@@ -2914,43 +3181,50 @@
         "name": "zknrg",
         "requirements": ">= 1.1.5"
       }
-    ]
+    ],
+    "description": "runs a standalone zookeeper server"
   },
   "zk_service": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a small library which provides a service registry for Zookeeper."
   },
   "zknrg": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use Zookeeper as nodes registry, set/get node attributes and query nodes"
   },
   "zkruby": {
     "version": "3.4.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Pure ruby client for ZooKeeper (http://zookeeper.apache.org)"
   },
   "zlainsw-simple-rss": {
     "version": "1.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple, flexible, extensible, and liberal RSS and Atom reader for Ruby. It is designed to be backwards compatible with the standard RSS parser, but will never do RSS generation."
   },
   "zlib-crc32_combine": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib"
   },
   "Zliby": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Compression Library In Pure Ruby"
   },
   "zliby": {
     "version": "0.0.5",
@@ -2959,25 +3233,29 @@
         "name": "bcl",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Compression Library In Pure Ruby"
   },
   "zlide": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "web-based presentation tool"
   },
   "zlx": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple hello world gem"
   },
   "zlx_hacker_term": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Read Hacker News on the Terminal via Sock Proxy"
   },
   "zmachine": {
     "version": "0.1.1",
@@ -2986,37 +3264,43 @@
         "name": "zoomq",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "pure JRuby multi-threaded EventMachine compatible event loop"
   },
   "zmack-ultraviolet": {
     "version": "0.10.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "      Ultraviolet is a syntax highlighting library and engine. It\n      uses TextMate[http://macromates.com/] syntax files and parses\n      them using the Textpow[http://textpow.rubyforge.org] library. It \n      supports more than 60 programming languages out of the box.\n"
   },
   "zmb": {
     "version": "0.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZMB, messenger bot"
   },
   "zmeygo": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Syncs local i18n data with Zmeygo server"
   },
   "zmeygo_sync": {
     "version": "0.22",
     "dependents": [
 
-    ]
+    ],
+    "description": "Syncs local i18n data with Zmeygo service"
   },
   "zmonitor": {
     "version": "1.0.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command line interface for viewing alerts from a Zabbix instance."
   },
   "zmq": {
     "version": "2.1.4",
@@ -3049,7 +3333,8 @@
         "name": "zas-service",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "This gem provides a Ruby API for the ZeroMQ messaging library."
   },
   "zmqmachine": {
     "version": "0.7.1",
@@ -3058,109 +3343,127 @@
         "name": "zmqp",
         "requirements": ">= 0.3.2"
       }
-    ]
+    ],
+    "description": "ZMQMachine is another Ruby implementation of the reactor pattern but this\ntime using 0mq sockets rather than POSIX sockets.\n\nUnlike the great Eventmachine ruby project and the Python Twisted\nproject which work with POSIX sockets, ZMQMachine is inherently threaded. The\n0mq sockets backing the reactor use a thread pool for performing\ntheir work so already it is different from most other reactors. Also, a\nsingle program may create multiple reactor instances which runs in\nits own thread. All activity within the reactor is single-threaded\nand asynchronous.\n\nIt is possible to extend the 0mq library to \"poll\" normal file\ndescriptors. This isn't on my roadmap but patches are accepted."
   },
   "zmqp": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Drop-in replacement for async AMQP library based on ZMQ/ZmqMachine (pre-alpha!)."
   },
   "zobjinspect": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "* A set of utilities for inspecting object and library files generated by z80asm, the assembler from z88dk - http://www.z88dk.org/"
   },
   "zocial": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zocial CSS3 button set and vector icons with @font-face"
   },
   "zocial-rails": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds Zocial CSS social buttons to Rails using the asset pipeline"
   },
   "zodiac": {
     "version": "0.2.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds methods for getting a zodiac sign from any Date/Time object containing a date of birth, and can also extend ActiveRecord::Base adding some handy instance and class methods (for searching by a given zodiac sign and more)."
   },
   "zoe": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple chat bot for HipChat"
   },
   "zohax": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zoho ruby gem allowing to make changes to a Zoho CRM."
   },
   "zoho": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby interface to ZOHO docs"
   },
   "zoho_invoice": {
     "version": "0.3.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper for the Zoho Invoice API.  Documentation for the Zoho Invoice API can be found at http://zoho.com"
   },
   "zohoho": {
     "version": "0.2.5.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple interface to zoho api"
   },
   "zomato": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby wrapper over Zomato API"
   },
   "zombees": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Distributed load testing in Ruby using your own cloud"
   },
   "zombie": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "I SEE ZOMBIES"
   },
   "zombie-chaser": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A zombie-themed graphic(al) user interface for mutation testing"
   },
   "zombie_apocalypse": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Is there a zombie apocalypse?"
   },
   "zombie_passenger_killer": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Guaranteed zombie passengers death"
   },
   "zombify": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zombifies strings in your application."
   },
   "zomg": {
     "version": "1.0.2",
@@ -3173,84 +3476,96 @@
         "name": "watir-webdriver-performance",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "ZOMG is an OMG IDL parser.  ZOMG will generate a Ruby AST from an IDL AST, and will even generate ruby (by means of Ruby2Ruby).  == FEATURES/PROBLEMS:  * Parses IDL, generates Ruby * Ships with OMFG the Object Management File Generator * Ignores nested structs/unions * Treats out/inout parameters are DIY  == SYNOPSIS:  In code:  ZOMG::IDL.parse(File.read(ARGV[0])).to_ruby  Command line:  $ omfg lol.idl &gt; roflmao.rb"
   },
   "zomgjeweler": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "TODO"
   },
   "zomgrss": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Create RSS feeds from Ruby collections."
   },
   "zone_ranger": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Time Zone Ranger"
   },
   "zonebie": {
     "version": "0.5.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Runs your tests in a random timezone"
   },
   "zonefile": {
     "version": "1.04",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library that can create, read, write, modify BIND compatible Zonefiles (RFC1035).\nWarning: It probably works for most cases, but it might not be able to read all files \neven if they are valid for bind."
   },
   "zoneless_time": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "TimeWithoutZone support for ActiveRecord"
   },
   "zonify": {
     "version": "0.4.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zonify provides a command line tool for generating DNS records from EC2\ninstances, instance tags, load balancers and security groups. A mechanism for\nsyncing these records with a zone stored in Route 53 is also provided.\n"
   },
   "zonomi": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zonomi API Ruby wrapper"
   },
   "zoo-generators": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.\n\n  I shamelessly stole this whole project from Ryan Bates nifty generators and default everything to haml, \n  added factory_girl factories and formtastic. I also deleted the Rails 2 generators because I will never use that."
   },
   "zoo-service-discovery": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZooKeeper service discovery gem for your SOA environment."
   },
   "zoo_pass": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple passphrase creator for non-secure things. Use it for creating one-time tokens, sign-up codes, and anything else that doesn't require security."
   },
   "zookeeper": {
     "version": "unknown",
     "dependents": [
       {
-        "name": "hiera_zookeeper",
-        "requirements": ">= 1.3.0"
-      },
-      {
         "name": "hiera-zookeeper",
         "requirements": "<= 0.4.4"
+      },
+      {
+        "name": "hiera_zookeeper",
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "librato-storm-kafka",
@@ -3261,11 +3576,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring_client",
+        "name": "redis_ring",
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring",
+        "name": "redis_ring_client",
         "requirements": ">= 0"
       },
       {
@@ -3280,25 +3595,29 @@
         "name": "zk_service",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A low-level multi-Ruby wrapper around the ZooKeeper API bindings. For a\nfriendlier interface, see http://github.com/slyphon/zk. Currently supported:\nMRI: {1.8.7, 1.9.2, 1.9.3}, JRuby: ~> 1.6.7, Rubinius: 2.0.testing, REE 1.8.7.\n\nThis library uses version 3.4.5 of zookeeper bindings.\n\n"
   },
   "zool": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zool allows you to manage authorized_keys files on servers. It comes with a command-line client 'zool'. The configuration can be done in a pyconfig/gitosis like configuration file. See README.md for further details"
   },
   "zoolander": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "An example gem that extends ActionView and prints Zoolander quotes"
   },
   "zooline": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Command line tool for zootool"
   },
   "zoom": {
     "version": "0.4.1",
@@ -3307,97 +3626,113 @@
         "name": "zcc",
         "requirements": ">= 0.4.1"
       }
-    ]
+    ],
+    "description": "Ruby/ZOOM provides a Ruby binding to the Z40.50 Object-Orientation Model (ZOOM), an abstract object-oriented programming interface to a subset of the services specified by the Z39.50 standard, also known as the international standard ISO 23950.  This version introduces ZOOM Extended Services."
   },
   "zoomifier": {
     "version": "1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for zoomifying images"
   },
   "zoominfo": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZoomInfo API Ruby Wrapper"
   },
   "zoomit": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "API wrapper for the Live Labs zoom.it API"
   },
   "zoomq": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "ØMQ ROUTER/ROUTER coordinated by Zookeeper"
   },
   "zoomus": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby wrapper for zoom.us API v1"
   },
   "zoopla": {
     "version": "0.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Access zoopla.co.uk API from ruby scripts. Fetch sales and rental properties for the UK"
   },
   "zootool": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ruby wrapper for the Zootool API. See http://zootool.com/api for the official API documentation."
   },
   "zooz": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ZooZ API library for Ruby"
   },
   "zopfli": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "zopfli"
   },
   "zorglub": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a very stripped down version of innate."
   },
   "zoro": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple integration library into Zoho CRM. Will be enhanced to provide two way integration with library over time."
   },
   "zorros-deploy": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Some common capistrano tasks for all our applications"
   },
   "zozo": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple $LOAD_PATH management for ruby projects"
   },
   "zph": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Convenience scripts for yours truly @ZPH"
   },
   "Zpl": {
     "version": "0.0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use ruby to describe labels, fields, and barcodes for printing via ZPL II."
   },
   "zpng": {
     "version": "0.2.3",
@@ -3410,31 +3745,36 @@
         "name": "zsteg",
         "requirements": ">= 0.2.3"
       }
-    ]
+    ],
+    "description": "pure ruby PNG file manipulation & validation"
   },
   "zqframeworkOH": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "GEM for FrameWork"
   },
   "zresume": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use this to write a resume for you."
   },
   "zscaffold_admin": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "It is a scaffold with configurable layout."
   },
   "zscan": {
     "version": "2.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "improved string scanner, respects anchors and lookbehinds, supports codepoint positioning"
   },
   "zscheduler": {
     "version": "0.0.3",
@@ -3443,31 +3783,36 @@
         "name": "graphite-api",
         "requirements": ">= 0.0.3"
       }
-    ]
+    ],
+    "description": "minimalistic scheduler on top of event-machine "
   },
   "zsff": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "== FEATURES/PROBLEMS:  Right now, only one function: parse.  This does the validation and parsing all in one step.  This is intended to be used by any reader (who would take care of what links have been read, etc).  == SYNOPSIS:  results = Zsff.parse(url) results[:errors] #Any errors encountered while parsing results[:warnings] #Any warnings encountered while parsing results[:attrs] #A hash for the author, title, etc information from the feed results[:links] #List of links in the feed  == REQUIREMENTS:"
   },
   "zsh_dots": {
     "version": "0.6.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "DOTS is an advanced ZSH framework."
   },
   "zsteg": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Detect stegano-hidden data in PNG & BMP files."
   },
   "ztatus": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Automatically shows git status on file changes"
   },
   "ztk": {
     "version": "1.9.0",
@@ -3488,49 +3833,57 @@
         "name": "testlab",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Zachary's (DevOp) Tool Kit"
   },
   "ztodo": {
     "version": "1.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple Console Task Manager. Check homepage or github sources for further information."
   },
   "ztrening": {
     "version": "0.0.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "* API za pristup Z-Trening zadatcima"
   },
   "zu": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "zu\n==\n\nUnzipper (in the tradition of `uz`, but better). Works for .tgz, .xz, .zip,\n.deb, .rpm — you name it. (Literally. If you find an archive that it doesn't\nopen, let me know about it and I'll add that.)\n\nIf you have an archive sitting there of format `xyz`, then `zu foo.xyz` should\ntake care of it.\n\nIt will:\n\n- Know how to extract the archive (based on extension ┈ though a version that\n  detects based on `file` is something we're considering)\n- Guard against impoliteness. That is, if the archive only has one file, it\n  will be permitted to extract into the current directory, otherwise it will\n  first `mkdir foo; cd foo` then extract there. (The directory name will be\n  the archive file minus the extension.)\n- Download the file first, using `wget`, if the arg starts with `http:`,\n  `https:`, or `ftp:`\n- Remove the archive file if you pass `-d`\n\nDependencies\n------------\n\n`zu` doesn't strive to be dependency-free by any means.\n\nFor starters, it expects Ruby.\n\nThen it simply delegates to `unzip`, `gunzip`, `tar`, etc.\n\nNot sure if I ever plan on changing this. The main purpose is to optimize the\ncommand-line extraction of archives on a configured box.\n\nInstallation\n------------\n\n1. Have Ruby 1.8 (with gems) or 1.9\n2. `gem install zu`\n\nFeedback\n--------\n\nTell us. (exad-zu@sharpsaw.worg)[mailto:exad-zu@sharpsaw.org]\n"
   },
   "zubi-test": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Write a gem description"
   },
   "zucchini": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Better than gherkin"
   },
   "zucchini-ios": {
     "version": "0.7.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zucchini follows simple walkthrough scenarios for your iOS app, takes screenshots and compares them to the reference ones."
   },
   "zuck": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem allows to easily access facebook's ads api in ruby. See https://developers.facebook.com/docs/reference/ads-api/"
   },
   "zucker": {
     "version": "13.1",
@@ -3563,85 +3916,99 @@
         "name": "wirb",
         "requirements": ">= 12.1"
       }
-    ]
+    ],
+    "description": "Sweetens your Ruby code with syntactic sugar, which you do not want to miss again."
   },
   "zuckermo": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "A RubyMotion Facebook Wrapper, based of @clayallsopp's TwitterMotion wrapper."
   },
   "zueribad": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "displays the temperature and additional information about all municipal baths in zurich"
   },
   "zui53": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZUI53 is a JavaScript Library to create powerfull webbased Zoomable User Interfaces (ZUIs) with new technologies like HTML5 and CSS3."
   },
   "zulu": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A standalone PuSH-inspired service for scheduling web hook execution"
   },
   "zumobi": {
     "version": "0.0.16",
     "dependents": [
 
-    ]
+    ],
+    "description": "Cross-app notification and exception handling support"
   },
   "zunnit": {
     "version": "0.4.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Gem do access zunnit's API"
   },
   "zuora": {
     "version": "0.1.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby library for various Zuora actions"
   },
   "zuora-client": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A client for Zuora"
   },
   "zuora4r": {
     "version": "1.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A client for Zuora API"
   },
   "zuperhero": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Save the day/job/world with automated ZFS-Backups"
   },
   "zuppler": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zuppler API"
   },
   "zurb-awesome-buttons": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "packaging for styles from http://www.zurb.com/article/266/super-awesome-buttons-with-css3-and-rgba, with some helpers"
   },
   "ZURB-foundation": {
     "version": "2.2.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZURB Foundation ported over to work with the power of Compass."
   },
   "zurb-foundation": {
     "version": "4.3.2",
@@ -3698,73 +4065,85 @@
         "name": "zurb-rush",
         "requirements": "~> 3.0.1"
       }
-    ]
+    ],
+    "description": "ZURB Foundation on Sass/Compass"
   },
   "zurb-rush": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "ZurbRush is a collection of Rails helpers and a form builder for Zurb Foundation 3."
   },
   "zurg": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Prepare to die."
   },
   "zurui-sass-rails": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Sass mixins by zurui-design(https://speakerdeck.com/ken_c_lo/zurui-design)"
   },
   "zusaar": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby interface to the Zusaar API."
   },
   "zuul": {
     "version": "0.2.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Flexible, configurable authorization system for ActiveRecord and an access control DSL for ActionController."
   },
   "zvent": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interface for the zvents API without all the mess."
   },
   "zwaldowski-brewbygems": {
     "version": "0.4.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds RubyGems post-install and post-uninstall hooks to update Homebrew links"
   },
   "zweikopf": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rubygem for jruby/clojure interop"
   },
   "zwemwater": {
     "version": "1.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem to get swimming water status from recognized Dutch swimming spots."
   },
   "zwite": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Zwite is a static site generator that is very pluggable"
   },
   "zxcvbn-ruby": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby port of Dropboxs zxcvbn.js"
   },
   "zxing": {
     "version": "0.3.1",
@@ -3773,43 +4152,50 @@
         "name": "qrencoder",
         "requirements": "~> 0.2.1"
       }
-    ]
+    ],
+    "description": "Need to decode 1D/2D bars and don't mind using JRuby to help with the task? ZXing is the wrapper for you!"
   },
   "zymurgy": {
     "version": "0.10.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "(n) The branch of chemistry that deals with fermentation processes, as in brewing.\n\nZymurgy is a collection of libraries to help with beer brewing calculations:\n        * Gravity points\n        * Hop utilisation\n        * Boil times and volumes"
   },
   "zync-gen": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Collection of generators for the Zync Web Framework"
   },
   "zypper": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Library for accessing zypper functions such as searching and\ninstalling packages, adding and removing repositories and services, filtering\nand applying patches.\nSupports calling zypper in changed root (both with local zypper and zypper in\nchroot)."
   },
   "zyps": {
     "version": "0.7.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "A game library for Ruby"
   },
   "zzdeploy": {
     "version": "0.1.13",
     "dependents": [
 
-    ]
+    ],
+    "description": "Allows configuration and management of rails apps on Amazon EC2 instances"
   },
   "zzf-core": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "zzsharedlib": {
     "version": "0.0.7",
@@ -3818,18 +4204,21 @@
         "name": "zzdeploy",
         "requirements": ">= 0.0.5"
       }
-    ]
+    ],
+    "description": "Useful utility library"
   },
   "zzutil": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Useful utility library"
   },
   "zzzzzz": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Used to test various rubygems handlers such as does it use push date, gemspec date, etc."
   }
 }

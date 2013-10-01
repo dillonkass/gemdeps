@@ -3,199 +3,232 @@
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Fast, fun, east HTML generation from Ruby"
   },
   "q": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "q is a command line activity logger/time tracker."
   },
   "q-defer": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Q is a lightweight deferred library for Ruby."
   },
   "q-language": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "."
   },
   "q-ruby-driver": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby interface to Q database from Kx Systems"
   },
   "q4m": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interface to pragmatically setup a queue job for Q4M!"
   },
   "q_deploy": {
     "version": "0.0.10",
     "dependents": [
 
-    ]
+    ],
+    "description": "Deploy to Q servers"
   },
   "q_translate": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Extends String with a 'translate' method. Returned value is the according translated text for a Wordpress Post translated by QTranslate plugin."
   },
   "qa-rails": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails Engine. a mini forum provided by only a simple helper, written in Backbones.js."
   },
   "qa_release_tasks": {
     "version": "1.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem that provides workflow driven rake tasks for git QA branch management"
   },
   "qa_robusta": {
     "version": "0.1.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "QA Robusta is an automation framework easing pain points away from automation test case writers. How is pain relieved?\n\n* Elements, such as links, buttons, and other html objects are defined in one \n  location. This ensures over time the user won't have definitions spread out \n  throughout different layers of code requiring time consuming updates if the \n  application under test is modified.\n* Well defined flows allows the user to have a common means for navigating and \n  controlling interactions with the application under test. This takes all logic \n  out of test classes and yields in higher more modular code re-use.\n* When an application requiring testing has the elements and flows implemented \n  less code savy resources can easily add new test cases once trained on how to \n  access the flows and elements.\n* When ever a link or button is clicked a screen shot is taken\n* Results are available under site/results directory in html format. Report \n  includes the rdoc on a per test class method along with any screen shots taken.  \n  Example report: https://cyberconnect.biz/opensource/demo_results.html\n* Transparent remote Unix command execution leading to well defined interfaces \n  for common task. For example, one may have a class defined specifically for \n  RemoteUnixNetwork. This class would have methods such as, assign_ip, ifup, ifdown,\n  etc. This class then would be able to perform these task on any remote Unix machine.\n* Executes the same on Windows or Linux/Unix environments. Developers have the \n  freedom to develop on the platform of choice.\n* Mechanize extension: Allows the user to define a web application's page elements in \n  a YAML format and provide navigation paths accessing the YAML structure to interact \n  with the web application. Users can also perform direct http.post or any other \n  mechanize functionality when defining state-full interfaces to hit a web application \n  without going through a browser."
   },
   "qaddy-client": {
     "version": "0.0.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "LaComparto API client"
   },
   "qadmin": {
     "version": "0.2.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "An [almost] one command solution for adding admin interfaces/resources to a Rails app."
   },
   "qaol": {
     "version": "1.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem is a ruby implementation of the classic game 'Pong'. The word 'qaol' is pronounced like 'quail'."
   },
   "qarioz-confluencer": {
     "version": "0.6.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "ActiveRecord-like classes to access Confluence through XMLRPC."
   },
   "qb_iif": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple DSL to generate QuickBooks IIF file"
   },
   "qbert": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qbert is a queue, a very basic queue."
   },
   "qbfc": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "QBFC-Ruby wraps the QBFC COM object of the QuickBooks \nSDK, providing ease-of-use improvements, such as lower-case method names, \nand find, save, delete, void, and create operations."
   },
   "qbwc": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Rails interface for Intuit's Quickbooks Web Connector that's OPEN SOURCE!"
   },
   "qbxml": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quickbooks XML Parser"
   },
   "qbxml-dtd6": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quickbooks XML Parser"
   },
   "qc-additions": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Add some methods to queue_classic to determine whether a job exists or how many times a given job is already queued."
   },
   "qc-mailer": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails plugin for sending asynchronous email with ActionMailer and QueueClassic."
   },
   "qcmd": {
     "version": "0.1.16",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple interactive QLab 3 command line controller"
   },
   "qcms": {
     "version": "2.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Key CMS features: extended template pathing, sitemap.yml, simple configurable, deeply nestable content"
   },
   "qcontent": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Modules and Mixins for extending ActiveRecord models for content management systems"
   },
   "qcore": {
     "version": "1.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qwerty Core"
   },
   "qcourses": {
     "version": "0.1.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "Small course event moduel for qinatra site - added as middleware"
   },
   "qcumberless": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Cucumber formatter for use with Q-Cumberless Testing"
   },
   "qdml": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "qdoc": {
     "version": "0.0.25",
     "dependents": [
 
-    ]
+    ],
+    "description": "Allows you to create quick documents from textile or markdown into an html format."
   },
   "qdox": {
     "version": "1.10.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "==== QDox - http://qdox.codehaus.org\nQDox is a high speed, small footprint parser for extracting class/interface/method definitions from Java source files complete with JavaDoc @tags. It is designed to be used by active code generators or documentation tools.\n\nQDox is a Java library. Therefore this RubyGem needs JRuby.\n\n==== Quickstart\nStep 1: Load your Java sources. In JRuby (or +jirb+)  write:\n require 'qdox'\n builder = QDox::JavaDocBuilder.new\n builder.add_source_tree(java.io.File.new(\".\")\n\n(Source: http://qdox.codehaus.org/usage.html)\n\nStep 2: Inspect the source model.\n  src = builder.sources.first\n  pkg = src.package\n  puts pkg.name # e.g. \"com.bla.foo\"\n  imports = src.imports # => e.g. [\"java.util.List\", \"java.util.Set\"]\n  some_class = src.classes.first # => a QDox::Model::JavaClass\n\n  # output the javadoc comment for the first method in some_class\n  puts some_class.methods.first.comment \n\n(Source: http://qdox.codehaus.org/model.html)\n\nAs you may have noticed, the Java packages used have been aliased to shorter Ruby Module names:\nThe Java package com.thoughtworks.qdox is the Ruby module QDox etc.\n\n==== In a Nutshell\nA custom built parser has been built using JFlex and BYacc/J. These have been chosen because of their proven performance and they require no external libraries at runtime.\n\nThe parser skims the source files only looking for things of interest such as class/interface definitions, import statements, JavaDoc and member declarations. The parser ignores things such as actual method implementations to avoid overhead (while in method blocks, curly brace counting suffices).\n\nThe end result of the parser is a very simple document model containing enough information to be useful.\n\n==== License\nApache License, Version 2.0\nQDox was created by Joe Walnes, Aslak Hellesoy, Paul Hammant, Mike Williams, Mauro Talevi, Robert Scholte, and others.\nThe RubyGem was created by Benjamin Bock.\n"
   },
   "qe": {
     "version": "0.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple interface over several background job libraries like Resque, Sidekiq and DelayedJob."
   },
   "qed": {
     "version": "2.9.1",
@@ -213,11 +246,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "assay-testunit",
+        "name": "assay-minitest",
         "requirements": ">= 0"
       },
       {
-        "name": "assay-minitest",
+        "name": "assay-testunit",
         "requirements": ">= 0"
       },
       {
@@ -456,73 +489,85 @@
         "name": "yes",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "QED (Quality Ensured Demonstrations) is a TDD/BDD framework\nutilizing Literate Programming techniques."
   },
   "qedproject": {
     "version": "0.6.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Creates a web development project with support for CoffeeScript and Sass, with support for Backbone, Knockout, and more. "
   },
   "qemu": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Create QEMU command lines, start and stop daemon, send monitor commands to a qemu instances, create or convert QEMU disks, etc .. in Ruby"
   },
   "qemu-toolkit": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "\n    qemu-toolkit is a collection of small tools that help in managing and\n    running QEMU virtual machines on Illumos/OmniOS. It supports both\n    local operation and SAN-style block storage via iSCSI. \n  "
   },
   "qer": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qer is an easy command-line todo list."
   },
   "qfill": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Advanced Queue Transformation"
   },
   "qft": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "CLI app for opening Firefox tabbed bookmarks"
   },
   "qfunction": {
     "version": "0.1.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Nice Function"
   },
   "qhandout": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Generate course handout toc/tabs"
   },
   "qif": {
     "version": "1.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for reading and writing quicken QIF files."
   },
   "qiflib": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A ruby library for qif file processing."
   },
   "qihu360": {
     "version": "0.3.15",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qihu 360.cn OAuth2 & Dianjing(Advertising system) API wrapper"
   },
   "qiita": {
     "version": "0.0.3",
@@ -539,37 +584,43 @@
         "name": "tiqbi",
         "requirements": ">= 0.0.3"
       }
-    ]
+    ],
+    "description": "  Gets some tag's or user's items at qiita.com.\n  Creates, updates, deletes and stocks items at Qiita.\n"
   },
   "qiita-kachick": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "  Gets some tag's or user's items at qiita.com.\n  Creates, updates, deletes and stocks items at Qiita.\n"
   },
   "qiita_mail": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Write a gem description"
   },
   "qik-loops": {
     "version": "2.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Loops is a small and lightweight framework for Ruby on Rails, Merb and other ruby frameworks created to support simple background loops in your application which are usually used to do some background data processing on your servers (queue workers, batch tasks processors, etc)."
   },
   "qilin": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A lightweight framework for background processing across many child processes, inspired heavily by Unicorn."
   },
   "qimport": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qimport is a library for building Quickbooks iif files."
   },
   "qiniu-rs": {
     "version": "3.4.6",
@@ -590,31 +641,36 @@
         "name": "qiniu_direct_uploader",
         "requirements": ">= 3.4.5"
       }
-    ]
+    ],
+    "description": "Qiniu Resource (Cloud) Storage SDK for Ruby. See: http://docs.qiniu.com/ruby-sdk/"
   },
   "qiniu-s3": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qiniu Cloud Storage SDK for Ruby. See: http://docs.qiniutek.com/v1/sdk/ruby/"
   },
   "qiniu_direct_uploader": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Direct upload to a Qiniu storage bucket."
   },
   "qio": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "IO facade, backed by a queue."
   },
   "qiwi": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qiwi payments solution"
   },
   "qless": {
     "version": "0.9.3",
@@ -622,6 +678,10 @@
       {
         "name": "plines",
         "requirements": ">= 0"
+      },
+      {
+        "name": "qless-pool",
+        "requirements": "~> 0.9"
       },
       {
         "name": "qless-campfire",
@@ -632,38 +692,39 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "qless-pool",
-        "requirements": "~> 0.9"
-      },
-      {
         "name": "qmore",
         "requirements": "~> 0.9"
       }
-    ]
+    ],
+    "description": "\n    `qless` is meant to be a performant alternative to other queueing\n    systems, with statistics collection, a browser interface, and \n    strong guarantees about job losses.\n    \n    It's written as a collection of Lua scipts that are loaded into the\n    Redis instance to be used, and then executed by the client library.\n    As such, it's intended to be extremely easy to port to other languages,\n    without sacrificing performance and not requiring a lot of logic\n    replication between clients. Keep the Lua scripts updated, and your\n    language-specific extension will also remain up to date.\n  "
   },
   "qless-campfire": {
     "version": "0.9.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\n    Get Campfire notifications for jobs you're tracking in your qless\n    queue.\n  "
   },
   "qless-growl": {
     "version": "0.9.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\n    Get Growl notifications for jobs you're tracking in your qless\n    queue.\n  "
   },
   "qless-pool": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "    quickly and easily fork a pool of qless workers,\n    saving memory (w/REE) and monitoring their uptime\n"
   },
   "qlg": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Really fast way to output logs from your app."
   },
   "qlive": {
     "version": "0.4.0",
@@ -672,7 +733,8 @@
         "name": "qlive-rails",
         "requirements": "~> 0.4.0"
       }
-    ]
+    ],
+    "description": "run qunit tests against actual back-end server with prepared test fixtures"
   },
   "qlive-rails": {
     "version": "0.4.0",
@@ -681,67 +743,78 @@
         "name": "qlive-rspec",
         "requirements": "~> 0.4.0"
       }
-    ]
+    ],
+    "description": "Ruby on Rails engine for running qunit javascript tests using server-side factories and user login"
   },
   "qlive-rspec": {
     "version": "0.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Run qlive-rails qunit javascript tests headlessly alongside your normal rspec integration examples"
   },
   "qlzruby": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby bindings for QuickLZ."
   },
   "qm": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a *very incomplete* port of QMachine."
   },
   "qm-acts-as-generic-controller": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "qM: generates generic controller actions and views"
   },
   "qmin": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple framwork to coordinate background tasks"
   },
   "qmore": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qmore allows one to specify the queues a worker processes by the use of wildcards, negations, or dynamic look up from redis.  It also allows one to specify the relative priority between queues (rather than within a single queue).  It plugs into the Qless webapp to make it easy to manage the queues."
   },
   "qnotifier": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "The server side agent for the QNotifier monitoring system.  This software will monitor local Linux system parameters and upload them to the QNotifier servers where users can use iPhone/iPad applications to view those stats and recieve alerts."
   },
   "qoobaa-oauth": {
     "version": "0.3.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "OAuth Core Ruby implementation"
   },
   "qoobaa-opensocial": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "OpenSocial Google Gem"
   },
   "qor_cache": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qor Cache"
   },
   "qor_dsl": {
     "version": "0.3.3",
@@ -758,13 +831,15 @@
         "name": "qor_test",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Qor DSL is designed to be as flexible as possible while helping you to create your DSLs."
   },
   "qor_layout": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Easily to make your own layout"
   },
   "qor_test": {
     "version": "1.0.1",
@@ -773,19 +848,22 @@
         "name": "qor_cache",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Qor Test: Make it easy to discovery compatibility issues!"
   },
   "qpid": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interface to QPID, the Queriable Patient Inference Dossier system."
   },
   "qpid_management": {
     "version": "1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qpid management library"
   },
   "qpid_messaging": {
     "version": "0.24.0",
@@ -794,67 +872,78 @@
         "name": "qpid_management",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Qpid is an enterprise messaging framework."
   },
   "qpid_proton": {
     "version": "0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Proton is a high performance, lightweight messaging library. It can be used in\nthe widest range of messaging applications including brokers, client libraries,\nrouters, bridges, proxies, and more. Proton is based on the AMQP 1.0 messaging\nstandard.\n"
   },
   "qplus": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "qplus sdk"
   },
   "qq-pengyou": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "QQ opensns SDK api for Ruby, http://opensns.qq.com/"
   },
   "qq_17up": {
     "version": "4.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "QQ oauth2"
   },
   "qq_hulian": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\"QQ互联平台\""
   },
   "qqface": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a gem to helper you quick add qqface function to your application.\n\n\nThis is a wrapper for the jquery.qqFace.js plugin, and add two action view helper method for use easy."
   },
   "qqfileuploader": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "description"
   },
   "qqwry": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby interface to QQWry IP database"
   },
   "qr": {
     "version": "0.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem generates QR-Codes."
   },
   "qr4r": {
     "version": "0.3.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "QR PNG Generator for Ruby. Leveraging RQRCode and MojoMagick modules"
   },
   "qrcli": {
     "version": "0.0.1",
@@ -863,31 +952,36 @@
         "name": "pwsqr",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Generates QR codes on the command line using ANSI terminal colors"
   },
   "qrcode": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "rQRCode is a library for encoding QR Codes. The simple\ninterface allows you to create QR Code data structures \nready to be displayed in the way you choose. \n"
   },
   "qrcoder": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Creates QR code files in png, bmp, png, jpg, tif and svg file format. This is fork of sam vincent rqrcode-rails3"
   },
   "qrcx": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A small ruby library to use the url shortener http://qr.cx"
   },
   "qrda_generator": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for generating QRDA Cat 1."
   },
   "qrencoder": {
     "version": "1.4.1",
@@ -896,43 +990,50 @@
         "name": "multi_encoder",
         "requirements": "= 1.4.1"
       }
-    ]
+    ],
+    "description": "This Gem is a wrapper around an useful open-source library for creating QR\n  Codes, a two-dimensional bar code format popular in Japan created by the Denso-Wave Corporation in 1994."
   },
   "qreport": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Automatically creates materialized report tables from a SQL query."
   },
   "qrp": {
     "version": "0.4.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queueing Reverse Proxy for Rails"
   },
   "qrpc": {
     "version": "0.9.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queued RPC client and server. Works as normal RPC server, but through queue interface, so allows highly scalable, distributed and asynchronous remote API implementation and fast data processing. It's based on EventMachine and typically on Beanstalk, so it's fast and thread safe."
   },
   "qrscanner": {
     "version": "0.4.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ruby gem QR code scanner based on ZXing"
   },
   "qrtools": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "QRTools is a library for decoding QR Codes.  It relies on libdecodeqr for decoding."
   },
   "qrz-callbook": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A front end for the QRZ.COM Amateur Radio callsign database API."
   },
   "qs": {
     "version": "0.0.1",
@@ -941,49 +1042,57 @@
         "name": "qs-resque",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Define message queues. Process jobs and events. Profit."
   },
   "qs-heroku-client": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library to use Heroku's Platform API"
   },
   "qs-request-tracker": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Manages a Request-Id for each HTTP request"
   },
   "qs-resque": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Define Qs message queues that use Resque"
   },
   "qsagi": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A friendly way to talk to RabbitMQ"
   },
   "qserver": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This class starts a server quickly and easily in either the current directory or the specified document root"
   },
   "QSID": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A 32bit integer ID"
   },
   "qspec": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "QSpec inserts spec files to a queue.  Workers process that queue one by one."
   },
   "qst_client": {
     "version": "0.5",
@@ -992,19 +1101,22 @@
         "name": "local_gateway",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "A QST client."
   },
   "qswarm": {
     "version": "0.0.21",
     "dependents": [
 
-    ]
+    ],
+    "description": "Framework for writing distributed agents hanging off an AMQP message bus"
   },
   "qt_connect": {
     "version": "1.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qt bindings for JRuby with (optional) extension to provide backward\n  compatibility with Qt Ruby programs. The API is implemented using Qt Jambi, the\n  Java version of the Qt framework.  For Qt Ruby programs it provides a QtJambi\n  inspired interface to the Signals/Slots system without the need to use\n  C++ signatures.\n  "
   },
   "qtbindings": {
     "version": "unknown",
@@ -1045,7 +1157,8 @@
         "name": "tmis",
         "requirements": ">= 4.8.3.0"
       }
-    ]
+    ],
+    "description": "qtbindings provides ruby bindings to QT4.x. It is derived from the kdebindings project."
   },
   "qtext": {
     "version": "0.6.8",
@@ -1054,37 +1167,43 @@
         "name": "clevic",
         "requirements": ">= 0.6.7"
       }
-    ]
+    ],
+    "description": "Some extensions to qt4-qtruby to make it more rubyish."
   },
   "qtip2-jquery-rails": {
     "version": "2.1.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides the `qTip2` jQuery plugin packaged for the Rails 3.1+ asset pipeline."
   },
   "qtjruby-core": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qt meets Java meets Ruby."
   },
   "qtool": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Automate bits of your everyday workflow with q commands."
   },
   "qtrefmovie": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "QTRefMovie is a simple tool for generating QuickTime Reference Movie files from a Ruby script."
   },
   "qtrix": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Central worker queues config"
   },
   "qtruby4": {
     "version": "unknown",
@@ -1093,13 +1212,15 @@
         "name": "hornetseye-qt4",
         "requirements": "~> 2.1"
       }
-    ]
+    ],
+    "description": "Qt4 Bindings for Ruby."
   },
   "qtunes": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "add songs to queue, let cmus eat it"
   },
   "qu": {
     "version": "0.2.0",
@@ -1109,15 +1230,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "qu-mongo",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-airbrake",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-rails",
+        "name": "qu-exceptional",
         "requirements": "= 0.2.0"
       },
       {
@@ -1125,20 +1238,28 @@
         "requirements": "= 0.1.4"
       },
       {
+        "name": "qu-airbrake",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-mongo",
+        "requirements": "= 0.2.0"
+      },
+      {
         "name": "qu-mongoid",
         "requirements": ">= 0"
       },
       {
-        "name": "qu-exceptional",
+        "name": "qu-redis",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-rails",
         "requirements": "= 0.2.0"
       },
       {
         "name": "qu-spec",
         "requirements": ">= 0.1.3"
-      },
-      {
-        "name": "qu-redis",
-        "requirements": "= 0.2.0"
       },
       {
         "name": "qu_mailer",
@@ -1148,25 +1269,29 @@
         "name": "sqew",
         "requirements": "~> 0.1"
       }
-    ]
+    ],
+    "description": "a Ruby library for queuing and processing background jobs with configurable backends."
   },
   "qu-airbrake": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Airbrake failure backend for qu"
   },
   "qu-delayed": {
     "version": "0.1.4.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qu::Delayed is basic sheduler for Qu queue system."
   },
   "qu-exceptional": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Exceptional failure backend for qu"
   },
   "qu-mongo": {
     "version": "0.2.0",
@@ -1175,19 +1300,22 @@
         "name": "qu-delayed",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Mongo backend for qu"
   },
   "qu-mongoid": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Mongoid backend for the Ruby queuing library Qu"
   },
   "qu-rails": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails integration for qu"
   },
   "qu-redis": {
     "version": "0.2.0",
@@ -1196,103 +1324,120 @@
         "name": "qu-scheduler",
         "requirements": ">= 0.1.3"
       }
-    ]
+    ],
+    "description": "Redis backend for qu"
   },
   "qu-scheduler": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qu::Scheduler is an extension to Qu that adds support for queueing items in the future."
   },
   "qu-spec": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "RSpec matchers and an in-memory backend for Qu"
   },
   "qu_mailer": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "QuMailer is a Rails plugin for delivering email asynchronously from ActionMailer via the Qu queuing library."
   },
   "quacks-like": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "    QuacksLike is a module for RSpec to add matchers that test if an\n    object is fully duck-typed to pretend to be another class.  This\n    kind of thing is really only necessary when passing such an\n    object as the return value in an API where you don't know\n    exactly how it will be consumed, but it needs to \"quack like an\n    Array\" or something.  It does its job by checking every instance\n    method in the class that the target object needs to \"quack like\"\n    and makes sure the target both responds to that method name and\n    that the arity of the method is appropriate.\n"
   },
   "quacky": {
     "version": "0.2.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ensure your test doubles quack like the real thing."
   },
   "quacky-charts": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Rails Charting Gem"
   },
   "quad_sphere": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "An implementation of the quadrilateralised spherical cube, an\napproximately equal-area projection of the sphere onto the faces of a\ncube. It is useful for storing data collected on a spherical surface,\nand for general mapmaking.\n"
   },
   "quaderno": {
     "version": "1.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "longer description of your gem"
   },
   "quaff": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby library for writing SIP test scenarios"
   },
   "quaid": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Total Recall for Mongoid"
   },
   "quake": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library exposing the U.S. Geological Survey's real-time earthquake data"
   },
   "quake_log_parser": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Parse Quake logs"
   },
   "quakelive_api": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Pseudo API for QuakeLive"
   },
   "quakelogparser": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quake log parser"
   },
   "quality": {
     "version": "0.2.12",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quality is a tool that runs quality checks on Ruby\ncode using rubocop, cane, reek, flog and flay, and makes sure \nyour numbers don't get any worse over time.\n"
   },
   "quality-measure-engine": {
     "version": "2.5.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for running clinical quality measures"
   },
   "quality_extensions": {
     "version": "1.3.2",
@@ -1317,19 +1462,22 @@
         "name": "which_command",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "A collection of reusable Ruby methods which are not (yet) in Facets."
   },
   "quality_rdoc": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "..."
   },
   "quality_time": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "QualityTime extends Ruby's standard Time and Date classes to facilitate safer and more deliberate manipulation of chronological and calendar values, especially for values that precede the introduction of the Gregorian calendar.\n"
   },
   "qualitysmith_extensions": {
     "version": "0.0.64",
@@ -1342,19 +1490,22 @@
         "name": "svn-command",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "A collection of reusable Ruby methods developed by QualitySmith."
   },
   "quandl_cassinatra": {
     "version": "0.1.16",
     "dependents": [
 
-    ]
+    ],
+    "description": "An orm for the cassinatra rest interface."
   },
   "quandl_client": {
     "version": "0.1.17",
     "dependents": [
 
-    ]
+    ],
+    "description": "An orm for the cassinatra rest interface."
   },
   "quandl_data": {
     "version": "0.1.11",
@@ -1367,7 +1518,8 @@
         "name": "quandl_client",
         "requirements": "~> 0.1"
       }
-    ]
+    ],
+    "description": "Data will be interfaced"
   },
   "quandl_logger": {
     "version": "0.1.1",
@@ -1388,7 +1540,8 @@
         "name": "quandl_operation",
         "requirements": "~> 0.1"
       }
-    ]
+    ],
+    "description": "Quandl logger class for use in quandl gems."
   },
   "quandl_operation": {
     "version": "0.1.11",
@@ -1405,13 +1558,15 @@
         "name": "quandl_data",
         "requirements": "~> 0.1"
       }
-    ]
+    ],
+    "description": "Data will be operated"
   },
   "quant": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quantitative Trading"
   },
   "quantify": {
     "version": "3.2.1",
@@ -1424,169 +1579,197 @@
         "name": "quantify-amee",
         "requirements": "~> 3.1"
       }
-    ]
+    ],
+    "description": "A gem to support physical quantities and unit conversions"
   },
   "quantify-amee": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quantify extension which configures units for use with the AMEE platform"
   },
   "quantile": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Graham Cormode and S. Muthukrishnan's Effective Computation of Biased Quantiles over Data Streams in ICDE’05"
   },
   "quantipay-acts_as_secure": {
     "version": "1.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Acts as secure adds automatic encryption and decryption to an ActiveRecord model"
   },
   "quantity": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quantity provides first-class quantities, units, and base quantities in pure ruby.\nThings like 1.meter / 1.second == 1 meter/second.\n"
   },
   "quantitymanager": {
     "version": "0.9.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Unit of measure, quantity framework"
   },
   "quantize": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds a quantize() method to the Integer class"
   },
   "quantum": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quantum is a refreshingly modern responsive web framework for beautiful and faster project development."
   },
   "quantum_leap": {
     "version": "0.7.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Righting wrongs in your test suite with time travel!"
   },
   "quanty": {
     "version": "1.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A quantity class containing \"value\" and \"unit\" which provides:\n* Unit conversion like the units command.\n* Operation between quantities with different units, like \"km\" and \"mile\",\n* with automatic unit conversion."
   },
   "quapistrano": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A 'Work in Progress' gem with several recipes for capistrano, using a clean approach, delegating dawting tasks to provisioners"
   },
   "quarantino": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client for Quarantino"
   },
   "quarrel": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple named parameters for ruby"
   },
   "quarry": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quarry is a small collection of libraries to facilitate Ruby project development, testing and debugging. In particular it includes a flexible but light-weight Behavior-Driven Development (BDD) library."
   },
   "quarter_system": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Class Quarter for handling with the division of a calendar year into an arbitrary grouping of quarters, by default, the US fiscal calendar."
   },
   "quarter_time": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem for dealing with quarter logic.  I happen to have a project where half the models in the database recur every three months as part of a \"quarter\" of the year.  Within the code, we constantly are asking \"what quarter is this for?\", or \"show me all the records for this quarter\".  Well, now I need the same power on another application, so say hello to \"quarter_time\"."
   },
   "quartermaster": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A collection of shortcuts and helpers for leveraging a request's env in Rails, such as including a browser-specific stylesheet if one exists or putting a short version of the user agent in the CSS classes of the body tag.   This eliminates the need for most hacks or conditional comments since you can now get browser-specific with your CSS rules (ex. body.ie6 div { ... })"
   },
   "quarto": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Yet another ebook publishing toolchain"
   },
   "quartz-dotnet": {
     "version": "1.0.2.0.20100811",
     "dependents": [
 
-    ]
+    ],
+    "description": "\t\tQuartz.NET is a full-featured, open source job scheduling system that can \n\t\tbe used from smallest apps to large scale enterprise systems. \n\n\t\tQuartz.NET is a port of very propular open source Java job scheduling \n\t\tframework, Quartz . This project owes very much to original Java project, \n\t\tit's father James House and the project contributors. \n\n\t\tQuartz.NET is a pure .NET library written in C# which currently targets \n\t\tFramework version 1.1 and above. Quartz.NET is feature-wise equal to Quartz \n\t\tJava 1.6 excluding Java specifics. Quartz.NET is already running in production \n\t\tsystems and has received good feedback.\n"
   },
   "quartz-jruby": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "From {Quartz Scheduler's website}[http://www.quartz-scheduler.org/]\n\nQuartz is a full-featured, open source job scheduling service that can be integrated with, or used along side virtually any Java EE or Java SE application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may executed virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as JTA transactions and clustering.\n\nThis gem makes these available in a ruby friendly syntax"
   },
   "quasi": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem for Low Discrepancy Sequences"
   },
   "qubole_rails_sql_views": {
     "version": "0.10.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Adds support for using SQL views within ActiveRecord"
   },
   "qudea": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qudea API"
   },
   "quebert": {
     "version": "2.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A worker queue framework built around beanstalkd"
   },
   "Queen_Of_Diamonds": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "A library for creating Windows-like card games."
   },
   "queencheck": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "QueenCheck is random test library. Inspired by QuickCheck library in Haskell."
   },
   "quench": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Use TCP Tunnels between two firewalled machines. Primarily used for ssh access to a machine inside a firewall."
   },
   "quercle": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Converts JSON hash representing SQL conditions into an array suitable for ActiveRecord or DataMapper queries"
   },
   "querinator": {
     "version": "0.0.2",
@@ -1595,61 +1778,71 @@
         "name": "warcards",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "manages and presents flash card data"
   },
   "querobolsa-bootstrap-sass": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
   },
   "query-analyzer": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Run explain on all the sql queries rails generates."
   },
   "query-interface-client": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Client for the radar query interface"
   },
   "query-interface-server": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Server for the radar query interface"
   },
   "query-nyc": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem started as part of Great Urban Hack. It looks up the records of NYC landlords from openly available public directories."
   },
   "query_28io": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem allows to run public queries on 28.io"
   },
   "query_diet": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails database query counter that stays out of your way"
   },
   "query_report": {
     "version": "1.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a gem to help you to structure common reports of you application just by writing in the controller"
   },
   "query_reviewer": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Runs explain before each select query and displays results in an overlayed div"
   },
   "query_string_filter": {
     "version": "0.1.6",
@@ -1658,7 +1851,8 @@
         "name": "sinatra_resource",
         "requirements": "~> 0.1.6"
       }
-    ]
+    ],
+    "description": "Convert a filter param in a query string to a conditions hash useful for MongoMapper searching"
   },
   "query_string_interface": {
     "version": "0.6.0",
@@ -1667,7 +1861,8 @@
         "name": "mongoid_query_string_interface",
         "requirements": ">= 0.5.0"
       }
-    ]
+    ],
+    "description": "This gem extracts params given as a hash to structured data, that can be used when creating queries"
   },
   "query_string_parser": {
     "version": "0.1.1",
@@ -1676,49 +1871,57 @@
         "name": "gnarly",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Simple query string parser"
   },
   "query_trace": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "With query_trace enabled, the Rails logs will contain a partial stack trace for every executed SQL statement, making it easier to find where they are generated in your code."
   },
   "query_trace-rails-3": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "With query_trace enabled, the Rails logs will contain a partial stack trace for every executed SQL statement, making it easier to find where they are generated in your code."
   },
   "query_trace3": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Query Trace plugin w/ rails3 support; based on https://gist.github.com/1137342"
   },
   "query_tracer": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This library helps to find where in your rails app sql query was run."
   },
   "queryable_array": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "QueryableArray is intended to store a group of objects which share the same attributes allowing them to be searched with a simplified DSL"
   },
   "queryable_with": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Tie query parameters to scopes, or create dynamic scopes on the fly. Define sets of reusable scopes for use in reporting and filtering."
   },
   "queryalize": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "\n    Queryalize lets you use Rails 3 to build queries just like with ActiveRecord::QueryMethods,\n    except you can serialize the end result. This is useful for running queries that potentially\n    return large result sets in the background using something like Resque or Delayed::Job.\n  "
   },
   "querybuilder": {
     "version": "1.2.2",
@@ -1727,13 +1930,15 @@
         "name": "zena",
         "requirements": "= 1.2.2"
       }
-    ]
+    ],
+    "description": "QueryBuilder is an interpreter for the \"pseudo sql\" language. This language\n    can be used for two purposes:\n\n     1. protect your database from illegal SQL by securing queries\n     2. ease writing complex relational queries by abstracting table internals"
   },
   "queryitis": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Search the ITIS Database! (in a very limited fashion)"
   },
   "queryparams": {
     "version": "0.0.3",
@@ -1750,13 +1955,15 @@
         "name": "pebblebed",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": " It supports hashes, arrays, nested hashes and arrays of hashes and all combinations thereof."
   },
   "queryparser": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Parse a natural language query into lucene query syntax"
   },
   "querystring": {
     "version": "0.1.0",
@@ -1769,73 +1976,85 @@
         "name": "embedly",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Flexible querystring generator"
   },
   "quesadilla": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Entity-style text parsing"
   },
   "quest": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "The client for a custom implementation of Progress Quest built on top of Cucumber."
   },
   "quest_search": {
     "version": "1.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quest is a gem that lets you search your model in a simple and intuitive way."
   },
   "question_chain": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails3 Gem to Generate Carbon Calculated Applications"
   },
   "question_mark_methods": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "give boolean attribute a question mark method"
   },
   "questionable": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Easily add method helpers for testing instance variables"
   },
   "questionable_surveys": {
     "version": "0.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Makes it easy to add and edit forms programatically, specifying select, radio, checkbox, or string input, and recordings users' answers. Questions can be associated with specific objects or with string labels. A form template and controller are including for displaying questions and recording answers, and ActiveAdmin is supported for editing the questions and options on the back-end."
   },
   "questioning_authority": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Interface for different vocabulary authorities."
   },
   "questionnaire": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "to be added"
   },
   "questions": {
     "version": "1.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Ask human"
   },
   "queue_bundle": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Allows queue work to be distributed to seperate threads that need a consistent end point.   Allows you to provide a hashing algorithm for which thread handles the work."
   },
   "queue_classic": {
     "version": "2.2.2",
@@ -1857,56 +2076,64 @@
         "requirements": "~> 2.1"
       },
       {
-        "name": "queue_classic-later",
-        "requirements": ">= 2.1.3"
-      },
-      {
         "name": "queue_classic_admin",
         "requirements": ">= 2.1.0"
+      },
+      {
+        "name": "queue_classic-later",
+        "requirements": ">= 2.1.3"
       }
-    ]
+    ],
+    "description": "queue_classic is a queueing library for Ruby apps. (Rails, Sinatra, Etc...) queue_classic features asynchronous job polling, database maintained locks and no ridiculous dependencies. As a matter of fact, queue_classic only requires pg."
   },
   "queue_classic-later": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Do things later with queue_classic"
   },
   "queue_classic_admin": {
     "version": "0.0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "An admin interface for QueueClassic"
   },
   "queue_client": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A client for Viki's queue"
   },
   "queue_dispatcher": {
     "version": "1.3.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queue_Dispatcher executes asynchronous tasks in the background."
   },
   "queue_fetcher": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Encapsulates design decisions about how to namespace SQS queues with environment-specific prefixes, as well as the dependency on the existence of a queueing interface like RightAws::SqsGen2."
   },
   "queue_kit": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Job Queue hobby kit"
   },
   "queue_map": {
     "version": "0.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queue Map"
   },
   "queue_to_the_future": {
     "version": "0.2.1",
@@ -1915,25 +2142,29 @@
         "name": "wagon",
         "requirements": ">= 0.1.0"
       }
-    ]
+    ],
+    "description": "An easy way to create asynchronous execution paths in an unobtrusive way."
   },
   "queued": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Call any ActiveRecord instance method as though it was a Resque job"
   },
   "queued-ruby": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queued client library for Ruby"
   },
   "queued_mail": {
     "version": "0.2.7",
     "dependents": [
 
-    ]
+    ],
+    "description": "Description of QueuedMail."
   },
   "queuehash": {
     "version": "0.1.0",
@@ -1946,43 +2177,50 @@
         "name": "uscommerce",
         "requirements": "> 0.0.0"
       }
-    ]
+    ],
+    "description": "A QueueHash is an ordered hash: Keys are ordered according to when they were inserted."
   },
   "queueing_proxy": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Queueing proxy backed by EM/Beanstalk for a very weird purpose."
   },
   "queueing_rabbit": {
     "version": "0.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "    QueueingRabbit is a Ruby library providing convenient object-oriented syntax\n    for managing background jobs using AMQP. The library implements amqp and\n    bunny gems as adapters making it possible to use synchronous publishing and\n    asynchronous consuming, which might be useful for Rails app running on\n    non-EventMachine based application servers (i. e. Passenger).\n\n    Any Ruby class or Module can be transformed into QueueingRabbit's background\n    job by including QueueingRabbit::Job module. It is also possible to inherit\n    your class from QueueingRabbit::AbstractJob abstract class.\n\n    The library is bundled with a Rake task which is capable of starting a\n    worker processing a specified list of jobs.\n"
   },
   "queuel": {
     "version": "0.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Light Queue wrapper tool"
   },
   "quez_locodriver": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem pretends to help you to develop, to deploy and hold on your locomotive website. It's insipred by Locomotive Editor (just inspired, once I've never bought - not even touched - that tool). What is the advantage of using this one instead of locomotive editor? This simple one is free and opensource! "
   },
   "qui": {
     "version": "0.9.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qui, or Queuemetrics User Integration, is a gem that creates an ActiveRecord wrapper for manipulating users, agents, and queues within the Queuemetrics calling platform."
   },
   "qui-automatic-form-required-fields": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "qUI: this plugin automatically marks labels near required fields using validates_presence_of from the associated model"
   },
   "qui-common-helpers": {
     "version": "0.0.8",
@@ -1991,7 +2229,8 @@
         "name": "qm-acts-as-generic-controller",
         "requirements": ">= 0.0.8"
       }
-    ]
+    ],
+    "description": "qUI: some common helpers used by other gems"
   },
   "qui-index-table": {
     "version": "0.0.9",
@@ -2000,13 +2239,15 @@
         "name": "qm-acts-as-generic-controller",
         "requirements": ">= 0.0.9"
       }
-    ]
+    ],
+    "description": "qUI: rails helpers for generating index tables"
   },
   "qui-pagination": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "qUI: rails helpers for generating nice pagination"
   },
   "qui-tabs": {
     "version": "0.0.3",
@@ -2015,7 +2256,8 @@
         "name": "qm-acts-as-generic-controller",
         "requirements": ">= 0.0.3"
       }
-    ]
+    ],
+    "description": "qUI: rails helpers for generating tabs"
   },
   "qui-toolbar": {
     "version": "0.0.5",
@@ -2024,37 +2266,43 @@
         "name": "qm-acts-as-generic-controller",
         "requirements": ">= 0.0.5"
       }
-    ]
+    ],
+    "description": "qUI: rails helpers for generating toolbars"
   },
   "quic_cms": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Very Simple Page and Menu CMS\n                    be sure to add:\n                      mount QuicCms::Engine => \"/\"\n                    to the bottom of your routes file.  Run rake quic_cms:install:migrations and rake db:migrate"
   },
   "quick-bundler": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A gem that provides dead-simple usage of bundler."
   },
   "quick-debug": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Debug your Ruby code with just a few keystrokes!"
   },
   "quick-etl": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quicken Extract Transform and Load"
   },
   "quick-generators": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Rails generators to improve the speed of configuration"
   },
   "quick_attr": {
     "version": "0.0.4",
@@ -2063,43 +2311,50 @@
         "name": "monkeybox",
         "requirements": ">= 0.0.4"
       }
-    ]
+    ],
+    "description": "\t\tchain attr methods\n\t\tb.name(\"billy-bob\").insane(true).gun_licence(nil);\n\t\tget by calling with no args: b.name == \"billy-bob\"\n"
   },
   "quick_auth": {
     "version": "0.0.10",
     "dependents": [
 
-    ]
+    ],
+    "description": "Gem for backend authorization"
   },
   "quick_captcha": {
     "version": "3.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Forked from https://github.com/kares/simple_captcha"
   },
   "quick_cert": {
     "version": "2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "quick_cert allows you to quickly and easily create SSL certificates.  It uses\na simple configuration file to generate self-signed client and server\ncertificates."
   },
   "quick_cipher": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A tool for quickly enciphering/deciphering text using basic alphabet transposition."
   },
   "quick_config": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A quick and easy way to set and access configuration data in your Ruby applications."
   },
   "quick_file": {
     "version": "1.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A file upload library for use with MongoDB and S3"
   },
   "quick_magick": {
     "version": "0.8.0",
@@ -2124,7 +2379,8 @@
         "name": "zbox",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "QuickMagick allows you to access ImageMagick command line functions using Ruby interface."
   },
   "quick_magick_hooopo": {
     "version": "0.8.1",
@@ -2133,103 +2389,120 @@
         "name": "txt2img",
         "requirements": "~> 0.8"
       }
-    ]
+    ],
+    "description": "QuickMagick allows you to access ImageMagick command line functions using Ruby interface."
   },
   "quick_queue": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "quick_queue is a mix of Ruby's Queue and drb to produce an extremely simple to use queue system in pure Ruby."
   },
   "quick_response": {
     "version": "0.2.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem that output an image url for a given data"
   },
   "quick_scrapper": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quickly scraps a selection in a page"
   },
   "quick_script": {
     "version": "0.12.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Framework for single-page web applications"
   },
   "quick_search": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quick Search Helper for Find by Text or String fields in database Ruby on Rails."
   },
   "quick_serve": {
     "version": "0.4.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Super simple web server mainly for javascript development"
   },
   "quick_short": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "quick_short is a really awesome way to generate short URLs (especially for local resources)"
   },
   "quick_shoulda": {
     "version": "0.2.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Read model file to extract the validations/associations\n                          and then utilize Rails generator to write correspondent shoulda test cases to your correspondent spec file "
   },
   "quick_start": {
     "version": "0.3.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "GTK application used to quickly choose startup programs for current session"
   },
   "quick_state": {
     "version": "0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quick way to store application state."
   },
   "quick_test_runner": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Console-based test runner for speedy and short feedback loops when doing TDD!"
   },
   "quick_utils": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Utility classes for a rails-deployed application"
   },
   "quickbase": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "The Quickbase Gem provides integration access to the Intuit Quickbase API."
   },
   "quickbase_client": {
     "version": "1.0.24",
     "dependents": [
 
-    ]
+    ],
+    "description": "Wraps the QuickBase HTTP API and adds classes and methods to minimize the amount of code needed to get useful things done."
   },
   "quickblox": {
     "version": "0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "QuickBlox.com api"
   },
   "quickbooks": {
     "version": "1.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "The only comprehensive Ruby interface to Quickbooks. THIS IS A DEMO VERSION. Visit behindlogic.com for the full version, which works with all versions of QuickBooks."
   },
   "quickbooks_api": {
     "version": "0.1.7",
@@ -2238,43 +2511,50 @@
         "name": "qbwc",
         "requirements": ">= 0.1.6"
       }
-    ]
+    ],
+    "description": "A QuickBooks QBXML wrapper for Ruby"
   },
   "quickbooks_web_connector": {
     "version": "0.0.6",
     "dependents": [
 
-    ]
+    ],
+    "description": "QuickbooksWebConnector is an engine for sending requests and recieving responses from the Quickbooks Web Connector"
   },
   "quickcite": {
     "version": "1.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simplify your (academic) life.\n\nInstead of manually hunting down references, let QuickCite do the work for you!\n\nFor usage instructions, see http://github.com/rjpower/quickcite.\n\n"
   },
   "quickconnect": {
     "version": "1.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quickly connect to a Rails database by inspecting the database.yml of the current application directory."
   },
   "quickeebooks": {
     "version": "0.1.20",
     "dependents": [
 
-    ]
+    ],
+    "description": "REST API to Quickbooks Online/Windows via Intuit Data Services"
   },
   "quicken": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "QIF (Quicken Interchange Format) parser"
   },
   "quickening": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "    Quickening is a Rails gem for adding to your model a facility to query and manage duplicate records. It's been written to remain relatively abstract and adaptable to various models, and so the library should be an easy plugin for models you may have set up already (barring name clashes).\n\n    Beyond the abstracted query methods for searching efficiently throughout the table (but only tested against MySQL 5.5, sorry), your models gain access to methods for dispending with duplicates, chores varying in complexity ranging from the trivial deletes to customizable merges (future feature).\n"
   },
   "quickfix-jruby": {
     "version": "unknown",
@@ -2287,13 +2567,15 @@
         "name": "fix_spec",
         "requirements": "~> 1.5.3"
       }
-    ]
+    ],
+    "description": "QuickFIX/J packaged as a gem for JRuby"
   },
   "quickgraph": {
     "version": "3.3.50603.0.20100822",
     "dependents": [
 
-    ]
+    ],
+    "description": "QuickGraph provides generic directed/undirected graph datastructures and algorithms for .Net 2.0 and up. QuickGraph comes with algorithms such as depth first seach, breath first search, A* search, shortest path, k-shortest path, maximum flow, minimum spanning tree, least common ancestors, etc... QuickGraph supports MSAGL, GLEE, and Graphviz to render the graphs, serialization to GraphML, etc..."
   },
   "quickie": {
     "version": "0.3.0",
@@ -2302,13 +2584,15 @@
         "name": "awesome_print_motion",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Quickie adds Object#should, Object#should_not, and Object#stub methods for quick and easy testing of your Ruby code"
   },
   "quickie_motion": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quickie adds Object#should, Object#should_not, and Object#stub methods for quick and easy testing of your RubyMotion code"
   },
   "quickl": {
     "version": "0.4.3",
@@ -2349,55 +2633,64 @@
         "name": "wlang",
         "requirements": "~> 0.4.3"
       }
-    ]
+    ],
+    "description": "Quickl helps you creating commandline ruby programs. From simple commands \nwith options to complex delegators with subcommands, global and local \noptions."
   },
   "quickmug": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Easy command line smugmug uploader"
   },
   "quickroute": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Library for parsing the GPS data embedded to JPG files by QuickRoute (http://www.matstroeng.se/quickroute/en/)."
   },
   "quickserve": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A quick way to serve static files"
   },
   "quickshare": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Command line utility for serving the current directory over HTTP."
   },
   "quickstats": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "This class uses Kalman Filter updating to tally sample mean and sample variance, along with min, max, and sample size. Standard deviation and standard error are calculated on demand."
   },
   "quicksync": {
     "version": "0.0.7.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "QuickSync gem description 1"
   },
   "quicktest": {
     "version": "0.6.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "utility for inlining tests with the code tested"
   },
   "quicktime-player-mac": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "control QuickTime Player on Mac."
   },
   "quicky": {
     "version": "0.4.0",
@@ -2410,19 +2703,22 @@
         "name": "rest",
         "requirements": ">= 0.4.0"
       }
-    ]
+    ],
+    "description": "Rest client wrapper that chooses best installed client."
   },
   "quid": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "    A gem for prompting questions on the command line, designed with a philosophy\n    of minimalism and simplicity.\n"
   },
   "quiescent": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is a very simple mixin to support quiescing constants (which we call \"quiescents\") in Ruby.  You may assign a value to a quiescing constant once during the execution of the program; however, a quiescing constant's value is fixed after the first time it is read.  Quiescing constants may have default values (specified either as explicit values or argumentless blocks to compute that value) that take effect if they are not explicitly assigned to before their first use."
   },
   "quiet_assets": {
     "version": "1.0.2",
@@ -2491,151 +2787,176 @@
         "name": "working-rails",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "Quiet assets turn off rails assets log."
   },
   "quietbacktrace": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "== Install  sudo gem install quietbacktrace  == Usage  Quiet Backtrace works by adding new attributes to Test::Unit::TestCase.  By default, their values are:  self.quiet_backtrace = true self.backtrace_silencers = [:test_unit, :gem_root, :e1] self.backtrace_filters = [:method_name]"
   },
   "quiiq": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "  \t\t  Ruby wrapper for the QUIIQ web services layer (http://www.quiiq.com/).\n"
   },
   "quijotipsum_api": {
     "version": "0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "An Interface to Quijotipsum.com written in Ruby. It provides an API and a command line command."
   },
   "quik_start": {
     "version": "0.0.11",
     "dependents": [
 
-    ]
+    ],
+    "description": "gem for setting up projects"
   },
   "quilb": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A personal publishing platform."
   },
   "quill": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quill helps you organize your code more easily by separating the business of specifying a class's dependencies from the business of actually providing them, using a simple, declerative syntax."
   },
   "quilt": {
     "version": "0.0.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby library for generating identicon.\nhttps://github.com/swdyh/quilt"
   },
   "quilted-harvested": {
     "version": "0.3.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Harvested wraps the Harvest API concisely without the use of Rails dependencies. More information about the Harvest API can be found on their website (http://www.getharvest.com/api). For support hit up the Mailing List (http://groups.google.com/group/harvested)"
   },
   "quimby": {
     "version": "0.4.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Foursquare API wrapper"
   },
   "quincunx": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This probably shouldn't work..."
   },
   "quincy": {
     "version": "0.4.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "extract patient data from QuincyPCnet data files, <http://www.frey.de/q_pcnet.htm>"
   },
   "quine_mc": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Pretty much only for command line use"
   },
   "quintus-example-gem": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "This is an example gem demonstrating how to create RubyGems.\n"
   },
   "quirk": {
     "version": "0.0.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Command line tool for tracking good/bad habits, data stored in plaintext."
   },
   "quixote": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A flexible, stateful generator for sample time-series data"
   },
   "quiyo": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Inspired by pimpd2"
   },
   "quiz": {
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "quiz"
   },
   "quizgame": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "This gem privide framework for quiz game. This gem can be used for spaced repetition study. The more frequently mistaken problems are given more frequently."
   },
   "quizlet-ruby": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A Ruby wrapper for the Quizlet 2.0 API"
   },
   "quizzy": {
     "version": "0.3.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Survey engine supporting complex surveys"
   },
   "qujo": {
     "version": "0.1.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Description of Qujo."
   },
   "qunit-cli-runner": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "CLI Runner for QUnit tests"
   },
   "qunit-rails": {
     "version": "0.0.4",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qunit for Rails 3.2+"
   },
   "qunit_for_rails": {
     "version": "0.0.9",
     "dependents": [
 
-    ]
+    ],
+    "description": "Helper to integrate QUnit JavaScript testing into any Rails app"
   },
   "qunited": {
     "version": "0.5.3",
@@ -2644,49 +2965,57 @@
         "name": "qunited-rails",
         "requirements": ">= 0"
       }
-    ]
+    ],
+    "description": "QUnited runs headless QUnit tests as part of your normal build"
   },
   "qunited-rails": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Run headless JavaScript tests with QUnit/QUnited with your Rails project"
   },
   "quo_vadis": {
     "version": "1.3.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Simple username/password authentication for Rails 3."
   },
   "quora-client": {
     "version": "0.1.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "This GEM provides an easy way to access Quora Alpha API"
   },
   "quora_notify": {
     "version": "0.0.14",
     "dependents": [
 
-    ]
+    ],
+    "description": "    QuoraNotify provides basic access to one of the few API's Quora.com has opened to the public.\n    It uses local quora cookies to access this API as a logged-in user.\n\n    See https://www.quora.com/Edmond-Lau/Edmond-Laus-Posts/Quora-Extension-API for more information about this Alpha API.\n"
   },
   "quorum": {
     "version": "0.8.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Flexible bioinformatics search tool."
   },
   "quotable": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem to add inspirational quotes to your Ruby app. \n    Quotable.random #=> A journey of a thousand miles begins with a single step.\" - Laozi"
   },
   "quote": {
     "version": "0.1.8",
     "dependents": [
 
-    ]
+    ],
+    "description": "Awesome quotes - maintain them, get them conviniently from command line"
   },
   "quote_unquote": {
     "version": "0.1.1",
@@ -2695,73 +3024,85 @@
         "name": "each_sql",
         "requirements": "~> 0.1.1"
       }
-    ]
+    ],
+    "description": "Wraps and unwraps strings with quotes"
   },
   "quotefm": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Unofficial Wrapper for the Quote.fm REST API"
   },
   "quotemedia": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "A thin wrapper to Quotemedia apis"
   },
   "quotes": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "A lightweight wrapper for the Yahoo stock quotes API."
   },
   "quotewall": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Generate a beautiful wallpaper from a specified quote"
   },
   "quotey": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Quotey - A gem for generating random quotes "
   },
   "quoth": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Pseudo random quote of the day from wikiquotes"
   },
   "quotinator": {
     "version": "0.1.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A simple gem to replace the special characters from Microsoft products to their basic equivalents."
   },
   "quotr": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Retrieves historical stock and mutual fund quotes"
   },
   "quova": {
     "version": "0.0.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides a high-level client for the Quova API"
   },
   "qup": {
     "version": "1.4.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Qup is a generalized API for Message Queue and Publish/Subscribe messaging patterns with the ability to plug in an appropriate messaging infrastructure based upon your needs. Qup ships with support for Kestrel, Redis, and a filesystem infrastructure based on Maildir. Additional Adapters will be developed as needs arise. Please submit an Issue to have a new Adapter created. Pull requests gladly accepted."
   },
   "quredis": {
     "version": "0.5.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "quredis (pronounced 'kurdis') is a little DSL for redis safe queues using brpoplpush. \n"
   },
   "qusion": {
     "version": "0.2.0",
@@ -2774,55 +3115,64 @@
         "name": "rcelery",
         "requirements": "~> 0.1.9"
       }
-    ]
+    ],
+    "description": "Makes AMQP work with Ruby on Rails with no fuss."
   },
   "qvem": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "Display error messages in qtips(tooltip) for all rails erros and jquery validation errors"
   },
   "qvod": {
     "version": "0.1.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "qvod"
   },
   "qwandry": {
     "version": "0.1.5",
     "dependents": [
 
-    ]
+    ],
+    "description": "Open a gem or library's source directory with your default editor."
   },
   "qwerly": {
     "version": "1.0.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "Retrieves data using the Qwerly application"
   },
   "qwerly-ruby": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Retrieves data using the Qwerly application"
   },
   "qwester": {
     "version": "0.2.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Questionnaires have many questions. Questions have many answers. Answers match Rule Sets. Qwester manages these objects and the relationships that join them."
   },
   "qwikdoc": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "text-to-HTML conversion tool for qwikWeb users"
   },
   "qwiki": {
     "version": "1.2.0",
     "dependents": [
 
-    ]
+    ],
+    "description": "A command-line web server that renders wiki markup files. It's handy when you want a quick preview of your markup."
   },
   "qwirk": {
     "version": "0.2.4",
@@ -2831,13 +3181,15 @@
         "name": "qwirk_jms_adapter",
         "requirements": "~> 0.2.1"
       }
-    ]
+    ],
+    "description": "Library for performing background tasks as well as asynchronous and parallel RPC calls"
   },
   "qwirk_active_mq_adapter": {
     "version": "unknown",
     "dependents": [
 
-    ]
+    ],
+    "description": "Provides an ActiveMQ adapter as a communication interface for the qwirk library"
   },
   "qwirk_jms_adapter": {
     "version": "unknown",
@@ -2846,18 +3198,21 @@
         "name": "qwirk_active_mq_adapter",
         "requirements": "~> 0.2.1"
       }
-    ]
+    ],
+    "description": "Provides a JMS adapter as a communication interface for the qwirk library"
   },
   "qwop_client": {
     "version": "0.0.1",
     "dependents": [
 
-    ]
+    ],
+    "description": "QwopClient is a client for publishing messages to an NSQ instance"
   },
   "qykin": {
     "version": "0.0.2",
     "dependents": [
 
-    ]
+    ],
+    "description": "Very small gem for creating short URLs with Qyk.in"
   }
 }
