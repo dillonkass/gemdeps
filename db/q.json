@@ -11,6 +11,12 @@
 
     ]
   },
+  "q-defer": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "q-language": {
     "version": "1.0.0",
     "dependents": [
@@ -30,13 +36,19 @@
     ]
   },
   "q_deploy": {
-    "version": "0.0.8",
+    "version": "0.0.10",
     "dependents": [
 
     ]
   },
   "q_translate": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "qa-rails": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -54,7 +66,7 @@
     ]
   },
   "qaddy-client": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
 
     ]
@@ -67,6 +79,18 @@
   },
   "qaol": {
     "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "qarioz-confluencer": {
+    "version": "0.6.0",
+    "dependents": [
+
+    ]
+  },
+  "qb_iif": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -90,19 +114,31 @@
     ]
   },
   "qbxml": {
-    "version": "0.1.4",
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "qbxml-dtd6": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "qc-additions": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "qc-mailer": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
   },
   "qcmd": {
-    "version": "0.1.7",
+    "version": "0.1.16",
     "dependents": [
 
     ]
@@ -143,6 +179,12 @@
 
     ]
   },
+  "qdoc": {
+    "version": "0.0.25",
+    "dependents": [
+
+    ]
+  },
   "qdox": {
     "version": "1.10.1",
     "dependents": [
@@ -150,7 +192,7 @@
     ]
   },
   "qe": {
-    "version": "0.2.1",
+    "version": "0.3.2",
     "dependents": [
 
     ]
@@ -171,11 +213,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "assay-minitest",
+        "name": "assay-testunit",
         "requirements": ">= 0"
       },
       {
-        "name": "assay-testunit",
+        "name": "assay-minitest",
         "requirements": ">= 0"
       },
       {
@@ -371,11 +413,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rubytest-cli",
+        "name": "rubytest",
         "requirements": ">= 0"
       },
       {
-        "name": "rubytest",
+        "name": "rubytest-cli",
         "requirements": ">= 0"
       },
       {
@@ -417,13 +459,19 @@
     ]
   },
   "qedproject": {
-    "version": "0.5.0",
+    "version": "0.6.2",
+    "dependents": [
+
+    ]
+  },
+  "qemu": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
   },
   "qemu-toolkit": {
-    "version": "0.3.5",
+    "version": "0.5.2",
     "dependents": [
 
     ]
@@ -435,7 +483,7 @@
     ]
   },
   "qfill": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -465,7 +513,13 @@
     ]
   },
   "qiflib": {
-    "version": "0.2.0",
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "qihu360": {
+    "version": "0.3.15",
     "dependents": [
 
     ]
@@ -511,8 +565,14 @@
 
     ]
   },
+  "qimport": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
   "qiniu-rs": {
-    "version": "3.4.2",
+    "version": "3.4.6",
     "dependents": [
       {
         "name": "backup2qiniu",
@@ -520,16 +580,26 @@
       },
       {
         "name": "carrierwave-qiniu",
-        "requirements": "~> 3.0.3"
+        "requirements": "~> 3.4.2"
       },
       {
         "name": "paperclip-qiniu",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "qiniu_direct_uploader",
+        "requirements": ">= 3.4.5"
       }
     ]
   },
   "qiniu-s3": {
     "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "qiniu_direct_uploader": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -547,14 +617,26 @@
     ]
   },
   "qless": {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "dependents": [
+      {
+        "name": "plines",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "qless-campfire",
+        "requirements": "~> 0.9"
+      },
       {
         "name": "qless-growl",
         "requirements": "~> 0.9"
       },
       {
-        "name": "qless-campfire",
+        "name": "qless-pool",
+        "requirements": "~> 0.9"
+      },
+      {
+        "name": "qmore",
         "requirements": "~> 0.9"
       }
     ]
@@ -567,6 +649,12 @@
   },
   "qless-growl": {
     "version": "0.9.1",
+    "dependents": [
+
+    ]
+  },
+  "qless-pool": {
+    "version": "0.5.2",
     "dependents": [
 
     ]
@@ -596,7 +684,7 @@
     ]
   },
   "qlive-rspec": {
-    "version": "0.4.0",
+    "version": "0.4.2",
     "dependents": [
 
     ]
@@ -607,8 +695,26 @@
 
     ]
   },
+  "qm": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
   "qm-acts-as-generic-controller": {
     "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "qmin": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "qmore": {
+    "version": "0.5.2",
     "dependents": [
 
     ]
@@ -661,7 +767,7 @@
     ]
   },
   "qor_test": {
-    "version": "0.1.1",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "qor_cache",
@@ -682,7 +788,7 @@
     ]
   },
   "qpid_messaging": {
-    "version": "0.20.2",
+    "version": "0.24.0",
     "dependents": [
       {
         "name": "qpid_management",
@@ -691,7 +797,7 @@
     ]
   },
   "qpid_proton": {
-    "version": "0.4",
+    "version": "0.5",
     "dependents": [
 
     ]
@@ -702,14 +808,20 @@
 
     ]
   },
-  "qq": {
-    "version": "0.0.1",
+  "qq-pengyou": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
   },
-  "qq-pengyou": {
-    "version": "1.0.0",
+  "qq_17up": {
+    "version": "4.0.3",
+    "dependents": [
+
+    ]
+  },
+  "qq_hulian": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -786,6 +898,12 @@
       }
     ]
   },
+  "qreport": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
   "qrp": {
     "version": "0.4.1",
     "dependents": [
@@ -825,6 +943,18 @@
       }
     ]
   },
+  "qs-heroku-client": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "qs-request-tracker": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "qs-resque": {
     "version": "0.0.1",
     "dependents": [
@@ -832,7 +962,7 @@
     ]
   },
   "qsagi": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -845,6 +975,12 @@
   },
   "QSID": {
     "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "qspec": {
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -890,12 +1026,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lingvo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mastercoin-wallet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "puzzle_selector",
         "requirements": "~> 4.6.3"
       },
       {
         "name": "qtext",
         "requirements": ">= 4.6.3"
+      },
+      {
+        "name": "tmis",
+        "requirements": ">= 4.8.3.0"
       }
     ]
   },
@@ -906,6 +1054,12 @@
         "name": "clevic",
         "requirements": ">= 0.6.7"
       }
+    ]
+  },
+  "qtip2-jquery-rails": {
+    "version": "2.1.1.5",
+    "dependents": [
+
     ]
   },
   "qtjruby-core": {
@@ -922,6 +1076,12 @@
   },
   "qtrefmovie": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "qtrix": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -949,6 +1109,22 @@
         "requirements": ">= 0"
       },
       {
+        "name": "qu-mongo",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-airbrake",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-rails",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-delayed",
+        "requirements": "= 0.1.4"
+      },
+      {
         "name": "qu-mongoid",
         "requirements": ">= 0"
       },
@@ -957,28 +1133,12 @@
         "requirements": "= 0.2.0"
       },
       {
-        "name": "qu-airbrake",
-        "requirements": "= 0.2.0"
+        "name": "qu-spec",
+        "requirements": ">= 0.1.3"
       },
       {
         "name": "qu-redis",
         "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-rails",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-mongo",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-delayed",
-        "requirements": "= 0.1.4"
-      },
-      {
-        "name": "qu-spec",
-        "requirements": ">= 0.1.3"
       },
       {
         "name": "qu_mailer",
@@ -1051,7 +1211,7 @@
     ]
   },
   "qu_mailer": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -1080,6 +1240,18 @@
 
     ]
   },
+  "quaderno": {
+    "version": "1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "quaff": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "quaid": {
     "version": "0.0.3",
     "dependents": [
@@ -1098,8 +1270,26 @@
 
     ]
   },
+  "quakelive_api": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "quakelogparser": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "quality": {
+    "version": "0.2.12",
+    "dependents": [
+
+    ]
+  },
   "quality-measure-engine": {
-    "version": "2.3.0",
+    "version": "2.5.1",
     "dependents": [
 
     ]
@@ -1135,6 +1325,12 @@
 
     ]
   },
+  "quality_time": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
   "qualitysmith_extensions": {
     "version": "0.0.64",
     "dependents": [
@@ -1145,6 +1341,69 @@
       {
         "name": "svn-command",
         "requirements": "> 0.0.0"
+      }
+    ]
+  },
+  "quandl_cassinatra": {
+    "version": "0.1.16",
+    "dependents": [
+
+    ]
+  },
+  "quandl_client": {
+    "version": "0.1.17",
+    "dependents": [
+
+    ]
+  },
+  "quandl_data": {
+    "version": "0.1.11",
+    "dependents": [
+      {
+        "name": "quandl_cassinatra",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_client",
+        "requirements": "~> 0.1"
+      }
+    ]
+  },
+  "quandl_logger": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "quandl_cassinatra",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_client",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_data",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_operation",
+        "requirements": "~> 0.1"
+      }
+    ]
+  },
+  "quandl_operation": {
+    "version": "0.1.11",
+    "dependents": [
+      {
+        "name": "quandl_cassinatra",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_client",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "quandl_data",
+        "requirements": "~> 0.1"
       }
     ]
   },
@@ -1173,6 +1432,12 @@
 
     ]
   },
+  "quantile": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "quantipay-acts_as_secure": {
     "version": "1.0.4",
     "dependents": [
@@ -1197,8 +1462,14 @@
 
     ]
   },
+  "quantum": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
   "quantum_leap": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ]
@@ -1217,6 +1488,12 @@
   },
   "quarantino": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "quarrel": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -1245,6 +1522,12 @@
 
     ]
   },
+  "quarto": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "quartz-dotnet": {
     "version": "1.0.2.0.20100811",
     "dependents": [
@@ -1269,8 +1552,14 @@
 
     ]
   },
+  "qudea": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "quebert": {
-    "version": "1.12.0",
+    "version": "2.0.1",
     "dependents": [
 
     ]
@@ -1283,6 +1572,12 @@
   },
   "queencheck": {
     "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "quench": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -1314,26 +1609,44 @@
 
     ]
   },
+  "query-interface-client": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "query-interface-server": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "query-nyc": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "query_28io": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "query_diet": {
-    "version": "0.4.0",
+    "version": "0.5.2",
     "dependents": [
 
     ]
   },
   "query_report": {
-    "version": "0.0.5",
+    "version": "1.0.4",
     "dependents": [
 
     ]
   },
   "query_reviewer": {
-    "version": "0.1.8",
+    "version": "0.2.2",
     "dependents": [
 
     ]
@@ -1348,7 +1661,7 @@
     ]
   },
   "query_string_interface": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "dependents": [
       {
         "name": "mongoid_query_string_interface",
@@ -1408,11 +1721,11 @@
     ]
   },
   "querybuilder": {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "dependents": [
       {
         "name": "zena",
-        "requirements": "= 1.2.1"
+        "requirements": "= 1.2.2"
       }
     ]
   },
@@ -1426,7 +1739,11 @@
     "version": "0.0.3",
     "dependents": [
       {
-        "name": "gam",
+        "name": "apdm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gaah",
         "requirements": "= 0.0.3"
       },
       {
@@ -1455,7 +1772,7 @@
     ]
   },
   "quesadilla": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -1478,6 +1795,12 @@
 
     ]
   },
+  "question_mark_methods": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "questionable": {
     "version": "0.1.0",
     "dependents": [
@@ -1485,7 +1808,13 @@
     ]
   },
   "questionable_surveys": {
-    "version": "0.2.1",
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "questioning_authority": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -1497,7 +1826,7 @@
     ]
   },
   "questions": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "dependents": [
 
     ]
@@ -1509,7 +1838,7 @@
     ]
   },
   "queue_classic": {
-    "version": "2.1.3",
+    "version": "2.2.2",
     "dependents": [
       {
         "name": "devise-async",
@@ -1520,29 +1849,55 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "qc-additions",
+        "requirements": "~> 2.2.0"
+      },
+      {
         "name": "qc-mailer",
-        "requirements": "~> 2.0.1"
+        "requirements": "~> 2.1"
       },
       {
         "name": "queue_classic-later",
-        "requirements": "~> 2.0"
+        "requirements": ">= 2.1.3"
+      },
+      {
+        "name": "queue_classic_admin",
+        "requirements": ">= 2.1.0"
       }
     ]
   },
   "queue_classic-later": {
-    "version": "0.0.3",
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "queue_classic_admin": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "queue_client": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
   },
   "queue_dispatcher": {
-    "version": "1.2.0",
+    "version": "1.3.1",
     "dependents": [
 
     ]
   },
   "queue_fetcher": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "queue_kit": {
+    "version": "0.0.9",
     "dependents": [
 
     ]
@@ -1564,6 +1919,12 @@
   },
   "queued": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "queued-ruby": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -1594,13 +1955,25 @@
     ]
   },
   "queueing_rabbit": {
-    "version": "0.1.2",
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "queuel": {
+    "version": "0.2.0",
     "dependents": [
 
     ]
   },
   "quez_locodriver": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "qui": {
+    "version": "0.9.0",
     "dependents": [
 
     ]
@@ -1804,6 +2177,12 @@
 
     ]
   },
+  "quick_shoulda": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "quick_start": {
     "version": "0.3.2",
     "dependents": [
@@ -1868,7 +2247,7 @@
     ]
   },
   "quickcite": {
-    "version": "1.0.6",
+    "version": "1.0.8",
     "dependents": [
 
     ]
@@ -1880,7 +2259,7 @@
     ]
   },
   "quickeebooks": {
-    "version": "0.1.6",
+    "version": "0.1.20",
     "dependents": [
 
     ]
@@ -1895,6 +2274,19 @@
     "version": "0.1.1",
     "dependents": [
 
+    ]
+  },
+  "quickfix-jruby": {
+    "version": "unknown",
+    "dependents": [
+      {
+        "name": "agent_fix",
+        "requirements": "~> 1.5.4"
+      },
+      {
+        "name": "fix_spec",
+        "requirements": "~> 1.5.3"
+      }
     ]
   },
   "quickgraph": {
@@ -1922,8 +2314,8 @@
     "version": "0.4.3",
     "dependents": [
       {
-        "name": "alf",
-        "requirements": "~> 0.4.2"
+        "name": "alf-shell",
+        "requirements": "~> 0.4.3"
       },
       {
         "name": "gisele",
@@ -1959,8 +2351,20 @@
       }
     ]
   },
+  "quickmug": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "quickroute": {
     "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "quickserve": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2024,7 +2428,23 @@
     "version": "1.0.2",
     "dependents": [
       {
+        "name": "act_as_admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "altria",
+        "requirements": ">= 0"
+      },
+      {
         "name": "atom_smasher",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bootstrap-view-helpers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "content",
         "requirements": ">= 0"
       },
       {
@@ -2040,7 +2460,31 @@
         "requirements": ">= 0"
       },
       {
+        "name": "magi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "noa-developer",
+        "requirements": "~> 1.0.2"
+      },
+      {
         "name": "rails-dev-bundle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails_view_helpers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rapidfire",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ucb_rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "user_announcements",
         "requirements": ">= 0"
       },
       {
@@ -2073,8 +2517,20 @@
 
     ]
   },
+  "quilb": {
+    "version": "0.5.2",
+    "dependents": [
+
+    ]
+  },
+  "quill": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "quilt": {
-    "version": "0.0.5",
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -2087,6 +2543,12 @@
   },
   "quimby": {
     "version": "0.4.5",
+    "dependents": [
+
+    ]
+  },
+  "quincunx": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -2128,13 +2590,13 @@
     ]
   },
   "quiz": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
   },
   "quizgame": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -2151,6 +2613,12 @@
 
     ]
   },
+  "qujo": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
   "qunit-cli-runner": {
     "version": "0.0.1",
     "dependents": [
@@ -2158,7 +2626,7 @@
     ]
   },
   "qunit-rails": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -2170,7 +2638,7 @@
     ]
   },
   "qunited": {
-    "version": "0.4.1",
+    "version": "0.5.3",
     "dependents": [
       {
         "name": "qunited-rails",
@@ -2179,13 +2647,13 @@
     ]
   },
   "qunited-rails": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "quo_vadis": {
-    "version": "1.2.3",
+    "version": "1.3.0",
     "dependents": [
 
     ]
@@ -2196,8 +2664,20 @@
 
     ]
   },
+  "quora_notify": {
+    "version": "0.0.14",
+    "dependents": [
+
+    ]
+  },
   "quorum": {
     "version": "0.8.2",
+    "dependents": [
+
+    ]
+  },
+  "quotable": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2235,6 +2715,12 @@
 
     ]
   },
+  "quotewall": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "quotey": {
     "version": "0.0.3",
     "dependents": [
@@ -2243,6 +2729,12 @@
   },
   "quoth": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "quotinator": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -2284,6 +2776,12 @@
       }
     ]
   },
+  "qvem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "qvod": {
     "version": "0.1.1",
     "dependents": [
@@ -2309,7 +2807,7 @@
     ]
   },
   "qwester": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ]
@@ -2348,6 +2846,12 @@
         "name": "qwirk_active_mq_adapter",
         "requirements": "~> 0.2.1"
       }
+    ]
+  },
+  "qwop_client": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "qykin": {

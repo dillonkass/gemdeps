@@ -6,7 +6,7 @@
     ]
   },
   "l10n": {
-    "version": "0.0.7",
+    "version": "0.0.10",
     "dependents": [
 
     ]
@@ -23,6 +23,12 @@
 
     ]
   },
+  "l2met-syslog": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "l2p": {
     "version": "1.0",
     "dependents": [
@@ -32,8 +38,20 @@
       }
     ]
   },
+  "l33t-output": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "l5m-tools": {
-    "version": "0.0.8",
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "la_logger": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -65,6 +83,45 @@
       }
     ]
   },
+  "lab419_options": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lab419_tmux": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lab42_core": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lab42_options": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "lab42_tmux",
+        "requirements": "~> 0.1.0"
+      }
+    ]
+  },
+  "lab42_state_machine": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "lab42_tmux": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "lab_bench": {
     "version": "0.3.1",
     "dependents": [
@@ -72,6 +129,18 @@
     ]
   },
   "label_builder": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "label_factory": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "label_me": {
     "version": "0.0.3",
     "dependents": [
 
@@ -143,6 +212,12 @@
 
     ]
   },
+  "labrea": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
   "labs": {
     "version": "0.16.0",
     "dependents": [
@@ -182,6 +257,12 @@
 
     ]
   },
+  "lackey": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lackie": {
     "version": "0.2.0",
     "dependents": [
@@ -215,19 +296,35 @@
 
     ]
   },
+  "ladda-sprockets": {
+    "version": "0.7.2",
+    "dependents": [
+
+    ]
+  },
+  "ladda_on_rails": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "ladder": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "ladle": {
     "version": "unknown",
     "dependents": [
       {
+        "name": "github-ldap",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hydra-ldap",
         "requirements": ">= 0"
       }
-    ]
-  },
-  "lady": {
-    "version": "0.0.1",
-    "dependents": [
-
     ]
   },
   "lady_gaga": {
@@ -248,8 +345,23 @@
 
     ]
   },
+  "lager": {
+    "version": "1.1.2.1",
+    "dependents": [
+      {
+        "name": "mudbug",
+        "requirements": ">= 0.2"
+      }
+    ]
+  },
   "laika": {
     "version": "1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "lair_drone_blacksheepwall": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -266,6 +378,12 @@
 
     ]
   },
+  "lambda-calculus": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
   "lambda-queuer": {
     "version": "0.0.4",
     "dependents": [
@@ -278,6 +396,12 @@
 
     ]
   },
+  "lambda_gem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "LambdaRegexp": {
     "version": "0.0.1",
     "dependents": [
@@ -285,7 +409,19 @@
     ]
   },
   "lambdas": {
-    "version": "0.0.1",
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "lambert_ruby": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "lame": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -314,6 +450,18 @@
 
     ]
   },
+  "lampwick": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lancat": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "landable": {
     "version": "0.0.1",
     "dependents": [
@@ -326,8 +474,20 @@
 
     ]
   },
+  "landing_page": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
   "landlord": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "landrush": {
+    "version": "0.4.1",
     "dependents": [
 
     ]
@@ -339,7 +499,13 @@
     ]
   },
   "lane_groove": {
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "lanekit": {
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -396,11 +562,11 @@
     "version": "0.0.5.4",
     "dependents": [
       {
-        "name": "langrove-plugin-resque",
+        "name": "langrove-plugin-google",
         "requirements": ">= 0"
       },
       {
-        "name": "langrove-plugin-google",
+        "name": "langrove-plugin-resque",
         "requirements": ">= 0"
       }
     ]
@@ -498,6 +664,12 @@
       }
     ]
   },
+  "language_filter": {
+    "version": "0.3.01",
+    "dependents": [
+
+    ]
+  },
   "language_list": {
     "version": "1.0.0",
     "dependents": [
@@ -511,6 +683,10 @@
       },
       {
         "name": "bento_search",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "yahoo_content_analysis",
         "requirements": ">= 0"
       }
     ]
@@ -520,6 +696,10 @@
     "dependents": [
       {
         "name": "code_rippa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git_team_stats",
         "requirements": ">= 0"
       },
       {
@@ -592,7 +772,7 @@
     ]
   },
   "lanyrd": {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependents": [
 
     ]
@@ -604,7 +784,7 @@
     ]
   },
   "lapidary": {
-    "version": "0.2.3",
+    "version": "0.2.6",
     "dependents": [
 
     ]
@@ -621,14 +801,32 @@
 
     ]
   },
+  "lapis": {
+    "version": "1.2.2",
+    "dependents": [
+
+    ]
+  },
   "lapluviosilla-tickle": {
     "version": "0.1.9",
     "dependents": [
 
     ]
   },
+  "lapse": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "laptimer-geometry": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "laraib": {
+    "version": "0.0.1.1",
     "dependents": [
 
     ]
@@ -646,13 +844,25 @@
     ]
   },
   "lardawge-rfm": {
-    "version": "1.4.1.2",
+    "version": "1.4.2",
     "dependents": [
 
     ]
   },
   "large-hadron-migrator": {
     "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "large_binomials": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "large_object_store": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -712,7 +922,7 @@
     ]
   },
   "las2witsml": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -744,6 +954,12 @@
       }
     ]
   },
+  "lashd-product_api": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "lasso": {
     "version": "0.3.0",
     "dependents": [
@@ -762,6 +978,12 @@
 
     ]
   },
+  "last_commit": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "last_fm": {
     "version": "0.1.0",
     "dependents": [
@@ -769,7 +991,7 @@
     ]
   },
   "last_line": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -787,15 +1009,15 @@
     ]
   },
   "lastfm": {
-    "version": "1.17.0",
+    "version": "1.21.0",
     "dependents": [
-      {
-        "name": "lastfm_tools",
-        "requirements": "= 1.4.0"
-      },
       {
         "name": "lastfm-path-finder",
         "requirements": "= 1.7.0"
+      },
+      {
+        "name": "lastfm_tools",
+        "requirements": "= 1.4.0"
       },
       {
         "name": "LOLastfm",
@@ -824,7 +1046,7 @@
     ]
   },
   "lastfm-m3u": {
-    "version": "0.2.3",
+    "version": "0.2.5.1",
     "dependents": [
 
     ]
@@ -836,7 +1058,7 @@
     ]
   },
   "lastfm-tail": {
-    "version": "1.0.2",
+    "version": "1.1.2",
     "dependents": [
 
     ]
@@ -883,6 +1105,12 @@
 
     ]
   },
+  "latent_object_detector": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "later": {
     "version": "0.2.0",
     "dependents": [
@@ -893,12 +1121,16 @@
     "version": "0.3.3",
     "dependents": [
       {
+        "name": "forge-rad19",
+        "requirements": "= 0.3.3"
+      },
+      {
         "name": "forge-rad",
         "requirements": "= 0.3.3"
       },
       {
-        "name": "forge-rad19",
-        "requirements": "= 0.3.3"
+        "name": "forge-rad20",
+        "requirements": "~> 0.3.3"
       }
     ]
   },
@@ -918,6 +1150,15 @@
     "version": "1.0.3",
     "dependents": [
 
+    ]
+  },
+  "latest_ruby": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "pry-doc",
+        "requirements": ">= 0"
+      }
     ]
   },
   "latex": {
@@ -956,6 +1197,12 @@
   },
   "latex-tools": {
     "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "lathe": {
+    "version": "0.0.9",
     "dependents": [
 
     ]
@@ -1007,7 +1254,7 @@
     ]
   },
   "lattice": {
-    "version": "0.0.0",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -1033,6 +1280,12 @@
 
     ]
   },
+  "launchbg": {
+    "version": "0.0.16",
+    "dependents": [
+
+    ]
+  },
   "launchcraft": {
     "version": "0.0.1.4.2",
     "dependents": [
@@ -1042,11 +1295,20 @@
   "launchdr": {
     "version": "3",
     "dependents": [
-
+      {
+        "name": "boxafe",
+        "requirements": "= 3"
+      }
     ]
   },
   "launchit": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "launchkey": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -1059,6 +1321,21 @@
   },
   "launchr": {
     "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "launchrock": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "launchrock-sync",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "launchrock-sync": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -1083,19 +1360,15 @@
         "requirements": "~> 2.1.2"
       },
       {
-        "name": "activerecord-tableless",
-        "requirements": "~> 2.1"
-      },
-      {
         "name": "addressable",
         "requirements": ">= 0.3.2"
       },
       {
-        "name": "administer",
+        "name": "adherent",
         "requirements": ">= 0"
       },
       {
-        "name": "adventure",
+        "name": "administer",
         "requirements": ">= 0"
       },
       {
@@ -1103,15 +1376,15 @@
         "requirements": "~> 2.1.2"
       },
       {
+        "name": "amalgam",
+        "requirements": ">= 0"
+      },
+      {
         "name": "amos",
         "requirements": ">= 0"
       },
       {
         "name": "ample_assets",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "amalgam",
         "requirements": ">= 0"
       },
       {
@@ -1123,6 +1396,14 @@
         "requirements": ">= 0.3.2"
       },
       {
+        "name": "ashton",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "atc-tools",
+        "requirements": "= 2.3.0"
+      },
+      {
         "name": "atreides",
         "requirements": ">= 0"
       },
@@ -1131,8 +1412,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "auth_users",
+        "requirements": ">= 0"
+      },
+      {
         "name": "autoparse",
         "requirements": ">= 2.1.1"
+      },
+      {
+        "name": "azuki",
+        "requirements": ">= 0.3.2"
       },
       {
         "name": "baby_tooth",
@@ -1153,6 +1442,10 @@
       {
         "name": "bbc-capybara",
         "requirements": "~> 2.0.4"
+      },
+      {
+        "name": "bcms_garment_district",
+        "requirements": ">= 0"
       },
       {
         "name": "bdoc",
@@ -1195,19 +1488,11 @@
         "requirements": ">= 2.0.5"
       },
       {
-        "name": "box-api",
-        "requirements": ">= 0"
-      },
-      {
         "name": "box-api-ani",
         "requirements": ">= 0"
       },
       {
-        "name": "brightcontent-attachments",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "brightcontent-assets",
+        "name": "box-api",
         "requirements": ">= 0"
       },
       {
@@ -1216,6 +1501,14 @@
       },
       {
         "name": "brightcontent-pages",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "brightcontent-assets",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "brightcontent-attachments",
         "requirements": ">= 0"
       },
       {
@@ -1239,8 +1532,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bukkit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cablegator",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cadenero",
+        "requirements": "~> 2.3.0"
       },
       {
         "name": "capybara",
@@ -1253,6 +1554,14 @@
       {
         "name": "capybara-rails-2-2",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "capybara-screenshot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capybarbecue",
+        "requirements": ">= 0"
       },
       {
         "name": "cargo_wiki",
@@ -1275,12 +1584,12 @@
         "requirements": ">= 2.1.2"
       },
       {
-        "name": "citygate",
-        "requirements": ">= 2.0.5"
+        "name": "china_city",
+        "requirements": ">= 0"
       },
       {
-        "name": "clearance",
-        "requirements": ">= 0"
+        "name": "citygate",
+        "requirements": ">= 2.0.5"
       },
       {
         "name": "cline",
@@ -1303,8 +1612,16 @@
         "requirements": "= 2.0.5"
       },
       {
+        "name": "compaa",
+        "requirements": ">= 0"
+      },
+      {
         "name": "confirmable",
         "requirements": "~> 2.0.5"
+      },
+      {
+        "name": "constructor-cms",
+        "requirements": ">= 0"
       },
       {
         "name": "cornerstone",
@@ -1371,11 +1688,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "devise_cas_authenticatable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "devise_cloudfuji_authenticatable",
         "requirements": ">= 0"
       },
       {
-        "name": "devise_cas_authenticatable",
+        "name": "devise_ldap_authenticatable",
         "requirements": ">= 0"
       },
       {
@@ -1399,6 +1720,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dropbox-utility",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dropdown",
+        "requirements": ">= 0"
+      },
+      {
         "name": "earthquake",
         "requirements": ">= 0"
       },
@@ -1411,15 +1740,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-github",
-        "requirements": ">= 0"
-      },
-      {
         "name": "easy_auth-google",
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-password",
+        "name": "easy_auth-github",
         "requirements": ">= 0"
       },
       {
@@ -1428,6 +1753,14 @@
       },
       {
         "name": "easy_auth-twitter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "easy_auth-password",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "easy_auth-zinergia",
         "requirements": ">= 0"
       },
       {
@@ -1448,7 +1781,7 @@
       },
       {
         "name": "engineyard",
-        "requirements": "= 2.1.0"
+        "requirements": "~> 2.1"
       },
       {
         "name": "engineyard-recipes",
@@ -1467,8 +1800,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "exercism",
+        "requirements": "~> 2.3.0"
+      },
+      {
         "name": "ey_ronin",
         "requirements": ">= 2"
+      },
+      {
+        "name": "fembem-forem",
+        "requirements": ">= 0"
       },
       {
         "name": "fields-addressable",
@@ -1483,11 +1824,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "flickr_airlift",
-        "requirements": "= 0.4.0"
+        "name": "flaun",
+        "requirements": ">= 0"
       },
       {
-        "name": "flickr_cli",
+        "name": "flickr_authentication",
         "requirements": "= 0.4.0"
       },
       {
@@ -1500,6 +1841,10 @@
       },
       {
         "name": "forem",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "formbuilder-rb",
         "requirements": ">= 0"
       },
       {
@@ -1567,15 +1912,15 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "git-review",
-        "requirements": ">= 0"
-      },
-      {
         "name": "git-pulls",
         "requirements": ">= 0"
       },
       {
         "name": "git-pulls-updated",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git-review",
         "requirements": ">= 0"
       },
       {
@@ -1603,12 +1948,12 @@
         "requirements": ">= 0.3.5"
       },
       {
-        "name": "google-api-omniauth",
-        "requirements": "~> 0.3.2"
-      },
-      {
         "name": "google-api-client",
         "requirements": ">= 2.1.1"
+      },
+      {
+        "name": "google-api-omniauth",
+        "requirements": "~> 0.3.2"
       },
       {
         "name": "google-browse",
@@ -1632,6 +1977,10 @@
       },
       {
         "name": "gumdrop",
+        "requirements": "= 0.4.0"
+      },
+      {
+        "name": "gyaazle",
         "requirements": ">= 0"
       },
       {
@@ -1652,7 +2001,11 @@
       },
       {
         "name": "heel",
-        "requirements": "~> 2.2"
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "helpdesk",
+        "requirements": ">= 0"
       },
       {
         "name": "heroku",
@@ -1687,6 +2040,10 @@
         "requirements": "~> 0.3.2"
       },
       {
+        "name": "importable_attachments",
+        "requirements": "~> 2.3.0"
+      },
+      {
         "name": "importable",
         "requirements": "~> 2.0.5"
       },
@@ -1703,12 +2060,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "instant-upload",
+        "requirements": ">= 0"
+      },
+      {
         "name": "interpret",
         "requirements": ">= 0"
       },
       {
         "name": "isrcs2mb",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "iugusdk",
+        "requirements": ">= 0"
       },
       {
         "name": "jamesgolick-webby",
@@ -1719,12 +2084,28 @@
         "requirements": ">= 0"
       },
       {
+        "name": "jekyll",
+        "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "john_stamos",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "jumpstart_auth",
         "requirements": ">= 0"
       },
       {
         "name": "jumpstart_auth",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kango",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kappa",
+        "requirements": "~> 2.3.0"
       },
       {
         "name": "kbaum-webrat",
@@ -1759,8 +2140,12 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lentil",
+        "requirements": ">= 0"
+      },
+      {
         "name": "letter_opener",
-        "requirements": "~> 2.2.0"
+        "requirements": "~> 2.2"
       },
       {
         "name": "lingohub",
@@ -1771,7 +2156,15 @@
         "requirements": "~> 0.3.2"
       },
       {
+        "name": "lionel_richie",
+        "requirements": ">= 0"
+      },
+      {
         "name": "locomotivecms-search",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "locomotivecms_wagon",
         "requirements": ">= 0"
       },
       {
@@ -1799,16 +2192,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "manageable_content",
+        "name": "manageable",
         "requirements": ">= 0"
       },
       {
-        "name": "manageable",
+        "name": "manageable_content",
         "requirements": ">= 0"
       },
       {
         "name": "mappable",
         "requirements": "~> 2.0.5"
+      },
+      {
+        "name": "markedly",
+        "requirements": ">= 0"
       },
       {
         "name": "mdify",
@@ -1847,7 +2244,11 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "mongo_browser",
+        "name": "moft",
+        "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "monad",
         "requirements": "~> 2.1.2"
       },
       {
@@ -1867,6 +2268,10 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "mvn_plugin_config",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mvn-plugin-config",
         "requirements": ">= 0"
       },
@@ -1876,7 +2281,7 @@
       },
       {
         "name": "myrurema",
-        "requirements": "~> 2.0.5"
+        "requirements": "~> 2.3"
       },
       {
         "name": "naturecommits",
@@ -1955,6 +2360,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pinup",
+        "requirements": "~> 2.3.0"
+      },
+      {
         "name": "pivotal-slacker",
         "requirements": ">= 0"
       },
@@ -1971,6 +2380,18 @@
         "requirements": ">= 0"
       },
       {
+        "name": "polterheist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "popme",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pra",
+        "requirements": "~> 2.3.0"
+      },
+      {
         "name": "pry-github",
         "requirements": "~> 2.1.0"
       },
@@ -1984,6 +2405,10 @@
       },
       {
         "name": "quo_vadis",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rack_prof",
         "requirements": ">= 0"
       },
       {
@@ -2011,6 +2436,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rake_t",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rampage",
         "requirements": ">= 0"
       },
@@ -2023,12 +2452,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rapidfire",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rcarvalho-capybara",
         "requirements": ">= 0.3.5"
       },
       {
         "name": "rdio-cli",
         "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "realhq",
+        "requirements": ">= 0"
       },
       {
         "name": "redpomo",
@@ -2049,6 +2486,10 @@
       {
         "name": "retter",
         "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "rickroll",
+        "requirements": ">= 0"
       },
       {
         "name": "rollout_ui",
@@ -2099,6 +2540,10 @@
         "requirements": ">= 0.3.2"
       },
       {
+        "name": "sanic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sanitize_email",
         "requirements": ">= 0"
       },
@@ -2108,6 +2553,10 @@
       },
       {
         "name": "saucy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "screenshooter",
         "requirements": ">= 0"
       },
       {
@@ -2127,6 +2576,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shopify_theme",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "showmd",
+        "requirements": ">= 0"
+      },
+      {
         "name": "signet",
         "requirements": ">= 2.1.1"
       },
@@ -2137,6 +2594,14 @@
       {
         "name": "snap",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "snapdragon",
+        "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "splittingred",
+        "requirements": ">= 0"
       },
       {
         "name": "sporkmonger-sax-machine",
@@ -2159,7 +2624,15 @@
         "requirements": "= 2.1.0"
       },
       {
+        "name": "static_blocks",
+        "requirements": ">= 0"
+      },
+      {
         "name": "stepper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "strace-explain",
         "requirements": ">= 0"
       },
       {
@@ -2175,6 +2648,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "stuffer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "surveyor",
         "requirements": "~> 2.0.5"
       },
@@ -2183,23 +2660,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sword",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "sync_songs",
         "requirements": "~> 2.2.0"
       },
       {
         "name": "t",
-        "requirements": "~> 2.0"
+        "requirements": "~> 2.3"
       },
       {
         "name": "tabulous",
         "requirements": ">= 0"
       },
       {
-        "name": "tane",
+        "name": "tandem",
         "requirements": ">= 0"
       },
       {
-        "name": "tandem",
+        "name": "tane",
         "requirements": ">= 0"
       },
       {
@@ -2216,6 +2697,10 @@
       },
       {
         "name": "Thimblr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thredded",
         "requirements": ">= 0"
       },
       {
@@ -2243,15 +2728,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tumblr-rb",
+        "requirements": "~> 2.1.2"
+      },
+      {
         "name": "turbulence",
-        "requirements": "~> 2.0.0"
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "tweetskim",
         "requirements": ">= 0"
       },
       {
+        "name": "twig",
+        "requirements": "~> 2.3.0"
+      },
+      {
         "name": "ubalo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ucb_rails",
         "requirements": ">= 0"
       },
       {
@@ -2263,7 +2760,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "user_announcements",
+        "requirements": ">= 0"
+      },
+      {
         "name": "user_impersonate",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "utf8_enforcer_workaround",
         "requirements": ">= 0"
       },
       {
@@ -2272,6 +2777,14 @@
       },
       {
         "name": "vanilla",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "varvara",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "vkpd",
         "requirements": ">= 0"
       },
       {
@@ -2299,16 +2812,12 @@
         "requirements": "~> 2.0.0"
       },
       {
-        "name": "webbynode",
-        "requirements": ">= 0.3.7"
-      },
-      {
         "name": "webby",
         "requirements": ">= 0.3.2"
       },
       {
-        "name": "webgen",
-        "requirements": ">= 0.3.2"
+        "name": "webbynode",
+        "requirements": ">= 0.3.7"
       },
       {
         "name": "webtail",
@@ -2347,6 +2856,10 @@
         "requirements": ">= 2.0.6"
       },
       {
+        "name": "xplenty-kensa",
+        "requirements": ">= 0.3.2"
+      },
+      {
         "name": "xrd",
         "requirements": "~> 0.3.2"
       },
@@ -2365,6 +2878,10 @@
       {
         "name": "yannp-capybara",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "yield",
+        "requirements": "= 2.3.0"
       },
       {
         "name": "zlx_hacker_term",
@@ -2390,6 +2907,18 @@
 
     ]
   },
+  "laurem": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lava": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "lavender": {
     "version": "0.0.0",
     "dependents": [
@@ -2398,6 +2927,18 @@
   },
   "law_of_demeter_violator": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lawkeeper": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lawn": {
+    "version": "0.0.0",
     "dependents": [
 
     ]
@@ -2450,6 +2991,12 @@
 
     ]
   },
+  "layeredyamlconfig": {
+    "version": "1.4.4",
+    "dependents": [
+
+    ]
+  },
   "layo": {
     "version": "1.1.0",
     "dependents": [
@@ -2464,6 +3011,12 @@
   },
   "layout": {
     "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "layout_by_action": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2517,24 +3070,36 @@
     ]
   },
   "lazier": {
-    "version": "2.8.0",
+    "version": "3.3.9",
     "dependents": [
       {
         "name": "bovem",
-        "requirements": "~> 2.8.0"
+        "requirements": "~> 3.3.9"
       },
       {
         "name": "brauser",
-        "requirements": "~> 2.8.0"
+        "requirements": "~> 3.3.1"
       },
       {
         "name": "elephas",
-        "requirements": "~> 2.8.0"
+        "requirements": "~> 3.3.1"
       },
       {
         "name": "mbrao",
-        "requirements": "~> 2.8.0"
+        "requirements": "~> 3.3.3"
       }
+    ]
+  },
+  "laziest": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lazily": {
+    "version": "0.2.1",
+    "dependents": [
+
     ]
   },
   "lazing": {
@@ -2543,6 +3108,10 @@
       {
         "name": "genomer-plugin-summary",
         "requirements": ">= 0.1.1"
+      },
+      {
+        "name": "lentil",
+        "requirements": ">= 0"
       },
       {
         "name": "reducers",
@@ -2601,6 +3170,12 @@
 
     ]
   },
+  "lazy_comments": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "lazy_const": {
     "version": "0.1.3",
     "dependents": [
@@ -2610,6 +3185,12 @@
       }
     ]
   },
+  "lazy_doc": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "lazy_enumerator": {
     "version": "2.0.0",
     "dependents": [
@@ -2617,21 +3198,33 @@
     ]
   },
   "lazy_google_analytics": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependents": [
 
     ]
   },
   "lazy_high_charts": {
-    "version": "1.4.1",
+    "version": "1.4.3",
     "dependents": [
       {
         "name": "artisan-core",
         "requirements": ">= 1.1.5"
       },
       {
+        "name": "csp_report",
+        "requirements": "~> 1.4.3"
+      },
+      {
         "name": "git_stats",
-        "requirements": ">= 0"
+        "requirements": ">= 1.4"
+      },
+      {
+        "name": "pyk",
+        "requirements": "= 1.4.3"
+      },
+      {
+        "name": "rails_admin_charts",
+        "requirements": ">= 1.4.3"
       }
     ]
   },
@@ -2672,7 +3265,7 @@
     ]
   },
   "lazy_model": {
-    "version": "0.0.13",
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -2701,6 +3294,12 @@
 
     ]
   },
+  "lazy_stream": {
+    "version": "0.5.2",
+    "dependents": [
+
+    ]
+  },
   "lazy_string": {
     "version": "0.0.1",
     "dependents": [
@@ -2714,7 +3313,7 @@
     ]
   },
   "lazybox": {
-    "version": "0.2.5",
+    "version": "0.2.6",
     "dependents": [
 
     ]
@@ -2741,7 +3340,7 @@
     ]
   },
   "lazyeval": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -2774,19 +3373,19 @@
     ]
   },
   "lazyload-rails": {
-    "version": "0.0.1",
+    "version": "0.2.0",
     "dependents": [
 
     ]
   },
   "lazyman": {
-    "version": "0.1.2",
+    "version": "0.1.13",
     "dependents": [
 
     ]
   },
   "lazymodel": {
-    "version": "0.1.0",
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -2815,6 +3414,12 @@
 
     ]
   },
+  "lc-api": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "lc3spec": {
     "version": "0.1.5",
     "dependents": [
@@ -2822,13 +3427,19 @@
     ]
   },
   "lcbo": {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "dependents": [
 
     ]
   },
   "lcclasses": {
     "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "lcsh_suggest": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -2870,7 +3481,7 @@
     ]
   },
   "ldap_fluff": {
-    "version": "0.1.4",
+    "version": "0.2.2",
     "dependents": [
 
     ]
@@ -2908,13 +3519,31 @@
 
     ]
   },
+  "ldp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lds-cf-plugin": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
   "le": {
-    "version": "2.1.6",
+    "version": "2.2.1",
     "dependents": [
       {
         "name": "sinatra-logentries",
         "requirements": ">= 2.1.6"
       }
+    ]
+  },
+  "le-proxy": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "le1t0-capistrano": {
@@ -2981,7 +3610,7 @@
     ]
   },
   "leaderboard": {
-    "version": "3.0.2",
+    "version": "3.3.0",
     "dependents": [
       {
         "name": "activity_feed",
@@ -2994,7 +3623,13 @@
     ]
   },
   "leaderboard_factory": {
-    "version": "0.0.2",
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "leaderboardable": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -3026,20 +3661,53 @@
 
     ]
   },
+  "leafbuild": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "leaflet": {
-    "version": "0.0.1",
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "leaflet-fullscreen-rails": {
+    "version": "0.6.0",
+    "dependents": [
+
+    ]
+  },
+  "leaflet-geosearch-rails": {
+    "version": "0.4.0",
     "dependents": [
 
     ]
   },
   "leaflet-markercluster-rails": {
-    "version": "0.2.1",
+    "version": "0.6.0",
     "dependents": [
 
     ]
   },
   "leaflet-rails": {
-    "version": "0.5.0",
+    "version": "0.6.2",
+    "dependents": [
+      {
+        "name": "angular-leaflet-rails",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "leaflet-zoomfs-rails": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "leaflet-zoomslider-rails": {
+    "version": "0.6.1",
     "dependents": [
 
     ]
@@ -3050,8 +3718,20 @@
 
     ]
   },
+  "leakmon": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "leaks": {
     "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "leakybucket": {
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -3069,7 +3749,7 @@
     ]
   },
   "leanback": {
-    "version": "0.3.2",
+    "version": "0.4.1",
     "dependents": [
 
     ]
@@ -3093,7 +3773,7 @@
     ]
   },
   "leankitkanban": {
-    "version": "0.1.1",
+    "version": "0.1.4",
     "dependents": [
 
     ]
@@ -3108,17 +3788,29 @@
     "version": "0.5.8",
     "dependents": [
       {
-        "name": "emitter-ruby19",
-        "requirements": ">= 0.4.3"
-      },
-      {
         "name": "emitter",
         "requirements": "~> 0.5.4"
+      },
+      {
+        "name": "emitter-ruby19",
+        "requirements": ">= 0.4.3"
       }
+    ]
+  },
+  "leap-motion-ws": {
+    "version": "0.0.2",
+    "dependents": [
+
     ]
   },
   "leap_ca": {
     "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "leap_motion": {
+    "version": "unknown",
     "dependents": [
 
     ]
@@ -3142,11 +3834,11 @@
     "version": "0.0.1",
     "dependents": [
       {
-        "name": "leap_web_users",
+        "name": "leap_web_certs",
         "requirements": "~> 0.0.1"
       },
       {
-        "name": "leap_web_certs",
+        "name": "leap_web_users",
         "requirements": "~> 0.0.1"
       }
     ]
@@ -3160,6 +3852,12 @@
       }
     ]
   },
+  "leapmotion": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "learn": {
     "version": "0.0.1",
     "dependents": [
@@ -3168,6 +3866,12 @@
   },
   "learn_gem": {
     "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "learn_mapreduce": {
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -3196,14 +3900,32 @@
 
     ]
   },
+  "learner": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
   "learning": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "learning_ruby_studio_game": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "learnsprout": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "leases": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -3244,6 +3966,12 @@
 
     ]
   },
+  "led": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "leDelay": {
     "version": "0.2",
     "dependents": [
@@ -3257,13 +3985,13 @@
     ]
   },
   "lederhosen": {
-    "version": "2.0.8",
+    "version": "3.2.0",
     "dependents": [
 
     ]
   },
   "ledermann-rails-settings": {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "dependents": [
 
     ]
@@ -3281,7 +4009,7 @@
     ]
   },
   "ledger_web": {
-    "version": "1.4.11",
+    "version": "1.5.0",
     "dependents": [
 
     ]
@@ -3310,6 +4038,12 @@
 
     ]
   },
+  "leeh-mini_exiftool": {
+    "version": "1.6.0",
+    "dependents": [
+
+    ]
+  },
   "leek": {
     "version": "0.0.1",
     "dependents": [
@@ -3317,7 +4051,7 @@
     ]
   },
   "leela_client": {
-    "version": "0.0.2",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -3335,7 +4069,7 @@
     ]
   },
   "leetchi-wallet-services": {
-    "version": "1.0.0",
+    "version": "1.2.1",
     "dependents": [
 
     ]
@@ -3347,13 +4081,19 @@
     ]
   },
   "leetpassword": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ]
   },
   "leetspeak": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "leffen-kafka-rb": {
+    "version": "0.0.15",
     "dependents": [
 
     ]
@@ -3392,11 +4132,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "kelredd-useful",
+        "name": "kelredd-sinatra-helpers",
         "requirements": ">= 0.0.6"
       },
       {
-        "name": "kelredd-sinatra-helpers",
+        "name": "kelredd-useful",
         "requirements": ">= 0.0.6"
       },
       {
@@ -3424,7 +4164,10 @@
   "leftronic": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "fluent-plugin-leftronic",
+        "requirements": ">= 0"
+      }
     ]
   },
   "leftronicapi": {
@@ -3439,6 +4182,15 @@
 
     ]
   },
+  "legacy-fernet": {
+    "version": "1.6.3",
+    "dependents": [
+      {
+        "name": "relishable",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "legacy_data": {
     "version": "0.2.1",
     "dependents": [
@@ -3447,6 +4199,12 @@
   },
   "legacy_enum": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "legacy_mailers": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -3488,7 +4246,7 @@
     ]
   },
   "legal_markdown": {
-    "version": "0.1.5",
+    "version": "0.4.11",
     "dependents": [
 
     ]
@@ -3506,13 +4264,28 @@
     ]
   },
   "legato": {
-    "version": "0.0.8",
+    "version": "0.2.0",
     "dependents": [
-
+      {
+        "name": "omnom",
+        "requirements": ">= 0"
+      }
     ]
   },
   "legendastv-crawler": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "legiblate": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "legion": {
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -3524,7 +4297,7 @@
     ]
   },
   "legit": {
-    "version": "0.0.10",
+    "version": "0.0.15",
     "dependents": [
 
     ]
@@ -3559,6 +4332,12 @@
 
     ]
   },
+  "lego-nxt": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "lego_nxt": {
     "version": "0.0.2",
     "dependents": [
@@ -3577,6 +4356,24 @@
 
     ]
   },
+  "legworker": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "leibniz": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "leif": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
   "leifcr-mm-sluggable": {
     "version": "0.2.5",
     "dependents": [
@@ -3590,7 +4387,7 @@
     ]
   },
   "lelylan-rb": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ]
@@ -3654,8 +4451,20 @@
 
     ]
   },
+  "lemondrop": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lemur": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "lenc": {
-    "version": "1.1.1",
+    "version": "1.2.2",
     "dependents": [
 
     ]
@@ -3678,8 +4487,35 @@
 
     ]
   },
+  "lentil": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "leo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "leo-model": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "leo",
+        "requirements": "~> 0.0.1"
+      }
+    ]
+  },
+  "leo_manager_client": {
+    "version": "0.4.8",
+    "dependents": [
+
+    ]
+  },
   "leofs_manager_client": {
-    "version": "0.4.5",
+    "version": "0.4.6",
     "dependents": [
 
     ]
@@ -3690,8 +4526,20 @@
 
     ]
   },
+  "leonidas": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lepidoptera": {
     "version": "0.5.2",
+    "dependents": [
+
+    ]
+  },
+  "leran": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -3710,11 +4558,15 @@
     ]
   },
   "less": {
-    "version": "2.3.1",
+    "version": "2.4.0",
     "dependents": [
       {
         "name": "asset-resource",
         "requirements": "~> 1.2.21"
+      },
+      {
+        "name": "bootstrap-jasny",
+        "requirements": ">= 0"
       },
       {
         "name": "capcode-render-less",
@@ -3729,12 +4581,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dima",
-        "requirements": "~> 2"
+        "name": "dassets-lessv1",
+        "requirements": "~> 1.1"
       },
       {
-        "name": "dugway",
-        "requirements": "~> 2.2.2"
+        "name": "dima",
+        "requirements": "~> 2"
       },
       {
         "name": "fewer",
@@ -3789,6 +4641,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "iugusdk",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jekyll-less",
         "requirements": ">= 2.0.5"
       },
@@ -3797,16 +4653,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "less-rails",
-        "requirements": "~> 2.3.1"
-      },
-      {
         "name": "less-expander",
         "requirements": ">= 1.2.21"
       },
       {
+        "name": "less-rails",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "locomotivecms_mounter",
         "requirements": "~> 2.2.1"
+      },
+      {
+        "name": "mako",
+        "requirements": "= 2.3.2"
       },
       {
         "name": "malt",
@@ -3882,7 +4742,7 @@
       },
       {
         "name": "sproutcore",
-        "requirements": "~> 1.2.21"
+        "requirements": "~> 1.2"
       },
       {
         "name": "stack",
@@ -3905,12 +4765,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "twitter-bootstrap-ruby",
-        "requirements": "~> 2.3.1"
-      },
-      {
         "name": "twitter-bootstrap-rails",
         "requirements": ">= 0"
+      },
+      {
+        "name": "twitter-bootstrap-ruby",
+        "requirements": "~> 2.3.1"
       },
       {
         "name": "universe-templates",
@@ -3919,10 +4779,6 @@
       {
         "name": "vision",
         "requirements": ">= 0"
-      },
-      {
-        "name": "zassets",
-        "requirements": "~> 2.2"
       },
       {
         "name": "zassets-plugins-less",
@@ -3936,6 +4792,12 @@
   },
   "less-expander": {
     "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "less-form": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -3956,7 +4818,7 @@
     ]
   },
   "less-rails": {
-    "version": "2.3.2",
+    "version": "2.4.2",
     "dependents": [
       {
         "name": "active_application",
@@ -3975,8 +4837,28 @@
         "requirements": "~> 2.2.0"
       },
       {
+        "name": "bootstrap-jasny",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bootstrap3-wip-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bootstrap3-wip-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bootstrap_v3",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bootstrapped",
         "requirements": "~> 2.1.6"
+      },
+      {
+        "name": "burp_cms",
+        "requirements": ">= 0"
       },
       {
         "name": "cf-twitter-bootstrap-rails",
@@ -4004,11 +4886,7 @@
       },
       {
         "name": "kube-rails",
-        "requirements": "~> 2.2.3"
-      },
-      {
-        "name": "less-rails-bootstrap",
-        "requirements": "~> 2.3.1"
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "less-rails-liftkit",
@@ -4019,11 +4897,11 @@
         "requirements": ">= 2.1.7"
       },
       {
-        "name": "macbury-metro-ui-rails",
-        "requirements": "~> 2.2.3"
+        "name": "less-rails-bootstrap",
+        "requirements": "~> 2.4.2"
       },
       {
-        "name": "metro-ui-rails-cn",
+        "name": "macbury-metro-ui-rails",
         "requirements": "~> 2.2.3"
       },
       {
@@ -4032,6 +4910,10 @@
       },
       {
         "name": "metro-ui-rails",
+        "requirements": "> 2.2.3"
+      },
+      {
+        "name": "metro-ui-rails-cn",
         "requirements": "~> 2.2.3"
       },
       {
@@ -4039,12 +4921,32 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "rails_pitfall",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "redis_dictionary",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rich_table_component",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "semantic-ui-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "semantic-ui",
         "requirements": ">= 0"
       },
       {
         "name": "simple_form_markdown_editor_bootstrap",
         "requirements": "~> 2.2"
+      },
+      {
+        "name": "twbs_sass_rails",
+        "requirements": ">= 0"
       },
       {
         "name": "twitter-bootstrap",
@@ -4059,6 +4961,10 @@
         "requirements": ">= 2.3"
       },
       {
+        "name": "twitter-bootswatch-rails-fontawesome",
+        "requirements": ">= 2.3"
+      },
+      {
         "name": "twitter_bootstrap",
         "requirements": "~> 2.1.0"
       },
@@ -4069,15 +4975,15 @@
     ]
   },
   "less-rails-bootstrap": {
-    "version": "2.3.2",
+    "version": "3.0.3",
     "dependents": [
       {
         "name": "ice_kickstarter",
         "requirements": ">= 0"
       },
       {
-        "name": "infopark_kickstarter",
-        "requirements": ">= 0"
+        "name": "infopark_dashboard",
+        "requirements": "~> 2.3"
       },
       {
         "name": "less-rails-bootswatch",
@@ -4090,6 +4996,10 @@
       {
         "name": "rollout_admin",
         "requirements": ">= 0"
+      },
+      {
+        "name": "shopify_app",
+        "requirements": "> 0"
       },
       {
         "name": "spree_swatches",
@@ -4108,7 +5018,7 @@
     ]
   },
   "less-rails-fontawesome": {
-    "version": "0.4.1",
+    "version": "0.5.1",
     "dependents": [
 
     ]
@@ -4132,7 +5042,7 @@
     ]
   },
   "lesselements-rails": {
-    "version": "0.7",
+    "version": "0.9",
     "dependents": [
 
     ]
@@ -4174,7 +5084,7 @@
     ]
   },
   "lesspainful": {
-    "version": "0.10.5",
+    "version": "0.10.6",
     "dependents": [
       {
         "name": "briar",
@@ -4206,11 +5116,20 @@
   "let": {
     "version": "0.1.3",
     "dependents": [
-
+      {
+        "name": "assets_server",
+        "requirements": ">= 0"
+      }
     ]
   },
   "let-it-be": {
     "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "let-unit": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -4248,23 +5167,41 @@
 
     ]
   },
-  "letter": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ]
-  },
   "Letter": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "letter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "letter_bomb": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
   "letter_opener": {
-    "version": "1.1.0",
+    "version": "1.1.2",
     "dependents": [
       {
+        "name": "devel",
+        "requirements": ">= 0"
+      },
+      {
         "name": "flaming-ironman",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "helpdesk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "letter_opener-iso-2022-jp",
         "requirements": ">= 0"
       },
       {
@@ -4284,6 +5221,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "reparty",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sanitize_email",
         "requirements": ">= 0"
       },
@@ -4297,8 +5238,14 @@
       }
     ]
   },
+  "letter_opener-iso-2022-jp": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "letter_opener_web": {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "dependents": [
 
     ]
@@ -4324,18 +5271,7 @@
   "lettercase": {
     "version": "0.0.3",
     "dependents": [
-      {
-        "name": "nnm_interval_summarizer",
-        "requirements": "~> 0.0.2"
-      },
-      {
-        "name": "ovo_report_summarizer",
-        "requirements": "~> 0.0.3"
-      },
-      {
-        "name": "ovo_opchistdwn_summarizer",
-        "requirements": "~> 0.0.2"
-      }
+
     ]
   },
   "letterpress": {
@@ -4345,11 +5281,15 @@
     ]
   },
   "letters": {
-    "version": "0.3.1",
+    "version": "0.4.1",
     "dependents": [
       {
         "name": "gisele-analysis",
         "requirements": "~> 0.3.1"
+      },
+      {
+        "name": "varnisher",
+        "requirements": "~> 0.4.1"
       }
     ]
   },
@@ -4377,6 +5317,15 @@
 
     ]
   },
+  "lev": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "openstax_connect",
+        "requirements": "~> 0.0.3"
+      }
+    ]
+  },
   "level3": {
     "version": "0.0.1",
     "dependents": [
@@ -4384,7 +5333,13 @@
     ]
   },
   "level_up": {
-    "version": "0.2.0",
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "leveldb": {
+    "version": "0.1.6",
     "dependents": [
 
     ]
@@ -4409,12 +5364,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "paxdb",
+        "requirements": ">= 0.15"
+      },
+      {
         "name": "rack-session-leveldb",
         "requirements": ">= 0"
       },
       {
         "name": "sqew",
         "requirements": "~> 0.14"
+      },
+      {
+        "name": "wp",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -4446,10 +5409,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gettext",
-        "requirements": ">= 0"
-      },
-      {
         "name": "issue-beaver",
         "requirements": ">= 0"
       },
@@ -4475,6 +5434,12 @@
 
     ]
   },
+  "levenshtein-distance": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
   "levenshtein-extended": {
     "version": "0.0.1",
     "dependents": [
@@ -4490,6 +5455,10 @@
       },
       {
         "name": "fuzzzy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "locationary",
         "requirements": ">= 0"
       },
       {
@@ -4537,6 +5506,21 @@
 
     ]
   },
+  "lexeme": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "lexical_units": {
+    "version": "0.0.8",
+    "dependents": [
+      {
+        "name": "ngrams_parser",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "lexical_uuid": {
     "version": "0.2.1",
     "dependents": [
@@ -4550,6 +5534,12 @@
         "name": "dm-appengine",
         "requirements": "~> 0.0"
       }
+    ]
+  },
+  "lexis_nexis_api": {
+    "version": "1.0.5",
+    "dependents": [
+
     ]
   },
   "lexr": {
@@ -4573,8 +5563,20 @@
       }
     ]
   },
+  "lexrb": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "lfd": {
     "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "lfsr": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -4615,6 +5617,12 @@
 
     ]
   },
+  "lh-vagrant-dns": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "lh2gh": {
     "version": "0.0.1",
     "dependents": [
@@ -4628,7 +5636,7 @@
     ]
   },
   "lhm": {
-    "version": "1.2.0",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -4645,6 +5653,12 @@
 
     ]
   },
+  "liam": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "liangzan-comma": {
     "version": "0.3.1",
     "dependents": [
@@ -4652,7 +5666,7 @@
     ]
   },
   "liangzan-contacts": {
-    "version": "1.2.25",
+    "version": "1.2.26",
     "dependents": [
 
     ]
@@ -4670,7 +5684,7 @@
     ]
   },
   "liangzan_omniauth-trello": {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "dependents": [
 
     ]
@@ -4681,8 +5695,20 @@
 
     ]
   },
+  "liars_dice": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "liarsdice_cbarcroft": {
     "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lib-generator": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -4719,8 +5745,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "right_scraper",
-        "requirements": ">= 0.1.1"
+        "name": "debeasy",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -4765,8 +5791,8 @@
 
     ]
   },
-  "libby": {
-    "version": "0.0.11",
+  "libcanvas-rails": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -4815,11 +5841,11 @@
     ]
   },
   "libdolt": {
-    "version": "0.15.0",
+    "version": "0.33.4",
     "dependents": [
       {
         "name": "dolt",
-        "requirements": "~> 0.15"
+        "requirements": "~> 0.31"
       }
     ]
   },
@@ -4835,6 +5861,12 @@
 
     ]
   },
+  "liberator": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
   "libertine": {
     "version": "0.0.2",
     "dependents": [
@@ -4843,6 +5875,12 @@
   },
   "liberty_reserve": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "liberty_reserve_link": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -4878,9 +5916,12 @@
     ]
   },
   "libftdi-ruby": {
-    "version": "0.0.4",
+    "version": "0.0.20",
     "dependents": [
-
+      {
+        "name": "hacklet",
+        "requirements": "~> 0.0.20"
+      }
     ]
   },
   "libgems": {
@@ -4894,6 +5935,12 @@
         "name": "spade-packager",
         "requirements": "~> 0.0.2"
       }
+    ]
+  },
+  "libgss": {
+    "version": "0.8.3",
+    "dependents": [
+
     ]
   },
   "libinject": {
@@ -4939,7 +5986,7 @@
     ]
   },
   "libmemcached_store": {
-    "version": "0.2.3",
+    "version": "0.6.2",
     "dependents": [
 
     ]
@@ -5002,6 +6049,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "climer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "comode",
+        "requirements": ">= 0"
+      },
+      {
         "name": "configure_me",
         "requirements": "~> 0.6.0"
       },
@@ -5022,12 +6077,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "develry",
+        "requirements": "~> 0.8.0"
+      },
+      {
         "name": "dm-rspec",
         "requirements": ">= 0"
       },
       {
         "name": "dnotify",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "docx_generator",
+        "requirements": ">= 0"
       },
       {
         "name": "el_vfs",
@@ -5038,11 +6101,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fx4s",
+        "requirements": "~> 0.8.0"
+      },
+      {
         "name": "guard-jasmine-node",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-puma",
+        "name": "guard-mocha-node",
         "requirements": ">= 0"
       },
       {
@@ -5050,11 +6117,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "guard-puma",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guard-rack",
         "requirements": "~> 0.1.3"
       },
       {
-        "name": "has_serialized",
+        "name": "holla_back",
         "requirements": ">= 0"
       },
       {
@@ -5070,6 +6141,18 @@
         "requirements": ">= 0"
       },
       {
+        "name": "luna-rspec-formatters",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "lunas-minitest-formatters",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "magic_reveal",
+        "requirements": ">= 0"
+      },
+      {
         "name": "make-private",
         "requirements": ">= 0"
       },
@@ -5078,15 +6161,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mergit",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "minitest-libnotify",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious",
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
+        "name": "mobvious",
         "requirements": ">= 0"
       },
       {
@@ -5095,14 +6182,6 @@
       },
       {
         "name": "mosaheh",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "navi",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "navi",
         "requirements": ">= 0"
       },
       {
@@ -5150,6 +6229,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "paradeiser",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pinboard",
         "requirements": ">= 0"
       },
@@ -5174,12 +6257,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "revily",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "revily-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rhinestone",
         "requirements": ">= 0"
       },
       {
         "name": "riot_notifier",
         "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "ruby-openid-teams",
+        "requirements": ">= 0"
       },
       {
         "name": "rubygems-source",
@@ -5242,11 +6337,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vatsim_online",
+        "name": "vatbook",
         "requirements": ">= 0"
       },
       {
-        "name": "vatbook",
+        "name": "vatsim_online",
         "requirements": ">= 0"
       },
       {
@@ -5263,6 +6358,18 @@
       }
     ]
   },
+  "libofx-ffi": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "libowl": {
+    "version": "1.2",
+    "dependents": [
+
+    ]
+  },
   "libphonenumber-execjs": {
     "version": "0.0.2",
     "dependents": [
@@ -5276,19 +6383,19 @@
     ]
   },
   "librarian": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
       {
         "name": "guard-librarian",
         "requirements": ">= 0"
       },
       {
-        "name": "knife-solo",
-        "requirements": "~> 0.0.20"
-      },
-      {
         "name": "librarian-chef",
         "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "librarian-puppet-maestrodev",
+        "requirements": ">= 0.1.1"
       },
       {
         "name": "soloist-rvm",
@@ -5299,30 +6406,58 @@
         "requirements": "~> 0.0.20"
       },
       {
-        "name": "vagabond",
+        "name": "vagrant-librarian",
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-librarian",
+        "name": "vagrant-librarian-puppet-plugin",
         "requirements": ">= 0"
       }
     ]
   },
   "librarian-chef": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
       {
+        "name": "bindle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-solo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lockpick",
+        "requirements": ">= 0"
+      },
+      {
         "name": "soloist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagabond",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-librarian-chef",
         "requirements": ">= 0"
       }
     ]
   },
   "librarian-puppet": {
-    "version": "0.9.8",
+    "version": "0.9.10",
     "dependents": [
       {
         "name": "boxen",
-        "requirements": "~> 0.9"
+        "requirements": "~> 0.9.9"
+      },
+      {
+        "name": "freighthop",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-librarian-puppet-plugin",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -5333,7 +6468,13 @@
     ]
   },
   "librarian-puppet-maestrodev": {
-    "version": "0.9.7.5",
+    "version": "0.9.10.1",
+    "dependents": [
+
+    ]
+  },
+  "librarian-puppet-simple": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -5363,7 +6504,7 @@
     ]
   },
   "library_stdnums": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "dependents": [
       {
         "name": "enju_ndl",
@@ -5393,8 +6534,14 @@
 
     ]
   },
+  "librato-logreporter": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "librato-metrics": {
-    "version": "1.0.4",
+    "version": "1.1.1",
     "dependents": [
       {
         "name": "chef-handler-librato",
@@ -5414,18 +6561,18 @@
       },
       {
         "name": "librato-rack",
-        "requirements": "~> 1.0.2"
+        "requirements": "~> 1.1.1"
       },
       {
-        "name": "librato-rails",
-        "requirements": "~> 1.0.2"
-      },
-      {
-        "name": "libratonator",
-        "requirements": ">= 0"
+        "name": "librato-metrics-taps",
+        "requirements": "~> 1.0.4"
       },
       {
         "name": "librato-storm-kafka",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "libratonator",
         "requirements": ">= 0"
       },
       {
@@ -5452,14 +6599,33 @@
 
     ]
   },
-  "librato-rack": {
-    "version": "0.2.1",
+  "librato-metrics-taps": {
+    "version": "0.3.6",
     "dependents": [
 
     ]
   },
+  "librato-rack": {
+    "version": "0.4.3",
+    "dependents": [
+      {
+        "name": "grape-librato",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "librato-rails",
+        "requirements": "~> 0.4.2"
+      }
+    ]
+  },
   "librato-rails": {
-    "version": "0.8.2",
+    "version": "0.10.1",
+    "dependents": [
+
+    ]
+  },
+  "librato-sidekiq": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -5489,7 +6655,7 @@
     ]
   },
   "libreconv": {
-    "version": "0.6.1",
+    "version": "0.8.1",
     "dependents": [
 
     ]
@@ -5498,6 +6664,15 @@
     "version": "0.0.2",
     "dependents": [
 
+    ]
+  },
+  "libreservice": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "libreservice",
+        "requirements": ">= 0"
+      }
     ]
   },
   "librevox": {
@@ -5515,12 +6690,18 @@
       },
       {
         "name": "nexpose",
-        "requirements": ">= 0.0.32"
+        "requirements": ">= 0.0.68"
       },
       {
         "name": "silo_manager",
         "requirements": ">= 0.0.32"
       }
+    ]
+  },
+  "librmdp": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "librmpd": {
@@ -5533,7 +6714,7 @@
     ]
   },
   "librrd": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "collectd-plot",
@@ -5543,6 +6724,12 @@
   },
   "librtmp": {
     "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "libsaml": {
+    "version": "2.0.6",
     "dependents": [
 
     ]
@@ -5587,8 +6774,20 @@
       }
     ]
   },
+  "libsvm_preprocessor": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
   "libsvmffi": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "libtcod": {
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -5597,20 +6796,36 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "blaster",
+        "requirements": ">= 0"
+      },
+      {
         "name": "blinky",
         "requirements": "~> 0.2.2"
+      },
+      {
+        "name": "crubyflie",
+        "requirements": ">= 0"
       },
       {
         "name": "digiusb",
         "requirements": ">= 0.2.0"
       },
       {
+        "name": "dozen",
+        "requirements": "~> 0.3.4"
+      },
+      {
         "name": "lego_nxt",
         "requirements": "~> 0.1.3"
       },
       {
+        "name": "lego-nxt",
+        "requirements": "~> 0.3.4"
+      },
+      {
         "name": "ligo",
-        "requirements": "~> 0.2.2"
+        "requirements": ">= 0.3.4"
       },
       {
         "name": "littlewire",
@@ -5640,6 +6855,12 @@
 
     ]
   },
+  "libuv": {
+    "version": "0.10.2",
+    "dependents": [
+
+    ]
+  },
   "libv8": {
     "version": "unknown",
     "dependents": [
@@ -5652,16 +6873,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sprockets-dotjs",
-        "requirements": ">= 0"
+        "name": "skim",
+        "requirements": "= 3.11.8.17"
       },
       {
         "name": "therubyracer",
-        "requirements": "~> 3.11.8.12"
-      },
-      {
-        "name": "zassets",
-        "requirements": "~> 3.3.10.4"
+        "requirements": "~> 3.16.14.0"
       }
     ]
   },
@@ -5702,7 +6919,7 @@
     ]
   },
   "libvirt-ruby": {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "libvirt-ruby-mapping",
@@ -5724,12 +6941,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pusher-client-merman",
-        "requirements": "= 0.1.0"
-      },
-      {
         "name": "pusher-client-nc",
         "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "pusher-client-merman",
+        "requirements": "= 0.1.0"
       }
     ]
   },
@@ -5800,10 +7017,14 @@
       },
       {
         "name": "asir_xml",
-        "requirements": "~> 2.3.3"
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "assert_xpath",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "asterisk-ajam",
         "requirements": ">= 0"
       },
       {
@@ -5817,6 +7038,10 @@
       {
         "name": "bfire",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bio-ensembl-rest",
+        "requirements": ">= 2"
       },
       {
         "name": "bio-lazyblastxml",
@@ -5835,6 +7060,10 @@
         "requirements": ">= 2.0.2"
       },
       {
+        "name": "catarse_moip",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "chockstone",
         "requirements": ">= 0"
       },
@@ -5848,7 +7077,7 @@
       },
       {
         "name": "cpsms",
-        "requirements": "~> 2.2.2"
+        "requirements": "~> 2.6.0"
       },
       {
         "name": "ddi-parser",
@@ -5871,11 +7100,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "docbook_status",
+        "name": "docbook_files",
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "docbook_files",
+        "name": "docbook_status",
         "requirements": ">= 2.4.0"
       },
       {
@@ -5999,11 +7228,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "happymapper-swanandp",
+        "name": "happymapper",
         "requirements": "~> 2.0"
       },
       {
-        "name": "happymapper",
+        "name": "happymapper-swanandp",
         "requirements": "~> 2.0"
       },
       {
@@ -6011,7 +7240,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hq-aws-check-sqs-queue",
+        "requirements": ">= 2.6.0"
+      },
+      {
         "name": "hq-check-site",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-engine",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-grapher-icinga-perfdata",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-log-monitor-client",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-check-drill",
         "requirements": ">= 2.6.0"
       },
       {
@@ -6019,7 +7268,19 @@
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-log-monitor-client",
+        "name": "hq-engine-xqilla",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-sms-global-balance-check",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-web",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-tools",
         "requirements": ">= 2.6.0"
       },
       {
@@ -6063,12 +7324,16 @@
         "requirements": ">= 1.1.3"
       },
       {
+        "name": "libxml-ext",
+        "requirements": ">= 0.9.3"
+      },
+      {
         "name": "libxml-feed",
         "requirements": "> 0.0.0"
       },
       {
-        "name": "libxml-ext",
-        "requirements": ">= 0.9.3"
+        "name": "libxml-to-hash",
+        "requirements": ">= 0"
       },
       {
         "name": "libxml-xmlrpc",
@@ -6079,10 +7344,6 @@
         "requirements": ">= 1.1.3"
       },
       {
-        "name": "libxml-to-hash",
-        "requirements": ">= 0"
-      },
-      {
         "name": "libxslt-ruby",
         "requirements": ">= 2.4.0"
       },
@@ -6091,12 +7352,20 @@
         "requirements": ">= 0.3.6"
       },
       {
+        "name": "LitleOnline",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mandy",
         "requirements": ">= 0"
       },
       {
         "name": "mapricot",
         "requirements": ">= 1.1.3"
+      },
+      {
+        "name": "metacrunch-core",
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "meteorology",
@@ -6123,7 +7392,7 @@
         "requirements": ">= 1.1.4"
       },
       {
-        "name": "ncbo_resource_index",
+        "name": "ncbo_annotator",
         "requirements": "~> 2.2.0"
       },
       {
@@ -6131,7 +7400,7 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "ncbo_annotator",
+        "name": "ncbo_resource_index",
         "requirements": "~> 2.2.0"
       },
       {
@@ -6195,12 +7464,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ratom-instructure",
-        "requirements": ">= 1.1.2"
+        "name": "ratom",
+        "requirements": "~> 2.6.0"
       },
       {
-        "name": "ratom",
-        "requirements": "~> 2.3.2"
+        "name": "ratom-instructure",
+        "requirements": ">= 1.1.2"
       },
       {
         "name": "ratom-ssl",
@@ -6244,7 +7513,51 @@
       },
       {
         "name": "rhack",
-        "requirements": ">= 1.1.3"
+        "requirements": ">= 0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "right_develop",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "right_develop",
@@ -6348,11 +7661,11 @@
       },
       {
         "name": "simple-spreadsheet-extractor",
-        "requirements": "= 2.2.2"
+        "requirements": "= 2.6.0"
       },
       {
         "name": "simple-spreadsheet-extractor",
-        "requirements": "= 2.2.2"
+        "requirements": "= 2.6.0"
       },
       {
         "name": "skyruby",
@@ -6427,12 +7740,12 @@
         "requirements": "= 1.1.3"
       },
       {
-        "name": "welements",
-        "requirements": ">= 2.2.2"
+        "name": "webmaster",
+        "requirements": ">= 0"
       },
       {
-        "name": "wepawet",
-        "requirements": ">= 1.1.4"
+        "name": "welements",
+        "requirements": ">= 2.2.2"
       },
       {
         "name": "wepawet",
@@ -6456,6 +7769,10 @@
       },
       {
         "name": "xmlvalidate",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yandex-webmaster",
         "requirements": ">= 0"
       },
       {
@@ -6488,10 +7805,6 @@
     "dependents": [
       {
         "name": "nsi-lapesi",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pyapns2",
         "requirements": ">= 0"
       }
     ]
@@ -6577,6 +7890,12 @@
 
     ]
   },
+  "licence_injector": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "licensario": {
     "version": "0.0.3",
     "dependents": [
@@ -6598,11 +7917,36 @@
   "license_finder": {
     "version": "unknown",
     "dependents": [
-
+      {
+        "name": "cf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails-audit",
+        "requirements": ">= 0"
+      }
     ]
   },
   "license_generator": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "license_header": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "license_plate": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "license_plate_validator": {
+    "version": "1.1.0",
     "dependents": [
 
     ]
@@ -6622,11 +7966,20 @@
   "licit": {
     "version": "0.2.2",
     "dependents": [
-
+      {
+        "name": "instedd-bootstrap",
+        "requirements": ">= 0"
+      }
     ]
   },
   "Lidia": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lieu": {
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -6645,6 +7998,12 @@
   },
   "lifeboat": {
     "version": "0.6.3",
+    "dependents": [
+
+    ]
+  },
+  "lifecycle": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -6685,6 +8044,12 @@
 
     ]
   },
+  "lift_off": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "liftapp-client": {
     "version": "0.0.5",
     "dependents": [
@@ -6692,7 +8057,7 @@
     ]
   },
   "liftoff": {
-    "version": "0.7.1",
+    "version": "0.7.5",
     "dependents": [
 
     ]
@@ -6710,7 +8075,13 @@
     ]
   },
   "light-service": {
-    "version": "0.0.7",
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "light_enum": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -6775,6 +8146,10 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "lighthouse-cli",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "lighthouse_branch",
         "requirements": ">= 1.0.0"
       },
@@ -6796,6 +8171,12 @@
       }
     ]
   },
+  "lighthouse-cli": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "lighthouse-ical": {
     "version": "0.0.3",
     "dependents": [
@@ -6814,8 +8195,23 @@
 
     ]
   },
+  "lightmodels": {
+    "version": "unknown",
+    "dependents": [
+      {
+        "name": "java_model_jrb",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "lightning": {
     "version": "0.4.1",
+    "dependents": [
+
+    ]
+  },
+  "lightning-source": {
+    "version": "1.0",
     "dependents": [
 
     ]
@@ -6833,6 +8229,12 @@
         "name": "scrappy",
         "requirements": ">= 0.4.1"
       }
+    ]
+  },
+  "lightscape": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "lighttpd_pathinfo_fix": {
@@ -6854,25 +8256,19 @@
     ]
   },
   "lightwaverf": {
-    "version": "0.3.2",
+    "version": "0.6.5",
     "dependents": [
 
     ]
   },
   "ligo": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
   },
   "lijab": {
     "version": "0.1.1",
-    "dependents": [
-
-    ]
-  },
-  "like": {
-    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -6902,7 +8298,7 @@
     ]
   },
   "like_bomb": {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -6961,6 +8357,12 @@
 
     ]
   },
+  "liltest": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lilu": {
     "version": "0.1.3",
     "dependents": [
@@ -6986,6 +8388,12 @@
         "name": "gem_template",
         "requirements": "= 0.3.0"
       }
+    ]
+  },
+  "lima_report": {
+    "version": "0.2",
+    "dependents": [
+
     ]
   },
   "limber": {
@@ -7025,14 +8433,32 @@
 
     ]
   },
+  "limer": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "limerick_rake": {
     "version": "0.0.2",
     "dependents": [
 
     ]
   },
+  "limesurvey": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "limgur": {
     "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "limited": {
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -7044,7 +8470,7 @@
     ]
   },
   "limited_sessions": {
-    "version": "3.0.2",
+    "version": "4.0.0",
     "dependents": [
 
     ]
@@ -7061,6 +8487,12 @@
 
     ]
   },
+  "lin": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "linamack": {
     "version": "0.1.0",
     "dependents": [
@@ -7071,6 +8503,15 @@
     "version": "0.0.2",
     "dependents": [
 
+    ]
+  },
+  "linda": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "sinatra-rocketio-linda",
+        "requirements": ">= 0.0.4"
+      }
     ]
   },
   "lindo": {
@@ -7092,7 +8533,7 @@
     ]
   },
   "line-tree": {
-    "version": "0.3.8",
+    "version": "0.3.9",
     "dependents": [
       {
         "name": "dynarex",
@@ -7116,6 +8557,12 @@
       }
     ]
   },
+  "line_ender": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "line_send_button": {
     "version": "0.1.0",
     "dependents": [
@@ -7123,13 +8570,13 @@
     ]
   },
   "line_up": {
-    "version": "0.0.3",
+    "version": "0.1.1",
     "dependents": [
 
     ]
   },
   "lineage": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "dependents": [
 
     ]
@@ -7185,10 +8632,6 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "fech",
-        "requirements": "= 0.43"
-      },
-      {
         "name": "jsus",
         "requirements": "= 0.45"
       },
@@ -7231,6 +8674,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fech",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hanswurst",
         "requirements": ">= 0"
       },
@@ -7243,11 +8690,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-debug-base19",
+        "name": "ruby-debug-base19x",
         "requirements": ">= 0.5.11"
       },
       {
-        "name": "ruby-debug-base19x",
+        "name": "ruby-debug-base19",
         "requirements": ">= 0.5.11"
       },
       {
@@ -7287,9 +8734,12 @@
     ]
   },
   "linefit": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
-
+      {
+        "name": "radiation",
+        "requirements": ">= 0"
+      }
     ]
   },
   "lineman": {
@@ -7311,7 +8761,7 @@
     ]
   },
   "lines": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -7376,7 +8826,10 @@
   "lingua": {
     "version": "0.6.2",
     "dependents": [
-
+      {
+        "name": "rhopalic",
+        "requirements": "~> 0.6.2"
+      }
     ]
   },
   "linguara": {
@@ -7401,7 +8854,7 @@
     ]
   },
   "linguist": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -7410,15 +8863,6 @@
     "version": "0.0.3",
     "dependents": [
 
-    ]
-  },
-  "Linguistics": {
-    "version": "1.0.5",
-    "dependents": [
-      {
-        "name": "mathcha",
-        "requirements": ">= 1.0.5"
-      }
     ]
   },
   "linguistics": {
@@ -7438,6 +8882,10 @@
       },
       {
         "name": "deordinalize",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "duck_punching",
         "requirements": ">= 0"
       },
       {
@@ -7473,6 +8921,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "teamcity-ruby-client",
+        "requirements": "~> 2.0.2"
+      },
+      {
         "name": "text_to_epub",
         "requirements": ">= 0"
       },
@@ -7486,8 +8938,23 @@
       }
     ]
   },
+  "Linguistics": {
+    "version": "1.0.5",
+    "dependents": [
+      {
+        "name": "mathcha",
+        "requirements": ">= 1.0.5"
+      }
+    ]
+  },
   "linguo": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lingvo": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -7507,8 +8974,20 @@
       }
     ]
   },
+  "link-preview": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "link2": {
     "version": "0.1.11",
+    "dependents": [
+
+    ]
+  },
+  "link2epub": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -7526,7 +9005,7 @@
     ]
   },
   "link_header": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
         "name": "described_routes",
@@ -7549,13 +9028,27 @@
         "requirements": "= 0.0.5"
       },
       {
+        "name": "pageboy",
+        "requirements": ">= 0.0.7"
+      },
+      {
         "name": "path-to",
         "requirements": ">= 0.0.4"
+      },
+      {
+        "name": "rack-schema",
+        "requirements": ">= 0"
       }
     ]
   },
+  "link_oracle": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
   "link_out_to_helper": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -7566,6 +9059,15 @@
 
     ]
   },
+  "link_shrink": {
+    "version": "0.0.6",
+    "dependents": [
+      {
+        "name": "endi_feed",
+        "requirements": "~> 0.0.2"
+      }
+    ]
+  },
   "link_thumbnail": {
     "version": "0.1.0",
     "dependents": [
@@ -7573,7 +9075,7 @@
     ]
   },
   "link_thumbnailer": {
-    "version": "1.0.3",
+    "version": "1.0.9",
     "dependents": [
 
     ]
@@ -7608,6 +9110,18 @@
 
     ]
   },
+  "link_to_social": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "link_to_ujs": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "linkage": {
     "version": "0.0.8",
     "dependents": [
@@ -7636,7 +9150,7 @@
     ]
   },
   "linkeddata": {
-    "version": "1.0.0",
+    "version": "1.0.5",
     "dependents": [
       {
         "name": "dowl",
@@ -7644,7 +9158,7 @@
       },
       {
         "name": "earl-report",
-        "requirements": ">= 0.3.5"
+        "requirements": ">= 1.0.5"
       },
       {
         "name": "gearbox",
@@ -7655,17 +9169,33 @@
         "requirements": ">= 0.3.1"
       },
       {
+        "name": "ldp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "metacrunch-lld",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rack-linkeddata",
         "requirements": ">= 1.0"
       },
       {
+        "name": "skos2html",
+        "requirements": "~> 1.0.5"
+      },
+      {
         "name": "sparql",
         "requirements": ">= 0"
+      },
+      {
+        "name": "spreadskos",
+        "requirements": "~> 1.0.5"
       }
     ]
   },
   "linkedin": {
-    "version": "0.3.7",
+    "version": "0.4.3",
     "dependents": [
       {
         "name": "muck-oauth",
@@ -7674,11 +9204,21 @@
       {
         "name": "sinatra-linkedin",
         "requirements": "~> 0.3.6"
+      },
+      {
+        "name": "socialshare",
+        "requirements": ">= 0"
       }
     ]
   },
   "linkedin-bdigital": {
     "version": "0.2.2.3",
+    "dependents": [
+
+    ]
+  },
+  "linkedin-client": {
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -7691,6 +9231,12 @@
   },
   "linkedin-idkmybffjill": {
     "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "linkedin-oauth2": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -7708,13 +9254,19 @@
     ]
   },
   "linkedin-scraper": {
-    "version": "0.0.8",
+    "version": "0.0.11",
     "dependents": [
 
     ]
   },
   "linkedin-topcompanies": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "linkedin2": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -7727,6 +9279,12 @@
   },
   "linkedin_scraper": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "linkemperor-api": {
+    "version": "1.0.2",
     "dependents": [
 
     ]
@@ -7841,6 +9399,12 @@
 
     ]
   },
+  "linkshare_api": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "linkterm": {
     "version": "0.1.0",
     "dependents": [
@@ -7860,7 +9424,13 @@
     ]
   },
   "linnaeus": {
-    "version": "1.0.3",
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "linner": {
+    "version": "0.4.4",
     "dependents": [
 
     ]
@@ -7880,6 +9450,12 @@
   },
   "linode-incandescent": {
     "version": "0.6.2",
+    "dependents": [
+
+    ]
+  },
+  "linode-rolling-restart": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -7908,12 +9484,6 @@
 
     ]
   },
-  "linterra": {
-    "version": "0.0.9",
-    "dependents": [
-
-    ]
-  },
   "linux-kstat": {
     "version": "unknown",
     "dependents": [
@@ -7926,8 +9496,14 @@
 
     ]
   },
+  "linux_admin": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
   "linux_container": {
-    "version": "1.1",
+    "version": "1.8",
     "dependents": [
 
     ]
@@ -7964,6 +9540,12 @@
   },
   "lionel_first_gem": {
     "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "lionel_richie": {
+    "version": "0.1.5.1",
     "dependents": [
 
     ]
@@ -8038,7 +9620,7 @@
     ]
   },
   "liquid": {
-    "version": "2.5.0",
+    "version": "2.5.2",
     "dependents": [
       {
         "name": "activeadmin-selleo-cms",
@@ -8049,8 +9631,16 @@
         "requirements": "~> 2.4"
       },
       {
+        "name": "atpay_buttons",
+        "requirements": ">= 0"
+      },
+      {
         "name": "binpress",
         "requirements": "~> 2.3"
+      },
+      {
+        "name": "blastwolf",
+        "requirements": "~> 2.5"
       },
       {
         "name": "bonsai",
@@ -8085,6 +9675,10 @@
         "requirements": ">= 1.9.0"
       },
       {
+        "name": "dragon",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dugway",
         "requirements": "~> 2.4.1"
       },
@@ -8111,6 +9705,10 @@
       {
         "name": "git-scribe",
         "requirements": ">= 0"
+      },
+      {
+        "name": "github-pages",
+        "requirements": "= 2.5.2"
       },
       {
         "name": "gitstuff-preview",
@@ -8145,32 +9743,32 @@
         "requirements": ">= 1.9.0"
       },
       {
-        "name": "infopark_rails_connector",
-        "requirements": "~> 2.4.0"
-      },
-      {
         "name": "jberkel-jekyll",
         "requirements": ">= 1.9.0"
-      },
-      {
-        "name": "jekyll",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "jekyll-beastiepress",
-        "requirements": ">= 2.2.2"
       },
       {
         "name": "jekyll-asset-pipeline",
         "requirements": "~> 2.4"
       },
       {
-        "name": "jekyll-reloaded",
-        "requirements": "~> 2.2"
+        "name": "jekyll",
+        "requirements": "~> 2.5.2"
+      },
+      {
+        "name": "jekyll-beastiepress",
+        "requirements": ">= 2.2.2"
+      },
+      {
+        "name": "jekyll-liquid-plus",
+        "requirements": "~> 2.5.1"
       },
       {
         "name": "jekyll-navigation",
         "requirements": ">= 0"
+      },
+      {
+        "name": "jekyll-reloaded",
+        "requirements": "~> 2.2"
       },
       {
         "name": "jekyll-ultraviolet",
@@ -8189,11 +9787,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liquid-eval",
+        "name": "liquid-blocks",
         "requirements": ">= 0"
       },
       {
-        "name": "liquid-blocks",
+        "name": "liquid-jetpack",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "liquid-eval",
         "requirements": ">= 0"
       },
       {
@@ -8201,20 +9803,36 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liquid-validations",
-        "requirements": "~> 2.4.1"
+        "name": "liquid-validator",
+        "requirements": ">= 2.4.0"
       },
       {
-        "name": "liquify",
-        "requirements": ">= 2.2.2"
+        "name": "liquid-validations",
+        "requirements": "~> 2.4.1"
       },
       {
         "name": "liquid_loader",
         "requirements": ">= 0"
       },
       {
+        "name": "liquid_stream",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "liquidprof",
+        "requirements": "~> 2.5"
+      },
+      {
         "name": "liquidizer",
         "requirements": ">= 2.0.0"
+      },
+      {
+        "name": "liquify",
+        "requirements": ">= 2.2.2"
+      },
+      {
+        "name": "loco-liquid-filters",
+        "requirements": ">= 0"
       },
       {
         "name": "lonnon-jekyll",
@@ -8223,6 +9841,10 @@
       {
         "name": "mail_engine",
         "requirements": ">= 0"
+      },
+      {
+        "name": "maily_herald",
+        "requirements": "~> 2.6.0"
       },
       {
         "name": "maliq",
@@ -8257,8 +9879,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "moft",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "mojombo-jekyll",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "monad",
+        "requirements": "~> 2.3"
       },
       {
         "name": "naeu-jekyll",
@@ -8289,6 +9919,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "nopoint",
+        "requirements": ">= 0"
+      },
+      {
         "name": "noumenon",
         "requirements": "~> 2.2"
       },
@@ -8310,6 +9944,10 @@
       },
       {
         "name": "rbinvoice",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rdcms",
         "requirements": ">= 0"
       },
       {
@@ -8353,15 +9991,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "spud_banners",
+        "requirements": ">= 0"
+      },
+      {
         "name": "spud_cms",
         "requirements": ">= 0"
       },
       {
         "name": "spud_inquiries",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "spud_banners",
         "requirements": ">= 0"
       },
       {
@@ -8371,6 +10009,18 @@
       {
         "name": "stack",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "tb_banners",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tb_blog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tb_cms",
+        "requirements": ">= 0"
       },
       {
         "name": "text_to_epub",
@@ -8436,6 +10086,12 @@
 
     ]
   },
+  "liquid-jetpack": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "liquid-proxy": {
     "version": "0.0.3",
     "dependents": [
@@ -8448,8 +10104,14 @@
 
     ]
   },
+  "liquid-validator": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "liquid_assets": {
-    "version": "0.3.2",
+    "version": "0.4.2",
     "dependents": [
 
     ]
@@ -8472,6 +10134,12 @@
 
     ]
   },
+  "liquid_stream": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "liquidity": {
     "version": "0.0.1",
     "dependents": [
@@ -8485,7 +10153,13 @@
     ]
   },
   "liquidplanner": {
-    "version": "0.0.5",
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "liquidprof": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -8509,7 +10183,7 @@
     ]
   },
   "lis": {
-    "version": "0.4.7",
+    "version": "0.4.11",
     "dependents": [
 
     ]
@@ -8609,7 +10283,7 @@
     ]
   },
   "listen": {
-    "version": "0.7.3",
+    "version": "1.3.1",
     "dependents": [
       {
         "name": "again",
@@ -8620,8 +10294,16 @@
         "requirements": "= 0.4.7"
       },
       {
+        "name": "angular-smart-search",
+        "requirements": ">= 0"
+      },
+      {
         "name": "appmake",
         "requirements": ">= 0"
+      },
+      {
+        "name": "apt_control",
+        "requirements": "~> 1.2"
       },
       {
         "name": "architecture-js",
@@ -8641,11 +10323,15 @@
       },
       {
         "name": "awestruct",
-        "requirements": "~> 0.7.3"
+        "requirements": ">= 0.7.3"
       },
       {
         "name": "blacksmith-js",
         "requirements": "~> 0.5.3"
+      },
+      {
+        "name": "britebox",
+        "requirements": "~> 1.2.2"
       },
       {
         "name": "buho",
@@ -8656,12 +10342,20 @@
         "requirements": "~> 0.4.2"
       },
       {
+        "name": "chimplate",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ckm_client",
         "requirements": "= 0.6"
       },
       {
         "name": "devcenter",
         "requirements": "~> 0.7.2"
+      },
+      {
+        "name": "develry",
+        "requirements": "~> 1.3.0"
       },
       {
         "name": "doubleshot",
@@ -8681,7 +10375,7 @@
       },
       {
         "name": "epub-search",
-        "requirements": ">= 0"
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "filesortd",
@@ -8692,11 +10386,11 @@
         "requirements": ">= 0.6.0"
       },
       {
-        "name": "fontcustomtoadstool",
-        "requirements": ">= 0"
+        "name": "fontcustom",
+        "requirements": "~> 1.3.1"
       },
       {
-        "name": "fontcustom",
+        "name": "fontcustomtoadstool",
         "requirements": ">= 0"
       },
       {
@@ -8716,6 +10410,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gamebox",
+        "requirements": ">= 0.5.3"
+      },
+      {
         "name": "ghpreview",
         "requirements": ">= 0"
       },
@@ -8724,8 +10422,20 @@
         "requirements": "~> 0.4.2"
       },
       {
+        "name": "git-fyncy",
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "gitfyncy",
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "github-markdown-preview",
+        "requirements": "~> 1.3.1"
+      },
+      {
         "name": "guard",
-        "requirements": ">= 0.6.0"
+        "requirements": "~> 1.3"
       },
       {
         "name": "hpp",
@@ -8752,6 +10462,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "linner",
+        "requirements": "~> 1.3"
+      },
+      {
         "name": "locomotivecms_wagon",
         "requirements": "~> 0.7.0"
       },
@@ -8768,7 +10482,7 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "metro",
+        "name": "metro-ld26",
         "requirements": "~> 0.6.0"
       },
       {
@@ -8776,48 +10490,80 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "middleman-core",
-        "requirements": "~> 0.7.3"
+        "name": "metro",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "middleman-core-x86-mingw32",
         "requirements": "~> 0.7.3"
       },
       {
+        "name": "middleman-core",
+        "requirements": "~> 1.2.2"
+      },
+      {
         "name": "midwife",
         "requirements": "= 0.5.3"
       },
       {
+        "name": "mongoid-list",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "mongoid-random",
+        "requirements": ">= 1.0.0"
+      },
+      {
         "name": "mr-sparkle",
-        "requirements": ">= 0.6"
+        "requirements": "~> 1.0"
       },
       {
         "name": "nimbu",
         "requirements": ">= 0"
       },
       {
-        "name": "openehr",
-        "requirements": "= 0.6.0"
+        "name": "omf_rc_shm",
+        "requirements": ">= 0"
       },
       {
-        "name": "pulse-meter",
+        "name": "oozby",
+        "requirements": ">= 1.3.0"
+      },
+      {
+        "name": "openehr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "owl-cms",
+        "requirements": "= 1.3.1"
+      },
+      {
+        "name": "peridot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "plain_site",
+        "requirements": "~> 1.2.3"
+      },
+      {
+        "name": "pulse_meter_visualizer",
         "requirements": ">= 0"
       },
       {
         "name": "rdoc-view",
-        "requirements": ">= 0"
+        "requirements": "~> 1.1.4"
       },
       {
         "name": "reloadlive",
-        "requirements": ">= 0"
+        "requirements": "~> 1.1.6"
       },
       {
         "name": "rerun",
-        "requirements": ">= 0"
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "rivendell-import",
-        "requirements": ">= 0"
+        "requirements": "~> 1.2.1"
       },
       {
         "name": "rsrc",
@@ -8832,12 +10578,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "shopify_theme",
+        "name": "shopify_theme_multi_shop",
         "requirements": ">= 0"
       },
       {
-        "name": "shopify_theme_multi_shop",
-        "requirements": ">= 0"
+        "name": "shopify_theme",
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "slimwatch",
@@ -8849,19 +10595,35 @@
       },
       {
         "name": "snooper",
-        "requirements": ">= 0.7"
+        "requirements": ">= 1.2"
       },
       {
         "name": "spar",
         "requirements": ">= 0.4.2, ~> 0.4"
       },
       {
+        "name": "speci",
+        "requirements": "~> 1.3.0"
+      },
+      {
         "name": "spectator",
-        "requirements": ">= 0"
+        "requirements": "~> 1.3.0"
+      },
+      {
+        "name": "starting_blocks",
+        "requirements": ">= 1.0"
+      },
+      {
+        "name": "surely",
+        "requirements": "~> 1.3"
       },
       {
         "name": "tbooster",
         "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "texas",
+        "requirements": ">= 0"
       },
       {
         "name": "tork",
@@ -8884,6 +10646,10 @@
         "requirements": "~> 0.5"
       },
       {
+        "name": "wake-assets",
+        "requirements": ">= 0"
+      },
+      {
         "name": "when-files-change",
         "requirements": "~> 0.7"
       },
@@ -8903,8 +10669,20 @@
 
     ]
   },
+  "listify": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "listingcheck_api": {
     "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "listings": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -8921,6 +10699,12 @@
 
     ]
   },
+  "listless": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "lists": {
     "version": "0.0.2",
     "dependents": [
@@ -8933,8 +10717,20 @@
 
     ]
   },
+  "lists_constant": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
   "listview": {
     "version": "2.1.0",
+    "dependents": [
+
+    ]
+  },
+  "listy": {
+    "version": "0.0.7",
     "dependents": [
 
     ]
@@ -8946,7 +10742,352 @@
     ]
   },
   "lit": {
-    "version": "0.0.4.2",
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lita": {
+    "version": "2.4.0",
+    "dependents": [
+      {
+        "name": "lita-animate",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-catfacts",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-coin",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-campfire",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-boobs",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-console",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-eightball",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-excuses",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-giphy",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-github-commits",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-flip",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lita-google-images",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-irc",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-info_table",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-karma",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-hipchat",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-latex",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lita-literally-lita",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-monit",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-location-decision",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-memegen",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-poop",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-reminder",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "lita-stocks",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-totems",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "lita-todo",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "lita-schedule",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-travis",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-urban-dictionary",
+        "requirements": "~> 2.1"
+      },
+      {
+        "name": "lita-weather",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-whois",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "lita-wordnik",
+        "requirements": "~> 2.1"
+      },
+      {
+        "name": "lita-xkcd",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-xmpp",
+        "requirements": "~> 2.0"
+      }
+    ]
+  },
+  "lita-animate": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-boobs": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-campfire": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-catfacts": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-coin": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-console": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-eightball": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-excuses": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lita-flip": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-giphy": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-github-commits": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-google-images": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-hipchat": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-info_table": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-irc": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-karma": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-latex": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-literally-lita": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-location-decision": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-memegen": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-monit": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-poop": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-reminder": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lita-schedule": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lita-stocks": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "lita-todo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-totems": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lita-travis": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lita-urban-dictionary": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-weather": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-whois": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "lita-wordnik": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lita-xkcd": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lita-xmpp": {
+    "version": "1.0.4",
     "dependents": [
 
     ]
@@ -8957,8 +11098,20 @@
 
     ]
   },
+  "lite": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
   "lite_access_control": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "litecoin_tools": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -9008,6 +11161,12 @@
 
     ]
   },
+  "litexbrl": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "litil": {
     "version": "0.1.0",
     "dependents": [
@@ -9015,9 +11174,12 @@
     ]
   },
   "LitleOnline": {
-    "version": "8.16.0",
+    "version": "8.18.0",
     "dependents": [
-
+      {
+        "name": "killbill-litle",
+        "requirements": "~> 8.16.0"
+      }
     ]
   },
   "litmos-client": {
@@ -9051,7 +11213,7 @@
     ]
   },
   "litmus_paper": {
-    "version": "0.7.5",
+    "version": "0.7.9",
     "dependents": [
 
     ]
@@ -9085,6 +11247,12 @@
   },
   "little_brother": {
     "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "little_faker": {
+    "version": "0.9.2",
     "dependents": [
 
     ]
@@ -9125,6 +11293,18 @@
 
     ]
   },
+  "little_sugar": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "little_table": {
+    "version": "1.0.9",
+    "dependents": [
+
+    ]
+  },
   "littlebrat": {
     "version": "0.1.3",
     "dependents": [
@@ -9143,10 +11323,19 @@
 
     ]
   },
-  "littlewire": {
-    "version": "0.9",
+  "LittleWeasel": {
+    "version": "1.1.0",
     "dependents": [
 
+    ]
+  },
+  "littlewire": {
+    "version": "0.9.10",
+    "dependents": [
+      {
+        "name": "artoo-digispark",
+        "requirements": ">= 0.9.10"
+      }
     ]
   },
   "liuqi": {
@@ -9162,6 +11351,12 @@
         "name": "scruby",
         "requirements": "~> 0.1"
       }
+    ]
+  },
+  "live-activity": {
+    "version": "0.3.5",
+    "dependents": [
+
     ]
   },
   "live-search": {
@@ -9180,8 +11375,16 @@
     "version": "1.0.2",
     "dependents": [
       {
+        "name": "gir_ffi-pretty_printer",
+        "requirements": "~> 1.0.2"
+      },
+      {
         "name": "Moby",
         "requirements": ">= 1.0.2, ~> 1.0"
+      },
+      {
+        "name": "node_module",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -9224,8 +11427,64 @@
 
     ]
   },
+  "live_resource": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "live_resource-activerecord",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "live_resource-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "live_resource-pubnub",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "live_resource-activerecord": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "live_resource-pubnub": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "live_resource-rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "live_resource-rspec": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "live_resource",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "live_soccer": {
-    "version": "0.1.3",
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "livecd": {
+    "version": "1.0",
+    "dependents": [
+
+    ]
+  },
+  "livechat_client": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -9261,7 +11520,7 @@
     ]
   },
   "livefyre": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -9272,6 +11531,10 @@
       {
         "name": "governor_livejournal",
         "requirements": ">= 0"
+      },
+      {
+        "name": "social_poster",
+        "requirements": "~> 0.3.8"
       }
     ]
   },
@@ -9289,6 +11552,12 @@
   },
   "livelydocs": {
     "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "livequery-rails": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -9375,13 +11644,25 @@
     ]
   },
   "livingstyleguide": {
-    "version": "0.3.1",
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
+  "liygem": {
+    "version": "0.0.0",
     "dependents": [
 
     ]
   },
   "lj": {
     "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "ljax_rails": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -9452,6 +11733,12 @@
 
     ]
   },
+  "llwp": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "lm2doc": {
     "version": "0.0.3",
     "dependents": [
@@ -9464,6 +11751,12 @@
 
     ]
   },
+  "lmdb": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
   "LMG_modbus": {
     "version": "1.0.4",
     "dependents": [
@@ -9471,7 +11764,13 @@
     ]
   },
   "lmgtfy": {
-    "version": "0.0.4",
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "lmk": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -9488,6 +11787,12 @@
 
     ]
   },
+  "lncs": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "load-me": {
     "version": "0.1.0",
     "dependents": [
@@ -9497,6 +11802,12 @@
       }
     ]
   },
+  "load_and_authorize_resource": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
   "load_balance_client": {
     "version": "0.1.3",
     "dependents": [
@@ -9504,6 +11815,12 @@
         "name": "load_balanced_tire",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "load_balanced_rest_client": {
+    "version": "1.0.2",
+    "dependents": [
+
     ]
   },
   "load_balanced_tire": {
@@ -9530,6 +11847,12 @@
 
     ]
   },
+  "load_path": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "load_path_find": {
     "version": "0.0.6",
     "dependents": [
@@ -9545,6 +11868,30 @@
         "name": "twitter-userstream",
         "requirements": ">= 0.0.5"
       }
+    ]
+  },
+  "load_resource": {
+    "version": "1.0.5",
+    "dependents": [
+
+    ]
+  },
+  "load_resource_rails": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "load_runner": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "loada": {
+    "version": "0.2.0",
+    "dependents": [
+
     ]
   },
   "loadable": {
@@ -9592,17 +11939,32 @@
   "loaderio": {
     "version": "0.0.5",
     "dependents": [
+      {
+        "name": "loaderio-cli",
+        "requirements": "= 0.0.5"
+      }
+    ]
+  },
+  "loaderio-cli": {
+    "version": "1.0.0",
+    "dependents": [
 
     ]
   },
   "loadjs": {
-    "version": "0.0.2",
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "loadmaster_assets": {
+    "version": "0.0.12",
     "dependents": [
 
     ]
   },
   "loady": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "dependents": [
 
     ]
@@ -9613,14 +11975,26 @@
 
     ]
   },
+  "lob": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lobber": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "lobot": {
-    "version": "2.1.0",
+    "version": "3.0.0",
     "dependents": [
 
     ]
   },
   "lobster": {
-    "version": "0.2.5",
+    "version": "0.2.6",
     "dependents": [
 
     ]
@@ -9645,6 +12019,12 @@
   },
   "local-env": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "local-geocoder": {
+    "version": "unknown",
     "dependents": [
 
     ]
@@ -9715,8 +12095,26 @@
 
     ]
   },
+  "local_port": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "local_unfuddle_notebook": {
     "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "localbitcoins": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "localconfig": {
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -9734,7 +12132,7 @@
     ]
   },
   "locale": {
-    "version": "2.0.8",
+    "version": "2.0.9",
     "dependents": [
       {
         "name": "activeldap",
@@ -9762,7 +12160,7 @@
       },
       {
         "name": "gettext",
-        "requirements": ">= 0"
+        "requirements": ">= 2.0.5"
       },
       {
         "name": "kdegettext",
@@ -9803,6 +12201,10 @@
       {
         "name": "spiderfw",
         "requirements": "> 2.0"
+      },
+      {
+        "name": "sup",
+        "requirements": "~> 2.0"
       }
     ]
   },
@@ -9826,6 +12228,12 @@
   },
   "locale_dating": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "locale_detect": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -9882,18 +12290,18 @@
     ]
   },
   "localeapp": {
-    "version": "0.6.9",
+    "version": "0.6.12",
     "dependents": [
       {
         "name": "bcp47",
         "requirements": ">= 0"
       },
       {
-        "name": "devise-i18n",
+        "name": "devise-i18n-views",
         "requirements": ">= 0"
       },
       {
-        "name": "devise-i18n-views",
+        "name": "devise-i18n",
         "requirements": ">= 0"
       },
       {
@@ -9939,6 +12347,12 @@
 
     ]
   },
+  "localio": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "localist-asset_sync": {
     "version": "0.2.0",
     "dependents": [
@@ -9959,6 +12373,21 @@
   },
   "localite": {
     "version": "0.5.6",
+    "dependents": [
+
+    ]
+  },
+  "locality-uuid": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "centzy_common",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "localityjs-rails": {
+    "version": "1.5",
     "dependents": [
 
     ]
@@ -10006,14 +12435,20 @@
 
     ]
   },
+  "localized_config": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "localized_country_select": {
-    "version": "0.9.2",
+    "version": "0.9.3",
     "dependents": [
 
     ]
   },
   "localized_each_validator": {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "dependents": [
       {
         "name": "email_validation",
@@ -10064,6 +12499,12 @@
 
     ]
   },
+  "localjob": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "localmemcache": {
     "version": "0.4.4",
     "dependents": [
@@ -10108,7 +12549,19 @@
     ]
   },
   "localport": {
-    "version": "0.1.3",
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "localresolv": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "localsampler": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -10137,7 +12590,10 @@
   "localyzed": {
     "version": "0.0.3.9",
     "dependents": [
-
+      {
+        "name": "authentifyd",
+        "requirements": "= 0.0.3.6"
+      }
     ]
   },
   "locapoint": {
@@ -10162,16 +12618,28 @@
     ]
   },
   "location-one": {
-    "version": "0.0.9",
+    "version": "0.0.10",
     "dependents": [
       {
         "name": "calabash-cucumber",
-        "requirements": "~> 0.0.9"
+        "requirements": "~> 0.0.10"
       },
       {
         "name": "testautoi",
-        "requirements": "~> 0.0.9"
+        "requirements": "~> 0.0.10"
       }
+    ]
+  },
+  "locationary": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "locationator": {
+    "version": "0.2.1",
+    "dependents": [
+
     ]
   },
   "locator": {
@@ -10232,11 +12700,11 @@
     ]
   },
   "lock_jar": {
-    "version": "0.7.3",
+    "version": "0.7.5",
     "dependents": [
       {
-        "name": "diametric",
-        "requirements": "= 0.7.2"
+        "name": "porcupine",
+        "requirements": ">= 0"
       },
       {
         "name": "solr_sail",
@@ -10261,6 +12729,12 @@
         "name": "falls_back_on",
         "requirements": ">= 0.4.0"
       }
+    ]
+  },
+  "lock_ness_monster": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "lockbox": {
@@ -10289,6 +12763,12 @@
   },
   "locked_attributes": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "locked_process": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -10361,10 +12841,6 @@
       {
         "name": "ubiquo",
         "requirements": ">= 1.4.3"
-      },
-      {
-        "name": "xml-smart",
-        "requirements": ">= 0"
       }
     ]
   },
@@ -10378,7 +12854,7 @@
     ]
   },
   "lockitron": {
-    "version": "0.0.3",
+    "version": "1.0.2",
     "dependents": [
 
     ]
@@ -10389,8 +12865,20 @@
 
     ]
   },
+  "lockpick": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
   "lockr": {
-    "version": "0.4.3",
+    "version": "0.4.4",
+    "dependents": [
+
+    ]
+  },
+  "lockrun": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -10407,8 +12895,20 @@
 
     ]
   },
+  "lockup": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
   "loco": {
-    "version": "0.0.1",
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "loco-liquid-filters": {
+    "version": "0.0.15",
     "dependents": [
 
     ]
@@ -10425,6 +12925,12 @@
 
     ]
   },
+  "locomotion": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "locomotive": {
     "version": "0.0.1",
     "dependents": [
@@ -10432,11 +12938,11 @@
     ]
   },
   "locomotive-aloha-rails": {
-    "version": "0.23.2.1",
+    "version": "0.23.2.2",
     "dependents": [
       {
         "name": "locomotive_cms",
-        "requirements": "~> 0.23.2.1"
+        "requirements": "~> 0.23.2.2"
       },
       {
         "name": "tribeca_cms",
@@ -10445,7 +12951,7 @@
     ]
   },
   "locomotive-heroku": {
-    "version": "0.0.2",
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -10454,30 +12960,23 @@
     "version": "0.6.2",
     "dependents": [
       {
-        "name": "locomotive_cms",
-        "requirements": "~> 0.6.2"
-      },
-      {
         "name": "tribeca_cms",
         "requirements": "~> 0.6.2"
       }
     ]
   },
   "locomotive-mongoid_migration": {
-    "version": "0.0.5",
+    "version": "0.0.7",
     "dependents": [
-      {
-        "name": "locomotive_cms",
-        "requirements": ">= 0"
-      }
+
     ]
   },
   "locomotive-tinymce-rails": {
-    "version": "3.5.8.1",
+    "version": "3.5.8.2",
     "dependents": [
       {
         "name": "locomotive_cms",
-        "requirements": "~> 3.5.8.1"
+        "requirements": "~> 3.5.8.2"
       },
       {
         "name": "tribeca_cms",
@@ -10498,11 +12997,11 @@
     ]
   },
   "locomotive_cms": {
-    "version": "2.0.2",
+    "version": "2.2.3",
     "dependents": [
       {
         "name": "locomotivecms-search",
-        "requirements": "~> 2.0.0"
+        "requirements": ">= 2.1"
       }
     ]
   },
@@ -10520,8 +13019,12 @@
         "requirements": "~> 2.4.2"
       },
       {
+        "name": "locomotivecms_solid",
+        "requirements": "~> 2.4.2"
+      },
+      {
         "name": "locomotivecms_wagon",
-        "requirements": "~> 2.4.1"
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "tribeca_cms",
@@ -10535,23 +13038,44 @@
 
     ]
   },
+  "locomotivecms-liquid": {
+    "version": "2.6.0",
+    "dependents": [
+      {
+        "name": "locomotivecms-solid",
+        "requirements": "~> 2.6.0"
+      }
+    ]
+  },
   "locomotivecms-search": {
-    "version": "0.0.2",
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "locomotivecms-solid": {
+    "version": "0.2.2",
     "dependents": [
 
     ]
   },
   "locomotivecms_mounter": {
-    "version": "1.0.2",
+    "version": "1.2.7",
     "dependents": [
       {
         "name": "locomotivecms_wagon",
-        "requirements": "= 1.0.2"
+        "requirements": "~> 1.2.2"
       }
     ]
   },
+  "locomotivecms_solid": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
   "locomotivecms_wagon": {
-    "version": "1.0.1",
+    "version": "1.2.2",
     "dependents": [
 
     ]
@@ -10562,8 +13086,26 @@
 
     ]
   },
+  "locus": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "locust": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lodash-assets": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lodash-rails": {
-    "version": "1.1.1",
+    "version": "2.1.0",
     "dependents": [
 
     ]
@@ -10587,14 +13129,10 @@
     ]
   },
   "log": {
-    "version": "0.0.10",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "content_data",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "content_server",
         "requirements": ">= 0"
       },
       {
@@ -10606,7 +13144,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "file_monitoring",
+        "name": "file_copy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "process_monitoring",
         "requirements": ">= 0"
       },
       {
@@ -10662,6 +13204,18 @@
 
     ]
   },
+  "log2json": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ]
+  },
+  "log2json-loggers": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ]
+  },
   "log2sock": {
     "version": "0.0.6",
     "dependents": [
@@ -10669,13 +13223,19 @@
     ]
   },
   "log4ever": {
-    "version": "0.0.9",
+    "version": "0.1.2",
     "dependents": [
 
     ]
   },
   "log4j2log4r": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "log4javascript-rails": {
+    "version": "1.4.6",
     "dependents": [
 
     ]
@@ -10687,7 +13247,7 @@
     ]
   },
   "log4net": {
-    "version": "1.2.10",
+    "version": "1.2.10.0",
     "dependents": [
       {
         "name": "bbvcommon",
@@ -10735,11 +13295,11 @@
         "requirements": ">= 1.0.5"
       },
       {
-        "name": "amee-ruby",
+        "name": "amee",
         "requirements": ">= 0"
       },
       {
-        "name": "amee",
+        "name": "amee-ruby",
         "requirements": ">= 0"
       },
       {
@@ -10749,6 +13309,10 @@
       {
         "name": "BackupMan",
         "requirements": ">= 1.1.2"
+      },
+      {
+        "name": "batch_manager",
+        "requirements": ">= 0"
       },
       {
         "name": "Bayeux",
@@ -10771,8 +13335,16 @@
         "requirements": ">= 1.0.6"
       },
       {
+        "name": "bmhatfield-vagrant",
+        "requirements": "~> 1.1.9"
+      },
+      {
         "name": "boomerang-trample",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bootstrap_help",
+        "requirements": ">= 1.0.5"
       },
       {
         "name": "boxcar",
@@ -10795,12 +13367,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "chiplotle-cli-wrapper",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cirrocumulus",
         "requirements": ">= 0"
       },
       {
         "name": "cockatoo",
         "requirements": ">= 1.1.8"
+      },
+      {
+        "name": "codec",
+        "requirements": ">= 0"
       },
       {
         "name": "confluencer",
@@ -10817,6 +13397,14 @@
       {
         "name": "ConstraintSolver",
         "requirements": "> 0.0.0"
+      },
+      {
+        "name": "content_server",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "content_server",
+        "requirements": ">= 0"
       },
       {
         "name": "coral_core",
@@ -10843,7 +13431,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "docparser",
+        "requirements": "~> 1.1.10"
+      },
+      {
         "name": "dribbled",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "drive_time",
         "requirements": ">= 0"
       },
       {
@@ -10875,6 +13471,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "exception_helper",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fig",
         "requirements": ">= 1.1.5"
       },
@@ -10887,6 +13487,10 @@
         "requirements": ">= 1.1.5"
       },
       {
+        "name": "file_monitoring",
+        "requirements": ">= 0"
+      },
+      {
         "name": "filestore",
         "requirements": ">= 1.0, ~> 1.1.10"
       },
@@ -10895,12 +13499,12 @@
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "flapjack",
-        "requirements": ">= 0"
-      },
-      {
         "name": "git_workflow",
         "requirements": ">= 1.1.8"
+      },
+      {
+        "name": "gloader",
+        "requirements": "~> 1.1.10"
       },
       {
         "name": "goliath",
@@ -10927,11 +13531,11 @@
         "requirements": ">= 1.1.4"
       },
       {
-        "name": "kelredd-resourceful",
+        "name": "kelredd-mailer",
         "requirements": ">= 0"
       },
       {
-        "name": "kelredd-mailer",
+        "name": "kelredd-resourceful",
         "requirements": ">= 0"
       },
       {
@@ -10943,32 +13547,40 @@
         "requirements": "> 0.0.0"
       },
       {
-        "name": "log4r-exceptionable",
+        "name": "log",
         "requirements": ">= 0"
-      },
-      {
-        "name": "log4r-fluent",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "log4r-gelf",
-        "requirements": "~> 1.1.10"
       },
       {
         "name": "log4ever",
         "requirements": ">= 1.1.10"
       },
       {
+        "name": "log4r-gelf",
+        "requirements": "~> 1.1.10"
+      },
+      {
+        "name": "log4r-fluent",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "log4r-exceptionable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "log4r-mail",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "log4r-xmpp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "log4r_hipchat_outputter",
         "requirements": ">= 0"
       },
       {
         "name": "log4r_remote_syslog_outputter",
         "requirements": ">= 1.1.9"
-      },
-      {
-        "name": "log4r-xmpp",
-        "requirements": ">= 0"
       },
       {
         "name": "lolitra",
@@ -10981,6 +13593,10 @@
       {
         "name": "mail_processor",
         "requirements": ">= 1.1.8"
+      },
+      {
+        "name": "medularis-daemons_common",
+        "requirements": ">= 1.1.9"
       },
       {
         "name": "mongoriver",
@@ -11027,6 +13643,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omf_base",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omf_web",
         "requirements": "~> 1.1.10"
       },
@@ -11059,16 +13679,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "powcloud-insurance",
+        "name": "powcloud-firewall-agent",
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "powcloud-firewall-agent",
+        "name": "powcloud-insurance",
         "requirements": ">= 1.1.2"
       },
       {
         "name": "promotion",
         "requirements": ">= 1.1.10"
+      },
+      {
+        "name": "qarioz-confluencer",
+        "requirements": ">= 1.1.7"
       },
       {
         "name": "qrda_generator",
@@ -11131,6 +13755,10 @@
         "requirements": "> 1.0.4"
       },
       {
+        "name": "rouster",
+        "requirements": "~> 1.1.9"
+      },
+      {
         "name": "rpipe",
         "requirements": "~> 1.1.9"
       },
@@ -11183,16 +13811,16 @@
         "requirements": "= 1.0.5"
       },
       {
-        "name": "six-rsync",
-        "requirements": ">= 1.1.2"
+        "name": "six-arma-builder",
+        "requirements": "= 1.1.2"
       },
       {
         "name": "six-updater",
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "six-arma-builder",
-        "requirements": "= 1.1.2"
+        "name": "six-rsync",
+        "requirements": ">= 1.1.2"
       },
       {
         "name": "sixcore",
@@ -11223,7 +13851,15 @@
         "requirements": "= 1.1.7"
       },
       {
+        "name": "thundercat",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tinkit",
+        "requirements": "~> 1.1.9"
+      },
+      {
+        "name": "tnargav",
         "requirements": "~> 1.1.9"
       },
       {
@@ -11251,16 +13887,16 @@
         "requirements": "~> 1.1.9"
       },
       {
+        "name": "vagrant-dns-server",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vagrant-digitalocean",
         "requirements": ">= 0"
       },
       {
         "name": "vagrant-fixed-ssh",
         "requirements": "~> 1.1.9"
-      },
-      {
-        "name": "vagrant-dns-server",
-        "requirements": ">= 0"
       },
       {
         "name": "vagrant-vbguest",
@@ -11279,11 +13915,11 @@
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": ">= 0"
       },
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": ">= 0"
       },
       {
@@ -11371,6 +14007,12 @@
 
     ]
   },
+  "log4r_hipchat_outputter": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "log4r_remote_syslog_outputter": {
     "version": "0.0.1",
     "dependents": [
@@ -11401,8 +14043,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "app_frame",
+        "requirements": ">= 0"
+      },
+      {
         "name": "beatport",
         "requirements": ">= 0"
+      },
+      {
+        "name": "codez-tarantula",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "dgh",
@@ -11453,6 +14103,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "spreedly",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ssherman-mongo_mapper",
         "requirements": ">= 0"
       },
@@ -11464,6 +14118,18 @@
         "name": "xpay",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "log_checker": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "log_exceptions": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "log_fu": {
@@ -11490,14 +14156,23 @@
 
     ]
   },
-  "log_mixin": {
-    "version": "1.1.2",
+  "log_me": {
+    "version": "1.0",
     "dependents": [
 
     ]
   },
+  "log_mixin": {
+    "version": "1.1.2",
+    "dependents": [
+      {
+        "name": "agni",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "log_plus": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -11514,6 +14189,12 @@
 
     ]
   },
+  "log_runes": {
+    "version": "1.2",
+    "dependents": [
+
+    ]
+  },
   "log_slice": {
     "version": "0.4",
     "dependents": [
@@ -11523,6 +14204,10 @@
   "log_switch": {
     "version": "0.4.0",
     "dependents": [
+      {
+        "name": "em_ws_discovery",
+        "requirements": ">= 0.1.4"
+      },
       {
         "name": "pants",
         "requirements": ">= 0.4.0"
@@ -11551,6 +14236,12 @@
 
     ]
   },
+  "log_weaver": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "log_wrapper": {
     "version": "0.0.2",
     "dependents": [
@@ -11565,6 +14256,12 @@
   },
   "logaling-server": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "logan": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -11638,6 +14335,15 @@
 
     ]
   },
+  "logbert": {
+    "version": "0.6.15",
+    "dependents": [
+      {
+        "name": "amazon_deets",
+        "requirements": "~> 0.6.14"
+      }
+    ]
+  },
   "logboard": {
     "version": "0.1.0",
     "dependents": [
@@ -11656,6 +14362,15 @@
 
     ]
   },
+  "logcast": {
+    "version": "0.2.1",
+    "dependents": [
+      {
+        "name": "request_recorder",
+        "requirements": ">= 0.1.4"
+      }
+    ]
+  },
   "logeasy": {
     "version": "0.0.8",
     "dependents": [
@@ -11671,6 +14386,12 @@
 
     ]
   },
+  "logfmt": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "logg": {
     "version": "0.1.6",
     "dependents": [
@@ -11681,7 +14402,7 @@
     ]
   },
   "loggability": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
       {
         "name": "confabulator",
@@ -11713,27 +14434,27 @@
       },
       {
         "name": "pluggability",
-        "requirements": "~> 0.6"
+        "requirements": "~> 0.7"
       },
       {
         "name": "rdoc-generator-fivefish",
         "requirements": "~> 0.6"
       },
       {
-        "name": "strelka",
+        "name": "strelka-fancyerrors",
         "requirements": "~> 0.5"
       },
       {
-        "name": "strelka-fancyerrors",
+        "name": "strelka",
+        "requirements": "~> 0.6"
+      },
+      {
+        "name": "treequel-shell",
         "requirements": "~> 0.5"
       },
       {
         "name": "treequel",
         "requirements": "~> 0.4"
-      },
-      {
-        "name": "treequel-shell",
-        "requirements": "~> 0.5"
       },
       {
         "name": "wordnet",
@@ -11762,6 +14483,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "awesomelog",
+        "requirements": ">= 0"
+      },
+      {
         "name": "aws-security-group-state",
         "requirements": ">= 0"
       },
@@ -11774,7 +14499,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bottesque",
+        "requirements": ">= 0"
+      },
+      {
         "name": "chap",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cova",
         "requirements": ">= 0"
       },
       {
@@ -11784,6 +14517,10 @@
       {
         "name": "cucumber-to-rally",
         "requirements": ">= 1.2.8"
+      },
+      {
+        "name": "curate_tumblr",
+        "requirements": ">= 0"
       },
       {
         "name": "debugged-ruby",
@@ -11810,6 +14547,10 @@
         "requirements": ">= 1.2.8"
       },
       {
+        "name": "iwatcher",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jettywrapper",
         "requirements": ">= 0"
       },
@@ -11820,6 +14561,10 @@
       {
         "name": "log_graft",
         "requirements": ">= 0"
+      },
+      {
+        "name": "logger-color",
+        "requirements": "= 1.2.8"
       },
       {
         "name": "mongo_fe",
@@ -11850,6 +14595,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redis-locker",
+        "requirements": ">= 1.2.8"
+      },
+      {
         "name": "reloader_gem",
         "requirements": ">= 1.2.8"
       },
@@ -11870,7 +14619,23 @@
         "requirements": ">= 1.2.8"
       },
       {
+        "name": "sad",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "skos2html",
+        "requirements": ">= 0"
+      },
+      {
         "name": "socialization",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "speedos",
+        "requirements": "= 1.2.8"
+      },
+      {
+        "name": "spreadskos",
         "requirements": ">= 0"
       },
       {
@@ -11902,9 +14667,23 @@
         "requirements": ">= 0"
       },
       {
+        "name": "wordpress-client",
+        "requirements": "~> 1.2"
+      },
+      {
+        "name": "wortsammler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "xbrlware-ruby19",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "logger-color": {
+    "version": "0.1.1",
+    "dependents": [
+
     ]
   },
   "logger-colors": {
@@ -11920,8 +14699,38 @@
       }
     ]
   },
+  "logger-jquery-rails": {
+    "version": "1.2.0.3",
+    "dependents": [
+
+    ]
+  },
+  "logger-ltsv": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "logger-syslog": {
     "version": "1.7.1",
+    "dependents": [
+
+    ]
+  },
+  "logger_extension": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "logger_interface": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "logger_proxy": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -11932,16 +14741,24 @@
 
     ]
   },
+  "logger_shift_hook": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "logger_ware": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "logging": {
     "version": "1.8.1",
     "dependents": [
       {
         "name": "adhearsion",
         "requirements": "~> 1.8"
-      },
-      {
-        "name": "alfred-workflow",
-        "requirements": ">= 1.8.0"
       },
       {
         "name": "animoto_gmail",
@@ -11964,15 +14781,23 @@
         "requirements": "~> 1.5.1"
       },
       {
-        "name": "campfire-bot_alexchee",
-        "requirements": ">= 1.4.3"
-      },
-      {
         "name": "campfire-bot",
         "requirements": "~> 1.4.3"
       },
       {
+        "name": "campfire-bot_alexchee",
+        "requirements": ">= 1.4.3"
+      },
+      {
+        "name": "cartos",
+        "requirements": "~> 1.8.1"
+      },
+      {
         "name": "cellact",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "chalk-log",
         "requirements": ">= 0"
       },
       {
@@ -12012,6 +14837,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "durable_decorator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "emory",
         "requirements": ">= 0"
       },
@@ -12028,6 +14857,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hammer_cli",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ixtlan",
         "requirements": "~> 1.2.3"
       },
@@ -12040,12 +14873,12 @@
         "requirements": "~> 1.8.0"
       },
       {
-        "name": "kindle_util",
+        "name": "kafo",
         "requirements": ">= 0"
       },
       {
-        "name": "logging-rails-kiriyenko",
-        "requirements": "~> 1.6.1"
+        "name": "kindle_util",
+        "requirements": ">= 0"
       },
       {
         "name": "logging-couchdb",
@@ -12054,6 +14887,10 @@
       {
         "name": "logging-rails",
         "requirements": "~> 1.6"
+      },
+      {
+        "name": "logging-rails-kiriyenko",
+        "requirements": "~> 1.6.1"
       },
       {
         "name": "logging-remote-syslog",
@@ -12068,11 +14905,19 @@
         "requirements": "= 1.8.0"
       },
       {
-        "name": "mega_mutex",
-        "requirements": ">= 1.1.4"
+        "name": "maestro_common",
+        "requirements": ">= 1.8.0"
+      },
+      {
+        "name": "maestro_shell",
+        "requirements": "= 1.8.0"
       },
       {
         "name": "mega_mutex-dalli",
+        "requirements": ">= 1.1.4"
+      },
+      {
+        "name": "mega_mutex",
         "requirements": ">= 1.1.4"
       },
       {
@@ -12094,6 +14939,10 @@
       {
         "name": "omf_common",
         "requirements": "~> 1.7.1"
+      },
+      {
+        "name": "output",
+        "requirements": ">= 0"
       },
       {
         "name": "pg_migrate",
@@ -12132,8 +14981,16 @@
         "requirements": ">= 1.1.2"
       },
       {
+        "name": "script-runner",
+        "requirements": "~> 1.8.1"
+      },
+      {
         "name": "servolux",
         "requirements": ">= 1.6.2"
+      },
+      {
+        "name": "simpler_workflow",
+        "requirements": ">= 0"
       },
       {
         "name": "sir_tracks_alot",
@@ -12158,6 +15015,14 @@
       {
         "name": "stickler",
         "requirements": "~> 1.8.1"
+      },
+      {
+        "name": "synapse-core",
+        "requirements": "~> 1.8"
+      },
+      {
+        "name": "tsn-parser",
+        "requirements": ">= 0"
       },
       {
         "name": "tweetable",
@@ -12188,12 +15053,12 @@
         "requirements": "~> 1.6.1"
       },
       {
-        "name": "zkruby",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "zk",
         "requirements": "~> 1.7.2"
+      },
+      {
+        "name": "zkruby",
+        "requirements": ">= 1.4.1"
       }
     ]
   },
@@ -12216,7 +15081,13 @@
     ]
   },
   "logging-remote-syslog": {
-    "version": "0.0.4",
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "logging4hackers": {
+    "version": "0.1",
     "dependents": [
 
     ]
@@ -12235,7 +15106,7 @@
     ]
   },
   "logglier": {
-    "version": "0.2.8",
+    "version": "0.2.10",
     "dependents": [
       {
         "name": "hoover",
@@ -12247,7 +15118,7 @@
       },
       {
         "name": "syslog_client",
-        "requirements": "~> 0.2.8"
+        "requirements": ">= 0.2.8"
       }
     ]
   },
@@ -12284,6 +15155,12 @@
 
     ]
   },
+  "logi": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
   "logiblocs-test": {
     "version": "0.0.1",
     "dependents": [
@@ -12292,6 +15169,12 @@
   },
   "logic": {
     "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "Logic_test": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -12315,27 +15198,39 @@
     ]
   },
   "logical_model": {
-    "version": "0.4.7",
+    "version": "0.5.8",
     "dependents": [
       {
         "name": "accounts_client",
-        "requirements": "~> 0.4.5"
+        "requirements": "~> 0.5.8"
       },
       {
         "name": "activity_stream_client",
-        "requirements": "~> 0.4.0"
+        "requirements": "~> 0.5.0"
       },
       {
         "name": "contacts_client",
-        "requirements": "~> 0.4.1"
+        "requirements": "~> 0.5.8"
+      },
+      {
+        "name": "deezer_client",
+        "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "mailing_client",
+        "requirements": "~> 0.5.5"
       },
       {
         "name": "messaging_client",
-        "requirements": "~> 0.4.5"
+        "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "nucleo_client",
+        "requirements": "~> 0.5.6"
       },
       {
         "name": "overmind_client",
-        "requirements": "~> 0.4.0"
+        "requirements": "~> 0.5.0"
       }
     ]
   },
@@ -12345,8 +15240,20 @@
 
     ]
   },
+  "logicea": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "logicle": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "logicmonitor_simple": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -12409,7 +15316,7 @@
     ]
   },
   "logjam_agent": {
-    "version": "0.6.4",
+    "version": "0.9.2",
     "dependents": [
 
     ]
@@ -12427,7 +15334,7 @@
     ]
   },
   "logmein": {
-    "version": "0.2.4",
+    "version": "0.2.8",
     "dependents": [
 
     ]
@@ -12441,8 +15348,26 @@
       }
     ]
   },
+  "logn": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "logo": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
   "logonxc": {
     "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "logotomy": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -12454,7 +15379,7 @@
     ]
   },
   "logplex-client": {
-    "version": "0.1.6",
+    "version": "0.1.8",
     "dependents": [
 
     ]
@@ -12484,7 +15409,7 @@
     ]
   },
   "lograge": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
       {
         "name": "lograge-tagged",
@@ -12497,7 +15422,7 @@
     ]
   },
   "lograge-tagged": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -12552,20 +15477,34 @@
     ]
   },
   "logstash-event": {
-    "version": "1.1.5",
+    "version": "1.2.02",
     "dependents": [
+      {
+        "name": "logstash-logger",
+        "requirements": "~> 1.2"
+      },
+      {
+        "name": "logstash_rails",
+        "requirements": ">= 0"
+      },
       {
         "name": "logstasher",
         "requirements": ">= 0"
       },
       {
-        "name": "logstash-logger",
+        "name": "stasher",
         "requirements": ">= 0"
       },
       {
         "name": "yarder",
         "requirements": "~> 1.1.5"
       }
+    ]
+  },
+  "logstash-formatters": {
+    "version": "1.0.3",
+    "dependents": [
+
     ]
   },
   "logstash-lite": {
@@ -12575,15 +15514,30 @@
     ]
   },
   "logstash-logger": {
-    "version": "0.3.0",
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "logstash_rails": {
+    "version": "0.0.15",
+    "dependents": [
+
+    ]
+  },
+  "logstash_sqs": {
+    "version": "0.0.10",
     "dependents": [
 
     ]
   },
   "logstasher": {
-    "version": "0.1.1",
+    "version": "0.2.8",
     "dependents": [
-
+      {
+        "name": "logstash_sqs",
+        "requirements": ">= 0"
+      }
     ]
   },
   "logstats": {
@@ -12616,13 +15570,68 @@
 
     ]
   },
+  "logue": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "glark",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "ragol",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "svnx",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "synoption",
+        "requirements": ">= 1.0.0"
+      }
+    ]
+  },
   "logutils": {
     "version": "0.6.0",
     "dependents": [
       {
+        "name": "feedutils",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "fetcher",
+        "requirements": ">= 0.6"
+      },
+      {
+        "name": "pakman",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "pluto-admin",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "pluto",
+        "requirements": ">= 0.6"
+      },
+      {
+        "name": "slideshow",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "tagutils",
+        "requirements": ">= 0.5"
+      },
+      {
         "name": "textutils",
         "requirements": "~> 0.5"
       }
+    ]
+  },
+  "logvisible": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "logworm": {
@@ -12721,7 +15730,7 @@
     ]
   },
   "lol_dba": {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "dependents": [
 
     ]
@@ -12732,8 +15741,23 @@
 
     ]
   },
+  "lol_multiple_uploads": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lol_sortable": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "lol_multiple_uploads",
+        "requirements": "~> 0.0.1"
+      }
+    ]
+  },
   "lola": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -12754,7 +15778,7 @@
     ]
   },
   "lolcommits": {
-    "version": "0.4.3",
+    "version": "0.5.0",
     "dependents": [
 
     ]
@@ -12772,35 +15796,35 @@
     ]
   },
   "lolita": {
-    "version": "3.1.18",
+    "version": "3.3.5",
     "dependents": [
       {
+        "name": "lolita-editable-list",
+        "requirements": "~> 3.0.7"
+      },
+      {
+        "name": "lolita-editable-list",
+        "requirements": "~> 3.0.7"
+      },
+      {
+        "name": "lolita-file-upload",
+        "requirements": "~> 3.2"
+      },
+      {
+        "name": "lolita-menu",
+        "requirements": "~> 3.3.1"
+      },
+      {
+        "name": "lolita-translation",
+        "requirements": "~> 3.2"
+      },
+      {
         "name": "lolita-i18n",
-        "requirements": "~> 3.2.0.rc.9"
-      },
-      {
-        "name": "lolita-editable-list",
-        "requirements": "~> 3.0.7"
-      },
-      {
-        "name": "lolita-editable-list",
-        "requirements": "~> 3.0.7"
+        "requirements": "~> 3.2"
       },
       {
         "name": "lolita-report",
         "requirements": "~> 3.1.4"
-      },
-      {
-        "name": "lolita-menu",
-        "requirements": "~> 3.2.0.rc.14"
-      },
-      {
-        "name": "lolita-file-upload",
-        "requirements": "~> 3.2.0.rc.6"
-      },
-      {
-        "name": "lolita-translation",
-        "requirements": "~> 3.2.0.rc.14"
       }
     ]
   },
@@ -12811,7 +15835,7 @@
     ]
   },
   "lolita-file-upload": {
-    "version": "0.7.3",
+    "version": "0.8.0",
     "dependents": [
 
     ]
@@ -12823,13 +15847,13 @@
     ]
   },
   "lolita-i18n": {
-    "version": "0.4.3",
+    "version": "0.5.2",
     "dependents": [
 
     ]
   },
   "lolita-menu": {
-    "version": "0.3.6",
+    "version": "0.4.0",
     "dependents": [
 
     ]
@@ -12841,7 +15865,7 @@
     ]
   },
   "lolita-translation": {
-    "version": "0.6.3",
+    "version": "0.7.2",
     "dependents": [
 
     ]
@@ -12883,8 +15907,16 @@
     ]
   },
   "lolsoap": {
-    "version": "0.1.4",
+    "version": "0.4.0",
     "dependents": [
+      {
+        "name": "chrome_data",
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "ipiranga",
+        "requirements": "~> 0.4.0"
+      },
       {
         "name": "prosper",
         "requirements": ">= 0"
@@ -12955,7 +15987,7 @@
     ]
   },
   "lono": {
-    "version": "0.2.2",
+    "version": "0.3.4",
     "dependents": [
 
     ]
@@ -13066,7 +16098,7 @@
     ]
   },
   "lookout": {
-    "version": "2.3.0",
+    "version": "3.0.1",
     "dependents": [
       {
         "name": "ame",
@@ -13077,6 +16109,10 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "inventory-rake",
+        "requirements": "~> 3.0"
+      },
+      {
         "name": "inventory",
         "requirements": "~> 3.0"
       },
@@ -13085,7 +16121,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "inventory-rake",
+        "name": "lookout-rake",
+        "requirements": "~> 3.0"
+      },
+      {
+        "name": "lookout-rack",
         "requirements": "~> 3.0"
       },
       {
@@ -13094,14 +16134,14 @@
       },
       {
         "name": "u",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "value",
         "requirements": "~> 3.0"
       },
       {
         "name": "value-yard",
+        "requirements": "~> 3.0"
+      },
+      {
+        "name": "value",
         "requirements": "~> 3.0"
       },
       {
@@ -13138,23 +16178,37 @@
 
     ]
   },
+  "lookout-rack": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
   "lookout-rake": {
-    "version": "3.0.1",
+    "version": "3.1.0",
     "dependents": [
       {
+        "name": "inventory-rake",
+        "requirements": "~> 3.1"
+      },
+      {
         "name": "inventory",
-        "requirements": "~> 3.0"
+        "requirements": "~> 3.1"
       },
       {
         "name": "inventory-rake-tasks-yard",
-        "requirements": "~> 3.0"
+        "requirements": "~> 3.1"
       },
       {
-        "name": "inventory-rake",
-        "requirements": "~> 3.0"
+        "name": "lookout-rack",
+        "requirements": "~> 3.1"
       },
       {
-        "name": "value",
+        "name": "lookout",
+        "requirements": "~> 3.1"
+      },
+      {
+        "name": "u",
         "requirements": "~> 3.0"
       },
       {
@@ -13162,23 +16216,36 @@
         "requirements": "~> 3.0"
       },
       {
+        "name": "value",
+        "requirements": "~> 3.1"
+      },
+      {
         "name": "yard-heuristics",
-        "requirements": "~> 3.0"
+        "requirements": "~> 3.1"
       },
       {
         "name": "yard-value",
-        "requirements": "~> 3.0"
+        "requirements": "~> 3.1"
       }
     ]
   },
   "lookout-statsd": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "dependents": [
-
+      {
+        "name": "rack-graphite",
+        "requirements": ">= 0"
+      }
     ]
   },
   "lookout-vanity": {
     "version": "1.8.2",
+    "dependents": [
+
+    ]
+  },
+  "looks": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -13204,7 +16271,7 @@
       },
       {
         "name": "irbtools-more",
-        "requirements": "~> 1.0.3"
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "kitty_gen",
@@ -13215,9 +16282,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "speci",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "style-scanner",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "looksy": {
+    "version": "0.1.0",
+    "dependents": [
+
     ]
   },
   "lookup": {
@@ -13237,6 +16314,15 @@
   },
   "lookup_by": {
     "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "stachio",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "looky-lu": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -13392,6 +16478,10 @@
       {
         "name": "ruby-boost-regex",
         "requirements": ">= 0.1.2"
+      },
+      {
+        "name": "storehouse_client",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -13409,6 +16499,12 @@
   },
   "lorem-ipsum-me": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lorem_ab": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -13437,6 +16533,12 @@
 
     ]
   },
+  "lorem_ipsm": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "lorem_ipsum": {
     "version": "0.0.2",
     "dependents": [
@@ -13455,8 +16557,26 @@
 
     ]
   },
+  "lorem_jp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lorem_kg": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "lorem_practice": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "lorem_test": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -13533,12 +16653,18 @@
     ]
   },
   "lotion": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "lottay-paypal_adaptive": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "lottery": {
     "version": "0.0.5",
     "dependents": [
 
@@ -13551,6 +16677,12 @@
         "name": "missile-command-ruby",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "lotus": {
+    "version": "0.0.12",
+    "dependents": [
+
     ]
   },
   "loudmouth": {
@@ -13566,7 +16698,7 @@
     ]
   },
   "louvian_ruby": {
-    "version": "0.0.2",
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -13604,8 +16736,8 @@
       }
     ]
   },
-  "lover": {
-    "version": "0.0.1",
+  "loverload": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -13671,10 +16803,78 @@
 
     ]
   },
-  "loyal_devise": {
-    "version": "2.1.2",
+  "loyal_acts_as_paranoid": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "loyal_core",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_admin": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "loyals",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_awesome_nested_set": {
+    "version": "0.0.1",
     "dependents": [
 
+    ]
+  },
+  "loyal_core": {
+    "version": "0.0.11",
+    "dependents": [
+      {
+        "name": "loyal_admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "loyal_passport",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "loyals",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_devise": {
+    "version": "2.2.5",
+    "dependents": [
+      {
+        "name": "loyal_passport",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_ipinfo": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "loyal_passport": {
+    "version": "0.0.7",
+    "dependents": [
+      {
+        "name": "loyals",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_rails_kindeditor": {
+    "version": "0.0.9",
+    "dependents": [
+      {
+        "name": "loyal_core",
+        "requirements": ">= 0"
+      }
     ]
   },
   "loyal_rmmseg": {
@@ -13690,18 +16890,39 @@
     ]
   },
   "loyal_simple_captcha": {
-    "version": "0.0.1",
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "loyal_core",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "loyal_spider": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "loyal_user_agent": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
   },
   "loyal_warden": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "dependents": [
       {
         "name": "loyal_devise",
-        "requirements": "~> 2.0.0"
+        "requirements": ">= 0"
       }
+    ]
+  },
+  "loyals": {
+    "version": "0.0.2",
+    "dependents": [
+
     ]
   },
   "loyalty_lab_sdk": {
@@ -13764,13 +16985,29 @@
 
     ]
   },
+  "lpp": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "lps": {
     "version": "0.2.0",
     "dependents": [
       {
         "name": "proco",
         "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "redis-stat",
+        "requirements": "~> 0.2.0"
       }
+    ]
+  },
+  "lpxc": {
+    "version": "0.0.5",
+    "dependents": [
+
     ]
   },
   "lr_hiya_aires_tarso": {
@@ -13815,11 +17052,23 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ember_auth_rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "extract",
         "requirements": ">= 0"
       },
       {
         "name": "mongo_persist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rchoice",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sprockets_fs",
         "requirements": ">= 0"
       },
       {
@@ -13850,6 +17099,15 @@
 
     ]
   },
+  "lru_redux": {
+    "version": "0.8.1",
+    "dependents": [
+      {
+        "name": "octranspo_fetch",
+        "requirements": ">= 0.8.1"
+      }
+    ]
+  },
   "lrucache": {
     "version": "0.1.4",
     "dependents": [
@@ -13872,15 +17130,17 @@
       {
         "name": "slimmer",
         "requirements": "~> 0.1.3"
-      },
-      {
-        "name": "yaccl",
-        "requirements": "~> 0.1"
       }
     ]
   },
   "lrun-ruby": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "ls-paste": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -13935,18 +17195,22 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "selenium-rc",
-        "requirements": ">= 0"
-      },
-      {
         "name": "selenium-grid",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "selenium-rc",
+        "requirements": ">= 0"
       }
     ]
   },
   "lspace": {
-    "version": "0.10",
+    "version": "0.12",
     "dependents": [
+      {
+        "name": "chalk-tools",
+        "requirements": "~> 0.9"
+      },
       {
         "name": "em-monitor",
         "requirements": ">= 0"
@@ -13978,8 +17242,14 @@
 
     ]
   },
+  "ltdtemplate": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
   "lti2_commons": {
-    "version": "1.0",
+    "version": "1.2",
     "dependents": [
 
     ]
@@ -14004,6 +17274,22 @@
       {
         "name": "ltsview",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ltsv_logger",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "norikra-client-jruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "norikra-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wakame-dolphin",
+        "requirements": "= 0.1.0"
       }
     ]
   },
@@ -14013,8 +17299,14 @@
 
     ]
   },
+  "ltsv_logger": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "ltsview": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
 
     ]
@@ -14043,6 +17335,12 @@
 
     ]
   },
+  "lucas_bio": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "lucene-dotnet": {
     "version": "2.0.0.4.20100803",
     "dependents": [
@@ -14061,6 +17359,12 @@
 
     ]
   },
+  "lucent": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "luchador": {
     "version": "0.0.1",
     "dependents": [
@@ -14068,7 +17372,7 @@
     ]
   },
   "lucid": {
-    "version": "0.0.4",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -14080,7 +17384,7 @@
     ]
   },
   "lucid_works": {
-    "version": "0.7.18",
+    "version": "0.9.4",
     "dependents": [
 
     ]
@@ -14092,26 +17396,36 @@
     ]
   },
   "lucie": {
-    "version": "0.0.3",
+    "version": "0.0.9",
     "dependents": [
 
     ]
   },
   "lucie-bin": {
-    "version": "0.0.2",
+    "version": "0.0.9",
     "dependents": [
       {
         "name": "lucie",
-        "requirements": "= 0.0.3"
+        "requirements": "= 0.0.9"
       }
     ]
   },
+  "lucie-cmd": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
   "lucie-lib": {
-    "version": "0.0.2",
+    "version": "0.0.9",
     "dependents": [
       {
         "name": "lucie-bin",
-        "requirements": "= 0.0.2"
+        "requirements": "= 0.0.9"
+      },
+      {
+        "name": "lucie",
+        "requirements": "= 0.0.9"
       }
     ]
   },
@@ -14123,6 +17437,12 @@
   },
   "luck": {
     "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "lucky": {
+    "version": "0.0.7",
     "dependents": [
 
     ]
@@ -14143,7 +17463,7 @@
     ]
   },
   "lucy-goosey": {
-    "version": "0.2.0",
+    "version": "0.4.0",
     "dependents": [
       {
         "name": "checkcheckit",
@@ -14164,7 +17484,7 @@
     ]
   },
   "ludo-roart": {
-    "version": "0.1.18",
+    "version": "0.1.19",
     "dependents": [
 
     ]
@@ -14189,6 +17509,18 @@
   },
   "luhn": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "luhn-check": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "luhn-ruby": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -14221,7 +17553,7 @@
     ]
   },
   "lui": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -14272,7 +17604,7 @@
     ]
   },
   "lumber": {
-    "version": "0.13.4",
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -14284,18 +17616,18 @@
     ]
   },
   "lumberjack": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "guard",
         "requirements": ">= 1.0.2"
       },
       {
-        "name": "lumberjack-couchdb-driver",
-        "requirements": ">= 0"
+        "name": "lumberjack_heroku_device",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "lumberjack_multi-device",
+        "name": "lumberjack-couchdb-driver",
         "requirements": ">= 0"
       },
       {
@@ -14303,8 +17635,8 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "lumberjack_heroku_device",
-        "requirements": "~> 1.0"
+        "name": "lumberjack_multi-device",
+        "requirements": ">= 0"
       },
       {
         "name": "lumberjack_syslog_device",
@@ -14358,8 +17690,55 @@
 
     ]
   },
+  "lump": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "luna-rspec-formatters": {
+    "version": "0.4.3",
+    "dependents": [
+      {
+        "name": "active_record_mocks",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "activerecord-hstore_primitives",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "clippy",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "content-pipeline",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "feralchimp",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "mongoid-find_by",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "mongoid-find_by",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pry-vterm_aliases",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "rspec-active_record_mocks",
+        "requirements": "~> 0.4"
+      }
+    ]
+  },
   "luna_api": {
-    "version": "0.2.1",
+    "version": "0.2.3",
     "dependents": [
 
     ]
@@ -14370,8 +17749,20 @@
 
     ]
   },
+  "lunar_cheese": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
   "lunar_lander": {
     "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "lunas-minitest-formatters": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -14389,8 +17780,12 @@
     ]
   },
   "lunchy": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
+      {
+        "name": "ah",
+        "requirements": "~> 0.6.0"
+      },
       {
         "name": "masquito",
         "requirements": ">= 0"
@@ -14427,6 +17822,12 @@
 
     ]
   },
+  "lunks-wepay": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "lunks_rghost": {
     "version": "0.8.7.6.1",
     "dependents": [
@@ -14440,7 +17841,7 @@
     ]
   },
   "luobo": {
-    "version": "0.1.0",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -14497,11 +17898,11 @@
     "version": "0.1.0",
     "dependents": [
       {
-        "name": "lustr-wx",
+        "name": "lustr-mxml",
         "requirements": ">= 0.1"
       },
       {
-        "name": "lustr-mxml",
+        "name": "lustr-jruby",
         "requirements": ">= 0.1"
       },
       {
@@ -14509,7 +17910,7 @@
         "requirements": ">= 0.1"
       },
       {
-        "name": "lustr-jruby",
+        "name": "lustr-wx",
         "requirements": ">= 0.1"
       }
     ]
@@ -14562,6 +17963,12 @@
 
     ]
   },
+  "lwac": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "lwe-acts-as-taggable-on": {
     "version": "1.0.7",
     "dependents": [
@@ -14569,12 +17976,8 @@
     ]
   },
   "lwes": {
-    "version": "0.8.5",
+    "version": "0.8.6",
     "dependents": [
-      {
-        "name": "atti_service",
-        "requirements": ">= 0.2.3"
-      },
       {
         "name": "lwes-logger",
         "requirements": "~> 0.6"
@@ -14600,19 +18003,22 @@
     ]
   },
   "lxa_core_extensions": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ]
   },
   "lxc": {
-    "version": "0.0.1",
+    "version": "0.3.7",
     "dependents": [
-
+      {
+        "name": "testlab",
+        "requirements": ">= 0"
+      }
     ]
   },
   "lxc-ruby": {
-    "version": "0.2.3",
+    "version": "0.3.1",
     "dependents": [
 
     ]
@@ -14624,13 +18030,25 @@
     ]
   },
   "lyb_devise_admin": {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "dependents": [
 
     ]
   },
   "lyb_sidebar": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "lycopodium": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "lyk": {
+    "version": "0.5.1",
     "dependents": [
 
     ]
@@ -14660,6 +18078,12 @@
         "name": "braintree_lyre",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "lyricfy": {
+    "version": "0.1.0",
+    "dependents": [
+
     ]
   },
   "lyricli": {
@@ -14700,6 +18124,12 @@
   },
   "lz77": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "lzf": {
+    "version": "0.0.1",
     "dependents": [
 
     ]

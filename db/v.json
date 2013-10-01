@@ -42,7 +42,7 @@
     ]
   },
   "vacuum": {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "dependents": [
 
     ]
@@ -53,14 +53,20 @@
 
     ]
   },
+  "vae": {
+    "version": "0.6.5",
+    "dependents": [
+
+    ]
+  },
   "vagabond": {
-    "version": "0.2.0",
+    "version": "0.2.8",
     "dependents": [
 
     ]
   },
   "vagalume": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -93,11 +99,11 @@
         "requirements": "~> 1.0.6"
       },
       {
-        "name": "capistrano-file-resources",
+        "name": "capistrano-file-transfer-ext",
         "requirements": "~> 1.0.6"
       },
       {
-        "name": "capistrano-file-transfer-ext",
+        "name": "capistrano-file-resources",
         "requirements": "~> 1.0.6"
       },
       {
@@ -110,14 +116,6 @@
       },
       {
         "name": "capistrano-redeploy",
-        "requirements": "~> 1.0.6"
-      },
-      {
-        "name": "capistrano-rbenv",
-        "requirements": "~> 1.0.6"
-      },
-      {
-        "name": "capistrano-pyenv",
         "requirements": "~> 1.0.6"
       },
       {
@@ -138,7 +136,7 @@
       },
       {
         "name": "coral_vagrant",
-        "requirements": "~> 1.0"
+        "requirements": ">= 0"
       },
       {
         "name": "cpspec",
@@ -157,10 +155,6 @@
         "requirements": "= 1.0.5"
       },
       {
-        "name": "fezzik",
-        "requirements": "~> 1.0.5"
-      },
-      {
         "name": "fragrant",
         "requirements": ">= 0"
       },
@@ -175,10 +169,6 @@
       {
         "name": "kuroko",
         "requirements": ">= 0"
-      },
-      {
-        "name": "lobot",
-        "requirements": "~> 1.0"
       },
       {
         "name": "marionetta",
@@ -233,24 +223,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "recap",
-        "requirements": "~> 0.9.7"
+        "name": "realityforge-vagrant-windows",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "roundsman-sgonyea",
-        "requirements": "~> 1.0"
+        "name": "rightscale_provisioner",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "roundsman",
         "requirements": "~> 1.0"
       },
       {
-        "name": "rs_vagrant_shim",
-        "requirements": "~> 1.0.5"
+        "name": "roundsman-sgonyea",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "sahara",
-        "requirements": "~> 1.0"
+        "name": "rs_vagrant_shim",
+        "requirements": "~> 1.0.5"
       },
       {
         "name": "sipatra",
@@ -285,23 +275,7 @@
         "requirements": ">= 0.8.7"
       },
       {
-        "name": "vagrant-bindfs",
-        "requirements": "~> 1.0.5"
-      },
-      {
         "name": "vagrant-ansible",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vagrant-cookbook-fetcher",
-        "requirements": "<= 1.0.7"
-      },
-      {
-        "name": "vagrant-butter",
-        "requirements": "~> 1.0.0"
-      },
-      {
-        "name": "vagrant-dns",
         "requirements": ">= 0"
       },
       {
@@ -313,19 +287,19 @@
         "requirements": ">= 1.0.2"
       },
       {
-        "name": "vagrant-fog-box-storage",
-        "requirements": "~> 1.0"
+        "name": "vagrant-butter",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "vagrant-camera",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-dns-server",
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "vagrant-hiera",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vagrant-hosts",
+        "name": "vagrant-fog-box-storage",
         "requirements": "~> 1.0"
       },
       {
@@ -333,7 +307,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-hostruby",
+        "name": "vagrant-hiera",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-hostentriess",
         "requirements": ">= 0"
       },
       {
@@ -341,11 +319,15 @@
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "vagrant-list",
+        "name": "vagrant-hostentries",
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-lube",
+        "name": "vagrant-hostruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-http-basic-authentication",
         "requirements": ">= 0"
       },
       {
@@ -353,23 +335,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-pe_build",
-        "requirements": "~> 1.0.0"
-      },
-      {
-        "name": "vagrant-multi-putty",
-        "requirements": "~> 1.0.5"
+        "name": "vagrant-lube",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-plugins",
         "requirements": ">= 1.1.0.dev"
       },
       {
-        "name": "vagrant-openstack",
-        "requirements": ">= 0"
+        "name": "vagrant-proxyssh",
+        "requirements": ">= 1.0.0"
       },
       {
-        "name": "vagrant-persistent-storage",
+        "name": "vagrant-puppetconf",
         "requirements": ">= 0"
       },
       {
@@ -381,48 +359,40 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "vagrant-puppetconf",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vagrant-proxyssh",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "vagrant-rake-fork",
         "requirements": "~> 0.8.0"
-      },
-      {
-        "name": "vagrant-spatula",
-        "requirements": "~> 0.7.0"
-      },
-      {
-        "name": "vagrant-snap",
-        "requirements": ">= 0"
       },
       {
         "name": "vagrant-salt",
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-vmhosts",
-        "requirements": "~> 1.0.0"
+        "name": "vagrant-snap",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-sync",
         "requirements": ">= 0"
       },
       {
+        "name": "vagrant-spatula",
+        "requirements": "~> 0.7.0"
+      },
+      {
         "name": "vagrant-test",
         "requirements": ">= 0.9.0"
       },
       {
-        "name": "vagrant-windows",
-        "requirements": "~> 1.0.3"
+        "name": "vagrant-vmhosts",
+        "requirements": "~> 1.0.0"
       },
       {
-        "name": "vagrant-zentoo",
-        "requirements": ">= 1.0.3"
+        "name": "vagrant-wrapper",
+        "requirements": "= 1.0.7"
+      },
+      {
+        "name": "vagrant-zfs",
+        "requirements": "= 1.0.6"
       },
       {
         "name": "vagrant_bootstrap",
@@ -433,8 +403,8 @@
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "vagrant-zfs",
-        "requirements": "= 1.0.6"
+        "name": "VagrantHyperV",
+        "requirements": ">= 1.2"
       },
       {
         "name": "vbox",
@@ -445,11 +415,11 @@
         "requirements": ">= 0.9"
       },
       {
-        "name": "veyron",
-        "requirements": ">= 0"
+        "name": "veewee-atlassian",
+        "requirements": ">= 0.9"
       },
       {
-        "name": "vigil",
+        "name": "veyron",
         "requirements": ">= 0"
       },
       {
@@ -457,16 +427,12 @@
         "requirements": ">= 0"
       },
       {
+        "name": "vigil",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vmtools",
         "requirements": "~> 1.0.0"
-      },
-      {
-        "name": "weave",
-        "requirements": "~> 1.0.5"
-      },
-      {
-        "name": "yyuu-capistrano-chef-solo",
-        "requirements": "~> 1.0.6"
       },
       {
         "name": "zfs",
@@ -476,6 +442,12 @@
   },
   "vagrant-actionio": {
     "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-ami": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -492,14 +464,59 @@
 
     ]
   },
+  "vagrant-auto_network": {
+    "version": "0.2.1",
+    "dependents": [
+      {
+        "name": "oscar",
+        "requirements": ">= 0.2.0"
+      }
+    ]
+  },
   "vagrant-aws": {
-    "version": "0.1.2",
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "vagrant-ami",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "vagrant-awsinfo": {
+    "version": "0.0.8",
     "dependents": [
 
     ]
   },
+  "vagrant-babushka": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-bee": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-berkshelf": {
+    "version": "1.3.3",
+    "dependents": [
+      {
+        "name": "berkshelf-vagrant",
+        "requirements": ">= 1.2.0"
+      }
+    ]
+  },
   "vagrant-bindfs": {
-    "version": "0.1.9",
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-box-updater": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -511,7 +528,7 @@
     ]
   },
   "vagrant-brightbox": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -532,7 +549,7 @@
     ]
   },
   "vagrant-butcher": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -544,7 +561,25 @@
     ]
   },
   "vagrant-cachier": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-camera": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-chef-apply": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-chef-zero": {
+    "version": "0.5.0",
     "dependents": [
 
     ]
@@ -555,26 +590,53 @@
 
     ]
   },
+  "vagrant-chefzero": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
   "vagrant-cloner": {
     "version": "2.1.0",
     "dependents": [
 
     ]
   },
+  "vagrant-config_builder": {
+    "version": "0.5.0",
+    "dependents": [
+      {
+        "name": "oscar",
+        "requirements": ">= 0.1.0"
+      }
+    ]
+  },
   "vagrant-cookbook-fetcher": {
-    "version": "0.0.8",
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-cucumber": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-destroyer": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
   },
   "vagrant-digitalocean": {
-    "version": "0.0.4",
+    "version": "0.4.0",
     "dependents": [
 
     ]
   },
   "vagrant-dns": {
-    "version": "0.3.0",
+    "version": "0.4.1",
     "dependents": [
 
     ]
@@ -585,13 +647,55 @@
 
     ]
   },
+  "vagrant-dnsmasq": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-docker": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "vagrant-dsl": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
       {
         "name": "chef-workflow-tasklib",
         "requirements": "~> 0.1.0"
       }
+    ]
+  },
+  "vagrant-ec2setup": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-exec": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-fabric": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-fastforward": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-fifo": {
+    "version": "0.2.1",
+    "dependents": [
+
     ]
   },
   "vagrant-fixed-ssh": {
@@ -609,8 +713,50 @@
 
     ]
   },
-  "vagrant-guests-openbsd": {
+  "vagrant-foodtaster-server": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-free-memory": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-ganeti": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-gem": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-global-status": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-grunt": {
+    "version": "0.0.26",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-guest-omnios": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-guests-openbsd": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -628,13 +774,37 @@
     ]
   },
   "vagrant-host-path": {
-    "version": "1.0.0",
+    "version": "1.3.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-host-shell": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-hostel": {
+    "version": "0.0.12",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-hostentries": {
+    "version": "0.6.5",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-hostentriess": {
+    "version": "0.5.0",
     "dependents": [
 
     ]
   },
   "vagrant-hostmanager": {
-    "version": "0.0.4",
+    "version": "1.2.1",
     "dependents": [
 
     ]
@@ -652,13 +822,28 @@
     ]
   },
   "vagrant-hosts": {
-    "version": "1.0.0",
+    "version": "2.0.0",
+    "dependents": [
+      {
+        "name": "oscar",
+        "requirements": ">= 1.1.2"
+      }
+    ]
+  },
+  "vagrant-hostsupdater": {
+    "version": "0.0.10",
     "dependents": [
 
     ]
   },
   "vagrant-hp": {
-    "version": "0.1.0",
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-http-basic-authentication": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -676,7 +861,7 @@
     ]
   },
   "vagrant-kvm": {
-    "version": "0.1.1",
+    "version": "0.1.4",
     "dependents": [
 
     ]
@@ -687,20 +872,32 @@
 
     ]
   },
+  "vagrant-librarian-chef": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
   "vagrant-librarian-puppet": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "vagrant-librarian-puppet-plugin": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "vagrant-libvirt": {
-    "version": "0.0.2",
+    "version": "0.0.9",
     "dependents": [
 
     ]
   },
   "vagrant-list": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -712,55 +909,139 @@
     ]
   },
   "vagrant-lxc": {
-    "version": "0.2.0",
+    "version": "0.6.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-managed-servers": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "vagrant-mongodb": {
-    "version": "0.0.3",
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "vagrant-multi-putty": {
-    "version": "1.0.1",
+    "version": "1.2.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-multiprovider-snap": {
+    "version": "0.0.6",
+    "dependents": [
+      {
+        "name": "vagrant-cucumber",
+        "requirements": ">= 0.0.4"
+      }
+    ]
+  },
+  "vagrant-niftycloud": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-node": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-nodemaster": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
   },
   "vagrant-notify": {
-    "version": "0.2.2",
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-ohai": {
+    "version": "0.1.3",
     "dependents": [
 
     ]
   },
   "vagrant-omnibus": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
 
     ]
   },
   "vagrant-openstack": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ]
   },
   "vagrant-openstack-plugin": {
-    "version": "0.1.1",
+    "version": "0.3.0",
     "dependents": [
 
     ]
   },
-  "vagrant-pe_build": {
+  "vagrant-orca": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-ovirt": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-package_cache": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-parallels": {
     "version": "0.0.3",
     "dependents": [
 
     ]
   },
+  "vagrant-pcc": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-pe_build": {
+    "version": "0.5.0",
+    "dependents": [
+      {
+        "name": "oscar",
+        "requirements": ">= 0.4.2"
+      }
+    ]
+  },
   "vagrant-persistent-storage": {
-    "version": "0.0.2",
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-plugin-bundler": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-plugin-dummy": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -782,7 +1063,7 @@
     "dependents": [
       {
         "name": "chef-workflow",
-        "requirements": "~> 0.1.0"
+        "requirements": "~> 0.2.0"
       },
       {
         "name": "furnish-vagrant",
@@ -790,8 +1071,32 @@
       },
       {
         "name": "vagrant-dsl",
-        "requirements": "~> 0.1.0"
+        "requirements": "~> 0.2.0"
       }
+    ]
+  },
+  "vagrant-pristine": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-protect": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-proxy": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-proxyconf": {
+    "version": "0.5.3",
+    "dependents": [
+
     ]
   },
   "vagrant-proxyssh": {
@@ -801,6 +1106,18 @@
         "name": "zfs",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "vagrant-puppet-install": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-puppet-scp": {
+    "version": "0.0.2",
+    "dependents": [
+
     ]
   },
   "vagrant-puppetconf": {
@@ -816,7 +1133,13 @@
     ]
   },
   "vagrant-rackspace": {
-    "version": "0.1.1",
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-rackspace-provision": {
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -833,14 +1156,38 @@
 
     ]
   },
+  "vagrant-rightscale": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-rightscaleshim": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-route53": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-rspec-ci": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
   "vagrant-rsync": {
-    "version": "0.1.1",
+    "version": "0.2.1",
     "dependents": [
 
     ]
   },
   "vagrant-rubydns": {
-    "version": "0.0.5",
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -869,14 +1216,50 @@
 
     ]
   },
+  "vagrant-shell": {
+    "version": "0.2.13",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-shell-commander": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-ship": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "vagrant-snap": {
     "version": "0.10",
     "dependents": [
 
     ]
   },
+  "vagrant-solaris10": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "vagrant-spatula": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-sprinkle": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-sshfs": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -893,20 +1276,59 @@
 
     ]
   },
+  "vagrant-systemd": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "vagrant-zentoo",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "vagrant-test": {
     "version": "0.1.2",
     "dependents": [
 
     ]
   },
+  "vagrant-test-subject": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-triggers": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "vagrant-unison": {
-    "version": "0.0.6",
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-upload": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
   },
   "vagrant-vbguest": {
-    "version": "0.7.1",
+    "version": "0.9.0",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-vbox-snapshot": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-vboxmanage": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -917,14 +1339,38 @@
 
     ]
   },
+  "vagrant-vminfo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-vmware-freebsd": {
+    "version": "1.0.4",
+    "dependents": [
+
+    ]
+  },
   "vagrant-vmware-fusion": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "vagrant-vyatta": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "vagrant-windows": {
-    "version": "0.1.2",
+    "version": "1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "vagrant-wrapper": {
+    "version": "1.2.1.1",
     "dependents": [
 
     ]
@@ -942,7 +1388,7 @@
     ]
   },
   "vagrant-zentoo": {
-    "version": "0.1.3",
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -959,14 +1405,38 @@
 
     ]
   },
+  "vagrant-zz-multiprovider-snap": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "vagrant_bootstrap": {
     "version": "0.3.0",
     "dependents": [
 
     ]
   },
+  "vagrant_box_version": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "vagrant_cmd": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "vagrantboxes": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "VagrantHyperV": {
+    "version": "0.0.5",
     "dependents": [
 
     ]
@@ -995,6 +1465,12 @@
 
     ]
   },
+  "vakit": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
   "valcro": {
     "version": "0.1",
     "dependents": [
@@ -1017,11 +1493,11 @@
     "version": "0.7.0",
     "dependents": [
       {
-        "name": "valdemaximus-conduit",
+        "name": "valdemaximus-actionwebservice",
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "valdemaximus-actionwebservice",
+        "name": "valdemaximus-conduit",
         "requirements": "~> 0.7.0"
       }
     ]
@@ -1050,6 +1526,12 @@
 
     ]
   },
+  "valiban": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "valibot": {
     "version": "0.2.8",
     "dependents": [
@@ -1057,7 +1539,13 @@
     ]
   },
   "valid": {
-    "version": "0.2.1",
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "valid-array": {
+    "version": "0.2.5",
     "dependents": [
 
     ]
@@ -1075,6 +1563,15 @@
     "version": "0.1.2",
     "dependents": [
 
+    ]
+  },
+  "valid_array": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "rub",
+        "requirements": ">= 0"
+      }
     ]
   },
   "valid_attribute": {
@@ -1105,6 +1602,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "importable_attachments",
+        "requirements": "~> 1.3.1"
+      },
+      {
         "name": "insvrance",
         "requirements": ">= 0"
       },
@@ -1122,17 +1623,29 @@
     "version": "0.0.4",
     "dependents": [
       {
-        "name": "nimbleshop_paypalwp",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nimbleshop_core",
         "requirements": "= 0.0.4"
+      },
+      {
+        "name": "nimbleshop_paypalwp",
+        "requirements": ">= 0"
       }
+    ]
+  },
+  "valid_email2": {
+    "version": "1.0.0",
+    "dependents": [
+
     ]
   },
   "valid_filename": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "valid_route": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -1215,6 +1728,12 @@
 
     ]
   },
+  "validate": {
+    "version": "1.3.1",
+    "dependents": [
+
+    ]
+  },
   "validate-website": {
     "version": "0.7.9",
     "dependents": [
@@ -1223,6 +1742,18 @@
   },
   "validate_as_email": {
     "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "validate_as_seo_tag": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "validate_as_url": {
+    "version": "0.0.9",
     "dependents": [
 
     ]
@@ -1307,7 +1838,7 @@
     ]
   },
   "ValidateEmail": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -1315,7 +1846,10 @@
   "validates": {
     "version": "0.0.8",
     "dependents": [
-
+      {
+        "name": "beerify",
+        "requirements": "= 0.0.8"
+      }
     ]
   },
   "validates-belongs-to": {
@@ -1325,7 +1859,7 @@
     ]
   },
   "validates-email": {
-    "version": "0.0.2",
+    "version": "0.0.5",
     "dependents": [
 
     ]
@@ -1463,7 +1997,7 @@
     ]
   },
   "validates_cnpj": {
-    "version": "1.1.3",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -1475,7 +2009,7 @@
     ]
   },
   "validates_cpf": {
-    "version": "1.1.3",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -1508,7 +2042,7 @@
     ]
   },
   "validates_email-san": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ]
@@ -1635,7 +2169,7 @@
     ]
   },
   "validates_overlap": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -1658,6 +2192,12 @@
 
     ]
   },
+  "validates_subdomain": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "validates_telephone": {
     "version": "1.1.0",
     "dependents": [
@@ -1668,19 +2208,31 @@
     "version": "3.0.14",
     "dependents": [
       {
-        "name": "bookkeeper",
-        "requirements": "~> 3.0"
+        "name": "artfully_ose",
+        "requirements": ">= 0"
       },
       {
-        "name": "enju_circulation",
-        "requirements": ">= 0"
+        "name": "bookkeeper",
+        "requirements": "~> 3.0"
       },
       {
         "name": "enju_biblio",
         "requirements": ">= 0"
       },
       {
+        "name": "enju_circulation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_trunk_frbr",
+        "requirements": ">= 0"
+      },
+      {
         "name": "has_accounts",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "has_accounts_engine",
         "requirements": ">= 0"
       },
       {
@@ -1736,7 +2288,7 @@
     ]
   },
   "validation": {
-    "version": "0.0.3.1",
+    "version": "0.0.6",
     "dependents": [
       {
         "name": "family",
@@ -1744,15 +2296,15 @@
       },
       {
         "name": "io-nosey",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.6"
       },
       {
         "name": "optionalargument",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.6"
       },
       {
         "name": "striuct",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.5"
       },
       {
         "name": "struct-validatable",
@@ -1779,7 +2331,7 @@
     ]
   },
   "validation_annotations": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -1803,7 +2355,7 @@
     ]
   },
   "validation_issues": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -1815,7 +2367,7 @@
     ]
   },
   "validation_matcher": {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "dependents": [
 
     ]
@@ -1879,7 +2431,7 @@
     ]
   },
   "validation_rules": {
-    "version": "1.0.0",
+    "version": "1.0.5",
     "dependents": [
 
     ]
@@ -1903,7 +2455,7 @@
     ]
   },
   "validations": {
-    "version": "0.0.3",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -1971,6 +2523,12 @@
 
     ]
   },
+  "validic": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "validus": {
     "version": "0.0.1",
     "dependents": [
@@ -1984,10 +2542,26 @@
     ]
   },
   "valise": {
-    "version": "0.9.1",
+    "version": "1.0.0",
     "dependents": [
       {
+        "name": "cadre",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "mattock",
+        "requirements": ">= 0.9.1"
+      },
+      {
+        "name": "pivotal-brancher",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "rhet-butler",
+        "requirements": "~> 0.9.1"
+      },
+      {
+        "name": "roadforest",
         "requirements": ">= 0.9.1"
       }
     ]
@@ -2025,6 +2599,12 @@
   },
   "valle": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "valley-rails-generator": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -2079,9 +2659,12 @@
     ]
   },
   "value": {
-    "version": "1.1.1",
+    "version": "1.1.3",
     "dependents": [
-
+      {
+        "name": "lookout",
+        "requirements": "~> 1.1"
+      }
     ]
   },
   "value-yard": {
@@ -2092,6 +2675,12 @@
   },
   "value_object": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "value_object_ar": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -2118,6 +2707,10 @@
     "version": "1.5.0",
     "dependents": [
       {
+        "name": "bigbertha",
+        "requirements": "~> 1.5.0"
+      },
+      {
         "name": "http_spec",
         "requirements": ">= 0"
       },
@@ -2134,7 +2727,7 @@
     ]
   },
   "valvat": {
-    "version": "0.4.5",
+    "version": "0.6.1",
     "dependents": [
 
     ]
@@ -2177,6 +2770,12 @@
     ]
   },
   "vandamme": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "vanguard": {
     "version": "0.0.4",
     "dependents": [
 
@@ -2285,8 +2884,33 @@
 
     ]
   },
+  "varia_model": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "buff-config",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "ridley",
+        "requirements": "~> 0.1"
+      }
+    ]
+  },
+  "variant": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
   "variants": {
     "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "variation": {
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -2317,6 +2941,36 @@
   },
   "varnish_sweeper": {
     "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "varnisher": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "varnishops": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "varvara": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vary": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "varys": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -2357,6 +3011,18 @@
 
     ]
   },
+  "vat_id": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vat_id_validator": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "vat_validator": {
     "version": "1.2",
     "dependents": [
@@ -2391,19 +3057,25 @@
     ]
   },
   "vatsim_metar": {
-    "version": "0.1.0",
+    "version": "0.2.3",
     "dependents": [
 
     ]
   },
   "vatsim_online": {
-    "version": "0.7.0",
+    "version": "0.7.4.2",
     "dependents": [
 
     ]
   },
   "vault": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vault-invoice-builder-client": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2415,19 +3087,19 @@
     ]
   },
   "vault-test-tools": {
-    "version": "0.2.3",
+    "version": "0.3.4",
     "dependents": [
 
     ]
   },
   "vault-tools": {
-    "version": "0.3.6",
+    "version": "0.3.9",
     "dependents": [
 
     ]
   },
   "vault-usage-client": {
-    "version": "0.0.1",
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -2454,7 +3126,7 @@
     ]
   },
   "vayacondios-client": {
-    "version": "0.1.11",
+    "version": "0.2.11",
     "dependents": [
       {
         "name": "wukong",
@@ -2463,7 +3135,7 @@
     ]
   },
   "vayacondios-server": {
-    "version": "0.1.11",
+    "version": "0.2.11",
     "dependents": [
 
     ]
@@ -2480,6 +3152,18 @@
 
     ]
   },
+  "vboxer": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vboxremote-rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "vbulletin": {
     "version": "0.0.8",
     "dependents": [
@@ -2492,8 +3176,21 @@
 
     ]
   },
+  "vcap-concurrency": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "cf-message-bus",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cf-message-bus",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "vcap_common": {
-    "version": "2.0.8",
+    "version": "2.0.11",
     "dependents": [
 
     ]
@@ -2505,7 +3202,7 @@
     ]
   },
   "vcard": {
-    "version": "0.2.3",
+    "version": "0.2.10",
     "dependents": [
       {
         "name": "alchemy_crm",
@@ -2532,11 +3229,11 @@
     ]
   },
   "vcard_parser": {
-    "version": "0.0.4",
+    "version": "0.0.8",
     "dependents": [
       {
         "name": "dav4rack_ext",
-        "requirements": "= 0.0.4"
+        "requirements": "~> 0.0.8"
       }
     ]
   },
@@ -2554,6 +3251,12 @@
   },
   "vcdiff": {
     "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vcdiff.rb": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2631,8 +3334,26 @@
 
     ]
   },
+  "vcloud-box-spinner": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ]
+  },
+  "vcloud-net-spinner": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "vcloud-network-configurator": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "vcloud-rest": {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "knife-vcloud",
@@ -2647,7 +3368,7 @@
     ]
   },
   "vcr": {
-    "version": "2.4.0",
+    "version": "2.6.0",
     "dependents": [
       {
         "name": "active_merchant_first_data",
@@ -2670,15 +3391,23 @@
         "requirements": "~> 1.7.0"
       },
       {
-        "name": "adknowledge",
-        "requirements": ">= 0"
-      },
-      {
         "name": "admincredible",
         "requirements": ">= 0"
       },
       {
+        "name": "adult_dvd_empire",
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "adknowledge",
+        "requirements": ">= 0"
+      },
+      {
         "name": "adyen-admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ael_tracker",
         "requirements": ">= 0"
       },
       {
@@ -2698,12 +3427,16 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "al_papi",
+        "requirements": ">= 2.2.5"
+      },
+      {
         "name": "alchemy-api-rb",
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "al_papi",
-        "requirements": ">= 2.2.5"
+        "name": "allegro-webapi",
+        "requirements": "= 2.6.0"
       },
       {
         "name": "amee",
@@ -2714,19 +3447,31 @@
         "requirements": ">= 0"
       },
       {
+        "name": "anchorman",
+        "requirements": ">= 0"
+      },
+      {
         "name": "angellist_api",
         "requirements": "~> 2.1"
+      },
+      {
+        "name": "anmsm_ruby",
+        "requirements": ">= 0"
       },
       {
         "name": "anything-hub",
         "requirements": ">= 0"
       },
       {
-        "name": "aq.rb",
+        "name": "apdm",
         "requirements": ">= 0"
       },
       {
         "name": "apsis",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aq.rb",
         "requirements": ">= 0"
       },
       {
@@ -2750,15 +3495,23 @@
         "requirements": ">= 0"
       },
       {
+        "name": "atheme",
+        "requirements": ">= 0"
+      },
+      {
         "name": "authpds-nyu",
         "requirements": "~> 2.4.0"
       },
       {
         "name": "authpds",
-        "requirements": "~> 2.4.0"
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "avalara",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "awscosts",
         "requirements": ">= 0"
       },
       {
@@ -2794,6 +3547,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bcx",
+        "requirements": ">= 0"
+      },
+      {
         "name": "beatport",
         "requirements": ">= 0"
       },
@@ -2803,22 +3560,34 @@
       },
       {
         "name": "bento_search",
-        "requirements": ">= 0"
+        "requirements": "~> 2.4"
       },
       {
         "name": "berkshelf",
-        "requirements": "~> 2.4.0"
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "biblesearch-api",
+        "requirements": ">= 0"
       },
       {
         "name": "big-panda",
         "requirements": "~> 2.4"
       },
       {
+        "name": "big_ml",
+        "requirements": ">= 0"
+      },
+      {
         "name": "big_register",
         "requirements": "~> 2.4.0"
       },
       {
-        "name": "big_ml",
+        "name": "bigcommerce-test",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bigcommerce",
         "requirements": ">= 0"
       },
       {
@@ -2854,6 +3623,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "black_book",
+        "requirements": ">= 0"
+      },
+      {
         "name": "blacklight-hierarchy",
         "requirements": ">= 0"
       },
@@ -2878,12 +3651,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bnet_scraper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "board-client",
         "requirements": "~> 1.11.1"
+      },
+      {
+        "name": "bnet_scraper",
+        "requirements": ">= 0"
       },
       {
         "name": "board_game_geek",
@@ -2894,6 +3667,10 @@
         "requirements": "= 1.11.3"
       },
       {
+        "name": "botscout",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "box_cli",
         "requirements": "~> 2.2.5"
       },
@@ -2902,15 +3679,19 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "brightbox-cli",
-        "requirements": "~> 1.11.3"
-      },
-      {
         "name": "brienw-linkedin",
         "requirements": "~> 1.10"
       },
       {
+        "name": "brightbox-cli",
+        "requirements": "~> 1.11.3"
+      },
+      {
         "name": "brightcove-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "browse-everything",
         "requirements": ">= 0"
       },
       {
@@ -2918,7 +3699,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "BtSync",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bundle_info",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "buzz",
         "requirements": ">= 0"
       },
       {
@@ -2926,11 +3715,11 @@
         "requirements": "~> 2.0.0.rc1"
       },
       {
-        "name": "cachebar",
+        "name": "CacheBar",
         "requirements": ">= 0"
       },
       {
-        "name": "CacheBar",
+        "name": "cachebar",
         "requirements": ">= 0"
       },
       {
@@ -2946,7 +3735,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "campaign_master",
+        "requirements": "= 2.4.0"
+      },
+      {
         "name": "campgrounds",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capuchin",
         "requirements": ">= 0"
       },
       {
@@ -2978,6 +3775,22 @@
         "requirements": ">= 0"
       },
       {
+        "name": "chrome_data",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cieloz",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "circleci",
+        "requirements": ">= 2.2.5"
+      },
+      {
+        "name": "citibike",
+        "requirements": ">= 0"
+      },
+      {
         "name": "citygrid_api",
         "requirements": ">= 0"
       },
@@ -3002,6 +3815,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cloudfront",
+        "requirements": "~> 1.11.3"
+      },
+      {
         "name": "cloudfoundry-client",
         "requirements": "= 2.0.0.rc1"
       },
@@ -3014,6 +3831,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "code42",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "coderjoe-sc2ranks",
         "requirements": ">= 1.2.0"
       },
@@ -3022,8 +3843,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "colombo",
+        "name": "codeship",
+        "requirements": "~> 2.5"
+      },
+      {
+        "name": "collmex-ruby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "colombo",
+        "requirements": "= 2.5.0"
       },
       {
         "name": "command_feedback",
@@ -3032,6 +3861,10 @@
       {
         "name": "compactor",
         "requirements": "~> 2.0.0"
+      },
+      {
+        "name": "compass_icon_fonts",
+        "requirements": ">= 0"
       },
       {
         "name": "concur_connect",
@@ -3078,8 +3911,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "crunch-api",
+        "requirements": "~> 2.4"
+      },
+      {
         "name": "d3api",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "daily_menu",
+        "requirements": ">= 0"
       },
       {
         "name": "dance",
@@ -3090,8 +3931,28 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dcentralized",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "dealmap",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "deltacloud-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "desk_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dhl",
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "diablo3_api",
+        "requirements": ">= 0"
       },
       {
         "name": "dict",
@@ -3114,8 +3975,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dmcloud",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dmm-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dnsimple-ruby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "docker-api",
+        "requirements": ">= 2.4.0"
+      },
+      {
+        "name": "docker-client",
+        "requirements": "~> 2.5"
       },
       {
         "name": "doctor_scrape",
@@ -3138,12 +4015,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "DPLibrary",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "dronestream",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dtf",
         "requirements": ">= 0"
       },
       {
         "name": "dubdubdub",
-        "requirements": "~> 2.3.0"
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "duo_security",
@@ -3154,11 +4039,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-github",
+        "name": "easy_auth-google",
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-google",
+        "name": "easy_auth-github",
         "requirements": ">= 0"
       },
       {
@@ -3170,12 +4055,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "easy_auth-zinergia",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ecfs",
+        "requirements": ">= 0"
+      },
+      {
         "name": "echonest-ruby-api",
         "requirements": ">= 0"
       },
       {
+        "name": "eden_cloud_search",
+        "requirements": "~> 2.2"
+      },
+      {
         "name": "edge_cast",
-        "requirements": "~> 2.3"
+        "requirements": "~> 2.5"
       },
       {
         "name": "einstein",
@@ -3186,7 +4083,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "email-verifier",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "emeril",
+        "requirements": ">= 0"
+      },
+      {
         "name": "emporium",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engagement",
         "requirements": ">= 0"
       },
       {
@@ -3194,15 +4103,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_book_jacket",
-        "requirements": ">= 0"
-      },
-      {
         "name": "enju_biblio",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_news",
+        "name": "enju_book_jacket",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_library",
         "requirements": ">= 0"
       },
       {
@@ -3210,11 +4119,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_question",
-        "requirements": "~> 2.2"
-      },
-      {
-        "name": "enju_library",
+        "name": "enju_news",
         "requirements": ">= 0"
       },
       {
@@ -3222,8 +4127,16 @@
         "requirements": "~> 2.2"
       },
       {
+        "name": "enju_question",
+        "requirements": "~> 2.2"
+      },
+      {
         "name": "epay",
         "requirements": "~> 2.0.0.rc1"
+      },
+      {
+        "name": "epilicious",
+        "requirements": ">= 0"
       },
       {
         "name": "eris",
@@ -3234,20 +4147,32 @@
         "requirements": "~> 2.4.0"
       },
       {
+        "name": "ex_ua",
+        "requirements": ">= 2.5.0"
+      },
+      {
         "name": "exacto_subscriber",
         "requirements": "= 1.0.3"
       },
       {
-        "name": "exlibris-aleph",
-        "requirements": "~> 2.4.0"
+        "name": "exercism",
+        "requirements": "~> 2.4"
       },
       {
         "name": "exlibris-primo",
-        "requirements": "~> 2.4.0"
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "exlibris-aleph",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "eztz",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "facebook-google-calendar-sync",
+        "requirements": "~> 2.4"
       },
       {
         "name": "facebook_page_parser",
@@ -3302,6 +4227,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fileturn",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fillerama",
         "requirements": "~> 2.2.4"
       },
@@ -3315,6 +4244,10 @@
       },
       {
         "name": "flacky",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fleetly",
         "requirements": ">= 0"
       },
       {
@@ -3338,11 +4271,19 @@
         "requirements": "~> 2.3.0"
       },
       {
+        "name": "fog-maestrodev",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "foot_stats",
         "requirements": ">= 0"
       },
       {
         "name": "forecast_io",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "forecast_io-cache",
         "requirements": ">= 0"
       },
       {
@@ -3358,6 +4299,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fql",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fraudpointer-client",
         "requirements": "~> 1.0"
       },
@@ -3370,16 +4315,24 @@
         "requirements": "~> 2.4.0"
       },
       {
+        "name": "full_circle",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gamercard",
         "requirements": ">= 0"
       },
       {
-        "name": "gamertag",
-        "requirements": ">= 0"
+        "name": "gamer_stats",
+        "requirements": "~> 2.5"
       },
       {
         "name": "garb-reporter",
         "requirements": ">= 1.11.3"
+      },
+      {
+        "name": "gas2",
+        "requirements": ">= 0"
       },
       {
         "name": "gatherer_set_parser",
@@ -3398,6 +4351,10 @@
         "requirements": "~> 1.11.3"
       },
       {
+        "name": "genio-parser",
+        "requirements": ">= 0"
+      },
+      {
         "name": "geo_ips",
         "requirements": "~> 2.0.1"
       },
@@ -3406,8 +4363,20 @@
         "requirements": "~> 1.5.0"
       },
       {
+        "name": "gestpay",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "ghee",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gigest",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gimizen",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "giraffi",
@@ -3418,12 +4387,36 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "git_hub_bub",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "github_api",
-        "requirements": "~> 2.4.0"
+        "requirements": ">= 0"
+      },
+      {
+        "name": "github_api_v3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gist_nuke",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "gitnetworkitis",
         "requirements": "~> 2.0.1"
+      },
+      {
+        "name": "glassmirror",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "global_weather",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "glub",
+        "requirements": ">= 0"
       },
       {
         "name": "gmo",
@@ -3438,6 +4431,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gom-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gondola",
         "requirements": ">= 1.7.1"
       },
@@ -3446,8 +4443,16 @@
         "requirements": "~> 1.10"
       },
       {
+        "name": "google-transliterate",
+        "requirements": ">= 0"
+      },
+      {
         "name": "google_books",
         "requirements": "~> 1.11.3"
+      },
+      {
+        "name": "google_movies",
+        "requirements": ">= 0"
       },
       {
         "name": "google_places",
@@ -3458,12 +4463,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google_movies",
-        "requirements": ">= 0"
-      },
-      {
         "name": "googlebook",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "greenhouse-io",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "grizzly-weibo",
@@ -3472,6 +4477,10 @@
       {
         "name": "groupon2",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "gsa",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "gtfs",
@@ -3494,11 +4503,35 @@
         "requirements": ">= 1.0"
       },
       {
+        "name": "hatolence",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "heirloom",
+        "requirements": "= 2.4.0"
+      },
+      {
         "name": "henko",
         "requirements": ">= 0"
       },
       {
+        "name": "heroku_feature_deployments",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "horsefield",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "howami",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "hubspot-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hubspot_informer",
         "requirements": ">= 0"
       },
       {
@@ -3530,6 +4563,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "imager",
+        "requirements": ">= 0"
+      },
+      {
         "name": "imdb_lists",
         "requirements": ">= 0"
       },
@@ -3546,36 +4583,44 @@
         "requirements": "~> 1.11.3"
       },
       {
-        "name": "interfax-ruby",
-        "requirements": "= 1.11.3"
+        "name": "instagram_api",
+        "requirements": ">= 0"
       },
       {
-        "name": "intuit_ids_aggcat",
-        "requirements": "~> 2.2"
+        "name": "instavin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "interfax-ruby",
+        "requirements": "= 1.11.3"
       },
       {
         "name": "intown",
         "requirements": "~> 2.4.0"
       },
       {
+        "name": "intuit_ids_aggcat",
+        "requirements": "~> 2.2"
+      },
+      {
         "name": "iprofiler",
         "requirements": "~> 2.4.0"
-      },
-      {
-        "name": "isbm",
-        "requirements": "= 2.2.4"
-      },
-      {
-        "name": "itunes-charts",
-        "requirements": "~> 1.4.0"
       },
       {
         "name": "itunes",
         "requirements": "~> 1.11"
       },
       {
+        "name": "itunes-charts",
+        "requirements": "~> 1.4.0"
+      },
+      {
         "name": "jackpot",
         "requirements": "~> 2.0.0.rc1"
+      },
+      {
+        "name": "jae-client",
+        "requirements": "= 2.0.0.rc1"
       },
       {
         "name": "jail",
@@ -3587,10 +4632,18 @@
       },
       {
         "name": "jekyll-s3",
-        "requirements": ">= 0"
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "jirafe",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "john_stamos",
+        "requirements": "~> 2.5"
+      },
+      {
+        "name": "json-rpc-client",
         "requirements": ">= 0"
       },
       {
@@ -3603,6 +4656,10 @@
       },
       {
         "name": "jugyo-simplenote",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "justiz",
         "requirements": ">= 0"
       },
       {
@@ -3620,6 +4677,10 @@
       {
         "name": "kanbantastic",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kanbantool",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "karotz",
@@ -3662,7 +4723,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knife_cookbook_dependencies_over_http",
+        "name": "knife-rackspace",
         "requirements": ">= 0"
       },
       {
@@ -3670,8 +4731,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "knife_cookbook_dependencies_over_http",
+        "requirements": ">= 0"
+      },
+      {
         "name": "lady_gaga",
         "requirements": "~> 1.9.0"
+      },
+      {
+        "name": "launchkey",
+        "requirements": ">= 0"
       },
       {
         "name": "leadlight",
@@ -3684,6 +4753,10 @@
       {
         "name": "legato",
         "requirements": "= 2.0.0.beta2"
+      },
+      {
+        "name": "lentil",
+        "requirements": ">= 0"
       },
       {
         "name": "lettr",
@@ -3702,16 +4775,28 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "link_shrink",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "linkedin",
-        "requirements": "~> 1.10"
+        "requirements": "~> 2.5"
       },
       {
         "name": "linkedin-drspin",
         "requirements": "~> 1.10"
       },
       {
+        "name": "linkedin-oauth2",
+        "requirements": "~> 1.10"
+      },
+      {
         "name": "linkedin-rb",
         "requirements": "~> 2.0.0.beta1"
+      },
+      {
+        "name": "lob",
+        "requirements": ">= 0"
       },
       {
         "name": "localwiki_client",
@@ -3722,12 +4807,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "locomotivecms_wagon",
+        "name": "lockitron",
         "requirements": ">= 0"
       },
       {
         "name": "locomotivecms_mounter",
         "requirements": "= 2.4.0"
+      },
+      {
+        "name": "locomotivecms_wagon",
+        "requirements": ">= 0"
       },
       {
         "name": "logs_tf",
@@ -3736,6 +4825,14 @@
       {
         "name": "lumberg",
         "requirements": "~> 2.0.0rc2"
+      },
+      {
+        "name": "lyricfy",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "mad_cart",
+        "requirements": "= 2.5.0"
       },
       {
         "name": "madad",
@@ -3750,8 +4847,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mailroute",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mechanize_content",
         "requirements": "~> 1.11.3"
+      },
+      {
+        "name": "meta-picker",
+        "requirements": ">= 0"
       },
       {
         "name": "method_crm",
@@ -3766,11 +4871,11 @@
         "requirements": "~> 1.7.0"
       },
       {
-        "name": "Missionhub",
+        "name": "MissionHub",
         "requirements": ">= 0"
       },
       {
-        "name": "MissionHub",
+        "name": "Missionhub",
         "requirements": ">= 0"
       },
       {
@@ -3814,6 +4919,14 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "mosaic-facebook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mosaic-foursquare",
+        "requirements": ">= 0"
+      },
+      {
         "name": "movieman",
         "requirements": ">= 0"
       },
@@ -3826,6 +4939,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "multi_mail",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "muni",
         "requirements": ">= 0"
       },
@@ -3836,6 +4953,14 @@
       {
         "name": "mvg-live",
         "requirements": "~> 2.1.1"
+      },
+      {
+        "name": "mxhero-api",
+        "requirements": "= 2.5.0"
+      },
+      {
+        "name": "my_society-map_it",
+        "requirements": ">= 0"
       },
       {
         "name": "myfonts",
@@ -3859,7 +4984,7 @@
       },
       {
         "name": "ncs_navigator_authority",
-        "requirements": ">= 0"
+        "requirements": "~> 1.0"
       },
       {
         "name": "neo-tmdb",
@@ -3868,6 +4993,10 @@
       {
         "name": "nephophobia",
         "requirements": "= 1.5.0"
+      },
+      {
+        "name": "netprospex",
+        "requirements": ">= 0"
       },
       {
         "name": "neuron-client",
@@ -3880,6 +5009,10 @@
       {
         "name": "nfl_live_update",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nike_v2_neura",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "nike_v2",
@@ -3934,12 +5067,28 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-lockitron",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-shapeways",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omudid",
+        "requirements": ">= 0"
+      },
+      {
         "name": "open_auth2",
         "requirements": "= 1.11.3"
       },
       {
         "name": "OpenAuth2",
         "requirements": "= 1.11.3"
+      },
+      {
+        "name": "opencrx",
+        "requirements": ">= 0"
       },
       {
         "name": "openfooty",
@@ -3974,6 +5123,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pandata",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "paperclip-dropbox",
         "requirements": "~> 2.2"
       },
@@ -3987,7 +5140,7 @@
       },
       {
         "name": "passaporteweb-client",
-        "requirements": "~> 2.4.0"
+        "requirements": "~> 2.4"
       },
       {
         "name": "paypal-recurring",
@@ -4038,12 +5191,16 @@
         "requirements": "~> 2.2.4"
       },
       {
-        "name": "pinboard_api",
+        "name": "pin_up",
         "requirements": ">= 0"
       },
       {
         "name": "pinch",
         "requirements": "~> 2.2"
+      },
+      {
+        "name": "pinboard_api",
+        "requirements": ">= 0"
       },
       {
         "name": "pingdom-cap",
@@ -4054,11 +5211,35 @@
         "requirements": "~> 2.2.0"
       },
       {
+        "name": "pivit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pivo_flow",
         "requirements": ">= 0"
       },
       {
+        "name": "pl-operator-detector",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pkgwat",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "places",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "plagiarism",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "plataforma_social",
+        "requirements": "~> 2.0.1"
+      },
+      {
+        "name": "pluct",
         "requirements": ">= 0"
       },
       {
@@ -4068,6 +5249,14 @@
       {
         "name": "poseidon-api",
         "requirements": "= 2.4.0"
+      },
+      {
+        "name": "postcode_anywhere-email_validation",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "privateer",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "product_widgets",
@@ -4098,7 +5287,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pupa",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "pyapns2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "quaderno",
         "requirements": ">= 0"
       },
       {
@@ -4130,8 +5327,24 @@
         "requirements": ">= 2.0.0.beta2"
       },
       {
+        "name": "rakuten-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rapgenius",
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "rappfirst",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rasin",
         "requirements": "~> 1.11.3"
+      },
+      {
+        "name": "ratis",
+        "requirements": ">= 0"
       },
       {
         "name": "rb_raven_api",
@@ -4150,8 +5363,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redvine",
+        "requirements": ">= 0"
+      },
+      {
         "name": "reliefweb_scraper",
         "requirements": "~> 1.11.1"
+      },
+      {
+        "name": "reparty",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "reshape",
+        "requirements": ">= 0"
       },
       {
         "name": "rest_ejabberd",
@@ -4166,6 +5391,10 @@
         "requirements": "~> 2.2.2"
       },
       {
+        "name": "rev-api",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "reviewed",
         "requirements": ">= 2.1"
       },
@@ -4178,12 +5407,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "riik",
+        "requirements": ">= 0"
+      },
+      {
         "name": "riki",
         "requirements": "~> 2.0"
       },
       {
-        "name": "riik",
-        "requirements": ">= 0"
+        "name": "ripe_db_client",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "rippy_rules",
@@ -4222,16 +5455,36 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "ruby-resty",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ruby_odata",
-        "requirements": "~> 2.2.4"
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "rubyForecast",
+        "requirements": ">= 0"
       },
       {
         "name": "rubygamertag",
         "requirements": ">= 0"
       },
       {
+        "name": "russianpost",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "russian_post",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "rww_auth",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "s3_website",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "saaspose",
@@ -4254,6 +5507,10 @@
         "requirements": "~> 2.3.0"
       },
       {
+        "name": "sauce_whisk",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sbci",
         "requirements": ">= 0"
       },
@@ -4268,6 +5525,10 @@
       {
         "name": "scrapbooker",
         "requirements": "~> 2.0.0"
+      },
+      {
+        "name": "scrapers",
+        "requirements": ">= 0"
       },
       {
         "name": "scribe_api",
@@ -4302,6 +5563,10 @@
         "requirements": "~> 2.3.0"
       },
       {
+        "name": "sevennet-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sgs",
         "requirements": ">= 0"
       },
@@ -4310,11 +5575,11 @@
         "requirements": "~> 2.0.0"
       },
       {
-        "name": "shuffler_fm",
+        "name": "shipstation-ruby",
         "requirements": ">= 0"
       },
       {
-        "name": "shutl_resource",
+        "name": "shuffler_fm",
         "requirements": ">= 0"
       },
       {
@@ -4395,7 +5660,7 @@
       },
       {
         "name": "songkickr",
-        "requirements": ">= 0"
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "soundcloud2",
@@ -4406,16 +5671,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sports_direct",
-        "requirements": "= 1.4.0"
+        "name": "spbus",
+        "requirements": ">= 0"
       },
       {
         "name": "spot",
         "requirements": ">= 0"
       },
       {
+        "name": "sports_direct",
+        "requirements": "= 1.4.0"
+      },
+      {
         "name": "spotifiery",
         "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "spree-api-client",
+        "requirements": ">= 0"
       },
       {
         "name": "springpad",
@@ -4426,16 +5699,24 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "sqoot",
-        "requirements": "~> 2.0.0.rc1"
-      },
-      {
         "name": "squall",
         "requirements": "~> 1.8"
       },
       {
-        "name": "ssl_scanner",
+        "name": "sqoot",
+        "requirements": "~> 2.0.0.rc1"
+      },
+      {
+        "name": "staplegun",
         "requirements": ">= 0"
+      },
+      {
+        "name": "starcraft2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stash_notifier",
+        "requirements": "~> 2.5"
       },
       {
         "name": "startupstats",
@@ -4454,7 +5735,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "stratify-foursquare",
+        "name": "stock_quote",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stratify-github",
         "requirements": "~> 1.10.0"
       },
       {
@@ -4462,15 +5747,7 @@
         "requirements": "~> 1.10.0"
       },
       {
-        "name": "stratify-github",
-        "requirements": "~> 1.10.0"
-      },
-      {
         "name": "stratify-rhapsody",
-        "requirements": "~> 1.10.0"
-      },
-      {
-        "name": "stratify-itunes",
         "requirements": "~> 1.10.0"
       },
       {
@@ -4478,8 +5755,20 @@
         "requirements": "~> 1.10.0"
       },
       {
+        "name": "stratify-foursquare",
+        "requirements": "~> 1.10.0"
+      },
+      {
+        "name": "stratify-itunes",
+        "requirements": "~> 1.10.0"
+      },
+      {
         "name": "stratify-twitter",
         "requirements": "~> 1.10.0"
+      },
+      {
+        "name": "streamsend",
+        "requirements": ">= 0"
       },
       {
         "name": "stretcher",
@@ -4490,7 +5779,7 @@
         "requirements": "~> 2.1.1"
       },
       {
-        "name": "subordinate",
+        "name": "stupeflixclient",
         "requirements": ">= 0"
       },
       {
@@ -4506,20 +5795,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tangerine",
-        "requirements": "= 1.7.0"
+        "name": "swftly",
+        "requirements": ">= 0"
       },
       {
-        "name": "taskmapper-fogbugz",
-        "requirements": "~> 1.11"
+        "name": "swiftype",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tangerine",
+        "requirements": "= 1.7.0"
       },
       {
         "name": "taskmapper-bugzilla",
         "requirements": "~> 1.11"
       },
       {
-        "name": "taskmapper-rally",
+        "name": "taskmapper-fogbugz",
         "requirements": "~> 1.11"
+      },
+      {
+        "name": "taskmapper-rally",
+        "requirements": ">= 0"
       },
       {
         "name": "taskrabbit",
@@ -4530,12 +5827,24 @@
         "requirements": "~> 2.3"
       },
       {
+        "name": "teamcity-ruby-client",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "tendril",
         "requirements": ">= 0"
       },
       {
+        "name": "termit",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "tesla-api",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "thong",
+        "requirements": "= 1.11.3"
       },
       {
         "name": "thor-package",
@@ -4543,6 +5852,10 @@
       },
       {
         "name": "thor-scmversion",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thor-tropo",
         "requirements": ">= 0"
       },
       {
@@ -4554,11 +5867,11 @@
         "requirements": "~> 1.11"
       },
       {
-        "name": "ticketmaster-rally",
+        "name": "ticketmaster-fogbugz",
         "requirements": "~> 1.11"
       },
       {
-        "name": "ticketmaster-fogbugz",
+        "name": "ticketmaster-rally",
         "requirements": "~> 1.11"
       },
       {
@@ -4566,8 +5879,16 @@
         "requirements": "~> 1.10"
       },
       {
+        "name": "tinysong",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tippr",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "toad_notifier",
+        "requirements": ">= 0"
       },
       {
         "name": "tobacco",
@@ -4584,6 +5905,10 @@
       {
         "name": "townhog",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "transcribeme",
+        "requirements": ">= 0"
       },
       {
         "name": "transloadit",
@@ -4626,6 +5951,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ucloud_storage",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "uk_buses",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ultravault",
         "requirements": ">= 0"
       },
@@ -4634,16 +5967,24 @@
         "requirements": "~> 2.4.0"
       },
       {
+        "name": "umlaut",
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "uncoil",
+        "requirements": ">= 0"
+      },
+      {
         "name": "undertexter",
         "requirements": "= 1.9.0"
       },
       {
-        "name": "untappd",
-        "requirements": ">= 2.3.0"
-      },
-      {
         "name": "unshuffle",
         "requirements": ">= 0"
+      },
+      {
+        "name": "untappd",
+        "requirements": ">= 2.3.0"
       },
       {
         "name": "unwind",
@@ -4674,6 +6015,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "validic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vapor",
         "requirements": "~> 2.3.0"
       },
@@ -4690,6 +6035,10 @@
         "requirements": "~> 1.7"
       },
       {
+        "name": "vcr-xml",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "vcr_cable",
         "requirements": ">= 0"
       },
@@ -4703,6 +6052,10 @@
       },
       {
         "name": "verso",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "viadeo",
         "requirements": ">= 0"
       },
       {
@@ -4734,6 +6087,10 @@
         "requirements": "= 1.4.0"
       },
       {
+        "name": "vizjerai-avalara",
+        "requirements": ">= 2.0.0"
+      },
+      {
         "name": "wakoopa-elasticity",
         "requirements": ">= 1.5.1"
       },
@@ -4743,7 +6100,7 @@
       },
       {
         "name": "weather-api",
-        "requirements": "~> 2.4.0"
+        "requirements": "~> 2.6.0"
       },
       {
         "name": "weather_weasel",
@@ -4752,6 +6109,10 @@
       {
         "name": "web_power_switch",
         "requirements": "~> 1.10.0"
+      },
+      {
+        "name": "webcream",
+        "requirements": ">= 0"
       },
       {
         "name": "webhook",
@@ -4786,7 +6147,27 @@
         "requirements": "~> 1.11.3"
       },
       {
+        "name": "worochi",
+        "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "worth_watching",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wtforum",
+        "requirements": ">= 0"
+      },
+      {
         "name": "xero",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmlstats",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yahoo-api",
         "requirements": ">= 0"
       },
       {
@@ -4818,6 +6199,10 @@
         "requirements": ">= 1.8.0"
       },
       {
+        "name": "yt_meta",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "yweather",
         "requirements": ">= 2.0.0.rc1"
       },
@@ -4826,8 +6211,16 @@
         "requirements": "~> 2.3.0"
       },
       {
+        "name": "zend",
+        "requirements": ">= 0"
+      },
+      {
         "name": "zendesk_api",
         "requirements": ">= 0"
+      },
+      {
+        "name": "zenflow",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "zero_push",
@@ -4844,11 +6237,21 @@
       {
         "name": "zuck",
         "requirements": ">= 0"
+      },
+      {
+        "name": "zuppler",
+        "requirements": ">= 0"
       }
     ]
   },
   "vcr-remote-controller": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vcr-xml": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -4907,6 +6310,12 @@
 
     ]
   },
+  "vector": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "vector2d": {
     "version": "1.0.0",
     "dependents": [
@@ -4917,13 +6326,37 @@
     ]
   },
   "vector_embed": {
-    "version": "0.1.0",
+    "version": "0.5.3",
+    "dependents": [
+
+    ]
+  },
+  "vector_geometry": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
   },
   "vector_space": {
     "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "veda": {
+    "version": "0.0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "veeru": {
+    "version": "1.1",
+    "dependents": [
+
+    ]
+  },
+  "veeru_gem": {
+    "version": "0.0.0",
     "dependents": [
 
     ]
@@ -4949,8 +6382,20 @@
       }
     ]
   },
+  "veewee-atlassian": {
+    "version": "0.3.11",
+    "dependents": [
+
+    ]
+  },
   "veewee-templates-updater": {
     "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "veewee-to-packer": {
+    "version": "0.2.5",
     "dependents": [
 
     ]
@@ -4981,11 +6426,23 @@
         "requirements": "~> 0.1.2"
       },
       {
+        "name": "beanviewd",
+        "requirements": "~> 0.1"
+      },
+      {
         "name": "buildboard",
         "requirements": ">= 0"
       },
       {
         "name": "cert-auth",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "colonel",
+        "requirements": "~> 0.1.2"
+      },
+      {
+        "name": "douban_fm_hotkey",
         "requirements": ">= 0"
       },
       {
@@ -5019,6 +6476,10 @@
       {
         "name": "health_mode",
         "requirements": "~> 0.1.8"
+      },
+      {
+        "name": "health_status",
+        "requirements": ">= 0"
       },
       {
         "name": "hot_potato",
@@ -5063,6 +6524,10 @@
       {
         "name": "mouth",
         "requirements": "~> 0.1.8"
+      },
+      {
+        "name": "mvn_plugin_config",
+        "requirements": ">= 0"
       },
       {
         "name": "mvn-plugin-config",
@@ -5129,10 +6594,6 @@
         "requirements": "~> 0.1.2"
       },
       {
-        "name": "salvatore",
-        "requirements": "~> 0.1.8"
-      },
-      {
         "name": "scotttam-resque",
         "requirements": ">= 0.1.2"
       },
@@ -5180,6 +6641,12 @@
   },
   "vegprice": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vehicle_data": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -5233,6 +6700,12 @@
 
     ]
   },
+  "velocity_check": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "VelocityWalkToCSV": {
     "version": "0.0.1",
     "dependents": [
@@ -5271,7 +6744,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bootstrap-sass-rtl",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fine_uploader",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "h2ocube_rails_assets",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "h2ocube_rails_development",
         "requirements": ">= 0"
       },
       {
@@ -5285,7 +6770,7 @@
     ]
   },
   "vendorificator": {
-    "version": "0.2.0",
+    "version": "0.4.0",
     "dependents": [
 
     ]
@@ -5297,12 +6782,28 @@
     ]
   },
   "venice": {
-    "version": "0.0.1",
+    "version": "0.2.0",
     "dependents": [
+      {
+        "name": "nomad-cli",
+        "requirements": ">= 0"
+      },
       {
         "name": "rack-in-app-purchase",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "venmo": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "venn": {
+    "version": "0.0.1",
+    "dependents": [
+
     ]
   },
   "venny": {
@@ -5335,6 +6836,12 @@
 
     ]
   },
+  "ventiuna": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "ventouse": {
     "version": "0.1.6",
     "dependents": [
@@ -5342,13 +6849,19 @@
     ]
   },
   "ventriloquist": {
-    "version": "0.0.1",
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "venture_base": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
   },
   "venus": {
-    "version": "0.7.1",
+    "version": "0.8.6",
     "dependents": [
 
     ]
@@ -5361,6 +6874,12 @@
   },
   "ver-command_t": {
     "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "ver_ex": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -5389,8 +6908,23 @@
 
     ]
   },
+  "verbal": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "verbal_expressions": {
+    "version": "0.1.4",
+    "dependents": [
+      {
+        "name": "onebox",
+        "requirements": "~> 0.1"
+      }
+    ]
+  },
   "verboice": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ]
@@ -5441,21 +6975,27 @@
     "version": "0.0.2",
     "dependents": [
       {
+        "name": "latinverb",
+        "requirements": ">= 0"
+      },
+      {
         "name": "latinirb",
         "requirements": ">= 0"
       },
       {
         "name": "latinchart",
         "requirements": ">= 0"
-      },
-      {
-        "name": "latinverb",
-        "requirements": ">= 0"
       }
     ]
   },
   "verge": {
     "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "vergissberlin": {
+    "version": "0.0.16",
     "dependents": [
 
     ]
@@ -5497,6 +7037,24 @@
       }
     ]
   },
+  "verification-streamsend": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "verification_ext": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "verified_double": {
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
   "verify": {
     "version": "0.3.1",
     "dependents": [
@@ -5504,7 +7062,7 @@
     ]
   },
   "verilog": {
-    "version": "0.0.4",
+    "version": "0.1.0",
     "dependents": [
       {
         "name": "verilog_rename",
@@ -5528,15 +7086,15 @@
     "version": "0.0.7",
     "dependents": [
       {
-        "name": "veritas-optimizer",
-        "requirements": "~> 0.0.7"
-      },
-      {
         "name": "veritas-do-adapter",
         "requirements": "~> 0.0.7"
       },
       {
         "name": "veritas-sql-generator",
+        "requirements": "~> 0.0.7"
+      },
+      {
+        "name": "veritas-optimizer",
         "requirements": "~> 0.0.7"
       }
     ]
@@ -5563,7 +7121,13 @@
     ]
   },
   "veritrans": {
-    "version": "1.2.0",
+    "version": "1.2.2",
+    "dependents": [
+
+    ]
+  },
+  "verlane": {
+    "version": "0.0.2.5",
     "dependents": [
 
     ]
@@ -5587,13 +7151,13 @@
     ]
   },
   "vero": {
-    "version": "0.5.4",
+    "version": "0.5.10",
     "dependents": [
 
     ]
   },
   "veronic": {
-    "version": "0.0.5",
+    "version": "0.0.26",
     "dependents": [
 
     ]
@@ -5626,8 +7190,16 @@
     "version": "1.0.0",
     "dependents": [
       {
+        "name": "activerecord_threadsafe_fix",
+        "requirements": "~> 1"
+      },
+      {
         "name": "aead",
         "requirements": ">= 0"
+      },
+      {
+        "name": "arst",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "at",
@@ -5674,11 +7246,11 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "fume",
+        "name": "fume-nav",
         "requirements": ">= 0"
       },
       {
-        "name": "fume-settable",
+        "name": "fume-cancan",
         "requirements": ">= 0"
       },
       {
@@ -5686,7 +7258,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fume-cancan",
+        "name": "fume",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fume-settable",
         "requirements": ">= 0"
       },
       {
@@ -5722,12 +7298,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "holla_back",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hosum",
         "requirements": ">= 0"
       },
       {
-        "name": "jquery-cookie-rails",
-        "requirements": "~> 1.0"
+        "name": "jackchop",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "licenses",
@@ -5778,11 +7358,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "psp",
+        "name": "psp-toolchain",
         "requirements": "~> 1.0"
       },
       {
-        "name": "psp-toolchain",
+        "name": "psp",
         "requirements": "~> 1.0"
       },
       {
@@ -5794,8 +7374,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "rollin",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rspec-web",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "rubylet",
+        "requirements": "~> 1"
       },
       {
         "name": "rubylet-jetty",
@@ -5806,16 +7394,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rubylet",
-        "requirements": "~> 1"
-      },
-      {
         "name": "serialnumber",
         "requirements": ">= 0"
       },
       {
         "name": "service",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "sodium",
+        "requirements": "~> 1"
       },
       {
         "name": "sphinx_tv",
@@ -5834,6 +7422,50 @@
         "requirements": "~> 1.0.0"
       },
       {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "toastr-rails-sass",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "torrent",
+        "requirements": "~> 1.0.0"
+      },
+      {
         "name": "trope",
         "requirements": "~> 1.0.0"
       },
@@ -5848,6 +7480,10 @@
       {
         "name": "xiami_sauce",
         "requirements": ">= 0"
+      },
+      {
+        "name": "yaconfig",
+        "requirements": ">= 1.0.0"
       }
     ]
   },
@@ -5879,13 +7515,13 @@
     ]
   },
   "version_finder": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ]
   },
   "version_fu": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ]
@@ -5903,7 +7539,7 @@
     ]
   },
   "version_info": {
-    "version": "1.7.6",
+    "version": "1.8.0",
     "dependents": [
       {
         "name": "nexus_link",
@@ -5912,7 +7548,7 @@
     ]
   },
   "version_reader": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -5951,6 +7587,12 @@
 
     ]
   },
+  "versionable_api": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "versionary": {
     "version": "0.1.1",
     "dependents": [
@@ -5964,11 +7606,11 @@
     ]
   },
   "versioncake": {
-    "version": "1.0.0",
+    "version": "1.3.0",
     "dependents": [
       {
         "name": "spree_api",
-        "requirements": "= 0.4.0"
+        "requirements": "~> 1.2.0"
       }
     ]
   },
@@ -6015,7 +7657,7 @@
     ]
   },
   "versionist": {
-    "version": "1.0.0",
+    "version": "1.2.1",
     "dependents": [
 
     ]
@@ -6076,8 +7718,8 @@
         "requirements": "~> 0.4"
       },
       {
-        "name": "libby",
-        "requirements": ">= 0.4.0"
+        "name": "latest_ruby",
+        "requirements": ">= 0"
       },
       {
         "name": "melai",
@@ -6086,6 +7728,10 @@
       {
         "name": "not-quite-submodules",
         "requirements": "~> 0.4.4"
+      },
+      {
+        "name": "seagull",
+        "requirements": "~> 0.4"
       },
       {
         "name": "tampon",
@@ -6105,6 +7751,10 @@
       },
       {
         "name": "tumbler",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "verlane",
         "requirements": ">= 0"
       },
       {
@@ -6143,7 +7793,7 @@
     ]
   },
   "verso": {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "dependents": [
 
     ]
@@ -6160,6 +7810,19 @@
 
     ]
   },
+  "vertebrae": {
+    "version": "0.2.2",
+    "dependents": [
+      {
+        "name": "porpoise_external_actions",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tijuana_client",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "vertere": {
     "version": "0.0.3",
     "dependents": [
@@ -6167,15 +7830,19 @@
     ]
   },
   "vertica": {
-    "version": "0.9.6",
+    "version": "0.11.0",
     "dependents": [
       {
         "name": "activerecord_vertica_adapter",
         "requirements": "~> 0.8.1"
       },
       {
+        "name": "fluent-plugin-vertica",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sequel-vertica",
-        "requirements": "~> 0.9.2"
+        "requirements": "~> 0.10.0"
       },
       {
         "name": "vertica_rails_adapter",
@@ -6207,14 +7874,26 @@
 
     ]
   },
+  "very_first_gem": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "very_nifty_generators": {
     "version": "0.2.1",
     "dependents": [
 
     ]
   },
+  "very_simple_cms": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "veslo": {
-    "version": "0.2.0",
+    "version": "0.4.0",
     "dependents": [
 
     ]
@@ -6256,6 +7935,12 @@
 
     ]
   },
+  "vestroy": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "vet": {
     "version": "0.1.1",
     "dependents": [
@@ -6274,14 +7959,26 @@
 
     ]
   },
+  "vetinari": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
   "vex": {
     "version": "0.6.2",
     "dependents": [
 
     ]
   },
+  "vex_rails": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
   "vexile": {
-    "version": "1.0.4",
+    "version": "1.0.7",
     "dependents": [
 
     ]
@@ -6294,6 +7991,12 @@
   },
   "vfeskov_edu_gem": {
     "version": "0.1.12",
+    "dependents": [
+
+    ]
+  },
+  "vfl": {
+    "version": "0.0.0.1",
     "dependents": [
 
     ]
@@ -6311,18 +8014,18 @@
     ]
   },
   "vfs": {
-    "version": "0.4.8",
+    "version": "0.5.1",
     "dependents": [
       {
         "name": "cluster_management",
         "requirements": ">= 0"
       },
       {
-        "name": "code-stats",
+        "name": "code-statistics",
         "requirements": ">= 0"
       },
       {
-        "name": "code-statistics",
+        "name": "code-stats",
         "requirements": ">= 0"
       },
       {
@@ -6367,6 +8070,12 @@
 
     ]
   },
+  "vglist": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "vh": {
     "version": "0.0.4",
     "dependents": [
@@ -6380,7 +8089,7 @@
     ]
   },
   "vhdl_parser": {
-    "version": "0.2",
+    "version": "0.5",
     "dependents": [
 
     ]
@@ -6393,6 +8102,12 @@
   },
   "vhost_generator": {
     "version": "0.3.4",
+    "dependents": [
+
+    ]
+  },
+  "vhskit": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -6412,8 +8127,20 @@
 
     ]
   },
+  "viadeo": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "viaduct": {
-    "version": "0.0.3",
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "viaggiatreno": {
+    "version": "1.0.2",
     "dependents": [
 
     ]
@@ -6463,6 +8190,12 @@
 
     ]
   },
+  "vicky": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "vid-skim": {
     "version": "0.0.1",
     "dependents": [
@@ -6470,7 +8203,7 @@
     ]
   },
   "viddl-rb": {
-    "version": "0.78",
+    "version": "0.84",
     "dependents": [
 
     ]
@@ -6514,12 +8247,6 @@
 
     ]
   },
-  "video-inspector": {
-    "version": "0.1.1",
-    "dependents": [
-
-    ]
-  },
   "video-js-rails": {
     "version": "3.2.3.1",
     "dependents": [
@@ -6527,7 +8254,7 @@
     ]
   },
   "video_converter": {
-    "version": "0.1.1",
+    "version": "0.3.0",
     "dependents": [
 
     ]
@@ -6551,7 +8278,7 @@
     ]
   },
   "video_info": {
-    "version": "1.1.1",
+    "version": "1.5.0",
     "dependents": [
       {
         "name": "tubemp",
@@ -6569,6 +8296,15 @@
     "version": "1.0.5",
     "dependents": [
 
+    ]
+  },
+  "video_screenshoter": {
+    "version": "0.2.1",
+    "dependents": [
+      {
+        "name": "video_converter",
+        "requirements": "~> 0.2.1"
+      }
     ]
   },
   "video_to_ascii": {
@@ -6596,7 +8332,13 @@
     ]
   },
   "videojs_rails": {
-    "version": "0.0.1",
+    "version": "4.1.0",
+    "dependents": [
+
+    ]
+  },
+  "videojs_user_track": {
+    "version": "0.1",
     "dependents": [
 
     ]
@@ -6623,7 +8365,7 @@
     ]
   },
   "vidibus-category_tag": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
     ]
@@ -6636,11 +8378,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-fileinfo",
+        "name": "vidibus-pureftpd",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-pureftpd",
+        "name": "vidibus-fileinfo",
         "requirements": ">= 0"
       },
       {
@@ -6652,25 +8394,25 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-secure",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vidibus-service",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-words",
+        "name": "vidibus-secure",
         "requirements": ">= 0"
       },
       {
         "name": "vidibus-versioning",
         "requirements": ">= 0"
+      },
+      {
+        "name": "vidibus-words",
+        "requirements": ">= 0"
       }
     ]
   },
   "vidibus-encoder": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
       {
         "name": "vidibus-mp4_encoder",
@@ -6700,7 +8442,7 @@
     ]
   },
   "vidibus-mp4_encoder": {
-    "version": "0.1.1",
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -6712,7 +8454,7 @@
     ]
   },
   "vidibus-permalink": {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "dependents": [
 
     ]
@@ -6724,19 +8466,19 @@
     ]
   },
   "vidibus-realm": {
-    "version": "0.0.4",
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "vidibus-recording": {
-    "version": "0.0.5",
+    "version": "2.0.2",
     "dependents": [
 
     ]
   },
   "vidibus-resource": {
-    "version": "0.3.9",
+    "version": "0.4.0",
     "dependents": [
 
     ]
@@ -6751,31 +8493,31 @@
     ]
   },
   "vidibus-secure": {
-    "version": "0.1.5",
+    "version": "0.2.0",
     "dependents": [
       {
-        "name": "vidibus-user",
+        "name": "vidibus-service",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-service",
+        "name": "vidibus-user",
         "requirements": ">= 0"
       }
     ]
   },
   "vidibus-service": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "vidibus-api",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-resource",
-        "requirements": ">= 0"
+        "name": "vidibus-realm",
+        "requirements": ">= 0.2.0"
       },
       {
-        "name": "vidibus-realm",
+        "name": "vidibus-resource",
         "requirements": ">= 0"
       }
     ]
@@ -6787,7 +8529,7 @@
     ]
   },
   "vidibus-sysinfo": {
-    "version": "0.0.2",
+    "version": "0.0.10",
     "dependents": [
 
     ]
@@ -6805,7 +8547,7 @@
     ]
   },
   "vidibus-timecode": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -6820,6 +8562,10 @@
     "version": "1.0.0",
     "dependents": [
       {
+        "name": "vidibus-category_tag",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vidibus-inheritance",
         "requirements": ">= 0"
       },
@@ -6828,11 +8574,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-category_tag",
+        "name": "vidibus-oauth2_server",
         "requirements": ">= 0"
       },
       {
+        "name": "vidibus-permalink",
+        "requirements": "~> 0.4"
+      },
+      {
         "name": "vidibus-recording",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vidibus-service",
         "requirements": ">= 0"
       },
       {
@@ -6840,19 +8594,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-oauth2_server",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vidibus-permalink",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vidibus-user",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-service",
+        "name": "vidibus-versioning",
         "requirements": ">= 0"
       },
       {
@@ -6866,15 +8612,11 @@
       {
         "name": "vidibus-xss",
         "requirements": ">= 0"
-      },
-      {
-        "name": "vidibus-versioning",
-        "requirements": ">= 0"
       }
     ]
   },
   "vidibus-validate_uri": {
-    "version": "0.2.2",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "vidibus-oauth2_server",
@@ -6893,7 +8635,7 @@
     ]
   },
   "vidibus-versioning": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "vidibus-version_scheduler",
@@ -6902,7 +8644,7 @@
     ]
   },
   "vidibus-watch_folder": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -6914,6 +8656,12 @@
         "name": "vidibus-permalink",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "vidibus-wowza_log_parser": {
+    "version": "0.1.1",
+    "dependents": [
+
     ]
   },
   "vidibus-xss": {
@@ -6934,8 +8682,21 @@
 
     ]
   },
+  "vienna": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "cappruby",
+        "requirements": ">= 0.0.5"
+      },
+      {
+        "name": "cherry_kit",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "vienna_rna": {
-    "version": "0.2.0",
+    "version": "0.9.1",
     "dependents": [
       {
         "name": "rbfam",
@@ -6963,6 +8724,12 @@
   },
   "view_driver": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "view_generator": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -7134,13 +8901,19 @@
     ]
   },
   "vigilante": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
   },
   "viglink": {
-    "version": "0.0.2",
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "vignette": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -7164,22 +8937,22 @@
     ]
   },
   "viki-api": {
-    "version": "0.0.64",
+    "version": "1.6.3",
     "dependents": [
 
     ]
   },
   "viki_utils": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
       {
         "name": "viki-api",
-        "requirements": ">= 0"
+        "requirements": "= 0.0.8"
       }
     ]
   },
   "viking": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -7259,7 +9032,10 @@
   "vim-epidemic": {
     "version": "0.0.4",
     "dependents": [
-
+      {
+        "name": "ah",
+        "requirements": "~> 0.0.4"
+      }
     ]
   },
   "vim-flavor": {
@@ -7282,6 +9058,12 @@
   },
   "vim-nicktears": {
     "version": "0.0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "vim-sitter": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -7322,8 +9104,14 @@
 
     ]
   },
+  "vimdeck": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
   "vimdo": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependents": [
 
     ]
@@ -7336,6 +9124,10 @@
         "requirements": ">= 1.0.0"
       },
       {
+        "name": "frumber",
+        "requirements": ">= 0"
+      },
+      {
         "name": "has_vimeo_video",
         "requirements": ">= 0"
       },
@@ -7343,6 +9135,18 @@
         "name": "refinerycms-vimeo-videos",
         "requirements": "~> 1.3.0"
       }
+    ]
+  },
+  "vimeo_embed": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vimfluence": {
+    "version": "0.0.4",
+    "dependents": [
+
     ]
   },
   "vimgem": {
@@ -7358,7 +9162,7 @@
     ]
   },
   "vimgolf": {
-    "version": "0.4.2",
+    "version": "0.4.5",
     "dependents": [
 
     ]
@@ -7415,7 +9219,7 @@
     ]
   },
   "vimrunner": {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "cucumber-vimscript",
@@ -7423,12 +9227,12 @@
       },
       {
         "name": "vimdo",
-        "requirements": "~> 0.2.2"
+        "requirements": ">= 0.3.0"
       }
     ]
   },
   "vin_exploder": {
-    "version": "0.4.8",
+    "version": "0.5.2",
     "dependents": [
       {
         "name": "vinquery",
@@ -7496,6 +9300,12 @@
 
     ]
   },
+  "vine_client": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "vineco": {
     "version": "0.0.1",
     "dependents": [
@@ -7509,28 +9319,80 @@
     ]
   },
   "vines": {
-    "version": "0.4.5",
+    "version": "0.4.7",
     "dependents": [
       {
         "name": "vines-agent",
-        "requirements": ">= 0.4.0"
+        "requirements": ">= 0.4.6"
+      },
+      {
+        "name": "vines-redis",
+        "requirements": ">= 0.4.5"
+      },
+      {
+        "name": "vines-couchdb",
+        "requirements": ">= 0.4.5"
+      },
+      {
+        "name": "vines-mongodb",
+        "requirements": ">= 0.4.5"
+      },
+      {
+        "name": "vines-sql",
+        "requirements": ">= 0.4.5"
       },
       {
         "name": "vines-services",
-        "requirements": ">= 0.4.0"
+        "requirements": ">= 0.4.7"
       }
     ]
   },
   "vines-agent": {
-    "version": "0.1.3",
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "vines-couchdb": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "vines-services",
+        "requirements": ">= 0.1.0"
+      }
+    ]
+  },
+  "vines-mongodb": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vines-redis": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "vines-services": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
+    ]
+  },
+  "vines-sql": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vines-web": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "vines-services",
+        "requirements": ">= 0.1.1"
+      }
     ]
   },
   "vinesmod": {
@@ -7575,6 +9437,12 @@
 
     ]
   },
+  "vinted-parallel_tests": {
+    "version": "0.13.3",
+    "dependents": [
+
+    ]
+  },
   "vintner": {
     "version": "1.2",
     "dependents": [
@@ -7599,6 +9467,12 @@
 
     ]
   },
+  "violence": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
   "violet": {
     "version": "0.0.1",
     "dependents": [
@@ -7607,6 +9481,12 @@
   },
   "vip": {
     "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "viper": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -7635,6 +9515,12 @@
 
     ]
   },
+  "virgil": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "virginia": {
     "version": "0.1.0",
     "dependents": [
@@ -7648,7 +9534,13 @@
     ]
   },
   "virility": {
-    "version": "0.1.1",
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "virsandra": {
+    "version": "0.5.0",
     "dependents": [
 
     ]
@@ -7714,7 +9606,7 @@
     ]
   },
   "virtual_merchant": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -7735,11 +9627,7 @@
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog-sgonyea",
-        "requirements": "~> 0.9.1"
-      },
-      {
-        "name": "fog-maestrodev",
+        "name": "fog-nirvanix",
         "requirements": "~> 0.9.1"
       },
       {
@@ -7747,16 +9635,20 @@
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog-test-again",
+        "name": "fog-sgonyea",
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog_ec2dream",
+        "name": "fog-test-again",
         "requirements": "~> 0.9.1"
       },
       {
         "name": "fog4encbs",
         "requirements": "= 0.8.3"
+      },
+      {
+        "name": "fog_ec2dream",
+        "requirements": "~> 0.9.1"
       },
       {
         "name": "fog_tractical",
@@ -7820,6 +9712,12 @@
       }
     ]
   },
+  "virtualbox-com": {
+    "version": "0.10.9",
+    "dependents": [
+
+    ]
+  },
   "virtualbox-guestcontrol": {
     "version": "1.1.1",
     "dependents": [
@@ -7872,7 +9770,7 @@
     ]
   },
   "virtus": {
-    "version": "0.5.4",
+    "version": "0.5.5",
     "dependents": [
       {
         "name": "adcloud",
@@ -7891,7 +9789,19 @@
         "requirements": "~> 0.5.2"
       },
       {
+        "name": "audiobank-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bishl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bitbucket-api-extension",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capsule_crm",
         "requirements": ">= 0"
       },
       {
@@ -7911,8 +9821,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "consumerable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cut",
+        "requirements": "~> 0.5.5"
+      },
+      {
         "name": "datamappify",
-        "requirements": "~> 0.5"
+        "requirements": "<= 2.0, >= 1.0.0.beta0"
       },
       {
         "name": "date_time_precision",
@@ -7927,11 +9845,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fetcher-microdata-facebook",
+        "name": "dummy_model",
         "requirements": ">= 0"
       },
       {
         "name": "fetcher-microdata-twitter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fetcher-microdata-facebook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "first_responder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fob",
         "requirements": ">= 0"
       },
       {
@@ -7944,7 +9874,11 @@
       },
       {
         "name": "funky_form",
-        "requirements": "~> 0.5.4"
+        "requirements": "~> 1.0.0.beta0"
+      },
+      {
+        "name": "gearman_admin_client",
+        "requirements": ">= 0"
       },
       {
         "name": "grape",
@@ -7955,15 +9889,19 @@
         "requirements": ">= 0.3.0"
       },
       {
+        "name": "hypermedia_mapper",
+        "requirements": "~> 0.5.4"
+      },
+      {
         "name": "hyperscore",
         "requirements": ">= 0"
       },
       {
-        "name": "imperator-ext",
+        "name": "imperator",
         "requirements": ">= 0"
       },
       {
-        "name": "imperator",
+        "name": "imperator-ext",
         "requirements": ">= 0"
       },
       {
@@ -7972,7 +9910,7 @@
       },
       {
         "name": "ixtlan-babel",
-        "requirements": "~> 0.5.0"
+        "requirements": "~> 0.5"
       },
       {
         "name": "ixtlan-guard",
@@ -7981,6 +9919,22 @@
       {
         "name": "json-schematized",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kanpachi",
+        "requirements": ">= 1.0.0.beta7"
+      },
+      {
+        "name": "kellerkind",
+        "requirements": "~> 0.5.5"
+      },
+      {
+        "name": "maven-tools",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "memorydb",
+        "requirements": "~> 0.5.3"
       },
       {
         "name": "microstation",
@@ -7999,11 +9953,35 @@
         "requirements": ">= 0"
       },
       {
+        "name": "parkeon",
+        "requirements": "~> 0.5.5"
+      },
+      {
+        "name": "pavlov",
+        "requirements": "= 0.5.5"
+      },
+      {
+        "name": "pencil_pusher",
+        "requirements": "~> 1.0.0beta6"
+      },
+      {
+        "name": "pollter_geist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "postal_address",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pp-adaptive",
         "requirements": ">= 0.5.1"
       },
       {
         "name": "pullcrusher",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "punchblock",
         "requirements": ">= 0"
       },
       {
@@ -8015,12 +9993,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "reform",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "repositories",
+        "requirements": "~> 0.5.3"
+      },
+      {
         "name": "representable",
         "requirements": "~> 0.5.0"
       },
       {
         "name": "rightnow-client",
         "requirements": ">= 0.5.3"
+      },
+      {
+        "name": "roar",
+        "requirements": ">= 0"
       },
       {
         "name": "rspec-virtus",
@@ -8035,11 +10025,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "servies",
+        "requirements": "= 0.5.5"
+      },
+      {
         "name": "siesta",
         "requirements": "~> 0.5.1"
       },
       {
         "name": "simple_attribute_mapper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "simple_service_provider",
         "requirements": ">= 0"
       },
       {
@@ -8059,6 +10057,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tengai",
+        "requirements": ">= 0"
+      },
+      {
         "name": "the86-client",
         "requirements": ">= 0"
       },
@@ -8071,8 +10073,8 @@
         "requirements": "~> 0.5.3"
       },
       {
-        "name": "virtus-matchers",
-        "requirements": ">= 0"
+        "name": "virsandra",
+        "requirements": "~> 0.5.5"
       },
       {
         "name": "virtus-dirty",
@@ -8083,7 +10085,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "virtus-matchers",
+        "requirements": ">= 0"
+      },
+      {
         "name": "webhook-payload",
+        "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "webmaster",
         "requirements": ">= 0"
       },
       {
@@ -8117,6 +10127,12 @@
 
     ]
   },
+  "virtus_dynamic": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
   "virtusprinter": {
     "version": "0.1.0",
     "dependents": [
@@ -8141,7 +10157,10 @@
   "virustotal": {
     "version": "2.0.0",
     "dependents": [
-
+      {
+        "name": "dorothy2",
+        "requirements": ">= 2.0.0"
+      }
     ]
   },
   "virustotalapi": {
@@ -8190,7 +10209,7 @@
     ]
   },
   "visibilityjs": {
-    "version": "0.6.2",
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -8208,18 +10227,30 @@
     ]
   },
   "vision": {
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "visiquery": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
   },
   "visit-counter": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "visit_counter_updater",
         "requirements": ">= 0"
       }
+    ]
+  },
+  "visit-counter-omri": {
+    "version": "0.1.1",
+    "dependents": [
+
     ]
   },
   "visit_card": {
@@ -8271,7 +10302,11 @@
     "version": "0.0.2",
     "dependents": [
       {
-        "name": "visor-image",
+        "name": "visor-auth",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "visor-meta",
         "requirements": ">= 0"
       },
       {
@@ -8279,11 +10314,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "visor-auth",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "visor-meta",
+        "name": "visor-image",
         "requirements": ">= 0"
       }
     ]
@@ -8318,8 +10349,14 @@
 
     ]
   },
+  "visualcaptcha": {
+    "version": "0.0.1.4",
+    "dependents": [
+
+    ]
+  },
   "visualisation-utils": {
-    "version": "0.1",
+    "version": "0.4",
     "dependents": [
 
     ]
@@ -8360,14 +10397,26 @@
 
     ]
   },
+  "vitamin": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "vitamined-gems": {
     "version": "1.0.0",
     "dependents": [
 
     ]
   },
+  "vitelity": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
   "vito": {
-    "version": "0.0.1",
+    "version": "0.0.5",
     "dependents": [
 
     ]
@@ -8495,6 +10544,12 @@
 
     ]
   },
+  "vizjerai-avalara": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
   "vizjerai-devise_security_extension": {
     "version": "0.3.8",
     "dependents": [
@@ -8527,6 +10582,12 @@
   },
   "vj-sdk": {
     "version": "0.8.2",
+    "dependents": [
+
+    ]
+  },
+  "vjs_rails": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -8569,6 +10630,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "social_poster",
+        "requirements": "~> 0.9.3"
+      },
+      {
         "name": "vk-console",
         "requirements": "~> 0.7.4"
       }
@@ -8604,12 +10669,12 @@
         "requirements": "~> 0.11.1"
       },
       {
-        "name": "vkhater-social_stream-linkser",
-        "requirements": "~> 0.11.1"
-      },
-      {
         "name": "vkhater-social_stream-events",
         "requirements": "~> 0.11.2"
+      },
+      {
+        "name": "vkhater-social_stream-linkser",
+        "requirements": "~> 0.11.1"
       }
     ]
   },
@@ -8660,17 +10725,26 @@
   "vkontakte": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "social_profile",
+        "requirements": ">= 0"
+      }
     ]
   },
   "vkontakte_api": {
-    "version": "1.1",
+    "version": "1.2",
     "dependents": [
 
     ]
   },
   "vkontakter": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vkpd": {
+    "version": "1.3.2",
     "dependents": [
 
     ]
@@ -8688,18 +10762,18 @@
     ]
   },
   "vlad": {
-    "version": "2.4.1",
+    "version": "2.6.2",
     "dependents": [
       {
         "name": "ec2_setup",
         "requirements": ">= 0"
       },
       {
-        "name": "if-vlad-recipes",
+        "name": "if-vlad",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "if-vlad",
+        "name": "if-vlad-recipes",
         "requirements": ">= 2.0.0"
       },
       {
@@ -8715,23 +10789,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vlad-git",
-        "requirements": ">= 2.1.0"
-      },
-      {
         "name": "vlad-extras",
         "requirements": "< 3, >= 2.2.4"
       },
       {
-        "name": "vlad-hg",
+        "name": "vlad-fjpii",
+        "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "vlad-git",
+        "requirements": ">= 2.1.0"
+      },
+      {
+        "name": "vlad-merb",
         "requirements": "~> 2.0"
       },
       {
-        "name": "vlad-fjpii",
-        "requirements": "~> 2.2.4"
-      },
-      {
-        "name": "vlad-push",
+        "name": "vlad-hg",
         "requirements": "~> 2.0"
       },
       {
@@ -8739,16 +10813,12 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "vlad-push",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "vlad-nginx",
         "requirements": "~> 2"
-      },
-      {
-        "name": "vlad-unicorn",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "vlad-merb",
-        "requirements": "~> 2.0"
       },
       {
         "name": "vlad_freebsd",
@@ -8757,6 +10827,10 @@
       {
         "name": "VladTheEnterprising",
         "requirements": "> 1.0.0"
+      },
+      {
+        "name": "vlad-unicorn",
+        "requirements": "~> 2.0"
       }
     ]
   },
@@ -8773,7 +10847,7 @@
     ]
   },
   "vlad-extras": {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "dependents": [
       {
         "name": "traktor",
@@ -8782,7 +10856,7 @@
     ]
   },
   "vlad-fjpii": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -8855,7 +10929,7 @@
     ]
   },
   "vlad-unicorn": {
-    "version": "2.2.1",
+    "version": "2.3.1",
     "dependents": [
 
     ]
@@ -8912,7 +10986,7 @@
     ]
   },
   "vline-rails": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -8936,7 +11010,7 @@
     ]
   },
   "vmail": {
-    "version": "2.8.2",
+    "version": "2.8.7",
     "dependents": [
 
     ]
@@ -8963,7 +11037,7 @@
     ]
   },
   "vmc": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "dependents": [
       {
         "name": "capistrano-cloudfoundry",
@@ -8992,7 +11066,7 @@
     ]
   },
   "vmc_knife": {
-    "version": "0.0.50",
+    "version": "0.0.52",
     "dependents": [
 
     ]
@@ -9004,7 +11078,7 @@
     ]
   },
   "vmcu": {
-    "version": "0.3.21",
+    "version": "0.3.22",
     "dependents": [
 
     ]
@@ -9016,7 +11090,7 @@
     ]
   },
   "vmit": {
-    "version": "0.0.3",
+    "version": "0.0.3.99",
     "dependents": [
 
     ]
@@ -9042,7 +11116,10 @@
   "vmstat": {
     "version": "2.0.0",
     "dependents": [
-
+      {
+        "name": "vcap_common",
+        "requirements": "~> 2.0"
+      }
     ]
   },
   "vmth": {
@@ -9070,7 +11147,7 @@
     ]
   },
   "vnctools": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
       {
         "name": "cukeforker",
@@ -9117,6 +11194,15 @@
       }
     ]
   },
+  "vocker": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "ventriloquist",
+        "requirements": "~> 0.3.0"
+      }
+    ]
+  },
   "vodafone": {
     "version": "0.0.1",
     "dependents": [
@@ -9147,8 +11233,32 @@
 
     ]
   },
+  "voice": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "voice_chapters": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "voice_form": {
     "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "voicecom_sms": {
+    "version": "4.1.2",
+    "dependents": [
+
+    ]
+  },
+  "voicemail": {
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -9160,12 +11270,18 @@
     ]
   },
   "voight_kampff": {
-    "version": "0.1.4",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "punching_bag",
         "requirements": "~> 0.1.1"
       }
+    ]
+  },
+  "voip": {
+    "version": "3.7.2",
+    "dependents": [
+
     ]
   },
   "voir": {
@@ -9214,9 +11330,12 @@
     ]
   },
   "volley": {
-    "version": "0.1.21",
+    "version": "0.1.25",
     "dependents": [
-
+      {
+        "name": "mystro-volley",
+        "requirements": ">= 0"
+      }
     ]
   },
   "volleyball": {
@@ -9242,12 +11361,12 @@
     "dependents": [
       {
         "name": "voluntary_text_creation",
-        "requirements": ">= 0"
+        "requirements": "~> 0"
       }
     ]
   },
   "voluntary_text_creation": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -9261,11 +11380,26 @@
   "von": {
     "version": "0.2.0",
     "dependents": [
+      {
+        "name": "von-dashboard",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "von-dashboard": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "voncount": {
+    "version": "0.0.2",
+    "dependents": [
 
     ]
   },
   "voodoo": {
-    "version": "1.0.2",
+    "version": "1.1.1",
     "dependents": [
 
     ]
@@ -9300,8 +11434,14 @@
 
     ]
   },
+  "voot": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "vorax": {
-    "version": "0.4.2",
+    "version": "5.0",
     "dependents": [
 
     ]
@@ -9376,6 +11516,18 @@
 
     ]
   },
+  "votable-alex-test": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "votabulary": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
   "votd": {
     "version": "2.1.6",
     "dependents": [
@@ -9390,6 +11542,156 @@
   },
   "vote_fu": {
     "version": "0.0.11",
+    "dependents": [
+
+    ]
+  },
+  "voteable-acandael": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "voteable-alpha": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-carlos": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-cbuzz": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-cdub": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-chris": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-chris-sept": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-dem": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-dk": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "voteable-dtclement": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "voteable-eobrien": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-gem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "voteable-gnt": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "voteable-hustad": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-ism": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "voteable-jwallace": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-ko-steven": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-mr": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-ssk": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable-tj": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "voteable_alanwells": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable_ceconcepcion": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "voteable_fer_sept": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable_marv_sept": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "voteable_mike": {
+    "version": "0.0.0",
     "dependents": [
 
     ]
@@ -9430,8 +11732,20 @@
 
     ]
   },
+  "voteski": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "votesmart": {
     "version": "0.4.1",
+    "dependents": [
+
+    ]
+  },
+  "votifier": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -9448,8 +11762,26 @@
 
     ]
   },
+  "voupe_dialog": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "voupe_short": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "vowelremoval": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "voxbi": {
+    "version": "0.3.0",
     "dependents": [
 
     ]
@@ -9481,6 +11813,12 @@
 
     ]
   },
+  "voyage": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "voyager": {
     "version": "0.0.3",
     "dependents": [
@@ -9491,7 +11829,7 @@
     ]
   },
   "voyager_api": {
-    "version": "0.3.2",
+    "version": "0.3.9",
     "dependents": [
 
     ]
@@ -9504,6 +11842,12 @@
   },
   "voyeur": {
     "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "voys_api": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -9528,10 +11872,6 @@
         "requirements": "= 0.695"
       },
       {
-        "name": "ppl",
-        "requirements": "= 0.695"
-      },
-      {
         "name": "ruby-msg",
         "requirements": ">= 0.360"
       },
@@ -9549,6 +11889,12 @@
   },
   "vpim-rails-reinteractive": {
     "version": "0.7",
+    "dependents": [
+
+    ]
+  },
+  "vpim2": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -9583,6 +11929,12 @@
 
     ]
   },
+  "vr-corelib": {
+    "version": "0.0.36",
+    "dependents": [
+
+    ]
+  },
   "vraptor-scaffold": {
     "version": "1.3.0",
     "dependents": [
@@ -9597,7 +11949,15 @@
         "requirements": ">= 0.0.1"
       },
       {
+        "name": "ebaytool",
+        "requirements": ">= 0.0.1"
+      },
+      {
         "name": "findcontrol",
+        "requirements": ">= 0.0.1"
+      },
+      {
+        "name": "project3v3",
         "requirements": ">= 0.0.1"
       },
       {
@@ -9623,7 +11983,7 @@
     ]
   },
   "vrome": {
-    "version": "1.1.0",
+    "version": "2.0.2",
     "dependents": [
 
     ]
@@ -9658,6 +12018,12 @@
 
     ]
   },
+  "vsql_parser": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
   "vss": {
     "version": "0.1.9",
     "dependents": [
@@ -9673,6 +12039,12 @@
       }
     ]
   },
+  "vtapi": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
   "vtd-xml": {
     "version": "unknown",
     "dependents": [
@@ -9680,7 +12052,7 @@
     ]
   },
   "vte": {
-    "version": "1.2.6",
+    "version": "2.0.2",
     "dependents": [
       {
         "name": "superterm",
@@ -9689,7 +12061,7 @@
     ]
   },
   "vte3": {
-    "version": "1.2.6",
+    "version": "2.0.2",
     "dependents": [
 
     ]
@@ -9701,7 +12073,7 @@
     ]
   },
   "vtiger": {
-    "version": "0.7.8",
+    "version": "0.8.1",
     "dependents": [
 
     ]
@@ -9725,7 +12097,7 @@
     ]
   },
   "vulcan": {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "dependents": [
       {
         "name": "libv8",
@@ -9735,6 +12107,12 @@
   },
   "vulndbhq": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "vundler": {
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -9753,6 +12131,12 @@
   },
   "VvanGemert-ar_mailer": {
     "version": "2.2.0",
+    "dependents": [
+
+    ]
+  },
+  "vvm-rb": {
+    "version": "0.0.3",
     "dependents": [
 
     ]

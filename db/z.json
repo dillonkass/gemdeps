@@ -24,7 +24,7 @@
     ]
   },
   "z_build": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
 
     ]
@@ -57,11 +57,15 @@
     "version": "0.4.0",
     "dependents": [
       {
-        "name": "fluent-plugin-zabbix",
+        "name": "fluent-plugin-zabbix-simple",
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix-simple",
+        "name": "fluent-plugin-zabbix-simple-bufferd",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fluent-plugin-zabbix",
         "requirements": ">= 0"
       },
       {
@@ -72,6 +76,12 @@
         "name": "zabbix_nudge",
         "requirements": "~> 0.3.0"
       }
+    ]
+  },
+  "zabbix-ruby-client": {
+    "version": "0.0.8",
+    "dependents": [
+
     ]
   },
   "zabbix_agent": {
@@ -93,13 +103,13 @@
     ]
   },
   "zabbix_send": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
   },
   "zabbixapi": {
-    "version": "0.5.7",
+    "version": "0.6.0",
     "dependents": [
 
     ]
@@ -148,6 +158,12 @@
   },
   "zafu": {
     "version": "0.8.6",
+    "dependents": [
+
+    ]
+  },
+  "zaim": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -201,6 +217,12 @@
 
     ]
   },
+  "zapix": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ]
+  },
   "zapt_in": {
     "version": "0.0.2",
     "dependents": [
@@ -209,6 +231,12 @@
   },
   "zaru": {
     "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "zarya": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -226,7 +254,13 @@
     ]
   },
   "zassets": {
-    "version": "0.1.12",
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "zassets-plugins-haml_coffee": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -267,8 +301,14 @@
 
     ]
   },
+  "zazzle_rails": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "zbar": {
-    "version": "0.1.1",
+    "version": "0.2.2",
     "dependents": [
 
     ]
@@ -297,8 +337,14 @@
       }
     ]
   },
+  "zbx": {
+    "version": "1.1.3",
+    "dependents": [
+
+    ]
+  },
   "zbxapi": {
-    "version": "0.2.415",
+    "version": "0.3.2",
     "dependents": [
       {
         "name": "zabcon",
@@ -313,9 +359,18 @@
     ]
   },
   "zclip-rails": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
+    ]
+  },
+  "zcloudjp": {
+    "version": "0.1.2",
+    "dependents": [
+      {
+        "name": "kitchen-zcloudjp",
+        "requirements": ">= 0"
+      }
     ]
   },
   "zcore": {
@@ -344,6 +399,18 @@
   },
   "zebra": {
     "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "zebra-datepicker-rails": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "zebra-epl": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -377,17 +444,23 @@
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "zeddb",
-        "requirements": ">= 1.1.3"
-      },
-      {
         "name": "zedlocales",
         "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "zeddb",
+        "requirements": ">= 1.1.3"
       }
     ]
   },
   "zedlocales": {
     "version": "1.1.3",
+    "dependents": [
+
+    ]
+  },
+  "zeevex_cluster": {
+    "version": "0.3.1",
     "dependents": [
 
     ]
@@ -399,7 +472,7 @@
     ]
   },
   "zeevex_delayed": {
-    "version": "0.9.0",
+    "version": "0.9.2",
     "dependents": [
       {
         "name": "zeevex_threadsafe",
@@ -408,18 +481,22 @@
     ]
   },
   "zeevex_proxy": {
-    "version": "0.9.2",
+    "version": "0.9.6",
     "dependents": [
-      {
-        "name": "zeevex_concurrency",
-        "requirements": ">= 0"
-      },
       {
         "name": "zeevex_delayed",
         "requirements": ">= 0"
       },
       {
+        "name": "zeevex_concurrency",
+        "requirements": ">= 0"
+      },
+      {
         "name": "zeevex_threadsafe",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zeevex_cluster",
         "requirements": ">= 0"
       }
     ]
@@ -433,7 +510,10 @@
   "zeevex_threadsafe": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "zeevex_cluster",
+        "requirements": ">= 0"
+      }
     ]
   },
   "zeit": {
@@ -455,7 +535,7 @@
     ]
   },
   "zemanta_client": {
-    "version": "0.0.2",
+    "version": "0.0.6",
     "dependents": [
 
     ]
@@ -491,7 +571,7 @@
     ]
   },
   "zen_seo": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -502,8 +582,14 @@
 
     ]
   },
+  "zen_to_i": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "zena": {
-    "version": "1.2.3",
+    "version": "1.2.7",
     "dependents": [
 
     ]
@@ -534,12 +620,16 @@
         "requirements": "~> 2.4"
       },
       {
+        "name": "forge-rad19",
+        "requirements": "= 2.4.4"
+      },
+      {
         "name": "forge-rad",
         "requirements": "= 2.4.4"
       },
       {
-        "name": "forge-rad19",
-        "requirements": "= 2.4.4"
+        "name": "forge-rad20",
+        "requirements": "~> 2.4.4"
       },
       {
         "name": "phocoder-rails",
@@ -565,17 +655,33 @@
     "version": "0.2.8",
     "dependents": [
       {
+        "name": "forge-rad19",
+        "requirements": "= 0.2.8"
+      },
+      {
         "name": "forge-rad",
         "requirements": "= 0.2.8"
       },
       {
-        "name": "forge-rad19",
-        "requirements": "= 0.2.8"
+        "name": "forge-rad20",
+        "requirements": "~> 0.2.8"
       }
+    ]
+  },
+  "zend": {
+    "version": "0.2.1",
+    "dependents": [
+
     ]
   },
   "zend-framework-deploy": {
     "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "zendConfigYaml": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -614,31 +720,45 @@
     ]
   },
   "zendesk2": {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "dependents": [
 
     ]
   },
   "zendesk_api": {
-    "version": "0.3.5",
+    "version": "1.0.6",
     "dependents": [
+      {
+        "name": "killbill-zendesk",
+        "requirements": "~> 0.3.10"
+      },
       {
         "name": "omniauth-zendesk",
         "requirements": "> 0.2.2"
+      },
+      {
+        "name": "zend",
+        "requirements": "~> 1.0.3"
       }
     ]
   },
+  "zendesk_apps_manager": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "zendesk_apps_support": {
-    "version": "1.0.1",
+    "version": "1.4.1",
     "dependents": [
       {
         "name": "zendesk_apps_tools",
-        "requirements": "~> 1.0.1"
+        "requirements": "~> 1.4.1"
       }
     ]
   },
   "zendesk_apps_tools": {
-    "version": "1.0.1",
+    "version": "1.3.0",
     "dependents": [
 
     ]
@@ -655,8 +775,20 @@
 
     ]
   },
+  "zenflow": {
+    "version": "0.8.2",
+    "dependents": [
+
+    ]
+  },
   "zenfolio": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "ZenfolioAPI": {
+    "version": "0.1.0",
     "dependents": [
 
     ]
@@ -669,6 +801,12 @@
   },
   "ZenHacks": {
     "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "zenith": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -698,7 +836,7 @@
     ]
   },
   "zenpush": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ]
@@ -728,7 +866,7 @@
     ]
   },
   "ZenTest": {
-    "version": "4.9.0",
+    "version": "4.9.4",
     "dependents": [
       {
         "name": "action-guard",
@@ -767,23 +905,23 @@
         "requirements": "~> 4.5"
       },
       {
-        "name": "autotest-emacs",
-        "requirements": "> 4.0.0"
-      },
-      {
         "name": "autotest",
         "requirements": ">= 4.4.1"
-      },
-      {
-        "name": "autotest-cucumber-notification",
-        "requirements": ">= 0"
       },
       {
         "name": "autotest-aniki",
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-images",
+        "name": "autotest-cucumber-notification",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "autotest-emacs",
+        "requirements": "> 4.0.0"
+      },
+      {
+        "name": "autotest-fsevent",
         "requirements": ">= 0"
       },
       {
@@ -795,15 +933,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-fsevent",
+        "name": "autotest-images",
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-notifyosd",
+        "name": "autotest-mac",
         "requirements": ">= 4.0.0"
       },
       {
-        "name": "autotest-mac",
+        "name": "autotest-notifyosd",
         "requirements": ">= 4.0.0"
       },
       {
@@ -813,10 +951,6 @@
       {
         "name": "autotest-run_dependencies",
         "requirements": ">= 3.9.0"
-      },
-      {
-        "name": "badgeville_berlin",
-        "requirements": ">= 0"
       },
       {
         "name": "bc-rspec-matchers",
@@ -923,11 +1057,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "EPA_envirofacts",
+        "name": "epa",
         "requirements": "~> 4.5"
       },
       {
-        "name": "epa",
+        "name": "EPA_envirofacts",
         "requirements": "~> 4.5"
       },
       {
@@ -1071,6 +1205,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "memcache_check",
+        "requirements": "~> 4.9.3"
+      },
+      {
         "name": "microsoft_open_data",
         "requirements": "~> 4.5"
       },
@@ -1092,7 +1230,7 @@
       },
       {
         "name": "namae",
-        "requirements": "~> 4.8.0"
+        "requirements": ">= 0"
       },
       {
         "name": "nephele",
@@ -1119,6 +1257,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "panjiva-pdf-reader",
+        "requirements": "~> 4.4.2"
+      },
+      {
         "name": "pdf-reader",
         "requirements": "~> 4.4.2"
       },
@@ -1132,10 +1274,6 @@
       },
       {
         "name": "phantom_menace",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "phantomjs.rb",
         "requirements": ">= 0"
       },
       {
@@ -1155,10 +1293,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "radiant",
-        "requirements": "= 4.6.2"
-      },
-      {
         "name": "radiant-autotest",
         "requirements": ">= 3.9.0"
       },
@@ -1171,24 +1305,28 @@
         "requirements": ">= 3.4.2"
       },
       {
-        "name": "rdoc",
-        "requirements": "~> 4"
+        "name": "rbbt-util",
+        "requirements": "= 4.3"
       },
       {
-        "name": "rdoc-tags",
-        "requirements": ">= 0"
+        "name": "rdoc",
+        "requirements": "~> 4"
       },
       {
         "name": "rea-netscaler-cli",
         "requirements": ">= 0"
       },
       {
+        "name": "recalls",
+        "requirements": "~> 4.4"
+      },
+      {
         "name": "Recalls",
         "requirements": "~> 4.4"
       },
       {
-        "name": "recalls",
-        "requirements": "~> 4.4"
+        "name": "redbeard",
+        "requirements": ">= 0"
       },
       {
         "name": "reducers",
@@ -1220,7 +1358,7 @@
       },
       {
         "name": "rspec-rails",
-        "requirements": "= 4.6.2"
+        "requirements": "= 4.9.0"
       },
       {
         "name": "RssMangler",
@@ -1307,6 +1445,42 @@
         "requirements": "~> 4.5.0"
       },
       {
+        "name": "tengine_core",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_event",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_job_agent",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_job",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_rails_plugin",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource_ec2",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_support",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource_wakame",
+        "requirements": "~> 4.9.0"
+      },
+      {
         "name": "thounds",
         "requirements": "~> 4.4"
       },
@@ -1329,6 +1503,10 @@
       {
         "name": "universe-testing",
         "requirements": ">= 0"
+      },
+      {
+        "name": "unqlite",
+        "requirements": "~> 4.9.2"
       },
       {
         "name": "utest",
@@ -1364,6 +1542,10 @@
       },
       {
         "name": "weeter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "whenever-delorean",
         "requirements": ">= 0"
       },
       {
@@ -1448,19 +1630,19 @@
     ]
   },
   "zenweb": {
-    "version": "3.1.0",
+    "version": "3.2.0",
     "dependents": [
       {
         "name": "zenweb-autolink",
         "requirements": "= 3.0.0.b3"
       },
       {
-        "name": "zenweb-textile",
-        "requirements": "= 3.0.0.b3"
-      },
-      {
         "name": "zenweb-haml",
         "requirements": ">= 3.0.0.b1"
+      },
+      {
+        "name": "zenweb-textile",
+        "requirements": "= 3.0.0.b3"
       },
       {
         "name": "zenweb-template",
@@ -1481,7 +1663,7 @@
     ]
   },
   "zenweb-template": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -1493,7 +1675,7 @@
     ]
   },
   "zephyr": {
-    "version": "1.2.1",
+    "version": "1.2.2",
     "dependents": [
 
     ]
@@ -1505,13 +1687,19 @@
     ]
   },
   "zepplen_aws": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ]
   },
   "zepto-rails": {
     "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "zepto_jquery_rails": {
+    "version": "0.0.1",
     "dependents": [
 
     ]
@@ -1618,6 +1806,12 @@
 
     ]
   },
+  "zero_authorization": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
   "zero_clipboard-rails": {
     "version": "1.0.0",
     "dependents": [
@@ -1637,7 +1831,7 @@
     ]
   },
   "zero_push": {
-    "version": "0.0.4",
+    "version": "2.0.0",
     "dependents": [
 
     ]
@@ -1655,13 +1849,19 @@
     ]
   },
   "zeroclipboard-rails": {
-    "version": "0.0.2",
+    "version": "0.0.7",
     "dependents": [
 
     ]
   },
   "zeromq": {
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "zeromqrb": {
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -1684,6 +1884,12 @@
 
     ]
   },
+  "zertico": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
   "zester": {
     "version": "0.3.0",
     "dependents": [
@@ -1699,6 +1905,10 @@
       },
       {
         "name": "guard-zeus-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "simple-versioner",
         "requirements": ">= 0"
       },
       {
@@ -1728,7 +1938,7 @@
     ]
   },
   "zeus-parallel_tests": {
-    "version": "0.2.1",
+    "version": "0.2.4",
     "dependents": [
 
     ]
@@ -1829,14 +2039,20 @@
 
     ]
   },
+  "zfs-tools": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "zfstools": {
-    "version": "0.2.2",
+    "version": "0.3.1",
     "dependents": [
 
     ]
   },
   "zgomot": {
-    "version": "0.1.3",
+    "version": "1.0.4",
     "dependents": [
 
     ]
@@ -1892,7 +2108,10 @@
   "zhexdump": {
     "version": "0.0.2",
     "dependents": [
-
+      {
+        "name": "pedump",
+        "requirements": ">= 0.0.2"
+      }
     ]
   },
   "zidian": {
@@ -1915,6 +2134,12 @@
   },
   "zik": {
     "version": "0.17.1",
+    "dependents": [
+
+    ]
+  },
+  "zikaron": {
+    "version": "0.3.0",
     "dependents": [
 
     ]
@@ -1989,7 +2214,13 @@
     ]
   },
   "zinbei": {
-    "version": "0.1.3.2.2",
+    "version": "0.1.6.1",
+    "dependents": [
+
+    ]
+  },
+  "zinbeijett": {
+    "version": "0.0.8.1",
     "dependents": [
 
     ]
@@ -2007,7 +2238,7 @@
     ]
   },
   "zing": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ]
@@ -2024,6 +2255,12 @@
 
     ]
   },
+  "zion": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "zip": {
     "version": "2.0.2",
     "dependents": [
@@ -2034,6 +2271,10 @@
       {
         "name": "bindery",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cbr2pdf",
+        "requirements": "~> 2.0"
       },
       {
         "name": "CloudyScripts",
@@ -2068,16 +2309,24 @@
         "requirements": ">= 2.0.2"
       },
       {
+        "name": "geo2tz",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "h2ocube_rails_assets",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "heart",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hsdeploy",
         "requirements": ">= 0"
       },
       {
         "name": "ipa_reader",
         "requirements": "= 2.0.2"
-      },
-      {
-        "name": "iron_worker",
-        "requirements": ">= 0"
       },
       {
         "name": "iron_worker",
@@ -2100,11 +2349,23 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lncs",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "locationary",
+        "requirements": ">= 0"
+      },
+      {
         "name": "locomotivecms_mounter",
         "requirements": "~> 2.0.2"
       },
       {
         "name": "manband",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mvn_plugin_config",
         "requirements": ">= 0"
       },
       {
@@ -2144,6 +2405,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tmis",
+        "requirements": ">= 2.0.2"
+      },
+      {
         "name": "unit_validator",
         "requirements": ">= 0"
       },
@@ -2153,6 +2418,10 @@
       },
       {
         "name": "winstone",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wortsammler",
         "requirements": ">= 0"
       },
       {
@@ -2171,8 +2440,29 @@
 
     ]
   },
+  "zip-container": {
+    "version": "0.9.0",
+    "dependents": [
+      {
+        "name": "ucf",
+        "requirements": "~> 0.9.0"
+      }
+    ]
+  },
+  "zip-zip": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
   "zip64writer": {
     "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "zip_code_jp": {
+    "version": "0.0.3",
     "dependents": [
 
     ]
@@ -2184,7 +2474,7 @@
     ]
   },
   "zip_dsl": {
-    "version": "1.0.10",
+    "version": "1.2.0",
     "dependents": [
       {
         "name": "web_app_builder",
@@ -2203,7 +2493,7 @@
     ]
   },
   "zip_recruiter": {
-    "version": "1.0.1",
+    "version": "1.1.2",
     "dependents": [
 
     ]
@@ -2221,6 +2511,12 @@
     ]
   },
   "zipcode": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "zipcode_ja": {
     "version": "0.1.0",
     "dependents": [
 
@@ -2331,6 +2627,10 @@
       {
         "name": "testability-driver-runner",
         "requirements": ">= 0"
+      },
+      {
+        "name": "upcloudify",
+        "requirements": ">= 0"
       }
     ]
   },
@@ -2347,6 +2647,18 @@
       },
       {
         "name": "doc_template",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "elastic-beanstalk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "encryptedzip",
+        "requirements": "~> 0.3"
+      },
+      {
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
@@ -2382,6 +2694,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pig-media-server",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pione",
+        "requirements": "~> 0.3.6"
+      },
+      {
         "name": "pubgen",
         "requirements": ">= 0"
       },
@@ -2410,7 +2730,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sufia",
+        "name": "sufia-models",
         "requirements": "= 0.3.6"
       },
       {
@@ -2419,6 +2739,10 @@
       },
       {
         "name": "word_parsing",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zip_code_jp",
         "requirements": ">= 0"
       }
     ]
@@ -2442,7 +2766,7 @@
     ]
   },
   "zipstream": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ]
@@ -2476,6 +2800,12 @@
 
     ]
   },
+  "zitgit": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
   "ziya": {
     "version": "2.3.0",
     "dependents": [
@@ -2489,19 +2819,35 @@
     ]
   },
   "zk": {
-    "version": "1.8.0",
+    "version": "1.9.2",
     "dependents": [
+      {
+        "name": "bluster",
+        "requirements": ">= 0"
+      },
       {
         "name": "grotesque",
         "requirements": ">= 0"
       },
       {
+        "name": "jones",
+        "requirements": "= 1.8.0"
+      },
+      {
         "name": "nogara-redis_failover",
-        "requirements": "< 1.8, >= 1.7.4"
+        "requirements": "< 1.9, >= 1.7.4"
+      },
+      {
+        "name": "rebuy_deployment",
+        "requirements": ">= 1.8.0"
       },
       {
         "name": "redis_failover",
         "requirements": "< 1.8, >= 1.7.4"
+      },
+      {
+        "name": "rollout-zk",
+        "requirements": ">= 0"
       },
       {
         "name": "vidocq",
@@ -2518,11 +2864,27 @@
       {
         "name": "zknrg",
         "requirements": ">= 1.6.3"
+      },
+      {
+        "name": "zoomq",
+        "requirements": ">= 0"
       }
+    ]
+  },
+  "zk-assets": {
+    "version": "1.0.0",
+    "dependents": [
+
     ]
   },
   "zk-eventmachine": {
     "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "zk-forms": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -2533,10 +2895,25 @@
 
     ]
   },
-  "zk-server": {
-    "version": "1.1.5",
+  "zk-ruby-zookeeper_jar": {
+    "version": "3.4.5",
     "dependents": [
 
+    ]
+  },
+  "zk-security": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "zk-server": {
+    "version": "1.1.6",
+    "dependents": [
+      {
+        "name": "zknrg",
+        "requirements": ">= 1.1.5"
+      }
     ]
   },
   "zk_service": {
@@ -2546,7 +2923,7 @@
     ]
   },
   "zknrg": {
-    "version": "0.0.4",
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -2602,6 +2979,15 @@
 
     ]
   },
+  "zmachine": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "zoomq",
+        "requirements": ">= 0"
+      }
+    ]
+  },
   "zmack-ultraviolet": {
     "version": "0.10.2",
     "dependents": [
@@ -2640,23 +3026,27 @@
         "requirements": "~> 2.1.4"
       },
       {
-        "name": "marionette",
+        "name": "fluent-plugin-zmq-pub",
         "requirements": ">= 0"
       },
       {
-        "name": "mongrel2",
-        "requirements": "~> 2.1"
+        "name": "fluent-plugin-zmq-pub",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "marionette",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-dns-server",
         "requirements": ">= 0"
       },
       {
-        "name": "zas-service",
+        "name": "zas-client",
         "requirements": ">= 0"
       },
       {
-        "name": "zas-client",
+        "name": "zas-service",
         "requirements": ">= 0"
       }
     ]
@@ -2700,6 +3090,12 @@
 
     ]
   },
+  "zoe": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
   "zohax": {
     "version": "0.0.3",
     "dependents": [
@@ -2713,7 +3109,7 @@
     ]
   },
   "zoho_invoice": {
-    "version": "0.1.0",
+    "version": "0.3.5.2",
     "dependents": [
 
     ]
@@ -2726,6 +3122,12 @@
   },
   "zomato": {
     "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "zombees": {
+    "version": "0.0.2",
     "dependents": [
 
     ]
@@ -2785,8 +3187,14 @@
 
     ]
   },
+  "zone_ranger": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
   "zonebie": {
-    "version": "0.0.4",
+    "version": "0.5.1",
     "dependents": [
 
     ]
@@ -2798,7 +3206,7 @@
     ]
   },
   "zoneless_time": {
-    "version": "1.0",
+    "version": "1.0.1",
     "dependents": [
 
     ]
@@ -2817,6 +3225,12 @@
   },
   "zoo-generators": {
     "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "zoo-service-discovery": {
+    "version": "1.0.0",
     "dependents": [
 
     ]
@@ -2843,12 +3257,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rebuy_deployment",
+        "requirements": ">= 0"
+      },
+      {
         "name": "redis_ring_client",
         "requirements": ">= 0"
       },
       {
         "name": "redis_ring",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ruby_skynet",
+        "requirements": ">= 1.4.4"
       },
       {
         "name": "zk",
@@ -2905,8 +3327,14 @@
 
     ]
   },
+  "zoomq": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
   "zoomus": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
 
     ]
@@ -2930,13 +3358,13 @@
     ]
   },
   "zopfli": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ]
   },
   "zorglub": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ]
@@ -2959,6 +3387,18 @@
 
     ]
   },
+  "zph": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "Zpl": {
+    "version": "0.0.2.1",
+    "dependents": [
+
+    ]
+  },
   "zpng": {
     "version": "0.2.3",
     "dependents": [
@@ -2972,6 +3412,12 @@
       }
     ]
   },
+  "zqframeworkOH": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
   "zresume": {
     "version": "0.1.1",
     "dependents": [
@@ -2982,6 +3428,21 @@
     "version": "0.0.4",
     "dependents": [
 
+    ]
+  },
+  "zscan": {
+    "version": "2.0.3",
+    "dependents": [
+
+    ]
+  },
+  "zscheduler": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "graphite-api",
+        "requirements": ">= 0.0.3"
+      }
     ]
   },
   "zsff": {
@@ -2997,7 +3458,7 @@
     ]
   },
   "zsteg": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ]
@@ -3009,7 +3470,7 @@
     ]
   },
   "ztk": {
-    "version": "1.0.9",
+    "version": "1.9.0",
     "dependents": [
       {
         "name": "cucumber-chef",
@@ -3017,6 +3478,14 @@
       },
       {
         "name": "jovelabs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lxc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "testlab",
         "requirements": ">= 0"
       }
     ]
@@ -3052,26 +3521,26 @@
     ]
   },
   "zucchini-ios": {
-    "version": "0.6.0",
+    "version": "0.7.3",
     "dependents": [
 
     ]
   },
   "zuck": {
-    "version": "0.0.6",
+    "version": "0.2.0",
     "dependents": [
 
     ]
   },
   "zucker": {
-    "version": "12.1",
+    "version": "13.1",
     "dependents": [
       {
-        "name": "docbook_status",
+        "name": "docbook_files",
         "requirements": ">= 12.1"
       },
       {
-        "name": "docbook_files",
+        "name": "docbook_status",
         "requirements": ">= 12.1"
       },
       {
@@ -3080,7 +3549,7 @@
       },
       {
         "name": "irbtools",
-        "requirements": ">= 12.1"
+        "requirements": ">= 13.1"
       },
       {
         "name": "lumberjack-couchdb-driver",
@@ -3096,6 +3565,12 @@
       }
     ]
   },
+  "zuckermo": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
   "zueribad": {
     "version": "0.1.0",
     "dependents": [
@@ -3108,8 +3583,14 @@
 
     ]
   },
+  "zulu": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
   "zumobi": {
-    "version": "0.0.15",
+    "version": "0.0.16",
     "dependents": [
 
     ]
@@ -3139,7 +3620,13 @@
     ]
   },
   "zuperhero": {
-    "version": "0.1.1",
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "zuppler": {
+    "version": "0.2.1",
     "dependents": [
 
     ]
@@ -3150,8 +3637,14 @@
 
     ]
   },
+  "ZURB-foundation": {
+    "version": "2.2.1.4",
+    "dependents": [
+
+    ]
+  },
   "zurb-foundation": {
-    "version": "4.1.1",
+    "version": "4.3.2",
     "dependents": [
       {
         "name": "asio",
@@ -3162,19 +3655,39 @@
         "requirements": "~> 4"
       },
       {
+        "name": "awestruct",
+        "requirements": ">= 4.0.9"
+      },
+      {
         "name": "css_canon",
         "requirements": "~> 3.2.0"
+      },
+      {
+        "name": "dauft",
+        "requirements": ">= 0"
       },
       {
         "name": "fidelity",
         "requirements": ">= 0"
       },
       {
+        "name": "foundationize",
+        "requirements": "~> 4.2.3"
+      },
+      {
         "name": "helios",
-        "requirements": "~> 4.0"
+        "requirements": "= 4.1.2"
       },
       {
         "name": "mail_spy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "manage",
+        "requirements": "~> 4.0.0"
+      },
+      {
+        "name": "rbbt-rest",
         "requirements": ">= 0"
       },
       {
@@ -3187,20 +3700,20 @@
       }
     ]
   },
-  "ZURB-foundation": {
-    "version": "2.2.1.4",
-    "dependents": [
-
-    ]
-  },
   "zurb-rush": {
     "version": "0.0.1",
     "dependents": [
 
     ]
   },
+  "zurg": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
   "zurui-sass-rails": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ]
@@ -3212,7 +3725,7 @@
     ]
   },
   "zuul": {
-    "version": "0.1.1",
+    "version": "0.2.7",
     "dependents": [
 
     ]
@@ -3231,6 +3744,12 @@
   },
   "zweikopf": {
     "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "zwemwater": {
+    "version": "1.1.1",
     "dependents": [
 
     ]
