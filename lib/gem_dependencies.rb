@@ -1,5 +1,5 @@
-require "json"
-require "thread"
+require 'json'
+require 'thread'
 
 class GemDependencies
   def initialize(gem_names_and_versions)
@@ -27,24 +27,28 @@ class GemDependencies
     match = string.match(/\(([^\)]*)\)/)
 
     if match.nil?
-      "unknown"
+      'unknown'
     else
       match[1]
     end
   end
 
   def read_dependencies(gem_info)
-    return if not gem_info.include? "dependencies"
+    return if not gem_info.include? 'dependencies'
 
-    dependent_gem_name = gem_info["name"]
+    dependent_gem_name = gem_info['name']
 
     @mutex.synchronize do
-      gem_info["dependencies"].each do |category, gems|
-        gems.each do |gem|
-          precedent_gem_name = gem["name"]
-          requirements = gem["requirements"]
+      if @dependents_hash.include?(dependent_gem_name)
+        @dependents_hash[dependent_gem_name][:description] = gem_info['info']
+      end
 
-          if @dependents_hash.include? precedent_gem_name
+      gem_info['dependencies'].each do |category, gems|
+        gems.each do |gem_data|
+          precedent_gem_name = gem_data['name']
+          requirements = gem_data['requirements']
+
+          if @dependents_hash.include?(precedent_gem_name)
             @dependents_hash[precedent_gem_name][:dependents] << {
               :name => dependent_gem_name,
               :requirements => requirements
@@ -60,6 +64,6 @@ class GemDependencies
   end
 
   def save_to_file(file_name)
-    File.open(file_name, "w").write(self.to_json)
+    File.open(file_name, 'w').write(self.to_json)
   end
 end
