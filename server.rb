@@ -3,9 +3,15 @@ require "json"
 require "gyoku"
 require "haml"
 
+def read_all_dependents
+  '#-_abcdefghijklmnopqrstuvwxyz'.each_char.inject({}) do |data, char|
+    data.merge!(JSON.parse(File.read("db/#{char}.json")))
+  end
+end
+
 configure do
-  set :dependents, JSON.parse(File.read("dependents.json"))
-  set :last_updated, File.mtime("dependents.json")
+  set :dependents, read_all_dependents
+  set :last_updated, File.mtime('db/#.json')
 end
 
 helpers do
