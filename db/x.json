@@ -1,0 +1,3269 @@
+{
+  "x": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "x-editable-rails": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "x10-cm17a": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "x11_client": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "X12": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "x12": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "x2c": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "x2cs": {
+    "version": "1.0",
+    "dependents": [
+
+    ]
+  },
+  "x86dis": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "x_do": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "x_runtime": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "x_to_json": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xagemu": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xail": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xamplr": {
+    "version": "1.9.20",
+    "dependents": [
+      {
+        "name": "xamplr-gen",
+        "requirements": ">= 1.9.16"
+      }
+    ]
+  },
+  "xamplr-gen": {
+    "version": "1.9.16",
+    "dependents": [
+
+    ]
+  },
+  "xamplr-pp": {
+    "version": "1.2.0",
+    "dependents": [
+      {
+        "name": "xamplr-gen",
+        "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "xamplr",
+        "requirements": ">= 1.2.0"
+      }
+    ]
+  },
+  "xan_markup": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xaop-exception_notification": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xaop-ntlm-http": {
+    "version": "0.1.1.2",
+    "dependents": [
+      {
+        "name": "savon-xaop",
+        "requirements": ">= 0.1.1.2"
+      }
+    ]
+  },
+  "xapian-core": {
+    "version": "1.2.7.1",
+    "dependents": [
+      {
+        "name": "xapian-indexer",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xapian-fu": {
+    "version": "1.5.0",
+    "dependents": [
+      {
+        "name": "mongoid-xapian",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "resource_index",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xapor",
+        "requirements": ">= 1.1.0"
+      }
+    ]
+  },
+  "xapian-full": {
+    "version": "1.2.3",
+    "dependents": [
+      {
+        "name": "sup",
+        "requirements": ">= 1.1.3.1"
+      }
+    ]
+  },
+  "xapian-full-alaveteli": {
+    "version": "1.2.9.5",
+    "dependents": [
+
+    ]
+  },
+  "xapian-indexer": {
+    "version": "1.2.3.4",
+    "dependents": [
+      {
+        "name": "xapian-rack",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xapian-rack": {
+    "version": "1.2.3.3",
+    "dependents": [
+
+    ]
+  },
+  "xapian-ruby": {
+    "version": "1.2.12",
+    "dependents": [
+      {
+        "name": "mongoid-xapian",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "resource_index",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xapian_db",
+        "requirements": ">= 1.2.7.1"
+      }
+    ]
+  },
+  "xapian_db": {
+    "version": "1.3.1",
+    "dependents": [
+
+    ]
+  },
+  "xapit": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xapor": {
+    "version": "0.2.2",
+    "dependents": [
+      {
+        "name": "xapor",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xapper": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xarf": {
+    "version": "0.6.0",
+    "dependents": [
+
+    ]
+  },
+  "xargs": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xarray": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xattr": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "xaviershay-dm-rails": {
+    "version": "0.10.3.8",
+    "dependents": [
+
+    ]
+  },
+  "xbar": {
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
+  "xbd": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xbel": {
+    "version": "0.2.7",
+    "dependents": [
+      {
+        "name": "habl",
+        "requirements": ">= 0.2.6"
+      }
+    ]
+  },
+  "xbm_ruby": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xbmc": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xbmc-client": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xbmc-jsonrpc": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xbox-live": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xbox_leaders": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xbox_live": {
+    "version": "0.3.4",
+    "dependents": [
+
+    ]
+  },
+  "xboxleaders": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xbrlware-ce": {
+    "version": "1.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xbrlware-extras": {
+    "version": "1.1.2.19.2",
+    "dependents": [
+      {
+        "name": "finmodeling",
+        "requirements": "= 1.1.2.19.2"
+      }
+    ]
+  },
+  "xbrlware-ruby19": {
+    "version": "1.1.2.19.2",
+    "dependents": [
+      {
+        "name": "finmodeling",
+        "requirements": "= 1.1.2.19.2"
+      },
+      {
+        "name": "xbrlware-extras",
+        "requirements": "= 1.1.2.19.2"
+      }
+    ]
+  },
+  "xbuilder": {
+    "version": "0.9",
+    "dependents": [
+
+    ]
+  },
+  "xcapclient": {
+    "version": "1.4.1",
+    "dependents": [
+
+    ]
+  },
+  "xcb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xcharts_rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xcider": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xcli": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xcode": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "xcode-project-renamer": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xcode-yamlizer": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "xcode_make": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xcode_template_maker": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xcodebuild-rb": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "fwtoolkit",
+        "requirements": "= 0.3.0"
+      },
+      {
+        "name": "xcodeproject",
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "yolo",
+        "requirements": "= 0.2.0"
+      }
+    ]
+  },
+  "xcodebuilder": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "xcodeide": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "leaves",
+        "requirements": ">= 0.1.1"
+      }
+    ]
+  },
+  "XcodePages": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xcodeproj": {
+    "version": "0.5.5",
+    "dependents": [
+      {
+        "name": "botstrap",
+        "requirements": ">= 0.3.4"
+      },
+      {
+        "name": "calatrava",
+        "requirements": "~> 0.4.0"
+      },
+      {
+        "name": "cocoapods",
+        "requirements": "~> 0.5.5"
+      },
+      {
+        "name": "defgen",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "frank-cucumber",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fwtoolkit",
+        "requirements": "= 0.4.3"
+      },
+      {
+        "name": "ib",
+        "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "liftoff",
+        "requirements": "~> 0.5.1"
+      },
+      {
+        "name": "motion-objc",
+        "requirements": ">= 0.3.0"
+      }
+    ]
+  },
+  "xcodeproject": {
+    "version": "0.3.12",
+    "dependents": [
+
+    ]
+  },
+  "xcoder": {
+    "version": "0.1.15",
+    "dependents": [
+      {
+        "name": "vendor",
+        "requirements": "~> 0.1.9"
+      },
+      {
+        "name": "xcode_make",
+        "requirements": ">= 0.1.13"
+      }
+    ]
+  },
+  "xcoderake": {
+    "version": "0.3",
+    "dependents": [
+
+    ]
+  },
+  "xcodesnippets": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xcselect": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ]
+  },
+  "XDCC-Fetch": {
+    "version": "1.409",
+    "dependents": [
+
+    ]
+  },
+  "xdg": {
+    "version": "2.2.3",
+    "dependents": [
+      {
+        "name": "maid",
+        "requirements": "~> 2.2.3"
+      },
+      {
+        "name": "rgtk",
+        "requirements": "= 0.5.2"
+      },
+      {
+        "name": "shellcast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sow",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stickyflag",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xdo": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "xdojava": {
+    "version": "1.0.8",
+    "dependents": [
+
+    ]
+  },
+  "xdry": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xdt": {
+    "version": "1.0.5",
+    "dependents": [
+
+    ]
+  },
+  "xduration": {
+    "version": "3.0.0",
+    "dependents": [
+      {
+        "name": "timespan",
+        "requirements": ">= 3.0.0"
+      }
+    ]
+  },
+  "xebec": {
+    "version": "2.7.0",
+    "dependents": [
+
+    ]
+  },
+  "xen": {
+    "version": "0.1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xen-ruby": {
+    "version": "0.7.2",
+    "dependents": [
+
+    ]
+  },
+  "xenapi": {
+    "version": "0.2.11",
+    "dependents": [
+
+    ]
+  },
+  "xenapi-ruby": {
+    "version": "0.1.29",
+    "dependents": [
+
+    ]
+  },
+  "xenda-nifty-generators": {
+    "version": "0.3.2",
+    "dependents": [
+
+    ]
+  },
+  "xenda-typhoeus": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ]
+  },
+  "xendeploy": {
+    "version": "0.20",
+    "dependents": [
+
+    ]
+  },
+  "xenrec": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "xero": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "xero-min": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "xero_gateway": {
+    "version": "2.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xero_gateway-float": {
+    "version": "2.1.7",
+    "dependents": [
+
+    ]
+  },
+  "xero_gateway-n8vision": {
+    "version": "2.0.20",
+    "dependents": [
+
+    ]
+  },
+  "xeroizer": {
+    "version": "2.15.3",
+    "dependents": [
+
+    ]
+  },
+  "xeroizer-float": {
+    "version": "2.15.3.13",
+    "dependents": [
+
+    ]
+  },
+  "xes": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xf-generators": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xfn_stone": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "xforge": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "xforms": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "xftdim": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xgem": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xh5-tweetstream": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xh5-twitter-stream": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "xh5-tweetstream",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xheditor": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xhive": {
+    "version": "1.6.7",
+    "dependents": [
+
+    ]
+  },
+  "xhr": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "xhr-blackbook": {
+    "version": "1.0.19",
+    "dependents": [
+
+    ]
+  },
+  "xhr-ifconfig": {
+    "version": "1.2.3",
+    "dependents": [
+
+    ]
+  },
+  "xhr-president-news": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xhr-starling": {
+    "version": "0.10.0",
+    "dependents": [
+
+    ]
+  },
+  "xhr_flash": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xhtmldiff": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xi": {
+    "version": "99.99",
+    "dependents": [
+
+    ]
+  },
+  "xiacc": {
+    "version": "0.1",
+    "dependents": [
+      {
+        "name": "khammurabi",
+        "requirements": "> 0.0.0"
+      }
+    ]
+  },
+  "xiami_sauce": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xian-test-jasmine": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "xiaohuangji": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xiaonei": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "xiaoXbao": {
+    "version": "9.5.6",
+    "dependents": [
+
+    ]
+  },
+  "xibdiff": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xibe": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xibtoti": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xid": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xidle": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xig_installer": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xignite": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xiki": {
+    "version": "0.6.5",
+    "dependents": [
+
+    ]
+  },
+  "xilence": {
+    "version": "2.0.5",
+    "dependents": [
+
+    ]
+  },
+  "xilinx-provision": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xilo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xim": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "ximate": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ]
+  },
+  "xing": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "xing-cap_gun": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xinuc-indofaker": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xisbn": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "xkcd": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xkimo": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "xlib_ruby": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "xls": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xls2csv": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "xls2odat": {
+    "version": "1.1.7",
+    "dependents": [
+
+    ]
+  },
+  "xls_html_cleaner": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xls_porter": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xls_to_csv-paperclip-processor": {
+    "version": "0.4.5",
+    "dependents": [
+
+    ]
+  },
+  "xlsx": {
+    "version": "0.3",
+    "dependents": [
+
+    ]
+  },
+  "xlsx_writer": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "report",
+        "requirements": ">= 0.3.1"
+      }
+    ]
+  },
+  "xlymian-cijoe": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xlymian-redis-store": {
+    "version": "0.3.8",
+    "dependents": [
+
+    ]
+  },
+  "xm": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "xmapper": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xmastree": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xmatch": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xml-fu": {
+    "version": "0.1.7",
+    "dependents": [
+      {
+        "name": "rightsignature",
+        "requirements": ">= 0.1.7"
+      }
+    ]
+  },
+  "xml-magic": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "flickr-fu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "flickr-tools",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "flickr_fu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mrpunkin-flickr_fu",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "rmm5t-flickr_fu",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "robsharp-flickr_fu",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "ruby-flickr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tomk32-flickr_fu",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "userharmony-flickr_fu",
+        "requirements": "> 0.0.0"
+      }
+    ]
+  },
+  "xml-mapping": {
+    "version": "0.9.1",
+    "dependents": [
+      {
+        "name": "ebayapi",
+        "requirements": ">= 0.8.1"
+      },
+      {
+        "name": "ebayapi-awt",
+        "requirements": "~> 0.8.1"
+      },
+      {
+        "name": "goodercode-zune",
+        "requirements": ">= 0.9.1"
+      },
+      {
+        "name": "intuit_ids_aggcat",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "LitleOnline",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "openaustralia",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml-motor": {
+    "version": "0.1.6",
+    "dependents": [
+      {
+        "name": "ci-go-nfo",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "ci-go-nfo",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "irc-qik-bot",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "irc-qik-bot",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "rss-motor",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "rss-motor",
+        "requirements": ">= 0.1.6"
+      },
+      {
+        "name": "wwwtf",
+        "requirements": ">= 0.1.6"
+      }
+    ]
+  },
+  "xml-object": {
+    "version": "0.9.93",
+    "dependents": [
+      {
+        "name": "hapi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "JRank",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knock-knock",
+        "requirements": ">= 0.9.8"
+      },
+      {
+        "name": "knock-knock",
+        "requirements": ">= 0.9.8"
+      },
+      {
+        "name": "LitleOnline",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml-purifier": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "xml-registry": {
+    "version": "0.1.12",
+    "dependents": [
+      {
+        "name": "dws-registry",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml-sax-machines": {
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
+  "xml-simple": {
+    "version": "1.1.2",
+    "dependents": [
+      {
+        "name": "abiquo-chef-agent",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "acts-as-atdw",
+        "requirements": "= 1.1.1"
+      },
+      {
+        "name": "acts_as_unvlogable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "adaptation",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "alancse-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aliyun-oss",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "allplayers",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "amazon-ec2",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "amazon_ses",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "an",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "as_dialed_from",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "automatic",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "autometal-piwik",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-s3-akhtaboot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-cloudfront",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-s3-instructure",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-s3-multi-region",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-ses-rails31",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-ses-rails31",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-ses",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "axtro-aws-ses",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "basecamp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "beefdump",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "beta_tools",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bgg-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bigbluebutton-api-ruby",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "buildr",
+        "requirements": "= 1.1.1"
+      },
+      {
+        "name": "buildr-dependency-extensions",
+        "requirements": "~> 1.0.12"
+      },
+      {
+        "name": "buildr-gemjar",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "bvm",
+        "requirements": "~> 1.0.12"
+      },
+      {
+        "name": "campgrounds",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capistrano-basecamp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capistrano-payload",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "cashboard",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "chain-reactor",
+        "requirements": "~> 1.1.2"
+      },
+      {
+        "name": "chronuscop_client",
+        "requirements": "~> 1.0.15"
+      },
+      {
+        "name": "cmeiklejohn-aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "codders-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "command_exec",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "correios",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dashing-weather",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dotime",
+        "requirements": ">= 1.0.8"
+      },
+      {
+        "name": "dribbled",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dtefacil_xml_builder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "earth_tools",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "edc1591-piwik",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "em-amazon-sqs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-amazon-sqs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ey_ronin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fanny_pack",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "flickr",
+        "requirements": ">= 1.0.7"
+      },
+      {
+        "name": "flickr.rb",
+        "requirements": ">= 1.0.7"
+      },
+      {
+        "name": "fmalamitsas-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "full_lengther_next",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "gcal-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gcalevents",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "gems-status",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ghazel-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git-redmine-commit",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "google-picasa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gotime_aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gpm",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "gravatar_profile",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "gtk3assist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gyunyu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hackerdude-aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "heirloom",
+        "requirements": "~> 1.1.2"
+      },
+      {
+        "name": "hetzner-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ib-ruby",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "icims_client",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "identity",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "io_tools",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ipgp",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "jaf-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jira",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "kuali-rice",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kuali-rice",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lane_groove",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lastfm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lastfm-tail",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "le88-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "letters",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "malcolm",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "mb-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "medici",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mensario",
+        "requirements": "~> 1.0.15"
+      },
+      {
+        "name": "mguymon-buildr",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "msg-chumby-display",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "multicity",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "muni",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "music_xray_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "newrelic-amazon-ec2",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "newrelic_data",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nifty-cloud-sdk",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "niftp",
+        "requirements": ">= 1.0"
+      },
+      {
+        "name": "nirvdrum-amazon-ec2",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "novoda-buildr",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "nsi-lapesi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "oodle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "open_ehr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "openehr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "OpenCongressAPI",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ostructer",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "pandorabots",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pasrb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "paypal-sdk-core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "picasa_albums",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "picasa-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pivotal",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "piwik",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "post2irc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ppcommand",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "provider_one",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "prtg",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "pwup",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "qrz-callbook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rafaels-picasa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rbbt-sent-www",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "releaseable",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "restrack",
+        "requirements": ">= 1.0.13"
+      },
+      {
+        "name": "restrack-client",
+        "requirements": ">= 1.0.13"
+      },
+      {
+        "name": "rex11",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rillow",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "rmthemegen",
+        "requirements": "= 1.0.15"
+      },
+      {
+        "name": "ruby-cakemail",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "ruby-fedora",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "ruby-notify-my-android",
+        "requirements": ">= 1.0.15"
+      },
+      {
+        "name": "ruby-oembed",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby-rapleaf",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "ruby_omx",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "rubycut-vclog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rubyzoho",
+        "requirements": ">= 1.1.2"
+      },
+      {
+        "name": "rutty",
+        "requirements": "~> 1.0.12"
+      },
+      {
+        "name": "s3_multipart",
+        "requirements": ">= 1.1.2"
+      },
+      {
+        "name": "s3fsr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sagepayadminapi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk_oauth2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforcebulk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sauberia-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sbn",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "scbi_blast",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "scrumninja-git-cli",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "secure_trading",
+        "requirements": ">= 1.0.14"
+      },
+      {
+        "name": "seqtrimnext",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "sfc-custom",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "shabng",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "shenandoah",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "simple_qs",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "sinatra_more",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sk-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "skyruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sml-flickr",
+        "requirements": ">= 1.0.7"
+      },
+      {
+        "name": "solrizer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "solusvm",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "spree_exactor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stackster",
+        "requirements": "= 1.1.2"
+      },
+      {
+        "name": "StarRezApi",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "steamcannon-aws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stevequinlan-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stratus",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "streamsend-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "studio_api",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "svanzoest-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "table-for",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "taskmapper-lighthouse",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "ticketmaster-basecamp",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "ticketmaster-lighthouse",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "tiger-payment",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "time-tracker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tokboxer",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "tootsie",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "touchpass",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "txtweb-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "user-choices",
+        "requirements": ">= 1.0.11"
+      },
+      {
+        "name": "vatid_eu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vclog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "veracode-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vianettsms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "voxel-hapi",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "whm_xml",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "wikibot",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "wunderground-api",
+        "requirements": ">= 1.0.12"
+      },
+      {
+        "name": "xbrlware-ce",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "xbrlware-ruby19",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xml_hate",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yam-aws-s3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "youtube",
+        "requirements": ">= 1.0.9"
+      },
+      {
+        "name": "youtuber",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "zohax",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zohoho",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zoro",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml-sitemap": {
+    "version": "1.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xml-smart": {
+    "version": "0.3.2.3",
+    "dependents": [
+      {
+        "name": "ruby-xml-smart",
+        "requirements": ">= 0.3.0"
+      }
+    ]
+  },
+  "xml-to-haml": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "xml_active": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "xml_convert": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_data_builder": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_fixtures": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xml_hate": {
+    "version": "0.8.3.4",
+    "dependents": [
+      {
+        "name": "ruby_yahoo_answers_api",
+        "requirements": ">= 0.8.3.3"
+      }
+    ]
+  },
+  "xml_mapper": {
+    "version": "0.5.8",
+    "dependents": [
+
+    ]
+  },
+  "xml_mini": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_node_stream": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xml_resource": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_schema": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "redlander",
+        "requirements": "~> 0.2.0"
+      }
+    ]
+  },
+  "xml_schema_mapper": {
+    "version": "0.0.7",
+    "dependents": [
+      {
+        "name": "ezags-xsd",
+        "requirements": ">= 0.0.6"
+      }
+    ]
+  },
+  "xml_security": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "samlurai",
+        "requirements": "= 0.0.3"
+      }
+    ]
+  },
+  "xml_serialization": {
+    "version": "0.1.2",
+    "dependents": [
+      {
+        "name": "xsltgem",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml_signature": {
+    "version": "0.1",
+    "dependents": [
+      {
+        "name": "saml",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xml_spec": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_split": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xml_stream_parser": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xml_to_json": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "peaty",
+        "requirements": "~> 0.0.2"
+      }
+    ]
+  },
+  "xmlblog-acts_as_versioned": {
+    "version": "0.6.5",
+    "dependents": [
+
+    ]
+  },
+  "XMLCanonicalizer": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "oa-enterprise",
+        "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "saml2ruby",
+        "requirements": ">= 1.0.1"
+      }
+    ]
+  },
+  "xmlcanonicalizer": {
+    "version": "0.1.2",
+    "dependents": [
+      {
+        "name": "omniauth-saml-rstr",
+        "requirements": "= 0.1.1"
+      },
+      {
+        "name": "omniauth-wsfed",
+        "requirements": "= 0.1.1"
+      },
+      {
+        "name": "ruby-saml-bekk",
+        "requirements": "= 0.1.0"
+      },
+      {
+        "name": "ruby-saml-for-portal",
+        "requirements": "~> 0.1.1"
+      },
+      {
+        "name": "xml_signature",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xmlcellent": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xmlcodec": {
+    "version": "0.1.3",
+    "dependents": [
+      {
+        "name": "eadcodec",
+        "requirements": ">= 0.1.0"
+      }
+    ]
+  },
+  "xmlconv": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xmlconv2": {
+    "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xmldsig": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xmldsign": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "XmlEasy": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xmlelements": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xmlhash": {
+    "version": "1.3.5",
+    "dependents": [
+
+    ]
+  },
+  "xmlize": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xmlobject": {
+    "version": "0.2",
+    "dependents": [
+      {
+        "name": "network-facade",
+        "requirements": "> 0.0.0"
+      }
+    ]
+  },
+  "xmlparsable": {
+    "version": "1.5.4",
+    "dependents": [
+
+    ]
+  },
+  "xmlparser": {
+    "version": "0.7.2.1",
+    "dependents": [
+      {
+        "name": "jramos-activerecord-activesalesforce-adapter",
+        "requirements": ">= 0.6"
+      },
+      {
+        "name": "oca",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rforce",
+        "requirements": "~> 0.7"
+      }
+    ]
+  },
+  "xmlpipe2_indexer": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xmlpretty": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xmlresume2x": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "XMLROCS": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xmlrpc-endpoint": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xmlrpc-rack_server": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xmlrpc-streaming": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xmlrpcs": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "xmlscan": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xmlsec": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "xmlsec-ruby": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "xmlsec-shim": {
+    "version": "1.2.18.2",
+    "dependents": [
+
+    ]
+  },
+  "xmlsig": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xmlss": {
+    "version": "0.4.1",
+    "dependents": [
+      {
+        "name": "osheet",
+        "requirements": "~> 0.4"
+      }
+    ]
+  },
+  "xmlstreamin": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "athena",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xmlstruct": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xmltv": {
+    "version": "0.8.7",
+    "dependents": [
+
+    ]
+  },
+  "xmltv2html": {
+    "version": "0.8.0",
+    "dependents": [
+
+    ]
+  },
+  "xmlvalidate": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xmp": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "fury-bug",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xmp-fixed_prefix": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "xmp_fixed": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ]
+  },
+  "xmpfixed": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "xmpleton": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xmpp-agent": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "send-to-switchboard",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xmpp4em": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "xmpp4log": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xmpp4r": {
+    "version": "0.5",
+    "dependents": [
+      {
+        "name": "ahoy",
+        "requirements": "= 0.5"
+      },
+      {
+        "name": "botfly",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "broadcast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "capistrano-jabber-notifications",
+        "requirements": "= 0.5"
+      },
+      {
+        "name": "chatroid",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "check-taskr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "chef-jabber-snitch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cirrocumulus",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cuttlebone",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "dat",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dkowis-xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "easy-gtalk-bot",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "enough_fields",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "exceptioner",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "eye",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "firenxis-god",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "fluent-plugin-jabber",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git_hooks",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "gnms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "god",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "google_chat",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gossip",
+        "requirements": ">= 0.3.1"
+      },
+      {
+        "name": "gtalk-bot",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "happy_fun_time_bot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hipbot",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "hipchat_bot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jabber-tee",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "jab",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jacha",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jabber_delivery",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jabbot",
+        "requirements": "~> 0.4"
+      },
+      {
+        "name": "jegolize",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "joggle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lijab",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "log4r-xmpp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omnibot",
+        "requirements": "= 0.5"
+      },
+      {
+        "name": "pipe",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pyu-xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "r-bot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rec",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "robut",
+        "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "rumpy",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "scashin133-xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "scout_agent",
+        "requirements": "= 0.4"
+      },
+      {
+        "name": "social_stream-presence",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "subversion_notifier",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "switchboard",
+        "requirements": ">= 0, = 0.5"
+      },
+      {
+        "name": "twitter_bot",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "uniform_notifier",
+        "requirements": "= 0.5"
+      },
+      {
+        "name": "uppercut",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "watcher_in_the_water",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wcc-xmpp-notificator",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "xm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmpp4em",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmpp4r-observable",
+        "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "xmpp4r-simple-19",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "xmpp4r_facebook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmpp_server",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xmpp4r-observable": {
+    "version": "0.5.4",
+    "dependents": [
+
+    ]
+  },
+  "xmpp4r-simple": {
+    "version": "0.8.8",
+    "dependents": [
+      {
+        "name": "action_messager",
+        "requirements": ">= 0.8.7"
+      },
+      {
+        "name": "cirrocumulus",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jabber-bot",
+        "requirements": ">= 0.8.7"
+      },
+      {
+        "name": "jacs",
+        "requirements": ">= 0.8.8"
+      },
+      {
+        "name": "twitter2jabber",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "whistle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmpp4log",
+        "requirements": ">= 0.8.8"
+      }
+    ]
+  },
+  "xmpp4r-simple-19": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xmpp4r_facebook": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "fbm",
+        "requirements": ">= 0.1.1"
+      },
+      {
+        "name": "invity",
+        "requirements": "= 0.1.1"
+      }
+    ]
+  },
+  "xmpp_gateway": {
+    "version": "0.0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "xmpp_server": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xmppbot": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xmvc": {
+    "version": "0.1.12",
+    "dependents": [
+
+    ]
+  },
+  "xn-octokit": {
+    "version": "0.6.1",
+    "dependents": [
+
+    ]
+  },
+  "xni": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xommelier": {
+    "version": "0.1.24",
+    "dependents": [
+
+    ]
+  },
+  "xot": {
+    "version": "0.1.3",
+    "dependents": [
+      {
+        "name": "rays",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "reflexion",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rucy",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xoxo": {
+    "version": "1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xp5k": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xpain": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xparams": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "xpath": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "bbc-capybara",
+        "requirements": "~> 0.1.4"
+      },
+      {
+        "name": "capybara",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "capybara-rails-2-2",
+        "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "chili",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "license_finder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nimboids-capybara",
+        "requirements": "~> 0.1.4"
+      },
+      {
+        "name": "rcarvalho-capybara",
+        "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "rsel",
+        "requirements": ">= 0.1.4"
+      },
+      {
+        "name": "skyruby",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xpather": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "xpay": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "xpcomcore-rubygem": {
+    "version": "0.6.4",
+    "dependents": [
+      {
+        "name": "riot-js",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "riotjs-xpcc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xultestrunner",
+        "requirements": ">= 0.6.3"
+      }
+    ]
+  },
+  "xpgrep": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "xplanner": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "xpool": {
+    "version": "0.11.0",
+    "dependents": [
+
+    ]
+  },
+  "xproxy": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xqcoretools": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "xqruby": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "xrails": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "xrandrb": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "xray": {
+    "version": "1.1",
+    "dependents": [
+      {
+        "name": "backtracer",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "XRay": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "xrb": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "xrd": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xrefresh-server": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "xrono": {
+    "version": "1.0.4",
+    "dependents": [
+
+    ]
+  },
+  "xrvg": {
+    "version": "0.0.82",
+    "dependents": [
+
+    ]
+  },
+  "xs": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xscreen_usb_unlocker": {
+    "version": "0.91.0",
+    "dependents": [
+
+    ]
+  },
+  "xslt-morpheus": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "xsltgem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xspf": {
+    "version": "0.4.1.1",
+    "dependents": [
+      {
+        "name": "pika",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xspf2m3u",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xspf2m3u": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "xspond-delayed_job": {
+    "version": "1.8.5",
+    "dependents": [
+
+    ]
+  },
+  "xspree": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "xss_shield": {
+    "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "xss_terminate": {
+    "version": "0.2",
+    "dependents": [
+      {
+        "name": "devise_russian",
+        "requirements": ">= 0.2"
+      }
+    ]
+  },
+  "xstreamly": {
+    "version": "0.7.1",
+    "dependents": [
+
+    ]
+  },
+  "xstring": {
+    "version": "0.0.7",
+    "dependents": [
+      {
+        "name": "syncer",
+        "requirements": ">= 0.0.7"
+      }
+    ]
+  },
+  "xtdo": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "xteam_schedule": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "xtendr": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xthread": {
+    "version": "0.1.4.001",
+    "dependents": [
+      {
+        "name": "fairy",
+        "requirements": ">= 0.1.4.001"
+      },
+      {
+        "name": "fiber-mon",
+        "requirements": ">= 0.1.3"
+      }
+    ]
+  },
+  "xthreads": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "run_every",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xtotxt": {
+    "version": "0.8",
+    "dependents": [
+
+    ]
+  },
+  "xtrace": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xtrn": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "xttc": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "xultestrunner": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "xunitnet": {
+    "version": "1.6.0",
+    "dependents": [
+      {
+        "name": "maventhought.testing",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "norm",
+        "requirements": "> 1.5.0"
+      }
+    ]
+  },
+  "xunlei": {
+    "version": "0.0.13",
+    "dependents": [
+
+    ]
+  },
+  "xupa_emec": {
+    "version": "1.0.5",
+    "dependents": [
+
+    ]
+  },
+  "xurrency": {
+    "version": "002",
+    "dependents": [
+
+    ]
+  },
+  "xvp": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "xws_breadcrumbs": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xx": {
+    "version": "2.1.0",
+    "dependents": [
+      {
+        "name": "ruby-vpi",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "xxhash": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "xxx": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  }
+}

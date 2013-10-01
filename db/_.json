@@ -1,0 +1,41 @@
+{
+  "_": {
+    "version": "1.2",
+    "dependents": [
+
+    ]
+  },
+  "_amon": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "_bushido-faye": {
+    "version": "0.8.2",
+    "dependents": [
+
+    ]
+  },
+  "_bushido-faye-websocket": {
+    "version": "0.4.4",
+    "dependents": [
+      {
+        "name": "_bushido-faye",
+        "requirements": ">= 0.4.0"
+      }
+    ]
+  },
+  "_p_": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "_rubyapp": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  }
+}

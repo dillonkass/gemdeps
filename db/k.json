@@ -1,0 +1,6792 @@
+{
+  "k-yamada-net-ssh": {
+    "version": "2.3.0",
+    "dependents": [
+
+    ]
+  },
+  "k3_capistrano": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "k3_testing": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "k3cms_blog": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "k_means": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "kablame": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kaboom": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
+  "kabuki": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kaching": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kado": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kadryll": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kaerukeyword": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kafka": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kafka-jars": {
+    "version": "unknown",
+    "dependents": [
+      {
+        "name": "heller",
+        "requirements": "~> 0.7.2.2"
+      }
+    ]
+  },
+  "kafka-rb": {
+    "version": "0.0.15",
+    "dependents": [
+      {
+        "name": "fluent-plugin-kafka",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "juggernaut-kafka",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "librato-storm-kafka",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kaft": {
+    "version": "0.3",
+    "dependents": [
+
+    ]
+  },
+  "kag": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "artaius",
+        "requirements": "= 0.0.1"
+      }
+    ]
+  },
+  "kag-gather": {
+    "version": "1.5.11",
+    "dependents": [
+
+    ]
+  },
+  "kage": {
+    "version": "0.9.1",
+    "dependents": [
+
+    ]
+  },
+  "kagemusha": {
+    "version": "0.0.8",
+    "dependents": [
+      {
+        "name": "gemi",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kagerator": {
+    "version": "1.0.4",
+    "dependents": [
+      {
+        "name": "kag-gather",
+        "requirements": "= 1.0.3"
+      }
+    ]
+  },
+  "kaibun": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kaiseki": {
+    "version": "1.3.2",
+    "dependents": [
+      {
+        "name": "kotodama",
+        "requirements": "~> 1.3.0"
+      }
+    ]
+  },
+  "kaiwren-patron": {
+    "version": "0.4.4",
+    "dependents": [
+
+    ]
+  },
+  "kajabi-css_parser": {
+    "version": "1.2.7",
+    "dependents": [
+
+    ]
+  },
+  "kaka-rails-settings": {
+    "version": "1.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kakapo": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kakapo-notifier": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kala-rails": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kalc": {
+    "version": "0.8.1",
+    "dependents": [
+
+    ]
+  },
+  "kalebkgem": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kalei": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kaleidoscope": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kalendae_assets": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kalenteri": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kali-chef-deploy": {
+    "version": "0.2.5.2",
+    "dependents": [
+
+    ]
+  },
+  "kali-redis": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kalimba": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "kalimba-redlander",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kalimba-redlander": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "kalimba",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kalipso": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ]
+  },
+  "kaltura": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kaltura-ruby": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kaltura_fu": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kama": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "kamal-ancestry": {
+    "version": "1.2.4",
+    "dependents": [
+
+    ]
+  },
+  "kamcaptcha": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kame": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "kamel": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "warpaint",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kameleon": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kamelopard": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "kametori": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kamikaze": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kamila": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kamilski81_lorem": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kaminari": {
+    "version": "0.14.1",
+    "dependents": [
+      {
+        "name": "active_application",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "active_blog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "active_crudify",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "active_scaffold_vho",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "activeadmin",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "acts_as_flexigrid",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "admin_view",
+        "requirements": ">= 0.12"
+      },
+      {
+        "name": "admin_interface",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "alchemy_cms",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "amalgam",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "andrewroth_activeadmin",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "as_user",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "best_boy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bhf",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "blacklight",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "blog_logic",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "blogit",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "bootstrap-kaminari-views",
+        "requirements": ">= 0.13"
+      },
+      {
+        "name": "bootstrap_kaminari",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "brick_layer",
+        "requirements": "= 0.12.4"
+      },
+      {
+        "name": "cabalist",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "cable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "carrier",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cb_mongoid_spacial",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "clipster",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "community_engine",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "days",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "drewda_rails_admin",
+        "requirements": "~> 0.12"
+      },
+      {
+        "name": "droom",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dryink",
+        "requirements": "~> 0.11.0"
+      },
+      {
+        "name": "dynamic_controller",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "easy_admin_ui",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "elucid-rails_admin",
+        "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "engagecsm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "esp-auth",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "esp-gems",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "esp-permissions",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "etabliocms_actualities",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "exception_logger",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "extjs_renderer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "flickr-objects",
+        "requirements": ">= 0.14"
+      },
+      {
+        "name": "fullstack",
+        "requirements": "= 0.13.0"
+      },
+      {
+        "name": "glengarry",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gridion",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "honey-cms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "invoice_bar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "iqvoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jabe",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "jake3030-sunspot_with_kaminari",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jscaffold",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "kaminari-bootstrap",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "karteek-tolk",
+        "requirements": "= 0.12.4"
+      },
+      {
+        "name": "kit_cms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "level_up",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "locomotive_cms",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "logical_model",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "lolita",
+        "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "mail_engine",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mcms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "merrycms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mguymon-twitter_bootstrap_kaminari_views",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "mongoid-data_table",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "mongoid_geospatial",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mongoid_location",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mongoid_spacial",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nice_admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nsm-activeadmin",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "obitum-rails_admin",
+        "requirements": "~> 0.12"
+      },
+      {
+        "name": "opinio",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "opinio-bootstrap",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "overlook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "paginate-responder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "photos_manager",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "platform",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "postablr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "postmarkdown",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "publish_my_data",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puffer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails_admin",
+        "requirements": "~> 0.14"
+      },
+      {
+        "name": "rails_admin-lbgraham",
+        "requirements": "~> 0.14"
+      },
+      {
+        "name": "rails_blog_engine",
+        "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "rails_fu",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "railstrap",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "rich",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rocket_pants",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rostra",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "saulolso-activeadmin",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "scaffold_markup",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ses-proxy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "shopify-kaminari",
+        "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "sidro",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sig_mongoid_spacial",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "simple_admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "social_stream-base",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "spree_core",
+        "requirements": "= 0.13.0"
+      },
+      {
+        "name": "sunrise-cms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sunrise-core",
+        "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "sunspot_with_kaminari",
+        "requirements": ">= 0.14.0"
+      },
+      {
+        "name": "tanker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "task-manager",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tbone",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tr8n",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tribeca_cms",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "twitter_bootstrap_builder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "upstream-rails_admin",
+        "requirements": "~> 0.12"
+      },
+      {
+        "name": "village",
+        "requirements": ">= 0.12.0"
+      },
+      {
+        "name": "vision",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vkhater-social_stream-base",
+        "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "whoops",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wice_grid",
+        "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "will_filter",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kaminari-admin-theme": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kaminari-bootstrap": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kaminari-i18n": {
+    "version": "0.1.3",
+    "dependents": [
+      {
+        "name": "fullstack",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kamino": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kana": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kanamei_log_formatter": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "batchbase",
+        "requirements": "= 0.0.1"
+      }
+    ]
+  },
+  "kanazawa_city-infra": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kanazawa_loop_bus": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kanbantastic": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "kanboard": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kandadaboggu-vote_fu": {
+    "version": "0.0.15",
+    "dependents": [
+
+    ]
+  },
+  "kandan-count": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kandan-count-dev": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kang": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kangaroo": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kanji": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kanna": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kannel_rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kanocc": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "Kanocc": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kanpou-watcher": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kanshi": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kansi_valid": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "kantan": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kantan-sgf": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kanye": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ]
+  },
+  "kAPI": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kapify": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "kaplan": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ]
+  },
+  "kapow": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "KappaCUDA": {
+    "version": "1.5.0",
+    "dependents": [
+
+    ]
+  },
+  "kaptcha": {
+    "version": "0.0.5.2",
+    "dependents": [
+
+    ]
+  },
+  "karait": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "karakuri": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "karakuri-bao": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "karas": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "karel": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "karenc_test_gem": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "karl-growl": {
+    "version": "1.0.6",
+    "dependents": [
+      {
+        "name": "loris",
+        "requirements": ">= 1.0.6"
+      }
+    ]
+  },
+  "karmacrm": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "karmasphere-client": {
+    "version": "0.6.4",
+    "dependents": [
+
+    ]
+  },
+  "karotz": {
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
+  "karousel": {
+    "version": "0.9.12",
+    "dependents": [
+
+    ]
+  },
+  "karsthammer-inherited_resources": {
+    "version": "1.2.2.1",
+    "dependents": [
+
+    ]
+  },
+  "karteek-docsplit": {
+    "version": "0.5.4",
+    "dependents": [
+
+    ]
+  },
+  "karteek-tolk": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kasabi": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kashflow": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kashflow_api": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kashiwamochi": {
+    "version": "0.4.3",
+    "dependents": [
+
+    ]
+  },
+  "kasket": {
+    "version": "3.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kasoba": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kastner-clarity": {
+    "version": "0.9.7",
+    "dependents": [
+
+    ]
+  },
+  "kata": {
+    "version": "1.3.2",
+    "dependents": [
+
+    ]
+  },
+  "katakanaize": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "katana": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "katana_stamp": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "katcp": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "kate-get": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "katello_api": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "foreman-katello-engine",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kathy_lee": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kato": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "katsudo": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "katsuya-rcov": {
+    "version": "0.9.7.1",
+    "dependents": [
+
+    ]
+  },
+  "kattr": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "katuv": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "katzil-capybara": {
+    "version": "0.3.8",
+    "dependents": [
+
+    ]
+  },
+  "kaui": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kaupert": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kauperts_link_checker": {
+    "version": "0.4.1",
+    "dependents": [
+
+    ]
+  },
+  "kauplus": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kavlax": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kawaii": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kayabot": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kayak": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kayakfares": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kayakoapi-ruby": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "KayakoClient": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kazjote-searchlogic": {
+    "version": "2.3.6",
+    "dependents": [
+
+    ]
+  },
+  "kazkom_epay": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kazoo": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kazoo-rb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kb-activerecord-jdbc-adapter": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "kb-acts_as_revisable": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kb-authlogic": {
+    "version": "2.1.7",
+    "dependents": [
+      {
+        "name": "double_auth_engine",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kb-config": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kb-configurator": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-mail": {
+    "version": "2.1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-mongo": {
+    "version": "0.19",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-mongo_ext": {
+    "version": "0.19",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-munger": {
+    "version": "0.1.5.2",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-pickle": {
+    "version": "0.2.1.4",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-rails_sequel": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-rchardet": {
+    "version": "1.3",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-resque-priority": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-resque-retry": {
+    "version": "0.0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "kbaum-webrat": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "kblog": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kcaco": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kcapifony": {
+    "version": "2.1.6",
+    "dependents": [
+
+    ]
+  },
+  "kcar": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "http_spew",
+        "requirements": "~> 0.3"
+      },
+      {
+        "name": "omgf",
+        "requirements": "~> 0.3"
+      },
+      {
+        "name": "omgdav",
+        "requirements": "~> 0.4"
+      }
+    ]
+  },
+  "kch-dominion": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kch-ya2yaml": {
+    "version": "0.29.1",
+    "dependents": [
+
+    ]
+  },
+  "kchart": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kckstrt": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kcluster": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kcomp": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kcrw": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kd-tree": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kdegettext": {
+    "version": "0.9.3",
+    "dependents": [
+
+    ]
+  },
+  "kdonaldson_string_gem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kdonovan-happymapper": {
+    "version": "0.3.7",
+    "dependents": [
+      {
+        "name": "trufina",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kdtree": {
+    "version": "0.3",
+    "dependents": [
+
+    ]
+  },
+  "kealy_cheese": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kealy_cms": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kealy_contact_form": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kealy_foobar": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kech": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kedama": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "keeguon-actionwebservice": {
+    "version": "3.1.1",
+    "dependents": [
+
+    ]
+  },
+  "keeguon-acts_as_versioned": {
+    "version": "0.7.2",
+    "dependents": [
+
+    ]
+  },
+  "keeguon-yaml_db": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ]
+  },
+  "keen": {
+    "version": "0.6.0",
+    "dependents": [
+      {
+        "name": "heartbeat-client",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "keener": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keep": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "stars",
+        "requirements": "~> 0.0.3"
+      }
+    ]
+  },
+  "keep_alive": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keep_running": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "keepass": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keepass-password-generator": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "capistrano_recia",
+        "requirements": ">= 0.1.1"
+      },
+      {
+        "name": "magic_mountain",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "keepassx": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keeper": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "KeeperChallenge": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "keepitsafe": {
+    "version": "0.2.6",
+    "dependents": [
+
+    ]
+  },
+  "keeptesting": {
+    "version": "0.6.1",
+    "dependents": [
+
+    ]
+  },
+  "keepyourhead": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kefka": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "keigan": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keigo": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "keikokuc": {
+    "version": "0.8",
+    "dependents": [
+
+    ]
+  },
+  "keima": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keith": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "keithmgould-delayed_job": {
+    "version": "1.7.1",
+    "dependents": [
+
+    ]
+  },
+  "kekka": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kekkan": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kellimohr_test_gem": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kelly": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kellyredding": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kellysutton-socketio-client": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kelp": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-mailer": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-media-rss": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-pathsconfig": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-pruview": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-repository": {
+    "version": "0.2.7",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-resourceful": {
+    "version": "0.8.3",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-sinatra-helpers": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-sprockets-sinatra": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kelredd-useful": {
+    "version": "0.4.2",
+    "dependents": [
+      {
+        "name": "kelredd-resourceful",
+        "requirements": ">= 0.2.5"
+      },
+      {
+        "name": "kelredd-mailer",
+        "requirements": ">= 0.2.0"
+      },
+      {
+        "name": "kelredd-sinatra-helpers",
+        "requirements": ">= 0.3.3"
+      }
+    ]
+  },
+  "kelsotest": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kematzy-tasks": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "sinatra-dm",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kemen-ruby-odbc": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kemen_foreigner": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "ken": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "ken_all": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "kenai_tools": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kendoui-rails": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kenexa": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kenhirakawa-astrotrain": {
+    "version": "0.5.5",
+    "dependents": [
+
+    ]
+  },
+  "kenhirakawa-googlecharts": {
+    "version": "1.5.3",
+    "dependents": [
+
+    ]
+  },
+  "kenji": {
+    "version": "0.6.7",
+    "dependents": [
+
+    ]
+  },
+  "kennedy": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kenneth_the_page": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kenny_dialoggins": {
+    "version": "1.0.8",
+    "dependents": [
+
+    ]
+  },
+  "kensa": {
+    "version": "1.4.1",
+    "dependents": [
+      {
+        "name": "maitre_d",
+        "requirements": "= 1.3.0"
+      }
+    ]
+  },
+  "kensan": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "Kensei": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kenshoo": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ]
+  },
+  "kent-authlogic_rpx": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kent-rpx_now": {
+    "version": "0.6.11",
+    "dependents": [
+      {
+        "name": "kent-authlogic_rpx",
+        "requirements": ">= 0.6.11"
+      }
+    ]
+  },
+  "kentouzu": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "kenwaln-whatlanguage": {
+    "version": "1.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kenyacodes": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kepi": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kerbaldyn": {
+    "version": "0.8.1",
+    "dependents": [
+
+    ]
+  },
+  "kerberos": {
+    "version": "0.3",
+    "dependents": [
+
+    ]
+  },
+  "kerio-ical": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kermit": {
+    "version": "1.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kernel_assert": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kernel_hash": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kernel_let": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kernul": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kerplutz": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kerryb-httparty": {
+    "version": "0.4.4",
+    "dependents": [
+
+    ]
+  },
+  "kerryb-net-ssh-socks": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kerryb-right_aws": {
+    "version": "1.10.2",
+    "dependents": [
+
+    ]
+  },
+  "kerryb-right_http_connection": {
+    "version": "1.2.5",
+    "dependents": [
+      {
+        "name": "kerryb-right_aws",
+        "requirements": ">= 1.2.5"
+      }
+    ]
+  },
+  "keshav-actionwebservice": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "keso": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "active-keso",
+        "requirements": ">= 0.1.3"
+      }
+    ]
+  },
+  "kestrel-client": {
+    "version": "0.7.2",
+    "dependents": [
+      {
+        "name": "fluent-plugin-kestrel",
+        "requirements": ">= 0.7.1"
+      }
+    ]
+  },
+  "kestrelrb": {
+    "version": "0.8.1",
+    "dependents": [
+
+    ]
+  },
+  "ketchup": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kete-feedzirra": {
+    "version": "0.0.20.1",
+    "dependents": [
+
+    ]
+  },
+  "kete_browserid": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kete_gets_trollied": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kete_trackable_items": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kete_translatable_content": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kev_the_dev-mad_mimi_mailer": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "kev_the_dev_mad_mimi_mailer": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "kevin_thompson": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "kevinthompson",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "Kevins-Studio-Game": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kevinthompson": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kevorkian": {
+    "version": "2.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kewego_party": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "key-db": {
+    "version": "5.0.0",
+    "dependents": [
+
+    ]
+  },
+  "key-installer": {
+    "version": "1.1",
+    "dependents": [
+
+    ]
+  },
+  "key-word-filter-on": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "key_struct": {
+    "version": "0.4.2",
+    "dependents": [
+      {
+        "name": "bloat_check",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "key_value": {
+    "version": "0.4.4",
+    "dependents": [
+
+    ]
+  },
+  "key_value_ext": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "keyble": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keyboard": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyboard_battle": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "keyboardjs-rails": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "keybox": {
+    "version": "1.2.1",
+    "dependents": [
+
+    ]
+  },
+  "keychain": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "keychain_manager": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keychain_services": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "xcode",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "keycodes": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keycutter": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "keyczar": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyczar-jruby": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "keyczar_ruby": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keydown": {
+    "version": "0.9.2",
+    "dependents": [
+
+    ]
+  },
+  "keyhole": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ]
+  },
+  "KeyholeIO": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
+  "keymaker": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "fabrication",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "keyman": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "keymap": {
+    "version": "0.3.2",
+    "dependents": [
+
+    ]
+  },
+  "keymaster": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "keymaster-rails": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keynote": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "keynote_driver": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "Keypad": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyrack": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "keyring": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "keyring-kwallet",
+        "requirements": ">= 0.1.0"
+      }
+    ]
+  },
+  "keyring-kwallet": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keysms": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keystone": {
+    "version": "0.0.32",
+    "dependents": [
+
+    ]
+  },
+  "keystone-sass": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "keystone_image": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "keystorage": {
+    "version": "0.4.13",
+    "dependents": [
+      {
+        "name": "bookscan",
+        "requirements": ">= 0.4.13"
+      },
+      {
+        "name": "dropbox-folder-sync",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "phper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "unit-hosting",
+        "requirements": "~> 0.4.13"
+      }
+    ]
+  },
+  "keytar": {
+    "version": "1.5.3",
+    "dependents": [
+      {
+        "name": "friendable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "johnny_cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "likeable",
+        "requirements": ">= 1.5.2"
+      },
+      {
+        "name": "method_cacheable",
+        "requirements": ">= 1.5.3"
+      }
+    ]
+  },
+  "keytrac": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keyval": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyvalidatable": {
+    "version": "0.0.5",
+    "dependents": [
+      {
+        "name": "optionalargument",
+        "requirements": "~> 0.0.5"
+      },
+      {
+        "name": "striuct",
+        "requirements": "~> 0.0.5"
+      }
+    ]
+  },
+  "keyvalue": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "keyvaluecoding": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyword": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "keyword-filter": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "keyword_arguments": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "keyword_params": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "keyword_prospector": {
+    "version": "0.8.1",
+    "dependents": [
+
+    ]
+  },
+  "keyword_ranking": {
+    "version": "1.1.2",
+    "dependents": [
+
+    ]
+  },
+  "keyword_rankr": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "keyword_search": {
+    "version": "1.4.1",
+    "dependents": [
+
+    ]
+  },
+  "kfold": {
+    "version": "0.4",
+    "dependents": [
+
+    ]
+  },
+  "kgb": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kgbhomeAPI": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "kgbhomeAPI",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kgem": {
+    "version": "0.1.9",
+    "dependents": [
+
+    ]
+  },
+  "kgestpay": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
+  "kgio": {
+    "version": "2.8.0",
+    "dependents": [
+      {
+        "name": "boourns-unicorn",
+        "requirements": "~> 2.6"
+      },
+      {
+        "name": "creeper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-ruby-sockets",
+        "requirements": ">= 2.7.4"
+      },
+      {
+        "name": "forklifter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "green",
+        "requirements": "= 2.7.4"
+      },
+      {
+        "name": "http_spew",
+        "requirements": "~> 2.6"
+      },
+      {
+        "name": "kgio-monkey",
+        "requirements": "~> 2.6"
+      },
+      {
+        "name": "navy",
+        "requirements": "~> 2.6"
+      },
+      {
+        "name": "net-wrong",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "omgf",
+        "requirements": "~> 2.7"
+      },
+      {
+        "name": "omgdav",
+        "requirements": "~> 2.7"
+      },
+      {
+        "name": "radiant-heroku_dalli-extension",
+        "requirements": "~> 2.7.2"
+      },
+      {
+        "name": "rainbows",
+        "requirements": "~> 2.5"
+      },
+      {
+        "name": "unicorn",
+        "requirements": "~> 2.6"
+      }
+    ]
+  },
+  "kgio-monkey": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "kgit": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "khammurabi": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
+  "Kharites-tools": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "khayyam": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "rsimpy",
+        "requirements": ">= 0.0.1"
+      }
+    ]
+  },
+  "khelben-autotest-rails": {
+    "version": "4.1.2",
+    "dependents": [
+
+    ]
+  },
+  "khipu-rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "khoj": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "khronos": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "khronotab": {
+    "version": "1.5.0",
+    "dependents": [
+
+    ]
+  },
+  "ki": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "ki-repo": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "ki_format": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "ki_middleman": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "ki_pivotal": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "ki_trello": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "ki_youtrack": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kibali": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kibi": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kibiz0r-rspec-rr": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kibo": {
+    "version": "0.4.8",
+    "dependents": [
+
+    ]
+  },
+  "kibosh": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kibou": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kickboxer": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kicker": {
+    "version": "2.6.1",
+    "dependents": [
+      {
+        "name": "omniauth-tent",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tent-status",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kickjack": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kickoff": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kickscraper": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kickstart": {
+    "version": "0.2.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kickstarter": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kickstartgem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kid80-cijoe": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kidomath": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kiel": {
+    "version": "0.5.4",
+    "dependents": [
+
+    ]
+  },
+  "kiita": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kikambii": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kiki": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kiki_gem": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kikubari": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "killbill": {
+    "version": "1.0.11",
+    "dependents": [
+      {
+        "name": "killbill-payment-test",
+        "requirements": "~> 1.0.9"
+      },
+      {
+        "name": "klogger",
+        "requirements": "~> 1.0.0"
+      }
+    ]
+  },
+  "killbill-payment-test": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "killer_rspec_rack": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "killergem": {
+    "version": "1.2",
+    "dependents": [
+
+    ]
+  },
+  "killsite": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kiln": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kilt": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "kim": {
+    "version": "0.0.11",
+    "dependents": [
+      {
+        "name": "kim-logger",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kim-logger": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kimotter": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kin": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kinata": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kinbote": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kind_dom": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kindable": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kindai": {
+    "version": "2.3.0",
+    "dependents": [
+
+    ]
+  },
+  "KindDom": {
+    "version": "0.9.0",
+    "dependents": [
+
+    ]
+  },
+  "kindeditor": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kindergarten": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kindle": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kindle-drm": {
+    "version": "0.13.0",
+    "dependents": [
+
+    ]
+  },
+  "kindle-feeds": {
+    "version": "1.0.6",
+    "dependents": [
+      {
+        "name": "feedle",
+        "requirements": "= 1.0.6"
+      }
+    ]
+  },
+  "kindle-highlights": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kindle_hacks": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kindle_strip": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kindle_util": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "kindleclippings": {
+    "version": "1.3.2",
+    "dependents": [
+
+    ]
+  },
+  "kindlefs": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kindlegen": {
+    "version": "2.8.0",
+    "dependents": [
+      {
+        "name": "wordsmith",
+        "requirements": ">= 2.3.1"
+      }
+    ]
+  },
+  "kindlemail": {
+    "version": "0.2.8",
+    "dependents": [
+
+    ]
+  },
+  "kindler": {
+    "version": "0.4.1",
+    "dependents": [
+
+    ]
+  },
+  "kindlerb": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "docrails_kindle",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kindling": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kindred": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kinect": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kinectable": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kinectaby": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kinetosis": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "king_dtaus": {
+    "version": "2.0.2",
+    "dependents": [
+
+    ]
+  },
+  "king_hmac": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "sk-hoth",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "king_placeholder": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "king_soa": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "king_tokens": {
+    "version": "2.0.1",
+    "dependents": [
+
+    ]
+  },
+  "king_views": {
+    "version": "1.1.6",
+    "dependents": [
+
+    ]
+  },
+  "kingkong": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kingpin": {
+    "version": "0.7.1",
+    "dependents": [
+
+    ]
+  },
+  "kinney": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kinopoisk": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kinopoisk_parser": {
+    "version": "1.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kintama": {
+    "version": "0.1.11",
+    "dependents": [
+      {
+        "name": "hudson-to-pisswhistle",
+        "requirements": "~> 0.1.1"
+      },
+      {
+        "name": "soup",
+        "requirements": ">= 0.1.11"
+      },
+      {
+        "name": "vanilla",
+        "requirements": ">= 0.1.11"
+      }
+    ]
+  },
+  "kioku": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kiosk": {
+    "version": "0.3.5",
+    "dependents": [
+
+    ]
+  },
+  "kipatra": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kippt": {
+    "version": "1.1.0",
+    "dependents": [
+      {
+        "name": "bulkippt",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "bulkippt-cli",
+        "requirements": "~> 1.1.0"
+      }
+    ]
+  },
+  "kiqit": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kiqstand": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kirby": {
+    "version": "4.2.2",
+    "dependents": [
+
+    ]
+  },
+  "KirbyBase": {
+    "version": "2.6.1",
+    "dependents": [
+      {
+        "name": "ackbar",
+        "requirements": "= 2.5.2"
+      },
+      {
+        "name": "maildiode-greylist",
+        "requirements": ">= 2.6.0"
+      }
+    ]
+  },
+  "kirk": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "kisaweb": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "kiss": {
+    "version": "1.8.9",
+    "dependents": [
+
+    ]
+  },
+  "kissfft": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kissgen": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kissmetrics": {
+    "version": "2.0.0",
+    "dependents": [
+      {
+        "name": "saucy-kiss",
+        "requirements": "~> 2.0.0"
+      }
+    ]
+  },
+  "kissmetrics_rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kissy-rails": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kit": {
+    "version": "1.1.4",
+    "dependents": [
+
+    ]
+  },
+  "kit_cms": {
+    "version": "2.3.22",
+    "dependents": [
+
+    ]
+  },
+  "kitabu": {
+    "version": "1.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kitc": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kitchen": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-bluebox": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-ec2": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-openstack": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-rackspace": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-scribe": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kitchen-vagrant": {
+    "version": "0.7.4",
+    "dependents": [
+
+    ]
+  },
+  "kitchensink": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kitco": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kite": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kiteditor": {
+    "version": "1.0.11",
+    "dependents": [
+      {
+        "name": "kit_cms",
+        "requirements": "~> 1.0.5"
+      }
+    ]
+  },
+  "kitsune": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kitten": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kitty": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kitty_gen": {
+    "version": "0.0.26",
+    "dependents": [
+
+    ]
+  },
+  "kittybot": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kittytest": {
+    "version": "0.0.1.1.1.1.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kiva": {
+    "version": "0.1.14593",
+    "dependents": [
+
+    ]
+  },
+  "kiwi": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kizapi": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kjappsms": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kjess": {
+    "version": "1.1.0",
+    "dependents": [
+      {
+        "name": "qup",
+        "requirements": "~> 1.0.0"
+      }
+    ]
+  },
+  "kkkkker": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kks-gem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "klacointe-openpgp": {
+    "version": "0.0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "kladr": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "kladr_converter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "klarlack": {
+    "version": "0.0.6",
+    "dependents": [
+      {
+        "name": "shellac",
+        "requirements": "~> 0.0.6"
+      },
+      {
+        "name": "thinner",
+        "requirements": "~> 0.0.6"
+      }
+    ]
+  },
+  "klarna": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "klarna_chef": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "klass_name_types": {
+    "version": "1.0.9",
+    "dependents": [
+
+    ]
+  },
+  "klaviyo": {
+    "version": "0.9.4",
+    "dependents": [
+
+    ]
+  },
+  "klink": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "klink-ruby-api": {
+    "version": "1.0.6",
+    "dependents": [
+
+    ]
+  },
+  "klipbook": {
+    "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "klogger": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "klomp": {
+    "version": "1.0.7",
+    "dependents": [
+
+    ]
+  },
+  "klookup": {
+    "version": "0.4",
+    "dependents": [
+
+    ]
+  },
+  "klops": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "klout": {
+    "version": "3.0.1",
+    "dependents": [
+
+    ]
+  },
+  "klout-rb": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kloutbg": {
+    "version": "1.2.2",
+    "dependents": [
+      {
+        "name": "trackablaze",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "klyhrd_studio_game": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "km": {
+    "version": "1.1.3",
+    "dependents": [
+      {
+        "name": "isc_analytics",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "profitably-km",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "km-db": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "km-psych": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "km-resque": {
+    "version": "0.9.3",
+    "dependents": [
+
+    ]
+  },
+  "km_resque": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kmandrup-colorist": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "kmeans": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "kmeans-clustering": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "AsciiPNG",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kml_polygon": {
+    "version": "2.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kmlbo": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kmz_compressor": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knapo-i18n": {
+    "version": "0.3.3.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-atrribute": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-attribute": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-audit": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-azure": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-backup": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-baremetalcloud": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "knife-batch": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-bigv": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-block": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-bluebox": {
+    "version": "0.8.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-brightbox": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-bulkchangeenvironment": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-cfn": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "knife-check": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-cisco_asa": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-cleanup": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-clodo": {
+    "version": "0.1.9",
+    "dependents": [
+
+    ]
+  },
+  "knife-cloudstack": {
+    "version": "0.0.13",
+    "dependents": [
+
+    ]
+  },
+  "knife-cloudstack-fog": {
+    "version": "0.3.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-community": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-config": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-cookbook-bump": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-cookbook-doc": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-cookbook-readme": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-crawl": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-crypt": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-digital_ocean": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-dsl": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "chef-workflow-tasklib",
+        "requirements": "~> 0.1.0"
+      }
+    ]
+  },
+  "knife-dwim": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-easybake": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "knife-ec2": {
+    "version": "0.6.2",
+    "dependents": [
+      {
+        "name": "knife-elb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-nodefu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-parallel-ec2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-server",
+        "requirements": ">= 0.5.12"
+      }
+    ]
+  },
+  "knife-elb": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-env-diff": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-essentials": {
+    "version": "0.9.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-esx": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-eucalyptus": {
+    "version": "0.5.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-file": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-flip": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-flow": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-gandi": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-ghost": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-github-cookbooks": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ]
+  },
+  "knife-glesys": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-google": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-hadoop": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-hardware": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-hosts": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-hp": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-inspect": {
+    "version": "0.6.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-ipmi": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-joyent": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-kvm": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-lastrun": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-linode": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-lxc": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-nc": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-ninefold": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-nodefu": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-oca": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-ohno": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-openstack": {
+    "version": "0.7.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-ovh": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-packager": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-parallel-ec2": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-playground": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-preflight": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-profitbricks": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-proxmox": {
+    "version": "0.0.16",
+    "dependents": [
+
+    ]
+  },
+  "knife-psearch": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-rackspace": {
+    "version": "0.6.2",
+    "dependents": [
+      {
+        "name": "buckknife",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-rackspace-cluster",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-rackspace-load-balancer",
+        "requirements": "~> 0.5.12"
+      }
+    ]
+  },
+  "knife-rackspace-cluster": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "knife-rackspace-load-balancer": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-remotekvm": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-remotelxc": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-rhn": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-role-spaghetti": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knife-santoku": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "knife-server": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "chef-workflow",
+        "requirements": "~> 0.3.3"
+      }
+    ]
+  },
+  "knife-setup": {
+    "version": "1.0.8",
+    "dependents": [
+
+    ]
+  },
+  "knife-sharp": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ]
+  },
+  "knife-sl": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-solo": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "knife-digital_ocean",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife_sous",
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "sous-chef",
+        "requirements": "~> 0.2.0"
+      }
+    ]
+  },
+  "knife-solo_data_bag": {
+    "version": "0.3.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-spork": {
+    "version": "1.0.17",
+    "dependents": [
+      {
+        "name": "knife-table",
+        "requirements": ">= 0.1.11"
+      }
+    ]
+  },
+  "knife-stalenodes": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-stash": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-stats": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-support": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-table": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "knife-tagbulk": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "knife-tarsnap": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-terremark": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-ucs": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-vagrant": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "knife-vcloud": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-voxel": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "knife-vsphere": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-whisk": {
+    "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "knife-windows": {
+    "version": "0.5.12",
+    "dependents": [
+      {
+        "name": "knife-cloudstack",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-vcloud",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "knife-wrapper": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-xapi": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "knife-xenserver": {
+    "version": "1.2.3",
+    "dependents": [
+
+    ]
+  },
+  "knife-zcloudjp": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "knife_cookbook_dependencies": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "knife_cookbook_dependencies_over_http": {
+    "version": "0.0.8.3",
+    "dependents": [
+
+    ]
+  },
+  "knife_cookbook_sync": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "knife_sous": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knightlabs-registry": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knights_tour": {
+    "version": "0.3.5",
+    "dependents": [
+
+    ]
+  },
+  "knipper": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knitkit": {
+    "version": "2.1.4",
+    "dependents": [
+      {
+        "name": "compass_ae",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "erp_invoicing",
+        "requirements": "~> 2.1"
+      },
+      {
+        "name": "erp_search",
+        "requirements": "~> 2.1"
+      }
+    ]
+  },
+  "knjappserver": {
+    "version": "0.0.30",
+    "dependents": [
+      {
+        "name": "ckeditor4ruby",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "knjdbrevision": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knjrbfw": {
+    "version": "0.0.103",
+    "dependents": [
+      {
+        "name": "ckeditor4ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gtk2_window_settings",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gtk2_treeview_settings",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gtk2_expander_settings",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gtk3webtable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hayabusa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knjtasks",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knjdbrevision",
+        "requirements": ">= 0.0.3"
+      },
+      {
+        "name": "knjappserver",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "openall_time_applet",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pulseaudio",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails-imager",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby_do_plugin_filesearch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby_do",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby_do_plugin_execute_application",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby_do_plugin_power_management_upower",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "superterm",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "knjtasks": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "knmi": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "knn": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knnball": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "basis-processing",
+        "requirements": ">= 0.0.6"
+      }
+    ]
+  },
+  "knoc-knoc": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knock-knock": {
+    "version": "0.1.6.1",
+    "dependents": [
+
+    ]
+  },
+  "knockout-rails": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knockoutjs-rails": {
+    "version": "2.2.1",
+    "dependents": [
+
+    ]
+  },
+  "knot": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kns_email_endpoint": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "kns_endpoint": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "kns_email_endpoint",
+        "requirements": ">= 0.1.9"
+      }
+    ]
+  },
+  "knu": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "knuckler": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "knut_tools": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "more_unit_test",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rake4latex",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "knykode": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "koala": {
+    "version": "1.6.0",
+    "dependents": [
+      {
+        "name": "ajar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "authlogic_facebook_shim",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bizratr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "blue_velvet",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "broadcast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "community_engine",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "devise_facebook_open_graph",
+        "requirements": ">= 0.8.0"
+      },
+      {
+        "name": "devise_koala_connectable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "devise_koala_connectable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "eukaliptus",
+        "requirements": "~> 1.2.1"
+      },
+      {
+        "name": "facebook-rails-starterkit",
+        "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "facebook_app",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "facebook_rails",
+        "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "facepalm",
+        "requirements": "~> 1.2.1"
+      },
+      {
+        "name": "fbcli",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "geppetto",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "koala-rails",
+        "requirements": "~> 0.10.0"
+      },
+      {
+        "name": "oauth2_facebook_grantable",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "plataforma_social",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "raicebook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "RubyApp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sharkapps",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "social-bee",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "streetcred",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "voluntary",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zuck",
+        "requirements": ">= 1.6"
+      }
+    ]
+  },
+  "koala-rails": {
+    "version": "0.1.9",
+    "dependents": [
+      {
+        "name": "raicebook",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "koalemos": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "koality": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kobra_client": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "koda": {
+    "version": "0.0.12",
+    "dependents": [
+
+    ]
+  },
+  "koda-calais": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "kodama": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kode": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kodekopelli": {
+    "version": "0.8.0",
+    "dependents": [
+
+    ]
+  },
+  "kodiak": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "koelner_phonetic_encoder": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "koeppen_geiger": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kofi": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kog": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "koha": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "koi": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "koi-lang": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "koi-reference-compiler": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "koi-lang",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "koi-reference-parser": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "koi-lang",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "koi-vm": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "koi-vm-ruby": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "koi-lang",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "koinz": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "koko-koko": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "koko_rails": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kolach-melomel": {
+    "version": "0.6.6",
+    "dependents": [
+
+    ]
+  },
+  "kolb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kolo": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "kolorize": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "hello_world_bundler",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kolors": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "komachi_alive_monitoring": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "komachi_concerned_with": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "komachi_heartbeat": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "komachi_validation": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "komainu": {
+    "version": "0.0.10",
+    "dependents": [
+      {
+        "name": "wally",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "komandir": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ]
+  },
+  "komando": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "komerci": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "komodo": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "komonzu": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kompanee-recipes": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ]
+  },
+  "kompress": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "timeline_setter",
+        "requirements": ">= 0.0.2"
+      }
+    ]
+  },
+  "komrade-client": {
+    "version": "1.0.15",
+    "dependents": [
+
+    ]
+  },
+  "konacha": {
+    "version": "2.6.0",
+    "dependents": [
+      {
+        "name": "active_admin_editor",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "guard-konacha",
+        "requirements": ">= 2.3"
+      },
+      {
+        "name": "modularity-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "modularity-coffee-rails",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "konacha-chai-matchers": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "konchikuwa": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kondi": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "konf": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "konfig": {
+    "version": "0.3.2",
+    "dependents": [
+
+    ]
+  },
+  "konfigurator": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "rocket-server",
+        "requirements": ">= 0.1.1"
+      }
+    ]
+  },
+  "kongnomal": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ]
+  },
+  "kongo": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "konjac": {
+    "version": "0.3.4",
+    "dependents": [
+
+    ]
+  },
+  "konjure-bundler-fix": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "konpasu": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "konstati": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kontagent": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kontext": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "konto_check": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ]
+  },
+  "kontoapi-rails": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ]
+  },
+  "kontoapi-ruby": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "kontoapi-rails",
+        "requirements": ">= 0.2.0"
+      }
+    ]
+  },
+  "kontocheck": {
+    "version": "0.4.2",
+    "dependents": [
+
+    ]
+  },
+  "kontrol": {
+    "version": "0.4",
+    "dependents": [
+      {
+        "name": "shinmun",
+        "requirements": ">= 0.3.1"
+      }
+    ]
+  },
+  "kontrol-io": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kooaba": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kood": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kookaburra": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ]
+  },
+  "kookoo-gem": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "koombea-delayed_job": {
+    "version": "1.8.5",
+    "dependents": [
+
+    ]
+  },
+  "koprol": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "korben": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "korboard": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "korean-string": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "korean_zipcode_finder": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "korekuto": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "koremutake": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "korma": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kosher": {
+    "version": "0.17.2",
+    "dependents": [
+      {
+        "name": "barnie",
+        "requirements": "~> 0.2.18"
+      },
+      {
+        "name": "fassbinder",
+        "requirements": "~> 0.2.23"
+      }
+    ]
+  },
+  "kosher_bacon": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kosmeek_test_tools": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kosmonaut": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ]
+  },
+  "kostya-bluepill": {
+    "version": "0.0.60.3",
+    "dependents": [
+
+    ]
+  },
+  "kotodama": {
+    "version": "1.2.6",
+    "dependents": [
+
+    ]
+  },
+  "koudoku": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ]
+  },
+  "koujou": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kowala": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "koyomi": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kp_folder": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kpeg": {
+    "version": "0.10.0",
+    "dependents": [
+      {
+        "name": "email_address_validator",
+        "requirements": ">= 0.7.0"
+      },
+      {
+        "name": "hyperdoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rdoc",
+        "requirements": "~> 0.9"
+      },
+      {
+        "name": "weskit",
+        "requirements": "~> 0.10.0"
+      }
+    ]
+  },
+  "kpi": {
+    "version": "0.7.0",
+    "dependents": [
+
+    ]
+  },
+  "kpigen": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "krack": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "krakatoa-icmp4em": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "krakatoa-openx": {
+    "version": "1.9.4",
+    "dependents": [
+
+    ]
+  },
+  "kraken": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "kraken-build": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kraken-io": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kraken-js": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "krakenrails": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ]
+  },
+  "kramdown": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "accessibility_bridge",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "accessibility_core",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "align",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "almanac",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "alula",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "apical",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "apidoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "astruct",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "authn-activation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "authn",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "authn-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "AXElements",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "axlsx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "binpress",
+        "requirements": "~> 0.13.4"
+      },
+      {
+        "name": "bookmaker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "clay",
+        "requirements": ">= 0.13.3"
+      },
+      {
+        "name": "cognizant",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "conversio",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "cucumber",
+        "requirements": "~> 0.14"
+      },
+      {
+        "name": "distribute",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "doctor-swagger",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "docubot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "e9_crm",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "edison",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ems",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engrave",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fagiani-jekyll",
+        "requirements": ">= 0.12.0"
+      },
+      {
+        "name": "fdoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "forem-kramdown",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "fox",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gista",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "govspeak",
+        "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "grape-swagger",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-markdown",
+        "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "guard-rspectacle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-toc",
+        "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "guider",
+        "requirements": ">= 0.14.2"
+      },
+      {
+        "name": "haml-coderay",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hamlet",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hatetepe",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "highcarb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hobo_fields",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "html_email_creator",
+        "requirements": ">= 0.13.3"
+      },
+      {
+        "name": "iated",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "indexer",
+        "requirements": ">= 0.14"
+      },
+      {
+        "name": "jekyll",
+        "requirements": "~> 0.14"
+      },
+      {
+        "name": "jekyll-reloaded",
+        "requirements": "~> 0.13"
+      },
+      {
+        "name": "joshbuddy-guard",
+        "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "kookaburra",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kramdown-gist",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "kramdown-rfc2629",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "lm2doc",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "localwiki_client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "m2r",
+        "requirements": "~> 0.13.7"
+      },
+      {
+        "name": "malt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "markdown",
+        "requirements": ">= 0.13.7"
+      },
+      {
+        "name": "markdown_meta",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "markdown2confluence",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "markerb-pure",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mbrao",
+        "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "md_splitter",
+        "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "mdarray",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mdslide",
+        "requirements": ">= 0.13.6"
+      },
+      {
+        "name": "money",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "mouse",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "murdoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mutagem",
+        "requirements": ">= 0.12.0"
+      },
+      {
+        "name": "naether",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nanoc-oo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nanoc_starter_set",
+        "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "ninja2k",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "oct",
+        "requirements": ">= 0.12.0"
+      },
+      {
+        "name": "omniauth-gplus",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-gplus-signin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "opro",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "orange-sparkles",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pow_proxy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "prisma",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "publishr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "publishr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "r18n-core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rabbit",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "radiant-kramdown_filter-extension",
+        "requirements": "= 0.13.4"
+      },
+      {
+        "name": "radius",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rpub",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rspec-ax_elements",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "screen_recorder",
+        "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "sdw-generator",
+        "requirements": "~> 0.13.4"
+      },
+      {
+        "name": "shogun",
+        "requirements": "= 0.13.3"
+      },
+      {
+        "name": "simple-metrics",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "slider",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "slideshift",
+        "requirements": "= 0.13.7"
+      },
+      {
+        "name": "slim",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "slodown",
+        "requirements": ">= 0.14.0"
+      },
+      {
+        "name": "software_smithy",
+        "requirements": ">= 0.14.0"
+      },
+      {
+        "name": "spinto-jekyll",
+        "requirements": "~> 0.13.4"
+      },
+      {
+        "name": "stevenson",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stiki",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "switzerland",
+        "requirements": ">= 0.14.0"
+      },
+      {
+        "name": "system",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "tengine_core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "termnote",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "textigniter",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "tilt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "time-lord",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tracking",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "trahald",
+        "requirements": "~> 0.14.2"
+      },
+      {
+        "name": "transloadit-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "transloadit",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tributary",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "value_struct",
+        "requirements": "~> 0.14"
+      },
+      {
+        "name": "webgen",
+        "requirements": ">= 0.12.0"
+      },
+      {
+        "name": "who-needs-wp",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "woody",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "writecast",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xrono",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yuzu",
+        "requirements": ">= 0.13.7"
+      },
+      {
+        "name": "yuzu",
+        "requirements": ">= 0.13.7"
+      },
+      {
+        "name": "zenweb",
+        "requirements": "~> 0.13"
+      }
+    ]
+  },
+  "kramdown-gist": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kramdown-haml": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kramdown-rfc2629": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "krappy": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kraut": {
+    "version": "0.5.6",
+    "dependents": [
+
+    ]
+  },
+  "krawler": {
+    "version": "1.0.14",
+    "dependents": [
+
+    ]
+  },
+  "krazy": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "krb5": {
+    "version": "0.1",
+    "dependents": [
+
+    ]
+  },
+  "krb5-auth": {
+    "version": "0.7",
+    "dependents": [
+      {
+        "name": "openshift-origin-auth-kerberos",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "krbpwd": {
+    "version": "0.2",
+    "dependents": [
+
+    ]
+  },
+  "kredentials": {
+    "version": "0.1.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kreegerator": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kren-fib": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kris": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kris-kross": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kris_hola": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "krish": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ]
+  },
+  "krisl_gem": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kristal": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kristin": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
+  "kristjan-st-elsewhere": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ]
+  },
+  "krjs": {
+    "version": "0.5.5",
+    "dependents": [
+
+    ]
+  },
+  "krk-timetables": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ]
+  },
+  "krl": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "guard-krl",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kronic": {
+    "version": "1.1.3",
+    "dependents": [
+
+    ]
+  },
+  "kronisk": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kronk": {
+    "version": "1.9.4",
+    "dependents": [
+
+    ]
+  },
+  "kronn-has_many_polymorphs": {
+    "version": "3.0.3",
+    "dependents": [
+      {
+        "name": "adva-core",
+        "requirements": "= 3.0.2"
+      }
+    ]
+  },
+  "kronos": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "kronos",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sinatra_resource",
+        "requirements": "~> 0.1.7"
+      }
+    ]
+  },
+  "kronparser": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "krtek": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "krukid-cld": {
+    "version": "0.4.0",
+    "dependents": [
+
+    ]
+  },
+  "kruptos": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kryo": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "krypt": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "krypt-ossl",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "krypt-core": {
+    "version": "unknown",
+    "dependents": [
+      {
+        "name": "krypt",
+        "requirements": "= 0.0.1"
+      }
+    ]
+  },
+  "krypt-ossl": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "krypt-provider-jdk": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "krypt-provider-openssl": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "krypt-core",
+        "requirements": "= 0.0.1"
+      }
+    ]
+  },
+  "kryptonite": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "kryptonite",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kryptos": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kschadeck-active_shipping": {
+    "version": "0.9.15",
+    "dependents": [
+
+    ]
+  },
+  "ksd": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kshramt": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "ksk": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kss": {
+    "version": "0.4.0",
+    "dependents": [
+      {
+        "name": "flair",
+        "requirements": "~> 0.4.0"
+      },
+      {
+        "name": "kss-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails-styleguide",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kss-alan": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "kss-rails-alan",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kss-rails": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kss-rails-alan": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kstrano": {
+    "version": "1.0.8",
+    "dependents": [
+
+    ]
+  },
+  "ksync": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ]
+  },
+  "kth_omniauth": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "ktheory-fakefs": {
+    "version": "0.2.1.1",
+    "dependents": [
+      {
+        "name": "maildir-queue",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nilclass-maildir",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "ktheory-fog": {
+    "version": "1.1.2",
+    "dependents": [
+
+    ]
+  },
+  "ktheory-right_aws": {
+    "version": "2.0.3",
+    "dependents": [
+
+    ]
+  },
+  "ktheory-vlad": {
+    "version": "2.0.0",
+    "dependents": [
+
+    ]
+  },
+  "ktheory-vlad-git": {
+    "version": "2.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kthxbye": {
+    "version": "1.3.2",
+    "dependents": [
+
+    ]
+  },
+  "ktools": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "ktopping_acl9": {
+    "version": "0.13.0",
+    "dependents": [
+
+    ]
+  },
+  "ku-ldap": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "ku_fu": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kuahyeow-sunspot": {
+    "version": "0.10.3",
+    "dependents": [
+      {
+        "name": "kuahyeow-sunspot_rails",
+        "requirements": ">= 0.10.0"
+      }
+    ]
+  },
+  "kuahyeow-sunspot_rails": {
+    "version": "0.10.7",
+    "dependents": [
+
+    ]
+  },
+  "kuaipan": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "kp_folder",
+        "requirements": "~> 0.0.3"
+      },
+      {
+        "name": "kuaipan-example",
+        "requirements": "~> 0.0.3"
+      }
+    ]
+  },
+  "kuaipan-example": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kuaiqian": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kuali-rice": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kuali-sakai-common-lib": {
+    "version": "0.0.8",
+    "dependents": [
+      {
+        "name": "sakai-oae-test-api",
+        "requirements": "= 0.0.7"
+      }
+    ]
+  },
+  "kuality": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kuality-coeus": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kube-rails": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ]
+  },
+  "kublog": {
+    "version": "0.9.0",
+    "dependents": [
+
+    ]
+  },
+  "kubrick": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kue": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kuehne-nagel-despatch-interface": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ]
+  },
+  "kuhsaft": {
+    "version": "1.2.15",
+    "dependents": [
+
+    ]
+  },
+  "kui-md": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kuji-cube": {
+    "version": "1.7.0",
+    "dependents": [
+
+    ]
+  },
+  "kuji-mercury-rails": {
+    "version": "0.3.3",
+    "dependents": [
+
+    ]
+  },
+  "kuler": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kulesa-celluloid": {
+    "version": "0.10.2",
+    "dependents": [
+      {
+        "name": "kulesa-sidekiq",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kulesa-contacts": {
+    "version": "0.2.7",
+    "dependents": [
+
+    ]
+  },
+  "kulesa-sidekiq": {
+    "version": "1.2.3",
+    "dependents": [
+
+    ]
+  },
+  "kumade": {
+    "version": "0.8.2",
+    "dependents": [
+
+    ]
+  },
+  "kumo": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ]
+  },
+  "kung_figure": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "depo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pg_gnostic",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kunkakunka": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kunoichi": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kuntoaji-harmony": {
+    "version": "0.5.9",
+    "dependents": [
+
+    ]
+  },
+  "kuro-rs": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ]
+  },
+  "kurohige": {
+    "version": "0.0.1.1",
+    "dependents": [
+
+    ]
+  },
+  "kuroko": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kurowski-patron": {
+    "version": "0.4.4",
+    "dependents": [
+
+    ]
+  },
+  "kurs": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kurt": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kut": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kuztuscms": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ]
+  },
+  "kuzushi": {
+    "version": "0.0.55",
+    "dependents": [
+
+    ]
+  },
+  "kv": {
+    "version": "0.0.5",
+    "dependents": [
+      {
+        "name": "carbonator",
+        "requirements": "= 0.0.5"
+      },
+      {
+        "name": "check_http",
+        "requirements": "= 0.0.5"
+      }
+    ]
+  },
+  "kvbean": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kvc": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ]
+  },
+  "kvo": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "gamebox",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kvo-rb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kvom": {
+    "version": "6.9.0.3.197272233",
+    "dependents": [
+
+    ]
+  },
+  "kvpair": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kvparser": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kvs": {
+    "version": "0.4.1",
+    "dependents": [
+      {
+        "name": "cilite",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tester",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kvs-foreigner": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ]
+  },
+  "kw_apn": {
+    "version": "0.5.4",
+    "dependents": [
+
+    ]
+  },
+  "kwaff": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ]
+  },
+  "kwala": {
+    "version": "0.9.1",
+    "dependents": [
+
+    ]
+  },
+  "kwalify": {
+    "version": "0.7.2",
+    "dependents": [
+      {
+        "name": "boxgrinder-core",
+        "requirements": ">= 0.7.2"
+      },
+      {
+        "name": "herbert",
+        "requirements": "= 0.7.2"
+      },
+      {
+        "name": "holoserve",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jitsu",
+        "requirements": "~> 0.7.2"
+      },
+      {
+        "name": "kwatable",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "libcraigscrape",
+        "requirements": "~> 0.7"
+      },
+      {
+        "name": "olek-libcraigscrape",
+        "requirements": "~> 0.7"
+      },
+      {
+        "name": "pg-ldap-sync",
+        "requirements": ">= 0.7"
+      },
+      {
+        "name": "resat",
+        "requirements": ">= 0.7.1"
+      },
+      {
+        "name": "rest_kat",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rook",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "rspec-kwalify",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rspec-system",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stemcell_builder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "terrimporter",
+        "requirements": ">= 0.7.2"
+      },
+      {
+        "name": "tpkg",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yamo",
+        "requirements": ">= 0.7.1"
+      }
+    ]
+  },
+  "kwartz": {
+    "version": "3.2.0",
+    "dependents": [
+      {
+        "name": "ralbum",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kwatable": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ]
+  },
+  "kwoon": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ]
+  },
+  "kyanite": {
+    "version": "0.8.4",
+    "dependents": [
+      {
+        "name": "perception",
+        "requirements": ">= 0.7.4"
+      }
+    ]
+  },
+  "kynetx_am_api": {
+    "version": "0.2.30",
+    "dependents": [
+      {
+        "name": "krl",
+        "requirements": ">= 0.2.30"
+      }
+    ]
+  },
+  "kyoto_record": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ]
+  },
+  "kyotocabinet": {
+    "version": "1.0",
+    "dependents": [
+      {
+        "name": "persistence-adapter-kyotocabinet",
+        "requirements": ">= 0"
+      }
+    ]
+  },
+  "kyotocabinet-java": {
+    "version": "unknown",
+    "dependents": [
+
+    ]
+  },
+  "kyotocabinet-ruby": {
+    "version": "1.27.1",
+    "dependents": [
+      {
+        "name": "anemone",
+        "requirements": ">= 1.27.1"
+      },
+      {
+        "name": "bio-maf",
+        "requirements": "~> 1.27.1"
+      }
+    ]
+  },
+  "kyotor": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ]
+  },
+  "kyototycoon": {
+    "version": "0.6.1",
+    "dependents": [
+
+    ]
+  },
+  "kytoon": {
+    "version": "1.3.5",
+    "dependents": [
+
+    ]
+  },
+  "kyusik-google_analytics": {
+    "version": "1.1.5",
+    "dependents": [
+
+    ]
+  }
+}
