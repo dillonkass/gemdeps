@@ -154,7 +154,7 @@
     "description": "Pace automatic web page progress bar"
   },
   "pace_rails": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -171,16 +171,16 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "pacer-bloomfilter",
+        "requirements": ">= 0.6.1"
+      },
+      {
+        "name": "pacer-bloomfilter",
+        "requirements": ">= 0.6.1"
+      },
+      {
         "name": "pacer-dex",
         "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "pacer-bloomfilter",
-        "requirements": ">= 0.6.1"
-      },
-      {
-        "name": "pacer-bloomfilter",
-        "requirements": ">= 0.6.1"
       },
       {
         "name": "pacer-neo4j",
@@ -191,12 +191,12 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "pacer-orient",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "pacer-xml",
         "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "pacer-orient",
+        "requirements": ">= 1.0.0"
       }
     ],
     "description": "Pacer defines routes through a graph and then traverses them very quickly."
@@ -252,6 +252,13 @@
 
     ],
     "description": "XML streaming and graph import for Pacer"
+  },
+  "pachinko": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Pachinko is a Ruby monkeypatch manager tool attempting to control the unpredictable and difficult-to-troubleshoot regressions possible when monkeypatches run amok and unchecked in a medium to large Ruby codebase."
   },
   "pachube-stream": {
     "version": "0.0.4",
@@ -357,6 +364,16 @@
     ],
     "description": "A tool for creating a standalone Mac OS X .pkg of your gem."
   },
+  "packaging_rake_tasks": {
+    "version": "1.0.5",
+    "dependents": [
+      {
+        "name": "yast-rake",
+        "requirements": ">= 1.0.0"
+      }
+    ],
+    "description": "Rake tasks to allow easy packaging ruby projects in git for Build Service or other packaging service"
+  },
   "packed-model": {
     "version": "0.1.1",
     "dependents": [
@@ -418,6 +435,10 @@
       {
         "name": "locust",
         "requirements": "~> 1.1.6"
+      },
+      {
+        "name": "mook_scan",
+        "requirements": "~> 1.1.9"
       },
       {
         "name": "pcap_tools",
@@ -508,11 +529,11 @@
         "requirements": ">= 0.9.7"
       },
       {
-        "name": "test-unit-activesupport",
+        "name": "test-unit",
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit",
+        "name": "test-unit-activesupport",
         "requirements": ">= 0"
       },
       {
@@ -520,11 +541,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit-rails",
+        "name": "test-unit-notify",
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit-notify",
+        "name": "test-unit-rails",
         "requirements": ">= 0"
       },
       {
@@ -638,7 +659,7 @@
     "description": "This library is designed to assist with using the PACSTREAM electronic ordering service used by the book industry in  Australia."
   },
   "pact": {
-    "version": "1.0.9",
+    "version": "1.0.13",
     "dependents": [
 
     ],
@@ -740,23 +761,27 @@
         "requirements": ">= 0"
       },
       {
-        "name": "padrino-render-for",
-        "requirements": ">= 0"
-      },
-      {
         "name": "padrino-relative",
         "requirements": ">= 0"
       },
       {
-        "name": "padrino_bootstrap_forms",
-        "requirements": "~> 0.11"
+        "name": "padrino-render-for",
+        "requirements": ">= 0"
       },
       {
         "name": "padrino-views",
         "requirements": ">= 0.9.14"
       },
       {
+        "name": "padrino_bootstrap_forms",
+        "requirements": "~> 0.11"
+      },
+      {
         "name": "revise",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "undergrounder",
         "requirements": ">= 0"
       },
       {
@@ -844,15 +869,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "padrino-admin",
-        "requirements": "= 0.11.4"
-      },
-      {
         "name": "padrino",
         "requirements": "= 0.11.4"
       },
       {
         "name": "padrino-cache",
+        "requirements": "= 0.11.4"
+      },
+      {
+        "name": "padrino-admin",
         "requirements": "= 0.11.4"
       },
       {
@@ -864,6 +889,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "padrino-cookies",
+        "requirements": ">= 0"
+      },
+      {
         "name": "padrino-csrf",
         "requirements": ">= 0"
       },
@@ -872,15 +901,11 @@
         "requirements": "~> 0.11.0"
       },
       {
-        "name": "padrino-cookies",
+        "name": "padrino-fields",
         "requirements": ">= 0"
       },
       {
         "name": "padrino-flash",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "padrino-fields",
         "requirements": ">= 0"
       },
       {
@@ -993,7 +1018,7 @@
       },
       {
         "name": "days",
-        "requirements": ">= 0"
+        "requirements": "~> 0.9.21"
       },
       {
         "name": "filepicker-padrino",
@@ -1012,15 +1037,15 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "padrino-admin",
-        "requirements": "= 0.11.4"
-      },
-      {
         "name": "padrino",
         "requirements": "= 0.11.4"
       },
       {
         "name": "padrino-cache",
+        "requirements": "= 0.11.4"
+      },
+      {
+        "name": "padrino-admin",
         "requirements": "= 0.11.4"
       },
       {
@@ -1040,11 +1065,11 @@
         "requirements": "~> 0.11.0"
       },
       {
-        "name": "padrino-flash",
+        "name": "padrino-fields",
         "requirements": ">= 0"
       },
       {
-        "name": "padrino-fields",
+        "name": "padrino-flash",
         "requirements": ">= 0"
       },
       {
@@ -1164,7 +1189,7 @@
     "description": "A gem for monitoring Padrino with newrelic rpm"
   },
   "padrino-sprockets": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -1271,6 +1296,10 @@
       {
         "name": "lazyman",
         "requirements": ">= 0.8.6.1"
+      },
+      {
+        "name": "mediawiki-selenium",
+        "requirements": ">= 0"
       },
       {
         "name": "sakai-oae-test-api",
@@ -1395,6 +1424,13 @@
 
     ],
     "description": "-"
+  },
+  "page_title": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Set the page title on Rails apps"
   },
   "page_title_helper": {
     "version": "2.1.0",
@@ -1542,12 +1578,12 @@
     "version": "1.0.1",
     "dependents": [
       {
-        "name": "cheat",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "cheatr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cheat",
+        "requirements": "~> 1.0"
       },
       {
         "name": "gglog",
@@ -1631,7 +1667,7 @@
     "description": "Set of libraries and command-line tools to make better use of PagerDuty."
   },
   "pages": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -1853,7 +1889,7 @@
     "description": "This gem provides a simple way to check and parse the PagSeguro transaction notification."
   },
   "pagseguro_client": {
-    "version": "0.4.0",
+    "version": "0.4.2",
     "dependents": [
 
     ],
@@ -1867,7 +1903,7 @@
     "description": "Ruby gem for interfacing with Pagseguro V2 API."
   },
   "pah": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -1993,6 +2029,10 @@
       {
         "name": "scide",
         "requirements": "~> 0.8.6"
+      },
+      {
+        "name": "servicon",
+        "requirements": ">= 0"
       },
       {
         "name": "sinatra-chassis",
@@ -2169,11 +2209,11 @@
         "requirements": "= 0.7.2"
       },
       {
-        "name": "pakyow-mailer",
+        "name": "pakyow-presenter",
         "requirements": "= 0.7.2"
       },
       {
-        "name": "pakyow-presenter",
+        "name": "pakyow-mailer",
         "requirements": "= 0.7.2"
       }
     ],
@@ -2219,6 +2259,13 @@
 
     ],
     "description": "Checks if files exist."
+  },
+  "palava_machine": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "A WebRTC Signaling Server implemented with WebSockets, EventMachine and Redis Pub-Sub"
   },
   "palaver": {
     "version": "0.3.0",
@@ -2277,7 +2324,7 @@
     "description": "Palettes is for making masterpieces."
   },
   "palettetown": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -2389,7 +2436,7 @@
     "description": "Simple backup system for pushing into cloud"
   },
   "paloma": {
-    "version": "2.0.6",
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -2510,6 +2557,13 @@
 
     ],
     "description": "Packaging ANd Deployment Automation Kung Fu for .NET leveraging Ruby, if you dare!"
+  },
+  "pandarus": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby wrapper for Canvas API"
   },
   "pandata": {
     "version": "0.2.1",
@@ -2807,7 +2861,7 @@
     "description": "Split and fuse images for pano"
   },
   "panoptimon": {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "dependents": [
       {
         "name": "panoptimon-collector-mysql_status",
@@ -2854,19 +2908,19 @@
     ],
     "description": "PanoramioRb gem help you to get geolocated photos from Panoramio.com how a Ruby Object."
   },
-  "pantheon": {
-    "version": "0.0.3",
-    "dependents": [
-
-    ],
-    "description": "Quickly and painlessly add your current IP to the list of allowed remote database connections for your MediaTemple hosting account."
-  },
   "panthoot": {
     "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "Provides an Rack/Rails API endpoint for MailChimp callbacks with corresponding ActiveSupport::Notifications."
+  },
+  "pantry": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "pants": {
     "version": "0.1.0",
@@ -2897,7 +2951,7 @@
     "description": "Stub"
   },
   "paper_house": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
       {
         "name": "trema",
@@ -2938,6 +2992,10 @@
       {
         "name": "fat_free_crm",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gaku_core",
+        "requirements": "= 3.0.0.beta1"
       },
       {
         "name": "galetahub-globalize3",
@@ -2984,6 +3042,14 @@
         "requirements": "~> 2.7.1"
       },
       {
+        "name": "rxcms-compliance_plugin",
+        "requirements": "~> 3.0.0.beta1"
+      },
+      {
+        "name": "rxcms-compliance_plugin",
+        "requirements": "~> 3.0.0.beta1"
+      },
+      {
         "name": "single_table_globalize3",
         "requirements": "~> 2"
       },
@@ -2992,11 +3058,11 @@
         "requirements": "~> 2"
       },
       {
-        "name": "somatics3",
+        "name": "somatics3-generators",
         "requirements": ">= 0"
       },
       {
-        "name": "somatics3-generators",
+        "name": "somatics3",
         "requirements": ">= 0"
       },
       {
@@ -3141,6 +3207,10 @@
         "requirements": "= 3.1.4"
       },
       {
+        "name": "betterspecs",
+        "requirements": "~> 3.0"
+      },
+      {
         "name": "blog_basic",
         "requirements": ">= 2.3"
       },
@@ -3197,12 +3267,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "comfortable_mexican_sofa",
-        "requirements": ">= 3.4.0"
-      },
-      {
         "name": "comfy_carousel",
         "requirements": ">= 2.3.0"
+      },
+      {
+        "name": "comfortable_mexican_sofa",
+        "requirements": ">= 3.4.0"
       },
       {
         "name": "comfy_gallery",
@@ -3241,16 +3311,16 @@
         "requirements": "~> 2.3.8"
       },
       {
+        "name": "docsplit_images",
+        "requirements": "~> 3.1.0"
+      },
+      {
         "name": "docsplit-paperclip-processor",
         "requirements": "~> 3.1"
       },
       {
         "name": "docsplit-paperclip-processor",
         "requirements": ">= 0"
-      },
-      {
-        "name": "docsplit_images",
-        "requirements": "~> 3.1.0"
       },
       {
         "name": "drewda_rails_admin",
@@ -3269,11 +3339,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "ecm_downloads",
+        "name": "ecm_pictures",
         "requirements": "~> 2.7"
       },
       {
-        "name": "ecm_pictures",
+        "name": "ecm_downloads",
         "requirements": "~> 2.7"
       },
       {
@@ -3293,20 +3363,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_inventory",
-        "requirements": "~> 3.0"
+        "name": "enju_export",
+        "requirements": ">= 0"
       },
       {
         "name": "enju_event",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_export",
+        "name": "enju_library",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_library",
-        "requirements": ">= 0"
+        "name": "enju_inventory",
+        "requirements": "~> 3.0"
       },
       {
         "name": "erp_tech_svcs",
@@ -3334,7 +3404,7 @@
       },
       {
         "name": "fileclip",
-        "requirements": ">= 3.3.0"
+        "requirements": ">= 3.5.1"
       },
       {
         "name": "forge-rad",
@@ -3349,8 +3419,16 @@
         "requirements": "~> 3.5.1"
       },
       {
+        "name": "gaku_core",
+        "requirements": "~> 3.5"
+      },
+      {
         "name": "gemboree",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "glebtv-mongoid-paperclip",
+        "requirements": ">= 2.3.6"
       },
       {
         "name": "gluttonberg-core",
@@ -3362,7 +3440,7 @@
       },
       {
         "name": "goldencobra",
-        "requirements": ">= 0"
+        "requirements": "= 3.4.2"
       },
       {
         "name": "grandstand",
@@ -3405,11 +3483,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jakewendt-documents",
+        "name": "jakewendt-photos",
         "requirements": ">= 0"
       },
       {
-        "name": "jakewendt-photos",
+        "name": "jakewendt-documents",
         "requirements": ">= 0"
       },
       {
@@ -3457,7 +3535,7 @@
         "requirements": ">= 2.3.1.1"
       },
       {
-        "name": "mcms_resources",
+        "name": "mcms_blog",
         "requirements": ">= 0"
       },
       {
@@ -3465,7 +3543,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mcms_blog",
+        "name": "mcms_resources",
         "requirements": ">= 0"
       },
       {
@@ -3477,12 +3555,12 @@
         "requirements": ">= 2.3.6"
       },
       {
-        "name": "mongoid_paperclip_queue",
-        "requirements": "~> 2.7.0"
-      },
-      {
         "name": "mongoid_paperclip_image_dimension",
         "requirements": "~> 2.4"
+      },
+      {
+        "name": "mongoid_paperclip_queue",
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "mongomapper-paperclip",
@@ -3521,39 +3599,31 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "paperclip-aws",
-        "requirements": ">= 2.5.0"
-      },
-      {
         "name": "paperclip-bsm-s3",
         "requirements": "< 2.6.0, >= 2.5.0"
+      },
+      {
+        "name": "paperclip-aws",
+        "requirements": ">= 2.5.0"
       },
       {
         "name": "paperclip-compression",
         "requirements": "~> 3.3"
       },
       {
-        "name": "paperclip-defaults",
-        "requirements": ">= 0"
-      },
-      {
         "name": "paperclip-dimension",
         "requirements": ">= 3.0"
       },
       {
-        "name": "paperclip-dropbox",
-        "requirements": "~> 3.1"
+        "name": "paperclip-defaults",
+        "requirements": ">= 0"
       },
       {
         "name": "paperclip-document",
         "requirements": "~> 3.1"
       },
       {
-        "name": "paperclip-elvfs",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "paperclip-fedora",
+        "name": "paperclip-facecrop",
         "requirements": ">= 0"
       },
       {
@@ -3561,23 +3631,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "paperclip-facecrop",
+        "name": "paperclip-fedora",
         "requirements": ">= 0"
+      },
+      {
+        "name": "paperclip-dropbox",
+        "requirements": "~> 3.1"
       },
       {
         "name": "paperclip-ffmpeg",
         "requirements": ">= 2.5.2"
       },
       {
-        "name": "paperclip-globalize3",
-        "requirements": "~> 3.3"
-      },
-      {
         "name": "paperclip-gmagick",
         "requirements": ">= 0"
       },
       {
+        "name": "paperclip-globalize3",
+        "requirements": "~> 3.3"
+      },
+      {
         "name": "paperclip-gridfs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "paperclip-elvfs",
         "requirements": ">= 0"
       },
       {
@@ -3593,14 +3671,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "paperclip-migrator",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "paperclip-remote",
-        "requirements": ">= 3.0.0"
-      },
-      {
         "name": "paperclip-optimizer",
         "requirements": ">= 0"
       },
@@ -3609,7 +3679,19 @@
         "requirements": "~> 3.4.1"
       },
       {
+        "name": "paperclip-remote",
+        "requirements": ">= 3.0.0"
+      },
+      {
+        "name": "paperclip-migrator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "paperclip-qiniu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "paperclip-riak",
         "requirements": ">= 0"
       },
       {
@@ -3617,7 +3699,15 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "paperclip-riak",
+        "name": "paperclip-removable",
+        "requirements": ">= 2.3.0"
+      },
+      {
+        "name": "paperclip-sftp",
+        "requirements": ">= 3.2.0"
+      },
+      {
+        "name": "paperclip-storage-ftp",
         "requirements": ">= 0"
       },
       {
@@ -3625,15 +3715,11 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "paperclip-sftp",
-        "requirements": ">= 3.2.0"
+        "name": "paperclip-swift",
+        "requirements": ">= 0"
       },
       {
-        "name": "paperclip-removable",
-        "requirements": ">= 2.3.0"
-      },
-      {
-        "name": "paperclip-storage-ftp",
+        "name": "paperclip-strip-strange-characters",
         "requirements": ">= 0"
       },
       {
@@ -3641,36 +3727,36 @@
         "requirements": ">= 2.4.2, ~> 2.4"
       },
       {
-        "name": "paperclip-strip-strange-characters",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "paperclip-swift",
-        "requirements": ">= 0"
-      },
-      {
         "name": "paperclip-tt",
         "requirements": "~> 3.1"
-      },
-      {
-        "name": "paperclip-watermark",
-        "requirements": ">= 2.3.8"
-      },
-      {
-        "name": "paperclip_archive_processor",
-        "requirements": "~> 2.3.3"
       },
       {
         "name": "paperclip_cloud_storage",
         "requirements": ">= 0"
       },
       {
-        "name": "paperclip_database",
-        "requirements": ">= 2.3.0"
+        "name": "paperclip-watermark",
+        "requirements": ">= 2.3.8"
+      },
+      {
+        "name": "paperclip_database_storage",
+        "requirements": ">= 3.0.0"
       },
       {
         "name": "paperclip_duplicate_check",
         "requirements": ">= 0"
+      },
+      {
+        "name": "paperclip_archive_processor",
+        "requirements": "~> 2.3.3"
+      },
+      {
+        "name": "paperclip_database",
+        "requirements": ">= 2.3.0"
+      },
+      {
+        "name": "paperclip_heroku",
+        "requirements": ">= 3.4.1"
       },
       {
         "name": "paperclip_helpers",
@@ -3681,28 +3767,24 @@
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "paperclip_database_storage",
-        "requirements": ">= 3.0.0"
-      },
-      {
-        "name": "paperclip_heroku",
-        "requirements": ">= 3.4.1"
+        "name": "paperclip_mp3",
+        "requirements": ">= 0"
       },
       {
         "name": "paperclip_plus",
         "requirements": "~> 3.5"
       },
       {
-        "name": "paperclip_mp3",
-        "requirements": ">= 0"
+        "name": "paperclip_s3du",
+        "requirements": "~> 3.0"
       },
       {
         "name": "paperclip_processors",
         "requirements": ">= 0"
       },
       {
-        "name": "paperclip_s3du",
-        "requirements": "~> 3.0"
+        "name": "papercrop",
+        "requirements": ">= 3.4"
       },
       {
         "name": "paperclip_waveform",
@@ -3711,10 +3793,6 @@
       {
         "name": "paperclipdropbox",
         "requirements": ">= 0"
-      },
-      {
-        "name": "papercrop",
-        "requirements": ">= 3.4"
       },
       {
         "name": "papermill",
@@ -3745,16 +3823,16 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "radiant-clipped-extension-add-group",
-        "requirements": "~> 2.7.0"
-      },
-      {
         "name": "radiant-clipped-extension",
         "requirements": "~> 2.7.0"
       },
       {
         "name": "radiant-downloads-extension",
         "requirements": "~> 2.3.16"
+      },
+      {
+        "name": "radiant-clipped-extension-add-group",
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "radiant-images-extension",
@@ -3881,7 +3959,7 @@
         "requirements": ">= 2.3.6"
       },
       {
-        "name": "spud_reports",
+        "name": "spud_banners",
         "requirements": ">= 0"
       },
       {
@@ -3893,7 +3971,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spud_banners",
+        "name": "spud_reports",
         "requirements": ">= 0"
       },
       {
@@ -3917,15 +3995,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tb_media",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tb_banners",
         "requirements": ">= 0"
       },
       {
         "name": "tb_photos",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tb_media",
         "requirements": ">= 0"
       },
       {
@@ -4037,7 +4115,7 @@
     "description": "Configurable application wide defaults for Paperclip"
   },
   "paperclip-dimension": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -4602,6 +4680,13 @@
     ],
     "description": "Run tests in parallel in either Test::Unit-style or RSpec-style."
   },
+  "para-grids": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "'para', from the greek 'beside' and the latin meaning 'alongside', is a grid system of great simplicity for use internally but available for the world."
+  },
   "parade": {
     "version": "0.10.2",
     "dependents": [
@@ -4652,7 +4737,7 @@
     "description": "An IRC bot framework"
   },
   "parallel": {
-    "version": "0.8.4",
+    "version": "0.9.0",
     "dependents": [
       {
         "name": "adium2gmail",
@@ -4675,16 +4760,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bio-ngs",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "bio-ngs",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bio-kmer_counter",
         "requirements": ">= 0.5.17"
+      },
+      {
+        "name": "bio-ngs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bio-ngs",
+        "requirements": ">= 0"
       },
       {
         "name": "biodiversity",
@@ -4795,19 +4880,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "parallel_tests-instructure",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "parallel_tests",
-        "requirements": ">= 0"
-      },
-      {
         "name": "parallel_split_test",
         "requirements": ">= 0.5.13"
       },
       {
+        "name": "parallel_tests-instructure",
+        "requirements": ">= 0"
+      },
+      {
         "name": "parallelized_specs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "parallel_tests",
         "requirements": ">= 0"
       },
       {
@@ -4816,6 +4901,10 @@
       },
       {
         "name": "puppet-catalog-test",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puppet-catalog-test-cirb",
         "requirements": ">= 0"
       },
       {
@@ -4835,12 +4924,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "s3_meta_sync",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sanzang",
-        "requirements": ">= 0.5.19"
+        "requirements": "~> 0.8"
       },
       {
         "name": "steto",
@@ -4867,11 +4952,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vcloud-network-configurator",
+        "name": "vcloud-net-spinner",
         "requirements": ">= 0"
       },
       {
-        "name": "vcloud-net-spinner",
+        "name": "vcloud-network-configurator",
         "requirements": ">= 0"
       },
       {
@@ -4970,7 +5055,7 @@
     "description": "Extends enumerable module with parallel"
   },
   "parallel_http": {
-    "version": "0.0.20",
+    "version": "0.0.22",
     "dependents": [
 
     ],
@@ -5008,7 +5093,7 @@
     "description": "Split a big test file into multiple chunks and run them in parallel"
   },
   "parallel_tests": {
-    "version": "0.16.0",
+    "version": "0.16.2",
     "dependents": [
       {
         "name": "activesearch",
@@ -5060,7 +5145,7 @@
       },
       {
         "name": "turnip-parallel_tests",
-        "requirements": ">= 0"
+        "requirements": "~> 0.16"
       },
       {
         "name": "uberspec",
@@ -5376,7 +5461,7 @@
     "description": "Paranoia is a re-implementation of acts_as_paranoid for Rails 3, using much, much, much less code. You would use either plugin / gem if you wished that when you called destroy on an Active Record object that it didn't actually destroy it, but just \"hid\" the record. Paranoia does this by setting a deleted_at field to the current time when you destroy a record, and hides it by scoping all queries on your model to only include records which do not have a deleted_at field."
   },
   "paranoia_uniqueness_validator": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -5474,7 +5559,7 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "paratrooper-airbrake",
+        "name": "paratrooper-pingdom",
         "requirements": "~> 1.2"
       },
       {
@@ -5482,7 +5567,7 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "paratrooper-pingdom",
+        "name": "paratrooper-airbrake",
         "requirements": "~> 1.2"
       }
     ],
@@ -5580,7 +5665,7 @@
     "description": "Pario is a Gosu game framework that helps to give you structure and a start for creating games"
   },
   "parity": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -5688,8 +5773,8 @@
         "requirements": ">= 0.1.1"
       },
       {
-        "name": "sidekiq-cron",
-        "requirements": ">= 0.1.2"
+        "name": "rservicebus",
+        "requirements": ">= 0"
       },
       {
         "name": "whenever-delorean",
@@ -5706,7 +5791,7 @@
     "description": "Tool to generate concrete subclasses of existing Parse.com model objects in a variety of languages."
   },
   "parse-ruby-client": {
-    "version": "0.1.15",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "dm-parse",
@@ -5775,11 +5860,11 @@
     "description": "A one-to-one translation of Haskell’s Parsec library to Ruby."
   },
   "parsecom": {
-    "version": "0.0.1",
+    "version": "0.4.0",
     "dependents": [
 
     ],
-    "description": "Pure Ruby version of parse.com client. This library allow you to access straightforwardly to parse.com REST API."
+    "description": "Pure Ruby version of parse.com client. This library allows you to access straightforwardly to parse.com REST API."
   },
   "parseconfig": {
     "version": "1.0.2",
@@ -6002,11 +6087,11 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "tulios-brcobranca",
+        "name": "tulios-brcobranca-rails2",
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "tulios-brcobranca-rails2",
+        "name": "tulios-brcobranca",
         "requirements": ">= 1.0.3"
       }
     ],
@@ -6041,7 +6126,7 @@
     "description": "Library to parse commandline options and arguments"
   },
   "parser": {
-    "version": "1.4.2",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "castic",
@@ -6057,11 +6142,11 @@
       },
       {
         "name": "rubocop",
-        "requirements": "~> 2.0.0.pre6"
+        "requirements": "~> 2.0"
       },
       {
         "name": "ruby-lint",
-        "requirements": ">= 2.0.0.pre6"
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "sabat-rubocop",
@@ -6073,11 +6158,11 @@
       },
       {
         "name": "starscope",
-        "requirements": "= 2.0.0.pre6"
+        "requirements": "~> 2.0"
       },
       {
         "name": "transpec",
-        "requirements": "~> 2.0.0.pre1"
+        "requirements": "~> 2.0"
       },
       {
         "name": "unparser",
@@ -6141,6 +6226,10 @@
         "requirements": "= 3.0.4"
       },
       {
+        "name": "gem_velocity",
+        "requirements": ">= 0"
+      },
+      {
         "name": "heckle",
         "requirements": ">= 2.0.0"
       },
@@ -6193,12 +6282,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rubyjs",
-        "requirements": ">= 2.1.1"
-      },
-      {
         "name": "ruby_diff",
         "requirements": "~> 2.1"
+      },
+      {
+        "name": "rubyjs",
+        "requirements": ">= 2.1.1"
       },
       {
         "name": "RubyToC",
@@ -6407,12 +6496,12 @@
         "requirements": "= 1.4.0"
       },
       {
-        "name": "parslet-export",
-        "requirements": ">= 0"
-      },
-      {
         "name": "parslet-css",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "parslet-export",
+        "requirements": ">= 0"
       },
       {
         "name": "pione",
@@ -6487,11 +6576,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "showoff-alexch",
+        "name": "showoff",
         "requirements": ">= 0"
       },
       {
-        "name": "showoff",
+        "name": "showoff-alexch",
         "requirements": ">= 0"
       },
       {
@@ -6593,7 +6682,10 @@
   "parsley-rails": {
     "version": "1.1.18.0",
     "dependents": [
-
+      {
+        "name": "parsley_simple_form",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Parsley.js bundled for Rails Asset Pipeline"
   },
@@ -6617,6 +6709,13 @@
       }
     ],
     "description": "Scientific names parser/atomizer with cached distributed storage of atomized data"
+  },
+  "parsley_simple_form": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Client side validation with parsley and simple_form."
   },
   "parsnip": {
     "version": "0.0.5",
@@ -6702,9 +6801,12 @@
     "description": "Partisan is a Ruby library that allows ActiveRecord records to be follower and followable, just like on popular social networks. It’s heavily inspired by acts_as_follower which is no longer maintened."
   },
   "partitioned": {
-    "version": "1.3.2",
+    "version": "1.3.3",
     "dependents": [
-
+      {
+        "name": "naf",
+        "requirements": ">= 0"
+      }
     ],
     "description": "A gem providing support for table partitioning in ActiveRecord. Support is available for postgres and AWS RedShift databases. Other features include child table management (creation and deletion) and bulk data creating and updating."
   },
@@ -6737,7 +6839,7 @@
     "description": "Models relationships between AR models. Allows you to follow, friend, and block other AR's. Consists of two mixins: acts_as_followable and acts_as_friend. These options allow an AR to inherit either a twitter-like follower system or a facebook-like friend system."
   },
   "party_foul": {
-    "version": "1.3.1",
+    "version": "1.4.0",
     "dependents": [
 
     ],
@@ -6915,7 +7017,7 @@
     "description": "Talk with Passdock API"
   },
   "passenger": {
-    "version": "4.0.19",
+    "version": "4.0.20",
     "dependents": [
       {
         "name": "faye",
@@ -6924,6 +7026,10 @@
       {
         "name": "faye-websocket",
         "requirements": ">= 4.0.0"
+      },
+      {
+        "name": "passenger-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "passenger-oob-gc",
@@ -6961,6 +7067,13 @@
 
     ],
     "description": "Run the Ruby Garbage Collection (GC) outside of the Passenger request cycle."
+  },
+  "passenger-rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "passenger-rails overrides the Rack::Handler.default method to return Rack::Handler::Passenger which will cause rack (and rails) to use passenger by default."
   },
   "passenger-recipes": {
     "version": "0.1.2",
@@ -7168,7 +7281,7 @@
     "description": "Generate a key/iv file, generate passwords, and store encrypted files in source control, keep the key/iv safe!"
   },
   "passwd": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -7332,7 +7445,7 @@
     "description": "Search Pastebins for content, fork from nullthreat corelan pastenum2"
   },
   "pastey": {
-    "version": "0.0.2",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -7436,6 +7549,13 @@
     ],
     "description": "The default irb completion code shipped with ruby produces an internal error, exiting from the running script. This script makes it easy to check if a suggested patch has been applied to your current ruby version."
   },
+  "patch_life": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Allows you to define a patch to ruby in a block that only gets executed if you're below the version which obsoletes the patch."
+  },
   "patchmaster": {
     "version": "1.0.0",
     "dependents": [
@@ -7493,12 +7613,12 @@
         "requirements": "~> 1.3"
       },
       {
-        "name": "gisele-language",
-        "requirements": "~> 1.2"
-      },
-      {
         "name": "gisele",
         "requirements": "~> 1.3"
+      },
+      {
+        "name": "gisele-language",
+        "requirements": "~> 1.2"
       },
       {
         "name": "perfer",
@@ -7806,12 +7926,12 @@
         "requirements": "= 0.6.4"
       },
       {
-        "name": "rutema_elements",
-        "requirements": ">= 0.6.1"
-      },
-      {
         "name": "rutema",
         "requirements": "~> 0.8.0"
+      },
+      {
+        "name": "rutema_elements",
+        "requirements": ">= 0.6.1"
       },
       {
         "name": "rutemaweb",
@@ -8108,6 +8228,13 @@
     ],
     "description": "    A gem for adding Erlang-style function/method overloading through pattern matching to Ruby classes.\n\n    For fun I've also thrown in Erlang's sparsely documented -behaviour\n    functionality plus a few other functions and constants I find useful.\n"
   },
+  "pattern_expander": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Lazily generate string pattern combinations to name your [puppy|startup|band] or write bad poems or produce UUID variants. Kinda like reverse regex. Lazily loads \"pages\" of combinations and returns results before the heat death of the universe."
+  },
   "patternmatching": {
     "version": "0.2.5",
     "dependents": [
@@ -8179,7 +8306,7 @@
     "description": "A Rubyesque interface to Gmail, with all the tools you'll need. Search, read and send multipart emails; archive, mark as read/unread, delete emails; and manage labels."
   },
   "pauper": {
-    "version": "0.1.12",
+    "version": "0.1.13",
     "dependents": [
 
     ],
@@ -8195,8 +8322,15 @@
     ],
     "description": "Real time rate limiting for multi-process ruby environments based on Redis"
   },
+  "pave": {
+    "version": "0.0.12",
+    "dependents": [
+
+    ],
+    "description": "Provides a set of command line tools for Concrete5."
+  },
   "pavlov": {
-    "version": "0.1.8.1",
+    "version": "0.1.9.0",
     "dependents": [
 
     ],
@@ -8231,7 +8365,7 @@
     "description": "This gem is a parser for American Express transaction reconciliation files."
   },
   "pay_dirt": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "dependents": [
       {
         "name": "eenie_meenie",
@@ -8242,12 +8376,12 @@
         "requirements": "~> 1.0.7"
       },
       {
-        "name": "konami-fo",
-        "requirements": "~> 1.0.7"
-      },
-      {
         "name": "konamio",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "konami-fo",
+        "requirements": "~> 1.0.7"
       },
       {
         "name": "protected_record",
@@ -8555,15 +8689,19 @@
         "requirements": "~> 0.2.3"
       },
       {
-        "name": "paypal-sdk-buttonmanager",
-        "requirements": "~> 0.2.3"
-      },
-      {
         "name": "paypal-sdk-adaptivepayments",
         "requirements": "~> 0.2.3"
       },
       {
         "name": "paypal-sdk-invoice",
+        "requirements": "~> 0.2.3"
+      },
+      {
+        "name": "paypal-sdk-permissions",
+        "requirements": "~> 0.2.3"
+      },
+      {
+        "name": "paypal-sdk-buttonmanager",
         "requirements": "~> 0.2.3"
       },
       {
@@ -8573,10 +8711,6 @@
       {
         "name": "paypal-sdk-rest",
         "requirements": "~> 0.2.4"
-      },
-      {
-        "name": "paypal-sdk-permissions",
-        "requirements": "~> 0.2.3"
       }
     ],
     "description": "Core library for PayPal ruby SDKs"
@@ -8594,6 +8728,10 @@
       {
         "name": "paypal_merchant",
         "requirements": "~> 1.103"
+      },
+      {
+        "name": "spree_paypal_express_mutalis",
+        "requirements": "= 1.103.0"
       }
     ],
     "description": "The PayPal Merchant SDK provides Ruby APIs for processing payments, recurring payments, subscriptions and transactions using PayPal's Merchant APIs, which include Express Checkout, Recurring Payments, Direct Payment and Transactional APIs."
@@ -8684,6 +8822,13 @@
 
     ],
     "description": "\n    Simple gem for calculation basic Czech Payroll\n  "
+  },
+  "paysbuy": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Paysbuy API"
   },
   "paysimple": {
     "version": "1.0.0",
@@ -8890,19 +9035,19 @@
     ],
     "description": "A client library for communicating with Fonality's PBXtra Control Panel"
   },
-  "PBYF": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "For use with Yahoo Finance"
-  },
   "pbyf": {
     "version": "0.0.4",
     "dependents": [
 
     ],
     "description": "Use this gem to pull data from the Yahoo Finance site, and do some basic calculations with it."
+  },
+  "PBYF": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "For use with Yahoo Finance"
   },
   "pcai_client_side_validations": {
     "version": "3.2.2",
@@ -8987,12 +9132,16 @@
         "requirements": "~> 0.11.3"
       },
       {
-        "name": "packetfu",
-        "requirements": ">= 0.9.2"
+        "name": "mook_scan",
+        "requirements": "~> 0.11.3"
       },
       {
         "name": "packetcount",
         "requirements": ">= 0"
+      },
+      {
+        "name": "packetfu",
+        "requirements": ">= 0.9.2"
       }
     ],
     "description": "libpcap bindings for ruby compat with JRUBY Ruby1.8 Ruby1.9"
@@ -9190,11 +9339,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "prawn_cocktail",
+        "name": "prawn_cocktail_rails",
         "requirements": ">= 0"
       },
       {
-        "name": "prawn_cocktail_rails",
+        "name": "prawn_cocktail",
         "requirements": ">= 0"
       }
     ],
@@ -9273,28 +9422,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pdf-inspector",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "pdf-extract",
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "pdf-reader-html",
-        "requirements": "~> 1.1.0"
+        "name": "pdf-inspector",
+        "requirements": "~> 1.0"
       },
       {
         "name": "pdf-reader-turtletext",
         "requirements": "= 1.1.1"
       },
       {
-        "name": "pdf-trim_detector",
-        "requirements": ">= 1.1.0"
+        "name": "pdf-reader-html",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "pdf-wrapper",
         "requirements": "~> 0.9.0"
+      },
+      {
+        "name": "pdf-trim_detector",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "phantompdf",
@@ -9603,6 +9752,10 @@
         "requirements": ">= 0.5.0"
       },
       {
+        "name": "goldencobra",
+        "requirements": ">= 0"
+      },
+      {
         "name": "htmls_to_pdf",
         "requirements": ">= 0.5.2, ~> 0.5"
       },
@@ -9635,11 +9788,11 @@
         "requirements": "~> 0.5.2"
       },
       {
-        "name": "pdfkit-amd64",
+        "name": "pdfkit-heroku",
         "requirements": ">= 0"
       },
       {
-        "name": "pdfkit-heroku",
+        "name": "pdfkit-amd64",
         "requirements": ">= 0"
       },
       {
@@ -9681,27 +9834,6 @@
       }
     ],
     "description": "Keeps necessary library for PDFKit. Simplifies integration\nprocess with Heroku a bit"
-  },
-  "pdfkit-kikuchiyo-patch-on-stable-version": {
-    "version": "0.5.1.1",
-    "dependents": [
-
-    ],
-    "description": "Uses wkhtmltopdf to create PDFs using HTML"
-  },
-  "pdfkit-kikuchiyo_patch": {
-    "version": "0.5.3",
-    "dependents": [
-
-    ],
-    "description": "Uses wkhtmltopdf to create PDFs using HTML"
-  },
-  "pdfkit-middleware-to-file": {
-    "version": "0.5.7",
-    "dependents": [
-
-    ],
-    "description": "Updates to PDFKit by Jared Pace and Relevance with stack overflow post suggested by Ashish implemented to save server side pdf file, and code to save pdf file on repository."
   },
   "pdfkit_songrit": {
     "version": "0.3.4",
@@ -9812,14 +9944,14 @@
     "description": "Use the PipeDevMail gem within Rails"
   },
   "pdns-remotebackend": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
     "description": "This gem provides a base class and helpers for writing remotebackend servers for pipe/unix/. It is intended to make using remotebackend easier. For http support, see pdns-remotebackend-http."
   },
   "pdo": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -9850,7 +9982,7 @@
     "description": "    Sunspot::Rails is an extension to the Sunspot library for Solr search.\n    Sunspot::Rails adds integration between Sunspot and ActiveRecord, including\n    defining search and indexing related methods on ActiveRecord models themselves,\n    running a Sunspot-compatible Solr instance for development and test\n    environments, and automatically commit Solr index changes at the end of each\n    Rails request.\n"
   },
   "pea": {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "dependents": [
 
     ],
@@ -9900,11 +10032,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gaptool-server",
+        "name": "gaptool-client",
         "requirements": ">= 0"
       },
       {
-        "name": "gaptool-client",
+        "name": "gaptool-server",
         "requirements": ">= 0"
       },
       {
@@ -10000,7 +10132,7 @@
     "description": "Provide pebble-compliant paths for ActiveRecord models."
   },
   "pebblebed": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
       {
         "name": "origami-importer",
@@ -10025,10 +10157,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pebbles-compgacha",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pebbles-fizzbuzz",
         "requirements": "> 0"
       },
@@ -10037,16 +10165,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pebbles-sl",
+        "name": "pebbles-compgacha",
         "requirements": ">= 0"
       },
       {
-        "name": "pebbles-xmas",
+        "name": "pebbles-sl",
         "requirements": ">= 0"
       },
       {
         "name": "pebbles-zenra",
         "requirements": "> 0"
+      },
+      {
+        "name": "pebbles-xmas",
+        "requirements": ">= 0"
       }
     ],
     "description": "namespace for JOKE rubgems"
@@ -10292,14 +10424,14 @@
     "description": "Pares text down to the words that matter"
   },
   "peddler": {
-    "version": "0.5.3",
+    "version": "0.6.3",
     "dependents": [
       {
         "name": "mws-orders",
         "requirements": "~> 0.5.1"
       }
     ],
-    "description": "A light-weight wrapper to the Amazon Marketplace Web Service (MWS) API"
+    "description": "A Ruby interface to the Amazon Marketplace Web Service (MWS) APIs"
   },
   "pedit": {
     "version": "0.1.1",
@@ -10344,7 +10476,7 @@
     "description": "Introduces ActiveRecord to PostgreSQL, adding support for PostgreSQL specific features."
   },
   "peek": {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "dependents": [
       {
         "name": "peek-active_record",
@@ -10359,6 +10491,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "peek-git",
+        "requirements": ">= 0"
+      },
+      {
         "name": "peek-faraday",
         "requirements": ">= 0"
       },
@@ -10367,27 +10503,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "peek-git",
-        "requirements": ">= 0"
-      },
-      {
         "name": "peek-mongo",
         "requirements": ">= 0"
       },
       {
-        "name": "peek-performance_bar",
-        "requirements": ">= 0.1.0"
-      },
-      {
         "name": "peek-mysql2",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "peek-pg",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "peek-rblineprof",
         "requirements": ">= 0"
       },
       {
@@ -10395,15 +10515,27 @@
         "requirements": ">= 0.1.0"
       },
       {
+        "name": "peek-performance_bar",
+        "requirements": ">= 0.1.0"
+      },
+      {
+        "name": "peek-rblineprof",
+        "requirements": ">= 0"
+      },
+      {
         "name": "peek-redis",
         "requirements": ">= 0"
       },
       {
-        "name": "peek-svn",
+        "name": "peek-sidekiq",
         "requirements": ">= 0"
       },
       {
-        "name": "peek-sidekiq",
+        "name": "peek-pg",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "peek-svn",
         "requirements": ">= 0"
       }
     ],
@@ -10452,7 +10584,7 @@
     "description": "Take a peek into the Faraday requests made during your application's requests."
   },
   "peek-gc": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -10613,7 +10745,7 @@
     "description": "Allows for scripts that look at different applications and notify you when something looks wrong"
   },
   "peeps": {
-    "version": "1.1.7",
+    "version": "1.1.8",
     "dependents": [
 
     ],
@@ -10778,6 +10910,13 @@
     ],
     "description": "Static analysis Lint-type tool to improve your OO Ruby code"
   },
+  "pen": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Pen Editor for Rails"
+  },
   "penchant": {
     "version": "0.2.29",
     "dependents": [
@@ -10807,7 +10946,7 @@
     "description": "Need to replace some tokens? This is all you need (Ruby 1.9+)."
   },
   "pencil_pusher": {
-    "version": "0.0.1",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -11042,6 +11181,13 @@
 
     ],
     "description": "Simple rake tasks for managing app version with git version tags."
+  },
+  "per_action_logger": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Adds support for logging specific Rails action to separated log files "
   },
   "per_mailer_smtp_settings": {
     "version": "0.1.0",
@@ -11312,6 +11458,13 @@
     ],
     "description": "This rubygem does not have a description or summary."
   },
+  "pergo": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A simple wrapper of Propono."
+  },
   "pergola": {
     "version": "0.0.2",
     "dependents": [
@@ -11431,19 +11584,19 @@
     "version": "2.1.0",
     "dependents": [
       {
-        "name": "periscope-activerecord",
-        "requirements": "~> 2.1.0"
-      },
-      {
         "name": "periscope-data_mapper",
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "periscope-mongoid",
+        "name": "periscope-activerecord",
         "requirements": "~> 2.1.0"
       },
       {
         "name": "periscope-mongo_mapper",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "periscope-mongoid",
         "requirements": "~> 2.1.0"
       }
     ],
@@ -11614,7 +11767,7 @@
     "description": "Authorization for ruby apps using roles concept"
   },
   "permitters": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -11658,6 +11811,13 @@
 
     ],
     "description": "Permutations is a library that allows you to generate permutations from Arrays and Strings."
+  },
+  "perpetual": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Contains the more used methods not contained in Ruby. Just include the classes/modules you need to use them."
   },
   "perpetuity": {
     "version": "0.7.3",
@@ -11850,7 +12010,7 @@
     "description": "Keep your Selenium browser open while you use Capybara to talk to it. Save seconds and sanity."
   },
   "persistent_settings": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "dependents": [
 
     ],
@@ -11940,7 +12100,7 @@
     "description": "pervasives"
   },
   "pesapal": {
-    "version": "0.1.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -12055,7 +12215,7 @@
     "description": "TestGem for class"
   },
   "petfinder": {
-    "version": "0.1.3",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -12091,6 +12251,13 @@
 
     ],
     "description": "TODO"
+  },
+  "petl": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Pretty good ETL framework"
   },
   "peto": {
     "version": "0.2.7",
@@ -12289,7 +12456,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "activerecord-postgis-array",
+        "requirements": "~> 0.13.2"
+      },
+      {
         "name": "activerecord-postgres-array",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "activerecord-postgres-copy",
         "requirements": ">= 0"
       },
       {
@@ -12297,8 +12472,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "activerecord-postgres-copy",
-        "requirements": ">= 0"
+        "name": "activerecord-postgres-uuid",
+        "requirements": ">= 0.12.0"
       },
       {
         "name": "activerecord-postgresql-citext",
@@ -12307,10 +12482,6 @@
       {
         "name": "activerecord-postgresql-adapter",
         "requirements": ">= 0"
-      },
-      {
-        "name": "activerecord-postgres-uuid",
-        "requirements": ">= 0.12.0"
       },
       {
         "name": "activerecord-redshift-adapter",
@@ -12333,15 +12504,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "acts-as-taggable-on",
-        "requirements": ">= 0"
-      },
-      {
         "name": "acts-as-taggable-hstore",
         "requirements": ">= 0"
       },
       {
+        "name": "acts-as-taggable-on",
+        "requirements": ">= 0"
+      },
+      {
         "name": "acts-as-taggable-on-padrino",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "acts_as_footprintable",
         "requirements": ">= 0"
       },
       {
@@ -12369,11 +12544,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ansible-rails",
+        "name": "ansible-sse",
         "requirements": ">= 0"
       },
       {
-        "name": "ansible-sse",
+        "name": "ansible-rails",
         "requirements": ">= 0"
       },
       {
@@ -12517,11 +12692,11 @@
         "requirements": "~> 0.14.1"
       },
       {
-        "name": "cf-autoconfig",
+        "name": "cf-runtime",
         "requirements": "~> 0.11.0"
       },
       {
-        "name": "cf-runtime",
+        "name": "cf-autoconfig",
         "requirements": "~> 0.11.0"
       },
       {
@@ -12557,7 +12732,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-deployment-api",
+        "name": "conjur-asset-environment-api",
         "requirements": ">= 0"
       },
       {
@@ -12565,11 +12740,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-environment-api",
+        "name": "conjur-asset-key-pair-api",
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-key-pair-api",
+        "name": "conjur-asset-deployment-api",
         "requirements": ">= 0"
       },
       {
@@ -12589,12 +12764,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "crypt_keeper",
-        "requirements": "~> 0.15.1"
-      },
-      {
         "name": "crypt_keeper_providers",
         "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "crypt_keeper",
+        "requirements": "~> 0.15.1"
       },
       {
         "name": "cucumber_tree",
@@ -12609,11 +12784,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "data_migrations",
+        "name": "data_miner",
         "requirements": ">= 0"
       },
       {
-        "name": "data_miner",
+        "name": "data_migrations",
         "requirements": ">= 0"
       },
       {
@@ -12677,6 +12852,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dynamometer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "earth",
         "requirements": ">= 0"
       },
@@ -12725,11 +12904,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fiddle",
+        "name": "fides",
         "requirements": ">= 0"
       },
       {
-        "name": "fides",
+        "name": "fiddle",
         "requirements": ">= 0"
       },
       {
@@ -12737,16 +12916,16 @@
         "requirements": "~> 0.16.0"
       },
       {
+        "name": "fluent-plugin-pghstore",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fluent-plugin-pghstore",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fluent-plugin-pgdist",
         "requirements": "~> 0.15.1"
-      },
-      {
-        "name": "fluent-plugin-pghstore",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "fluent-plugin-pghstore",
-        "requirements": ">= 0"
       },
       {
         "name": "fluent-plugin-pgjson",
@@ -12758,6 +12937,14 @@
       },
       {
         "name": "fluent-plugin-redshift",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "fluent-plugin-redshift-kwarter",
+        "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "fluent-plugin-redshift-auto",
         "requirements": "~> 0.14.0"
       },
       {
@@ -12785,16 +12972,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gaku_core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gb_mapfish_appserver",
         "requirements": "= 0.14.0"
       },
       {
         "name": "geokit-ar",
         "requirements": "~> 0.10"
-      },
-      {
-        "name": "geokit-rails31",
-        "requirements": "~> 0.10.0"
       },
       {
         "name": "geokit-rails",
@@ -12841,19 +13028,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hstore_accessor",
-        "requirements": ">= 0.14.1"
-      },
-      {
         "name": "hstore-attributes",
         "requirements": ">= 0"
       },
       {
-        "name": "hstore_flags",
-        "requirements": ">= 0"
+        "name": "hstore_accessor",
+        "requirements": ">= 0.14.1"
       },
       {
         "name": "hstore_translate",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hstore_flags",
         "requirements": ">= 0"
       },
       {
@@ -12883,6 +13070,10 @@
       {
         "name": "jackruss-geokit-rails3",
         "requirements": "~> 0.10"
+      },
+      {
+        "name": "Jumpstarter",
+        "requirements": ">= 0"
       },
       {
         "name": "kanshi",
@@ -13005,6 +13196,14 @@
         "requirements": "= 0.9.0"
       },
       {
+        "name": "naf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "newconference-core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "newrelic_postgres_plugin",
         "requirements": ">= 0.15.1"
       },
@@ -13045,6 +13244,10 @@
         "requirements": ">= 0.11.0"
       },
       {
+        "name": "ottoman_orm",
+        "requirements": "= 0.16.0"
+      },
+      {
         "name": "partitioned",
         "requirements": ">= 0"
       },
@@ -13077,16 +13280,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pg_advisory_locker",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pg_application_name",
         "requirements": ">= 0"
       },
       {
         "name": "pg_audit_log",
         "requirements": ">= 0.9.0"
+      },
+      {
+        "name": "pg_advisory_locker",
+        "requirements": ">= 0"
       },
       {
         "name": "pg_comment",
@@ -13137,15 +13340,15 @@
         "requirements": ">= 0.9.0"
       },
       {
-        "name": "pgjob",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pgexplain",
         "requirements": ">= 0.8.0"
       },
       {
         "name": "pgq_web",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pgjob",
         "requirements": ">= 0"
       },
       {
@@ -13161,6 +13364,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "post_json",
+        "requirements": ">= 0"
+      },
+      {
         "name": "posterboy",
         "requirements": "~> 0.9"
       },
@@ -13173,28 +13380,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "postgres_ext",
-        "requirements": "~> 0.13.2"
-      },
-      {
-        "name": "postgresql_lo_streamer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "postgres_loose_table_counts",
         "requirements": ">= 0"
+      },
+      {
+        "name": "postgres_ext",
+        "requirements": "~> 0.13.2"
       },
       {
         "name": "postgrestats",
         "requirements": ">= 0"
       },
       {
-        "name": "psql-cm",
-        "requirements": ">= 0.13.2"
+        "name": "postgresql_lo_streamer",
+        "requirements": ">= 0"
       },
       {
         "name": "proper_active_record_uniqueness_validations",
         "requirements": ">= 0"
+      },
+      {
+        "name": "psql-cm",
+        "requirements": ">= 0.13.2"
       },
       {
         "name": "puffer_pages",
@@ -13213,12 +13420,12 @@
         "requirements": "= 0.11.0"
       },
       {
-        "name": "queue_classic",
-        "requirements": "~> 0.16.0"
-      },
-      {
         "name": "queue_classic_admin",
         "requirements": ">= 0"
+      },
+      {
+        "name": "queue_classic",
+        "requirements": "~> 0.16.0"
       },
       {
         "name": "quorum",
@@ -13263,6 +13470,10 @@
       {
         "name": "rdbi-driver-postgresql",
         "requirements": ">= 0.10.0"
+      },
+      {
+        "name": "reactive_record",
+        "requirements": ">= 0"
       },
       {
         "name": "reasonable_log4r",
@@ -13321,6 +13532,18 @@
         "requirements": "= 0.10.1"
       },
       {
+        "name": "rxcms-compliance_plugin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rxcms-dbms_plugin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rxcms-dbms_plugin",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sayso-thinking-sphinx",
         "requirements": "= 0.9.0"
       },
@@ -13357,12 +13580,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sequel-redshift",
-        "requirements": ">= 0"
+        "name": "sequel-postgres-schemata",
+        "requirements": "~> 0.16"
       },
       {
         "name": "sequel-pg-locker",
         "requirements": "~> 0.13"
+      },
+      {
+        "name": "sequel-redshift",
+        "requirements": ">= 0"
       },
       {
         "name": "sequel-schema-sharding",
@@ -13375,6 +13602,10 @@
       {
         "name": "sequel_pg",
         "requirements": ">= 0.8.0"
+      },
+      {
+        "name": "serverist-replication",
+        "requirements": ">= 0"
       },
       {
         "name": "shawty-server",
@@ -13533,6 +13764,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "vaquero-daemon",
+        "requirements": ">= 0"
+      },
+      {
         "name": "velocity",
         "requirements": ">= 0"
       },
@@ -13649,14 +13884,20 @@
   "pg_advisory_locker": {
     "version": "1.1.0",
     "dependents": [
-
+      {
+        "name": "fiksu-af",
+        "requirements": ">= 0.9.0"
+      }
     ],
     "description": "This gem provides a module that, when included in your ActiveRecord model, provides methods to acquire and release advisory locks for PostgreSQL connections."
   },
   "pg_application_name": {
     "version": "1.2.0",
     "dependents": [
-
+      {
+        "name": "fiksu-af",
+        "requirements": ">= 1.0.0"
+      }
     ],
     "description": "This gem stamps an identification mark on the postgres database connection using the postgres connection variable 'application_name'. Such a stamp can be viewed in pg_stat_activity."
   },
@@ -13670,6 +13911,10 @@
   "pg_array_parser": {
     "version": "unknown",
     "dependents": [
+      {
+        "name": "activerecord-postgis-array",
+        "requirements": "~> 0.0.8"
+      },
       {
         "name": "postgres_ext",
         "requirements": "~> 0.0.9"
@@ -13719,7 +13964,7 @@
     "description": "Fast AR/PostgreSQL csv export. Used pg function 'copy to csv'. Effective on millions rows."
   },
   "pg_data_encoder": {
-    "version": "0.0.2",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -13837,7 +14082,7 @@
     "version": "1.0.1",
     "dependents": [
       {
-        "name": "conjur-asset-deployment-api",
+        "name": "conjur-asset-environment-api",
         "requirements": ">= 0"
       },
       {
@@ -13845,11 +14090,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-environment-api",
+        "name": "conjur-asset-key-pair-api",
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-key-pair-api",
+        "name": "conjur-asset-deployment-api",
         "requirements": ">= 0"
       },
       {
@@ -13914,6 +14159,13 @@
 
     ],
     "description": "PostgreSQL full text search using Rails 3 scopes"
+  },
+  "pg_searchable": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Simple ActiveRecord PostgreSQL full text backed by Arel"
   },
   "pg_sequencer": {
     "version": "0.0.2",
@@ -14005,6 +14257,13 @@
     ],
     "description": "The Rails gem shows the output, in your application logs,  of applying \"Explain\" or \"Explain Analyze\" to the select queries of your rails application."
   },
+  "pgh_studio_game": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "This is the readme for this gem."
+  },
   "pgjob": {
     "version": "0.1.1",
     "dependents": [
@@ -14020,7 +14279,7 @@
     "description": "A description of your project"
   },
   "pgmodelgen": {
-    "version": "0.4.8",
+    "version": "0.5.3",
     "dependents": [
 
     ],
@@ -14032,6 +14291,13 @@
 
     ],
     "description": "Monitor pg connections on a postgres server"
+  },
+  "pgn": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "A PGN parser and FEN generator for Ruby"
   },
   "pgpass": {
     "version": "2012.01.18",
@@ -14072,7 +14338,7 @@
     "description": "This gem includes the pGrid libary to your project."
   },
   "pgsql": {
-    "version": "1.0",
+    "version": "1.2",
     "dependents": [
 
     ],
@@ -14100,7 +14366,7 @@
     "description": "Yet a another dead-link checker."
   },
   "phantom-manager": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -14121,7 +14387,7 @@
     "description": "This is a phantomjs Proxy client"
   },
   "phantom_forms": {
-    "version": "0.1.6",
+    "version": "0.1.8",
     "dependents": [
       {
         "name": "phantom_nested_forms",
@@ -14138,11 +14404,11 @@
     "description": "PhantomGraph helps complex process to generate javascript charts to image or pdf without requesting or rendering view to the application. PhantomGraph is pure server-side process by using phantomjs and suitable for background process. It is lighweight solution for wkhtmltopdf alternative."
   },
   "phantom_helpers": {
-    "version": "0.0.7",
+    "version": "0.10.0",
     "dependents": [
       {
         "name": "phantom_forms",
-        "requirements": "~> 0.0.6"
+        "requirements": ">= 0"
       }
     ],
     "description": "rails helpers for bootstrap 3"
@@ -14162,7 +14428,7 @@
     "description": "Ruby Wrapper for Phantomjs with a Browser API"
   },
   "phantom_nested_forms": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -14222,6 +14488,10 @@
     "version": "1.8.1.1",
     "dependents": [
       {
+        "name": "capture_image",
+        "requirements": "~> 1.8.1"
+      },
+      {
         "name": "phantom_jasmine",
         "requirements": ">= 1.8.1.0"
       },
@@ -14269,7 +14539,7 @@
     "description": "phantomjs binaries for mac"
   },
   "phantomjs.rb": {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "inboxer",
@@ -14287,7 +14557,7 @@
     "description": "Ruby wrapper for phantomjs"
   },
   "phantompdf": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -14422,12 +14692,19 @@
     ],
     "description": "Rails integration of phenomenal"
   },
-  "phidgets": {
-    "version": "0.0.5",
+  "phg_sudoku_solver": {
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "Phidgets are a set of \"plug and play\" building blocks for low cost USB sensing and control from your PC.\nThis gem provides a ruby interface to the phidgets library."
+    "description": "A simple sudoku solving utility that uses two dimensional arrays and recursion."
+  },
+  "phidgets": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Phidgets are a set of \"plug and play\" building blocks for low cost USB sensing and control from your PC. This gem provides a ruby interface to the phidgets library."
   },
   "phidgets-ffi": {
     "version": "0.1.2",
@@ -14484,6 +14761,13 @@
 
     ],
     "description": "The phirl.com gem is work-in-progress"
+  },
+  "phish_dot_net_client": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Calls any Phish.net API method. Supports authentication. Parses 'setlistdata' fields."
   },
   "phishtank": {
     "version": "0.1.2",
@@ -14555,11 +14839,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "http_router_sinatra",
+        "name": "http_router",
         "requirements": ">= 0"
       },
       {
-        "name": "http_router",
+        "name": "http_router_sinatra",
         "requirements": ">= 0"
       },
       {
@@ -14671,7 +14955,7 @@
     "description": "Export a rails single page app as a Phonegap project"
   },
   "phonelib": {
-    "version": "0.2.1",
+    "version": "0.2.4",
     "dependents": [
 
     ],
@@ -14791,16 +15075,16 @@
         "requirements": "~> 1.8"
       },
       {
-        "name": "phony_number",
-        "requirements": "~> 1.6.7"
-      },
-      {
         "name": "phony_attribute",
         "requirements": "~> 1.9.0"
       },
       {
         "name": "phony_rails",
         "requirements": ">= 1.7.7"
+      },
+      {
+        "name": "phony_number",
+        "requirements": "~> 1.6.7"
       },
       {
         "name": "rails_admin_phone_number_field",
@@ -15030,11 +15314,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knjrbfw",
+        "name": "knjappserver",
         "requirements": ">= 0"
       },
       {
-        "name": "knjappserver",
+        "name": "knjrbfw",
         "requirements": ">= 0"
       },
       {
@@ -15181,7 +15465,7 @@
     "description": "A simple command line deployment utility"
   },
   "phrase": {
-    "version": "0.4.16",
+    "version": "0.4.17",
     "dependents": [
       {
         "name": "motion-phrase",
@@ -15210,6 +15494,13 @@
 
     ],
     "description": "Match phrases in text and replace them efficiently across thousands of different terms."
+  },
+  "phrasing": {
+    "version": "2.1.2",
+    "dependents": [
+
+    ],
+    "description": "Phrasing!"
   },
   "phrk": {
     "version": "0.0.0",
@@ -15292,7 +15583,7 @@
     "version": "1.3.2",
     "dependents": [
       {
-        "name": "artoo-raspi",
+        "name": "whipped-cream",
         "requirements": ">= 0"
       }
     ],
@@ -15304,6 +15595,13 @@
 
     ],
     "description": "Use Ruby to talk to a bunch of sensors with your Raspberry Pi."
+  },
+  "pi_wire": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Ruby bindings to WiringPi"
   },
   "piano": {
     "version": "0.12.0",
@@ -15435,7 +15733,7 @@
     "description": "Creates customizable configuration files"
   },
   "pickadate-rails": {
-    "version": "1.2.2",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -15598,6 +15896,13 @@
     ],
     "description": "Pickup helps you to pick item from collection by it's weight/probability"
   },
+  "pickup_line": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Parsing dates out of short form updates"
+  },
   "picky": {
     "version": "4.19.1",
     "dependents": [
@@ -15616,11 +15921,11 @@
     "version": "4.19.1",
     "dependents": [
       {
-        "name": "picky",
+        "name": "picky-generators",
         "requirements": "~> 4.19.1"
       },
       {
-        "name": "picky-generators",
+        "name": "picky",
         "requirements": "~> 4.19.1"
       }
     ],
@@ -15806,7 +16111,7 @@
     "description": "Ruby wrapper for submitting virtual tours to Realtor.com using the PicturePath AUI."
   },
   "piculet": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -15863,6 +16168,13 @@
       }
     ],
     "description": "Pidly is a very minimalistic daemon library that doesnt make assumptions. Pidly allows you to control the daemon without getting in the way with forced verbose output and usage messages."
+  },
+  "pidof": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "A simple gem to find the pid of a process"
   },
   "pie": {
     "version": "0.2.13",
@@ -16301,7 +16613,7 @@
     "description": "a simple way to add the pin it button to sites"
   },
   "pin-payments": {
-    "version": "1.2.1",
+    "version": "1.3",
     "dependents": [
 
     ],
@@ -16499,6 +16811,13 @@
     ],
     "description": "Pause/unpause a Pingdom service from Capistrano"
   },
+  "pingdom-ruby": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "Pingdom Ruby Client"
+  },
   "pingdom-to-graphite": {
     "version": "0.0.6",
     "dependents": [
@@ -16580,7 +16899,7 @@
     "description": "pingr-rails is a rails plugin for accessing the Pingdom API using Pingr"
   },
   "pinion": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -16699,7 +17018,7 @@
     "description": "You can write like (T)RPG dice (e.g. 2D6, 3D20), and get result."
   },
   "pio": {
-    "version": "0.2.4",
+    "version": "0.2.6",
     "dependents": [
       {
         "name": "trema",
@@ -16708,8 +17027,15 @@
     ],
     "description": "Pure ruby packet parser and generator."
   },
+  "piola": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "String extensions and quality of life methods"
+  },
   "pione": {
-    "version": "0.2.2",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -16850,6 +17176,13 @@
 
     ],
     "description": "A pipe takes an object and a block which contains methods to call on the object in sequence."
+  },
+  "pipely": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Generate dependency graphs from pipeline definitions."
   },
   "pipemaster": {
     "version": "0.5.2",
@@ -17196,7 +17529,7 @@
     "description": "Pivot - the delivery mechanism agnostic development framework for Ruby"
   },
   "pivot_table": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -17293,12 +17626,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "git-pivotal-tracker",
-        "requirements": ">= 0"
-      },
-      {
         "name": "git-pivotal",
         "requirements": "~> 0.3.1"
+      },
+      {
+        "name": "git-pivotal-tracker",
+        "requirements": ">= 0"
       },
       {
         "name": "git-pivotal-tracker-integration",
@@ -17317,11 +17650,11 @@
         "requirements": "= 0.5.8"
       },
       {
-        "name": "git_pivotal_tracker",
+        "name": "git_pivotal_tracker_x",
         "requirements": ">= 0"
       },
       {
-        "name": "git_pivotal_tracker_x",
+        "name": "git_pivotal_tracker",
         "requirements": ">= 0"
       },
       {
@@ -17357,23 +17690,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pivotal-stories",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pivotal-tracker-speedchart",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pivotal_butler",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pivotal_angel",
         "requirements": "~> 0.5"
       },
       {
-        "name": "pivotal_reporter",
+        "name": "pivotal_butler",
         "requirements": ">= 0"
       },
       {
@@ -17383,6 +17704,18 @@
       {
         "name": "pivotal_doc",
         "requirements": ">= 0.2.1"
+      },
+      {
+        "name": "pivotal-stories",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pivotal-tracker-speedchart",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pivotal_reporter",
+        "requirements": ">= 0"
       },
       {
         "name": "pivotal_reporting",
@@ -17397,12 +17730,12 @@
         "requirements": "~> 0.4.1"
       },
       {
-        "name": "pt-flow",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pt",
         "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "pt-flow",
+        "requirements": ">= 0"
       },
       {
         "name": "pt_logger",
@@ -17429,6 +17762,10 @@
         "requirements": "~> 0.5.3"
       },
       {
+        "name": "tracker-git",
+        "requirements": ">= 0.5.10"
+      },
+      {
         "name": "tracker-ical",
         "requirements": ">= 0.2.0"
       },
@@ -17439,10 +17776,6 @@
       {
         "name": "tracker_custom_points",
         "requirements": ">= 0"
-      },
-      {
-        "name": "tracker-git",
-        "requirements": ">= 0.5.10"
       },
       {
         "name": "uat_director",
@@ -17458,6 +17791,13 @@
       }
     ],
     "description": "Ruby wrapper for the Pivotal Tracker API"
+  },
+  "pivotal-tracker-api": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A ruby gem to communicate with the Picotal Tracker API v5"
   },
   "pivotal-tracker-client": {
     "version": "0.2.0",
@@ -17676,7 +18016,7 @@
     "description": "Makes life sweeter - or so I thought"
   },
   "pixelforce_cms": {
-    "version": "0.6",
+    "version": "0.7",
     "dependents": [
 
     ],
@@ -17728,7 +18068,7 @@
     "description": "A client library for pixiv"
   },
   "pixlee": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -17796,13 +18136,6 @@
 
     ],
     "description": "PJAX integration for Rails 3.1+"
-  },
-  "pjax-rails-for-ruby-18": {
-    "version": "0.1.4",
-    "dependents": [
-
-    ],
-    "description": "A port of pjax-rails to Ruby 1.8"
   },
   "pjax_rails": {
     "version": "0.3.4",
@@ -17948,6 +18281,13 @@
     ],
     "description": "A fast way to summarize installed versions of FreeBSD packages."
   },
+  "pkghub-api": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Gem for accessing the pkghub.io API"
+  },
   "pkglookup": {
     "version": "0.1.1",
     "dependents": [
@@ -17956,11 +18296,18 @@
     "description": "Packages lookup\n\nLooks up packages on PyPI, CPAN, RubyGems, NPM, Maven Central, Clojars, GitHub, Bitbucket, Ubuntu, Arch User Repository, FreeBSD ports, Fedora and Homebrew.\n\nThis is a command line client for the pkglookup http://labs.floatboth.com/pkglookup/"
   },
   "pkgr": {
-    "version": "0.3.4",
+    "version": "1.1.0",
     "dependents": [
 
     ],
-    "description": "Package your Rails apps as debian packages"
+    "description": "Package your Ruby & Rails apps as debian packages"
+  },
+  "pkgr-deb-s3": {
+    "version": "0.6.0",
+    "dependents": [
+
+    ],
+    "description": "Easily create and manage an APT repository on S3."
   },
   "pkgwat": {
     "version": "0.1.4",
@@ -17971,6 +18318,20 @@
       }
     ],
     "description": "pkgwat checks your Gemfile.lock to make sure all your gems\n                     are packaged in Fedora/EPEL. Eventually we hope to support\n                     Gemfiles and bundle list as well."
+  },
+  "pki": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Public Key Infrastructure"
+  },
+  "pkp_physics": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "PKP::Physics module; Uses 'Prior Knowledge' as needed."
   },
   "pl": {
     "version": "0.0.1",
@@ -18139,13 +18500,6 @@
     ],
     "description": "A Rack module that intercepts HTTP calls and sends profiling data to the Plaid server. For Rails (and not just Rails?)."
   },
-  "plain": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Static pages on Rails."
-  },
   "plain_http": {
     "version": "0.2",
     "dependents": [
@@ -18300,7 +18654,7 @@
     "description": "Handle credit, debit, bank and other cards."
   },
   "plastic_cup": {
-    "version": "0.0.2",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -18314,7 +18668,7 @@
     "description": "Decorator to help with the boilerplate of using Rails helpers. It gently wraps your classes to keep your views fresh."
   },
   "plataforma_social": {
-    "version": "0.0.23",
+    "version": "0.0.27",
     "dependents": [
 
     ],
@@ -18379,11 +18733,11 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "popen4",
+        "name": "POpen4",
         "requirements": ">= 0.4.0"
       },
       {
-        "name": "POpen4",
+        "name": "popen4",
         "requirements": ">= 0.4.0"
       },
       {
@@ -18537,6 +18891,13 @@
 
     ],
     "description": "partial mocks on rr"
+  },
+  "play_market": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Google Play In-App Purchase Receipt Verification"
   },
   "play_solder": {
     "version": "0.2.0",
@@ -19105,15 +19466,15 @@
         "requirements": "~> 3.1.0"
       },
       {
+        "name": "textpow19",
+        "requirements": ">= 3.0.1"
+      },
+      {
         "name": "textpow",
         "requirements": ">= 3.0.1"
       },
       {
         "name": "textpow1x",
-        "requirements": ">= 3.0.1"
-      },
-      {
-        "name": "textpow19",
         "requirements": ">= 3.0.1"
       },
       {
@@ -19135,6 +19496,10 @@
       {
         "name": "wox",
         "requirements": ">= 0"
+      },
+      {
+        "name": "wrapp",
+        "requirements": "~> 3.1"
       },
       {
         "name": "xcode",
@@ -19274,6 +19639,13 @@
 
     ],
     "description": "Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends."
+  },
+  "ploy": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "deployment"
   },
   "ploymorphic_wuid": {
     "version": "0.5.2",
@@ -19602,7 +19974,7 @@
     "description": "plupload for rails3 assets pipeline"
   },
   "plupload-rails": {
-    "version": "1.0.6",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "fullstack-admin",
@@ -19613,7 +19985,7 @@
         "requirements": "~> 1.0.6"
       }
     ],
-    "description": "This gem integrates Plupload 1.5.2 with the Rails 3.x asset pipeline."
+    "description": "This gem integrates Plupload 2.0.0 with the Rails asset pipeline."
   },
   "plupload-rails3": {
     "version": "0.0.7",
@@ -19741,14 +20113,14 @@
     "description": "A library that provides uncertainty and error propagation calculations for floats. It displays the appropriate number of digits when a number is outputted, can convert to latex using different formats."
   },
   "pluto": {
-    "version": "0.8.3",
+    "version": "0.9.0",
     "dependents": [
 
     ],
     "description": "pluto - Another Planet Generator (Lets You Build Web Pages from Published Web Feeds)"
   },
   "pluto-admin": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -19835,6 +20207,13 @@
     ],
     "description": "Yammer4R provides an object based API to query or update your Yammer account via pure Ruby.  It hides the ugly HTTP/REST code from your code."
   },
+  "pmp": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "Public Media Platform Ruby Gem"
+  },
   "pms": {
     "version": "0.0.5",
     "dependents": [
@@ -19915,11 +20294,11 @@
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "rbbt-marq",
+        "name": "rbbt-dm",
         "requirements": ">= 0"
       },
       {
-        "name": "rbbt-dm",
+        "name": "rbbt-marq",
         "requirements": ">= 0"
       }
     ],
@@ -19990,7 +20369,10 @@
   "pnotify-rails": {
     "version": "1.2.2",
     "dependents": [
-
+      {
+        "name": "bs-helper",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Pines Notify for Rails 3.1 Asset Pipeline"
   },
@@ -20067,7 +20449,7 @@
     "description": "pocketknife is a devops tool for managing computers running chef-solo, powered by Opscode Chef.\n\nUsing pocketknife, you create a project that describes the configuration of your computers and then deploy it to bring them to their intended state.\n\nWith pocketknife, you don't need to setup or manage a specialized chef-server node or rely on an unreliable network connection to a distant hosted service whose security you don't control, deal with managing chef's security keys, or deal with manually synchronizing data with the chef-server datastore.\n\nWith pocketknife, all of your cookbooks, roles and nodes are stored in easy-to-use files that you can edit, share, backup and version control with tools you already have.\n\nThis is modified to work with EC2Dream Fogviz but can also work stand alone. \n"
   },
   "pocketknife_puppet": {
-    "version": "0.1.10",
+    "version": "0.1.11",
     "dependents": [
       {
         "name": "ec2dream",
@@ -20142,7 +20524,14 @@
   "podio": {
     "version": "0.8.0",
     "dependents": [
-
+      {
+        "name": "rxcms-podio_plugin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rxcms-podio_plugin",
+        "requirements": ">= 0"
+      }
     ],
     "description": "The official Ruby wrapper for the Podio API used and maintained by the Podio team\n"
   },
@@ -20245,7 +20634,7 @@
     "description": "A Ruby gem for simplifying random password generation, password strength testing, password hashing and salting, and password-hash authentication."
   },
   "pogo": {
-    "version": "2.39.2.3",
+    "version": "2.39.2.4",
     "dependents": [
 
     ],
@@ -20286,7 +20675,7 @@
     "description": "A Ruby wrapper around the PogoPlug API"
   },
   "poi2csv": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -20413,6 +20802,13 @@
     ],
     "description": "The Official http://poked.me gem"
   },
+  "pokemon_zukan": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
+  },
   "poker": {
     "version": "0.0.1",
     "dependents": [
@@ -20494,7 +20890,7 @@
     "description": "A* pathfinding in Ruby, using C datastructures to speed things up."
   },
   "polarssl": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -20623,7 +21019,7 @@
     "description": "    Translates numbers to Polish words\n"
   },
   "polish_cell_number_checker": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -20685,7 +21081,7 @@
     "description": "Implementations of Poller and Probe as inspired by Steve Freeman and Nat Pryce in their GOOS book"
   },
   "poller-json": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -20823,6 +21219,10 @@
         "requirements": "= 1.1.0"
       },
       {
+        "name": "curate",
+        "requirements": ">= 0"
+      },
+      {
         "name": "daddy",
         "requirements": ">= 0"
       },
@@ -20839,15 +21239,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "easy_auth-github",
+        "requirements": ">= 0"
+      },
+      {
         "name": "easy_auth-google",
         "requirements": ">= 0"
       },
       {
         "name": "easy_auth-linked_in",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "easy_auth-github",
         "requirements": ">= 0"
       },
       {
@@ -20865,6 +21265,10 @@
       {
         "name": "focused_controller",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "gaku_core",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "guard-konacha",
@@ -20975,8 +21379,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redditor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "redis_dictionary",
         "requirements": ">= 0"
+      },
+      {
+        "name": "refinerycms-nested_models",
+        "requirements": "~> 1.4.1"
       },
       {
         "name": "roadkill",
@@ -21062,16 +21474,16 @@
         "requirements": "~> 0.5.0"
       },
       {
+        "name": "ransack_wrap",
+        "requirements": "~> 0.6.0"
+      },
+      {
         "name": "ransack",
         "requirements": "~> 0.6.0"
       },
       {
         "name": "ransack_ffcrm",
         "requirements": "~> 0.5.0"
-      },
-      {
-        "name": "ransack_wrap",
-        "requirements": "~> 0.6.0"
       },
       {
         "name": "squeel",
@@ -21298,6 +21710,13 @@
     ],
     "description": "Easily handle Google polylines"
   },
+  "polylog": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
+  },
   "polymap": {
     "version": "0.1.2",
     "dependents": [
@@ -21325,6 +21744,13 @@
 
     ],
     "description": "Dynamically generates aliases for polymorphic ActiveRecord associations based on their class names"
+  },
+  "polymorphic_integer_type": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Allows the *_type field in the DB to be an integer rather than a string"
   },
   "polymorphic_model": {
     "version": "0.0.7",
@@ -21478,14 +21904,14 @@
     "description": "polyrex-parser"
   },
   "polyrex-schema": {
-    "version": "0.1.9",
+    "version": "0.1.10",
     "dependents": [
       {
-        "name": "polyrex",
+        "name": "polyrex-createobject",
         "requirements": ">= 0"
       },
       {
-        "name": "polyrex-createobject",
+        "name": "polyrex",
         "requirements": ">= 0"
       }
     ],
@@ -21511,6 +21937,13 @@
 
     ],
     "description": "    A gem for internationalization (i18n) in a simple, palatable form.\n"
+  },
+  "polytag": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Provides really easy tagging for rails and ActiveRecord models"
   },
   "polytalk": {
     "version": "0.0.2",
@@ -21742,11 +22175,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chef-notifier",
+        "name": "chef-mail",
         "requirements": ">= 0"
       },
       {
-        "name": "chef-mail",
+        "name": "chef-notifier",
         "requirements": ">= 0"
       },
       {
@@ -21890,6 +22323,10 @@
         "requirements": ">= 1.0.0"
       },
       {
+        "name": "ruby_git_hooks",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rusen",
         "requirements": ">= 0"
       },
@@ -21975,6 +22412,13 @@
 
     ],
     "description": "  ORIGINAL SHOWOFF GEM DESCRIPTION\n  ShowOff is a Sinatra web app that reads simple configuration files for a\n  presentation.  It is sort of like a Keynote web app engine.  I am using it\n  to do all my talks in 2010, because I have a deep hatred in my heart for\n  Keynote and yet it is by far the best in the field.\n\n  The idea is that you setup your slide files in section subdirectories and\n  then startup the showoff server in that directory.  It will read in your\n  showoff.json file for which sections go in which order and then will give \n  you a URL to present from.\n"
+  },
+  "ponzi": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Simple connection manager"
   },
   "pool_balancing": {
     "version": "0.2.0",
@@ -22257,6 +22701,16 @@
     ],
     "description": "Open4 cross-platform"
   },
+  "poper": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "pronto-poper",
+        "requirements": "~> 0.0.1"
+      }
+    ],
+    "description": "Poper makes sure that your git commit messages are well-formed"
+  },
   "popfly": {
     "version": "0.4.0",
     "dependents": [
@@ -22272,7 +22726,7 @@
     "description": "A Ruby wrapper for the PopIt API"
   },
   "popme": {
-    "version": "0.2.1",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -22370,7 +22824,7 @@
     "description": "Populates your development database with fake data"
   },
   "populate-me": {
-    "version": "0.0.16",
+    "version": "0.0.18",
     "dependents": [
 
     ],
@@ -22430,7 +22884,7 @@
     "description": "The porch is for looking out at your YARD"
   },
   "porcupine": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -22470,6 +22924,13 @@
 
     ],
     "description": "Simple methods to make POROs more fun."
+  },
+  "poro_repository": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Library for storing plain old ruby objects to the file system"
   },
   "porpoise_external_actions": {
     "version": "0.0.1",
@@ -22559,7 +23020,7 @@
     "description": "Send all messages that you want in any protocol, its ready to send mail messages, twitts and sms with the apropiate gateway"
   },
   "porter": {
-    "version": "1.2.3",
+    "version": "1.2.4",
     "dependents": [
 
     ],
@@ -22604,11 +23065,11 @@
     "version": "0.0.2",
     "dependents": [
       {
-        "name": "porth-kml",
+        "name": "porth-plist",
         "requirements": ">= 0"
       },
       {
-        "name": "porth-plist",
+        "name": "porth-kml",
         "requirements": ">= 0"
       }
     ],
@@ -22824,6 +23285,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cjk-subsetter",
+        "requirements": "~> 0.3.6"
+      },
+      {
         "name": "create_table",
         "requirements": ">= 0"
       },
@@ -22856,12 +23321,12 @@
         "requirements": "~> 0.3.6"
       },
       {
-        "name": "em-process-buffer",
-        "requirements": "~> 0.3.6"
-      },
-      {
         "name": "em-proxy",
         "requirements": ">= 0"
+      },
+      {
+        "name": "em-process-buffer",
+        "requirements": "~> 0.3.6"
       },
       {
         "name": "em-systemcommand",
@@ -22952,11 +23417,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "RTFMd",
+        "name": "rtfmd",
         "requirements": "~> 0.3.0"
       },
       {
-        "name": "rtfmd",
+        "name": "RTFMd",
         "requirements": "~> 0.3.0"
       },
       {
@@ -23121,6 +23586,13 @@
 
     ],
     "description": "some description from Bar.foo"
+  },
+  "post_json": {
+    "version": "1.0.6",
+    "dependents": [
+
+    ],
+    "description": "Great Document Database by combining features of Ruby, ActiveRecord and PostgreSQL with PLV8"
   },
   "post_logs": {
     "version": "0.0.1",
@@ -23696,6 +24168,13 @@
     ],
     "description": "Posty Command Line Tool"
   },
+  "posty_client": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "A library and a command line tool to use the post api."
+  },
   "pot": {
     "version": "0.1.0",
     "dependents": [
@@ -23787,16 +24266,12 @@
     "version": "0.1.4",
     "dependents": [
       {
-        "name": "poundie-last-tweet",
+        "name": "pounder",
         "requirements": ">= 0"
       },
       {
         "name": "poundie-ffm",
         "requirements": ">= 0.0.3"
-      },
-      {
-        "name": "pounder",
-        "requirements": ">= 0"
       },
       {
         "name": "poundie-pic",
@@ -23807,11 +24282,15 @@
         "requirements": ">= 0.0.3"
       },
       {
+        "name": "poundie-wikipedia",
+        "requirements": ">= 0.0.3"
+      },
+      {
         "name": "poundie-urban-dictionary",
         "requirements": ">= 0.0.3"
       },
       {
-        "name": "poundie-wikipedia",
+        "name": "poundie-wozzeck",
         "requirements": ">= 0.0.3"
       },
       {
@@ -23819,8 +24298,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "poundie-wozzeck",
-        "requirements": ">= 0.0.3"
+        "name": "poundie-last-tweet",
+        "requirements": ">= 0"
       }
     ],
     "description": "Uses plugins to interact with campfire rooms"
@@ -24003,11 +24482,11 @@
     "description": "Power Enum allows you to treat instances of your ActiveRecord models as though they were an enumeration of values.\nIt allows you to cleanly solve many of the problems that the traditional Rails alternatives handle poorly if at all.\nIt is particularly suitable for scenarios where your Rails application is not the only user of the database, such as\nwhen it's used for analytics or reporting.\n"
   },
   "power_resource": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "Power up your RESTful resources!"
+    "description": "Power up RESTful resources!"
   },
   "power_reviews": {
     "version": "0.3.1",
@@ -24320,7 +24799,7 @@
     "description": "Pretty print JSON strings by piping or passing them as arguments, without reordering your keys"
   },
   "ppl": {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "dependents": [
 
     ],
@@ -24380,6 +24859,10 @@
         "requirements": "~> 2.0.2"
       },
       {
+        "name": "quartz_torrent",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "shortest_path",
         "requirements": ">= 0"
       }
@@ -24394,7 +24877,7 @@
     "description": "Form and Presenter libraries for interfacing the public with Rails"
   },
   "pr-changelog": {
-    "version": "0.1.6",
+    "version": "0.1.10",
     "dependents": [
 
     ],
@@ -24677,20 +25160,20 @@
         "requirements": "= 1.0.0.rc1"
       },
       {
-        "name": "features2cards",
-        "requirements": ">= 0"
-      },
-      {
         "name": "features_report",
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "gambas",
+        "name": "features2cards",
         "requirements": ">= 0"
       },
       {
         "name": "gambas_image",
         "requirements": "~> 1.0.0.rc1"
+      },
+      {
+        "name": "gambas",
+        "requirements": ">= 0"
       },
       {
         "name": "gost_frames",
@@ -24769,6 +25252,10 @@
         "requirements": ">= 0.0.21"
       },
       {
+        "name": "nsf",
+        "requirements": ">= 0.0.0"
+      },
+      {
         "name": "open-ship",
         "requirements": ">= 0.11.1"
       },
@@ -24793,12 +25280,12 @@
         "requirements": "~> 0.12.0"
       },
       {
-        "name": "pivotalprinter",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pivotal_to_pdf",
         "requirements": "= 0.12.0"
+      },
+      {
+        "name": "pivotalprinter",
+        "requirements": ">= 0"
       },
       {
         "name": "prawml",
@@ -24817,10 +25304,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "prawn-graph",
-        "requirements": ">= 0"
-      },
-      {
         "name": "prawn-labels",
         "requirements": ">= 0.12.0"
       },
@@ -24829,7 +25312,11 @@
         "requirements": "~> 0.12.0"
       },
       {
-        "name": "prawn-rails",
+        "name": "prawn-graph",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "prawn-qr",
         "requirements": ">= 0"
       },
       {
@@ -24837,7 +25324,7 @@
         "requirements": ">= 0.11.1, <= 0.13"
       },
       {
-        "name": "prawn-qr",
+        "name": "prawn-rails",
         "requirements": ">= 0"
       },
       {
@@ -24853,6 +25340,14 @@
         "requirements": ">= 0.8.4"
       },
       {
+        "name": "prawn_charts",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "prawn_oval_text",
+        "requirements": ">= 0.11.1"
+      },
+      {
         "name": "prawn_cocktail",
         "requirements": ">= 0"
       },
@@ -24865,15 +25360,7 @@
         "requirements": "~> 0.12"
       },
       {
-        "name": "prawn_charts",
-        "requirements": ">= 0"
-      },
-      {
         "name": "prawn_rails",
-        "requirements": ">= 0.11.1"
-      },
-      {
-        "name": "prawn_oval_text",
         "requirements": ">= 0.11.1"
       },
       {
@@ -24885,12 +25372,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "prawnto_2",
-        "requirements": ">= 0.6.0"
-      },
-      {
         "name": "prawntocat",
         "requirements": ">= 0"
+      },
+      {
+        "name": "prawnto_2",
+        "requirements": ">= 0.6.0"
       },
       {
         "name": "qhandout",
@@ -24898,7 +25385,7 @@
       },
       {
         "name": "query_report",
-        "requirements": ">= 0"
+        "requirements": "~> 1.0.0.rc2"
       },
       {
         "name": "rbinvoice",
@@ -25018,12 +25505,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "prawn-format",
-        "requirements": ">= 0"
-      },
-      {
         "name": "prawn-js",
         "requirements": ">= 0.6.1"
+      },
+      {
+        "name": "prawn-format",
+        "requirements": ">= 0"
       },
       {
         "name": "rtt",
@@ -25160,7 +25647,7 @@
     "description": "Prawn itself provides only linear and radial gradients. This is the more advanced shadings that PDF spec defines."
   },
   "prawn-svg": {
-    "version": "0.12.0.7",
+    "version": "0.12.0.8",
     "dependents": [
       {
         "name": "payday",
@@ -25285,7 +25772,7 @@
     "description": "a simple aop just for adding pre action before selected methods in class"
   },
   "pre-commit": {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "dependents": [
 
     ],
@@ -25689,11 +26176,11 @@
         "requirements": "~> 1.7.3"
       },
       {
-        "name": "premailer-rails3",
+        "name": "premailer-rails",
         "requirements": "~> 1.7"
       },
       {
-        "name": "premailer-rails",
+        "name": "premailer-rails3",
         "requirements": "~> 1.7"
       },
       {
@@ -25744,7 +26231,7 @@
     "description": "This gem brings you the power of the premailer gem to Rails\n                     without any configuration needs. Create HTML emails,\n                     include a CSS file as you do in a normal HTML document and\n                     premailer will inline the included CSS."
   },
   "prenus": {
-    "version": "0.0.9",
+    "version": "0.0.12",
     "dependents": [
 
     ],
@@ -25813,6 +26300,13 @@
     ],
     "description": "This gem supports posting and listing sites on Posterous"
   },
+  "prepp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Simplified SSH provisioning"
+  },
   "prepro": {
     "version": "0.1.5",
     "dependents": [
@@ -25835,7 +26329,7 @@
     "description": "Prequel is the database library I've always wanted."
   },
   "prerender_rails": {
-    "version": "0.0.4",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -26005,6 +26499,13 @@
     ],
     "description": "Generates new gem skeletons faster than the speed of rice!\n  That is, assuming that you want to use bundler for gem management, rake for task management,\n  rspec for testing, and yard for documentation."
   },
+  "presto": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Process images with one simple command"
+  },
   "prestoscript": {
     "version": "0.0.1",
     "dependents": [
@@ -26072,7 +26573,7 @@
     "description": "A command line tool to clean up chat logs."
   },
   "pretty_debug": {
-    "version": "0.3.17",
+    "version": "0.4.9",
     "dependents": [
 
     ],
@@ -26233,6 +26734,20 @@
 
     ],
     "description": "cli tool for pretty printing"
+  },
+  "prettys": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Colorful inspector for Ruby objects."
+  },
+  "prettyusers": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Generate pretty users for your tests"
   },
   "prevent_blankification_validator": {
     "version": "0.1.0",
@@ -26439,6 +26954,13 @@
     ],
     "description": "Test primes faster than Ruby's default methods by using the Miller-Rabin method."
   },
+  "prime_table": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Prints a multiplication table of prime numbers"
+  },
   "primehosting": {
     "version": "0.0.2",
     "dependents": [
@@ -26499,7 +27021,7 @@
     "description": "A mail merge for developers."
   },
   "princely": {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "dependents": [
 
     ],
@@ -26702,7 +27224,7 @@
     "description": "this module can find privacy data from text data. Try PrivacyMaskTools::Base.has_mobile_number?(\"<Text Data>\")"
   },
   "privacy_setting": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -26980,6 +27502,13 @@
     ],
     "description": "Procedural interface to ActiveRecord transactions."
   },
+  "procemon": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "This is a collection of my Ruby Procs in the adventure of becoming the best! In short this provides extra tools in Application configs, argumens processing,daemonise, eval,port check, require relative files, or directories, string to duck parsing, system tmp_dir using, meta-programing, and a lot of monkey patch for extra functionality "
+  },
   "process-builder": {
     "version": "1.0.1",
     "dependents": [
@@ -27190,6 +27719,13 @@
 
     ],
     "description": "Wrap a daemon process start/stop for testing"
+  },
+  "procfile-upstart-exporter": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Export Procfile entries to Upstart jobs."
   },
   "procfile_split": {
     "version": "0.1.2",
@@ -27488,7 +28024,7 @@
     "description": "Progenitor is a lightweight gem for building factories, especially useful for testing, but\n                     there is no reason why it can't be used in application code.  Unlike Factory Girl, Progenitor\n                     makes no assumption that products are instances of ActiveRecord::Base - it can be used to produce                     objects of any type."
   },
   "program-tv": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -27706,16 +28242,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bio-ngs",
-        "requirements": ">= 0.9.0"
-      },
-      {
-        "name": "bio-ngs",
-        "requirements": ">= 0.9.0"
-      },
-      {
         "name": "bio-kmer_counter",
         "requirements": ">= 0.11.0"
+      },
+      {
+        "name": "bio-ngs",
+        "requirements": ">= 0.9.0"
+      },
+      {
+        "name": "bio-ngs",
+        "requirements": ">= 0.9.0"
       },
       {
         "name": "bitclust-core",
@@ -27743,6 +28279,10 @@
       },
       {
         "name": "capistrano-transfer_progress",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "checksum-tools",
         "requirements": ">= 0"
       },
       {
@@ -27818,6 +28358,10 @@
         "requirements": "= 0.12.0"
       },
       {
+        "name": "futurocube",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fuubar-legacy",
         "requirements": "~> 0.11"
       },
@@ -27834,11 +28378,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "git_friendly_dumper",
+        "name": "git_fame",
         "requirements": ">= 0"
       },
       {
-        "name": "git_fame",
+        "name": "git_friendly_dumper",
         "requirements": ">= 0"
       },
       {
@@ -27878,11 +28422,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mechanize-progressbar",
+        "name": "mechanize-downloader",
         "requirements": ">= 0.9.0"
       },
       {
-        "name": "mechanize-downloader",
+        "name": "mechanize-progressbar",
         "requirements": ">= 0.9.0"
       },
       {
@@ -28092,14 +28636,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "timer",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "timer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ymdp",
         "requirements": ">= 0"
       },
@@ -28221,6 +28757,13 @@
 
     ],
     "description": "api ticket checker"
+  },
+  "project_group": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "project_group"
   },
   "project_honeypot": {
     "version": "0.3.1",
@@ -28406,11 +28949,18 @@
     "description": "    A glimpse of a promising future in which Ruby supports delayed execution.\n    Provides global 'promise' and 'future' methods.\n"
   },
   "promise.rb": {
-    "version": "0.1.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "Promises/A+ for Ruby"
+  },
+  "promotion": {
+    "version": "1.4.7",
+    "dependents": [
+
+    ],
+    "description": "\t\tThe Promotion tool is designed to make it easy and quick to deploy an application\n\t\tinto production. Originally built for use with OpenBSD, it can be used on an *nix\n\t\tsystem by adjusting a few paths (in config.rb).\n\n\t\tTo deploy or install an application you just need to copy a few files into place, right?\n\t\tWell, the folders need to be there first of course, oh and the permissions need to be set,\n\t\tand I guess we need the right users set up before file ownerships can be set correctly,\n\t\twhich means we need groups before that ... ok, so there is more to it than copying a few files.\n\n\t\tThere are also system-wide settings that may need to be modified to support an application,\n\t\tsuch as environment variables in /etc/profile, /etc/sudoers,\n\t\tstartup scripts in /etc/rc.conf.local, and /var/cron/tabs/* cron jobs.\n\n\t\tPromotion handles all of this based on an XML deployment descriptor for each application,\n\t\tallowing rapid, reliable redeployment with a single line command. It also manages database\n\t\tschema migration.\n"
   },
   "ProMotion": {
     "version": "1.0.4",
@@ -28420,26 +28970,19 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "ProMotion-map",
-        "requirements": ">= 0.4.1"
-      },
-      {
-        "name": "ProMotion-map",
-        "requirements": ">= 0.4.1"
-      },
-      {
         "name": "ProMotion-formotion",
+        "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "ProMotion-map",
+        "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "ProMotion-map",
         "requirements": ">= 0.4.1"
       }
     ],
     "description": "ProMotion is a new way to easily build RubyMotion iOS apps."
-  },
-  "promotion": {
-    "version": "1.4.5",
-    "dependents": [
-
-    ],
-    "description": "\t\tThe Promotion tool is designed to make it easy and quick to deploy an application\n\t\tinto production. Originally built for use with OpenBSD, it can be used on an *nix\n\t\tsystem by adjusting a few paths (in config.rb).\n\n\t\tTo deploy or install an application you just need to copy a few files into place, right?\n\t\tWell, the folders need to be there first of course, oh and the permissions need to be set,\n\t\tand I guess we need the right users set up before file ownerships can be set correctly,\n\t\twhich means we need groups before that ... ok, so there is more to it than copying a few files.\n\n\t\tThere are also system-wide settings that may need to be modified to support an application,\n\t\tsuch as environment variables in /etc/profile, /etc/sudoers,\n\t\tstartup scripts in /etc/rc.conf.local, and /var/cron/tabs/* cron jobs.\n\n\t\tPromotion handles all of this based on an XML deployment descriptor for each application,\n\t\tallowing rapid, reliable redeployment with a single line command. It also manages database\n\t\tschema migration.\n"
   },
   "ProMotion-formotion": {
     "version": "0.0.9",
@@ -28505,33 +29048,63 @@
     "description": "Helping provide useful information about words for machines"
   },
   "pronto": {
-    "version": "0.1.2",
+    "version": "0.2.2",
     "dependents": [
       {
-        "name": "pronto-rubocop",
-        "requirements": "~> 0.1.0"
+        "name": "pronto-brakeman",
+        "requirements": "~> 0.2.0"
       },
       {
         "name": "pronto-flay",
-        "requirements": "~> 0.1.0"
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "pronto-rails_best_practices",
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "pronto-poper",
+        "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "pronto-rubocop",
+        "requirements": "~> 0.2.0"
       }
     ],
     "description": "Pronto runs analysis quickly by checking only the introduced changes"
   },
+  "pronto-brakeman": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "Pronto runner for Brakeman, security vulnerability scanner for RoR"
+  },
   "pronto-flay": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "Pronto runner for Flay, structural similarities analyzer"
   },
-  "pronto-rubocop": {
-    "version": "0.1.1",
+  "pronto-poper": {
+    "version": "0.2.0",
     "dependents": [
-      {
-        "name": "pronto",
-        "requirements": "~> 0.1.0"
-      }
+
+    ],
+    "description": "Pronto runner for Poper, git commit message analyzer"
+  },
+  "pronto-rails_best_practices": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Pronto runner for Rails Best Practices, code metric tool for Rails projects"
+  },
+  "pronto-rubocop": {
+    "version": "0.2.0",
+    "dependents": [
+
     ],
     "description": "Pronto runner for Rubocop, ruby code analyzer"
   },
@@ -28598,8 +29171,15 @@
     ],
     "description": "Configuration/Setttings for Rails applications"
   },
+  "proper": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Pull request operations"
+  },
   "proper_active_record_uniqueness_validations": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -28641,7 +29221,7 @@
     "description": "A simple properties file API. Support for Java style properties file. The property files can contain references to other properties using the ${<key_name>} format. Access their values directly using p.prop_name."
   },
   "property": {
-    "version": "2.3.3",
+    "version": "2.3.4",
     "dependents": [
       {
         "name": "versions",
@@ -28690,7 +29270,7 @@
     "description": "A gem that interacts with the property management site propertysolutions.com"
   },
   "prophecy": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -28710,8 +29290,18 @@
     ],
     "description": "Use to generate HTML pages containing 'propositional writing' from the source code."
   },
+  "propono": {
+    "version": "0.6.3",
+    "dependents": [
+      {
+        "name": "pergo",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Pub / Sub Library using Amazon Web Services"
+  },
   "proposal": {
-    "version": "0.0.6",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -28806,7 +29396,7 @@
     "description": "Protected is a gem for rails that gives you user authorization, administration, auditing in a mountable Engine"
   },
   "protected_attributes": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "active_record_snapshot",
@@ -28859,6 +29449,10 @@
       {
         "name": "restpack_service",
         "requirements": "~> 1.0.3"
+      },
+      {
+        "name": "test_dummy",
+        "requirements": ">= 0"
       }
     ],
     "description": "Protect attributes from mass assignment"
@@ -28902,15 +29496,19 @@
     "description": "Protect records from being destroyed in a declarative way. Simply add 'protect_if :dont_delete, \"Record is marked as not deletable\"' to your ActiveRecord model. Your record will no be destroyed and the given message is added to the errors object."
   },
   "protector": {
-    "version": "0.6.4",
+    "version": "0.7.0",
     "dependents": [
-      {
-        "name": "protector-cancan",
-        "requirements": ">= 0.5.3"
-      },
       {
         "name": "protector-simple_form",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "protector-inherited_resources",
+        "requirements": ">= 0.6.4"
+      },
+      {
+        "name": "protector-cancan",
+        "requirements": ">= 0.5.3"
       }
     ],
     "description": "Comfortable (seriously) white-list security restrictions for models on a field level"
@@ -28921,6 +29519,13 @@
 
     ],
     "description": "Integration layer between Protector and CanCan"
+  },
+  "protector-inherited_resources": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Integration layer between Protector and Inherited Resources"
   },
   "protector-simple_form": {
     "version": "0.1.0",
@@ -29038,17 +29643,21 @@
       },
       {
         "name": "protobuf-activerecord",
-        "requirements": ">= 2.1.3"
+        "requirements": ">= 2.2.0"
       },
       {
         "name": "protobuf-rspec",
         "requirements": ">= 2.0"
+      },
+      {
+        "name": "smith",
+        "requirements": ">= 2.7.7"
       }
     ],
     "description": "Google Protocol Buffers serialization and RPC implementation for Ruby."
   },
   "protobuf-activerecord": {
-    "version": "2.1.0",
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -29182,14 +29791,14 @@
     ],
     "description": "Proton lets you create static websites from a bunch of files written in HAML, Textile, Sass, or any other templating language."
   },
-  "ProtonCouch": {
+  "protoncouch": {
     "version": "1.0",
     "dependents": [
 
     ],
     "description": "It's a simple and efficient CouchDB client written on Ruby. Current solutions like CouchRest are too heavy and have strange behaviour (like raising error when Resource not found). Also they can't manage many databases."
   },
-  "protoncouch": {
+  "ProtonCouch": {
     "version": "1.0",
     "dependents": [
 
@@ -29744,6 +30353,13 @@
     ],
     "description": "Adds a should_receive! method to rspec that actually calls the method instead of behaving like a true mock\n"
   },
+  "proxyreverse": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Reverse proxy your local web-server"
+  },
   "proxytest": {
     "version": "0.0.0",
     "dependents": [
@@ -29832,7 +30448,15 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "abstract_importer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "action-gmailer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "action_kit_rest",
         "requirements": ">= 0"
       },
       {
@@ -29841,6 +30465,10 @@
       },
       {
         "name": "activa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "active-component",
         "requirements": ">= 0"
       },
       {
@@ -29928,11 +30556,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "adequack",
+        "name": "adhearsion",
         "requirements": ">= 0"
       },
       {
-        "name": "adhearsion",
+        "name": "adequack",
         "requirements": ">= 0"
       },
       {
@@ -29964,6 +30592,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "airbadger",
+        "requirements": "~> 0.9"
+      },
+      {
         "name": "airbrake",
         "requirements": ">= 0"
       },
@@ -29988,11 +30620,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amee-data-abstraction",
+        "name": "amee",
         "requirements": ">= 0"
       },
       {
-        "name": "amee",
+        "name": "amee-data-abstraction",
         "requirements": ">= 0"
       },
       {
@@ -30028,11 +30660,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ansible-rails",
+        "name": "ansible-sse",
         "requirements": ">= 0"
       },
       {
-        "name": "ansible-sse",
+        "name": "ansible-rails",
         "requirements": ">= 0"
       },
       {
@@ -30040,11 +30672,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "apfel",
+        "name": "Apfel",
         "requirements": ">= 0"
       },
       {
-        "name": "Apfel",
+        "name": "apfel",
         "requirements": ">= 0"
       },
       {
@@ -30068,19 +30700,11 @@
         "requirements": "~> 0.9.12.2"
       },
       {
-        "name": "appsignal-moped",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "appsignal-redis",
-        "requirements": ">= 0"
-      },
-      {
         "name": "appshot",
         "requirements": ">= 0"
       },
       {
-        "name": "appsignal-mongo",
+        "name": "appsignal-moped",
         "requirements": ">= 0"
       },
       {
@@ -30089,6 +30713,14 @@
       },
       {
         "name": "appsignal",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "appsignal-redis",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "appsignal-mongo",
         "requirements": ">= 0"
       },
       {
@@ -30124,12 +30756,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "asin",
-        "requirements": "~> 0.9.9"
-      },
-      {
         "name": "asio",
         "requirements": ">= 0"
+      },
+      {
+        "name": "asin",
+        "requirements": "~> 0.9.9"
       },
       {
         "name": "aspector",
@@ -30182,6 +30814,10 @@
       {
         "name": "auto-gemsets",
         "requirements": ">= 0"
+      },
+      {
+        "name": "aviator_session_pool",
+        "requirements": "~> 0.9.0"
       },
       {
         "name": "aviator",
@@ -30252,7 +30888,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "baleen",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bandcampbx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "banking_data",
         "requirements": ">= 0"
       },
       {
@@ -30316,6 +30960,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bic_validation",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bickle",
         "requirements": "~> 0.9.10"
       },
@@ -30344,11 +30992,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bixby-common",
+        "name": "bixby-client",
         "requirements": ">= 0"
       },
       {
-        "name": "bixby-client",
+        "name": "bixby-common",
         "requirements": ">= 0"
       },
       {
@@ -30357,6 +31005,10 @@
       },
       {
         "name": "blobject",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "blogue",
         "requirements": ">= 0"
       },
       {
@@ -30388,11 +31040,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bootlace",
+        "name": "boot_polish",
         "requirements": ">= 0"
       },
       {
-        "name": "boot_polish",
+        "name": "bootlace",
         "requirements": ">= 0"
       },
       {
@@ -30420,19 +31072,19 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "brandmaker",
-        "requirements": ">= 0"
-      },
-      {
         "name": "braspag-pagador",
         "requirements": ">= 0"
       },
       {
-        "name": "brewery_db",
+        "name": "brandmaker",
         "requirements": ">= 0"
       },
       {
         "name": "brewery",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "brewery_db",
         "requirements": ">= 0"
       },
       {
@@ -30496,12 +31148,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cache_rocket",
+        "requirements": ">= 0.9"
+      },
+      {
         "name": "cache_replace",
         "requirements": ">= 0.9"
       },
       {
-        "name": "cache_rocket",
-        "requirements": ">= 0.9"
+        "name": "cacheable_delegator",
+        "requirements": ">= 0"
       },
       {
         "name": "cage",
@@ -30556,11 +31212,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "capybara-accessible",
+        "name": "capybara",
         "requirements": ">= 0"
       },
       {
-        "name": "capybara",
+        "name": "capybara-accessible",
         "requirements": ">= 0"
       },
       {
@@ -30572,11 +31228,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "careerjet-rb",
+        "name": "careerjet",
         "requirements": ">= 0"
       },
       {
-        "name": "careerjet",
+        "name": "careerjet-rb",
         "requirements": ">= 0"
       },
       {
@@ -30596,11 +31252,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "caseblocks_api",
+        "name": "case_insensitive_arel",
         "requirements": ">= 0"
       },
       {
-        "name": "case_insensitive_arel",
+        "name": "caseblocks_api",
         "requirements": ">= 0"
       },
       {
@@ -30668,6 +31324,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "chili",
+        "requirements": ">= 0"
+      },
+      {
         "name": "chorus",
         "requirements": ">= 0"
       },
@@ -30706,6 +31366,10 @@
       {
         "name": "clean_room",
         "requirements": ">= 0"
+      },
+      {
+        "name": "clever-ruby",
+        "requirements": "~> 0.9.9.6"
       },
       {
         "name": "cli_tool",
@@ -30776,11 +31440,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "coin_rack",
+        "name": "coin",
         "requirements": ">= 0"
       },
       {
-        "name": "coin",
+        "name": "coin_rack",
         "requirements": ">= 0"
       },
       {
@@ -30810,6 +31474,10 @@
       {
         "name": "composable_operations",
         "requirements": "~> 0.9.0"
+      },
+      {
+        "name": "conditional_messages",
+        "requirements": ">= 0"
       },
       {
         "name": "condi",
@@ -30849,6 +31517,10 @@
       },
       {
         "name": "coppola",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "couchbase-jruby-client",
         "requirements": ">= 0"
       },
       {
@@ -30924,15 +31596,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "custom_emails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "custom_fields",
         "requirements": ">= 0"
       },
       {
-        "name": "d3_rails",
+        "name": "cylons",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cylons",
         "requirements": ">= 0"
       },
       {
         "name": "d3api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "d3_rails",
         "requirements": ">= 0"
       },
       {
@@ -30941,6 +31625,10 @@
       },
       {
         "name": "Dahistory",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "daily_reporter",
         "requirements": ">= 0"
       },
       {
@@ -31020,6 +31708,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "deferred_exception",
+        "requirements": ">= 0"
+      },
+      {
         "name": "deflectable",
         "requirements": ">= 0"
       },
@@ -31036,16 +31728,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "denormalize-field",
+        "name": "denotificator",
         "requirements": ">= 0"
       },
       {
-        "name": "denotificator",
+        "name": "denormalize-field",
         "requirements": ">= 0"
       },
       {
         "name": "depot",
         "requirements": "~> 0.9"
+      },
+      {
+        "name": "descendants_describable",
+        "requirements": ">= 0"
       },
       {
         "name": "desi",
@@ -31056,11 +31752,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "devise_cas_authenticatable",
+        "name": "devise_bushido_authenticatable",
         "requirements": ">= 0"
       },
       {
-        "name": "devise_bushido_authenticatable",
+        "name": "devise_cas_authenticatable",
         "requirements": ">= 0"
       },
       {
@@ -31072,11 +31768,11 @@
         "requirements": "= 0.9.6.2"
       },
       {
-        "name": "Dex",
+        "name": "Dex_Rack",
         "requirements": ">= 0"
       },
       {
-        "name": "Dex_Rack",
+        "name": "Dex",
         "requirements": ">= 0"
       },
       {
@@ -31084,11 +31780,11 @@
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "digitalfilmtree-util",
+        "name": "digitalfilmtree",
         "requirements": ">= 0"
       },
       {
-        "name": "digitalfilmtree",
+        "name": "digitalfilmtree-util",
         "requirements": ">= 0"
       },
       {
@@ -31124,6 +31820,10 @@
         "requirements": ">= 0.9"
       },
       {
+        "name": "do-my-timecard",
+        "requirements": ">= 0"
+      },
+      {
         "name": "doc-thumbnailer",
         "requirements": ">= 0"
       },
@@ -31132,12 +31832,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "docker-api",
-        "requirements": ">= 0"
-      },
-      {
         "name": "dock_driver",
         "requirements": "~> 0.9.10"
+      },
+      {
+        "name": "docker-api",
+        "requirements": ">= 0"
       },
       {
         "name": "doctest-core",
@@ -31260,6 +31960,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ebx_deliver",
+        "requirements": "> 0"
+      },
+      {
         "name": "ebx",
         "requirements": "> 0"
       },
@@ -31316,15 +32020,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "elibri_onix_dict",
+        "requirements": ">= 0"
+      },
+      {
         "name": "elibri_api_client",
         "requirements": ">= 0"
       },
       {
         "name": "elibri_onix",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "elibri_onix_dict",
         "requirements": ">= 0"
       },
       {
@@ -31396,11 +32100,11 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
@@ -31417,6 +32121,10 @@
       },
       {
         "name": "ero_getter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "errbag",
         "requirements": ">= 0"
       },
       {
@@ -31452,11 +32160,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Exit_0",
+        "name": "Exit_Zero",
         "requirements": ">= 0"
       },
       {
-        "name": "Exit_Zero",
+        "name": "Exit_0",
         "requirements": ">= 0"
       },
       {
@@ -31492,11 +32200,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fabrication",
+        "name": "fabes",
         "requirements": ">= 0"
       },
       {
-        "name": "fabes",
+        "name": "fabrication",
         "requirements": ">= 0"
       },
       {
@@ -31508,6 +32216,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "faker-bloocher",
+        "requirements": ">= 0"
+      },
+      {
         "name": "faraday-conductivity",
         "requirements": ">= 0"
       },
@@ -31516,7 +32228,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "feature_creep-simple_strategy",
+        "name": "feature_creep",
         "requirements": "= 0.9.10"
       },
       {
@@ -31524,7 +32236,7 @@
         "requirements": "= 0.9.10"
       },
       {
-        "name": "feature_creep",
+        "name": "feature_creep-simple_strategy",
         "requirements": "= 0.9.10"
       },
       {
@@ -31572,15 +32284,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "first_giving_api",
-        "requirements": ">= 0"
-      },
-      {
         "name": "first_responder",
         "requirements": ">= 0"
       },
       {
+        "name": "first_giving_api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fix-steam-font",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fipe",
         "requirements": ">= 0"
       },
       {
@@ -31600,10 +32316,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-grepcounter",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fluent-plugin-grep",
         "requirements": ">= 0"
       },
@@ -31612,7 +32324,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fluent-plugin-grepcounter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fluent-plugin-hipchat",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fluent-plugin-idobata",
         "requirements": ">= 0"
       },
       {
@@ -31628,11 +32348,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-yohoushi",
+        "name": "fluent-plugin-xymon",
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-xymon",
+        "name": "fluent-plugin-yohoushi",
         "requirements": ">= 0"
       },
       {
@@ -31660,11 +32380,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-test-me",
+        "name": "fog-pry",
         "requirements": ">= 0"
       },
       {
         "name": "fog-test-again",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fog-test-me",
         "requirements": ">= 0"
       },
       {
@@ -31684,11 +32408,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "form_slider",
+        "name": "formal",
         "requirements": ">= 0"
       },
       {
-        "name": "formal",
+        "name": "form_slider",
         "requirements": ">= 0"
       },
       {
@@ -31700,11 +32424,11 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "forwarder2",
+        "name": "forwarder19",
         "requirements": "~> 0.9"
       },
       {
-        "name": "forwarder19",
+        "name": "forwarder2",
         "requirements": "~> 0.9"
       },
       {
@@ -31796,15 +32520,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gd_salesforce",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gd_bam",
         "requirements": ">= 0"
       },
       {
         "name": "gd_es",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gd_salesforce",
         "requirements": ">= 0"
       },
       {
@@ -31828,6 +32552,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gem_velocity",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gembank_client",
         "requirements": ">= 0"
       },
@@ -31836,11 +32564,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "geminabox-inflection",
+        "name": "geminabox-bootstrap",
         "requirements": ">= 0"
       },
       {
-        "name": "geminabox-bootstrap",
+        "name": "geminabox-inflection",
         "requirements": ">= 0"
       },
       {
@@ -31861,6 +32589,10 @@
       },
       {
         "name": "geoff",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "geometry-bgw",
         "requirements": ">= 0"
       },
       {
@@ -31948,6 +32680,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "github-archive",
+        "requirements": ">= 0"
+      },
+      {
         "name": "github-payload",
         "requirements": ">= 0"
       },
@@ -31972,11 +32708,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "glean",
+        "name": "glassmirror",
         "requirements": ">= 0"
       },
       {
-        "name": "glassmirror",
+        "name": "glean",
         "requirements": ">= 0"
       },
       {
@@ -31986,10 +32722,6 @@
       {
         "name": "glinda",
         "requirements": ">= 0"
-      },
-      {
-        "name": "gloader",
-        "requirements": "~> 0.9.12"
       },
       {
         "name": "glymour",
@@ -32056,12 +32788,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "grocer",
-        "requirements": "~> 0.9.8"
-      },
-      {
         "name": "grocer-pushpackager",
         "requirements": ">= 0"
+      },
+      {
+        "name": "grocer",
+        "requirements": "~> 0.9.8"
       },
       {
         "name": "groundhog",
@@ -32085,7 +32817,7 @@
       },
       {
         "name": "guard",
-        "requirements": ">= 0.9.10"
+        "requirements": ">= 0.9.12"
       },
       {
         "name": "guard-blink1",
@@ -32096,11 +32828,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-puma",
+        "name": "guard-process",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-process",
+        "name": "guard-puma",
         "requirements": ">= 0"
       },
       {
@@ -32264,19 +32996,19 @@
         "requirements": "~> 0.9.10"
       },
       {
-        "name": "hovercraft",
-        "requirements": ">= 0"
-      },
-      {
         "name": "how_slow",
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "hparser",
+        "name": "hovercraft",
         "requirements": ">= 0"
       },
       {
         "name": "hpfog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hparser",
         "requirements": ">= 0"
       },
       {
@@ -32308,11 +33040,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hungrytable-pjc",
+        "name": "hungrytable",
         "requirements": ">= 0"
       },
       {
-        "name": "hungrytable",
+        "name": "hungrytable-pjc",
         "requirements": ">= 0"
       },
       {
@@ -32408,11 +33140,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "infopark_dashboard",
+        "name": "infopark_kickstarter",
         "requirements": ">= 0"
       },
       {
-        "name": "infopark_kickstarter",
+        "name": "infopark_dashboard",
         "requirements": ">= 0"
       },
       {
@@ -32421,7 +33153,7 @@
       },
       {
         "name": "init",
-        "requirements": "~> 0.9.10"
+        "requirements": "~> 0.9.12.2"
       },
       {
         "name": "initialize_as_verbose",
@@ -32438,6 +33170,10 @@
       {
         "name": "insrc_devise_oauth2_providable",
         "requirements": "= 0.9.6.2"
+      },
+      {
+        "name": "inst_lti_twitter",
+        "requirements": ">= 0"
       },
       {
         "name": "instant",
@@ -32469,6 +33205,10 @@
       },
       {
         "name": "isotope11-suitcase",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "itext-jruby",
         "requirements": ">= 0"
       },
       {
@@ -32544,11 +33284,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "karotz",
+        "name": "karo",
         "requirements": ">= 0"
       },
       {
-        "name": "karo",
+        "name": "karotz",
         "requirements": ">= 0"
       },
       {
@@ -32561,6 +33301,10 @@
       },
       {
         "name": "kefka",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kensa",
         "requirements": ">= 0"
       },
       {
@@ -32596,11 +33340,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "konami-fo",
+        "name": "konamio",
         "requirements": ">= 0"
       },
       {
-        "name": "konamio",
+        "name": "konami-fo",
         "requirements": ">= 0"
       },
       {
@@ -32616,11 +33360,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lab419_options",
+        "name": "lab42_options",
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "lab42_core",
+        "name": "lab419_options",
         "requirements": "~> 0.9.12"
       },
       {
@@ -32628,15 +33372,19 @@
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "lab42_options",
+        "name": "lab42_core",
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "lab42_state_machine",
+        "name": "lab42_streams",
         "requirements": "~> 0.9.12"
       },
       {
         "name": "lab42_tmux",
+        "requirements": "~> 0.9.12"
+      },
+      {
+        "name": "lab42_state_machine",
         "requirements": "~> 0.9.12"
       },
       {
@@ -32688,19 +33436,23 @@
         "requirements": "~> 0.9.12"
       },
       {
+        "name": "lineage",
+        "requirements": ">= 0"
+      },
+      {
         "name": "linebreak",
-        "requirements": "~> 0.9.10"
+        "requirements": ">= 0"
       },
       {
         "name": "linebreak-cli",
         "requirements": "~> 0.9.10"
       },
       {
-        "name": "lineage",
+        "name": "linguist",
         "requirements": ">= 0"
       },
       {
-        "name": "linguist",
+        "name": "linkedin2",
         "requirements": ">= 0"
       },
       {
@@ -32708,11 +33460,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lipa-web",
+        "name": "lipa",
         "requirements": ">= 0"
       },
       {
-        "name": "lipa",
+        "name": "lipa-web",
         "requirements": ">= 0"
       },
       {
@@ -32724,11 +33476,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liszt",
+        "name": "lita",
         "requirements": ">= 0"
       },
       {
-        "name": "lita",
+        "name": "liszt",
         "requirements": ">= 0"
       },
       {
@@ -32752,11 +33504,11 @@
         "requirements": "~> 0.9.12.2"
       },
       {
-        "name": "lockpick",
+        "name": "lockitron",
         "requirements": ">= 0"
       },
       {
-        "name": "lockitron",
+        "name": "lockpick",
         "requirements": ">= 0"
       },
       {
@@ -32772,6 +33524,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lomadee",
+        "requirements": ">= 0"
+      },
+      {
         "name": "lookout-i18n-js",
         "requirements": ">= 0"
       },
@@ -32784,12 +33540,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "luhn-check",
-        "requirements": ">= 0"
-      },
-      {
         "name": "luggage",
         "requirements": "~> 0.9.10"
+      },
+      {
+        "name": "luhn-check",
+        "requirements": ">= 0"
       },
       {
         "name": "lxc",
@@ -32852,6 +33608,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "matross",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mdb",
         "requirements": ">= 0"
       },
@@ -32868,15 +33628,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "memo_rage",
-        "requirements": ">= 0"
-      },
-      {
         "name": "memo_tomato",
         "requirements": ">= 0"
       },
       {
-        "name": "mercadopago-sdk",
+        "name": "memo_rage",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "memory_model",
         "requirements": ">= 0"
       },
       {
@@ -32884,23 +33644,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "meta_module",
+        "name": "mercadopago-sdk",
         "requirements": ">= 0"
       },
       {
-        "name": "metacrunch-ubpb",
-        "requirements": "~> 0.9.12.2"
+        "name": "merchant_e_solutions",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "meta_module",
+        "requirements": ">= 0"
       },
       {
         "name": "metacrunch-mab",
         "requirements": "~> 0.9.12.2"
       },
       {
-        "name": "metasploit_data_models",
-        "requirements": ">= 0"
+        "name": "metacrunch-ubpb",
+        "requirements": "~> 0.9.12.2"
       },
       {
         "name": "metar-parser",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "metasploit_data_models",
         "requirements": ">= 0"
       },
       {
@@ -32909,6 +33677,10 @@
       },
       {
         "name": "Method_Name",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "metricize",
         "requirements": ">= 0"
       },
       {
@@ -32968,6 +33740,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mlanett-i18n-js",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mn_client",
         "requirements": ">= 0"
       },
@@ -32976,11 +33752,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
+        "name": "mobvious",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious",
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
@@ -33068,15 +33844,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "multi_bit_field",
-        "requirements": ">= 0"
-      },
-      {
         "name": "multi-step",
         "requirements": ">= 0"
       },
       {
+        "name": "multi_bit_field",
+        "requirements": ">= 0"
+      },
+      {
         "name": "multiforecast-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mundane",
         "requirements": ">= 0"
       },
       {
@@ -33156,15 +33936,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "netlinx-workspace",
-        "requirements": ">= 0"
-      },
-      {
         "name": "netlinx-compile",
         "requirements": ">= 0"
       },
       {
         "name": "netl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "netlinx-workspace",
         "requirements": ">= 0"
       },
       {
@@ -33184,6 +33964,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "newsblurry",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nfl_live_update",
         "requirements": ">= 0"
       },
@@ -33192,7 +33976,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi-parser",
+        "name": "nicoapi-core",
         "requirements": ">= 0"
       },
       {
@@ -33204,7 +33988,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi-core",
+        "name": "nicoapi-parser",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nicoquery-parser",
         "requirements": ">= 0"
       },
       {
@@ -33216,15 +34004,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery-parser",
+        "name": "nimbu",
         "requirements": ">= 0"
       },
       {
         "name": "nimbu-api",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "nimbu",
         "requirements": ">= 0"
       },
       {
@@ -33272,6 +34056,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "object_patch",
+        "requirements": ">= 0"
+      },
+      {
         "name": "obtuse",
         "requirements": ">= 0"
       },
@@ -33308,11 +34096,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-gplus-signin",
+        "name": "omniauth-gplus",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-gplus",
+        "name": "omniauth-gplus-signin",
         "requirements": ">= 0"
       },
       {
@@ -33392,6 +34180,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pandarus",
+        "requirements": ">= 0"
+      },
+      {
         "name": "paper_metadata",
         "requirements": ">= 0"
       },
@@ -33416,15 +34208,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "paratrooper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "paratrooper-asset_precompile",
         "requirements": ">= 0"
       },
       {
-        "name": "paratrooper-airbrake",
+        "name": "paratrooper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "paratrooper-pingdom",
         "requirements": ">= 0"
       },
       {
@@ -33432,7 +34224,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "paratrooper-pingdom",
+        "name": "paratrooper-airbrake",
         "requirements": ">= 0"
       },
       {
@@ -33466,6 +34258,14 @@
       {
         "name": "pebbles-suddenly_death",
         "requirements": ">= 0"
+      },
+      {
+        "name": "peddler",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pencil_pusher",
+        "requirements": "~> 0.9.12.2"
       },
       {
         "name": "pennyworth",
@@ -33504,6 +34304,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "phonelib",
+        "requirements": ">= 0"
+      },
+      {
         "name": "picasawebalbums",
         "requirements": ">= 0"
       },
@@ -33528,19 +34332,15 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "phonelib",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pivotalprinter",
         "requirements": ">= 0"
       },
       {
-        "name": "planet_express",
+        "name": "planetruby2feed",
         "requirements": ">= 0"
       },
       {
-        "name": "planetruby2feed",
+        "name": "planet_express",
         "requirements": ">= 0"
       },
       {
@@ -33557,6 +34357,10 @@
       },
       {
         "name": "pluct",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pmp",
         "requirements": ">= 0"
       },
       {
@@ -33636,11 +34440,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "protected_record",
+        "name": "protected_record_manager",
         "requirements": ">= 0"
       },
       {
-        "name": "protected_record_manager",
+        "name": "protected_record",
         "requirements": ">= 0"
       },
       {
@@ -33656,16 +34460,16 @@
         "requirements": "~> 0.9.0"
       },
       {
+        "name": "pry-byebug",
+        "requirements": "~> 0.9.12"
+      },
+      {
         "name": "pry-bot",
         "requirements": "~> 0.9"
       },
       {
         "name": "pry-buffers",
         "requirements": ">= 0"
-      },
-      {
-        "name": "pry-byebug",
-        "requirements": "~> 0.9.12"
       },
       {
         "name": "pry-clipboard",
@@ -33676,12 +34480,16 @@
         "requirements": ">= 0.9.11.3"
       },
       {
+        "name": "pry-debugger",
+        "requirements": "~> 0.9.10"
+      },
+      {
         "name": "pry-debundle",
         "requirements": ">= 0"
       },
       {
-        "name": "pry-debugger",
-        "requirements": "~> 0.9.10"
+        "name": "pry-doc",
+        "requirements": ">= 0.9"
       },
       {
         "name": "pry-developer_tools",
@@ -33690,10 +34498,6 @@
       {
         "name": "pry-docmore",
         "requirements": ">= 0"
-      },
-      {
-        "name": "pry-doc",
-        "requirements": ">= 0.9"
       },
       {
         "name": "pry-em",
@@ -33708,6 +34512,10 @@
         "requirements": "~> 0.1.4"
       },
       {
+        "name": "pry-git",
+        "requirements": ">= 0.9.8"
+      },
+      {
         "name": "pry-hack",
         "requirements": ">= 0"
       },
@@ -33716,20 +34524,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pry-git",
-        "requirements": ">= 0.9.8"
-      },
-      {
         "name": "pry-highlight",
         "requirements": ">= 0"
       },
       {
-        "name": "pry-multi_debugger",
-        "requirements": "~> 0.1.4"
-      },
-      {
         "name": "pry-nav",
         "requirements": "~> 0.9.10"
+      },
+      {
+        "name": "pry-multi_debugger",
+        "requirements": "~> 0.1.4"
       },
       {
         "name": "pry-meta",
@@ -33748,27 +34552,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pry-rails",
-        "requirements": ">= 0.9.10"
-      },
-      {
-        "name": "pry-remote-em",
-        "requirements": "~> 0.9"
-      },
-      {
         "name": "pry-remote",
         "requirements": "~> 0.9"
+      },
+      {
+        "name": "pry-rails",
+        "requirements": ">= 0.9.10"
       },
       {
         "name": "pry-require_relative",
         "requirements": "~> 0.9.12.2"
       },
       {
-        "name": "pry-rescue",
-        "requirements": ">= 0"
+        "name": "pry-remote-em",
+        "requirements": "~> 0.9"
       },
       {
-        "name": "pry-theme",
+        "name": "pry-rescue",
         "requirements": ">= 0"
       },
       {
@@ -33776,16 +34576,20 @@
         "requirements": ">= 0.9.8"
       },
       {
-        "name": "pry-windows",
-        "requirements": ">= 0.9.12"
+        "name": "pry-stack_explorer",
+        "requirements": ">= 0.9.11"
+      },
+      {
+        "name": "pry-theme",
+        "requirements": ">= 0"
       },
       {
         "name": "pry-vterm_aliases",
         "requirements": "~> 0.9.12"
       },
       {
-        "name": "pry-stack_explorer",
-        "requirements": ">= 0.9.11"
+        "name": "pry-windows",
+        "requirements": ">= 0.9.12"
       },
       {
         "name": "pry_debug",
@@ -33864,6 +34668,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "quandl_location",
+        "requirements": ">= 0"
+      },
+      {
         "name": "quandl_logger",
         "requirements": ">= 0"
       },
@@ -33881,6 +34689,10 @@
       },
       {
         "name": "rack-block",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rack-multiplexer",
         "requirements": ">= 0"
       },
       {
@@ -33905,6 +34717,10 @@
       },
       {
         "name": "rackspace-fog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "radavis_last_fm",
         "requirements": ">= 0"
       },
       {
@@ -33992,11 +34808,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "reddit_image_downloader",
+        "requirements": "~> 0.9.12.2"
+      },
+      {
         "name": "redis_assist",
         "requirements": ">= 0"
       },
       {
         "name": "redis_pipeliner",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rediska",
         "requirements": ">= 0"
       },
       {
@@ -34044,11 +34868,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rescue_time_api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "resourcer",
         "requirements": ">= 0"
       },
       {
         "name": "resque-clues",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "resque-locket",
         "requirements": ">= 0"
       },
       {
@@ -34065,6 +34897,10 @@
       },
       {
         "name": "restful-controller",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "restful_celluloid",
         "requirements": ">= 0"
       },
       {
@@ -34136,6 +34972,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "robinhood",
+        "requirements": ">= 0"
+      },
+      {
         "name": "robo",
         "requirements": ">= 0"
       },
@@ -34168,6 +35008,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "routes",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rrod",
+        "requirements": "~> 0.9"
+      },
+      {
         "name": "rspec-absolutely_prepended_after_each",
         "requirements": ">= 0"
       },
@@ -34196,11 +35044,11 @@
         "requirements": "~> 0.9.9.6"
       },
       {
-        "name": "rss-atom-feed_history",
+        "name": "rss-feed",
         "requirements": ">= 0"
       },
       {
-        "name": "rss-feed",
+        "name": "rss-atom-feed_history",
         "requirements": ">= 0"
       },
       {
@@ -34208,11 +35056,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rss-opds",
+        "name": "rss-nokogiri",
         "requirements": ">= 0"
       },
       {
-        "name": "rss-nokogiri",
+        "name": "rss-opds",
         "requirements": ">= 0"
       },
       {
@@ -34292,11 +35140,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rubyast",
+        "name": "RubyApp",
         "requirements": ">= 0"
       },
       {
-        "name": "RubyApp",
+        "name": "rubyast",
         "requirements": ">= 0"
       },
       {
@@ -34364,6 +35212,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sadi-rb",
+        "requirements": ">= 0"
+      },
+      {
         "name": "saiku_client",
         "requirements": ">= 0"
       },
@@ -34388,11 +35240,11 @@
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "saxxy",
+        "name": "saxomattic",
         "requirements": ">= 0"
       },
       {
-        "name": "saxomattic",
+        "name": "saxxy",
         "requirements": ">= 0"
       },
       {
@@ -34468,11 +35320,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "semantic-crawler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "semantic-ui-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "semantic-crawler",
+        "name": "semantic-ui-sass",
         "requirements": ">= 0"
       },
       {
@@ -34504,11 +35360,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "settingsdb",
+        "name": "settingsdb-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "settingsdb-rails",
+        "name": "settingsdb",
         "requirements": ">= 0"
       },
       {
@@ -34636,11 +35492,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "smartdict-core",
+        "name": "smartdict-gtk",
         "requirements": ">= 0"
       },
       {
-        "name": "smartdict-gtk",
+        "name": "smartdict-core",
         "requirements": ">= 0"
       },
       {
@@ -34656,11 +35512,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sms16client",
+        "name": "sms-spec",
         "requirements": ">= 0"
       },
       {
-        "name": "sms-spec",
+        "name": "sms16client",
         "requirements": ">= 0"
       },
       {
@@ -34716,11 +35572,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spcore",
+        "name": "spbus",
         "requirements": ">= 0"
       },
       {
-        "name": "spbus",
+        "name": "spcore",
         "requirements": ">= 0"
       },
       {
@@ -34737,6 +35593,14 @@
       },
       {
         "name": "spnet",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "spree_paypal_express_mutalis",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sprockets-sass",
         "requirements": ">= 0"
       },
       {
@@ -34860,6 +35724,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "subprocess",
+        "requirements": ">= 0"
+      },
+      {
         "name": "subtle-lang",
         "requirements": ">= 0"
       },
@@ -34873,6 +35741,10 @@
       },
       {
         "name": "suitcase",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sunspot_kaminari_support",
         "requirements": ">= 0"
       },
       {
@@ -34968,11 +35840,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tassadar",
+        "name": "taskdown",
         "requirements": ">= 0"
       },
       {
         "name": "taskwarrior",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tassadar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tataki",
         "requirements": ">= 0"
       },
       {
@@ -35000,15 +35880,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengai",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tengine_core",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job",
+        "name": "tengai",
         "requirements": ">= 0"
       },
       {
@@ -35016,7 +35892,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_job",
         "requirements": ">= 0"
       },
       {
@@ -35024,11 +35900,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_job_agent",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job_agent",
+        "name": "tengine_resource",
         "requirements": ">= 0"
       },
       {
@@ -35037,6 +35913,10 @@
       },
       {
         "name": "tengine_resource_ec2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tengine_resource_wakame",
         "requirements": ">= 0"
       },
       {
@@ -35056,11 +35936,11 @@
         "requirements": "= 0.9.10"
       },
       {
-        "name": "text_spec",
+        "name": "text_razor",
         "requirements": ">= 0"
       },
       {
-        "name": "text_razor",
+        "name": "text_spec",
         "requirements": ">= 0"
       },
       {
@@ -35076,11 +35956,11 @@
         "requirements": "= 0.9.11.4"
       },
       {
-        "name": "tg_cli",
+        "name": "tg_config",
         "requirements": ">= 0"
       },
       {
-        "name": "tg_config",
+        "name": "tg_cli",
         "requirements": ">= 0"
       },
       {
@@ -35089,6 +35969,10 @@
       },
       {
         "name": "thegarage-gitx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "theine",
         "requirements": ">= 0"
       },
       {
@@ -35296,6 +36180,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "umlaut-primo",
+        "requirements": "~> 0.9.12.2"
+      },
+      {
         "name": "unbounded",
         "requirements": ">= 0"
       },
@@ -35312,11 +36200,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "unix_commander",
+        "name": "university",
         "requirements": ">= 0"
       },
       {
-        "name": "university",
+        "name": "unix_commander",
         "requirements": ">= 0"
       },
       {
@@ -35344,6 +36232,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "user-choices-pathname",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ustack",
         "requirements": ">= 0"
       },
@@ -35356,11 +36248,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "validates_overlap",
+        "name": "validation_matcher",
         "requirements": ">= 0"
       },
       {
-        "name": "validation_matcher",
+        "name": "validates_overlap",
         "requirements": ">= 0"
       },
       {
@@ -35372,19 +36264,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vector_embed",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vehicle_data",
         "requirements": ">= 0"
       },
       {
-        "name": "velcro",
+        "name": "vector_embed",
         "requirements": ">= 0"
       },
       {
         "name": "verified_double",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "versacommerce_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "velcro",
         "requirements": ">= 0"
       },
       {
@@ -35576,12 +36472,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "worth_watching",
-        "requirements": ">= 0"
-      },
-      {
         "name": "wortsammler",
         "requirements": "~> 0.9.12"
+      },
+      {
+        "name": "worth_watching",
+        "requirements": ">= 0"
       },
       {
         "name": "wpb",
@@ -35660,6 +36556,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "zooplankton",
+        "requirements": ">= 0"
+      },
+      {
         "name": "zorros-deploy",
         "requirements": ">= 0"
       },
@@ -35714,6 +36614,10 @@
     "dependents": [
       {
         "name": "db",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "feed_notifier",
         "requirements": ">= 0"
       },
       {
@@ -35828,6 +36732,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "action_kit_rest",
+        "requirements": ">= 0"
+      },
+      {
         "name": "activeshepherd",
         "requirements": ">= 0"
       },
@@ -35913,6 +36821,10 @@
       },
       {
         "name": "figleaf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fontello_rails_converter",
         "requirements": ">= 0"
       },
       {
@@ -36052,6 +36964,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rediska",
+        "requirements": ">= 0"
+      },
+      {
         "name": "reloadlive",
         "requirements": ">= 0"
       },
@@ -36116,15 +37032,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tengine_event",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_job",
         "requirements": ">= 0"
       },
       {
@@ -36132,11 +37044,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_job_agent",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job_agent",
+        "name": "tengine_resource",
         "requirements": ">= 0"
       },
       {
@@ -36145,6 +37057,10 @@
       },
       {
         "name": "tengine_resource_ec2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tengine_resource_wakame",
         "requirements": ">= 0"
       },
       {
@@ -36281,11 +37197,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
@@ -36389,11 +37305,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rss-opds",
+        "name": "rss-nokogiri",
         "requirements": ">= 0"
       },
       {
-        "name": "rss-nokogiri",
+        "name": "rss-opds",
         "requirements": ">= 0"
       },
       {
@@ -36433,15 +37349,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tengine_event",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_job",
         "requirements": ">= 0"
       },
       {
@@ -36449,11 +37361,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_job_agent",
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_job_agent",
+        "name": "tengine_resource",
         "requirements": ">= 0"
       },
       {
@@ -36462,6 +37374,10 @@
       },
       {
         "name": "tengine_resource_ec2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tengine_resource_wakame",
         "requirements": ">= 0"
       },
       {
@@ -36668,6 +37584,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "page_title",
+        "requirements": ">= 0"
+      },
+      {
         "name": "paginate",
         "requirements": ">= 0"
       },
@@ -36781,11 +37701,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "codez",
+        "requirements": ">= 0"
+      },
+      {
         "name": "coerced_attr_writer",
         "requirements": ">= 0"
       },
       {
         "name": "corpus-processor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cylons",
         "requirements": ">= 0"
       },
       {
@@ -36798,6 +37726,10 @@
       },
       {
         "name": "delay_queue",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "do-my-timecard",
         "requirements": ">= 0"
       },
       {
@@ -36825,11 +37757,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-grepcounter",
+        "name": "fluent-plugin-groupcounter",
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-groupcounter",
+        "name": "fluent-plugin-grepcounter",
         "requirements": ">= 0"
       },
       {
@@ -36961,11 +37893,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "metacrunch-ubpb",
+        "name": "metacrunch-mab",
         "requirements": "~> 0.2.3"
       },
       {
-        "name": "metacrunch-mab",
+        "name": "metacrunch-ubpb",
         "requirements": "~> 0.2.3"
       },
       {
@@ -37049,11 +37981,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "protobuf-activerecord",
+        "name": "procfile-upstart-exporter",
         "requirements": ">= 0"
       },
       {
         "name": "protobuf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "protobuf-activerecord",
         "requirements": ">= 0"
       },
       {
@@ -37078,6 +38014,10 @@
       },
       {
         "name": "roar-extensions",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "robinhood",
         "requirements": ">= 0"
       },
       {
@@ -37170,6 +38110,10 @@
       },
       {
         "name": "unicorn-formatter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "versacommerce_api",
         "requirements": ">= 0"
       },
       {
@@ -37359,6 +38303,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rasper_client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rescuegroups",
         "requirements": ">= 0"
       },
@@ -37405,6 +38353,10 @@
       {
         "name": "tableizer",
         "requirements": ">= 0"
+      },
+      {
+        "name": "uploadbox",
+        "requirements": "~> 0.3.2"
       },
       {
         "name": "uploadcare-rails",
@@ -37465,11 +38417,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nimbu-api",
+        "name": "nimbu",
         "requirements": ">= 0"
       },
       {
-        "name": "nimbu",
+        "name": "nimbu-api",
         "requirements": ">= 0"
       },
       {
@@ -37805,11 +38757,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nimbu-api",
+        "name": "nimbu",
         "requirements": ">= 0"
       },
       {
-        "name": "nimbu",
+        "name": "nimbu-api",
         "requirements": ">= 0"
       },
       {
@@ -38066,6 +39018,10 @@
       {
         "name": "peaches",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sexp_info",
+        "requirements": ">= 0"
       }
     ],
     "description": "A pure-ruby debugger. No more puts \"HERE!!!\" or p :var => var, :other => other\nuntil you find what caused the bug. Just add a breakpoint and see the value of\nany variable.\n"
@@ -38130,7 +39086,7 @@
     "description": "A lightweight ruby client for Patient Study Calendar's RESTful HTTP API"
   },
   "psd": {
-    "version": "1.3.0",
+    "version": "1.3.2",
     "dependents": [
       {
         "name": "psd_native",
@@ -38150,7 +39106,7 @@
     "description": "Parser for the markup format used in the PSD file format"
   },
   "psd_native": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -38369,15 +39325,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "effective_assets",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "effective_assets",
-        "requirements": ">= 0"
-      },
-      {
         "name": "effective_pages",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "effective_assets",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "effective_assets",
         "requirements": ">= 0"
       },
       {
@@ -38473,12 +39429,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yaml_convertor",
-        "requirements": "= 1.3.4"
-      },
-      {
         "name": "yaml_converters",
         "requirements": ">= 1.3.3"
+      },
+      {
+        "name": "yaml_convertor",
+        "requirements": "= 1.3.4"
       }
     ],
     "description": "Psych is a YAML parser and emitter.  Psych leverages libyaml[http://pyyaml.org/wiki/LibYAML]\nfor its YAML parsing and emitting capabilities.  In addition to wrapping\nlibyaml, Psych also knows how to serialize and de-serialize most Ruby objects\nto and from the YAML format."
@@ -38979,11 +39935,18 @@
     "description": "Engine for publishing multiple sites from a centralized hub."
   },
   "publisci": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ],
     "description": "A toolkit for publishing scientific results and datasets using RDF, OWL, and related technologies "
+  },
+  "publisci-server": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Server Interface for PubliSci"
   },
   "publish": {
     "version": "0.3.0",
@@ -39170,14 +40133,14 @@
     ],
     "description": "It is a clone of Liquid Wars."
   },
-  "puke": {
+  "Puke": {
     "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Puke is a minimal grooveshark library for ruby, using the Tinysong.com api instead of grooveshark.com"
   },
-  "Puke": {
+  "puke": {
     "version": "0.0.2",
     "dependents": [
 
@@ -39292,19 +40255,19 @@
     ],
     "description": "Manage your Capistrano deployments with ease"
   },
-  "Pulse": {
-    "version": "1.3.3",
-    "dependents": [
-
-    ],
-    "description": "Extensible IRC library"
-  },
   "pulse": {
     "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "The old pulse.\nThis has been depreciated in favor of rails-pulse.  The gem merely pins that gem now."
+  },
+  "Pulse": {
+    "version": "1.3.3",
+    "dependents": [
+
+    ],
+    "description": "Extensible IRC library"
   },
   "pulse-meter": {
     "version": "0.4.12",
@@ -39344,11 +40307,11 @@
     "version": "0.4.13",
     "dependents": [
       {
-        "name": "pulse_meter_cli",
+        "name": "pulse_meter_visualizer",
         "requirements": ">= 0"
       },
       {
-        "name": "pulse_meter_visualizer",
+        "name": "pulse_meter_cli",
         "requirements": ">= 0"
       }
     ],
@@ -39376,6 +40339,10 @@
     "dependents": [
       {
         "name": "altria",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aptinabox",
         "requirements": ">= 0"
       },
       {
@@ -39409,6 +40376,10 @@
       {
         "name": "daneel",
         "requirements": "~> 1.6.3"
+      },
+      {
+        "name": "fake_server",
+        "requirements": ">= 0"
       },
       {
         "name": "faye",
@@ -39471,6 +40442,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rack-auth-travis",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rails-dev-bundle",
         "requirements": ">= 0"
       },
@@ -39484,6 +40459,10 @@
       },
       {
         "name": "savon",
+        "requirements": "= 2.0.0.b4"
+      },
+      {
+        "name": "savon-ng-1.6",
         "requirements": "= 2.0.0.b4"
       },
       {
@@ -39550,14 +40529,14 @@
     "description": "punch"
   },
   "punchblock": {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "dependents": [
       {
-        "name": "adhearsion-asr",
+        "name": "adhearsion",
         "requirements": "~> 2.0"
       },
       {
-        "name": "adhearsion",
+        "name": "adhearsion-asr",
         "requirements": "~> 2.0"
       },
       {
@@ -39600,7 +40579,7 @@
     "description": "A simple Ruby library for searching food recipes with punchfork.com"
   },
   "punching_bag": {
-    "version": "0.3.3",
+    "version": "0.3.5",
     "dependents": [
 
     ],
@@ -39693,7 +40672,7 @@
     "description": "pure Ruby implementing Punycode (RFC 3492)"
   },
   "pupa": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -39717,7 +40696,7 @@
     "description": "The \"Lazy\" Twitter API Library for Ruby. Easy to use."
   },
   "puppet": {
-    "version": "3.3.0",
+    "version": "3.3.1",
     "dependents": [
       {
         "name": "boxen",
@@ -39768,11 +40747,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "librarian-puppet-maestrodev",
+        "name": "librarian-puppet",
         "requirements": ">= 0"
       },
       {
-        "name": "librarian-puppet",
+        "name": "librarian-puppet-maestrodev",
         "requirements": ">= 0"
       },
       {
@@ -39792,15 +40771,15 @@
         "requirements": ">= 2.7.16"
       },
       {
-        "name": "puppet-cleaner",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "puppet-pip",
-        "requirements": ">= 0"
-      },
-      {
         "name": "puppet-catalog-test",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puppet-catalog-test-cirb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puppet-cleaner",
         "requirements": ">= 0"
       },
       {
@@ -39808,8 +40787,16 @@
         "requirements": "~> 2.7"
       },
       {
+        "name": "puppet-pip",
+        "requirements": ">= 0"
+      },
+      {
         "name": "puppet-syntax",
         "requirements": ">= 2.7.0"
+      },
+      {
+        "name": "puppet_local",
+        "requirements": ">= 3.3.1"
       },
       {
         "name": "rspec-hiera-puppet",
@@ -39832,6 +40819,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "vagrant-librarian-puppet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vagrant-librarian-puppet-plugin",
         "requirements": ">= 0"
       },
@@ -39850,7 +40841,14 @@
     "description": "Puppet module tools for development and Puppet Forge management"
   },
   "puppet-catalog-test": {
-    "version": "0.2.2",
+    "version": "0.3.1",
+    "dependents": [
+
+    ],
+    "description": "Test all your puppet catalogs for compiler warnings and errors."
+  },
+  "puppet-catalog-test-cirb": {
+    "version": "0.2.3",
     "dependents": [
 
     ],
@@ -39944,7 +40942,7 @@
     "description": "Provides a resource endpoint for RunDeck from a Puppet Server"
   },
   "puppet-rundeck-2013": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -39977,6 +40975,13 @@
 
     ],
     "description": "  If you need to build more than one puppet manifests it is quite boring to \n  redo the same steps every time. This gem helps you to generate puppet manifests\n  for packages, files/directories etc.\n"
+  },
+  "puppet_local": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Simple tool for applying puppet modules from single hiera data source file"
   },
   "puppet_module_spec_helper": {
     "version": "0.2.0",
@@ -40012,6 +41017,13 @@
 
     ],
     "description": "Puppeteer is there to ease out Puppet-izing the infrastructure. Automate the automation development."
+  },
+  "puppetize": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Puppetize is a tool that can generate complete modules from systems"
   },
   "puppetlabs_spec_helper": {
     "version": "0.4.1",
@@ -40124,11 +41136,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rack-webconsole-pry",
+        "name": "rack-webconsole",
         "requirements": ">= 0"
       },
       {
-        "name": "rack-webconsole",
+        "name": "rack-webconsole-pry",
         "requirements": ">= 0"
       },
       {
@@ -40562,12 +41574,12 @@
         "requirements": "~> 0.8.5"
       },
       {
-        "name": "pusher_rails",
-        "requirements": "~> 0.11.3"
-      },
-      {
         "name": "pusher-fake",
         "requirements": "= 0.12.0"
+      },
+      {
+        "name": "pusher_rails",
+        "requirements": "~> 0.11.3"
       },
       {
         "name": "pusherable",
@@ -40630,11 +41642,11 @@
     "version": "0.2.1",
     "dependents": [
       {
-        "name": "travis-surveillance",
+        "name": "travis-stalker",
         "requirements": "~> 0.2"
       },
       {
-        "name": "travis-stalker",
+        "name": "travis-surveillance",
         "requirements": "~> 0.2"
       }
     ],
@@ -40713,19 +41725,19 @@
     ],
     "description": "Ruby client library to send push notifications via the Push IO API. See: http://push.io for more information and to set up your account."
   },
-  "PushIt": {
-    "version": "1.0.4",
-    "dependents": [
-
-    ],
-    "description": "Uses Houston (https://github.com/nomad/houston/) to send push notifications to iOS devices."
-  },
   "pushit": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Runs deploys from a remote, centralized server"
+  },
+  "PushIt": {
+    "version": "1.0.4",
+    "dependents": [
+
+    ],
+    "description": "Uses Houston (https://github.com/nomad/houston/) to send push notifications to iOS devices."
   },
   "pushkin": {
     "version": "0.0.1",
@@ -41036,7 +42048,7 @@
     "description": "pwqgen.rb is a Ruby implementation of passwdqc's pwqgen, a random pronouncable password generator."
   },
   "pwrake": {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "dependents": [
 
     ],
@@ -41217,11 +42229,11 @@
         "requirements": "= 0.5.0"
       },
       {
-        "name": "formol-markdown",
+        "name": "formol-bbcode",
         "requirements": ">= 0"
       },
       {
-        "name": "formol-bbcode",
+        "name": "formol-markdown",
         "requirements": ">= 0"
       },
       {
@@ -41249,12 +42261,12 @@
         "requirements": "~> 0.4.2"
       },
       {
-        "name": "gollum-bibanon",
-        "requirements": "~> 0.2.0"
-      },
-      {
         "name": "gollum-lib",
         "requirements": "~> 0.5.2"
+      },
+      {
+        "name": "gollum-bibanon",
+        "requirements": "~> 0.2.0"
       },
       {
         "name": "gust",
@@ -41337,12 +42349,12 @@
         "requirements": "~> 0.5.0"
       },
       {
-        "name": "monologue-markdown",
-        "requirements": "~> 0.5.2"
-      },
-      {
         "name": "monograph",
         "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "monologue-markdown",
+        "requirements": "~> 0.5.2"
       },
       {
         "name": "mook",
@@ -41421,11 +42433,11 @@
         "requirements": "~> 0.5.1"
       },
       {
-        "name": "RTFMd",
+        "name": "rtfmd",
         "requirements": "~> 0.2.0"
       },
       {
-        "name": "rtfmd",
+        "name": "RTFMd",
         "requirements": "~> 0.2.0"
       },
       {
@@ -41484,7 +42496,7 @@
     "description": "pygments.rb exposes the pygments syntax highlighter to Ruby"
   },
   "pyk": {
-    "version": "0.0.9",
+    "version": "0.2.6",
     "dependents": [
 
     ],

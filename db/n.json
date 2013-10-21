@@ -160,6 +160,13 @@
     ],
     "description": "Jekyll is a simple, blog aware, static site generator."
   },
+  "naf": {
+    "version": "1.1.2",
+    "dependents": [
+
+    ],
+    "description": "A cloud based distributed cron, application framework and operations console. Naf works as a distributed script running system that provides scheduling, logging, alarming, machine redundancy, and the ability to set constraint during script execution"
+  },
   "naga_perfectsquare": {
     "version": "1.0.1",
     "dependents": [
@@ -180,6 +187,13 @@
 
     ],
     "description": "    Nagios-rb is a compact framework for writing Nagios plugins.\n"
+  },
+  "nagios-check": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Nagios check written in Ruby"
   },
   "nagios-dashboard": {
     "version": "0.0.4",
@@ -222,6 +236,13 @@
 
     ],
     "description": "Splunk monitoring in Nagios"
+  },
+  "nagios-zfs": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Check ZFS Zpool health and capacity via Nagios."
   },
   "nagios_alerter": {
     "version": "0.1.1",
@@ -335,15 +356,19 @@
     "description": "An easy-to-use framework for quickly creating Nagios plugins"
   },
   "nagiosplugin": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
+      {
+        "name": "check_zfs",
+        "requirements": "~> 1.0.0"
+      },
       {
         "name": "check_resque_paranoid",
         "requirements": ">= 1.3.0"
       },
       {
-        "name": "check_zfs",
-        "requirements": "~> 1.0.0"
+        "name": "nagios-zfs",
+        "requirements": "~> 2.1"
       },
       {
         "name": "nagios_resque",
@@ -804,7 +829,10 @@
   "namer": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "gem_template",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Project template manager"
   },
@@ -1026,27 +1054,15 @@
         "requirements": ">= 3.0.0"
       },
       {
-        "name": "nanoc-cachebuster",
-        "requirements": ">= 3.3.0"
-      },
-      {
         "name": "nanoc-code-classifier",
         "requirements": "~> 3.0"
       },
       {
+        "name": "nanoc-cachebuster",
+        "requirements": ">= 3.3.0"
+      },
+      {
         "name": "nanoc-deploy",
-        "requirements": ">= 3.1.6"
-      },
-      {
-        "name": "nanoc-gzip-filter",
-        "requirements": ">= 3.4.0"
-      },
-      {
-        "name": "nanoc-image-compressor",
-        "requirements": ">= 3.3.1"
-      },
-      {
-        "name": "nanoc-git",
         "requirements": ">= 3.1.6"
       },
       {
@@ -1058,8 +1074,20 @@
         "requirements": "~> 3.1"
       },
       {
+        "name": "nanoc-image-compressor",
+        "requirements": ">= 3.3.1"
+      },
+      {
+        "name": "nanoc-git",
+        "requirements": ">= 3.1.6"
+      },
+      {
         "name": "nanoc-oo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nanoc-gzip-filter",
+        "requirements": ">= 3.4.0"
       },
       {
         "name": "nanoc-javascript-concatenator",
@@ -1086,12 +1114,12 @@
         "requirements": ">= 3.1.6"
       },
       {
-        "name": "nanoc_starter_set",
-        "requirements": "~> 3.6.1"
-      },
-      {
         "name": "nanoc_fuel",
         "requirements": ">= 3.1.6"
+      },
+      {
+        "name": "nanoc_starter_set",
+        "requirements": "~> 3.6.1"
       },
       {
         "name": "nutils",
@@ -1518,8 +1546,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "biopieces",
+        "requirements": ">= 0.6.0"
+      },
+      {
         "name": "cofi_cost",
         "requirements": ">= 0"
+      },
+      {
+        "name": "convolver",
+        "requirements": ">= 0.6.0.8"
       },
       {
         "name": "coreaudio",
@@ -1542,16 +1578,16 @@
         "requirements": "~> 0.5.9"
       },
       {
-        "name": "gentooboontoo-gphys",
-        "requirements": ">= 0.5.7"
+        "name": "gentooboontoo-ruby-netcdf",
+        "requirements": ">= 0"
       },
       {
         "name": "gentooboontoo-ruby-fftw3",
         "requirements": ">= 0"
       },
       {
-        "name": "gentooboontoo-ruby-netcdf",
-        "requirements": ">= 0"
+        "name": "gentooboontoo-gphys",
+        "requirements": ">= 0.5.7"
       },
       {
         "name": "gphys",
@@ -1630,10 +1666,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rbbt-util",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rpowerflow",
         "requirements": ">= 0"
       },
@@ -1699,12 +1731,12 @@
     "version": "1.2.8",
     "dependents": [
       {
-        "name": "gentooboontoo-gphys",
-        "requirements": ">= 1.2.4"
-      },
-      {
         "name": "gentooboontoo-ruby-netcdf",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gentooboontoo-gphys",
+        "requirements": ">= 1.2.4"
       },
       {
         "name": "gphys",
@@ -2037,10 +2069,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "timer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ymdp",
         "requirements": ">= 0"
       }
@@ -2051,8 +2079,16 @@
     "version": "1.0.4",
     "dependents": [
       {
+        "name": "mangos",
+        "requirements": ">= 1.0.3"
+      },
+      {
         "name": "rails_finder",
         "requirements": "~> 1.0.3"
+      },
+      {
+        "name": "storys",
+        "requirements": ">= 1.0.3"
       }
     ],
     "description": "Natural Sorting with support for legal numbering"
@@ -2135,7 +2171,7 @@
     "description": "Get developing quickly"
   },
   "nav": {
-    "version": "0.7.0",
+    "version": "0.9.0",
     "dependents": [
 
     ],
@@ -2149,7 +2185,7 @@
     "description": "Create link inside <li> element and gives it a 'active' class if current page"
   },
   "nav_links": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -2182,6 +2218,13 @@
 
     ],
     "description": "Data scraper for Investment Fund Net Asset Values (NAVs)"
+  },
+  "navGATE": {
+    "version": "0.1.21",
+    "dependents": [
+
+    ],
+    "description": "Can create navigation from objects using the nav builder,from database tables or from a yaml file"
   },
   "navi": {
     "version": "0.2.1",
@@ -2602,12 +2645,12 @@
     "version": "0.13.0",
     "dependents": [
       {
-        "name": "ncs_mdes_warehouse",
-        "requirements": "~> 0.13"
-      },
-      {
         "name": "ncs_navigator_configuration",
         "requirements": "~> 0.4"
+      },
+      {
+        "name": "ncs_mdes_warehouse",
+        "requirements": "~> 0.13"
       }
     ],
     "description": "\nProvides a consistent ruby interface to the project metainformation in the\nNational Children's Study's Master Data Element Specification.\n"
@@ -2630,11 +2673,11 @@
     "version": "0.4.0",
     "dependents": [
       {
-        "name": "ncs_navigator_authority",
+        "name": "ncs_mdes_warehouse",
         "requirements": "~> 0.2"
       },
       {
-        "name": "ncs_mdes_warehouse",
+        "name": "ncs_navigator_authority",
         "requirements": "~> 0.2"
       }
     ],
@@ -3120,6 +3163,13 @@
     ],
     "description": "Send messages to the neighborparrot event source service"
   },
+  "neilin-rails": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "social share on text highlight"
+  },
   "neko": {
     "version": "0.0.0",
     "dependents": [
@@ -3305,7 +3355,7 @@
     "description": "You can think of Neo4j as a high-performance graph engine with all the features of a mature and robust database.\nThe programmer works with an object-oriented, flexible network structure rather than with strict and static tables \nyet enjoys all the benefits of a fully transactional, enterprise-strength database.\nIt comes included with the Apache Lucene document database.\n"
   },
   "neo4j-cypher": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "neo4j-core",
@@ -3440,7 +3490,7 @@
     "description": "The Mechanize library is used for automating interaction with websites.\nMechanize automatically stores and sends cookies, follows redirects,\ncan follow links, and submit forms.  Form fields can be populated and\nsubmitted.  Mechanize also keeps track of the sites that you have visited as\na history."
   },
   "neography": {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "dependents": [
       {
         "name": "active_node",
@@ -3538,7 +3588,7 @@
     "description": "An implementation of Javascript running on Rubinius"
   },
   "neoon": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -3765,11 +3815,7 @@
         "requirements": ">= 0.9.13"
       },
       {
-        "name": "nesta-plugin-google-ads",
-        "requirements": ">= 0.9.11"
-      },
-      {
-        "name": "nesta-plugin-diskcached",
+        "name": "nesta-plugin-metadata-extensions",
         "requirements": ">= 0.9.11"
       },
       {
@@ -3781,15 +3827,7 @@
         "requirements": ">= 0.9.11"
       },
       {
-        "name": "nesta-plugin-sharethis",
-        "requirements": ">= 0.9.11"
-      },
-      {
-        "name": "nesta-plugin-related-by-category",
-        "requirements": ">= 0.9.11"
-      },
-      {
-        "name": "nesta-plugin-metadata-extensions",
+        "name": "nesta-plugin-diskcached",
         "requirements": ">= 0.9.11"
       },
       {
@@ -3797,11 +3835,15 @@
         "requirements": ">= 0.9.11"
       },
       {
-        "name": "nesta-plugin-sluggable",
+        "name": "nesta-plugin-google-ads",
         "requirements": ">= 0.9.11"
       },
       {
-        "name": "nesta-plugin-smartmeta",
+        "name": "nesta-plugin-related-by-category",
+        "requirements": ">= 0.9.11"
+      },
+      {
+        "name": "nesta-plugin-sharethis",
         "requirements": ">= 0.9.11"
       },
       {
@@ -3811,6 +3853,14 @@
       {
         "name": "nesta-plugin-yaml-metadata",
         "requirements": ">= 0.9.12"
+      },
+      {
+        "name": "nesta-plugin-smartmeta",
+        "requirements": ">= 0.9.11"
+      },
+      {
+        "name": "nesta-plugin-sluggable",
+        "requirements": ">= 0.9.11"
       },
       {
         "name": "nesta-rails",
@@ -3959,6 +4009,13 @@
     ],
     "description": "nestable_logger supports nesting logging descriptions"
   },
+  "nested": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "a nestable dsl to create a restful api"
+  },
   "nested-benchmark": {
     "version": "0.8.0",
     "dependents": [
@@ -4045,6 +4102,10 @@
         "requirements": "~> 0.3.2"
       },
       {
+        "name": "gaku_core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gaku_nested_forms",
         "requirements": ">= 0"
       },
@@ -4069,12 +4130,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rails_admin-lbgraham",
-        "requirements": "~> 0.2"
-      },
-      {
         "name": "rails_admin",
         "requirements": "~> 0.3"
+      },
+      {
+        "name": "rails_admin-lbgraham",
+        "requirements": "~> 0.2"
       },
       {
         "name": "thredded",
@@ -4250,11 +4311,11 @@
         "requirements": "= 1.6.7"
       },
       {
-        "name": "puffer",
+        "name": "puffer_pages",
         "requirements": ">= 0"
       },
       {
-        "name": "puffer_pages",
+        "name": "puffer",
         "requirements": ">= 0"
       },
       {
@@ -4305,7 +4366,7 @@
     "description": "Dynamically generates named routes and other methods to make using nested routes easy."
   },
   "nestful": {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "dependents": [
       {
         "name": "adaptive_payments",
@@ -4436,6 +4497,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "geminabox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "minimage",
         "requirements": "~> 1.0"
       }
@@ -4538,7 +4603,7 @@
       },
       {
         "name": "roadworker",
-        "requirements": ">= 0.8.0"
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "spamhaus_checker",
@@ -4807,6 +4872,10 @@
         "requirements": ">= 2.3.2, ~> 2.3"
       },
       {
+        "name": "dressing",
+        "requirements": ">= 0"
+      },
+      {
         "name": "eson-http",
         "requirements": ">= 0"
       },
@@ -4879,6 +4948,10 @@
         "requirements": ">= 2.5.2, ~> 2.5"
       },
       {
+        "name": "mediawiki-selenium",
+        "requirements": ">= 0"
+      },
+      {
         "name": "metrixapp",
         "requirements": ">= 0"
       },
@@ -4915,11 +4988,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rapns_rails_2",
+        "name": "rapns",
         "requirements": ">= 0"
       },
       {
-        "name": "rapns",
+        "name": "rapns_rails_2",
         "requirements": ">= 0"
       },
       {
@@ -5077,11 +5150,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "neography",
+        "name": "neography-ajaycb",
         "requirements": "= 0.2.1"
       },
       {
-        "name": "neography-ajaycb",
+        "name": "neography",
         "requirements": "= 0.2.1"
       }
     ],
@@ -5241,11 +5314,11 @@
         "requirements": ">= 0.1.1"
       },
       {
-        "name": "cmu-person",
+        "name": "cmu_person",
         "requirements": ">= 0"
       },
       {
-        "name": "cmu_person",
+        "name": "cmu-person",
         "requirements": ">= 0"
       },
       {
@@ -5317,16 +5390,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ldapi",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ldap_fluff",
         "requirements": ">= 0.3.1"
       },
       {
         "name": "ldaptic",
         "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "ldapi",
+        "requirements": ">= 0"
       },
       {
         "name": "lucy_cms",
@@ -5337,12 +5410,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oa-enterprise",
-        "requirements": "~> 0.2.2"
-      },
-      {
         "name": "oa-ldap",
         "requirements": ">= 0.1.1"
+      },
+      {
+        "name": "oa-enterprise",
+        "requirements": "~> 0.2.2"
       },
       {
         "name": "oa-pubcookie",
@@ -5561,7 +5634,7 @@
     "description": "    The net-proto library provides an interface for get protocol information\n    by name or by number. It can also iterate over the list of protocol\n    entries defined on your system.\n"
   },
   "net-ptth": {
-    "version": "0.0.5",
+    "version": "0.0.10",
     "dependents": [
 
     ],
@@ -5634,14 +5707,6 @@
       {
         "name": "bosh_cli",
         "requirements": "~> 1.0.4"
-      },
-      {
-        "name": "brightbox-cli",
-        "requirements": "~> 1.0.4"
-      },
-      {
-        "name": "capistrano",
-        "requirements": ">= 1.0.0"
       },
       {
         "name": "capissh",
@@ -5768,6 +5833,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ey-scp",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "fog",
         "requirements": "~> 1.1"
       },
@@ -5776,12 +5845,12 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "fog-iwd",
-        "requirements": "~> 1.0.4"
-      },
-      {
         "name": "fog-maestrodev",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "fog-iwd",
+        "requirements": "~> 1.0.4"
       },
       {
         "name": "fog-sgonyea",
@@ -5792,16 +5861,16 @@
         "requirements": "~> 1.0.4"
       },
       {
-        "name": "fog-test-me",
-        "requirements": "~> 1.1"
+        "name": "fog-test-again",
+        "requirements": "~> 1.0.4"
       },
       {
         "name": "fog4encbs",
         "requirements": ">= 1.0.4"
       },
       {
-        "name": "fog-test-again",
-        "requirements": "~> 1.0.4"
+        "name": "fog-test-me",
+        "requirements": "~> 1.1"
       },
       {
         "name": "fog_ec2dream",
@@ -6164,6 +6233,10 @@
         "requirements": ">= 1.0.4"
       },
       {
+        "name": "whipped-cream",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wordmove-sshbump",
         "requirements": ">= 0"
       },
@@ -6215,7 +6288,7 @@
       },
       {
         "name": "buildr",
-        "requirements": "= 2.0.5"
+        "requirements": "= 2.1.2"
       },
       {
         "name": "Buildr",
@@ -6224,10 +6297,6 @@
       {
         "name": "buildr-gemjar",
         "requirements": "= 2.0.4"
-      },
-      {
-        "name": "capistrano",
-        "requirements": ">= 2.0.0"
       },
       {
         "name": "capissh",
@@ -6246,12 +6315,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "CloudyScripts",
+        "name": "checksum-tools",
         "requirements": ">= 0"
       },
       {
         "name": "cloudsync",
         "requirements": "~> 2.0.4"
+      },
+      {
+        "name": "CloudyScripts",
+        "requirements": ">= 0"
       },
       {
         "name": "cluster_bomb",
@@ -6514,6 +6587,10 @@
         "requirements": "= 2.0.2"
       },
       {
+        "name": "shenzhen",
+        "requirements": "~> 2.1.2"
+      },
+      {
         "name": "slubydoo",
         "requirements": "= 2.0.1"
       },
@@ -6667,12 +6744,12 @@
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "backupgemsteven",
-        "requirements": ">= 2.0.0"
-      },
-      {
         "name": "backupgem",
         "requirements": ">= 1.0.9"
+      },
+      {
+        "name": "backupgemsteven",
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "bailiff",
@@ -6719,12 +6796,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "brightbox-cli",
-        "requirements": ">= 2.1.3"
-      },
-      {
         "name": "buildr",
-        "requirements": "= 2.6.0"
+        "requirements": "= 2.7.0"
       },
       {
         "name": "Buildr",
@@ -6733,10 +6806,6 @@
       {
         "name": "buildr-gemjar",
         "requirements": "= 2.0.23"
-      },
-      {
-        "name": "capistrano",
-        "requirements": ">= 2.0.14"
       },
       {
         "name": "capissh",
@@ -6807,6 +6876,10 @@
         "requirements": "~> 2.5.2"
       },
       {
+        "name": "checksum-tools",
+        "requirements": ">= 0"
+      },
+      {
         "name": "Chee",
         "requirements": ">= 0"
       },
@@ -6839,23 +6912,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "CloudyScripts",
-        "requirements": ">= 0"
-      },
-      {
         "name": "cloudsync",
         "requirements": "~> 2.0.19"
+      },
+      {
+        "name": "CloudyScripts",
+        "requirements": ">= 0"
       },
       {
         "name": "cluster_bomb",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "CollegiateLink",
+        "name": "collegiatelink",
         "requirements": ">= 0"
       },
       {
-        "name": "collegiatelink",
+        "name": "CollegiateLink",
         "requirements": ">= 0"
       },
       {
@@ -7047,11 +7120,11 @@
         "requirements": ">= 2.1.3"
       },
       {
-        "name": "fog-iwd",
+        "name": "fog-maestrodev",
         "requirements": ">= 2.1.3"
       },
       {
-        "name": "fog-maestrodev",
+        "name": "fog-iwd",
         "requirements": ">= 2.1.3"
       },
       {
@@ -7063,7 +7136,7 @@
         "requirements": ">= 2.1.3"
       },
       {
-        "name": "fog-test-me",
+        "name": "fog-test-again",
         "requirements": ">= 2.1.3"
       },
       {
@@ -7071,7 +7144,7 @@
         "requirements": ">= 2.1.4"
       },
       {
-        "name": "fog-test-again",
+        "name": "fog-test-me",
         "requirements": ">= 2.1.3"
       },
       {
@@ -7111,11 +7184,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gaptool-server",
+        "name": "gaptool-client",
         "requirements": ">= 0"
       },
       {
-        "name": "gaptool-client",
+        "name": "gaptool-server",
         "requirements": ">= 0"
       },
       {
@@ -7133,10 +7206,6 @@
       {
         "name": "gitpusshuten",
         "requirements": "~> 2.0.0"
-      },
-      {
-        "name": "gloader",
-        "requirements": "~> 2.7.0"
       },
       {
         "name": "gltail",
@@ -7165,6 +7234,10 @@
       {
         "name": "hansolo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "here_or_there",
+        "requirements": "~> 2.6"
       },
       {
         "name": "HeSYINUvSBZfxqA-capistrano",
@@ -7375,7 +7448,7 @@
         "requirements": ">= 2.0.11"
       },
       {
-        "name": "net-scp",
+        "name": "net-sftp",
         "requirements": ">= 2.6.5"
       },
       {
@@ -7383,23 +7456,11 @@
         "requirements": "~> 2.0.10"
       },
       {
-        "name": "net-sftp",
-        "requirements": ">= 2.6.5"
-      },
-      {
         "name": "net-ssh-gateway",
         "requirements": ">= 2.6.5"
       },
       {
-        "name": "net-ssh-krb",
-        "requirements": ">= 2.0"
-      },
-      {
-        "name": "net-ssh-kerberos",
-        "requirements": ">= 2.0"
-      },
-      {
-        "name": "net-ssh-multi",
+        "name": "net-scp",
         "requirements": ">= 2.6.5"
       },
       {
@@ -7407,8 +7468,16 @@
         "requirements": ">= 2.0"
       },
       {
-        "name": "net-ssh-session",
-        "requirements": "~> 2.6"
+        "name": "net-ssh-kerberos",
+        "requirements": ">= 2.0"
+      },
+      {
+        "name": "net-ssh-krb",
+        "requirements": ">= 2.0"
+      },
+      {
+        "name": "net-ssh-multi",
+        "requirements": ">= 2.6.5"
       },
       {
         "name": "net-ssh-plus",
@@ -7419,16 +7488,20 @@
         "requirements": "~> 2.1.0"
       },
       {
+        "name": "net-ssh-session",
+        "requirements": "~> 2.6"
+      },
+      {
         "name": "net-ssh-simple",
         "requirements": "~> 2.6.3"
       },
       {
-        "name": "net-ssh-socks",
-        "requirements": "~> 2.0.0"
-      },
-      {
         "name": "net-ssh-telnet",
         "requirements": ">= 2.0.1"
+      },
+      {
+        "name": "net-ssh-socks",
+        "requirements": "~> 2.0.0"
       },
       {
         "name": "netconf",
@@ -7521,6 +7594,10 @@
       {
         "name": "pot",
         "requirements": ">= 2.6.6"
+      },
+      {
+        "name": "prepp",
+        "requirements": ">= 2.7.0"
       },
       {
         "name": "producer-core",
@@ -7643,6 +7720,10 @@
         "requirements": "~> 2.0.23"
       },
       {
+        "name": "rvm2-shell",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rye",
         "requirements": ">= 2.0.13"
       },
@@ -7751,11 +7832,11 @@
         "requirements": "~> 2.3"
       },
       {
-        "name": "sshkit",
+        "name": "sshkeyauth",
         "requirements": ">= 0"
       },
       {
-        "name": "sshkeyauth",
+        "name": "sshkit",
         "requirements": ">= 0"
       },
       {
@@ -7868,7 +7949,7 @@
       },
       {
         "name": "torpedo",
-        "requirements": "~> 2.2.1"
+        "requirements": ">= 0"
       },
       {
         "name": "torquebox-remote-deployer",
@@ -7895,11 +7976,11 @@
         "requirements": ">= 2.1.4"
       },
       {
-        "name": "tunnlr_connector",
+        "name": "tunnlr",
         "requirements": ">= 2.0.15"
       },
       {
-        "name": "tunnlr",
+        "name": "tunnlr_connector",
         "requirements": ">= 2.0.15"
       },
       {
@@ -7959,12 +8040,12 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "veewee",
-        "requirements": "~> 2.2.0"
-      },
-      {
         "name": "veridit-vagrant",
         "requirements": "~> 2.2.2"
+      },
+      {
+        "name": "veewee",
+        "requirements": "~> 2.2.0"
       },
       {
         "name": "virtual_box",
@@ -8001,6 +8082,10 @@
       {
         "name": "webmake",
         "requirements": ">= 2.1.0"
+      },
+      {
+        "name": "whipped-cream",
+        "requirements": ">= 0"
       },
       {
         "name": "who-needs-wp",
@@ -8062,10 +8147,6 @@
       {
         "name": "bosh_cli",
         "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "capistrano",
-        "requirements": ">= 1.1.0"
       },
       {
         "name": "capissh",
@@ -8240,6 +8321,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rhc",
+        "requirements": ">= 1.2.0"
+      },
+      {
         "name": "rigger",
         "requirements": "= 1.0.1"
       },
@@ -8309,11 +8394,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "novawhiz",
+        "name": "novafizz",
         "requirements": ">= 0"
       },
       {
-        "name": "novafizz",
+        "name": "novawhiz",
         "requirements": ">= 0"
       }
     ],
@@ -8503,16 +8588,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knife-oraclevm",
+        "name": "knife-ovh",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "knife-ovh",
+        "name": "knife-oraclevm",
         "requirements": "~> 1.5.0"
       },
       {
         "name": "knife-vsphere",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "owl-cms",
+        "requirements": "= 1.5.0"
       },
       {
         "name": "rack-ip_filter",
@@ -8521,6 +8610,10 @@
       {
         "name": "tacacs_plus",
         "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "vagrant-vcloud",
+        "requirements": "~> 1.5.0"
       }
     ],
     "description": "A package for manipulating network addresses."
@@ -8759,6 +8852,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "controls",
+        "requirements": ">= 0"
+      },
+      {
         "name": "debox",
         "requirements": ">= 0"
       },
@@ -8819,8 +8916,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rumm",
-        "requirements": ">= 0"
+        "name": "shard",
+        "requirements": "~> 0.7.7"
       },
       {
         "name": "shelly",
@@ -9081,16 +9178,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "netzke-has-many",
-        "requirements": ">= 0"
+        "name": "netzke-communitypack",
+        "requirements": "~> 0.7.2"
       },
       {
         "name": "netzke-draper",
         "requirements": ">= 0"
       },
       {
-        "name": "netzke-communitypack",
-        "requirements": "~> 0.7.2"
+        "name": "netzke-has-many",
+        "requirements": ">= 0"
       }
     ],
     "description": "A set of feature-rich extendible Netzke components (such as Form, Grid, Window, TabPanel, etc) and component extensions which can be used as building blocks for your RIA"
@@ -9124,16 +9221,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "netzke-basepack",
-        "requirements": "~> 0.8.2"
-      },
-      {
         "name": "netzke-basepack-zh",
         "requirements": "~> 0.7.6"
       },
       {
         "name": "netzke-cancan",
         "requirements": ">= 0"
+      },
+      {
+        "name": "netzke-basepack",
+        "requirements": "~> 0.8.2"
       },
       {
         "name": "netzke-has-many",
@@ -9400,6 +9497,23 @@
 
     ],
     "description": "Generate new Ruby/Cocoa Application skelton."
+  },
+  "newconference": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Newconference helps you create a website for you event/conference."
+  },
+  "newconference-core": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "newconference",
+        "requirements": "= 1.0.0"
+      }
+    ],
+    "description": "This is the core for newconference gem. Newconference helps you create a website for you conference."
   },
   "neweden": {
     "version": "0.1.6",
@@ -9779,11 +9893,11 @@
         "requirements": ">= 1.2.3"
       },
       {
-        "name": "gyazo",
+        "name": "gyazz",
         "requirements": ">= 1.5.3"
       },
       {
-        "name": "gyazz",
+        "name": "gyazo",
         "requirements": ">= 1.5.3"
       },
       {
@@ -10523,6 +10637,13 @@
     ],
     "description": "A Ruby library for accessing the Amazon Web Services Elastic Compute Cloud (EC2), Elastic Load Balancer (ELB), Cloudwatch, and Autoscaling API's."
   },
+  "newrelic-aws": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Unofficial New Relic Instrumentation for the official AWS SDK"
+  },
   "newrelic-cassandra": {
     "version": "0.0.1",
     "dependents": [
@@ -10663,6 +10784,13 @@
     ],
     "description": "Use this gem to access New Relic application information via a REST api"
   },
+  "newrelic_aws": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "This gem has been renamed newrelic-aws"
+  },
   "newrelic_data": {
     "version": "0.0.4",
     "dependents": [
@@ -10720,15 +10848,15 @@
     "description": "Ruby wrapper around the New Relic HTTP API. Makes it very easy to post component and metric data to the API."
   },
   "newrelic_plugin": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "dependents": [
-      {
-        "name": "newrelic_f5_plugin",
-        "requirements": "= 1.0.2"
-      },
       {
         "name": "newrelic_haproxy_agent",
         "requirements": "= 1.0.3"
+      },
+      {
+        "name": "newrelic_f5_plugin",
+        "requirements": "= 1.0.2"
       },
       {
         "name": "newrelic_postgres_plugin",
@@ -10767,7 +10895,7 @@
     "description": "NewRelic instrumentation for Riak."
   },
   "newrelic_rpm": {
-    "version": "3.6.7.159",
+    "version": "3.6.8.168",
     "dependents": [
       {
         "name": "barton",
@@ -10818,6 +10946,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "newrelic-aws",
+        "requirements": ">= 3.5.0"
+      },
+      {
+        "name": "newrelic-excon",
+        "requirements": ">= 3.6.1.87"
+      },
+      {
         "name": "newrelic-curb",
         "requirements": ">= 0"
       },
@@ -10826,16 +10962,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "newrelic-excon",
-        "requirements": ">= 3.6.1.87"
+        "name": "newrelic-faraday",
+        "requirements": "~> 3.0"
       },
       {
         "name": "newrelic-grape",
         "requirements": ">= 0"
-      },
-      {
-        "name": "newrelic-faraday",
-        "requirements": "~> 3.0"
       },
       {
         "name": "newrelic-httpclient",
@@ -10858,10 +10990,6 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "newrelic-sequel",
-        "requirements": "~> 3.0"
-      },
-      {
         "name": "newrelic-thinking-sphinx",
         "requirements": "~> 3.6.0"
       },
@@ -10870,16 +10998,20 @@
         "requirements": "~> 3.0"
       },
       {
+        "name": "newrelic-sequel",
+        "requirements": "~> 3.0"
+      },
+      {
         "name": "newrelic-samg",
         "requirements": ">= 0"
       },
       {
-        "name": "newrelic_ia",
-        "requirements": ">= 2.10.6"
+        "name": "newrelic_aws",
+        "requirements": ">= 3.5.0"
       },
       {
-        "name": "newrelic_moped",
-        "requirements": "~> 3.6.0"
+        "name": "newrelic_ia",
+        "requirements": ">= 2.10.6"
       },
       {
         "name": "newrelic_moped-toothrot",
@@ -10888,6 +11020,10 @@
       {
         "name": "newrelic_mongo",
         "requirements": "~> 3.5"
+      },
+      {
+        "name": "newrelic_moped",
+        "requirements": "~> 3.6.0"
       },
       {
         "name": "newrelic_riak",
@@ -11006,12 +11142,26 @@
     ],
     "description": "This gems allow for the simple creation of news feed notification objection attached to any class"
   },
-  "newscast": {
-    "version": "0.0.3",
+  "newsbing": {
+    "version": "1.0.0",
     "dependents": [
 
     ],
-    "description": "An ORM for messages distributed with amqp capable message queues."
+    "description": "bing search api gem compatible with recent microsoft azure migration. Find README.md with example usage at https://github.com/makerop/newsbing"
+  },
+  "newsblurry": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Access your Newsblur feed using Ruby."
+  },
+  "newscast": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "An ORM for messages distributed with asynchronous capable message queues."
   },
   "newscrapi": {
     "version": "0.0.11",
@@ -11146,11 +11296,11 @@
         "requirements": ">= 0.0.3"
       },
       {
-        "name": "nexpose_csv_generator",
+        "name": "nexpose_scan_manager",
         "requirements": ">= 0.0.3"
       },
       {
-        "name": "nexpose_scan_manager",
+        "name": "nexpose_csv_generator",
         "requirements": ">= 0.0.3"
       }
     ],
@@ -11191,12 +11341,26 @@
     ],
     "description": "Ouputs the time until the next bus"
   },
+  "next_buses": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "A gem to work with the NextBuses API"
+  },
   "next_muni": {
     "version": "0.1.5",
     "dependents": [
 
     ],
     "description": "A gem to access San Francisco's Next Muni API easily"
+  },
+  "next_record": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "adds `next` and `previous` methods to your ActiveRecord instances"
   },
   "nextbus": {
     "version": "0.0.1",
@@ -11298,6 +11462,20 @@
 
     ],
     "description": "Create new file from a template (small command-line utility)"
+  },
+  "NFA-to-DFA": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Finite automaton determinizer"
+  },
+  "nfa2dfa": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "Finite automaton determinizer"
   },
   "nfagent": {
     "version": "0.9.50",
@@ -11496,14 +11674,14 @@
     "description": "A collection of helper methods to test your nginx module."
   },
   "nginx_utils": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
     "description": "The various utilities on nginx"
   },
   "nginxtra": {
-    "version": "1.4.2.9",
+    "version": "1.4.3.9",
     "dependents": [
       {
         "name": "cartoonist-nginxtra",
@@ -11590,7 +11768,7 @@
     "description": "a read only, line oriented, sparse file class"
   },
   "nguyen": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -11633,6 +11811,13 @@
       }
     ],
     "description": "NHibernate is a mature, open source object-relational mapper for the .NET framework. It's actively developed , fully featured and used in thousands of successful projects.\n"
+  },
+  "nhkanga": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Japanese news scraper"
   },
   "nhl": {
     "version": "0.0.1",
@@ -11735,6 +11920,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hybridgroup-ruby-sdl-ffi",
+        "requirements": ">= 0.2"
+      },
+      {
         "name": "libacl",
         "requirements": ">= 0"
       },
@@ -11764,6 +11953,13 @@
       }
     ],
     "description": "Nice-FFI is a layer on top of Ruby-FFI (and compatible FFI systems)\nwith features to ease development of FFI-based libraries.\n"
+  },
+  "nice-line": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A client for nice-line-server"
   },
   "nice-n-easy": {
     "version": "1.1.0",
@@ -12097,6 +12293,16 @@
     ],
     "description": "NiFTP makes Ruby's decidedly un-nifty Net::FTP library easier to use."
   },
+  "nifty-attachments": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "shoppe",
+        "requirements": "~> 1.0.0"
+      }
+    ],
+    "description": "Attach documents & files to Active Record models"
+  },
   "nifty-cloud-sdk": {
     "version": "1.7",
     "dependents": [
@@ -12129,6 +12335,10 @@
       {
         "name": "kit_cms",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mail_nerd",
+        "requirements": "~> 0.4"
       },
       {
         "name": "navi",
@@ -12168,10 +12378,23 @@
     ],
     "description": "A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more."
   },
+  "nifty-key-value-store": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "shoppe",
+        "requirements": "~> 1.0.0"
+      }
+    ],
+    "description": "A key value store controller for Rails models"
+  },
   "nifty-utils": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "shoppe",
+        "requirements": "~> 1.0.0"
+      }
     ],
     "description": "A set of useful utilties for Rails applications"
   },
@@ -12406,7 +12629,7 @@
     "description": "Take your app from nil to chill in seven seconds or less"
   },
   "nilac": {
-    "version": "0.0.4.3.4",
+    "version": "0.0.4.3.9.2",
     "dependents": [
 
     ],
@@ -12425,6 +12648,13 @@
 
     ],
     "description": "View helpers for your custom Rack app or framework."
+  },
+  "nilesh_fetch": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "fetch api gem Release"
   },
   "nilify_blanks": {
     "version": "1.0.2",
@@ -12613,7 +12843,7 @@
     "description": "    Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n"
   },
   "nimbu": {
-    "version": "0.6",
+    "version": "0.6.2",
     "dependents": [
 
     ],
@@ -12813,10 +13043,6 @@
       {
         "name": "celluloid-io",
         "requirements": ">= 0.5.0"
-      },
-      {
-        "name": "linner",
-        "requirements": "~> 0.5.0"
       },
       {
         "name": "ruby_nsq",
@@ -13188,6 +13414,13 @@
     ],
     "description": "To use NMEA parser, you should somehow get data stream from your gps device."
   },
+  "nmi_direct_post": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Gem that encapsulates the NMI Direct Post API in an ActiveRecord-like syntax"
+  },
   "nmoneys": {
     "version": "2.5.0.0.20120625",
     "dependents": [
@@ -13352,11 +13585,11 @@
     "version": "0.0.2",
     "dependents": [
       {
-        "name": "noa-layout",
+        "name": "noa",
         "requirements": "= 0.0.1"
       },
       {
-        "name": "noa",
+        "name": "noa-layout",
         "requirements": "= 0.0.1"
       },
       {
@@ -13807,6 +14040,13 @@
     ],
     "description": "Nice Opaque Identifier"
   },
+  "noindex": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Hide some pages from search engines in Ruby on Rails applications"
+  },
   "noise": {
     "version": "0.0.1",
     "dependents": [
@@ -13872,12 +14112,12 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "abiquo-etk",
-        "requirements": ">= 1.3"
-      },
-      {
         "name": "abiquo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "abiquo-etk",
+        "requirements": ">= 1.3"
       },
       {
         "name": "abn_search",
@@ -13888,11 +14128,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "abscss",
+        "name": "absa-notify-me",
         "requirements": ">= 0"
       },
       {
-        "name": "absa-notify-me",
+        "name": "abscss",
         "requirements": ">= 0"
       },
       {
@@ -14052,6 +14292,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "aemet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "afipws",
         "requirements": ">= 0"
       },
@@ -14084,20 +14328,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "airblade-sitemap_generator",
-        "requirements": ">= 0"
-      },
-      {
         "name": "airbrake",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "airbrake_user_attributes",
-        "requirements": "~> 1.4.3.1"
+        "name": "airblade-sitemap_generator",
+        "requirements": ">= 0"
       },
       {
         "name": "airbrake_stats",
         "requirements": ">= 0"
+      },
+      {
+        "name": "airbrake_user_attributes",
+        "requirements": "~> 1.4.3.1"
       },
       {
         "name": "airgun",
@@ -14124,12 +14368,12 @@
         "requirements": ">= 1.4.0"
       },
       {
-        "name": "akzhan-premailer",
-        "requirements": ">= 1.4.0"
-      },
-      {
         "name": "akubra_llstore_migrate",
         "requirements": ">= 0"
+      },
+      {
+        "name": "akzhan-premailer",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "alberich",
@@ -14180,19 +14424,23 @@
         "requirements": "~> 1.3"
       },
       {
-        "name": "amazon-album-art",
-        "requirements": ">= 1.4.4"
-      },
-      {
-        "name": "amazon-album-art",
-        "requirements": ">= 1.4.4"
-      },
-      {
         "name": "amazon-ecs",
         "requirements": "~> 1.4"
       },
       {
+        "name": "amazon-album-art",
+        "requirements": ">= 1.4.4"
+      },
+      {
+        "name": "amazon-album-art",
+        "requirements": ">= 1.4.4"
+      },
+      {
         "name": "amazon-ruby",
+        "requirements": "~> 1.4"
+      },
+      {
+        "name": "amazon_product",
         "requirements": "~> 1.4"
       },
       {
@@ -14200,24 +14448,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amazon_product",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "amee",
         "requirements": "~> 1.4"
       },
       {
-        "name": "amee-ruby",
-        "requirements": "~> 1.4.3.1"
+        "name": "amex",
+        "requirements": ">= 0"
       },
       {
         "name": "american_idol",
         "requirements": ">= 0"
       },
       {
-        "name": "amex",
-        "requirements": ">= 0"
+        "name": "amee-ruby",
+        "requirements": "~> 1.4.3.1"
       },
       {
         "name": "amphibian",
@@ -14236,15 +14480,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "andeogen",
-        "requirements": ">= 0"
-      },
-      {
         "name": "andparcel",
         "requirements": ">= 1.4.1"
       },
       {
         "name": "andrake",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "andeogen",
         "requirements": ">= 0"
       },
       {
@@ -14258,6 +14502,10 @@
       {
         "name": "angular-gem",
         "requirements": ">= 0"
+      },
+      {
+        "name": "angumine",
+        "requirements": "~> 1.6"
       },
       {
         "name": "animenewsnetwork",
@@ -14348,12 +14596,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "apt-spy2",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "apsoto-sitemap_generator",
         "requirements": ">= 0"
+      },
+      {
+        "name": "apt-spy2",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "aq.rb",
@@ -14500,23 +14748,27 @@
         "requirements": "~> 1.4.4"
       },
       {
-        "name": "awestruct",
-        "requirements": "= 1.5.10"
-      },
-      {
         "name": "awesomemailer",
         "requirements": ">= 1.5.6"
-      },
-      {
-        "name": "awis-wrapper",
-        "requirements": ">= 0"
       },
       {
         "name": "awestructx",
         "requirements": "~> 1.5.2"
       },
       {
+        "name": "awestruct",
+        "requirements": "= 1.5.10"
+      },
+      {
         "name": "awetestlib",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "awis-wrapper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-ec2-instance_types",
         "requirements": ">= 0"
       },
       {
@@ -14572,10 +14824,6 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "baidu",
-        "requirements": ">= 0"
-      },
-      {
         "name": "baidu_crawler",
         "requirements": ">= 0"
       },
@@ -14588,16 +14836,16 @@
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "bamboo-client",
-        "requirements": ">= 0"
+        "name": "ballou_sms_gateway",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "ballonizer",
         "requirements": "~> 1.5"
       },
       {
-        "name": "ballou_sms_gateway",
-        "requirements": "~> 1.5.0"
+        "name": "bamboo-client",
+        "requirements": ">= 0"
       },
       {
         "name": "bandwidth",
@@ -14644,11 +14892,11 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "bbc_mobile_standards",
+        "name": "bbc_data_service",
         "requirements": ">= 0"
       },
       {
-        "name": "bbc_data_service",
+        "name": "bbc_mobile_standards",
         "requirements": ">= 0"
       },
       {
@@ -14676,12 +14924,12 @@
         "requirements": "= 1.5.10"
       },
       {
-        "name": "beerxml",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "beer_in_the_evening",
         "requirements": ">= 0"
+      },
+      {
+        "name": "beerxml",
+        "requirements": "~> 1.4"
       },
       {
         "name": "benmanns-atreides",
@@ -14696,16 +14944,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "best_image",
-        "requirements": ">= 1.5.2"
-      },
-      {
         "name": "best3",
         "requirements": ">= 0"
       },
       {
-        "name": "best_in_place",
-        "requirements": ">= 0"
+        "name": "best_image",
+        "requirements": ">= 1.5.2"
       },
       {
         "name": "best_in_placeish",
@@ -14714,6 +14958,10 @@
       {
         "name": "best_in_place_mongoid",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "best_in_place",
+        "requirements": ">= 0"
       },
       {
         "name": "better_bart",
@@ -14736,8 +14984,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bibsync",
-        "requirements": ">= 0"
+        "name": "biburi",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "bicho",
@@ -14792,12 +15040,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bitbucket_rest_api",
-        "requirements": "~> 1.5.2"
-      },
-      {
         "name": "bitbucket-api-extension",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bitbucket_rest_api",
+        "requirements": "~> 1.5.2"
       },
       {
         "name": "bjeanes-capybara",
@@ -14830,10 +15078,6 @@
       {
         "name": "bliss",
         "requirements": ">= 1.5.2"
-      },
-      {
-        "name": "blog_converter",
-        "requirements": ">= 0"
       },
       {
         "name": "blogit",
@@ -14872,11 +15116,11 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "bonjourgem_results",
+        "name": "bonfire",
         "requirements": ">= 0"
       },
       {
-        "name": "bonfire",
+        "name": "bonjourgem_results",
         "requirements": ">= 0"
       },
       {
@@ -14908,14 +15152,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "border_patrol",
-        "requirements": ">= 1.4.3.1"
-      },
-      {
-        "name": "border_patrol-sgonyea",
-        "requirements": ">= 1.4.3.1"
-      },
-      {
         "name": "bosh",
         "requirements": ">= 0"
       },
@@ -14924,11 +15160,15 @@
         "requirements": ">= 1.5.5, ~> 1.5"
       },
       {
-        "name": "boston-ruby",
-        "requirements": ">= 0"
+        "name": "border_patrol",
+        "requirements": ">= 1.4.3.1"
       },
       {
-        "name": "boston-stitch",
+        "name": "border_patrol-sgonyea",
+        "requirements": ">= 1.4.3.1"
+      },
+      {
+        "name": "boston-ruby",
         "requirements": ">= 0"
       },
       {
@@ -14940,15 +15180,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "boston-stitch",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bovespa",
         "requirements": ">= 1.4.4"
       },
       {
-        "name": "bovespa-prices",
+        "name": "boxgrinder-build",
         "requirements": ">= 0"
       },
       {
-        "name": "boxgrinder-build",
+        "name": "bovespa-prices",
         "requirements": ">= 0"
       },
       {
@@ -14956,11 +15200,11 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "brandeins-dl",
+        "name": "brandeins",
         "requirements": ">= 0"
       },
       {
-        "name": "brandeins",
+        "name": "brandeins-dl",
         "requirements": ">= 0"
       },
       {
@@ -14972,11 +15216,11 @@
         "requirements": ">= 1.4.7"
       },
       {
-        "name": "breadmachine",
+        "name": "breadcrumbs",
         "requirements": ">= 0"
       },
       {
-        "name": "breadcrumbs",
+        "name": "breadmachine",
         "requirements": ">= 0"
       },
       {
@@ -14984,16 +15228,16 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "brewscribe",
-        "requirements": ">= 0"
-      },
-      {
         "name": "brewser",
         "requirements": ">= 0"
       },
       {
+        "name": "brewscribe",
+        "requirements": ">= 0"
+      },
+      {
         "name": "brightbox-cli",
-        "requirements": ">= 1.4.0"
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "broadway",
@@ -15032,19 +15276,19 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "butter_sand",
-        "requirements": "~> 1.5.6"
-      },
-      {
         "name": "butter",
         "requirements": ">= 0"
       },
       {
-        "name": "butternut",
-        "requirements": ">= 0"
+        "name": "butter_sand",
+        "requirements": "~> 1.5.6"
       },
       {
         "name": "butterware-kashflow",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "butternut",
         "requirements": ">= 0"
       },
       {
@@ -15064,12 +15308,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "caboodle",
-        "requirements": ">= 1.4.0"
-      },
-      {
         "name": "cablegator",
         "requirements": ">= 0"
+      },
+      {
+        "name": "caboodle",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "cached_bitly",
@@ -15220,6 +15464,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cfdi",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cg",
         "requirements": ">= 1.4.1"
       },
@@ -15244,12 +15492,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chemspider",
-        "requirements": ">= 1.5.0"
-      },
-      {
         "name": "chemistrykit",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "chemspider",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "chicanery",
@@ -15288,11 +15536,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chromedriver-helper",
+        "name": "chromedriver2-helper",
         "requirements": ">= 0"
       },
       {
-        "name": "chromedriver2-helper",
+        "name": "chromedriver-helper",
         "requirements": ">= 0"
       },
       {
@@ -15320,20 +15568,20 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "cinch-toolbox",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "cinch-title",
         "requirements": ">= 0"
       },
       {
-        "name": "cinch-weather",
-        "requirements": ">= 1.5.0"
+        "name": "cinch-toolbox",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "cinch-urbandictionary",
         "requirements": ">= 1.4.4"
+      },
+      {
+        "name": "cinch-weather",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "cirras-management",
@@ -15352,8 +15600,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cjk-subsetter",
+        "requirements": "~> 1.5.0"
+      },
+      {
         "name": "civicrm",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cl_linkedin",
+        "requirements": "~> 1.4.4"
       },
       {
         "name": "clamsy",
@@ -15364,32 +15620,28 @@
         "requirements": ">= 1.5.0"
       },
       {
-        "name": "cl_linkedin",
-        "requirements": "~> 1.4.4"
-      },
-      {
         "name": "classy_cas",
         "requirements": "~> 1.4.4"
-      },
-      {
-        "name": "clima_tempo",
-        "requirements": ">= 1.5.9"
       },
       {
         "name": "climagic",
         "requirements": ">= 1.5.0"
       },
       {
-        "name": "climatempo",
-        "requirements": ">= 0"
+        "name": "clima_tempo",
+        "requirements": ">= 1.5.9"
       },
       {
-        "name": "clio-search",
+        "name": "climatempo",
         "requirements": ">= 0"
       },
       {
         "name": "clinical",
         "requirements": ">= 1.3.3"
+      },
+      {
+        "name": "clio-search",
+        "requirements": ">= 0"
       },
       {
         "name": "cloud_assets",
@@ -15400,16 +15652,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cloudhealth-setup",
-        "requirements": "= 1.5.8"
-      },
-      {
         "name": "cloudfront",
         "requirements": ">= 0"
       },
       {
         "name": "cloudfuji_paperclip",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cloudhealth-setup",
+        "requirements": "= 1.5.8"
       },
       {
         "name": "cml",
@@ -15424,11 +15676,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cocoon",
+        "name": "cocoadex",
         "requirements": ">= 0"
       },
       {
-        "name": "cocoadex",
+        "name": "cocoon",
         "requirements": ">= 0"
       },
       {
@@ -15444,6 +15696,10 @@
         "requirements": "> 1.4.0"
       },
       {
+        "name": "codesake-commons",
+        "requirements": ">= 0"
+      },
+      {
         "name": "codesake_links",
         "requirements": ">= 0"
       },
@@ -15456,10 +15712,6 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "CollegiateLink",
-        "requirements": ">= 0"
-      },
-      {
         "name": "collins_notify",
         "requirements": "~> 1.5.2"
       },
@@ -15468,16 +15720,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "CollegiateLink",
+        "requirements": ">= 0"
+      },
+      {
         "name": "colloquy_log_to_text",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "columbia-printers",
         "requirements": ">= 0"
       },
       {
         "name": "columbo",
         "requirements": ">= 1.5.9"
-      },
-      {
-        "name": "columbia-printers",
-        "requirements": ">= 0"
       },
       {
         "name": "commission_junction_stats",
@@ -15509,6 +15765,10 @@
       },
       {
         "name": "concert_calendar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "conditional_messages",
         "requirements": ">= 0"
       },
       {
@@ -15544,15 +15804,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "content_scrapper",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "content_urls",
         "requirements": "~> 1.5.10"
       },
       {
+        "name": "content_scrapper",
+        "requirements": ">= 1.4.1"
+      },
+      {
         "name": "contentdm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "controls",
         "requirements": ">= 0"
       },
       {
@@ -15560,12 +15824,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "coolstrap-generator",
-        "requirements": "~> 1.4.4"
-      },
-      {
         "name": "coop_to_ofx",
         "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "coolstrap-generator",
+        "requirements": "~> 1.4.4"
       },
       {
         "name": "CopyCasts",
@@ -15596,10 +15860,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "correios-frete",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "correios-sro",
         "requirements": "~> 1.5.0"
       },
@@ -15610,6 +15870,10 @@
       {
         "name": "correios-ws",
         "requirements": ">= 0"
+      },
+      {
+        "name": "correios-frete",
+        "requirements": "~> 1.5"
       },
       {
         "name": "corundum",
@@ -15644,10 +15908,6 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "craftyclicks",
-        "requirements": ">= 0"
-      },
-      {
         "name": "crackr",
         "requirements": "~> 1.4"
       },
@@ -15656,20 +15916,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "craftyclicks",
+        "requirements": ">= 0"
+      },
+      {
         "name": "craig",
         "requirements": "~> 1.5.6"
       },
       {
-        "name": "craigslist",
-        "requirements": "~> 1.6.0"
-      },
-      {
-        "name": "craigslist",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "craigslist-data",
         "requirements": ">= 0"
+      },
+      {
+        "name": "craigslist",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "craigslist",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "crapapult",
@@ -15684,12 +15948,12 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "crawler",
-        "requirements": ">= 0"
-      },
-      {
         "name": "crawler-engine",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "crawler",
+        "requirements": ">= 0"
       },
       {
         "name": "crawlfish",
@@ -15700,12 +15964,12 @@
         "requirements": "~> 1.5.6"
       },
       {
-        "name": "crazy_harry",
-        "requirements": ">= 1.5.5"
-      },
-      {
         "name": "crayfish",
         "requirements": ">= 0"
+      },
+      {
+        "name": "crazy_harry",
+        "requirements": ">= 1.5.5"
       },
       {
         "name": "creek",
@@ -15772,6 +16036,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "csv2strings",
+        "requirements": "= 1.5.10"
+      },
+      {
         "name": "csvkit",
         "requirements": ">= 0"
       },
@@ -15812,11 +16080,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cul-fedora",
+        "name": "cul_image_props",
         "requirements": ">= 0"
       },
       {
-        "name": "cul_image_props",
+        "name": "cul-fedora",
         "requirements": ">= 0"
       },
       {
@@ -15832,6 +16100,10 @@
         "requirements": "~> 1"
       },
       {
+        "name": "cupertino",
+        "requirements": "~> 1.5.9"
+      },
+      {
         "name": "cuporter",
         "requirements": ">= 1.4.1"
       },
@@ -15840,15 +16112,15 @@
         "requirements": ">= 1.6.0"
       },
       {
+        "name": "currency_converter_CIS",
+        "requirements": ">= 0"
+      },
+      {
         "name": "currency_converter_cis",
         "requirements": ">= 0"
       },
       {
         "name": "currency_rates",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "currency_converter_CIS",
         "requirements": ">= 0"
       },
       {
@@ -15880,12 +16152,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cycle_hire",
-        "requirements": ">= 1.5"
-      },
-      {
         "name": "cyaml",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "cycle_hire",
+        "requirements": ">= 1.5"
       },
       {
         "name": "cynergy-webrat",
@@ -15908,11 +16180,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "d3skills",
+        "name": "d3status",
         "requirements": ">= 0"
       },
       {
-        "name": "d3status",
+        "name": "d3skills",
         "requirements": ">= 0"
       },
       {
@@ -15940,12 +16212,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dash-mario",
-        "requirements": ">= 0"
-      },
-      {
         "name": "dashcode-converter",
         "requirements": ">= 1.4.3.1"
+      },
+      {
+        "name": "dash-mario",
+        "requirements": ">= 0"
       },
       {
         "name": "dasil003-sanitize",
@@ -15972,24 +16244,24 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "david-capybara",
-        "requirements": ">= 1.3.3"
-      },
-      {
         "name": "davidtrogers-cucumber",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "david-capybara",
+        "requirements": ">= 1.3.3"
       },
       {
         "name": "davidtrogers-webrat",
         "requirements": ">= 1.2.0"
       },
       {
-        "name": "dbpedia_concept_search",
-        "requirements": ">= 0"
-      },
-      {
         "name": "dbpedia",
         "requirements": ">= 1.5.5"
+      },
+      {
+        "name": "dbpedia_concept_search",
+        "requirements": ">= 0"
       },
       {
         "name": "dca",
@@ -16029,7 +16301,7 @@
       },
       {
         "name": "deface",
-        "requirements": "~> 1.5.0"
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "define",
@@ -16044,16 +16316,16 @@
         "requirements": ">= 1.4.3"
       },
       {
-        "name": "deltoid",
-        "requirements": "~> 1.4"
-      },
-      {
-        "name": "deltoid",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "deltavista_crif_dva_interface",
         "requirements": "= 1.5.0"
+      },
+      {
+        "name": "deltoid",
+        "requirements": "~> 1.4"
+      },
+      {
+        "name": "deltoid",
+        "requirements": "~> 1.4"
       },
       {
         "name": "demolisher",
@@ -16072,6 +16344,10 @@
         "requirements": "~> 1.4"
       },
       {
+        "name": "detektorfm",
+        "requirements": ">= 0"
+      },
+      {
         "name": "determine",
         "requirements": ">= 0"
       },
@@ -16088,12 +16364,12 @@
         "requirements": ">= 1.5.0"
       },
       {
-        "name": "devise_w3_authenticatable",
-        "requirements": "~> 1.4.3.1"
-      },
-      {
         "name": "devise_wind",
         "requirements": ">= 0"
+      },
+      {
+        "name": "devise_w3_authenticatable",
+        "requirements": "~> 1.4.3.1"
       },
       {
         "name": "devver-octopi",
@@ -16172,16 +16448,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "djnml",
+        "requirements": ">= 0"
+      },
+      {
         "name": "djanoa",
         "requirements": "~> 1.5.6"
       },
       {
         "name": "djjour",
         "requirements": ">= 1.5.0"
-      },
-      {
-        "name": "djnml",
-        "requirements": ">= 0"
       },
       {
         "name": "dm-bugzilla-adapter",
@@ -16212,15 +16488,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "doc_to_dash",
-        "requirements": ">= 0"
-      },
-      {
         "name": "doc_to_pdf",
         "requirements": ">= 0"
       },
       {
         "name": "doc_wrapper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "doc_to_dash",
         "requirements": ">= 0"
       },
       {
@@ -16252,27 +16528,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "docwu",
-        "requirements": ">= 0"
+        "name": "docx-templater",
+        "requirements": ">= 1.6.0"
       },
       {
         "name": "docx",
         "requirements": "~> 1.5"
       },
       {
-        "name": "docx_builder",
-        "requirements": ">= 1.5.2"
+        "name": "docwu",
+        "requirements": ">= 0"
       },
       {
         "name": "docx_manipulator",
         "requirements": ">= 0"
       },
       {
-        "name": "docx-templater",
-        "requirements": ">= 0"
+        "name": "docx_builder",
+        "requirements": ">= 1.5.2"
       },
       {
         "name": "docxtor",
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "docxtor2",
         "requirements": "~> 1.4.0"
       },
       {
@@ -16289,6 +16569,10 @@
       },
       {
         "name": "donors_choose2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dor-workflow-service",
         "requirements": ">= 0"
       },
       {
@@ -16314,6 +16598,10 @@
       {
         "name": "downer",
         "requirements": ">= 0"
+      },
+      {
+        "name": "dover_to_calais",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "downrightnow",
@@ -16440,16 +16728,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ecutools",
+        "requirements": ">= 1.5"
+      },
+      {
+        "name": "ecutools",
+        "requirements": ">= 1.5"
+      },
+      {
         "name": "ectd_check",
         "requirements": ">= 0"
-      },
-      {
-        "name": "ecutools",
-        "requirements": ">= 1.5"
-      },
-      {
-        "name": "ecutools",
-        "requirements": ">= 1.5"
       },
       {
         "name": "edgar",
@@ -16468,15 +16756,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eeepub-with-cover-support",
-        "requirements": ">= 0"
-      },
-      {
         "name": "eeepub",
         "requirements": ">= 0"
       },
       {
         "name": "eeepub3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "eeepub-with-cover-support",
         "requirements": ">= 0"
       },
       {
@@ -16488,11 +16776,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eg_nijigazou_sokuhou",
+        "name": "egauge",
         "requirements": ">= 0"
       },
       {
-        "name": "egauge",
+        "name": "eg_nijigazou_sokuhou",
         "requirements": ">= 0"
       },
       {
@@ -16568,6 +16856,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "em-zimbreasy",
+        "requirements": ">= 0"
+      },
+      {
         "name": "em_ws_discovery",
         "requirements": ">= 0"
       },
@@ -16588,12 +16880,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "emma",
-        "requirements": ">= 0"
-      },
-      {
         "name": "emipair-webrat",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "emma",
+        "requirements": ">= 0"
       },
       {
         "name": "emmett",
@@ -16608,11 +16900,11 @@
         "requirements": "~> 1.4.6"
       },
       {
-        "name": "encoding-dot-com",
+        "name": "encoder-rb",
         "requirements": ">= 0"
       },
       {
-        "name": "encoder-rb",
+        "name": "encoding-dot-com",
         "requirements": ">= 0"
       },
       {
@@ -16624,12 +16916,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "engineyard-local",
-        "requirements": ">= 1.5.2"
-      },
-      {
         "name": "engineyard-migrate",
         "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "engineyard-local",
+        "requirements": ">= 1.5.2"
       },
       {
         "name": "enhancerepo",
@@ -16684,15 +16976,15 @@
         "requirements": "~> 1.4"
       },
       {
+        "name": "epp-client-secdns",
+        "requirements": "~> 1.4"
+      },
+      {
         "name": "epp-client-rgp",
         "requirements": "~> 1.4"
       },
       {
         "name": "epp-client-smallregistry",
-        "requirements": "~> 1.4"
-      },
-      {
-        "name": "epp-client-secdns",
         "requirements": "~> 1.4"
       },
       {
@@ -16740,12 +17032,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eshell",
-        "requirements": ">= 0"
-      },
-      {
         "name": "esendex",
         "requirements": ">= 1.4.4.1"
+      },
+      {
+        "name": "eshell",
+        "requirements": ">= 0"
       },
       {
         "name": "esi-for-rack",
@@ -16760,32 +17052,32 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "eu_central_bank",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "etvnet-seek",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "etvnet-seek",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "etvnet_seek",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "etvnet-seek",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "etvnet-seek",
+        "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "eu_central_bank",
+        "requirements": ">= 0"
       },
       {
         "name": "eve-4",
         "requirements": ">= 0"
       },
       {
-        "name": "eve_online-api",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "eve_api",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "eve_online-api",
+        "requirements": "~> 1.5"
       },
       {
         "name": "event_reporter",
@@ -16832,8 +17124,8 @@
         "requirements": ">= 1.4.3.1"
       },
       {
-        "name": "exchange-rates-generator",
-        "requirements": "~> 1.4.4"
+        "name": "exchange",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "excesselt",
@@ -16844,12 +17136,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "exchanger",
-        "requirements": ">= 1.3.0"
+        "name": "exchange-rates-generator",
+        "requirements": "~> 1.4.4"
       },
       {
-        "name": "exchange",
-        "requirements": ">= 1.0.0"
+        "name": "exchanger",
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "excite",
@@ -16868,11 +17160,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "exlibris-aleph",
+        "name": "exlibris-primo",
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "exlibris-primo",
+        "name": "exlibris-aleph",
         "requirements": "~> 1.6.0"
       },
       {
@@ -16900,6 +17192,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "factoid",
+        "requirements": ">= 0"
+      },
+      {
         "name": "factorylabs-casrack_the_authenticator",
         "requirements": "~> 1.4.1"
       },
@@ -16916,11 +17212,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fancybox2-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fandango",
         "requirements": "~> 1.0"
       },
       {
-        "name": "fancybox2-rails",
+        "name": "fantasy_football_nerd",
         "requirements": ">= 0"
       },
       {
@@ -16929,10 +17229,6 @@
       },
       {
         "name": "faqmarkdown",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "fantasy_football_nerd",
         "requirements": ">= 0"
       },
       {
@@ -16956,16 +17252,16 @@
         "requirements": ">= 1.4.0"
       },
       {
+        "name": "faviconduit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fax_finder",
         "requirements": ">= 1.5"
       },
       {
         "name": "fax_finder",
         "requirements": "~> 1.5"
-      },
-      {
-        "name": "faviconduit",
-        "requirements": ">= 0"
       },
       {
         "name": "fblee-feedzirra",
@@ -16984,12 +17280,12 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "fedex",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "fed",
         "requirements": ">= 0"
+      },
+      {
+        "name": "fedex",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "fedora-fs",
@@ -17000,11 +17296,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "feed_processor_utils",
+        "name": "feed_me",
         "requirements": ">= 0"
       },
       {
-        "name": "feed_me",
+        "name": "feed_processor_utils",
         "requirements": ">= 0"
       },
       {
@@ -17024,12 +17320,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "feedzirra",
-        "requirements": ">= 1.4.4"
-      },
-      {
         "name": "feedzirra-etag-patch",
         "requirements": "> 0.0.0"
+      },
+      {
+        "name": "feedzirra",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "feldtruby",
@@ -17040,12 +17336,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fetch_meizi",
-        "requirements": "~> 1.5.9"
-      },
-      {
         "name": "feta",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "fetch_meizi",
+        "requirements": "~> 1.5.9"
       },
       {
         "name": "ffi-chm",
@@ -17164,20 +17460,20 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "fog-dragonfly",
-        "requirements": "= 1.5.0.beta.2"
-      },
-      {
         "name": "fog-nirvanix",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "fog-maestrodev",
+        "requirements": "~> 1.5"
       },
       {
         "name": "fog-iwd",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "fog-maestrodev",
-        "requirements": "~> 1.5"
+        "name": "fog-dragonfly",
+        "requirements": "= 1.5.0.beta.2"
       },
       {
         "name": "fog-sgonyea",
@@ -17188,7 +17484,7 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "fog-test-me",
+        "name": "fog-test-again",
         "requirements": "~> 1.5.0"
       },
       {
@@ -17196,7 +17492,7 @@
         "requirements": ">= 1.4.4"
       },
       {
-        "name": "fog-test-again",
+        "name": "fog-test-me",
         "requirements": "~> 1.5.0"
       },
       {
@@ -17220,12 +17516,12 @@
         "requirements": "~> 1.5.4"
       },
       {
-        "name": "forem-redcarpet",
-        "requirements": ">= 0"
-      },
-      {
         "name": "forem-kramdown",
         "requirements": "~> 1.5.6"
+      },
+      {
+        "name": "forem-redcarpet",
+        "requirements": ">= 0"
       },
       {
         "name": "form_slider",
@@ -17256,12 +17552,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fotonauts-premailer",
-        "requirements": ">= 1.4.4"
-      },
-      {
         "name": "fotonauts-flickr_fu",
         "requirements": ">= 1.5.5"
+      },
+      {
+        "name": "fotonauts-premailer",
+        "requirements": ">= 1.4.4"
       },
       {
         "name": "foxy_sync",
@@ -17352,12 +17648,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gapinc-fog",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "gapinc-rbvmomi",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "gapinc-fog",
+        "requirements": "~> 1.5"
       },
       {
         "name": "garlenko",
@@ -17376,12 +17672,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gatherer",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "gauntlt",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "gatherer",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "gdata-api",
@@ -17406,6 +17702,10 @@
       {
         "name": "gemqs",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gemsurance",
+        "requirements": "= 1.5.9"
       },
       {
         "name": "gengiscan",
@@ -17460,12 +17760,12 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "getvideo",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gexf",
         "requirements": "~> 1.5.5"
+      },
+      {
+        "name": "getvideo",
+        "requirements": ">= 0"
       },
       {
         "name": "gfrom",
@@ -17496,7 +17796,15 @@
         "requirements": "~> 1.5.5"
       },
       {
+        "name": "gimme_gimme",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gimme-octo-kitty-wiki",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ginjo-rfm",
         "requirements": ">= 0"
       },
       {
@@ -17504,16 +17812,8 @@
         "requirements": "~> 1.5.9"
       },
       {
-        "name": "gimme_gimme",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ging-opengraph",
         "requirements": ">= 1.4.0"
-      },
-      {
-        "name": "ginjo-rfm",
-        "requirements": ">= 0"
       },
       {
         "name": "girdle",
@@ -17572,12 +17872,16 @@
         "requirements": ">= 1.4.1"
       },
       {
+        "name": "gkellogg-reddy",
+        "requirements": ">= 1.3.3"
+      },
+      {
         "name": "gjp",
         "requirements": ">= 0"
       },
       {
-        "name": "gkellogg-reddy",
-        "requirements": ">= 1.3.3"
+        "name": "glennr_opensrs",
+        "requirements": "~> 1.4.6"
       },
       {
         "name": "gliffy",
@@ -17608,12 +17912,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "gmaps_proxy",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gmaps_geocoding",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "gmaps_proxy",
+        "requirements": ">= 0"
       },
       {
         "name": "gmcmillan-xmpp4r",
@@ -17636,16 +17940,16 @@
         "requirements": ">= 1.4.3.1"
       },
       {
+        "name": "go_api_client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "go_figure",
         "requirements": "~> 1.5.0"
       },
       {
         "name": "go_maps",
         "requirements": ">= 1.4.1"
-      },
-      {
-        "name": "go_api_client",
-        "requirements": ">= 0"
       },
       {
         "name": "goatless",
@@ -17656,20 +17960,16 @@
         "requirements": "~> 1.5.0"
       },
       {
+        "name": "gogoodreads",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gogoodreads",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gojee-sunspot-rails",
         "requirements": ">= 0"
-      },
-      {
-        "name": "gogoodreads",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "gogoodreads",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "glennr_opensrs",
-        "requirements": "~> 1.4.6"
       },
       {
         "name": "golfscrape",
@@ -17680,12 +17980,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gollum-bibanon",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "gollum-lib",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "gollum-bibanon",
+        "requirements": "~> 1.4"
       },
       {
         "name": "goncalossilva-showoff",
@@ -17704,12 +18004,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google-custom_search",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "google-contacts",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "google-custom_search",
+        "requirements": "~> 1.5"
       },
       {
         "name": "google-play",
@@ -17728,11 +18028,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google_alerts",
+        "name": "google4r-checkout",
         "requirements": ">= 0"
       },
       {
-        "name": "google4r-checkout",
+        "name": "google_alerts",
         "requirements": ">= 0"
       },
       {
@@ -17752,12 +18052,12 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "google_data_source",
-        "requirements": ">= 0"
-      },
-      {
         "name": "google_drive",
         "requirements": "!= 1.5.1, != 1.5.2, >= 1.4.4"
+      },
+      {
+        "name": "google_data_source",
+        "requirements": ">= 0"
       },
       {
         "name": "google_movies",
@@ -17768,16 +18068,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google_play_search",
-        "requirements": ">= 1.5.3"
-      },
-      {
         "name": "google_play_scraper",
         "requirements": ">= 1.5.0"
       },
       {
+        "name": "google_play_search",
+        "requirements": ">= 1.5.3"
+      },
+      {
         "name": "google_reader",
         "requirements": "~> 1.4.4"
+      },
+      {
+        "name": "google_scraper_gem",
+        "requirements": ">= 0"
       },
       {
         "name": "google_scholar",
@@ -17788,19 +18092,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "google_search_cmdline",
+        "requirements": ">= 0"
+      },
+      {
         "name": "google_showtimes",
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "google_scraper_gem",
-        "requirements": ">= 0"
-      },
-      {
         "name": "google_suggest",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "google_search_cmdline",
         "requirements": ">= 0"
       },
       {
@@ -17828,6 +18128,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "govkit-h",
+        "requirements": ">= 1.4.4"
+      },
+      {
+        "name": "govkit-h",
+        "requirements": ">= 0"
+      },
+      {
         "name": "govkit",
         "requirements": "~> 1.5.5"
       },
@@ -17844,7 +18152,7 @@
         "requirements": ">= 1.5"
       },
       {
-        "name": "gpx2exif",
+        "name": "gpx_utils",
         "requirements": ">= 0"
       },
       {
@@ -17856,11 +18164,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gpx_utils",
+        "name": "gpx2exif",
         "requirements": ">= 0"
       },
       {
         "name": "grabber",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "grabbit",
         "requirements": ">= 0"
       },
       {
@@ -17889,14 +18201,6 @@
       },
       {
         "name": "greenmonster",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "govkit-h",
-        "requirements": ">= 1.4.4"
-      },
-      {
-        "name": "govkit-h",
         "requirements": ">= 0"
       },
       {
@@ -17960,11 +18264,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guidestar-ruby",
+        "name": "guidestar",
         "requirements": "~> 1.5"
       },
       {
-        "name": "guidestar",
+        "name": "guidestar-ruby",
         "requirements": "~> 1.5"
       },
       {
@@ -18048,6 +18352,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hatebu_entry",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hatenadiary",
         "requirements": ">= 1.3.3"
       },
@@ -18058,6 +18366,10 @@
       {
         "name": "hdo-storting-importer",
         "requirements": ">= 0"
+      },
+      {
+        "name": "headless_html_editor",
+        "requirements": ">= 1.6.0"
       },
       {
         "name": "health-data-standards",
@@ -18116,12 +18428,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hn2json",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "hnhome",
         "requirements": ">= 0"
+      },
+      {
+        "name": "hn2json",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "hn_scraper",
@@ -18148,12 +18460,12 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "hosemonkey",
-        "requirements": ">= 0"
-      },
-      {
         "name": "horseman",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "hosemonkey",
+        "requirements": ">= 0"
       },
       {
         "name": "hostelify",
@@ -18164,11 +18476,15 @@
         "requirements": ">= 1.4.4"
       },
       {
+        "name": "housefire",
+        "requirements": ">= 0"
+      },
+      {
         "name": "HoustonLibrarySearch",
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "housefire",
+        "name": "howdy",
         "requirements": ">= 0"
       },
       {
@@ -18178,10 +18494,6 @@
       {
         "name": "howdoi",
         "requirements": ">= 1.5.6"
-      },
-      {
-        "name": "howdy",
-        "requirements": ">= 0"
       },
       {
         "name": "howl",
@@ -18200,11 +18512,11 @@
         "requirements": "< 1.6, >= 1.4"
       },
       {
-        "name": "html-pipeline-no-charlock",
+        "name": "html-pipeline-linuxfr",
         "requirements": "~> 1.4"
       },
       {
-        "name": "html-pipeline-linuxfr",
+        "name": "html-pipeline-no-charlock",
         "requirements": "~> 1.4"
       },
       {
@@ -18240,12 +18552,12 @@
         "requirements": ">= 1.5.0"
       },
       {
-        "name": "html_massage",
-        "requirements": ">= 1.4"
-      },
-      {
         "name": "html_injector",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "html_massage",
+        "requirements": ">= 1.4"
       },
       {
         "name": "html_package",
@@ -18432,12 +18744,12 @@
         "requirements": ">= 1.5.4"
       },
       {
-        "name": "imasquerade",
-        "requirements": ">= 0"
-      },
-      {
         "name": "imap_to_rss",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "imasquerade",
+        "requirements": ">= 0"
       },
       {
         "name": "imdb-scan",
@@ -18456,20 +18768,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "imified",
-        "requirements": ">= 0"
-      },
-      {
         "name": "imine",
         "requirements": ">= 0.8.3"
       },
       {
-        "name": "imp3",
-        "requirements": "~> 1.4.1"
+        "name": "imified",
+        "requirements": ">= 0"
       },
       {
-        "name": "impressionist",
-        "requirements": "~> 1.6.0"
+        "name": "imp3",
+        "requirements": "~> 1.4.1"
       },
       {
         "name": "impostor",
@@ -18478,6 +18786,10 @@
       {
         "name": "impressiongram",
         "requirements": ">= 0"
+      },
+      {
+        "name": "impressionist",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "imw",
@@ -18512,11 +18824,11 @@
         "requirements": "~> 1.5.6"
       },
       {
-        "name": "inline-style-umanni",
+        "name": "inline-style",
         "requirements": ">= 0"
       },
       {
-        "name": "inline-style",
+        "name": "inline-style-umanni",
         "requirements": ">= 0"
       },
       {
@@ -18616,6 +18928,10 @@
         "requirements": ">= 1.4.0"
       },
       {
+        "name": "irlp",
+        "requirements": ">= 0"
+      },
+      {
         "name": "irs_pub78",
         "requirements": "~> 1.5.0"
       },
@@ -18626,6 +18942,10 @@
       {
         "name": "irxml",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "isbnify",
+        "requirements": ">= 0"
       },
       {
         "name": "iso_code",
@@ -18644,11 +18964,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ispusage",
+        "name": "isrc",
         "requirements": ">= 0"
       },
       {
-        "name": "isrc",
+        "name": "ispusage",
         "requirements": ">= 0"
       },
       {
@@ -18656,12 +18976,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "itis",
-        "requirements": ">= 0"
-      },
-      {
         "name": "itility",
         "requirements": "~> 1.0.6"
+      },
+      {
+        "name": "itis",
+        "requirements": ">= 0"
       },
       {
         "name": "itinerary",
@@ -18708,15 +19028,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jasmine-fixtures-generator",
-        "requirements": ">= 1.4.0"
-      },
-      {
         "name": "jasmine-core",
         "requirements": ">= 0"
       },
       {
         "name": "jasmine-fixtures",
+        "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "jasmine-fixtures-generator",
         "requirements": ">= 1.4.0"
       },
       {
@@ -18732,11 +19052,11 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "jazrb",
+        "name": "jazz",
         "requirements": ">= 0"
       },
       {
-        "name": "jazz",
+        "name": "jazrb",
         "requirements": ">= 0"
       },
       {
@@ -18768,6 +19088,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "jhove-service",
+        "requirements": ">= 1.4.3.1"
+      },
+      {
         "name": "jido",
         "requirements": ">= 1.4.4"
       },
@@ -18788,6 +19112,10 @@
         "requirements": ">= 1.4.4, <= 1.5"
       },
       {
+        "name": "job-bob",
+        "requirements": ">= 0"
+      },
+      {
         "name": "job_central",
         "requirements": "> 1.2.3"
       },
@@ -18796,12 +19124,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jobvite",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jobviter",
         "requirements": "~> 1.4"
+      },
+      {
+        "name": "jobvite",
+        "requirements": ">= 0"
       },
       {
         "name": "john_stamos",
@@ -18864,12 +19192,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jugyo-gollum",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "juicer",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "jugyo-gollum",
+        "requirements": "~> 1.4"
       },
       {
         "name": "julien51-sax-machine",
@@ -18912,12 +19240,12 @@
         "requirements": ">= 1.2.0"
       },
       {
-        "name": "kekkan",
-        "requirements": ">= 1.5.5"
-      },
-      {
         "name": "kekka",
         "requirements": ">= 1.5"
+      },
+      {
+        "name": "kekkan",
+        "requirements": ">= 1.5.5"
       },
       {
         "name": "kelredd-media-rss",
@@ -18952,12 +19280,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "killsite",
-        "requirements": ">= 0"
-      },
-      {
         "name": "killshot",
         "requirements": ">= 1.5.9"
+      },
+      {
+        "name": "killsite",
+        "requirements": ">= 0"
       },
       {
         "name": "kimotter",
@@ -18980,12 +19308,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "kiosk",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "kinopoisk_parser",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kiosk",
+        "requirements": "~> 1.5"
       },
       {
         "name": "kitabu",
@@ -19060,12 +19388,12 @@
         "requirements": ">= 1.4.4"
       },
       {
-        "name": "ladder",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "lady_gaga",
         "requirements": "~> 1.4.4"
+      },
+      {
+        "name": "ladder",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "lardawge-rfm",
@@ -19132,12 +19460,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liberty_reserve_link",
-        "requirements": ">= 0"
-      },
-      {
         "name": "liberty_reserve",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "liberty_reserve_link",
+        "requirements": ">= 0"
       },
       {
         "name": "librarything-api",
@@ -19164,6 +19492,10 @@
         "requirements": "~> 1.5.5"
       },
       {
+        "name": "link-preview",
+        "requirements": ">= 0"
+      },
+      {
         "name": "lingvo",
         "requirements": ">= 0"
       },
@@ -19173,10 +19505,6 @@
       },
       {
         "name": "link_oracle",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "link-preview",
         "requirements": ">= 0"
       },
       {
@@ -19200,15 +19528,15 @@
         "requirements": "~> 1.4.4"
       },
       {
+        "name": "links",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "links",
+        "requirements": ">= 0"
+      },
+      {
         "name": "links_processor",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "links",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "links",
         "requirements": ">= 0"
       },
       {
@@ -19352,20 +19680,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lyricfy",
-        "requirements": ">= 1.3.3"
-      },
-      {
         "name": "lyricli",
         "requirements": "~> 1.5.5"
       },
       {
-        "name": "mab2",
-        "requirements": "~> 1.6.0"
+        "name": "lyricfy",
+        "requirements": ">= 1.3.3"
       },
       {
-        "name": "macaroni",
-        "requirements": ">= 0"
+        "name": "mab2",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "macaron",
@@ -19373,6 +19697,10 @@
       },
       {
         "name": "machiawase",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "macaroni",
         "requirements": ">= 0"
       },
       {
@@ -19392,6 +19720,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mail_nerd",
+        "requirements": "~> 1.6"
+      },
+      {
         "name": "mail_style",
         "requirements": ">= 1.0.0"
       },
@@ -19408,12 +19740,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "majesticseo",
-        "requirements": ">= 1.4.0"
-      },
-      {
         "name": "majestic_seo_api",
         "requirements": ">= 1.5.9"
+      },
+      {
+        "name": "majesticseo",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "makers-mark",
@@ -19452,12 +19784,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "markdown_doctor",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "markdown2confluence",
         "requirements": ">= 0"
+      },
+      {
+        "name": "markdown_doctor",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "market_bot",
@@ -19480,12 +19812,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "markup_validity",
-        "requirements": ">= 1.3.1"
-      },
-      {
         "name": "markup_parser",
         "requirements": ">= 0"
+      },
+      {
+        "name": "markup_validity",
+        "requirements": ">= 1.3.1"
       },
       {
         "name": "maruto",
@@ -19552,6 +19884,10 @@
         "requirements": "~> 1.4.3"
       },
       {
+        "name": "membrain",
+        "requirements": ">= 0"
+      },
+      {
         "name": "meme_generator",
         "requirements": "~> 1.4"
       },
@@ -19576,6 +19912,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "meta_info",
+        "requirements": "~> 1.4.7"
+      },
+      {
         "name": "metacrunch-core",
         "requirements": "~> 1.6.0"
       },
@@ -19592,12 +19932,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "metra_schedule",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "metlinkr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "metra_schedule",
+        "requirements": ">= 1.4.1"
       },
       {
         "name": "metrics_satellite",
@@ -19628,11 +19968,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "microformats2",
+        "name": "microformat",
         "requirements": ">= 0"
       },
       {
-        "name": "microformat",
+        "name": "microformats2",
         "requirements": ">= 0"
       },
       {
@@ -19680,20 +20020,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mixpal",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "mixpanel",
         "requirements": ">= 0"
       },
       {
-        "name": "mizuho",
-        "requirements": ">= 1.4.0"
+        "name": "mixpal",
+        "requirements": "~> 1.6.0"
       },
       {
-        "name": "mjai",
-        "requirements": ">= 1.5.0"
+        "name": "mizuho",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "mizuho_bank",
@@ -19704,16 +20040,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mkd_fx",
-        "requirements": ">= 0"
+        "name": "mjai",
+        "requirements": ">= 1.5.0"
       },
       {
-        "name": "ml",
+        "name": "mkd_fx",
         "requirements": ">= 0"
       },
       {
         "name": "mkuklis-webrat",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "ml",
+        "requirements": ">= 0"
       },
       {
         "name": "mlb-standings",
@@ -19734,6 +20074,10 @@
       {
         "name": "mms2r",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "moab-versioning",
+        "requirements": ">= 0"
       },
       {
         "name": "mochigome",
@@ -19760,12 +20104,12 @@
         "requirements": "~> 1.4.3"
       },
       {
-        "name": "moiper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "moip_catarse",
         "requirements": "~> 1.4.2"
+      },
+      {
+        "name": "moiper",
+        "requirements": ">= 0"
       },
       {
         "name": "mollie",
@@ -19908,11 +20252,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "multilang",
+        "name": "multigiri",
         "requirements": ">= 0"
       },
       {
-        "name": "multigiri",
+        "name": "multilang",
         "requirements": ">= 0"
       },
       {
@@ -19944,11 +20288,11 @@
         "requirements": "~> 1.5.2"
       },
       {
-        "name": "mvn_plugin_config",
+        "name": "mvn-plugin-config",
         "requirements": ">= 0"
       },
       {
-        "name": "mvn-plugin-config",
+        "name": "mvn_plugin_config",
         "requirements": ">= 0"
       },
       {
@@ -20024,20 +20368,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nanoc-snippet",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nanoc-toolbox",
         "requirements": "~> 1.6"
       },
       {
-        "name": "nanopop",
+        "name": "nanoc-snippet",
         "requirements": ">= 0"
       },
       {
         "name": "nanowrimo",
         "requirements": "= 1.4.3.1"
+      },
+      {
+        "name": "nanopop",
+        "requirements": ">= 0"
       },
       {
         "name": "nasdaq_query",
@@ -20056,12 +20400,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nbp-rates",
-        "requirements": ">= 1.4.2"
-      },
-      {
         "name": "nbp_exchange",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nbp-rates",
+        "requirements": ">= 1.4.2"
       },
       {
         "name": "nbrb_currency",
@@ -20088,12 +20432,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "nephophobia",
-        "requirements": "~> 1.4.4"
-      },
-      {
         "name": "neopets",
         "requirements": "~> 1.5.2"
+      },
+      {
+        "name": "nephophobia",
+        "requirements": "~> 1.4.4"
       },
       {
         "name": "nerpin",
@@ -20160,11 +20504,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nfler",
+        "name": "nfl_live_update",
         "requirements": ">= 0"
       },
       {
-        "name": "nfl_live_update",
+        "name": "nfler",
         "requirements": ">= 0"
       },
       {
@@ -20176,16 +20520,16 @@
         "requirements": "~> 1.5.6"
       },
       {
+        "name": "nhkanga",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nice",
         "requirements": ">= 0"
       },
       {
         "name": "niceogiri",
         "requirements": "~> 1.5"
-      },
-      {
-        "name": "nicoapi-parser",
-        "requirements": ">= 0"
       },
       {
         "name": "nicoalert",
@@ -20196,11 +20540,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery",
+        "name": "nicoapi-parser",
         "requirements": ">= 0"
       },
       {
         "name": "nicoquery-parser",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nicoquery",
         "requirements": ">= 0"
       },
       {
@@ -20232,6 +20580,10 @@
         "requirements": ">= 0.9.7"
       },
       {
+        "name": "noko_builder",
+        "requirements": "~> 1.5.0"
+      },
+      {
         "name": "noko_site_gem",
         "requirements": ">= 0"
       },
@@ -20240,28 +20592,36 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "nokogiri-happymapper",
-        "requirements": "~> 1.5"
-      },
-      {
-        "name": "nokogiri-plist",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "nokogiri_helper",
-        "requirements": ">= 1.5.6.rc3, ~> 1.5"
-      },
-      {
         "name": "nokogiri-pretty",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nokogiri-happymapper",
+        "requirements": "~> 1.5"
       },
       {
         "name": "nokogiri-styles",
         "requirements": ">= 0"
       },
       {
+        "name": "nokogiri-plist",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nokogiri-xmlsec",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nokogiri_html_helpers",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "nokogiri_helper",
+        "requirements": ">= 1.5.6.rc3, ~> 1.5"
+      },
+      {
+        "name": "nokogiri_truncate_html",
+        "requirements": "~> 1.5.8"
       },
       {
         "name": "nokogirl",
@@ -20272,20 +20632,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nokogiri_truncate_html",
-        "requirements": "~> 1.5.8"
-      },
-      {
-        "name": "nokorexi",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nom-xml",
         "requirements": ">= 0"
       },
       {
         "name": "nom_nom",
         "requirements": "= 1.4.3.1"
+      },
+      {
+        "name": "nokorexi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nori-ng-1.6",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "nori",
@@ -20300,6 +20660,10 @@
         "requirements": "~> 1.5.6"
       },
       {
+        "name": "nppes",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ns-api",
         "requirements": ">= 0"
       },
@@ -20308,8 +20672,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "noko_builder",
-        "requirements": "~> 1.5.0"
+        "name": "nsf",
+        "requirements": ">= 1.4.4"
       },
       {
         "name": "nukumber",
@@ -20336,12 +20700,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oas",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "oass",
         "requirements": "~> 1.4.4"
+      },
+      {
+        "name": "oas",
+        "requirements": "~> 1.5"
       },
       {
         "name": "oauth_doorman",
@@ -20364,12 +20728,12 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "ocr",
-        "requirements": ">= 1.5.0"
-      },
-      {
         "name": "ocrsdk",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ocr",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "octopi",
@@ -20381,6 +20745,10 @@
       },
       {
         "name": "oddb2xml",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "odeon_uk",
         "requirements": ">= 0"
       },
       {
@@ -20504,11 +20872,11 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "onthesnow",
+        "name": "onthisday",
         "requirements": ">= 0"
       },
       {
-        "name": "onthisday",
+        "name": "onthesnow",
         "requirements": ">= 0"
       },
       {
@@ -20532,15 +20900,19 @@
         "requirements": "= 1.5.6"
       },
       {
-        "name": "openamplify",
-        "requirements": ">= 0"
-      },
-      {
         "name": "openas2",
         "requirements": ">= 0"
       },
       {
+        "name": "openamplify",
+        "requirements": ">= 0"
+      },
+      {
         "name": "opencrx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "opengl-core",
         "requirements": ">= 0"
       },
       {
@@ -20556,15 +20928,7 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "opengl-core",
-        "requirements": ">= 0"
-      },
-      {
         "name": "openlogcleaner",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "opennebula",
         "requirements": ">= 0"
       },
       {
@@ -20572,8 +20936,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "opennebula",
+        "requirements": ">= 0"
+      },
+      {
         "name": "opensrs",
         "requirements": "~> 1.4.6"
+      },
+      {
+        "name": "opentox-ruby-api-wrapper",
+        "requirements": ">= 0"
       },
       {
         "name": "opentox-ruby",
@@ -20584,10 +20956,6 @@
         "requirements": ">= 1.4.3.1"
       },
       {
-        "name": "opentox-ruby-api-wrapper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "openvas-cli",
         "requirements": ">= 1.4.4"
       },
@@ -20596,11 +20964,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opml-parser",
+        "name": "opml-reader",
         "requirements": ">= 0"
       },
       {
-        "name": "opml-reader",
+        "name": "opml-parser",
         "requirements": ">= 0"
       },
       {
@@ -20636,11 +21004,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ouch",
+        "name": "oui_lookup",
         "requirements": ">= 0"
       },
       {
-        "name": "oui_lookup",
+        "name": "ouch",
         "requirements": ">= 0"
       },
       {
@@ -20692,12 +21060,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pagehub-markdown",
-        "requirements": ">= 1.5.5"
-      },
-      {
         "name": "pagelime_rails",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pagehub-markdown",
+        "requirements": ">= 1.5.5"
       },
       {
         "name": "PageRankr",
@@ -20716,12 +21084,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "pagseguro_v2",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pagseguro_client",
         "requirements": "~> 1.6"
+      },
+      {
+        "name": "pagseguro_v2",
+        "requirements": ">= 0"
       },
       {
         "name": "pakyow-presenter",
@@ -20740,12 +21108,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "pandorified",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pandora_client",
         "requirements": "~> 1.5.2"
+      },
+      {
+        "name": "pandorified",
+        "requirements": ">= 0"
       },
       {
         "name": "paper_metadata",
@@ -20848,6 +21216,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "peddler",
+        "requirements": "~> 1.5"
+      },
+      {
         "name": "pedit",
         "requirements": ">= 0"
       },
@@ -20888,6 +21260,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "petfinder",
+        "requirements": "~> 1.6"
+      },
+      {
         "name": "PetSearch",
         "requirements": ">= 0"
       },
@@ -20914,6 +21290,14 @@
       {
         "name": "phishtank",
         "requirements": "~> 1.5.2"
+      },
+      {
+        "name": "phish_dot_net_client",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "phonelib",
+        "requirements": ">= 0"
       },
       {
         "name": "phonie",
@@ -20944,12 +21328,12 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "pincerna",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "pinch_hitter",
         "requirements": ">= 1.5.6"
+      },
+      {
+        "name": "pincerna",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "pingback",
@@ -20998,10 +21382,6 @@
       {
         "name": "pivotal-tracker-fox",
         "requirements": ">= 1.5.5"
-      },
-      {
-        "name": "phonelib",
-        "requirements": ">= 0"
       },
       {
         "name": "pivotalprinter",
@@ -21152,12 +21532,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pox_paginate",
-        "requirements": "~> 1.4.5"
-      },
-      {
         "name": "powirb",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pox_paginate",
+        "requirements": "~> 1.4.5"
       },
       {
         "name": "pp-contacts",
@@ -21180,6 +21560,10 @@
         "requirements": ">= 1.4.4"
       },
       {
+        "name": "premailer-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "premailer-rails3",
         "requirements": ">= 0"
       },
@@ -21188,11 +21572,11 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "premailer-rails",
+        "name": "pretty-xml",
         "requirements": ">= 0"
       },
       {
-        "name": "pretty-xml",
+        "name": "pretty_mailer",
         "requirements": ">= 0"
       },
       {
@@ -21200,16 +21584,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "pretty_mailer",
-        "requirements": ">= 0"
+        "name": "previsao-clima-tempo",
+        "requirements": ">= 1.5.9"
       },
       {
         "name": "prezio",
         "requirements": ">= 0"
-      },
-      {
-        "name": "previsao-clima-tempo",
-        "requirements": ">= 1.5.9"
       },
       {
         "name": "pricecut",
@@ -21236,11 +21616,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "projectlocker_errata",
+        "name": "projectlocker_pulse",
         "requirements": "~> 1.4.3.1"
       },
       {
-        "name": "projectlocker_pulse",
+        "name": "projectlocker_errata",
         "requirements": "~> 1.4.3.1"
       },
       {
@@ -21280,12 +21660,12 @@
         "requirements": "~> 1.5.5"
       },
       {
-        "name": "psn_trophies",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "psn_api_ar",
         "requirements": ">= 1.5.0"
+      },
+      {
+        "name": "psn_trophies",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "psyho_juicer",
@@ -21296,11 +21676,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pubmed_search",
+        "name": "publishr",
         "requirements": ">= 0"
       },
       {
-        "name": "publishr",
+        "name": "pubmed_search",
         "requirements": ">= 0"
       },
       {
@@ -21332,20 +21712,24 @@
         "requirements": "~> 1.5"
       },
       {
+        "name": "pxpay",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pxpay",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pyk",
         "requirements": "= 1.5.3"
       },
       {
-        "name": "pxpay",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pxpay",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pyu-activesp",
         "requirements": "~> 1.4.2"
+      },
+      {
+        "name": "qa",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "qbxml",
@@ -21384,6 +21768,10 @@
         "requirements": "~> 1.6"
       },
       {
+        "name": "query",
+        "requirements": ">= 0"
+      },
+      {
         "name": "quickbase",
         "requirements": ">= 0"
       },
@@ -21416,12 +21804,12 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "rack-cas",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rack-casual",
         "requirements": "~> 1.4.3"
+      },
+      {
+        "name": "rack-cas",
+        "requirements": ">= 0"
       },
       {
         "name": "rack-codehighlighter",
@@ -21572,19 +21960,23 @@
         "requirements": ">= 1.2.0"
       },
       {
+        "name": "radiant",
+        "requirements": "~> 1.5.10"
+      },
+      {
         "name": "radian6",
         "requirements": ">= 1.4.4"
       },
       {
-        "name": "radiant",
-        "requirements": "~> 1.5.10"
+        "name": "radiospieler",
+        "requirements": ">= 0"
       },
       {
         "name": "radiotagmap",
         "requirements": ">= 1.3.2"
       },
       {
-        "name": "radiospieler",
+        "name": "radwhere_auth",
         "requirements": ">= 0"
       },
       {
@@ -21594,10 +21986,6 @@
       {
         "name": "raev",
         "requirements": ">= 1.5.3"
-      },
-      {
-        "name": "radwhere_auth",
-        "requirements": ">= 0"
       },
       {
         "name": "ragtag",
@@ -21616,12 +22004,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rainmaker",
-        "requirements": "~> 1.4"
-      },
-      {
         "name": "raingrams",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "rainmaker",
+        "requirements": "~> 1.4"
       },
       {
         "name": "ralexa",
@@ -21680,12 +22068,12 @@
         "requirements": "~> 1.5.5"
       },
       {
-        "name": "ratom",
-        "requirements": "~> 1.5.6"
-      },
-      {
         "name": "ratis",
         "requirements": "< 1.6.0"
+      },
+      {
+        "name": "ratom",
+        "requirements": "~> 1.5.6"
       },
       {
         "name": "rawler",
@@ -21749,10 +22137,6 @@
       },
       {
         "name": "rdf-microdata",
-        "requirements": ">= 1.5.6"
-      },
-      {
-        "name": "rdf-rdfxml",
         "requirements": ">= 1.5.9"
       },
       {
@@ -21760,20 +22144,24 @@
         "requirements": ">= 1.5.9"
       },
       {
-        "name": "rdf-trix",
-        "requirements": ">= 1.4.2"
+        "name": "rdf-rdfxml",
+        "requirements": ">= 1.5.9"
       },
       {
         "name": "rdf-xml",
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "rdf-xsd",
-        "requirements": ">= 1.5.0"
+        "name": "rdf-trix",
+        "requirements": ">= 1.4.2"
       },
       {
         "name": "rdf_context",
         "requirements": ">= 1.4.3"
+      },
+      {
+        "name": "rdf-xsd",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "rdfa_parser",
@@ -21808,11 +22196,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "readability",
+        "name": "read-only-gollum",
         "requirements": "~> 1.4"
       },
       {
-        "name": "read-only-gollum",
+        "name": "readability",
         "requirements": "~> 1.4"
       },
       {
@@ -21828,11 +22216,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "recalls",
+        "name": "Recalls",
         "requirements": "~> 1.4"
       },
       {
-        "name": "Recalls",
+        "name": "recalls",
         "requirements": "~> 1.4"
       },
       {
@@ -21880,23 +22268,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "relief",
-        "requirements": "~> 1.3.3"
-      },
-      {
         "name": "reliefweb_scraper",
         "requirements": ">= 1.5.5"
+      },
+      {
+        "name": "relief",
+        "requirements": "~> 1.3.3"
       },
       {
         "name": "remember_the_meeting",
         "requirements": ">= 0"
       },
       {
-        "name": "remote_book",
+        "name": "remote_http_testing",
         "requirements": ">= 0"
       },
       {
-        "name": "remote_http_testing",
+        "name": "remote_book",
         "requirements": ">= 0"
       },
       {
@@ -21948,20 +22336,16 @@
         "requirements": ">= 1.4.3.0"
       },
       {
-        "name": "restfulie-nosqlite",
+        "name": "restfulie",
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "restfulie",
+        "name": "restfulie-nosqlite",
         "requirements": ">= 1.4.2"
       },
       {
         "name": "resto",
         "requirements": ">= 1.4.4"
-      },
-      {
-        "name": "rets",
-        "requirements": "~> 1.5.2"
       },
       {
         "name": "rets-sarmiena",
@@ -21970,6 +22354,10 @@
       {
         "name": "rets4r",
         "requirements": "~> 1.4.3.0"
+      },
+      {
+        "name": "rets",
+        "requirements": "~> 1.5.2"
       },
       {
         "name": "rets_data",
@@ -22036,12 +22424,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "riemann-tools",
-        "requirements": ">= 1.5.6"
-      },
-      {
         "name": "rif-cs",
         "requirements": ">= 0"
+      },
+      {
+        "name": "riemann-tools",
+        "requirements": ">= 1.5.6"
       },
       {
         "name": "right_chimp",
@@ -22128,15 +22516,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ripdiru",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rippler",
         "requirements": "~> 1.5"
       },
       {
-        "name": "riscfuture-hoptoad_notifier",
+        "name": "risbn",
         "requirements": ">= 0"
       },
       {
-        "name": "risbn",
+        "name": "riscfuture-hoptoad_notifier",
         "requirements": ">= 0"
       },
       {
@@ -22172,12 +22564,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ro_support",
-        "requirements": ">= 0"
+        "name": "roadie",
+        "requirements": "> 1.5.0"
       },
       {
-        "name": "roadie",
-        "requirements": "< 1.7.0, > 1.5.0"
+        "name": "ro_support",
+        "requirements": ">= 0"
       },
       {
         "name": "robads",
@@ -22224,11 +22616,11 @@
         "requirements": "= 1.4.3.1"
       },
       {
-        "name": "roxml",
+        "name": "ROXML",
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "ROXML",
+        "name": "roxml",
         "requirements": ">= 1.3.3"
       },
       {
@@ -22260,12 +22652,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rspec-system",
-        "requirements": "~> 1.5.9"
-      },
-      {
         "name": "rspec-subject-extensions",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "rspec-system",
+        "requirements": "~> 1.5.9"
       },
       {
         "name": "rspec-tag_matchers",
@@ -22292,20 +22684,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rss2mail",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rss_detector",
         "requirements": "~> 1.5"
       },
       {
-        "name": "rst",
-        "requirements": "~> 1.5.2"
+        "name": "rss2mail",
+        "requirements": ">= 0"
       },
       {
         "name": "rss_parser",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rst",
+        "requirements": "~> 1.5.2"
       },
       {
         "name": "RssMangler",
@@ -22324,11 +22716,11 @@
         "requirements": "~> 1.5.8"
       },
       {
-        "name": "RTFMd",
+        "name": "rtfmd",
         "requirements": "~> 1.4"
       },
       {
-        "name": "rtfmd",
+        "name": "RTFMd",
         "requirements": "~> 1.4"
       },
       {
@@ -22380,12 +22772,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-fitbit",
-        "requirements": ">= 1.3.0"
-      },
-      {
         "name": "ruby-foomatic",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "ruby-fitbit",
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "ruby-graphml",
@@ -22396,11 +22788,11 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "ruby-ise",
+        "name": "ruby-irail",
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-irail",
+        "name": "ruby-ise",
         "requirements": ">= 0"
       },
       {
@@ -22424,12 +22816,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-pomegranate",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "ruby-plsql-spec",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "ruby-pomegranate",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "ruby-query",
@@ -22452,7 +22844,7 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "ruby-saml-federazione-trentina",
+        "name": "ruby-saml-federa",
         "requirements": ">= 0"
       },
       {
@@ -22460,7 +22852,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-saml-federa",
+        "name": "ruby-saml-federazione-trentina",
         "requirements": ">= 0"
       },
       {
@@ -22532,40 +22924,40 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby_teamsite",
-        "requirements": ">= 1.4.4"
-      },
-      {
         "name": "ruby_speech",
         "requirements": "~> 1.6"
       },
       {
-        "name": "ruby_vim_sdk",
-        "requirements": ">= 0"
+        "name": "ruby_teamsite",
+        "requirements": ">= 1.4.4"
       },
       {
         "name": "ruby_vcloud_sdk",
         "requirements": "~> 1.5"
       },
       {
+        "name": "ruby_vim_sdk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rubycliweather",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rubycliweather",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rubychan",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "rubycliweather",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "rubycliweather",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "rubydora",
         "requirements": ">= 0"
       },
       {
         "name": "rubyeti",
         "requirements": "= 1.5.5"
+      },
+      {
+        "name": "rubydora",
+        "requirements": ">= 0"
       },
       {
         "name": "rubyfromexcel",
@@ -22588,16 +22980,16 @@
         "requirements": ">= 1.4.4"
       },
       {
+        "name": "ruhl",
+        "requirements": ">= 1.4.2"
+      },
+      {
         "name": "ruhue",
         "requirements": ">= 0"
       },
       {
         "name": "ruhoh",
         "requirements": "~> 1.5"
-      },
-      {
-        "name": "ruhl",
-        "requirements": ">= 1.4.2"
       },
       {
         "name": "rumba-crawler",
@@ -22616,12 +23008,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rusk",
-        "requirements": "~> 1.5.8"
-      },
-      {
         "name": "russian-reversal",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rusk",
+        "requirements": "~> 1.5.8"
       },
       {
         "name": "russian_post",
@@ -22632,12 +23024,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rutt",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rutorrent",
         "requirements": "~> 1.4.4"
+      },
+      {
+        "name": "rutt",
+        "requirements": ">= 0"
       },
       {
         "name": "rvn",
@@ -22668,12 +23060,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "s3_browser_uploads",
-        "requirements": "~> 1.5.10"
-      },
-      {
         "name": "rzotero",
         "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "s3_browser_uploads",
+        "requirements": "~> 1.5.10"
       },
       {
         "name": "s3batch",
@@ -22736,35 +23128,39 @@
         "requirements": "< 1.6, >= 1.4.0"
       },
       {
+        "name": "savon-ng-1.6",
+        "requirements": ">= 1.4.0"
+      },
+      {
         "name": "sawtooth",
         "requirements": ">= 0"
       },
       {
-        "name": "sax-machine-nokogiri-1.4.4-safe",
-        "requirements": "> 0.0.0"
-      },
-      {
         "name": "sax-machine",
-        "requirements": "> 0.0.0"
-      },
-      {
-        "name": "sax_stream",
-        "requirements": ">= 1.5.2"
-      },
-      {
-        "name": "saxerator",
-        "requirements": ">= 1.4.0"
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "saxaphone",
         "requirements": ">= 0"
       },
       {
-        "name": "saxy",
-        "requirements": ">= 0"
+        "name": "sax_stream",
+        "requirements": ">= 1.5.2"
+      },
+      {
+        "name": "sax-machine-nokogiri-1.4.4-safe",
+        "requirements": "> 0.0.0"
+      },
+      {
+        "name": "saxerator",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "saxony",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "saxy",
         "requirements": ">= 0"
       },
       {
@@ -22808,11 +23204,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sciruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sclust",
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "sciruby",
+        "name": "scms",
         "requirements": ">= 0"
       },
       {
@@ -22836,12 +23236,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "scrappy",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "scraprr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "scrappy",
+        "requirements": ">= 1.4.1"
       },
       {
         "name": "script_detector",
@@ -22853,7 +23253,7 @@
       },
       {
         "name": "scss-lint",
-        "requirements": ">= 0"
+        "requirements": "= 1.6.0"
       },
       {
         "name": "sdbcli",
@@ -22904,15 +23304,15 @@
         "requirements": "~> 1.5.0"
       },
       {
+        "name": "sem4r",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sem4r",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sem_extractor",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sem4r",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sem4r",
         "requirements": ">= 0"
       },
       {
@@ -22944,12 +23344,12 @@
         "requirements": ">= 1.5.0"
       },
       {
-        "name": "sepa_king",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sepafm",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "sepa_king",
+        "requirements": ">= 0"
       },
       {
         "name": "sergio",
@@ -22980,19 +23380,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sfdcutil",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sfcsfs",
         "requirements": "~> 1.5.5"
       },
       {
-        "name": "sgeoip",
+        "name": "sfdcutil",
         "requirements": ">= 0"
       },
       {
         "name": "sge",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sgeoip",
         "requirements": ">= 0"
       },
       {
@@ -23024,11 +23424,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "shibboleths_lil_helper",
+        "name": "shibkit-meta_meta",
         "requirements": ">= 0"
       },
       {
-        "name": "shibkit-meta_meta",
+        "name": "shibboleths_lil_helper",
         "requirements": ">= 0"
       },
       {
@@ -23044,6 +23444,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shipindo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ShippingInfo",
         "requirements": "~> 1.5.0"
       },
@@ -23053,10 +23457,6 @@
       },
       {
         "name": "shopify_appstore",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "shipindo",
         "requirements": ">= 0"
       },
       {
@@ -23072,11 +23472,11 @@
         "requirements": ">= 1.2.3"
       },
       {
-        "name": "showoff-alexch",
+        "name": "showoff",
         "requirements": ">= 0"
       },
       {
-        "name": "showoff",
+        "name": "showoff-alexch",
         "requirements": ">= 0"
       },
       {
@@ -23105,7 +23505,7 @@
       },
       {
         "name": "simple_aws",
-        "requirements": "< 2.0, >= 1.5.0"
+        "requirements": "~> 1.5"
       },
       {
         "name": "simple_dav",
@@ -23204,15 +23604,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sitemap",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sitemap",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sitemap_checker",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sitemap",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sitemap",
         "requirements": ">= 0"
       },
       {
@@ -23316,12 +23716,12 @@
         "requirements": ">= 1.6.0"
       },
       {
-        "name": "smogon",
-        "requirements": ">= 0"
-      },
-      {
         "name": "smoke",
         "requirements": "= 1.3.2"
+      },
+      {
+        "name": "smogon",
+        "requirements": ">= 0"
       },
       {
         "name": "smoodit",
@@ -23344,12 +23744,12 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "smsim",
-        "requirements": ">= 0"
-      },
-      {
         "name": "smslist",
         "requirements": ">= 1.5"
+      },
+      {
+        "name": "smsim",
+        "requirements": ">= 0"
       },
       {
         "name": "snatch",
@@ -23358,6 +23758,10 @@
       {
         "name": "sniffles",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "sneakers",
+        "requirements": ">= 0"
       },
       {
         "name": "snoo",
@@ -23392,12 +23796,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "socializer",
-        "requirements": ">= 1.4.7"
-      },
-      {
         "name": "socialcastr",
         "requirements": ">= 1.4.4"
+      },
+      {
+        "name": "socializer",
+        "requirements": ">= 1.4.7"
       },
       {
         "name": "socialoud",
@@ -23416,6 +23820,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "solo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "solo-rails",
         "requirements": ">= 0"
       },
@@ -23424,12 +23832,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "solrpanel",
-        "requirements": ">= 1.4.3.1"
-      },
-      {
         "name": "solution-generator",
         "requirements": ">= 0"
+      },
+      {
+        "name": "solrpanel",
+        "requirements": ">= 1.4.3.1"
       },
       {
         "name": "someter",
@@ -23448,15 +23856,15 @@
         "requirements": ">= 1.4.4"
       },
       {
+        "name": "sp_2010",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sovren",
         "requirements": "~> 1.5.9"
       },
       {
         "name": "soybean",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sp_2010",
         "requirements": ">= 0"
       },
       {
@@ -23476,8 +23884,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "spdeck-scrape",
+        "requirements": ">= 1.6.0"
+      },
+      {
         "name": "spellcard",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sphinxcrawl",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "sphinx_tv",
@@ -23488,10 +23904,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sphinxcrawl",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "spider_rails",
         "requirements": ">= 0"
       },
@@ -23500,31 +23912,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spidr_epg",
-        "requirements": "~> 1.3"
-      },
-      {
         "name": "spidr",
         "requirements": "~> 1.3"
       },
       {
-        "name": "spielplan_saar",
-        "requirements": ">= 1.5.5"
+        "name": "spidr_epg",
+        "requirements": "~> 1.3"
       },
       {
         "name": "spigit_ops",
         "requirements": ">= 1.5.9"
       },
       {
+        "name": "spielplan_saar",
+        "requirements": ">= 1.5.5"
+      },
+      {
         "name": "spk-anemone",
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "splunker",
+        "name": "splunk-client",
         "requirements": ">= 0"
       },
       {
-        "name": "splunk-client",
+        "name": "splunker",
         "requirements": ">= 0"
       },
       {
@@ -23588,6 +24000,10 @@
         "requirements": ">= 1.5.2"
       },
       {
+        "name": "standings",
+        "requirements": ">= 0"
+      },
+      {
         "name": "starapi",
         "requirements": ">= 0"
       },
@@ -23612,12 +24028,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "static_image_download",
-        "requirements": "~> 1.5.3"
-      },
-      {
         "name": "static_signature",
         "requirements": ">= 0"
+      },
+      {
+        "name": "static_image_download",
+        "requirements": "~> 1.5.3"
       },
       {
         "name": "statt",
@@ -23632,12 +24048,12 @@
         "requirements": "= 1.5.0"
       },
       {
-        "name": "steamcannon-deltacloud-core",
-        "requirements": ">= 1.4.1, < 1.4.4"
-      },
-      {
         "name": "steamcannon-deltacloud-client",
         "requirements": ">= 1.4.3"
+      },
+      {
+        "name": "steamcannon-deltacloud-core",
+        "requirements": ">= 1.4.1, < 1.4.4"
       },
       {
         "name": "steamprofile",
@@ -23648,12 +24064,12 @@
         "requirements": "~> 1.4.4"
       },
       {
-        "name": "stella",
-        "requirements": ">= 1.4.4"
-      },
-      {
         "name": "stellar",
         "requirements": ">= 1.5.5"
+      },
+      {
+        "name": "stella",
+        "requirements": ">= 1.4.4"
       },
       {
         "name": "stenographer",
@@ -23744,6 +24160,10 @@
         "requirements": "~> 1.4"
       },
       {
+        "name": "summarise",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sunrise-core",
         "requirements": "~> 1.5.0"
       },
@@ -23772,12 +24192,12 @@
         "requirements": ">= 1.3.0"
       },
       {
-        "name": "svg_palette",
-        "requirements": ">= 0"
-      },
-      {
         "name": "svg_plot_gen",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "svg_palette",
+        "requirements": ">= 0"
       },
       {
         "name": "svn_log",
@@ -23788,12 +24208,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "svt-recorder",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "svxbox",
         "requirements": ">= 0"
+      },
+      {
+        "name": "svt-recorder",
+        "requirements": "~> 1.0"
       },
       {
         "name": "sweetie",
@@ -23836,16 +24256,16 @@
         "requirements": "~> 1.4.3"
       },
       {
+        "name": "t2etranslator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "t2-web",
         "requirements": "~> 1.5.9"
       },
       {
         "name": "t2-server",
         "requirements": ">= 1.5.0"
-      },
-      {
-        "name": "t2etranslator",
-        "requirements": ">= 0"
       },
       {
         "name": "table_cloth",
@@ -23868,12 +24288,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "taka",
-        "requirements": ">= 1.2.3"
-      },
-      {
         "name": "taiwan_city_dists_helper",
         "requirements": ">= 0"
+      },
+      {
+        "name": "taka",
+        "requirements": ">= 1.2.3"
       },
       {
         "name": "takeoff",
@@ -23944,20 +24364,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tent-client",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tent-client-joebadmo",
         "requirements": ">= 0"
       },
       {
-        "name": "terc_parser",
+        "name": "tent-client",
         "requirements": ">= 0"
       },
       {
         "name": "teresa",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "terc_parser",
+        "requirements": ">= 0"
       },
       {
         "name": "term-extraction",
@@ -23972,11 +24392,11 @@
         "requirements": ">= 1.4.1"
       },
       {
-        "name": "testautoa",
+        "name": "testautoi",
         "requirements": ">= 0"
       },
       {
-        "name": "testautoi",
+        "name": "testautoa",
         "requirements": ">= 0"
       },
       {
@@ -24028,12 +24448,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "the_pirate_bay",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "the_only_event_reporter_ever",
         "requirements": ">= 1.5.6"
+      },
+      {
+        "name": "the_pirate_bay",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "the_rails_var_dump",
@@ -24044,11 +24464,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thepiratebay",
+        "name": "thepub",
         "requirements": ">= 0"
       },
       {
-        "name": "thepub",
+        "name": "thepiratebay",
         "requirements": ">= 0"
       },
       {
@@ -24092,12 +24512,12 @@
         "requirements": ">= 1.4.4"
       },
       {
-        "name": "thundersnow",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "thuva-t-minus",
         "requirements": ">= 1.4.3.1"
+      },
+      {
+        "name": "thundersnow",
+        "requirements": "~> 1.0"
       },
       {
         "name": "ti",
@@ -24141,6 +24561,10 @@
       },
       {
         "name": "tinysong",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tipsanity_merchant_extractor",
         "requirements": ">= 0"
       },
       {
@@ -24196,20 +24620,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "torrentz",
+        "requirements": ">= 0"
+      },
+      {
         "name": "torrents",
         "requirements": ">= 0"
       },
       {
-        "name": "torrentz",
+        "name": "tpb",
         "requirements": ">= 0"
       },
       {
         "name": "tp-blather",
         "requirements": "~> 1.5.5"
-      },
-      {
-        "name": "tpb",
-        "requirements": ">= 0"
       },
       {
         "name": "tpb_wrap",
@@ -24244,6 +24668,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "transfermarkt",
+        "requirements": ">= 0"
+      },
+      {
         "name": "transit",
         "requirements": "~> 1.4"
       },
@@ -24258,6 +24686,10 @@
       {
         "name": "travis-artifacts",
         "requirements": "= 1.5.10"
+      },
+      {
+        "name": "trawler",
+        "requirements": "~> 1.6"
       },
       {
         "name": "tree.rb",
@@ -24356,19 +24788,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "twitter-photos",
-        "requirements": ">= 0"
-      },
-      {
         "name": "twitter-stats",
         "requirements": "~> 1.5.2"
       },
       {
-        "name": "twitter-text-editted",
+        "name": "twitter-photos",
         "requirements": ">= 0"
       },
       {
         "name": "twitter-text",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twitter-text-relative",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twitter-text-editted",
         "requirements": ">= 0"
       },
       {
@@ -24396,6 +24832,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "uaeds",
+        "requirements": ">= 0"
+      },
+      {
         "name": "uc_card",
         "requirements": ">= 0"
       },
@@ -24416,24 +24856,24 @@
         "requirements": "= 1.4.4"
       },
       {
-        "name": "uits",
-        "requirements": "= 1.5.0"
-      },
-      {
-        "name": "uits",
-        "requirements": "= 1.5.0"
-      },
-      {
         "name": "uk_buses",
         "requirements": ">= 0"
       },
       {
-        "name": "uk_ranking",
-        "requirements": ">= 0"
+        "name": "uits",
+        "requirements": "= 1.5.0"
+      },
+      {
+        "name": "uits",
+        "requirements": "= 1.5.0"
       },
       {
         "name": "ulink-checker",
         "requirements": ">= 1.5.6"
+      },
+      {
+        "name": "uk_ranking",
+        "requirements": ">= 0"
       },
       {
         "name": "ultradns_updater",
@@ -24445,7 +24885,7 @@
       },
       {
         "name": "umlaut",
-        "requirements": "~> 1.5.3"
+        "requirements": ">= 1.5.3"
       },
       {
         "name": "undertexter",
@@ -24488,14 +24928,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "upton",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "upton",
-        "requirements": ">= 0"
-      },
-      {
         "name": "urban",
         "requirements": "~> 1.5.0"
       },
@@ -24506,6 +24938,14 @@
       {
         "name": "urban_dictionary",
         "requirements": "~> 1.5.2"
+      },
+      {
+        "name": "upton",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "upton",
+        "requirements": ">= 0"
       },
       {
         "name": "urbane",
@@ -24528,19 +24968,19 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "url_scraper",
-        "requirements": "~> 1.5.9"
-      },
-      {
         "name": "url_to_contents",
         "requirements": "~> 1.5.5"
       },
       {
-        "name": "urss",
-        "requirements": ">= 0"
+        "name": "url_scraper",
+        "requirements": "~> 1.5.9"
       },
       {
         "name": "us-documents",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "urss",
         "requirements": ">= 0"
       },
       {
@@ -24592,48 +25032,64 @@
         "requirements": "= 1.5.10"
       },
       {
+        "name": "vagrant-vcloud",
+        "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "vagrant-vsphere",
+        "requirements": "= 1.5.10"
+      },
+      {
         "name": "vakit",
         "requirements": ">= 0"
-      },
-      {
-        "name": "vanity-source",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vapir-ie",
-        "requirements": "~> 1.4.0"
       },
       {
         "name": "vapor",
         "requirements": "~> 1.5.5"
       },
       {
+        "name": "vapir-ie",
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "vanity-source",
+        "requirements": ">= 0"
+      },
+      {
         "name": "varnisher",
         "requirements": "~> 1.6.0"
-      },
-      {
-        "name": "vast",
-        "requirements": "~> 1.4.3"
-      },
-      {
-        "name": "vast_api",
-        "requirements": ">= 0"
       },
       {
         "name": "vatbook",
         "requirements": "~> 1.5.6"
       },
       {
-        "name": "vault-test-tools",
+        "name": "vast",
+        "requirements": "~> 1.4.3"
+      },
+      {
+        "name": "vcloud-box-spinner",
+        "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "vast_api",
         "requirements": ">= 0"
+      },
+      {
+        "name": "vcr-xml",
+        "requirements": "~> 1.5"
+      },
+      {
+        "name": "vcloud-net-spinner",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "vbulletin",
         "requirements": "= 1.4.2"
       },
       {
-        "name": "vcloud-box-spinner",
-        "requirements": "~> 1.5.0"
+        "name": "vault-test-tools",
+        "requirements": ">= 0"
       },
       {
         "name": "vcloud-network-configurator",
@@ -24642,14 +25098,6 @@
       {
         "name": "vcloud-rest",
         "requirements": "~> 1.6.0"
-      },
-      {
-        "name": "vcloud-net-spinner",
-        "requirements": "~> 1.5.0"
-      },
-      {
-        "name": "vcr-xml",
-        "requirements": "~> 1.5"
       },
       {
         "name": "veracode-api",
@@ -24700,12 +25148,12 @@
         "requirements": "~> 1.5.6"
       },
       {
-        "name": "vinesmod",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "vines",
         "requirements": "~> 1.5.10"
+      },
+      {
+        "name": "vinesmod",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "vinquery",
@@ -24760,11 +25208,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "w3m-autopagerize",
+        "requirements": ">= 0"
+      },
+      {
         "name": "w3clove",
         "requirements": "~> 1.5.3"
       },
       {
-        "name": "w3m-autopagerize",
+        "name": "w3c_validators",
         "requirements": ">= 0"
       },
       {
@@ -24772,20 +25224,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "w3c_validators",
-        "requirements": ">= 0"
-      },
-      {
         "name": "wacky",
         "requirements": ">= 0"
       },
       {
-        "name": "wagon",
-        "requirements": ">= 1.4.0"
-      },
-      {
         "name": "wahlrecht_de",
         "requirements": "~> 1.5.10"
+      },
+      {
+        "name": "wagon",
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "wakame-vdc-webui",
@@ -24800,16 +25248,20 @@
         "requirements": "~> 1.4.4"
       },
       {
-        "name": "warpaint",
-        "requirements": ">= 0"
-      },
-      {
         "name": "warranty-check",
         "requirements": ">= 0"
       },
       {
+        "name": "wasabi-ng-1.6",
+        "requirements": ">= 1.4.0"
+      },
+      {
         "name": "wasabi",
         "requirements": "< 1.6, >= 1.4.0"
+      },
+      {
+        "name": "warpaint",
+        "requirements": ">= 0"
       },
       {
         "name": "wash_away_the_soap",
@@ -24832,12 +25284,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "watir-classic",
-        "requirements": ">= 1.5.7.rc3"
-      },
-      {
         "name": "watir-or",
         "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "watir-classic",
+        "requirements": ">= 1.5.7.rc3"
       },
       {
         "name": "watir-nokogiri",
@@ -24848,11 +25300,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "watir-webdriver-performance",
+        "name": "watirmark",
         "requirements": ">= 0"
       },
       {
-        "name": "watirmark",
+        "name": "watir-webdriver-performance",
         "requirements": ">= 0"
       },
       {
@@ -24872,12 +25324,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "weather_jp",
-        "requirements": "~> 1.5.5"
-      },
-      {
         "name": "weather_funds",
         "requirements": ">= 0"
+      },
+      {
+        "name": "weather_jp",
+        "requirements": "~> 1.5.5"
       },
       {
         "name": "weatherbug",
@@ -24936,20 +25388,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "webmoney",
+        "requirements": ">= 0"
+      },
+      {
         "name": "webminer",
         "requirements": ">= 0"
       },
       {
-        "name": "webmoney",
+        "name": "webpage",
         "requirements": ">= 0"
       },
       {
         "name": "webpage-archivist",
         "requirements": "~> 1.5"
-      },
-      {
-        "name": "webpage",
-        "requirements": ">= 0"
       },
       {
         "name": "webrat",
@@ -24992,12 +25444,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wgibbs-xpath",
-        "requirements": "~> 1.3"
-      },
-      {
         "name": "wfstatus",
         "requirements": ">= 0"
+      },
+      {
+        "name": "wgibbs-xpath",
+        "requirements": "~> 1.3"
       },
       {
         "name": "whatismyip",
@@ -25049,7 +25501,7 @@
       },
       {
         "name": "winrm",
-        "requirements": "~> 1.5.0"
+        "requirements": "~> 1.5"
       },
       {
         "name": "wirecardmapper",
@@ -25124,11 +25576,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "worth_watching",
+        "name": "wortsammler",
         "requirements": ">= 0"
       },
       {
-        "name": "wortsammler",
+        "name": "worth_watching",
         "requirements": ">= 0"
       },
       {
@@ -25160,12 +25612,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wtforum",
-        "requirements": ">= 0"
-      },
-      {
         "name": "wtth",
         "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "wtforum",
+        "requirements": ">= 0"
       },
       {
         "name": "wurfl-lite",
@@ -25176,12 +25628,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wwmd",
-        "requirements": ">= 1.4.1"
-      },
-      {
         "name": "wwdcdownloader",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "wwmd",
+        "requirements": ">= 1.4.1"
       },
       {
         "name": "www-tvtropes",
@@ -25205,10 +25657,6 @@
       },
       {
         "name": "xbuilder",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "xcdatamodel",
         "requirements": ">= 0"
       },
       {
@@ -25240,16 +25688,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "xcdatamodel",
+        "requirements": ">= 0"
+      },
+      {
         "name": "xiami_sauce",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "xkcd",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "xively-rb",
         "requirements": ">= 1.5.6"
       },
       {
-        "name": "xkcd",
-        "requirements": ">= 1.5.0"
+        "name": "xmapper",
+        "requirements": ">= 1"
       },
       {
         "name": "xmatch",
@@ -25260,10 +25716,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "xmapper",
-        "requirements": ">= 1"
-      },
-      {
         "name": "xml-sax-machines",
         "requirements": ">= 1.4"
       },
@@ -25272,11 +25724,11 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "xml_active",
+        "name": "xml-smart",
         "requirements": ">= 0"
       },
       {
-        "name": "xml-smart",
+        "name": "xml_active",
         "requirements": ">= 0"
       },
       {
@@ -25320,20 +25772,20 @@
         "requirements": "= 1.5.0"
       },
       {
+        "name": "xmp-fixed_prefix",
+        "requirements": "~> 1.5.0"
+      },
+      {
         "name": "xmp",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "xmp-fixed_prefix",
+        "name": "xmp_fixed",
         "requirements": "~> 1.5.0"
       },
       {
         "name": "xmpleton",
         "requirements": ">= 0"
-      },
-      {
-        "name": "xmp_fixed",
-        "requirements": "~> 1.5.0"
       },
       {
         "name": "xmpfixed",
@@ -25388,12 +25840,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yahoo-group-data",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "yahoo-japan-api",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "yahoo-group-data",
+        "requirements": "~> 1.5"
       },
       {
         "name": "yahoo-weather",
@@ -25520,11 +25972,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zabbix_nudge",
+        "name": "zabbix_pusher",
         "requirements": "~> 1.4.4"
       },
       {
-        "name": "zabbix_pusher",
+        "name": "zabbix_nudge",
         "requirements": "~> 1.4.4"
       },
       {
@@ -25612,7 +26064,7 @@
     "description": "Nokogiri (鋸) is an HTML, XML, SAX, and Reader parser.  Among Nokogiri's\nmany features is the ability to search documents via XPath or CSS3 selectors.\n\nXML is like violence - if it doesn’t solve your problems, you are not using\nenough of it."
   },
   "nokogiri-happymapper": {
-    "version": "0.5.7",
+    "version": "0.5.8",
     "dependents": [
       {
         "name": "career_builder",
@@ -25657,6 +26109,10 @@
       {
         "name": "vcloud",
         "requirements": ">= 0"
+      },
+      {
+        "name": "xmlenc",
+        "requirements": "~> 0.5.7"
       }
     ],
     "description": "Object to XML Mapping Library, using Nokogiri (fork from John Nunemaker's Happymapper)"
@@ -25717,8 +26173,15 @@
     ],
     "description": "Write a gem description"
   },
+  "nokogiri_html_helpers": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Fast HTML helpers using Nokogiri"
+  },
   "nokogiri_truncate_html": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -25732,7 +26195,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "nokogumbo": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -25848,7 +26311,7 @@
     "description": "Loads two files with girls and boys names respectivly into memory, and seraches them in order to determine the gender of a portuguese name"
   },
   "nominatim": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -26030,11 +26493,11 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "noodall-components-gallery",
+        "name": "noodall-components-general-content",
         "requirements": ">= 0.0.15"
       },
       {
-        "name": "noodall-components-general-content",
+        "name": "noodall-components-gallery",
         "requirements": ">= 0.0.15"
       },
       {
@@ -26066,7 +26529,7 @@
     "description": "Noopi is a ruby wrapper for Noop API (REST)"
   },
   "nopoint": {
-    "version": "0.1.2",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -26194,19 +26657,19 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "nicoapi-parser",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nicocrawler",
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery",
+        "name": "nicoapi-parser",
         "requirements": ">= 0"
       },
       {
         "name": "nicoquery-parser",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nicoquery",
         "requirements": ">= 0"
       },
       {
@@ -26258,8 +26721,16 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "solo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "they-savon",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "tipsanity_merchant_extractor",
+        "requirements": ">= 0"
       },
       {
         "name": "unitwise",
@@ -26300,6 +26771,16 @@
     ],
     "description": "XML to Hash translator"
   },
+  "nori-ng-1.6": {
+    "version": "2.3.0",
+    "dependents": [
+      {
+        "name": "savon-ng-1.6",
+        "requirements": "~> 2.3.0"
+      }
+    ],
+    "description": "This a fork from Daniel Harrington's Nori with nokogiri updated to 1.6"
+  },
   "norikra": {
     "version": "unknown",
     "dependents": [
@@ -26308,22 +26789,22 @@
         "requirements": ">= 0.0.8"
       },
       {
-        "name": "norikra-udf-percentile",
-        "requirements": ">= 0.0.11"
-      },
-      {
         "name": "norikra-udf-woothee",
         "requirements": ">= 0.0.8"
+      },
+      {
+        "name": "norikra-udf-percentile",
+        "requirements": ">= 0.0.11"
       }
     ],
     "description": "CEP: Complex Event Processor with Esper EPL qeury language, messagepack rpc for inbound event data"
   },
   "norikra-client": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
       {
         "name": "fluent-plugin-norikra",
-        "requirements": ">= 0.0.2"
+        "requirements": ">= 0.0.7"
       }
     ],
     "description": "Client commands and libraries for Norikra"
@@ -26333,7 +26814,7 @@
     "dependents": [
       {
         "name": "norikra",
-        "requirements": ">= 0.0.6"
+        "requirements": ">= 0.0.7"
       }
     ],
     "description": "Client commands and libraries for Norikra"
@@ -26666,6 +27147,13 @@
     ],
     "description": "Heavily armed validation framework."
   },
+  "not_nil": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "not_nil adds not_nil? to nil"
+  },
   "not_only_but_also": {
     "version": "1.1.0",
     "dependents": [
@@ -26799,11 +27287,11 @@
         "requirements": "~> 0.0.2"
       },
       {
-        "name": "lipa-web",
+        "name": "lipa",
         "requirements": ">= 0"
       },
       {
-        "name": "lipa",
+        "name": "lipa-web",
         "requirements": ">= 0"
       }
     ],
@@ -26874,6 +27362,13 @@
 
     ],
     "description": "Notify status of a block"
+  },
+  "notifi": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Simple frame for creating subsciption and notificaton records"
   },
   "notifiable": {
     "version": "0.0.4",
@@ -26951,6 +27446,10 @@
         "requirements": "~> 0.1.2"
       },
       {
+        "name": "git-background",
+        "requirements": ">= 0"
+      },
+      {
         "name": "githubwatcher",
         "requirements": "~> 0.1.4"
       },
@@ -26990,6 +27489,13 @@
       }
     ],
     "description": "Use Growl and Lib-Notify in a simple and clean way."
+  },
+  "notifies": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Ruby notifications with Growl and OS X Notification Center."
   },
   "notifo": {
     "version": "0.1.0",
@@ -27331,6 +27837,13 @@
     ],
     "description": "Tagger for Life Log"
   },
+  "nowtv": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Show current TV programs"
+  },
   "noxa-oauth-activeresource": {
     "version": "0.0.1",
     "dependents": [
@@ -27394,6 +27907,13 @@
     ],
     "description": "NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API"
   },
+  "npm2rpm": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Automatically generates RPM packages for Nodejs modules"
+  },
   "npm_assets": {
     "version": "0.0.3",
     "dependents": [
@@ -27407,6 +27927,13 @@
 
     ],
     "description": "Wrapper for media db"
+  },
+  "nppes": {
+    "version": "0.2",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "npr": {
     "version": "1.2.0",
@@ -27651,6 +28178,16 @@
 
     ],
     "description": "\t\tThe most popular open-source service bus for .net \n\t\tPowerful, yet lightweight.\n\t\tPluggable, yet simple to use.\n\t\tEnterprise development, done right.\n\n\t\tZero Install - working pub/sub messaging in under 5 minutes.\n"
+  },
+  "nsf": {
+    "version": "0.0.10",
+    "dependents": [
+      {
+        "name": "storys",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "The gem facilitates conversion of text and HTML documents into NSF, as well as converting NSF to HTML. The SPEC file contains the NSF specification."
   },
   "nsi-abntformat": {
     "version": "1.0.4",
@@ -28548,6 +29085,13 @@
     ],
     "description": "A Ruby Object Mapper for Mongo"
   },
+  "numonic": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Easily memorize long numbers using mnemonics"
+  },
   "numplot": {
     "version": "0.0.6",
     "dependents": [
@@ -28584,7 +29128,7 @@
     "description": "This is a class to handle units of physical quantities. It covers most functionality of UNIDATA's UDUNITS Library, however, with a more sophisticated handling of string expressions. See the documentation for more infomation."
   },
   "nunes": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -28634,7 +29178,7 @@
     "description": "Nuntius is a simple scheme to send and receive messages in a cryptographicaly secure and compatible way."
   },
   "nuodb": {
-    "version": "1.1",
+    "version": "2.0",
     "dependents": [
       {
         "name": "activerecord-nuodb-adapter",
@@ -28665,7 +29209,7 @@
     "description": "nusurges starting point for gridfs"
   },
   "nutcracker": {
-    "version": "0.2.4.9",
+    "version": "0.2.4.10",
     "dependents": [
       {
         "name": "nutcracker-graphite",
@@ -28871,7 +29415,7 @@
     "description": "Description of Forem."
   },
   "nwiki": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -28931,6 +29475,13 @@
 
     ],
     "description": "Sunspot::Rails is an extension to the Sunspot library for Solr search.\nSunspot::Rails adds integration between Sunspot and ActiveRecord, including\ndefining search and indexing related methods on ActiveRecord models themselves,\nrunning a Sunspot-compatible Solr instance for development and test\nenvironments, and automatically commit Solr index changes at the end of each\nRails request.\n"
+  },
+  "nxbtch": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "plcae holder"
   },
   "nxbtchTestGem": {
     "version": "0.0.1",
@@ -29034,7 +29585,7 @@
     "description": "An extension of the cijoe project now more descriptive"
   },
   "nyny": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
       {
         "name": "irontask",
@@ -29114,11 +29665,11 @@
     "description": "This gem will create a moderation backend"
   },
   "nyx": {
-    "version": "0.0.0",
+    "version": "1.3.1",
     "dependents": [
 
     ],
-    "description": "Mjolnir PHP Library Project Utilities"
+    "description": "Ibidem Project Utilities"
   },
   "nzbget": {
     "version": "0.6.2",

@@ -146,7 +146,7 @@
     "description": "keyword search"
   },
   "kaerus-component-slideshow": {
-    "version": "0.0.13",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -188,14 +188,14 @@
     "description": "kafka-rb allows you to produce and consume messages using the Kafka distributed publish/subscribe messaging service."
   },
   "kafo": {
-    "version": "0.1.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "A gem for making installations based on puppet user friendly"
   },
   "kaft": {
-    "version": "0.3",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -311,6 +311,13 @@
     ],
     "description": "Coming soon"
   },
+  "kal": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "A simple HTML calendar for Rails"
+  },
   "kala-rails": {
     "version": "0.1",
     "dependents": [
@@ -326,7 +333,7 @@
     "description": "Calculation language slightly based on Excel's formula language."
   },
   "kale": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -528,12 +535,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "active_blog",
-        "requirements": ">= 0"
-      },
-      {
         "name": "active_application",
         "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "active_blog",
+        "requirements": ">= 0"
       },
       {
         "name": "active_crudify",
@@ -552,12 +559,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "admin_interface",
-        "requirements": ">= 0.12.4"
-      },
-      {
         "name": "admin_view",
         "requirements": ">= 0.12"
+      },
+      {
+        "name": "admin_interface",
+        "requirements": ">= 0.12.4"
       },
       {
         "name": "aepic",
@@ -656,6 +663,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "couchrest_model",
+        "requirements": "~> 0.14.1"
+      },
+      {
         "name": "days",
         "requirements": "~> 0.13"
       },
@@ -730,6 +741,10 @@
       {
         "name": "fullstack",
         "requirements": "= 0.13.0"
+      },
+      {
+        "name": "gaku_core",
+        "requirements": "~> 0.14"
       },
       {
         "name": "glengarry",
@@ -832,6 +847,10 @@
         "requirements": "~> 0.13.0"
       },
       {
+        "name": "mongoid-elasticsearch",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mongoid_geospatial",
         "requirements": ">= 0"
       },
@@ -856,11 +875,11 @@
         "requirements": "~> 0.12"
       },
       {
-        "name": "opinio",
+        "name": "opinio-bootstrap",
         "requirements": ">= 0"
       },
       {
-        "name": "opinio-bootstrap",
+        "name": "opinio",
         "requirements": ">= 0"
       },
       {
@@ -912,11 +931,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rails_admin-lbgraham",
+        "name": "rails_admin",
         "requirements": "~> 0.14"
       },
       {
-        "name": "rails_admin",
+        "name": "rails_admin-lbgraham",
         "requirements": "~> 0.14"
       },
       {
@@ -944,6 +963,10 @@
         "requirements": "~> 0.13.0"
       },
       {
+        "name": "rspec-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "saulolso-activeadmin",
         "requirements": ">= 0.12.4"
       },
@@ -962,6 +985,10 @@
       {
         "name": "shopify-kaminari",
         "requirements": ">= 0.12.4"
+      },
+      {
+        "name": "shoppe",
+        "requirements": "~> 0.14.1"
       },
       {
         "name": "sidro",
@@ -994,6 +1021,10 @@
       {
         "name": "sunrise-core",
         "requirements": "~> 0.12.4"
+      },
+      {
+        "name": "sunspot_kaminari_support",
+        "requirements": ">= 0.14.0"
       },
       {
         "name": "sunspot_with_kaminari",
@@ -1076,12 +1107,19 @@
   "kaminari-bootstrap": {
     "version": "0.1.3",
     "dependents": [
+
+    ],
+    "description": "Kaminari views for Twitter Bootstrap (rails engine)"
+  },
+  "kaminari-cache": {
+    "version": "0.1.1",
+    "dependents": [
       {
-        "name": "fwt_push_notification_server",
+        "name": "kaminari-cache",
         "requirements": ">= 0"
       }
     ],
-    "description": "Kaminari views for Twitter Bootstrap (rails engine)"
+    "description": "Kaminari Cache is a simple caching layer and sweeper for Kaminari pagination"
   },
   "kaminari-i18n": {
     "version": "0.1.3",
@@ -1233,7 +1271,7 @@
     "description": "ActiveRecord-ish OpenObject Wrapper"
   },
   "kango": {
-    "version": "0.0.3.0.9.2",
+    "version": "0.1.0.0.9.2",
     "dependents": [
 
     ],
@@ -1267,13 +1305,6 @@
     ],
     "description": "Kannel integration for Rails"
   },
-  "Kanocc": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "Kanocc - Kanocc ain't no compiler-compiler. A framework for syntax directed translation"
-  },
   "kanocc": {
     "version": "0.2.0",
     "dependents": [
@@ -1281,12 +1312,19 @@
     ],
     "description": "Kanocc - Kanocc ain't no compiler-compiler. A framework for syntax directed translation"
   },
-  "kanpachi": {
-    "version": "0.0.1",
+  "Kanocc": {
+    "version": "0.1.0",
     "dependents": [
 
     ],
-    "description": "Web API DSL"
+    "description": "Kanocc - Kanocc ain't no compiler-compiler. A framework for syntax directed translation"
+  },
+  "kanpachi": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Kanpachi is a ruby gem that provides a DSL to describe your web API, generate documentation, and will even eventually help you implement it."
   },
   "kanpou-watcher": {
     "version": "0.1.0",
@@ -1345,7 +1383,7 @@
     "description": "API Ruby/REST para rastreamento de pacotes dos Correios."
   },
   "kapify": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -1530,7 +1568,7 @@
     "description": "Searching form and sorting query builder"
   },
   "kasket": {
-    "version": "3.1.2",
+    "version": "3.1.3",
     "dependents": [
 
     ],
@@ -1614,7 +1652,7 @@
     "description": "\t\tKate-Get takes a space separated list of file paths and checks each one against a list of sources. If a match is found, the file is copied via rsync to a local directory. Options for each source are controlled by a config file.\n"
   },
   "katello-foreman-engine": {
-    "version": "0.0.3",
+    "version": "0.0.12",
     "dependents": [
 
     ],
@@ -1704,7 +1742,7 @@
     "description": "kaupert fare calculator for Kaupert"
   },
   "kauperts_link_checker": {
-    "version": "0.4.1",
+    "version": "0.5.1",
     "dependents": [
 
     ],
@@ -2141,6 +2179,13 @@
     ],
     "description": "Geokit provides geocoding and distance calculation in an easy-to-use API"
   },
+  "keeguon-ruby-ole": {
+    "version": "1.2.11.7",
+    "dependents": [
+
+    ],
+    "description": "A library for easy read/write access to OLE compound documents for Ruby."
+  },
   "keeguon-yaml_db": {
     "version": "0.2.4",
     "dependents": [
@@ -2300,6 +2345,13 @@
 
     ],
     "description": "Delated_job (or DJ) encapsulates the common pattern of asynchronously executing longer tasks in the background. It is a direct extraction from Shopify where the job table is responsible for a multitude of core tasks.  Augmented by Keith to allows for callbacks on idle."
+  },
+  "kekeewin": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "API wrapper for Kekeewin on Scouting.io."
   },
   "kekka": {
     "version": "0.0.2",
@@ -2484,7 +2536,7 @@
     "description": "Ruby API for Accessing the Freebase"
   },
   "ken_all": {
-    "version": "0.1.9",
+    "version": "0.1.10",
     "dependents": [
 
     ],
@@ -2561,7 +2613,7 @@
     "description": "Kenny Dialoggins allows you to include scriptaculous dialogs in Rails applications using the same syntax employed for rendering partials."
   },
   "kensa": {
-    "version": "1.4.3",
+    "version": "1.4.6",
     "dependents": [
       {
         "name": "maitre_d",
@@ -2616,14 +2668,14 @@
     "description": "Helper to simplify RPX Now user login/creation based on Michael Grosser's rpx_now gem"
   },
   "kentouzu": {
-    "version": "0.0.9",
+    "version": "0.0.12",
     "dependents": [
 
     ],
     "description": "Add drafts to ActiveRecord models."
   },
   "kentucky": {
-    "version": "0.2.0",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -3135,6 +3187,13 @@
     ],
     "description": "The Keypad module provides methods to determine all sequences of letters associated to a given number according to standard phone keypad. The &quot;inverse&quot; function, i.e., find the digits corresponding to a certain word, is also provided."
   },
+  "keypic": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Client for Keypic Web Service API"
+  },
   "keyrack": {
     "version": "0.3.0",
     "dependents": [
@@ -3454,6 +3513,10 @@
       {
         "name": "unicorn",
         "requirements": "~> 2.6"
+      },
+      {
+        "name": "yahns",
+        "requirements": "~> 2.8"
       }
     ],
     "description": "kgio provides non-blocking I/O methods for Ruby without raising\nexceptions on EAGAIN and EINPROGRESS.  It is intended for use with the\nUnicorn and Rainbows! Rack servers, but may be used by other\napplications (that run on Unix-like platforms)."
@@ -3573,12 +3636,26 @@
     ],
     "description": "Kiseru YouTrack client"
   },
+  "kia": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A static site generator"
+  },
   "kibali": {
     "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "simple Rails role authentication"
+  },
+  "kibana-sinatra": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "This gem packages up Kibana 3 into a Sinatra app that can be used stand alone, or with Rails."
   },
   "kibi": {
     "version": "0.0.3",
@@ -3769,11 +3846,15 @@
     "version": "1.6.0",
     "dependents": [
       {
+        "name": "killbill-litle",
+        "requirements": "~> 1.6.0"
+      },
+      {
         "name": "killbill-notification-test",
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "killbill-litle",
+        "name": "killbill-payment-test",
         "requirements": "~> 1.6.0"
       },
       {
@@ -3785,10 +3866,6 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "killbill-payment-test",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "klogger",
         "requirements": "~> 1.6.0"
       }
@@ -3796,7 +3873,7 @@
     "description": "Base classes to write plugins."
   },
   "killbill-client": {
-    "version": "0.4.4",
+    "version": "0.4.6",
     "dependents": [
       {
         "name": "kaui",
@@ -3806,7 +3883,7 @@
     "description": "An API client library for Kill Bill."
   },
   "killbill-litle": {
-    "version": "1.8.1",
+    "version": "1.8.2",
     "dependents": [
 
     ],
@@ -3827,14 +3904,14 @@
     "description": "Kill Bill Plugin to test the payment plugin api."
   },
   "killbill-paypal-express": {
-    "version": "1.5.2",
+    "version": "1.5.4",
     "dependents": [
 
     ],
     "description": "Kill Bill payment plugin for Paypal Express Checkout."
   },
   "killbill-zendesk": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -3853,6 +3930,13 @@
 
     ],
     "description": "This gem attempts to delete everything in /. If you install it with sudo, you will be really, really fucked."
+  },
+  "killrails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Killrails kills a rails server that holds onto the process after shutting it down."
   },
   "killshot": {
     "version": "0.0.4",
@@ -3898,6 +3982,13 @@
 
     ],
     "description": "Some improvements to add multiple devices for logger as well as adding an e-mail device"
+  },
+  "kimchi": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "BDD testing frameworks and utilities"
   },
   "kimono-platform": {
     "version": "1.0.0",
@@ -4252,7 +4343,7 @@
     "description": "A leightweight key-value store solution written in pure Ruby.\n    See the Homepage for more Informations!"
   },
   "kiosk": {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "dependents": [
 
     ],
@@ -4402,7 +4493,7 @@
     "description": "Kit is DSC's Community and Content Management System (CCMS) built as a Rails engine for Rails 3.1 and above. It provides an entire application's worth of CMS functions including in-place WYSIWYG editing with versioning, flexible layouts and templates, CSS and JS all managed within your browser, drag and drop image/file uploading, modules for sophisticated forums (with in place moderation) asset management, calendars, advertising, menus, RSS feeds, re-useable components, full audit trail of editing, integration with mailchimp, Google Analytics and lots more."
   },
   "kitabu": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "dependents": [
 
     ],
@@ -4460,7 +4551,7 @@
     "description": "A Test Kitchen Digital Ocean driver"
   },
   "kitchen-docker": {
-    "version": "0.5.0",
+    "version": "0.7.1",
     "dependents": [
       {
         "name": "kitchen-all",
@@ -4489,6 +4580,20 @@
     ],
     "description": "Kitchen::Driver::FIFO - A Test Kitchen Driver for Project-FIFO"
   },
+  "kitchen-fog": {
+    "version": "0.6.2",
+    "dependents": [
+
+    ],
+    "description": "A Test Kitchen Fog Nova driver"
+  },
+  "kitchen-gce": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Test-Kitchen driver for Google Compute Engine"
+  },
   "kitchen-libvirtlxc": {
     "version": "0.4.0",
     "dependents": [
@@ -4500,7 +4605,7 @@
     "description": "Kitchen driver for libvirt LXC containers"
   },
   "kitchen-openstack": {
-    "version": "0.5.0",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "kitchen-all",
@@ -4542,6 +4647,10 @@
   "kitchen-vagrant": {
     "version": "0.11.1",
     "dependents": [
+      {
+        "name": "chef-sugar",
+        "requirements": "~> 0.11"
+      },
       {
         "name": "kitchen-all",
         "requirements": "~> 0.10.0"
@@ -4941,7 +5050,7 @@
     "description": "Colorist is a library built to handle the easy conversion and manipulation of colors with a special emphasis on W3C standards and CSS-style hex color notation."
   },
   "kmdata": {
-    "version": "0.0.1",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -5140,7 +5249,7 @@
     "description": "\tKnife plugin for Clodo.Ru cloud provider.\n"
   },
   "knife-cloudformation": {
-    "version": "0.1.8",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -5154,7 +5263,7 @@
     "description": "A Knife plugin to create, list and manage CloudStack servers"
   },
   "knife-cloudstack-fog": {
-    "version": "0.3.4",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -5182,7 +5291,7 @@
     "description": "A Chef knife plugin designed to simplify a cookbook development workflow where cookbooks map onto git repositories."
   },
   "knife-cookbook-doc": {
-    "version": "0.5.0",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -5244,6 +5353,13 @@
     ],
     "description": "Updates DNS based on Chef database"
   },
+  "knife-docker": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Chef's Knife plugin to create and bootstrap Docker containers"
+  },
   "knife-dsl": {
     "version": "0.1.0",
     "dependents": [
@@ -5267,6 +5383,13 @@
 
     ],
     "description": "Making Easybake Possible"
+  },
+  "knife-ec-backup": {
+    "version": "0.9.6",
+    "dependents": [
+
+    ],
+    "description": "Backup and Restore of Enterprise Chef"
   },
   "knife-ec2": {
     "version": "0.6.4",
@@ -5313,7 +5436,7 @@
     "description": "A plugin for Chef::Knife which displays the roles that are included recursively within a role and optionally displays all the roles that include it."
   },
   "knife-essentials": {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "dependents": [
 
     ],
@@ -5368,6 +5491,13 @@
     ],
     "description": "Automatically populates /etc/hosts with node domain names and IP addresses from Chef, requires sudo privileges to edit /etc/hosts"
   },
+  "knife-github": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Github interaction support for Chef's Knife Command"
+  },
   "knife-github-cookbooks": {
     "version": "0.1.8",
     "dependents": [
@@ -5388,6 +5518,13 @@
 
     ],
     "description": "Google Compute Engine Support for Chef's Knife Command"
+  },
+  "knife-gourmet": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Chef knife plugin to help checking the cookbooks versions on your Chef server against upstream"
   },
   "knife-graph": {
     "version": "0.0.4",
@@ -5535,6 +5672,13 @@
     ],
     "description": "This plugin extends Knife with the ability to manage Oktawave Cloud Instances (OCI)."
   },
+  "knife-opc-backup": {
+    "version": "0.9.0",
+    "dependents": [
+
+    ],
+    "description": "Backup and Restore of OPC"
+  },
   "knife-openstack": {
     "version": "0.8.1",
     "dependents": [
@@ -5569,6 +5713,13 @@
 
     ],
     "description": "Spawns EC2 servers in parallel with Knife by using the parallel gem."
+  },
+  "knife-pkg": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A plugin for chef's knife to manage package updates"
   },
   "knife-playground": {
     "version": "0.2.2",
@@ -5613,12 +5764,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knife-rackspace-cluster",
-        "requirements": ">= 0"
-      },
-      {
         "name": "knife-rackspace-load-balancer",
         "requirements": "~> 0.5.12"
+      },
+      {
+        "name": "knife-rackspace-cluster",
+        "requirements": ">= 0"
       }
     ],
     "description": "Rackspace Support for Chef's Knife Command"
@@ -6067,11 +6218,11 @@
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "erp_search",
+        "name": "erp_invoicing",
         "requirements": "~> 2.1"
       },
       {
-        "name": "erp_invoicing",
+        "name": "erp_search",
         "requirements": "~> 2.1"
       }
     ],
@@ -6110,15 +6261,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gtk2_expander_settings",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gtk2_treeview_settings",
         "requirements": ">= 0"
       },
       {
         "name": "gtk2_window_settings",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gtk2_expander_settings",
         "requirements": ">= 0"
       },
       {
@@ -6130,12 +6281,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knjdbrevision",
-        "requirements": ">= 0.0.3"
-      },
-      {
         "name": "knjappserver",
         "requirements": ">= 0"
+      },
+      {
+        "name": "knjdbrevision",
+        "requirements": ">= 0.0.3"
       },
       {
         "name": "knjtasks",
@@ -6158,15 +6309,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ruby_do_plugin_filesearch",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ruby_do",
         "requirements": ">= 0"
       },
       {
         "name": "ruby_do_plugin_power_management_upower",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ruby_do_plugin_filesearch",
         "requirements": ">= 0"
       },
       {
@@ -6314,6 +6465,33 @@
 
     ],
     "description": "provides postal,telephone and other common codes in Kenya"
+  },
+  "koa-js": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "koa-pack",
+        "requirements": "= 0.0.1"
+      }
+    ],
+    "description": "JS Libraries for KOA"
+  },
+  "koa-pack": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Pack of koa-js and koa-utils"
+  },
+  "koa-utils": {
+    "version": "0.0.6",
+    "dependents": [
+      {
+        "name": "koa-pack",
+        "requirements": "= 0.0.6"
+      }
+    ],
+    "description": "Gem of tools for KOA"
   },
   "koala": {
     "version": "1.6.0",
@@ -6560,6 +6738,13 @@
     ],
     "description": "Easy interface for the Koha ILSDI API (https://github.com/Koha-Community/Koha/blob/master/C4/ILSDI/Services.pm) "
   },
+  "koho": {
+    "version": "0.0.11",
+    "dependents": [
+
+    ],
+    "description": "Koho API client for REST interface. Requires authentication token."
+  },
   "koi": {
     "version": "0.3.1",
     "dependents": [
@@ -6668,7 +6853,7 @@
     "description": "A CYOA game engine"
   },
   "kolo": {
-    "version": "0.5.5",
+    "version": "0.5.7",
     "dependents": [
 
     ],
@@ -6750,6 +6935,20 @@
     ],
     "description": "Most web applications have a lot of before/after hooks that occur when working with objects: sending a welcome email on registration, incrementing/decrementing counter caches, trigger validation on remote web services. When implemented using callbacks, all these occur without the developer knowing about them. A simple change in one area of the code can have a huge impact somewhere else. Inspiration for this came from http://blog.teksol.info/2010/09/28/unintented-consequences-the-pitfalls-of-activerecord-callbacks.html and http://jamesgolick.com/2010/3/14/crazy-heretical-and-awesome-the-way-i-write-rails-apps.html"
   },
+  "komba-itunes-receipt": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Handle iTunes In App Purchase Receipt Verification"
+  },
+  "komba_itu_codes": {
+    "version": "0.4.8",
+    "dependents": [
+
+    ],
+    "description": "Helper library for telephone country codes based on the official International Telecommunications Union specifications."
+  },
   "komerci": {
     "version": "0.0.1",
     "dependents": [
@@ -6818,11 +7017,11 @@
         "requirements": ">= 3.0"
       },
       {
-        "name": "modularity-coffee-rails",
+        "name": "modularity-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "modularity-rails",
+        "name": "modularity-coffee-rails",
         "requirements": ">= 0"
       }
     ],
@@ -7089,7 +7288,7 @@
     "description": "For us humans, it's always easier to remember a pronounceable string, even if it is meaningless, than to remember a long number. Koremutake is a system you can use to translate any number (of course, particularly suited at long numbers) to a sequence of syllables. Typical uses of Koremutake strings are auto-generated user passwords or URLs.  This module is based in Leon Brocard's String::Koremutake Perl module,  available at  http://search.cpan.org/dist/String-Koremutake/lib/String/Koremutake.pm which is, in turn, based upon Shorl (http://shorl.com/koremutake.php).  Koremutake is a &#171;way to express any large number as a sequence of syllables&#187;, and the general idea is based in Sean B. Palmer's &#171;Memorable Random String&#187;  term, http://infomesh.net/2001/07/MeRS/"
   },
   "korfzone-scraper": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -7165,6 +7364,13 @@
     ],
     "description": "Robust subscription support for Rails with Stripe. Provides package levels, coupons, logging, notifications, etc."
   },
+  "kougu": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Meta-gem for other kougu components."
+  },
   "koujou": {
     "version": "0.1.3",
     "dependents": [
@@ -7209,6 +7415,10 @@
       },
       {
         "name": "hyperdoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ordo",
         "requirements": ">= 0"
       },
       {
@@ -7317,12 +7527,16 @@
     "version": "1.2.0",
     "dependents": [
       {
+        "name": "accessibility_bridge",
+        "requirements": "~> 0.14.1"
+      },
+      {
         "name": "accessibility_core",
         "requirements": "~> 0.14.1"
       },
       {
-        "name": "accessibility_bridge",
-        "requirements": "~> 0.14.1"
+        "name": "algebrick",
+        "requirements": ">= 0"
       },
       {
         "name": "align",
@@ -7337,11 +7551,15 @@
         "requirements": "~> 0.13"
       },
       {
+        "name": "apical",
+        "requirements": ">= 0"
+      },
+      {
         "name": "apidoc",
         "requirements": ">= 0"
       },
       {
-        "name": "apical",
+        "name": "app_status",
         "requirements": ">= 0"
       },
       {
@@ -7357,11 +7575,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "authn-activation",
+        "name": "authn",
         "requirements": ">= 0"
       },
       {
-        "name": "authn",
+        "name": "authn-activation",
         "requirements": ">= 0"
       },
       {
@@ -7385,6 +7603,14 @@
         "requirements": "~> 0.13.4"
       },
       {
+        "name": "bitten",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "blogue",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bookmaker",
         "requirements": ">= 0"
       },
@@ -7399,6 +7625,10 @@
       {
         "name": "comfortable_mexican_sofa",
         "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "conformista",
+        "requirements": ">= 0"
       },
       {
         "name": "conversio",
@@ -7585,20 +7815,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "kramdown-man",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "krambook",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kramdown-rfc2629",
+        "requirements": "~> 1.2.0"
       },
       {
         "name": "kramdown-gist",
         "requirements": "~> 0.14.0"
       },
       {
-        "name": "kramdown-rfc2629",
-        "requirements": "~> 1.2.0"
+        "name": "kramdown-man",
+        "requirements": "~> 1.0"
       },
       {
         "name": "lm2doc",
@@ -7610,6 +7840,10 @@
       },
       {
         "name": "logi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "logstash-file",
         "requirements": ">= 0"
       },
       {
@@ -7629,11 +7863,11 @@
         "requirements": ">= 1.0.2"
       },
       {
-        "name": "markdown_meta",
+        "name": "markdown2confluence",
         "requirements": ">= 0"
       },
       {
-        "name": "markdown2confluence",
+        "name": "markdown_meta",
         "requirements": ">= 0"
       },
       {
@@ -7645,12 +7879,12 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "md_splitter",
-        "requirements": "~> 0.13.3"
-      },
-      {
         "name": "mdarray",
         "requirements": ">= 1.0.1"
+      },
+      {
+        "name": "md_splitter",
+        "requirements": "~> 0.13.3"
       },
       {
         "name": "mdoc",
@@ -7662,7 +7896,7 @@
       },
       {
         "name": "middleman",
-        "requirements": "~> 1.1.0"
+        "requirements": "~> 1.2"
       },
       {
         "name": "mmailer",
@@ -7674,7 +7908,7 @@
       },
       {
         "name": "monad",
-        "requirements": "~> 1.0.2"
+        "requirements": "~> 1.2"
       },
       {
         "name": "money",
@@ -7687,6 +7921,10 @@
       {
         "name": "mouse",
         "requirements": "~> 0.14.1"
+      },
+      {
+        "name": "multi_git",
+        "requirements": ">= 0"
       },
       {
         "name": "murdoc",
@@ -7721,11 +7959,15 @@
         "requirements": ">= 0.13"
       },
       {
+        "name": "omniauth-gplus",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-gplus-signin",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-gplus",
+        "name": "oni",
         "requirements": ">= 0"
       },
       {
@@ -7897,11 +8139,11 @@
         "requirements": "~> 0.14.2"
       },
       {
-        "name": "transloadit",
+        "name": "transloadit-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "transloadit-rails",
+        "name": "transloadit",
         "requirements": ">= 0"
       },
       {
@@ -8332,6 +8574,10 @@
     "version": "0.5.0",
     "dependents": [
       {
+        "name": "bkss-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "flair",
         "requirements": "~> 0.4.0"
       },
@@ -8386,7 +8632,7 @@
     "description": "Wrap a Ruby object by parsing text file including key-values"
   },
   "kstrano": {
-    "version": "1.1.7",
+    "version": "1.1.8",
     "dependents": [
 
     ],
@@ -8536,7 +8782,7 @@
     "description": "A Ruby wrapper of Kauqian(快钱) Payment API"
   },
   "kuali-rice": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -8560,7 +8806,7 @@
     "description": "This gem is used for creating test scripts for Kuali Coeus."
   },
   "kuality-coeus": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -8616,7 +8862,7 @@
     "description": "Library to integrate K+N logistic API to Ruby on Rails Applications."
   },
   "kuhsaft": {
-    "version": "2.1.2",
+    "version": "2.2.2",
     "dependents": [
 
     ],
@@ -8747,7 +8993,10 @@
   "kuroko": {
     "version": "0.0.2",
     "dependents": [
-
+      {
+        "name": "capistrano",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Cucumber Plugin for testing Puppet manifests using Vagrant"
   },
@@ -8841,6 +9090,13 @@
 
     ],
     "description": "KVC (Key-Value Configuration) provides a powerful, transparent way to maintain\nmutable app settings in the database."
+  },
+  "kvetch": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "A Ruby logger that uses native Mac/Linux notifications."
   },
   "kvo": {
     "version": "0.1.0",
@@ -8958,7 +9214,7 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "oo-cartridge-lint",
+        "name": "oo-cartridge-tools",
         "requirements": ">= 0.7.2"
       },
       {
@@ -9115,7 +9371,7 @@
     "description": "KyotoTycoon client for Ruby"
   },
   "kyototycoon-client": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],

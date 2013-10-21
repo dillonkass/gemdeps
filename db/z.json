@@ -66,11 +66,11 @@
     "version": "0.4.0",
     "dependents": [
       {
-        "name": "fluent-plugin-zabbix-simple",
+        "name": "fluent-plugin-zabbix",
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix",
+        "name": "fluent-plugin-zabbix-simple",
         "requirements": ">= 0"
       },
       {
@@ -78,18 +78,18 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zabbix_nudge",
+        "name": "zabbix_pusher",
         "requirements": "~> 0.3.0"
       },
       {
-        "name": "zabbix_pusher",
+        "name": "zabbix_nudge",
         "requirements": "~> 0.3.0"
       }
     ],
     "description": "send data to zabbix from ruby"
   },
   "zabbix-ruby-client": {
-    "version": "0.0.8",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -124,7 +124,7 @@
     "description": "Send data to Zabbix trappers from Ruby"
   },
   "zabbixapi": {
-    "version": "0.6.0",
+    "version": "0.6.2",
     "dependents": [
 
     ],
@@ -528,7 +528,7 @@
     "description": "gem for localization support in Zedkit applications to generate locale files and load translations via the Zedkit API"
   },
   "zeevex_cluster": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -559,11 +559,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_delayed",
+        "name": "zeevex_concurrency",
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_concurrency",
+        "name": "zeevex_delayed",
         "requirements": ">= 0"
       },
       {
@@ -581,7 +581,7 @@
     "description": "Includes a general and an ActiveRecord StaleObject-focused retry loop"
   },
   "zeevex_threadsafe": {
-    "version": "0.1.0",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "zeevex_cluster",
@@ -612,7 +612,7 @@
     "description": "Ruby client for Zemanta"
   },
   "zemanta_client": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -624,6 +624,13 @@
 
     ],
     "description": "Describe package zemax"
+  },
+  "zemus": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Embeds various media URLs as viewable content"
   },
   "zen": {
     "version": "0.4.3",
@@ -828,7 +835,7 @@
     "description": "Zendesk V2 API client"
   },
   "zendesk_api": {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "dependents": [
       {
         "name": "killbill-zendesk",
@@ -853,17 +860,17 @@
     "description": "A wrapper for Zendesk Apps Manager"
   },
   "zendesk_apps_support": {
-    "version": "1.4.1",
+    "version": "1.6.0",
     "dependents": [
       {
         "name": "zendesk_apps_tools",
-        "requirements": "~> 1.4.1"
+        "requirements": "~> 1.5.0"
       }
     ],
     "description": "Support to help you develop Zendesk Apps."
   },
   "zendesk_apps_tools": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "dependents": [
 
     ],
@@ -884,7 +891,7 @@
     "description": "Allow users to authenticate remotely"
   },
   "zenflow": {
-    "version": "0.8.2",
+    "version": "0.8.3",
     "dependents": [
 
     ],
@@ -1028,12 +1035,12 @@
         "requirements": "~> 4.5"
       },
       {
-        "name": "autotest-aniki",
-        "requirements": ">= 0"
-      },
-      {
         "name": "autotest",
         "requirements": ">= 4.4.1"
+      },
+      {
+        "name": "autotest-aniki",
+        "requirements": ">= 0"
       },
       {
         "name": "autotest-cucumber-notification",
@@ -1048,11 +1055,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-growl",
+        "name": "autotest-git",
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-git",
+        "name": "autotest-growl",
         "requirements": ">= 0"
       },
       {
@@ -1068,12 +1075,12 @@
         "requirements": ">= 4.0.0"
       },
       {
-        "name": "autotest-rails",
-        "requirements": "~> 4.5"
-      },
-      {
         "name": "autotest-run_dependencies",
         "requirements": ">= 3.9.0"
+      },
+      {
+        "name": "autotest-rails",
+        "requirements": "~> 4.5"
       },
       {
         "name": "bc-rspec-matchers",
@@ -1208,10 +1215,6 @@
         "requirements": "~> 4.5"
       },
       {
-        "name": "flydata",
-        "requirements": ">= 0"
-      },
-      {
         "name": "format_validators",
         "requirements": ">= 0"
       },
@@ -1262,6 +1265,10 @@
       {
         "name": "hope",
         "requirements": "~> 4.5"
+      },
+      {
+        "name": "hotels_pro",
+        "requirements": ">= 0"
       },
       {
         "name": "hybridgroup-octokit",
@@ -1440,11 +1447,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "recalls",
+        "name": "Recalls",
         "requirements": "~> 4.4"
       },
       {
-        "name": "Recalls",
+        "name": "recalls",
         "requirements": "~> 4.4"
       },
       {
@@ -1572,15 +1579,11 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_job",
-        "requirements": "~> 4.9.0"
-      },
-      {
         "name": "tengine_event",
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_job",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1588,11 +1591,11 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_job_agent",
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_job_agent",
+        "name": "tengine_resource",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1601,6 +1604,10 @@
       },
       {
         "name": "tengine_resource_ec2",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource_wakame",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1769,12 +1776,12 @@
         "requirements": ">= 3.0.0.b1"
       },
       {
-        "name": "zenweb-textile",
-        "requirements": "= 3.0.0.b3"
-      },
-      {
         "name": "zenweb-template",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "zenweb-textile",
+        "requirements": "= 3.0.0.b3"
       }
     ],
     "description": "Zenweb is a set of classes/tools for organizing and formating a\nwebsite. It is website oriented rather than webpage oriented, unlike\nmost rendering tools. It is content oriented, rather than style\noriented, unlike most rendering tools. It uses a rubygems plugin\nsystem to provide a very flexible, and powerful system.\n\nZenweb 3 was inspired by jekyll. The filesystem layout is similar to\njekyll's layout, but zenweb isn't focused on blogs. It can do any sort\nof website just fine.\n\nZenweb uses rake to handle dependencies. As a result, scanning a\nwebsite and regenerating incrementally is not just possible, it is\nblazingly fast."
@@ -1890,11 +1897,11 @@
         "requirements": ">= 0.0.9"
       },
       {
-        "name": "zergling",
+        "name": "zerg",
         "requirements": ">= 0.0.1"
       },
       {
-        "name": "zerg",
+        "name": "zergling",
         "requirements": ">= 0.0.1"
       }
     ],
@@ -2048,7 +2055,7 @@
     "description": "When a problem comes along..You must zerp it"
   },
   "zertico": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -2065,11 +2072,11 @@
     "version": "0.13.3",
     "dependents": [
       {
-        "name": "guard-zeus",
+        "name": "guard-zeus-client",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-zeus-client",
+        "name": "guard-zeus",
         "requirements": ">= 0"
       },
       {
@@ -2081,12 +2088,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeus-rails23",
-        "requirements": ">= 0"
-      },
-      {
         "name": "zeus-parallel_tests",
         "requirements": "~> 0.13.3"
+      },
+      {
+        "name": "zeus-rails23",
+        "requirements": ">= 0"
       }
     ],
     "description": "Boot any rails app in under a second"
@@ -2345,6 +2352,13 @@
     ],
     "description": "Dead-simple caching with Redis."
   },
+  "zillabyte": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "The Official Zillabyte API Gem"
+  },
   "zillow4r": {
     "version": "0.1.1",
     "dependents": [
@@ -2426,7 +2440,7 @@
     "description": "Zimt downloads and adds files to your .xcodeproj."
   },
   "zinbei": {
-    "version": "0.1.6.1",
+    "version": "0.1.6.8",
     "dependents": [
 
     ],
@@ -2701,7 +2715,7 @@
     "description": "An utility for comparing content of ZIP files.\nIt does not extract the files anywhere, its's using instead ZIP::ZipFile class\nfrom rubyzip gem which enables to access ZIP files like a file system.\nIt uses MD5 to compare files.\n"
   },
   "zip_dsl": {
-    "version": "1.2.0",
+    "version": "1.3.4",
     "dependents": [
       {
         "name": "web_app_builder",
@@ -2907,11 +2921,11 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
@@ -2920,10 +2934,6 @@
       },
       {
         "name": "geonames_api",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ken_all",
         "requirements": ">= 0"
       },
       {
@@ -2945,10 +2955,6 @@
       {
         "name": "pig-media-server",
         "requirements": ">= 0"
-      },
-      {
-        "name": "pione",
-        "requirements": "~> 0.3.6"
       },
       {
         "name": "pubgen",
@@ -3033,7 +3039,7 @@
     "description": "Ruby port of Thomas Schultz's Ziptastic API"
   },
   "zircon": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
         "name": "chatroid",
@@ -3086,6 +3092,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cylons",
+        "requirements": ">= 0"
+      },
+      {
         "name": "grotesque",
         "requirements": ">= 0"
       },
@@ -3110,6 +3120,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ruby-druid",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vidocq",
         "requirements": ">= 1.6.4"
       },
@@ -3124,6 +3138,10 @@
       {
         "name": "zknrg",
         "requirements": ">= 1.6.3"
+      },
+      {
+        "name": "zoo-service-discovery",
+        "requirements": ">= 0"
       },
       {
         "name": "zoomq",
@@ -3147,11 +3165,11 @@
     "description": "ZK client for EventMachine-based (async) applications"
   },
   "zk-forms": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
-    "description": "Permite crear formularios desde un Hash o un modelo ActiveRecord"
+    "description": "Allows you create forms from an Hash or ActiveRecord model"
   },
   "zk-group": {
     "version": "0.1.1",
@@ -3168,7 +3186,7 @@
     "description": "the zookeeper jar file wrapped in a gem"
   },
   "zk-security": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -3242,6 +3260,13 @@
 
     ],
     "description": "web-based presentation tool"
+  },
+  "zlog": {
+    "version": "0.8",
+    "dependents": [
+
+    ],
+    "description": "rudimentary simple logging for ruby"
   },
   "zlx": {
     "version": "0.0.0",
@@ -3368,7 +3393,7 @@
     "description": "Zocial CSS3 button set and vector icons with @font-face"
   },
   "zocial-rails": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -3543,7 +3568,7 @@
     "description": "A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.\n\n  I shamelessly stole this whole project from Ryan Bates nifty generators and default everything to haml, \n  added factory_girl factories and formtastic. I also deleted the Rails 2 generators because I will never use that."
   },
   "zoo-service-discovery": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -3576,11 +3601,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring",
+        "name": "redis_ring_client",
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring_client",
+        "name": "redis_ring",
         "requirements": ">= 0"
       },
       {
@@ -3671,6 +3696,13 @@
     ],
     "description": "Access zoopla.co.uk API from ruby scripts. Fetch sales and rental properties for the UK"
   },
+  "zooplankton": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A library for turning Rails routes into URI Templates, like maybe for HAL."
+  },
   "zootool": {
     "version": "0.1.0",
     "dependents": [
@@ -3685,8 +3717,15 @@
     ],
     "description": "A ZooZ API library for Ruby"
   },
+  "zooz_payments": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Zooz payments mobile api"
+  },
   "zopfli": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -3700,7 +3739,7 @@
     "description": "This is a very stripped down version of innate."
   },
   "zoro": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -4044,6 +4083,10 @@
       {
         "name": "helios",
         "requirements": "= 4.1.2"
+      },
+      {
+        "name": "joyride_foundation",
+        "requirements": ">= 4.0.0"
       },
       {
         "name": "mail_spy",

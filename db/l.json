@@ -7,7 +7,7 @@
     "description": "l is a frontend for ls and less, invoking either depending on if it is fed directories or files. This makes navigating a shell a bit smoother and easier, as it is common to switch between the two commands while poking around the file system (see Sample session).  The program filters the switches for ls and less, keeping the most useful and common for each.  Sample session:  user@box:~ l Documents Music Projects  user@box:~ l Documents/ Personal some_doc.pdf example.txt Work  user@box:~ l Documents/example.txt This is just an example Documents/example.txt (END)  user@box:~ l Documents/Work/ proposal.odt document.pdf  user@box:~ l -l Documents/Work/ -rw-r--r--  1 user user  32974 2006-03-31 12:29 proposal.odt -rw-r--r--  1 user user 451726 2006-04-13 10:33 document.pdf  Aliases:  Most aliases for ls as used in .bashrc will work as usual if ls is replaced with l, but there's more: you can combine switches for both ls and less in your alias and l will filter out the inappropriate ones. The following will set ll to use long lists for directories and to ignore case for searches when displaying files:  alias ll='l -I -l'  Because ls and less can't safely share the same switches, there are a few cases where a workaround is needed:  For ls: -i doesn't work, use --inode instead -I doesn't work, use --ignore=PATTERN  For less: -r and -R doesn't work, use --raw-control-chars instead"
   },
   "l10n": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -27,12 +27,26 @@
     ],
     "description": "Automatically extract strings from ERB templates and replace with calls to t()"
   },
+  "l12n": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Locations data"
+  },
   "l2met-syslog": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "l2m compatible logger"
+  },
+  "l2metable": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A mixin to add some nice logging functions that log in the l2met style"
   },
   "l2p": {
     "version": "1.0",
@@ -111,9 +125,12 @@
     "description": "A Gem that will give us helpers to dry up the creation of TMUX windows and panes, adding some predefind layouts which are a good starting point for the usage of this gem"
   },
   "lab42_core": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
-
+      {
+        "name": "lab42_streams",
+        "requirements": "~> 0.0.5"
+      }
     ],
     "description": "Hash, Dir and more extensions"
   },
@@ -133,6 +150,13 @@
 
     ],
     "description": "Filters, Transitions"
+  },
+  "lab42_streams": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Lazy Evaluation, Streams, Enumerator#Lazy"
   },
   "lab42_tmux": {
     "version": "0.0.3",
@@ -232,14 +256,14 @@
     ],
     "description": "A measurement batch facilitator"
   },
-  "labrador": {
+  "Labrador": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Labrador: Your loyal data retrieval companion"
   },
-  "Labrador": {
+  "labrador": {
     "version": "0.0.1",
     "dependents": [
 
@@ -438,7 +462,7 @@
     "description": "alias_method :λ, :lambda"
   },
   "lambda-calculus": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -480,11 +504,11 @@
     "description": "A collection of lambdas for your enjoyment"
   },
   "lambert_ruby": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
-    "description": "Ruby wrapper for the lambert library that converts Lambert coordinates to WGS84. It wraps the original C files with a basic Ruby interface."
+    "description": "Ruby wrapper for the lambert library"
   },
   "lame": {
     "version": "0.0.3",
@@ -564,7 +588,7 @@
     "description": "A command-line tool for managing multiple virtual-host configurations on a web server"
   },
   "landrush": {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -585,11 +609,11 @@
     "description": "A small HTTP configuration server. Eats YAML, returns JSON, XML, YAML and rb. Restricts requests to local subnet."
   },
   "lanekit": {
-    "version": "0.2.0",
+    "version": "0.3.3",
     "dependents": [
 
     ],
-    "description": "a code generator for iOS Objective-C models for integration with RestKit."
+    "description": "an iOS Objective-C code generator for integration with RestKit."
   },
   "lang": {
     "version": "0.1.0",
@@ -647,13 +671,6 @@
     ],
     "description": "Gem and console tool for translation through various online services (google translate, babelfish, pereklad, etc)"
   },
-  "LanGrove": {
-    "version": "0.0.2",
-    "dependents": [
-
-    ],
-    "description": "eventmachine based networked daemon framework"
-  },
   "langrove": {
     "version": "0.0.5.4",
     "dependents": [
@@ -665,6 +682,13 @@
         "name": "langrove-plugin-resque",
         "requirements": ">= 0"
       }
+    ],
+    "description": "eventmachine based networked daemon framework"
+  },
+  "LanGrove": {
+    "version": "0.0.2",
+    "dependents": [
+
     ],
     "description": "eventmachine based networked daemon framework"
   },
@@ -802,6 +826,10 @@
     "dependents": [
       {
         "name": "code_rippa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git_statistics",
         "requirements": ">= 0"
       },
       {
@@ -1064,7 +1092,7 @@
     "description": "An evented application framework for the FreeSWITCH telephony platform"
   },
   "las2witsml": {
-    "version": "0.1.3",
+    "version": "0.1.5",
     "dependents": [
 
     ],
@@ -1168,12 +1196,12 @@
     "version": "1.21.0",
     "dependents": [
       {
-        "name": "lastfm-path-finder",
-        "requirements": "= 1.7.0"
-      },
-      {
         "name": "lastfm_tools",
         "requirements": "= 1.4.0"
+      },
+      {
+        "name": "lastfm-path-finder",
+        "requirements": "= 1.7.0"
       },
       {
         "name": "LOLastfm",
@@ -1492,6 +1520,10 @@
       {
         "name": "boxafe",
         "requirements": "= 3"
+      },
+      {
+        "name": "multi_scheduler",
+        "requirements": "= 3"
       }
     ],
     "description": "One stop shop for launchd property list creation. The doctor is *in*!"
@@ -1544,6 +1576,10 @@
   "launchy": {
     "version": "unknown",
     "dependents": [
+      {
+        "name": "88miles",
+        "requirements": "~> 2.3.0"
+      },
       {
         "name": "_rubyapp",
         "requirements": "= 0.3.7"
@@ -1689,11 +1725,11 @@
         "requirements": ">= 2.0.5"
       },
       {
-        "name": "box-api",
+        "name": "box-api-ani",
         "requirements": ">= 0"
       },
       {
-        "name": "box-api-ani",
+        "name": "box-api",
         "requirements": ">= 0"
       },
       {
@@ -1705,11 +1741,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "brightcontent-core",
+        "name": "brightcontent-pages",
         "requirements": ">= 0"
       },
       {
-        "name": "brightcontent-pages",
+        "name": "brightcontent-core",
         "requirements": ">= 0"
       },
       {
@@ -1753,12 +1789,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "capybara-screenshot",
-        "requirements": ">= 0"
-      },
-      {
         "name": "capybara-rails-2-2",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "capybara-screenshot",
+        "requirements": ">= 0"
       },
       {
         "name": "capybarbecue",
@@ -1845,6 +1881,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "curate",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cuukie",
         "requirements": ">= 0"
       },
@@ -1857,12 +1897,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "danmayer-resume",
-        "requirements": ">= 0"
-      },
-      {
         "name": "danieldkim-evergreen",
         "requirements": ">= 0.3.5"
+      },
+      {
+        "name": "danmayer-resume",
+        "requirements": ">= 0"
       },
       {
         "name": "david-capybara",
@@ -1885,11 +1925,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "devise_cas_authenticatable",
+        "name": "devise_bushido_authenticatable",
         "requirements": ">= 0"
       },
       {
-        "name": "devise_bushido_authenticatable",
+        "name": "devise_cas_authenticatable",
         "requirements": ">= 0"
       },
       {
@@ -1917,11 +1957,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dropbox-utility",
+        "name": "dropbox-folder-sync",
         "requirements": ">= 0"
       },
       {
-        "name": "dropbox-folder-sync",
+        "name": "dropbox-utility",
         "requirements": ">= 0"
       },
       {
@@ -1941,6 +1981,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "easy_auth-github",
+        "requirements": ">= 0"
+      },
+      {
         "name": "easy_auth-google",
         "requirements": ">= 0"
       },
@@ -1949,7 +1993,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-github",
+        "name": "easy_auth-password",
         "requirements": ">= 0"
       },
       {
@@ -1958,10 +2002,6 @@
       },
       {
         "name": "easy_auth-zinergia",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "easy_auth-password",
         "requirements": ">= 0"
       },
       {
@@ -1989,11 +2029,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "everbox_client",
+        "name": "evergreen",
         "requirements": ">= 0"
       },
       {
-        "name": "evergreen",
+        "name": "everbox_client",
         "requirements": ">= 0"
       },
       {
@@ -2041,6 +2081,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fontello_rails_converter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "forem",
         "requirements": ">= 0"
       },
@@ -2079,6 +2123,10 @@
       {
         "name": "ghost_google-api-client",
         "requirements": ">= 2.1.1"
+      },
+      {
+        "name": "gigawatt",
+        "requirements": "~> 2.3.0"
       },
       {
         "name": "giraffes",
@@ -2173,8 +2221,16 @@
         "requirements": ">= 0.3.5"
       },
       {
+        "name": "guard-rspec",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guard-webrick",
         "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "gub",
+        "requirements": ">= 0"
       },
       {
         "name": "gumdrop",
@@ -2393,11 +2449,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "manageable",
+        "name": "manageable_content",
         "requirements": ">= 0"
       },
       {
-        "name": "manageable_content",
+        "name": "manageable",
         "requirements": ">= 0"
       },
       {
@@ -2450,7 +2506,7 @@
       },
       {
         "name": "monad",
-        "requirements": "~> 2.1.2"
+        "requirements": "~> 2.3"
       },
       {
         "name": "mongobile",
@@ -2469,11 +2525,11 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "mvn_plugin_config",
+        "name": "mvn-plugin-config",
         "requirements": ">= 0"
       },
       {
-        "name": "mvn-plugin-config",
+        "name": "mvn_plugin_config",
         "requirements": ">= 0"
       },
       {
@@ -2649,11 +2705,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rapidfire",
+        "name": "rapid_transit",
         "requirements": ">= 0"
       },
       {
-        "name": "rapid_transit",
+        "name": "rapidfire",
         "requirements": ">= 0"
       },
       {
@@ -2757,6 +2813,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "scms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "screenshooter",
         "requirements": ">= 0"
       },
@@ -2813,10 +2873,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spree_multi_lingual",
-        "requirements": "= 2.0.5"
-      },
-      {
         "name": "spree_size_chart",
         "requirements": ">= 0"
       },
@@ -2853,12 +2909,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "suse-git-pulls",
-        "requirements": ">= 0"
-      },
-      {
         "name": "surveyor",
         "requirements": "~> 2.0.5"
+      },
+      {
+        "name": "suse-git-pulls",
+        "requirements": ">= 0"
       },
       {
         "name": "sword",
@@ -3013,12 +3069,16 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "webbynode",
+        "requirements": ">= 0.3.7"
+      },
+      {
         "name": "webby",
         "requirements": ">= 0.3.2"
       },
       {
-        "name": "webbynode",
-        "requirements": ">= 0.3.7"
+        "name": "websocket-gui",
+        "requirements": "~> 2.3.0"
       },
       {
         "name": "webtail",
@@ -3450,7 +3510,7 @@
     "description": "google analytics api access for the lazy ones"
   },
   "lazy_high_charts": {
-    "version": "1.4.3",
+    "version": "1.5.0",
     "dependents": [
       {
         "name": "artisan-core",
@@ -3605,7 +3665,7 @@
     "description": "Functional programming with collections (Higher Order Methods)"
   },
   "lazyeval": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -3718,6 +3778,13 @@
 
     ],
     "description": "Library of Congress Classification classes and subclasses"
+  },
+  "lci": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "Gem to learn CI"
   },
   "lcsh_suggest": {
     "version": "0.0.3",
@@ -4105,6 +4172,12 @@
     ],
     "description": " Link, copy & setup your dotfiles with a rake task. "
   },
+  "leangem": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ]
+  },
   "leankitkanban": {
     "version": "0.1.4",
     "dependents": [
@@ -4194,6 +4267,20 @@
       }
     ],
     "description": "This this plugin for the leap platform provides user signup and login. It uses Secure Remote Password for the authentication."
+  },
+  "leapfrog": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Small client for interactive with Leapfrog advice API."
+  },
+  "leapfrog-customer_scoring": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Ruby API client for Leapfrog Online customer scoring"
   },
   "leapmotion": {
     "version": "0.0.4",
@@ -4712,15 +4799,15 @@
     ],
     "description": "A collection of scripts for common git tasks to simplify and improve workflow."
   },
-  "Legit-the-Git": {
-    "version": "0.0.3",
+  "legit-the-git": {
+    "version": "0.0.7",
     "dependents": [
 
     ],
     "description": "Git hooks to help keep accurev and git in sync"
   },
-  "legit-the-git": {
-    "version": "0.0.7",
+  "Legit-the-Git": {
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -5018,6 +5105,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "CirrusKit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "custom-twitter-bootstrap-rails",
         "requirements": ">= 0"
       },
@@ -5210,12 +5301,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "twitter-bootstrap-ruby",
-        "requirements": "~> 2.3.1"
-      },
-      {
         "name": "twitter-bootstrap-rails",
         "requirements": ">= 0"
+      },
+      {
+        "name": "twitter-bootstrap-ruby",
+        "requirements": "~> 2.3.1"
       },
       {
         "name": "universe-templates",
@@ -5315,6 +5406,10 @@
         "requirements": "~> 2.2.3"
       },
       {
+        "name": "CirrusKit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "custom-twitter-bootstrap-rails",
         "requirements": "~> 2.1.0"
       },
@@ -5359,12 +5454,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "metro-ui-rails-cn",
-        "requirements": "~> 2.2.3"
-      },
-      {
         "name": "metro-ui-rails",
         "requirements": "> 2.2.3"
+      },
+      {
+        "name": "metro-ui-rails-cn",
+        "requirements": "~> 2.2.3"
       },
       {
         "name": "morris-rails",
@@ -5399,8 +5494,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "twbs_less_rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "twitter-bootstrap",
         "requirements": "~> 2.0.1"
+      },
+      {
+        "name": "twitter-bootswatch-rails-fontawesome",
+        "requirements": ">= 2.3"
       },
       {
         "name": "twitter-bootswatch-rails",
@@ -5409,10 +5512,6 @@
       {
         "name": "twitter-bootstrap-turbo",
         "requirements": "~> 2.2.3"
-      },
-      {
-        "name": "twitter-bootswatch-rails-fontawesome",
-        "requirements": ">= 2.3"
       },
       {
         "name": "twitter_bootstrap",
@@ -5450,7 +5549,7 @@
       },
       {
         "name": "shopify_app",
-        "requirements": "> 0"
+        "requirements": "~> 2.0"
       },
       {
         "name": "spree_swatches",
@@ -5550,10 +5649,7 @@
   "lesspainful": {
     "version": "0.10.6",
     "dependents": [
-      {
-        "name": "briar",
-        "requirements": ">= 0"
-      }
+
     ],
     "description": "www.lesspainful.com lets you run calabash tests for native and hybrid apps on physical devices"
   },
@@ -5643,13 +5739,6 @@
     ],
     "description": "Let's Shop Mapper is a Ruby library that allows to search and parse on Let's Shop Service."
   },
-  "Letter": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": " Sinatra Based Markdown blog. "
-  },
   "letter": {
     "version": "0.0.1",
     "dependents": [
@@ -5657,8 +5746,15 @@
     ],
     "description": "Add rspec style lets to controllers"
   },
+  "Letter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": " Sinatra Based Markdown blog. "
+  },
   "letter_bomb": {
-    "version": "0.1.3",
+    "version": "0.1.5",
     "dependents": [
 
     ],
@@ -5726,7 +5822,7 @@
     "description": "This patch provides 'letter_opener' gem with iso-2022-jp conversion capability."
   },
   "letter_opener_web": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -5756,7 +5852,10 @@
   "lettercase": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "pione",
+        "requirements": "~> 0.0.3"
+      }
     ],
     "description": "Convert some letter cases around programming."
   },
@@ -5810,11 +5909,11 @@
     "description": " some faker data for sunulamb"
   },
   "lev": {
-    "version": "1.0.0",
+    "version": "2.0.4",
     "dependents": [
       {
         "name": "openstax_connect",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 2.0.1"
       }
     ],
     "description": "Ride the rails but don't touch them."
@@ -6398,7 +6497,7 @@
     "description": "Add library paths"
   },
   "libdolt": {
-    "version": "0.33.4",
+    "version": "0.33.5",
     "dependents": [
       {
         "name": "dolt",
@@ -6509,7 +6608,7 @@
     "description": "LibGems is essentially a clone of RubyGems but with a unique namespace to run side-by-side with it."
   },
   "libgss": {
-    "version": "0.8.3",
+    "version": "0.8.4",
     "dependents": [
 
     ],
@@ -6752,11 +6851,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
+        "name": "mobvious",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious",
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
@@ -6920,11 +7019,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vatbook",
+        "name": "vatsim_online",
         "requirements": ">= 0"
       },
       {
-        "name": "vatsim_online",
+        "name": "vatbook",
         "requirements": ">= 0"
       },
       {
@@ -6998,6 +7097,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "vagrant-librarian-puppet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vagrant-librarian-puppet-plugin",
         "requirements": ">= 0"
       }
@@ -7043,6 +7146,10 @@
       },
       {
         "name": "freighthop",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-librarian-puppet",
         "requirements": ">= 0"
       },
       {
@@ -7171,11 +7278,11 @@
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "libratonator",
+        "name": "librato-storm-kafka",
         "requirements": ">= 0"
       },
       {
-        "name": "librato-storm-kafka",
+        "name": "libratonator",
         "requirements": ">= 0"
       },
       {
@@ -7270,7 +7377,10 @@
   "libreconv": {
     "version": "0.8.1",
     "dependents": [
-
+      {
+        "name": "libreservice",
+        "requirements": ">= 0"
+      }
     ],
     "description": " Convert office documents to PDF using LibreOffice. "
   },
@@ -7282,12 +7392,9 @@
     "description": "This software changes a document into PDF by Libreoffice assistance under JRuby."
   },
   "libreservice": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
-      {
-        "name": "libreservice",
-        "requirements": ">= 0"
-      }
+
     ],
     "description": "Adds a service layer on top of the Libreconv gem"
   },
@@ -7317,7 +7424,7 @@
     "description": "Rex provides a variety of classes useful for security testing and exploit development. Based on SVN Revision 15602"
   },
   "librmdp": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -7447,12 +7554,16 @@
         "requirements": "~> 0.3.4"
       },
       {
-        "name": "lego-nxt",
-        "requirements": "~> 0.3.4"
+        "name": "hybridgroup-crubyflie",
+        "requirements": ">= 0"
       },
       {
         "name": "lego_nxt",
         "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "lego-nxt",
+        "requirements": "~> 0.3.4"
       },
       {
         "name": "ligo",
@@ -7579,16 +7690,12 @@
     "version": "0.1.8",
     "dependents": [
       {
-        "name": "em-websocket-client",
-        "requirements": ">= 0"
+        "name": "pusher-client-nc",
+        "requirements": "~> 0.1.3"
       },
       {
         "name": "pusher-client-merman",
         "requirements": "= 0.1.0"
-      },
-      {
-        "name": "pusher-client-nc",
-        "requirements": "~> 0.1.3"
       }
     ],
     "description": "Universal Ruby library to handle WebSocket protocol"
@@ -7656,6 +7763,10 @@
         "requirements": ">= 1.1.3"
       },
       {
+        "name": "apple-tv-converter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "archives",
         "requirements": ">= 0.9.2"
       },
@@ -7692,12 +7803,12 @@
         "requirements": ">= 2"
       },
       {
-        "name": "bio-nexml",
-        "requirements": "= 1.1.4"
-      },
-      {
         "name": "bio-lazyblastxml",
         "requirements": ">= 2.0.5"
+      },
+      {
+        "name": "bio-nexml",
+        "requirements": "= 1.1.4"
       },
       {
         "name": "bio-phyloxml",
@@ -7772,23 +7883,23 @@
         "requirements": ">= 1.1.3"
       },
       {
-        "name": "epp",
-        "requirements": ">= 0"
-      },
-      {
         "name": "epp-client",
         "requirements": ">= 0"
       },
       {
+        "name": "epp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "etvnet_seek",
+        "requirements": ">= 1.1.3"
+      },
+      {
         "name": "etvnet-seek",
         "requirements": ">= 0"
       },
       {
         "name": "etvnet-seek",
-        "requirements": ">= 1.1.3"
-      },
-      {
-        "name": "etvnet_seek",
         "requirements": ">= 1.1.3"
       },
       {
@@ -7852,11 +7963,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google_apps",
+        "name": "google_apps_oauth2",
         "requirements": ">= 2.2.2"
       },
       {
-        "name": "google_apps_oauth2",
+        "name": "google_apps",
         "requirements": ">= 2.2.2"
       },
       {
@@ -7900,15 +8011,7 @@
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-engine",
-        "requirements": ">= 2.6.0"
-      },
-      {
         "name": "hq-engine-xqilla",
-        "requirements": ">= 2.6.0"
-      },
-      {
-        "name": "hq-log-monitor-client",
         "requirements": ">= 2.6.0"
       },
       {
@@ -7920,15 +8023,23 @@
         "requirements": ">= 2.6.0"
       },
       {
+        "name": "hq-log-monitor-client",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-engine",
+        "requirements": ">= 2.6.0"
+      },
+      {
+        "name": "hq-tools",
+        "requirements": ">= 2.6.0"
+      },
+      {
         "name": "hq-sms-global-balance-check",
         "requirements": ">= 2.6.0"
       },
       {
         "name": "hq-web",
-        "requirements": ">= 2.6.0"
-      },
-      {
-        "name": "hq-tools",
         "requirements": ">= 2.6.0"
       },
       {
@@ -7952,12 +8063,12 @@
         "requirements": ">= 0.9.8"
       },
       {
-        "name": "kind_dom",
-        "requirements": ">= 0.5.4"
-      },
-      {
         "name": "KindDom",
         "requirements": ">= 0.5.2.0"
+      },
+      {
+        "name": "kind_dom",
+        "requirements": ">= 0.5.4"
       },
       {
         "name": "klink",
@@ -7984,12 +8095,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "libxml-xmlrpc",
-        "requirements": "> 0.0.0"
-      },
-      {
         "name": "libxml4r",
         "requirements": ">= 1.1.3"
+      },
+      {
+        "name": "libxml-xmlrpc",
+        "requirements": "> 0.0.0"
       },
       {
         "name": "libxsl-ruby",
@@ -8040,11 +8151,11 @@
         "requirements": ">= 1.1.4"
       },
       {
-        "name": "ncbo_resource_index",
+        "name": "ncbo_annotator",
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "ncbo_annotator",
+        "name": "ncbo_resource_index",
         "requirements": "~> 2.2.0"
       },
       {
@@ -8116,11 +8227,11 @@
         "requirements": "~> 2.6.0"
       },
       {
-        "name": "ratom-ssl",
+        "name": "ratom-instructure",
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "ratom-instructure",
+        "name": "ratom-ssl",
         "requirements": ">= 1.1.2"
       },
       {
@@ -8132,11 +8243,11 @@
         "requirements": "~> 2.3.3"
       },
       {
-        "name": "rbbt-text",
+        "name": "rbbt-sources",
         "requirements": ">= 0"
       },
       {
-        "name": "rbbt-sources",
+        "name": "rbbt-text",
         "requirements": ">= 0"
       },
       {
@@ -8225,6 +8336,10 @@
       },
       {
         "name": "rocx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rodzilla",
         "requirements": ">= 0"
       },
       {
@@ -8420,12 +8535,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yandex-pdd",
-        "requirements": ">= 1.1.3"
-      },
-      {
         "name": "yandex-webmaster",
         "requirements": ">= 0"
+      },
+      {
+        "name": "yandex-pdd",
+        "requirements": ">= 1.1.3"
       },
       {
         "name": "yt_data_api",
@@ -8513,6 +8628,10 @@
       {
         "name": "schematron",
         "requirements": ">= 0.9.1"
+      },
+      {
+        "name": "uml_architect",
+        "requirements": ">= 0"
       },
       {
         "name": "word_parsing",
@@ -8652,7 +8771,7 @@
     "description": "Lidia is a yml based command contructor class. Aims to be easy to use and to provide an easy way to remember tons of commands"
   },
   "lieu": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -8714,6 +8833,13 @@
     ],
     "description": "Allow the rails portlet app to read and configure database with liferay portal-ext.properties"
   },
+  "lifesaver": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Indexes your ActiveRecord models in elasticsearch asynchronously by making use of tire and resque"
+  },
   "lifestream": {
     "version": "0.1.5",
     "dependents": [
@@ -8762,6 +8888,13 @@
 
     ],
     "description": "A very simple and light ruby daemon API"
+  },
+  "light-mecab": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Execute morphological analysis by MeCab"
   },
   "light-service": {
     "version": "0.0.10",
@@ -8812,10 +8945,6 @@
     "version": "2.1.0",
     "dependents": [
       {
-        "name": "buildmeister",
-        "requirements": "~> 2.1"
-      },
-      {
         "name": "gitcycle",
         "requirements": ">= 0"
       },
@@ -8838,16 +8967,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lighthouse-ical",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "lighthouse-cli",
         "requirements": "~> 2.0"
       },
       {
         "name": "lighthouse_branch",
         "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "lighthouse-ical",
-        "requirements": "~> 2.0"
       },
       {
         "name": "omnifocus-lighthouse",
@@ -8966,7 +9095,7 @@
     "description": "Control LightwaveRF devices with the Wifi Link box"
   },
   "lightwaverf": {
-    "version": "0.6.5",
+    "version": "0.6.6",
     "dependents": [
 
     ],
@@ -9115,12 +9244,16 @@
   "lilypad": {
     "version": "0.3.1",
     "dependents": [
-      {
-        "name": "gem_template",
-        "requirements": "= 0.3.0"
-      }
+
     ],
     "description": "Hoptoad notifier for rack-based frameworks"
+  },
+  "lilyplaying": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Outputs the currently playing rdio song to a text file for use while streaming"
   },
   "lima_report": {
     "version": "0.2",
@@ -9287,7 +9420,7 @@
     "description": "ActionView helpers for creating NAVER LINE share buttons."
   },
   "line-tree": {
-    "version": "0.3.9",
+    "version": "0.3.15",
     "dependents": [
       {
         "name": "dynarex",
@@ -9318,6 +9451,13 @@
 
     ],
     "description": "A little mixin to change the line endings of files. Supports Mac, Unix, and Windows line ending conversions."
+  },
+  "line_ending": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A little mixin to change the line endings of files. Supports Mac, Unix and Windows ending conversions."
   },
   "line_send_button": {
     "version": "0.1.0",
@@ -9355,7 +9495,7 @@
     "description": "The standard library for Linecook, providing helpers for POSIX and Linux."
   },
   "linebreak": {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "dependents": [
       {
         "name": "breakverter",
@@ -9370,7 +9510,7 @@
         "requirements": "~> 2.0.1"
       }
     ],
-    "description": "Linebreak is a Ruby library for conversion of text between linebreak encoding\nformats of unix, windows or mac.\n"
+    "description": "Linebreak is a Ruby library for conversion of text between linebreak encoding\nformats of Unix, Windows or Mac.\n"
   },
   "linebreak-cli": {
     "version": "2.0.1",
@@ -9555,7 +9695,7 @@
     "description": "Walks one or more text files, which may be gzipped, allowing line-by-line processing of the contents"
   },
   "lingo": {
-    "version": "1.8.3",
+    "version": "1.8.4",
     "dependents": [
 
     ],
@@ -9812,6 +9952,10 @@
         "requirements": ">= 0.0.5"
       },
       {
+        "name": "footrest",
+        "requirements": ">= 0.0.7"
+      },
+      {
         "name": "gds-api-adapters",
         "requirements": ">= 0"
       },
@@ -9968,7 +10112,7 @@
     "description": "A simple linked list implementation that follows Ruby's conventions."
   },
   "linkeddata": {
-    "version": "1.0.5",
+    "version": "1.0.9",
     "dependents": [
       {
         "name": "dowl",
@@ -10095,7 +10239,7 @@
     "description": "Given a keyword, an industry and a zipcode, retrieves top companies"
   },
   "linkedin2": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -10244,7 +10388,10 @@
   "linkshare": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "tipsanity_merchant_extractor",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Ruby library to interface with Linkshare report and product apis. Forked from Ian Ehlerts linkshare project"
   },
@@ -10284,7 +10431,7 @@
     "description": "Linnaeus provides a redis-backed Bayesian classifier. Words are stemmed, stopwords are stopped, and redis is used to allow for persistent and concurrent training and classification."
   },
   "linner": {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "dependents": [
 
     ],
@@ -10361,9 +10508,12 @@
     "description": "Common *NIX tools and commands which can be used easily in irb"
   },
   "linux_admin": {
-    "version": "0.3.0",
+    "version": "0.5.1",
     "dependents": [
-
+      {
+        "name": "ruby_bugzilla",
+        "requirements": "~> 0.2.1"
+      }
     ],
     "description": "\nLinuxAdmin is a module to simplify management of linux systems.\nIt should be a single place to manage various system level configurations,\nregistration, updates, etc.\n"
   },
@@ -10504,10 +10654,14 @@
     "description": "Capistrano integration for running Java Liquibase updates on remote hosts."
   },
   "liquid": {
-    "version": "2.5.2",
+    "version": "2.5.3",
     "dependents": [
       {
         "name": "activeadmin-selleo-cms",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "activeadmin_cms",
         "requirements": ">= 0"
       },
       {
@@ -10547,6 +10701,10 @@
         "requirements": ">= 2.0.0"
       },
       {
+        "name": "condensation",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "controll",
         "requirements": ">= 0"
       },
@@ -10557,6 +10715,10 @@
       {
         "name": "crnixon-jekyll",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "custom_emails",
+        "requirements": "~> 2.5.3"
       },
       {
         "name": "dragon",
@@ -10592,7 +10754,7 @@
       },
       {
         "name": "github-pages",
-        "requirements": "= 2.5.2"
+        "requirements": "= 2.5.1"
       },
       {
         "name": "gitstuff-preview",
@@ -10671,11 +10833,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "liquid-eval",
+        "requirements": ">= 0"
+      },
+      {
         "name": "liquid-blocks",
         "requirements": ">= 0"
       },
       {
-        "name": "liquid_assets",
+        "name": "liquid-cli",
         "requirements": ">= 0"
       },
       {
@@ -10687,24 +10853,24 @@
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "liquid_loader",
+        "name": "liquid_assets",
         "requirements": ">= 0"
-      },
-      {
-        "name": "liquidizer",
-        "requirements": ">= 2.0.0"
       },
       {
         "name": "liquid-validations",
         "requirements": "~> 2.4.1"
       },
       {
-        "name": "liquid-eval",
+        "name": "liquid_stream",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "liquid_loader",
         "requirements": ">= 0"
       },
       {
-        "name": "liquid_stream",
-        "requirements": "~> 2.2"
+        "name": "liquidizer",
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "liquidprof",
@@ -10772,7 +10938,7 @@
       },
       {
         "name": "monad",
-        "requirements": "~> 2.3"
+        "requirements": "~> 2.5.2"
       },
       {
         "name": "naeu-jekyll",
@@ -10879,11 +11045,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spud_inquiries",
+        "name": "spud_banners",
         "requirements": ">= 0"
       },
       {
-        "name": "spud_banners",
+        "name": "spud_inquiries",
         "requirements": ">= 0"
       },
       {
@@ -10960,6 +11126,13 @@
     ],
     "description": "Django-style template inheritance for Liquid"
   },
+  "liquid-cli": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Command line interface to the Liquid gem by Shopify"
+  },
   "liquid-eval": {
     "version": "0.0.2",
     "dependents": [
@@ -11003,7 +11176,7 @@
     "description": "Liquid template validator"
   },
   "liquid_assets": {
-    "version": "0.4.2",
+    "version": "0.4.4",
     "dependents": [
 
     ],
@@ -11202,7 +11375,7 @@
     "description": "ListBrowser allows you to navigate non-obvious structures like linked lists."
   },
   "listen": {
-    "version": "1.3.1",
+    "version": "2.1.1",
     "dependents": [
       {
         "name": "again",
@@ -11249,6 +11422,10 @@
         "requirements": "~> 0.5.3"
       },
       {
+        "name": "bonethug",
+        "requirements": ">= 0"
+      },
+      {
         "name": "britebox",
         "requirements": "~> 1.2.2"
       },
@@ -11281,6 +11458,10 @@
         "requirements": ">= 0.5.3"
       },
       {
+        "name": "dropbox-archive",
+        "requirements": ">= 0"
+      },
+      {
         "name": "edison",
         "requirements": ">= 0"
       },
@@ -11305,12 +11486,12 @@
         "requirements": ">= 0.6.0"
       },
       {
-        "name": "fontcustomtoadstool",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fontcustom",
         "requirements": "~> 1.3.1"
+      },
+      {
+        "name": "fontcustomtoadstool",
+        "requirements": ">= 0"
       },
       {
         "name": "fontrobot",
@@ -11323,6 +11504,10 @@
       {
         "name": "frett",
         "requirements": ">= 0.4.7"
+      },
+      {
+        "name": "frizz",
+        "requirements": "~> 1.2.2"
       },
       {
         "name": "frontendloader",
@@ -11354,7 +11539,7 @@
       },
       {
         "name": "guard",
-        "requirements": "~> 1.3"
+        "requirements": "~> 2.1"
       },
       {
         "name": "hpp",
@@ -11413,12 +11598,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "middleman-core-x86-mingw32",
-        "requirements": "~> 0.7.3"
+        "name": "middleman-core",
+        "requirements": "~> 1.1"
       },
       {
-        "name": "middleman-core",
-        "requirements": "~> 1.2.2"
+        "name": "middleman-core-x86-mingw32",
+        "requirements": "~> 0.7.3"
       },
       {
         "name": "midwife",
@@ -11438,7 +11623,7 @@
       },
       {
         "name": "nimbu",
-        "requirements": ">= 0"
+        "requirements": "~> 1.x"
       },
       {
         "name": "omf_rc_shm",
@@ -11446,7 +11631,7 @@
       },
       {
         "name": "oozby",
-        "requirements": ">= 1.3.0"
+        "requirements": "< 2.0.0"
       },
       {
         "name": "openehr",
@@ -11478,7 +11663,7 @@
       },
       {
         "name": "rerun",
-        "requirements": ">= 1.0.3"
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "rivendell-import",
@@ -11493,16 +11678,20 @@
         "requirements": "~> 0.5.0"
       },
       {
+        "name": "scms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "send_to_kindle",
         "requirements": ">= 0"
       },
       {
-        "name": "shopify_theme_multi_shop",
-        "requirements": ">= 0"
+        "name": "shopify_theme",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "shopify_theme",
-        "requirements": ">= 1.0.3"
+        "name": "shopify_theme_multi_shop",
+        "requirements": ">= 0"
       },
       {
         "name": "slimwatch",
@@ -11517,16 +11706,16 @@
         "requirements": ">= 1.2"
       },
       {
-        "name": "spar",
-        "requirements": ">= 0.4.2, ~> 0.4"
-      },
-      {
         "name": "speci",
         "requirements": "~> 1.3.0"
       },
       {
         "name": "spectator",
         "requirements": "~> 1.3.0"
+      },
+      {
+        "name": "spar",
+        "requirements": ">= 0.4.2, ~> 0.4"
       },
       {
         "name": "starting_blocks",
@@ -11545,6 +11734,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "themebox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tork",
         "requirements": "~> 0.7"
       },
@@ -11555,6 +11748,10 @@
       {
         "name": "uatu",
         "requirements": "~> 0.4.7"
+      },
+      {
+        "name": "uml_architect",
+        "requirements": "= 2.0"
       },
       {
         "name": "vagrant-unison",
@@ -11589,6 +11786,13 @@
 
     ],
     "description": "A simple gem, based on listen, that copies files to a new destination when it detects changes"
+  },
+  "ListFunctions": {
+    "version": "0.2",
+    "dependents": [
+
+    ],
+    "description": "Advanced Sass list functions"
   },
   "listify": {
     "version": "0.2.0",
@@ -11675,15 +11879,19 @@
     "description": "Liszt is an alternative to acts_as_list and sortable that uses atomic Redis operations to maintain scoped ordering information for ActiveRecord objects."
   },
   "lit": {
-    "version": "0.1.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "Translate your apps with pleasure (sort of...) and for free. It's simple i18n web interface, build on top of twitter bootstrap, that one may find helpful in translating app by non-technicals. "
   },
   "lita": {
-    "version": "2.4.0",
+    "version": "2.5.0",
     "dependents": [
+      {
+        "name": "lita-boobs",
+        "requirements": "~> 2.0"
+      },
       {
         "name": "lita-animate",
         "requirements": "~> 2.0"
@@ -11693,47 +11901,11 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "lita-boobs",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "lita-console",
-        "requirements": "~> 2.2"
-      },
-      {
-        "name": "lita-eightball",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "lita-coin",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-hipchat",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "lita-github-commits",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-flip",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "lita-google-images",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "lita-giphy",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "lita-catfacts",
         "requirements": "~> 2.3"
       },
       {
-        "name": "lita-info_table",
+        "name": "lita-coin",
         "requirements": "~> 2.3"
       },
       {
@@ -11741,11 +11913,59 @@
         "requirements": "~> 2.2"
       },
       {
+        "name": "lita-console",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-flip",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lita-eightball",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-giphy",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-github-commits",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-hipchat",
+        "requirements": "~> 2.5"
+      },
+      {
+        "name": "lita-google-images",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-karma",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-irc",
+        "requirements": "~> 2.5"
+      },
+      {
+        "name": "lita-memegen",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-info_table",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-monit",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "lita-location-decision",
         "requirements": "~> 2.3"
       },
       {
-        "name": "lita-karma",
+        "name": "lita-poop",
         "requirements": "~> 2.0"
       },
       {
@@ -11753,27 +11973,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lita-literally-lita",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-irc",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "lita-reminder",
         "requirements": "~> 2.4"
       },
       {
-        "name": "lita-memegen",
-        "requirements": "~> 2.0"
+        "name": "lita-literally-lita",
+        "requirements": "~> 2.3"
       },
       {
-        "name": "lita-poop",
-        "requirements": "~> 2.0"
+        "name": "lita-replace",
+        "requirements": "~> 2.5"
       },
       {
-        "name": "lita-monit",
+        "name": "lita-schedule",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-stocks",
         "requirements": "~> 2.3"
       },
       {
@@ -11781,36 +11997,24 @@
         "requirements": "~> 2.4"
       },
       {
+        "name": "lita-travis",
+        "requirements": "~> 2.5"
+      },
+      {
         "name": "lita-totems",
         "requirements": "~> 2.4"
       },
       {
-        "name": "lita-stocks",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-schedule",
-        "requirements": "~> 2.2"
-      },
-      {
-        "name": "lita-urban-dictionary",
-        "requirements": "~> 2.1"
+        "name": "lita-whois",
+        "requirements": "~> 2.4"
       },
       {
         "name": "lita-weather",
         "requirements": "~> 2.3"
       },
       {
-        "name": "lita-travis",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-wordnik",
+        "name": "lita-urban-dictionary",
         "requirements": "~> 2.1"
-      },
-      {
-        "name": "lita-whois",
-        "requirements": "~> 2.4"
       },
       {
         "name": "lita-xkcd",
@@ -11819,6 +12023,10 @@
       {
         "name": "lita-xmpp",
         "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-wordnik",
+        "requirements": "~> 2.1"
       }
     ],
     "description": "A multi-service chat bot with extendable behavior."
@@ -11908,7 +12116,7 @@
     "description": "A Lita handler for fetching images from Google."
   },
   "lita-hipchat": {
-    "version": "1.0.1",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -11922,7 +12130,7 @@
     "description": "Lita handler for providing basic infos"
   },
   "lita-irc": {
-    "version": "1.1.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -11936,7 +12144,7 @@
     "description": "A Lita handler for tracking karma points for arbitrary terms."
   },
   "lita-latex": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -11957,7 +12165,7 @@
     "description": "A Lita handler for making decisions about places to go"
   },
   "lita-memegen": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "dependents": [
 
     ],
@@ -11983,6 +12191,13 @@
 
     ],
     "description": "Reminder for Lita chat bot "
+  },
+  "lita-replace": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Lita handler that fixes your stupid typos with VIM-like find and replace."
   },
   "lita-schedule": {
     "version": "0.0.3",
@@ -12013,7 +12228,7 @@
     "description": "Totems handler for Lita)"
   },
   "lita-travis": {
-    "version": "0.0.2",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -12218,7 +12433,7 @@
     "dependents": [
       {
         "name": "bones",
-        "requirements": "~> 1.1.3"
+        "requirements": "~> 1.1"
       },
       {
         "name": "logging",
@@ -12598,6 +12813,13 @@
     ],
     "description": "Live Query utilizes the power of jQuery selectors by binding events or firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated."
   },
+  "livequery-rails-cis": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Live Query utilizes the power of jQuery selectors by binding events or firing callbacks for matched elements auto-magically, even after the page has been loaded and the DOM updated."
+  },
   "livereload": {
     "version": "1.6.1",
     "dependents": [
@@ -12699,11 +12921,11 @@
     "description": "Living Style Guide"
   },
   "liygem": {
-    "version": "0.0.0",
+    "version": "0.0.8",
     "dependents": [
 
     ],
-    "description": "My first Ruby Gem"
+    "description": "Hello World Gem"
   },
   "lj": {
     "version": "0.3.0",
@@ -12774,6 +12996,13 @@
 
     ],
     "description": "lllibrary is a Ruby library for managing and querying a music library."
+  },
+  "lloydsbank": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A library for accessing data from Lloyds Bank's online banking"
   },
   "lloydstsb": {
     "version": "0.1.0",
@@ -12865,6 +13094,13 @@
 
     ],
     "description": "Automates the production of tables of contents and author indexes, and the arrangement of papers for a Springer LNCS volume."
+  },
+  "lnkdtogo": {
+    "version": "3.2.0",
+    "dependents": [
+
+    ],
+    "description": "This is an unoffical gem for the service Lnkdto.com"
   },
   "load-me": {
     "version": "0.1.0",
@@ -13062,7 +13298,7 @@
     "description": "Description of LoadmasterAssets."
   },
   "loady": {
-    "version": "0.7.1",
+    "version": "0.7.2",
     "dependents": [
 
     ],
@@ -13076,7 +13312,7 @@
     "description": "Loaf helps you manage breadcrumbs in your rails app. It aims to handle crumb data through easy dsl and expose it through view helpers without any assumptions about markup."
   },
   "lob": {
-    "version": "1.0.3",
+    "version": "1.0.5",
     "dependents": [
 
     ],
@@ -13217,7 +13453,10 @@
   "local_port": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "palava_machine",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Gives you tools to find out which ports on your system are free to use"
   },
@@ -13429,7 +13668,7 @@
     "description": "Automatically set per-request locale in Rails applications"
   },
   "localeapp": {
-    "version": "0.6.12",
+    "version": "0.6.14",
     "dependents": [
       {
         "name": "bcp47",
@@ -13441,6 +13680,10 @@
       },
       {
         "name": "devise-i18n-views",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gaku_core",
         "requirements": ">= 0"
       },
       {
@@ -13584,19 +13827,19 @@
     ],
     "description": "Lightweight, ruby-way localization solution"
   },
+  "localize_multi_digit": {
+    "version": "1.0",
+    "dependents": [
+
+    ],
+    "description": "localize_multi_digit localizes digits"
+  },
   "localized": {
     "version": "0.0.8",
     "dependents": [
 
     ],
     "description": "This gem allows you to set locale using a subdomain and url helper support for switching sites."
-  },
-  "localized_config": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Configuration depending on the locale"
   },
   "localized_country_select": {
     "version": "0.9.3",
@@ -13665,7 +13908,7 @@
     "description": "Includes localization helpers for: routing, views and controllers."
   },
   "localjob": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -13789,6 +14032,13 @@
     ],
     "description": "A maneira mais simples para instalar aplicacoes Rails na hospedagem Linux da Locaweb."
   },
+  "locasms": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Cliente para o serviço de disparo de SMS da LocaSMS"
+  },
   "locat": {
     "version": "0.2.0",
     "dependents": [
@@ -13896,10 +14146,6 @@
   "lock_jar": {
     "version": "0.7.5",
     "dependents": [
-      {
-        "name": "porcupine",
-        "requirements": ">= 0"
-      },
       {
         "name": "solr_sail",
         "requirements": "~> 0.7.0"
@@ -14249,10 +14495,6 @@
         "requirements": "~> 2.4.2"
       },
       {
-        "name": "locomotivecms_wagon",
-        "requirements": "~> 2.4.2"
-      },
-      {
         "name": "locomotivecms_solid",
         "requirements": "~> 2.4.2"
       },
@@ -14281,25 +14523,28 @@
     "description": "A secure, non-evaling end user template engine with aesthetic markup."
   },
   "locomotivecms-search": {
-    "version": "0.1.0",
+    "version": "0.2.5",
     "dependents": [
 
     ],
     "description": "LocomotiveSearch is an engine which integrates ActiveSearch into LocomotiveCMS."
   },
   "locomotivecms-solid": {
-    "version": "0.2.2",
+    "version": "0.2.2.1",
     "dependents": [
-
+      {
+        "name": "locomotivecms_wagon",
+        "requirements": "~> 0.2.2"
+      }
     ],
     "description": "The Solid gem from the TigerLily team but modified to work with LocomotiveCMS"
   },
   "locomotivecms_mounter": {
-    "version": "1.2.7",
+    "version": "1.3.0",
     "dependents": [
       {
         "name": "locomotivecms_wagon",
-        "requirements": "~> 1.2.2"
+        "requirements": "~> 1.3.0"
       }
     ],
     "description": "Mount any LocomotiveCMS site, from a template on the filesystem, a zip file or even an online engine"
@@ -14312,7 +14557,7 @@
     "description": "The Solid gem from the TigerLily team but modified to work with LocomotiveCMS"
   },
   "locomotivecms_wagon": {
-    "version": "1.2.2",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -14347,7 +14592,7 @@
     "description": "Use compiled Lo-Dash templates with Sprockets"
   },
   "lodash-rails": {
-    "version": "2.1.0",
+    "version": "2.2.1",
     "dependents": [
 
     ],
@@ -14430,11 +14675,11 @@
     "version": "0.0.4",
     "dependents": [
       {
-        "name": "correios-frete",
+        "name": "correios-sro-xml",
         "requirements": "~> 0.0.4"
       },
       {
-        "name": "correios-sro-xml",
+        "name": "correios-frete",
         "requirements": "~> 0.0.4"
       },
       {
@@ -14456,18 +14701,18 @@
     "description": "Convert (analyse) Apache log files to COUNTER CSV."
   },
   "log2json": {
-    "version": "0.1.8",
+    "version": "0.1.12",
     "dependents": [
 
     ],
-    "description": "Log2json lets you read, filter and send logs as JSON objects via Unix pipes.\nIt is inspired by Logstash, and is meant to be compatible with it at the JSON\nevent/record level so that it can easily work with Kibana. \n\nReading logs is done via a shell script(eg, `tail`) running in its own process.\nYou then configure(see the `syslog2json` or the `nginxlog2json` script for\nexamples) and run your filters in Ruby using the `Log2Json` module and its\ncontained helper classes.\n\n`Log2Json` reads from stdin the logs(one log record per line), parses the log\nlines into JSON records, and then serializes and writes the records to stdout,\nwhich then can be piped to another process for processing or sending it to\nsomewhere else.\n\nCurrently, Log2json ships with a `tail-log` script that can be run as the input\nprocess. It's the same as using the Linux `tail` utility with the `-v -F`\noptions except that it also tracks the positions(as the numbers of lines read\nfrom the beginning of the files) in a few files in the file system so that if the\ninput process is interrupted, it can continue reading from where it left off\nnext time if the files had been followed. This feature is similar to the sincedb\nfeature in Logstash's file input.\n\nNote: If you don't need the tracking feature(ie, you are fine with always\ntailling from the end of file with `-v -F -n0`), then you can just use the `tail`\nutility that comes with your Linux distribution.(Or more specifically, the\n`tail` from the GNU coreutils). Other versions of the `tail` utility may also\nwork, but are not tested. The input protocol expected by Log2json is very\nsimple and documented in the source code.\n\n** The `tail-log` script uses a patched version of `tail` from the GNU coreutils\n   package. A binary of the `tail` utility compiled for Ubuntu 12.04 LTS is\n   included with the Log2json gem. If the binary doesn't work for your\n   distribution, then you'll need to get GNU coreutils-8.13, apply the patch(it\n   can be found in the src/ directory of the installed gem), and then replace\n   the bin/tail binary in the directory of the installed gem with your version\n   of the binary. ** \n\nP.S. If you know of a way to configure and compile ONLY the tail program in\n     coreutils, please let me know! The reason I'm not building tail post gem\n     installation is that it takes too long to configure && make because that\n     actually builds every utilties in coreutils.\n\n\nFor shipping logs to Redis, there's the `lines2redis` script that can be used as\nthe output process in the pipe. For shipping logs from Redis to ElasticSearch,\nLog2json provides a `redis2es` script.\n\nFinally here's an example of Log2json in action:\n\nFrom a client machine:\n\n  tail-log /var/log/{sys,mail}log /var/log/{kern,auth}.log | syslog2json |\n        queue=jsonlogs \\\n        flush_size=20 \\\n        flush_interval=30 \\\n        lines2redis host.to.redis.server 6379 0  # use redis DB 0\n\n\nOn the Redis server:\n\n  redis_queue=jsonlogs redis2es host.to.es.server\n\n\n\n\n\n"
+    "description": "Log2json lets you read, filter and send logs as JSON objects via Unix pipes.\nIt is inspired by Logstash, and is meant to be compatible with it at the JSON\nevent/record level so that it can easily work with Kibana. \n\nReading logs is done via a shell script(eg, `tail`) running in its own process.\nYou then configure(see the `syslog2json` or the `nginxlog2json` script for\nexamples) and run your filters in Ruby using the `Log2Json` module and its\ncontained helper classes.\n\n`Log2Json` reads from stdin the logs(one log record per line), parses the log\nlines into JSON records, and then serializes and writes the records to stdout,\nwhich then can be piped to another process for processing or sending it to\nsomewhere else.\n\nCurrently, Log2json ships with a `tail-log` script that can be run as the input\nprocess. It's the same as using the Linux `tail` utility with the `-v -F`\noptions except that it also tracks the positions(as the numbers of lines read\nfrom the beginning of the files) in a few files in the file system so that if the\ninput process is interrupted, it can continue reading from where it left off\nnext time if the files had been followed. This feature is similar to the sincedb\nfeature in Logstash's file input.\n\nNote: If you don't need the tracking feature(ie, you are fine with always\ntailling from the end of file with `-v -F -n0`), then you can just use the `tail`\nutility that comes with your Linux distribution.(Or more specifically, the\n`tail` from the GNU coreutils). Other versions of the `tail` utility may also\nwork, but are not tested. The input protocol expected by Log2json is very\nsimple and documented in the source code.\n\n** The `tail-log` script uses a patched version of `tail` from the GNU coreutils\npackage. A binary of the `tail` utility compiled for Ubuntu 12.04 LTS is\nincluded with the Log2json gem. If the binary doesn't work for your\ndistribution, then you'll need to get GNU coreutils-8.13, apply the patch(it\ncan be found in the src/ directory of the installed gem), and then replace\nthe bin/tail binary in the directory of the installed gem with your version\nof the binary. ** \n\nP.S. If you know of a way to configure and compile ONLY the tail program in\ncoreutils, please let me know! The reason I'm not building tail post gem\ninstallation is that it takes too long to configure && make because that\nactually builds every utilties in coreutils.\n\n\nFor shipping logs to Redis, there's the `lines2redis` script that can be used as\nthe output process in the pipe. For shipping logs from Redis to ElasticSearch,\nLog2json provides a `redis2es` script.\n\nFinally here's an example of Log2json in action:\n\nFrom a client machine:\n\n  tail-log /var/log/{sys,mail}log /var/log/{kern,auth}.log | syslog2json |\n        queue=jsonlogs \\\n        flush_size=20 \\\n        flush_interval=30 \\\n        lines2redis host.to.redis.server 6379 0  # use redis DB 0\n\n\nOn the Redis server:\n\n  redis_queue=jsonlogs redis2es host.to.es.server\n\n\nResources that help writing log2json filters:\n\n  - look at log2json.rb source and example filters\n  - http://grokdebug.herokuapp.com/\n  - http://www.ruby-doc.org/stdlib-1.9.3/libdoc/date/rdoc/DateTime.html#method-i-strftime\n\n"
   },
   "log2json-loggers": {
-    "version": "0.1.7",
+    "version": "0.1.11",
     "dependents": [
 
     ],
-    "description": "Log2json lets you read, filter and send logs as JSON objects via Unix pipes.\nIt is inspired by Logstash, and is meant to be compatible with it at the JSON\nevent/record level so that it can easily work with Kibana. \n\nReading logs is done via a shell script(eg, `tail`) running in its own process.\nYou then configure(see the `syslog2json` or the `nginxlog2json` script for\nexamples) and run your filters in Ruby using the `Log2Json` module and its\ncontained helper classes.\n\n`Log2Json` reads from stdin the logs(one log record per line), parses the log\nlines into JSON records, and then serializes and writes the records to stdout,\nwhich then can be piped to another process for processing or sending it to\nsomewhere else.\n\nCurrently, Log2json ships with a `tail-log` script that can be run as the input\nprocess. It's the same as using the Linux `tail` utility with the `-v -F`\noptions except that it also tracks the positions(as the numbers of lines read\nfrom the beginning of the files) in a few files in the file system so that if the\ninput process is interrupted, it can continue reading from where it left off\nnext time if the files had been followed. This feature is similar to the sincedb\nfeature in Logstash's file input.\n\nNote: If you don't need the tracking feature(ie, you are fine with always\ntailling from the end of file with `-v -F -n0`), then you can just use the `tail`\nutility that comes with your Linux distribution.(Or more specifically, the\n`tail` from the GNU coreutils). Other versions of the `tail` utility may also\nwork, but are not tested. The input protocol expected by Log2json is very\nsimple and documented in the source code.\n\n** The `tail-log` script uses a patched version of `tail` from the GNU coreutils\n   package. A binary of the `tail` utility compiled for Ubuntu 12.04 LTS is\n   included with the Log2json gem. If the binary doesn't work for your\n   distribution, then you'll need to get GNU coreutils-8.13, apply the patch(it\n   can be found in the src/ directory of the installed gem), and then replace\n   the bin/tail binary in the directory of the installed gem with your version\n   of the binary. ** \n\nP.S. If you know of a way to configure and compile ONLY the tail program in\n     coreutils, please let me know! The reason I'm not building tail post gem\n     installation is that it takes too long to configure && make because that\n     actually builds every utilties in coreutils.\n\n\nFor shipping logs to Redis, there's the `lines2redis` script that can be used as\nthe output process in the pipe. For shipping logs from Redis to ElasticSearch,\nLog2json provides a `redis2es` script.\n\nFinally here's an example of Log2json in action:\n\nFrom a client machine:\n\n  tail-log /var/log/{sys,mail}log /var/log/{kern,auth}.log | syslog2json |\n        queue=jsonlogs \\\n        flush_size=20 \\\n        flush_interval=30 \\\n        lines2redis host.to.redis.server 6379 0  # use redis DB 0\n\n\nOn the Redis server:\n\n  redis_queue=jsonlogs redis2es host.to.es.server\n\n\n\nResources that help writing log2json filters:\n  - look at log2json.rb source and example filters\n  - http://grokdebug.herokuapp.com/\n  - http://www.ruby-doc.org/stdlib-1.9.3/libdoc/date/rdoc/DateTime.html#method-i-strftime\n\n"
+    "description": "Log2json lets you read, filter and send logs as JSON objects via Unix pipes.\nIt is inspired by Logstash, and is meant to be compatible with it at the JSON\nevent/record level so that it can easily work with Kibana. \n\nReading logs is done via a shell script(eg, `tail`) running in its own process.\nYou then configure(see the `syslog2json` or the `nginxlog2json` script for\nexamples) and run your filters in Ruby using the `Log2Json` module and its\ncontained helper classes.\n\n`Log2Json` reads from stdin the logs(one log record per line), parses the log\nlines into JSON records, and then serializes and writes the records to stdout,\nwhich then can be piped to another process for processing or sending it to\nsomewhere else.\n\nCurrently, Log2json ships with a `tail-log` script that can be run as the input\nprocess. It's the same as using the Linux `tail` utility with the `-v -F`\noptions except that it also tracks the positions(as the numbers of lines read\nfrom the beginning of the files) in a few files in the file system so that if the\ninput process is interrupted, it can continue reading from where it left off\nnext time if the files had been followed. This feature is similar to the sincedb\nfeature in Logstash's file input.\n\nNote: If you don't need the tracking feature(ie, you are fine with always\ntailling from the end of file with `-v -F -n0`), then you can just use the `tail`\nutility that comes with your Linux distribution.(Or more specifically, the\n`tail` from the GNU coreutils). Other versions of the `tail` utility may also\nwork, but are not tested. The input protocol expected by Log2json is very\nsimple and documented in the source code.\n\n** The `tail-log` script uses a patched version of `tail` from the GNU coreutils\npackage. A binary of the `tail` utility compiled for Ubuntu 12.04 LTS is\nincluded with the Log2json gem. If the binary doesn't work for your\ndistribution, then you'll need to get GNU coreutils-8.13, apply the patch(it\ncan be found in the src/ directory of the installed gem), and then replace\nthe bin/tail binary in the directory of the installed gem with your version\nof the binary. ** \n\nP.S. If you know of a way to configure and compile ONLY the tail program in\ncoreutils, please let me know! The reason I'm not building tail post gem\ninstallation is that it takes too long to configure && make because that\nactually builds every utilties in coreutils.\n\n\nFor shipping logs to Redis, there's the `lines2redis` script that can be used as\nthe output process in the pipe. For shipping logs from Redis to ElasticSearch,\nLog2json provides a `redis2es` script.\n\nFinally here's an example of Log2json in action:\n\nFrom a client machine:\n\n  tail-log /var/log/{sys,mail}log /var/log/{kern,auth}.log | syslog2json |\n        queue=jsonlogs \\\n        flush_size=20 \\\n        flush_interval=30 \\\n        lines2redis host.to.redis.server 6379 0  # use redis DB 0\n\n\nOn the Redis server:\n\n  redis_queue=jsonlogs redis2es host.to.es.server\n\n\nResources that help writing log2json filters:\n\n  - look at log2json.rb source and example filters\n  - http://grokdebug.herokuapp.com/\n  - http://www.ruby-doc.org/stdlib-1.9.3/libdoc/date/rdoc/DateTime.html#method-i-strftime\n\n"
   },
   "log2sock": {
     "version": "0.0.6",
@@ -14564,6 +14809,10 @@
       {
         "name": "api_resource",
         "requirements": ">= 0"
+      },
+      {
+        "name": "babelyoda",
+        "requirements": ">= 1.1.10, ~> 1"
       },
       {
         "name": "BackupMan",
@@ -14746,6 +14995,10 @@
         "requirements": ">= 1.1.5"
       },
       {
+        "name": "fiksu-af",
+        "requirements": "= 1.1.10"
+      },
+      {
         "name": "file_monitoring",
         "requirements": ">= 0"
       },
@@ -14760,10 +15013,6 @@
       {
         "name": "git_workflow",
         "requirements": ">= 1.1.8"
-      },
-      {
-        "name": "gloader",
-        "requirements": "~> 1.1.10"
       },
       {
         "name": "goliath",
@@ -14814,6 +15063,10 @@
         "requirements": ">= 1.1.10"
       },
       {
+        "name": "log4r-exceptionable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "log4r-fluent",
         "requirements": ">= 0"
       },
@@ -14822,24 +15075,20 @@
         "requirements": "~> 1.1.10"
       },
       {
-        "name": "log4r-exceptionable",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "log4r_remote_syslog_outputter",
-        "requirements": ">= 1.1.9"
-      },
-      {
-        "name": "log4r_hipchat_outputter",
-        "requirements": ">= 0"
-      },
-      {
         "name": "log4r-mail",
         "requirements": ">= 0"
       },
       {
         "name": "log4r-xmpp",
         "requirements": ">= 0"
+      },
+      {
+        "name": "log4r_hipchat_outputter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "log4r_remote_syslog_outputter",
+        "requirements": ">= 1.1.9"
       },
       {
         "name": "lolitra",
@@ -14956,6 +15205,10 @@
       {
         "name": "qrda_generator",
         "requirements": "~> 1.1.10"
+      },
+      {
+        "name": "quartz_torrent",
+        "requirements": "~> 1.1"
       },
       {
         "name": "r10k",
@@ -15094,6 +15347,10 @@
         "requirements": "= 1.1.7"
       },
       {
+        "name": "stracer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sws",
         "requirements": ">= 1.0.5"
       },
@@ -15162,6 +15419,10 @@
         "requirements": "~> 1.1.9"
       },
       {
+        "name": "vagrant-vcloud",
+        "requirements": "~> 1.1.10"
+      },
+      {
         "name": "vagrantup",
         "requirements": "~> 1.1.9"
       },
@@ -15170,15 +15431,15 @@
         "requirements": "~> 1.1.9"
       },
       {
-        "name": "wakame-vdc-dcmgr",
-        "requirements": ">= 0"
-      },
-      {
         "name": "wakame",
         "requirements": ">= 1.1.2"
       },
       {
         "name": "wakame-vdc-agents",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wakame-vdc-dcmgr",
         "requirements": ">= 0"
       },
       {
@@ -15228,10 +15489,6 @@
     "version": "1.2.2",
     "dependents": [
       {
-        "name": "babelyoda",
-        "requirements": "~> 1.2"
-      },
-      {
         "name": "logging_assist",
         "requirements": ">= 1.2"
       }
@@ -15255,7 +15512,10 @@
   "log4r-gelf": {
     "version": "0.9.0",
     "dependents": [
-
+      {
+        "name": "stracer",
+        "requirements": ">= 0"
+      }
     ],
     "description": "A Log4r appender for logging to a gelf sink, e.g. the graylog2 server"
   },
@@ -15283,7 +15543,14 @@
   "log4r_remote_syslog_outputter": {
     "version": "0.0.1",
     "dependents": [
-
+      {
+        "name": "fiksu-af",
+        "requirements": "= 0.0.1"
+      },
+      {
+        "name": "naf",
+        "requirements": ">= 0.0.1"
+      }
     ],
     "description": "The outputter included in this library simply ties Log4r's Outputter interface together with remote_syslog_logger."
   },
@@ -15456,6 +15723,13 @@
 
     ],
     "description": "Enhances default Rails logging with custom log prefixes, max log sizes, and more."
+  },
+  "log_reader": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Description of LogReader."
   },
   "log_replay": {
     "version": "0.0.2",
@@ -15693,6 +15967,13 @@
     ],
     "description": "A simple logger for Ruby"
   },
+  "logfile_transfer": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "Ruby monitoring and transform logfiles daemon."
+  },
   "logfmt": {
     "version": "0.0.2",
     "dependents": [
@@ -15711,7 +15992,7 @@
     "description": "A simple message dispatcher (aka. logger) for your ruby applications."
   },
   "loggability": {
-    "version": "0.7.0",
+    "version": "0.8.1",
     "dependents": [
       {
         "name": "confabulator",
@@ -15758,12 +16039,12 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "treequel",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "treequel-shell",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "treequel",
+        "requirements": "~> 0.4"
       },
       {
         "name": "wordnet",
@@ -16003,6 +16284,10 @@
     "version": "1.0.0",
     "dependents": [
       {
+        "name": "palava_machine",
+        "requirements": ">= 0"
+      },
+      {
         "name": "smsforall",
         "requirements": ">= 0"
       },
@@ -16104,12 +16389,12 @@
         "requirements": "~> 1.5.1"
       },
       {
-        "name": "campfire-bot",
-        "requirements": "~> 1.4.3"
-      },
-      {
         "name": "campfire-bot_alexchee",
         "requirements": ">= 1.4.3"
+      },
+      {
+        "name": "campfire-bot",
+        "requirements": "~> 1.4.3"
       },
       {
         "name": "cartos",
@@ -16204,16 +16489,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "logging-couchdb",
+        "requirements": ">= 1.2.0"
+      },
+      {
         "name": "logging-rails",
         "requirements": "~> 1.6"
       },
       {
         "name": "logging-rails-kiriyenko",
         "requirements": "~> 1.6.1"
-      },
-      {
-        "name": "logging-couchdb",
-        "requirements": ">= 1.2.0"
       },
       {
         "name": "logging-remote-syslog",
@@ -16224,12 +16509,12 @@
         "requirements": "~> 1.7"
       },
       {
-        "name": "maestro_common",
-        "requirements": ">= 1.8.0"
-      },
-      {
         "name": "maestro_plugin",
         "requirements": "= 1.8.0"
+      },
+      {
+        "name": "maestro_common",
+        "requirements": ">= 1.8.0"
       },
       {
         "name": "maestro_shell",
@@ -16312,6 +16597,10 @@
         "requirements": ">= 1.6.2"
       },
       {
+        "name": "sidekiq-recycler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simpler_workflow",
         "requirements": ">= 0"
       },
@@ -16373,7 +16662,7 @@
       },
       {
         "name": "winrm",
-        "requirements": "~> 1.6.1"
+        "requirements": ">= 1.6.1, ~> 1.6"
       },
       {
         "name": "zk",
@@ -16382,6 +16671,10 @@
       {
         "name": "zkruby",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "zlog",
+        "requirements": "~> 1.8.1"
       }
     ],
     "description": "Logging is a flexible logging library for use in Ruby programs based on the\ndesign of Java's log4j library. It features a hierarchical logging system,\ncustom level names, multiple output destinations per log event, custom\nformatting, and more."
@@ -16484,6 +16777,13 @@
     ],
     "description": "loggr-rb is the Ruby gem for communicating with http://loggr.net (hosted logging service)."
   },
+  "loggregator_emitter": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Library to emit data to Loggregator"
+  },
   "loghandler": {
     "version": "0.0.7",
     "dependents": [
@@ -16520,7 +16820,7 @@
     "description": "test"
   },
   "logical-construct": {
-    "version": "0.0.5",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -16861,16 +17161,16 @@
     "version": "1.2.02",
     "dependents": [
       {
-        "name": "logstash-logger",
-        "requirements": "~> 1.2"
-      },
-      {
         "name": "logstash_rails",
-        "requirements": ">= 0"
+        "requirements": "~> 1.2.02"
       },
       {
         "name": "logstasher",
-        "requirements": ">= 0"
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "logstash-logger",
+        "requirements": "~> 1.2"
       },
       {
         "name": "stasher",
@@ -16882,6 +17182,13 @@
       }
     ],
     "description": "Library that contains the classes required to create LogStash events"
+  },
+  "logstash-file": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Simple file based logging for Logstash."
   },
   "logstash-formatters": {
     "version": "1.0.3",
@@ -16905,7 +17212,7 @@
     "description": "Ruby logger that writes directly to LogStash"
   },
   "logstash_rails": {
-    "version": "0.0.15",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -16919,7 +17226,7 @@
     "description": "Logstash SQS Client"
   },
   "logstasher": {
-    "version": "0.2.8",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "logstash_sqs",
@@ -16988,6 +17295,14 @@
   "logutils": {
     "version": "0.6.0",
     "dependents": [
+      {
+        "name": "about",
+        "requirements": ">= 0.5"
+      },
+      {
+        "name": "dbbrowser",
+        "requirements": ">= 0.5"
+      },
       {
         "name": "feedutils",
         "requirements": ">= 0.5"
@@ -17078,6 +17393,13 @@
 
     ],
     "description": "Have you ever wanted to parse a subset of markdown, in a very innefficient way? Well, now you can!"
+  },
+  "lokalebasen_postal_client": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Lokalebasen Postal Service Client"
   },
   "lokar": {
     "version": "0.2.1",
@@ -17226,12 +17548,12 @@
         "requirements": "~> 3.0.7"
       },
       {
-        "name": "lolita-translation",
+        "name": "lolita-file-upload",
         "requirements": "~> 3.2"
       },
       {
-        "name": "lolita-file-upload",
-        "requirements": "~> 3.2"
+        "name": "lolita-report",
+        "requirements": "~> 3.1.4"
       },
       {
         "name": "lolita-i18n",
@@ -17242,8 +17564,8 @@
         "requirements": "~> 3.3.1"
       },
       {
-        "name": "lolita-report",
-        "requirements": "~> 3.1.4"
+        "name": "lolita-translation",
+        "requirements": "~> 3.2"
       }
     ],
     "description": "Manage Rails, application backend with ease."
@@ -17371,6 +17693,13 @@
     ],
     "description": "Translates English text into LOLspeak."
   },
+  "lomadee": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "A lightweight Ruby wrapper for Buscapé API"
+  },
   "lomic": {
     "version": "0.1.0",
     "dependents": [
@@ -17398,6 +17727,13 @@
 
     ],
     "description": "LongDecimal for numbers with fixed point"
+  },
+  "long_tweet": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Create a long tweet and have it posted for your followers in top-to-bottom order"
   },
   "long_url": {
     "version": "0.0.1",
@@ -17457,12 +17793,12 @@
         "requirements": ">= 0.4.2"
       },
       {
-        "name": "feedzirra",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "feedzirra-etag-patch",
         "requirements": ">= 0.3.1"
+      },
+      {
+        "name": "feedzirra",
+        "requirements": "~> 1.2.1"
       },
       {
         "name": "jashmenn-feedzirra",
@@ -17563,11 +17899,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 3.0"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 3.0"
       },
       {
@@ -17587,11 +17923,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "value",
+        "name": "value-yard",
         "requirements": "~> 3.0"
       },
       {
-        "name": "value-yard",
+        "name": "value",
         "requirements": "~> 3.0"
       },
       {
@@ -17648,11 +17984,11 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 3.1"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 3.1"
       },
       {
@@ -17668,12 +18004,12 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "value",
-        "requirements": "~> 3.1"
-      },
-      {
         "name": "value-yard",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "value",
+        "requirements": "~> 3.1"
       },
       {
         "name": "yard-heuristics",
@@ -17905,7 +18241,7 @@
     "dependents": [
       {
         "name": "bones",
-        "requirements": "~> 1.9.1"
+        "requirements": "~> 1.9"
       },
       {
         "name": "tyrantmanager",
@@ -18096,6 +18432,13 @@
 
     ],
     "description": "This gem generates image urls for placeholder images."
+  },
+  "loremrai": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "sample gem"
   },
   "lorentz": {
     "version": "0.0.1",
@@ -18384,7 +18727,7 @@
     "description": "Description of LoyalCore."
   },
   "loyal_devise": {
-    "version": "2.2.5",
+    "version": "2.2.6",
     "dependents": [
       {
         "name": "loyal_passport",
@@ -18553,7 +18896,7 @@
     "description": "LPP is a simple gem for getting bus arrivals in Ljubljana. It uses the wbus.talktrack.com website."
   },
   "lps": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
       {
         "name": "proco",
@@ -18629,6 +18972,10 @@
       },
       {
         "name": "mongo_persist",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "project_group",
         "requirements": ">= 0"
       },
       {
@@ -18845,7 +19192,7 @@
     "description": "LTI common utilities"
   },
   "ltree_hierarchy": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -18871,11 +19218,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "norikra-client",
+        "name": "norikra-client-jruby",
         "requirements": ">= 0"
       },
       {
-        "name": "norikra-client-jruby",
+        "name": "norikra-client",
         "requirements": ">= 0"
       },
       {
@@ -19005,39 +19352,39 @@
     "description": "Ruby wrapper for the chargify.com SAAS and billing API"
   },
   "lucie": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
 
     ],
     "description": "Command line utility framework"
   },
   "lucie-bin": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
       {
         "name": "lucie",
-        "requirements": "= 0.0.9"
+        "requirements": "= 0.0.11"
       }
     ],
     "description": "Command line utility framework"
   },
   "lucie-cmd": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
 
     ],
     "description": "Shell command for Lucie command line utility framework"
   },
   "lucie-lib": {
-    "version": "0.0.9",
+    "version": "0.0.11",
     "dependents": [
       {
         "name": "lucie",
-        "requirements": "= 0.0.9"
+        "requirements": "= 0.0.11"
       },
       {
         "name": "lucie-bin",
-        "requirements": "= 0.0.9"
+        "requirements": "= 0.0.11"
       }
     ],
     "description": "Command line utility framework"
@@ -19244,7 +19591,7 @@
     "description": "\"Lumbar supports building Backbone (JS) applications.\""
   },
   "lumber": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "dependents": [
 
     ],
@@ -19262,10 +19609,6 @@
     "dependents": [
       {
         "name": "guard",
-        "requirements": ">= 1.0.2"
-      },
-      {
-        "name": "lumberjack_heroku_device",
         "requirements": "~> 1.0"
       },
       {
@@ -19273,12 +19616,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lumberjack_multi-device",
+        "requirements": ">= 0"
+      },
+      {
         "name": "lumberjack_mongo_device",
         "requirements": "~> 1.0"
       },
       {
-        "name": "lumberjack_multi-device",
-        "requirements": ">= 0"
+        "name": "lumberjack_heroku_device",
+        "requirements": "~> 1.0"
       },
       {
         "name": "lumberjack_syslog_device",
@@ -19446,6 +19793,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "feed_notifier",
+        "requirements": "~> 0.7.0"
+      },
+      {
         "name": "masquito",
         "requirements": ">= 0"
       }
@@ -19579,15 +19930,15 @@
         "requirements": ">= 0.1"
       },
       {
-        "name": "lustr-mxml",
-        "requirements": ">= 0.1"
-      },
-      {
         "name": "lustr-wx",
         "requirements": ">= 0.1"
       },
       {
         "name": "lustr-xul",
+        "requirements": ">= 0.1"
+      },
+      {
+        "name": "lustr-mxml",
         "requirements": ">= 0.1"
       }
     ],
@@ -19620,6 +19971,13 @@
 
     ],
     "description": "description of gem"
+  },
+  "lutra": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Parse tags (todo, fixme, optimize) in your source code"
   },
   "luzvimin": {
     "version": "1.0.0",
@@ -19712,7 +20070,7 @@
     "description": "RubyGem for controlling local or remote Linux Containers (LXC)"
   },
   "lxc-ruby": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
 
     ],

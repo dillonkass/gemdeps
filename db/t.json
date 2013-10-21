@@ -126,7 +126,7 @@
     "description": "table generator simply generates a database table for storing data from a model object.  If the model and or scaffold do not exist, it creates them as well."
   },
   "table-for": {
-    "version": "3.1.3",
+    "version": "3.1.4",
     "dependents": [
 
     ],
@@ -176,7 +176,10 @@
   "table_cloth": {
     "version": "0.4.0",
     "dependents": [
-
+      {
+        "name": "extra_doilies",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Table Cloth helps you create tables easily."
   },
@@ -261,7 +264,7 @@
     "description": "table generator simply generates a database table for storing data from a model object.  If the model and or scaffold do not exist, it creates them as well."
   },
   "table_go": {
-    "version": "0.2.2",
+    "version": "0.2.3",
     "dependents": [
 
     ],
@@ -275,7 +278,7 @@
     "description": "Adds a helper method for generating HTML tables from collections in Rails"
   },
   "table_helpers": {
-    "version": "0.9",
+    "version": "1.0",
     "dependents": [
 
     ],
@@ -321,12 +324,28 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mc",
+        "requirements": "= 1.4.0"
+      },
+      {
+        "name": "ocean_commander",
+        "requirements": ">= 1.4.0"
+      },
+      {
         "name": "scud",
         "requirements": ">= 0"
       },
       {
         "name": "slipsquare",
         "requirements": "~> 1.1.5"
+      },
+      {
+        "name": "thegurdian-console",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "theguardian-console",
+        "requirements": ">= 0"
       }
     ],
     "description": "TablePrint turns objects into nicely formatted columns for easy reading. Works great in rails console, works on pure ruby objects, autodetects columns, lets you traverse ActiveRecord associations. Simple, powerful."
@@ -617,6 +636,13 @@
     ],
     "description": "TabsOnRails is a simple Rails plugin for creating tabs and navigation menus."
   },
+  "tabscroll": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ],
+    "description": "Scrolls a textual guitar tab on the terminal.\nIt supports forward and backwards auto-scrolling and currently\nreads a nice range of guitar tabs.\n"
+  },
   "tabster": {
     "version": "0.1.0",
     "dependents": [
@@ -884,7 +910,7 @@
     "description": "Interacting with RFID receivers through serial ports is not much fun.  This makes it a little better.  tag-it provides a class that will monitor a serial port for you, and will dispatch events through ruby's standard \"observer\" functionality when a tag comes into range and leaves."
   },
   "tag_along": {
-    "version": "0.7.3",
+    "version": "0.8.2",
     "dependents": [
 
     ],
@@ -1046,6 +1072,13 @@
 
     ],
     "description": "This friendly ocelot gives you tags in your Rails app."
+  },
+  "tag_panda": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "This friendly panda gives you tags in your Rails app."
   },
   "tag_polarbear": {
     "version": "0.0.1",
@@ -1438,7 +1471,7 @@
     "description": "Taglog provides taggable logger extension"
   },
   "tagmanager-rails": {
-    "version": "0.0.2",
+    "version": "3.0.0.1",
     "dependents": [
 
     ],
@@ -1601,6 +1634,13 @@
     ],
     "description": "Reads a file, but only return content once a marker (sentinel) has been found."
   },
+  "tail_log": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Gem for easy logs view"
+  },
   "tailer": {
     "version": "1.0.0",
     "dependents": [
@@ -1619,7 +1659,7 @@
     "version": "1.3.1",
     "dependents": [
       {
-        "name": "busser",
+        "name": "busser-bash",
         "requirements": ">= 0"
       },
       {
@@ -1627,11 +1667,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "busser-bash",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "busser-rspec",
+        "name": "busser",
         "requirements": ">= 0"
       },
       {
@@ -1640,6 +1676,10 @@
       },
       {
         "name": "busser-serverspec",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "busser-rspec",
         "requirements": ">= 0"
       },
       {
@@ -1652,10 +1692,6 @@
       },
       {
         "name": "emeril",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "git_statistics",
         "requirements": ">= 0"
       },
       {
@@ -1679,7 +1715,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "kitchen-cloudstack",
+        "name": "kitchen-ec2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kitchen-fog",
         "requirements": ">= 0"
       },
       {
@@ -1691,19 +1731,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kitchen-cloudstack",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kitchen-openstack",
         "requirements": ">= 0"
       },
       {
-        "name": "kitchen-ec2",
-        "requirements": ">= 0"
-      },
-      {
         "name": "kitchen-rackspace",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "kitchen-vagrant_sandbox",
         "requirements": ">= 0"
       },
       {
@@ -1712,6 +1748,10 @@
       },
       {
         "name": "kitchen-zcloudjp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kitchen-vagrant_sandbox",
         "requirements": ">= 0"
       },
       {
@@ -1774,6 +1814,13 @@
     ],
     "description": "This gem provides a simple and easy MVC framework for use with our command line (terminal) applications."
   },
+  "tailstrom": {
+    "version": "0.0.11",
+    "dependents": [
+
+    ],
+    "description": "tailstrom is an utility for \"tail -f\""
+  },
   "taimtest": {
     "version": "0.0.4",
     "dependents": [
@@ -1782,7 +1829,7 @@
     "description": "this is hello world gem"
   },
   "tainted_hash": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -1942,7 +1989,7 @@
     "version": "0.3.10",
     "dependents": [
       {
-        "name": "conjur-asset-deployment-api",
+        "name": "conjur-asset-environment-api",
         "requirements": ">= 0"
       },
       {
@@ -1950,11 +1997,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-environment-api",
+        "name": "conjur-asset-key-pair-api",
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-key-pair-api",
+        "name": "conjur-asset-deployment-api",
         "requirements": ">= 0"
       },
       {
@@ -2219,7 +2266,7 @@
     "description": "HTTP client to ease using Tango API"
   },
   "tangocard": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -2438,15 +2485,15 @@
         "requirements": ">= 0.19.0"
       },
       {
-        "name": "tap-test",
-        "requirements": "~> 1.4.0"
-      },
-      {
         "name": "tap-suite",
         "requirements": ">= 0.19.0"
       },
       {
         "name": "tap-tasks",
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "tap-test",
         "requirements": "~> 1.4.0"
       }
     ],
@@ -2575,12 +2622,12 @@
     "version": "0.4.0",
     "dependents": [
       {
-        "name": "tap-http",
-        "requirements": "= 0.2.0"
-      },
-      {
         "name": "tap-mechanize",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "tap-http",
+        "requirements": "= 0.2.0"
       }
     ],
     "description": "Making Tap available in Ubiquity"
@@ -2953,6 +3000,13 @@
     ],
     "description": "declarative_authorization is a Rails plugin for authorization based on readable authorization rules."
   },
+  "tarsus-rails": {
+    "version": "0.0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Lace up Backbone.js with Bootstrap.js"
+  },
   "tart": {
     "version": "1.0",
     "dependents": [
@@ -2968,7 +3022,7 @@
     "description": "A text parsing engine. The syntax is defined outside the engine as regex-based rules, in YAML or Ruby. It supports layering and multiple output types. Rules for Markdown to HTML are included, with optional layered extensions for tables and wikilinks."
   },
   "tartan-grid": {
-    "version": "1.0.0",
+    "version": "1.2.0",
     "dependents": [
 
     ],
@@ -3093,6 +3147,13 @@
     ],
     "description": "Remotely admin client machines using XMPP"
   },
+  "taskdown": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Parses Taskdown syntax"
+  },
   "tasker": {
     "version": "0.0.0",
     "dependents": [
@@ -3143,6 +3204,10 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "taskmapper-bcx",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "taskmapper-bugherd",
         "requirements": ">= 0"
       },
@@ -3151,27 +3216,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "taskmapper-bcx",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "taskmapper-cli",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "taskmapper-github",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "taskmapper-kanbanpad",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "taskmapper-redmine",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "taskmapper-lighthouse",
         "requirements": ">= 0"
       },
       {
@@ -3179,19 +3224,35 @@
         "requirements": ">= 0"
       },
       {
-        "name": "taskmapper-mingle",
-        "requirements": "~> 0.8"
+        "name": "taskmapper-github",
+        "requirements": ">= 0"
       },
       {
-        "name": "taskmapper-pivotal",
+        "name": "taskmapper-lighthouse",
         "requirements": ">= 0"
+      },
+      {
+        "name": "taskmapper-redmine",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "taskmapper-kanbanpad",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "taskmapper-trac",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "taskmapper-mingle",
+        "requirements": "~> 0.8"
       },
       {
         "name": "taskmapper-rally",
         "requirements": ">= 0"
       },
       {
-        "name": "taskmapper-trac",
+        "name": "taskmapper-pivotal",
         "requirements": ">= 0"
       },
       {
@@ -3513,6 +3574,13 @@
     ],
     "description": "Generic client for self-describing APIs built with django-tastypie."
   },
+  "tataki": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Kanji to Kana converter"
+  },
   "tatami": {
     "version": "0.0.3",
     "dependents": [
@@ -3796,18 +3864,10 @@
     "description": "Content management engine for Twice Baked"
   },
   "tb_core": {
-    "version": "1.1.8",
+    "version": "1.1.9",
     "dependents": [
       {
         "name": "tb_blog",
-        "requirements": ">= 1.0"
-      },
-      {
-        "name": "tb_events",
-        "requirements": ">= 1.0"
-      },
-      {
-        "name": "tb_media",
         "requirements": ">= 1.0"
       },
       {
@@ -3819,11 +3879,19 @@
         "requirements": ">= 1.0"
       },
       {
-        "name": "tb_search",
+        "name": "tb_events",
         "requirements": ">= 1.0"
       },
       {
         "name": "tb_photos",
+        "requirements": ">= 1.0"
+      },
+      {
+        "name": "tb_media",
+        "requirements": ">= 1.0"
+      },
+      {
+        "name": "tb_search",
         "requirements": ">= 1.0"
       }
     ],
@@ -4074,7 +4142,7 @@
     "description": "Random reusable ruby stuff"
   },
   "td": {
-    "version": "0.10.89",
+    "version": "0.10.91",
     "dependents": [
       {
         "name": "td-querier",
@@ -4134,6 +4202,10 @@
     "dependents": [
       {
         "name": "kgio-monkey",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "smith",
         "requirements": ">= 0"
       }
     ],
@@ -4220,12 +4292,12 @@
     "version": "0.4.3",
     "dependents": [
       {
-        "name": "tddium",
-        "requirements": "~> 0.4.2"
-      },
-      {
         "name": "tddium-preview",
         "requirements": "~> 0.1.1"
+      },
+      {
+        "name": "tddium",
+        "requirements": "~> 0.4.2"
       }
     ],
     "description": "Internal Gem used to call the Tddium API"
@@ -4279,15 +4351,29 @@
     "version": "4.0.1.20130929",
     "dependents": [
       {
-        "name": "tdiary-contrib",
-        "requirements": ">= 3.2.2.20130614"
-      },
-      {
         "name": "tdiary-style-emptdiary",
         "requirements": "> 4.0.1.20130929"
+      },
+      {
+        "name": "tdiary-contrib",
+        "requirements": ">= 3.2.2.20130614"
       }
     ],
     "description": "tDiary is so called Weblog."
+  },
+  "tdiary-cache-memcached": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "tDiary cache with memcached"
+  },
+  "tdiary-cache-redis": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "tDiary cache with redis"
   },
   "tdiary-contrib": {
     "version": "3.2.2.20130614",
@@ -4415,7 +4501,7 @@
     "description": "Client library for accessing TeachSTreet's APIs. Uses httparty for parsing."
   },
   "teacup": {
-    "version": "2.1.10",
+    "version": "2.1.12",
     "dependents": [
       {
         "name": "graymatter",
@@ -4516,7 +4602,7 @@
     "description": "Team Cymru provides a variety of services for network and security operators.  This Rubygem tries to wrap several of these services into a Ruby API."
   },
   "teamforge": {
-    "version": "0.1.7",
+    "version": "0.1.9",
     "dependents": [
 
     ],
@@ -4537,7 +4623,7 @@
     "description": "Teamspeak Interface via ServerQuery"
   },
   "teapot": {
-    "version": "0.9.8",
+    "version": "0.9.9",
     "dependents": [
 
     ],
@@ -4783,6 +4869,13 @@
     ],
     "description": "Tele is a small provisioning framework that allows you to run shell scripts on remote servers over SSH."
   },
+  "tele42": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "42 Telecom SMS-MT API wrapper"
+  },
   "TeleAuth": {
     "version": "0.5",
     "dependents": [
@@ -4826,7 +4919,7 @@
     "description": "The 'telein-client' gem allows the access for\nthe Telein API in Ruby."
   },
   "telemetry": {
-    "version": "1.1.13",
+    "version": "1.1.14",
     "dependents": [
 
     ],
@@ -4930,6 +5023,13 @@
     ],
     "description": " Client for CSEtella P2P network created for UW CSE 552 Spring '13 "
   },
+  "teller": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A logger for Ruby that uses OS X notifications."
+  },
   "tellme": {
     "version": "1.0.0",
     "dependents": [
@@ -5011,20 +5111,20 @@
     "version": "0.16.0",
     "dependents": [
       {
-        "name": "tem_mr_search",
-        "requirements": ">= 0.15.2"
-      },
-      {
         "name": "tem_drm",
         "requirements": ">= 0.9.0"
       },
       {
-        "name": "tem_multi_updater",
-        "requirements": ">= 0.12.0"
+        "name": "tem_mr_search",
+        "requirements": ">= 0.15.2"
       },
       {
         "name": "tem_openssl",
         "requirements": ">= 0.10.2"
+      },
+      {
+        "name": "tem_multi_updater",
+        "requirements": ">= 0.12.0"
       },
       {
         "name": "tem_multi_proxy",
@@ -5358,6 +5458,13 @@
 
     ],
     "description": "  Templator is a command line tool allowing to generate text documents from templates written\n  in the ERB template language.\n\n  It also provides a Domain Specific Language, the Parameter DSL, to define a set of parameters\n  that can be referenced from template files in order to generate the target document\n  with the expected values.\n"
+  },
+  "templator_chabz": {
+    "version": "0.9.0",
+    "dependents": [
+
+    ],
+    "description": "An easy tool to generate your templates in just one command. Choose from different kind of templates."
   },
   "temple": {
     "version": "0.6.7",
@@ -5716,11 +5823,11 @@
         "requirements": "~> 1.2.2"
       },
       {
-        "name": "tengine_resource_wakame",
+        "name": "tengine_resource_ec2",
         "requirements": "~> 1.2.2"
       },
       {
-        "name": "tengine_resource_ec2",
+        "name": "tengine_resource_wakame",
         "requirements": "~> 1.2.2"
       }
     ],
@@ -5767,15 +5874,11 @@
         "requirements": "~> 1.2.2"
       },
       {
-        "name": "tengine_job",
-        "requirements": "~> 1.2.2"
-      },
-      {
         "name": "tengine_event",
         "requirements": "~> 1.2.2"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_job",
         "requirements": "~> 1.2.2"
       },
       {
@@ -5784,6 +5887,10 @@
       },
       {
         "name": "tengine_job_agent",
+        "requirements": "~> 1.2.2"
+      },
+      {
+        "name": "tengine_resource",
         "requirements": "~> 1.2.2"
       }
     ],
@@ -5849,7 +5956,7 @@
     "description": "Tensile"
   },
   "tension": {
-    "version": "0.9.13",
+    "version": "0.9.14",
     "dependents": [
 
     ],
@@ -5884,11 +5991,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tent-status",
+        "name": "tent-validator",
         "requirements": ">= 0"
       },
       {
-        "name": "tent-validator",
+        "name": "tent-status",
         "requirements": ">= 0"
       },
       {
@@ -6000,6 +6107,20 @@
     ],
     "description": "Language for advanced JSON generation"
   },
+  "teradata-ar": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Teradata ActiveRecord adapter"
+  },
+  "teradata-cli": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "ruby extension for Teradata Cliv2"
+  },
   "terc_parser": {
     "version": "0.0.3",
     "dependents": [
@@ -6070,10 +6191,6 @@
       {
         "name": "aspec",
         "requirements": ">= 0"
-      },
-      {
-        "name": "babelyoda",
-        "requirements": ">= 1.0.7, ~> 1.0"
       },
       {
         "name": "bait",
@@ -6344,16 +6461,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gherkin",
-        "requirements": ">= 1.2.2"
-      },
-      {
         "name": "git-issue",
         "requirements": ">= 0"
       },
       {
         "name": "git-whistles",
         "requirements": ">= 0"
+      },
+      {
+        "name": "github_issues_cli",
+        "requirements": ">= 1.2.0"
       },
       {
         "name": "gitorious-munin-plugins",
@@ -6642,6 +6759,10 @@
       {
         "name": "provisioner",
         "requirements": ">= 0"
+      },
+      {
+        "name": "puppet_local",
+        "requirements": ">= 1.2.0"
       },
       {
         "name": "query_trace3",
@@ -7098,6 +7219,14 @@
         "requirements": "~> 1.4"
       },
       {
+        "name": "feed_notifier",
+        "requirements": "~> 1.5.1"
+      },
+      {
+        "name": "git-background",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gns",
         "requirements": ">= 0"
       },
@@ -7182,6 +7311,14 @@
         "requirements": "~> 1.4.2"
       },
       {
+        "name": "teller",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "testflight_upload",
+        "requirements": ">= 0"
+      },
+      {
         "name": "titech-pubnet-auth",
         "requirements": "~> 1.4"
       },
@@ -7264,11 +7401,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dbd_onto",
+        "name": "dbd_data_engine",
         "requirements": ">= 0"
       },
       {
-        "name": "dbd_data_engine",
+        "name": "dbd_onto",
         "requirements": ">= 0"
       },
       {
@@ -7305,6 +7442,10 @@
       },
       {
         "name": "getclever-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git-browse-remote",
         "requirements": ">= 0"
       },
       {
@@ -7348,6 +7489,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lazyeval",
+        "requirements": ">= 0"
+      },
+      {
         "name": "logger_ware",
         "requirements": ">= 0"
       },
@@ -7384,6 +7529,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "notifies",
+        "requirements": "~> 1.5.3"
+      },
+      {
         "name": "opay",
         "requirements": ">= 0"
       },
@@ -7408,11 +7557,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pinboard",
+        "name": "pin_up",
         "requirements": ">= 0"
       },
       {
-        "name": "pin_up",
+        "name": "pinboard",
         "requirements": ">= 0"
       },
       {
@@ -7531,6 +7680,10 @@
     "version": "1.4.5",
     "dependents": [
       {
+        "name": "88miles",
+        "requirements": "~> 1.4.5"
+      },
+      {
         "name": "academico",
         "requirements": ">= 0"
       },
@@ -7541,6 +7694,10 @@
       {
         "name": "af",
         "requirements": "~> 1.4.2"
+      },
+      {
+        "name": "aloe",
+        "requirements": ">= 0"
       },
       {
         "name": "aloha-ruby-conf",
@@ -7573,6 +7730,10 @@
       {
         "name": "authoritarian",
         "requirements": "~> 1.4.2"
+      },
+      {
+        "name": "aviator",
+        "requirements": ">= 1.4.5"
       },
       {
         "name": "awsome",
@@ -7707,6 +7868,10 @@
         "requirements": "~> 1.4.5"
       },
       {
+        "name": "gigawatt",
+        "requirements": "~> 1.4.5"
+      },
+      {
         "name": "git-swear-stats",
         "requirements": ">= 0"
       },
@@ -7724,10 +7889,6 @@
       },
       {
         "name": "hakiri",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "hammer_cli_foreman",
         "requirements": ">= 0"
       },
       {
@@ -7755,12 +7916,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jenkins-remote-api",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jenkins_api_client",
         "requirements": ">= 1.4.0"
+      },
+      {
+        "name": "jenkins-remote-api",
+        "requirements": ">= 0"
       },
       {
         "name": "jstats",
@@ -7887,6 +8048,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "prime_table",
+        "requirements": ">= 0"
+      },
+      {
         "name": "primo",
         "requirements": ">= 0"
       },
@@ -7999,11 +8164,11 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "tac",
+        "name": "tac-cli",
         "requirements": "~> 1.4.2"
       },
       {
-        "name": "tac-cli",
+        "name": "tac",
         "requirements": "~> 1.4.2"
       },
       {
@@ -8017,6 +8182,14 @@
       {
         "name": "testament",
         "requirements": "~> 1.4.5"
+      },
+      {
+        "name": "thegurdian-console",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "theguardian-console",
+        "requirements": ">= 0"
       },
       {
         "name": "timestream",
@@ -8063,15 +8236,19 @@
         "requirements": "~> 1.4"
       },
       {
+        "name": "veye",
+        "requirements": "= 1.4.5"
+      },
+      {
         "name": "virtualmaster",
         "requirements": "~> 1.4.4"
       },
       {
-        "name": "vmc-stic",
+        "name": "vmc-IronFoundry",
         "requirements": "~> 1.4.2"
       },
       {
-        "name": "vmc-IronFoundry",
+        "name": "vmc-stic",
         "requirements": "~> 1.4.2"
       },
       {
@@ -8095,12 +8272,12 @@
         "requirements": "~> 1.4.5"
       },
       {
-        "name": "zend",
-        "requirements": ">= 0"
-      },
-      {
         "name": "zencoder-cli",
         "requirements": "~> 1.4.2"
+      },
+      {
+        "name": "zend",
+        "requirements": ">= 0"
       },
       {
         "name": "zenflow",
@@ -8256,6 +8433,13 @@
 
     ],
     "description": "Display images in terminal."
+  },
+  "termrc": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Take your iTerm2 environments with you wherever you go."
   },
   "termtter": {
     "version": "2.2.2",
@@ -8430,13 +8614,6 @@
     ],
     "description": "Gem binary of tesseract version 2.04"
   },
-  "Test": {
-    "version": "0.0.0",
-    "dependents": [
-
-    ],
-    "description": "Simple test gem"
-  },
   "test": {
     "version": "1.0.0",
     "dependents": [
@@ -8458,6 +8635,13 @@
       }
     ],
     "description": "The Test library/repository/gem is a testbed project, for use by\nany other project that needs an external project to test itself\nagainst. Fee free to make requests for additions to this project\nto help you test your project."
+  },
+  "Test": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Simple test gem"
   },
   "test-align-centaur": {
     "version": "1.0.0",
@@ -8536,11 +8720,11 @@
         "requirements": "~> 1.2.0"
       },
       {
-        "name": "ki_youtrack",
+        "name": "ki_trello",
         "requirements": "~> 1.2.0"
       },
       {
-        "name": "ki_trello",
+        "name": "ki_youtrack",
         "requirements": "~> 1.2.0"
       },
       {
@@ -8568,24 +8752,24 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "rferraz-metric_fu",
-        "requirements": ">= 1.2.0"
-      },
-      {
         "name": "rferraz-churn",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rferraz-metric_fu",
+        "requirements": ">= 1.2.0"
       },
       {
         "name": "sprockets-helpers",
         "requirements": "~> 1.2"
       },
       {
-        "name": "sprockets-plugin",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "sprockets-less",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "sprockets-plugin",
+        "requirements": "~> 1.2.0"
       },
       {
         "name": "sprockets-sass",
@@ -8633,15 +8817,15 @@
     "description": "DSL wrapper for the \"test/unit\"."
   },
   "test-factory": {
-    "version": "0.3.4",
+    "version": "0.3.5",
     "dependents": [
+      {
+        "name": "kuality-coeus",
+        "requirements": ">= 0.3.1"
+      },
       {
         "name": "kuality",
         "requirements": ">= 0.0.9"
-      },
-      {
-        "name": "kuality-coeus",
-        "requirements": ">= 0.2.9"
       },
       {
         "name": "sambal-cle",
@@ -8667,6 +8851,13 @@
 
     ],
     "description": "A simple hello world gem"
+  },
+  "test-gem-123": {
+    "version": "4.1.1",
+    "dependents": [
+
+    ],
+    "description": "longer description of your gem"
   },
   "test-gem-install": {
     "version": "0.0.2",
@@ -8696,6 +8887,10 @@
     "version": "0.7.0",
     "dependents": [
       {
+        "name": "chef-sugar",
+        "requirements": "~> 1.0.0.beta"
+      },
+      {
         "name": "ciborg",
         "requirements": "~> 1.0.0.alpha.5"
       },
@@ -8712,8 +8907,12 @@
         "requirements": "~> 1.0.0.alpha.7"
       },
       {
-        "name": "kitchen-cloudstack",
-        "requirements": "~> 1.0.0.alpha.6"
+        "name": "kitchen-ec2",
+        "requirements": "~> 1.0.0.beta.3"
+      },
+      {
+        "name": "kitchen-fog",
+        "requirements": "~> 1.0.0.beta"
       },
       {
         "name": "kitchen-docker",
@@ -8724,32 +8923,32 @@
         "requirements": "~> 1.0.0.alpha"
       },
       {
+        "name": "kitchen-cloudstack",
+        "requirements": "~> 1.0.0.alpha.6"
+      },
+      {
         "name": "kitchen-fifo",
         "requirements": "~> 1.0.0.alpha.0"
+      },
+      {
+        "name": "kitchen-gce",
+        "requirements": "~> 1.0.0.beta.3"
       },
       {
         "name": "kitchen-libvirtlxc",
         "requirements": ">= 1.0.0.alpha.6"
       },
       {
-        "name": "kitchen-sshgzip",
-        "requirements": "> 0.9"
-      },
-      {
         "name": "kitchen-openstack",
         "requirements": "~> 1.0.0.beta"
-      },
-      {
-        "name": "kitchen-ec2",
-        "requirements": "~> 1.0.0.beta.3"
       },
       {
         "name": "kitchen-rackspace",
         "requirements": "~> 1.0.0.alpha"
       },
       {
-        "name": "kitchen-vagrant_sandbox",
-        "requirements": "~> 1.0.0.beta.1"
+        "name": "kitchen-sshgzip",
+        "requirements": "> 0.9"
       },
       {
         "name": "kitchen-vagrant",
@@ -8758,6 +8957,10 @@
       {
         "name": "kitchen-zcloudjp",
         "requirements": "~> 1.0.0.beta"
+      },
+      {
+        "name": "kitchen-vagrant_sandbox",
+        "requirements": "~> 1.0.0.beta.1"
       },
       {
         "name": "leibniz",
@@ -9065,10 +9268,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "algoliasearch",
-        "requirements": ">= 0"
-      },
-      {
         "name": "algoliasearch-client-ruby",
         "requirements": ">= 0"
       },
@@ -9113,6 +9312,10 @@
         "requirements": ">= 2.1.1"
       },
       {
+        "name": "auto_attr_init",
+        "requirements": ">= 0"
+      },
+      {
         "name": "auto_response",
         "requirements": ">= 0"
       },
@@ -9137,19 +9340,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bitclust-dev",
-        "requirements": ">= 2.3.0"
-      },
-      {
         "name": "bitclust-core",
         "requirements": ">= 2.3.0"
       },
       {
-        "name": "bitrix_on_rails",
-        "requirements": ">= 0"
+        "name": "bitclust-dev",
+        "requirements": ">= 2.3.0"
       },
       {
-        "name": "bixby-common",
+        "name": "bitrix_on_rails",
         "requirements": ">= 0"
       },
       {
@@ -9165,11 +9364,15 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "brighter_planet_layout",
-        "requirements": ">= 0"
+        "name": "bready",
+        "requirements": "= 2.4.3"
       },
       {
         "name": "brighter_planet_deploy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "brighter_planet_layout",
         "requirements": ">= 0"
       },
       {
@@ -9185,11 +9388,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cache_replace",
+        "name": "cache_rocket",
         "requirements": ">= 2.5"
       },
       {
-        "name": "cache_rocket",
+        "name": "cache_replace",
         "requirements": ">= 2.5"
       },
       {
@@ -9243,6 +9446,10 @@
       {
         "name": "coffee-processing",
         "requirements": "~> 2.4.8"
+      },
+      {
+        "name": "command_builder_generator",
+        "requirements": "~> 2.5"
       },
       {
         "name": "commit-comment-tools",
@@ -9361,11 +9568,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eat",
+        "name": "ebay_enterprise_affiliate_network",
         "requirements": ">= 0"
       },
       {
-        "name": "ebay_enterprise_affiliate_network",
+        "name": "eat",
         "requirements": ">= 0"
       },
       {
@@ -9382,6 +9589,10 @@
       },
       {
         "name": "em-spec",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-zimbreasy",
         "requirements": ">= 0"
       },
       {
@@ -9421,11 +9632,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "evelpidon_core_ext",
+        "name": "evelpidon_validators",
         "requirements": ">= 0"
       },
       {
-        "name": "evelpidon_validators",
+        "name": "evelpidon_core_ext",
         "requirements": ">= 0"
       },
       {
@@ -9493,11 +9704,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ffakeron",
+        "name": "ffaker",
         "requirements": ">= 0"
       },
       {
-        "name": "ffaker",
+        "name": "ffakeron",
         "requirements": ">= 0"
       },
       {
@@ -9509,12 +9720,12 @@
         "requirements": ">= 2.5.0"
       },
       {
-        "name": "file-temp",
-        "requirements": ">= 2.4.0"
-      },
-      {
         "name": "file-tail",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "file-temp",
+        "requirements": ">= 2.4.0"
       },
       {
         "name": "filecluster",
@@ -9733,11 +9944,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "html-table",
+        "name": "html-validator",
         "requirements": ">= 0"
       },
       {
-        "name": "html-validator",
+        "name": "html-table",
         "requirements": ">= 0"
       },
       {
@@ -9789,15 +10000,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "iron_core",
-        "requirements": ">= 0"
-      },
-      {
         "name": "iron_cache_rails",
         "requirements": ">= 0"
       },
       {
         "name": "iron_cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "iron_core",
         "requirements": ">= 0"
       },
       {
@@ -9837,11 +10048,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jslint-johnson",
+        "name": "jslint-v8",
         "requirements": ">= 0"
       },
       {
-        "name": "jslint-v8",
+        "name": "jslint-johnson",
         "requirements": ">= 0"
       },
       {
@@ -10005,11 +10216,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mireru",
+        "name": "mireru2",
         "requirements": ">= 0"
       },
       {
-        "name": "mireru2",
+        "name": "mireru",
         "requirements": ">= 0"
       },
       {
@@ -10019,6 +10230,10 @@
       {
         "name": "mms2r",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mobu",
+        "requirements": "~> 2.5"
       },
       {
         "name": "mocha-color",
@@ -10089,27 +10304,27 @@
         "requirements": "= 1.2.3"
       },
       {
-        "name": "net-proto",
-        "requirements": ">= 2.2.0"
+        "name": "net-sftp",
+        "requirements": ">= 0"
       },
       {
         "name": "net-ping",
         "requirements": ">= 2.5.0"
       },
       {
+        "name": "net-ssh-gateway",
+        "requirements": ">= 0"
+      },
+      {
         "name": "net-scp",
         "requirements": ">= 0"
       },
       {
-        "name": "net-sftp",
-        "requirements": ">= 0"
+        "name": "net-proto",
+        "requirements": ">= 2.2.0"
       },
       {
         "name": "net-ssh",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "net-ssh-gateway",
         "requirements": ">= 0"
       },
       {
@@ -10193,11 +10408,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "packr",
+        "name": "packnga",
         "requirements": ">= 0"
       },
       {
-        "name": "packnga",
+        "name": "packr",
         "requirements": ">= 0"
       },
       {
@@ -10337,12 +10552,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rack-google-analytics",
-        "requirements": "~> 2.5.1"
-      },
-      {
         "name": "rack-golden_frill",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rack-google-analytics",
+        "requirements": "~> 2.5.1"
       },
       {
         "name": "rack-http-enforcer",
@@ -10421,11 +10636,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rdbi-driver-sqlite3",
+        "name": "rdbi",
         "requirements": ">= 0"
       },
       {
-        "name": "rdbi",
+        "name": "rdbi-driver-sqlite3",
         "requirements": ">= 0"
       },
       {
@@ -10493,12 +10708,12 @@
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "ronin-web",
-        "requirements": "= 1.2.3"
-      },
-      {
         "name": "rora",
         "requirements": ">= 2.4.8"
+      },
+      {
+        "name": "ronin-web",
+        "requirements": "= 1.2.3"
       },
       {
         "name": "rouster",
@@ -10603,6 +10818,10 @@
       {
         "name": "scashin133-s3",
         "requirements": ">= 2.0"
+      },
+      {
+        "name": "scopy",
+        "requirements": "~> 2.5"
       },
       {
         "name": "seanwalbran-scashin133-s3",
@@ -10721,7 +10940,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sys-filesystem",
+        "name": "sys-admin",
         "requirements": ">= 2.5.0"
       },
       {
@@ -10729,7 +10948,7 @@
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "sys-admin",
+        "name": "sys-filesystem",
         "requirements": ">= 2.5.0"
       },
       {
@@ -10765,28 +10984,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit-coverage",
-        "requirements": ">= 2.2.0"
-      },
-      {
         "name": "test-unit-around",
         "requirements": ">= 2.4.4"
       },
       {
-        "name": "test-unit-fasterskip",
-        "requirements": ">= 2.4.0"
+        "name": "test-unit-capybara",
+        "requirements": ">= 2.5.3"
       },
       {
         "name": "test-unit-context",
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "test-unit-full",
-        "requirements": ">= 0"
+        "name": "test-unit-coverage",
+        "requirements": ">= 2.2.0"
       },
       {
-        "name": "test-unit-capybara",
-        "requirements": ">= 2.5.3"
+        "name": "test-unit-fasterskip",
+        "requirements": ">= 2.4.0"
+      },
+      {
+        "name": "test-unit-full",
+        "requirements": ">= 0"
       },
       {
         "name": "test-unit-notify",
@@ -10801,12 +11020,12 @@
         "requirements": ">= 2.2"
       },
       {
-        "name": "test-unit-runner-gtk2",
-        "requirements": ">= 0"
-      },
-      {
         "name": "test-unit-runner-html",
         "requirements": ">= 2.4.0"
+      },
+      {
+        "name": "test-unit-runner-gtk2",
+        "requirements": ">= 0"
       },
       {
         "name": "test-unit-runner-tap",
@@ -10854,6 +11073,10 @@
       },
       {
         "name": "tod",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "torpedo",
         "requirements": ">= 0"
       },
       {
@@ -10989,15 +11212,19 @@
         "requirements": ">= 2.0.3"
       },
       {
-        "name": "win32-event",
-        "requirements": ">= 0"
-      },
-      {
         "name": "win32-dir",
         "requirements": ">= 2.4.0"
       },
       {
+        "name": "win32-eventlog",
+        "requirements": ">= 2.1.1"
+      },
+      {
         "name": "win32-file",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "win32-event",
         "requirements": ">= 0"
       },
       {
@@ -11005,15 +11232,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "win32-eventlog",
-        "requirements": ">= 2.1.1"
-      },
-      {
         "name": "win32-file-stat",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "win32-ipc",
         "requirements": ">= 0"
       },
       {
@@ -11021,7 +11240,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "win32-mutex",
+        "name": "win32-ipc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "win32-mmap",
         "requirements": ">= 0"
       },
       {
@@ -11029,8 +11252,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "win32-security",
-        "requirements": ">= 2.5.0"
+        "name": "win32-mutex",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "win32-process",
+        "requirements": ">= 2.4.0"
       },
       {
         "name": "win32-sapi",
@@ -11041,12 +11268,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "win32-semaphore",
-        "requirements": ">= 0"
+        "name": "win32-security",
+        "requirements": ">= 2.5.0"
       },
       {
-        "name": "win32-process",
-        "requirements": ">= 2.4.0"
+        "name": "win32-semaphore",
+        "requirements": ">= 0"
       },
       {
         "name": "win32-service",
@@ -11210,19 +11437,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bitclust-dev",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bitclust-core",
         "requirements": ">= 0"
       },
       {
-        "name": "cairo",
+        "name": "bitclust-dev",
         "requirements": ">= 0"
       },
       {
         "name": "cairo-gobject",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cairo",
         "requirements": ">= 0"
       },
       {
@@ -11294,11 +11521,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mireru",
+        "name": "mireru2",
         "requirements": ">= 0"
       },
       {
-        "name": "mireru2",
+        "name": "mireru",
         "requirements": ">= 0"
       },
       {
@@ -11346,11 +11573,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit-full",
+        "name": "test-unit-capybara",
         "requirements": ">= 0"
       },
       {
-        "name": "test-unit-capybara",
+        "name": "test-unit-full",
         "requirements": ">= 0"
       },
       {
@@ -11358,11 +11585,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "webkit-gtk2",
+        "name": "webkit-gtk",
         "requirements": ">= 0"
       },
       {
-        "name": "webkit-gtk",
+        "name": "webkit-gtk2",
         "requirements": ">= 0"
       }
     ],
@@ -11379,11 +11606,11 @@
     "version": "1.0.3",
     "dependents": [
       {
-        "name": "bitclust-dev",
+        "name": "bitclust-core",
         "requirements": ">= 0"
       },
       {
-        "name": "bitclust-core",
+        "name": "bitclust-dev",
         "requirements": ">= 0"
       },
       {
@@ -11415,11 +11642,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mireru",
+        "name": "mireru2",
         "requirements": ">= 0"
       },
       {
-        "name": "mireru2",
+        "name": "mireru",
         "requirements": ">= 0"
       },
       {
@@ -11668,11 +11895,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "i18n-recursive-lookup",
+        "name": "i18n-sequel_bitemporal",
         "requirements": ">= 0"
       },
       {
-        "name": "i18n-sequel_bitemporal",
+        "name": "i18n-recursive-lookup",
         "requirements": ">= 0"
       },
       {
@@ -11743,7 +11970,7 @@
     "description": "Simply adds a declarative test method syntax to test/unit."
   },
   "test_dummy": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -12170,12 +12397,12 @@
     "version": "1.5.4",
     "dependents": [
       {
-        "name": "testability-driver-runner",
-        "requirements": ">= 0"
-      },
-      {
         "name": "testability-driver-qt-sut-plugin",
         "requirements": ">= 0.8.3"
+      },
+      {
+        "name": "testability-driver-runner",
+        "requirements": ">= 0"
       }
     ],
     "description": "Testability Driver"
@@ -12312,6 +12539,13 @@
     ],
     "description": "TestDrive is a simple ruby and jruby compatible automatic test runner."
   },
+  "testdroid-api": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Testdroid API client"
+  },
   "testem": {
     "version": "0.1.0",
     "dependents": [
@@ -12354,6 +12588,13 @@
 
     ],
     "description": "Mechanism for building, packaging, tagging and deploying Xcode projects to testflightapp.com"
+  },
+  "testflight_upload": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A simple Testflight uploader for when you already have everything built and archived."
   },
   "testfoo123": {
     "version": "0.1.0",
@@ -12453,6 +12694,13 @@
     ],
     "description": "Adds new_raw_object method to create objects without proxy"
   },
+  "testing-testing-test": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Write a gem description"
+  },
   "testing_gem": {
     "version": "0.0.2",
     "dependents": [
@@ -12505,7 +12753,10 @@
   "testingbot": {
     "version": "0.1.5",
     "dependents": [
-
+      {
+        "name": "howitzer",
+        "requirements": ">= 0"
+      }
     ],
     "description": "This gem makes using our Selenium grid on testingbot.com easy"
   },
@@ -12595,7 +12846,7 @@
     "description": "TestML is an Acmeist testing framework. TestML::Lite is smaller bootstrap\nversion of TestML.\n"
   },
   "testmunk": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -12666,6 +12917,13 @@
   },
   "testrail": {
     "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "\n    A Ruby client that tries to match TestRail's API one-to-one, while still\n    providing an idiomatic interface.\n  "
+  },
+  "testrailv2": {
+    "version": "0.0.1",
     "dependents": [
 
     ],
@@ -13066,11 +13324,11 @@
         "requirements": "= 1.0.0"
       },
       {
-        "name": "isi",
+        "name": "isi-rb",
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "isi-rb",
+        "name": "isi",
         "requirements": ">= 1.0.0"
       },
       {
@@ -13144,12 +13402,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "text-format",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "text-format-revised",
         "requirements": "~> 1.2.0"
+      },
+      {
+        "name": "text-format",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "text-reform",
@@ -13253,7 +13511,7 @@
     "description": "Pipe a file, like a log file, into text_to_noise and it will play sound effects triggered by regex matches in the input."
   },
   "text2path": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -13286,6 +13544,13 @@
 
     ],
     "description": "A DSL for loading CSV text files into a database."
+  },
+  "text_helpers": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Easily fetch text and static content from your locales"
   },
   "text_hyphen": {
     "version": "1.0.0",
@@ -13371,6 +13636,13 @@
     ],
     "description": "Use your local text editor to edit files on remote servers."
   },
+  "text_veloper": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Wrapper for Textveloper API."
+  },
   "texta": {
     "version": "0.2.2",
     "dependents": [
@@ -13417,7 +13689,7 @@
     "description": "Gem to beat questions served up by the TextCaptcha service."
   },
   "textecho": {
-    "version": "0.1.8",
+    "version": "0.1.9",
     "dependents": [
 
     ],
@@ -13774,15 +14046,19 @@
     "description": "== FEATURES/PROBLEMS:  Incompatible with 1.9, as far as we know. Technically, it supports everything current RegExp does.  == SYNOPSIS:  Password = TextualRegexp.new do anchor :beginning  group :capture do any :letter repeat(4..13) do any :char end any :digit end end"
   },
   "textutils": {
-    "version": "0.6.8",
+    "version": "0.7.0",
     "dependents": [
+      {
+        "name": "about",
+        "requirements": ">= 0.7"
+      },
       {
         "name": "markdown",
         "requirements": ">= 0.6.4"
       },
       {
         "name": "pluto",
-        "requirements": ">= 0.6.8"
+        "requirements": ">= 0.7"
       },
       {
         "name": "slideshow",
@@ -14054,7 +14330,7 @@
     "version": "1.2.2.5",
     "dependents": [
       {
-        "name": "tgbyte-activerecord-jdbcderby-adapter",
+        "name": "tgbyte-activerecord-jdbchsqldb-adapter",
         "requirements": "~> 1.2.2.5"
       },
       {
@@ -14062,7 +14338,11 @@
         "requirements": "~> 1.2.2.5"
       },
       {
-        "name": "tgbyte-activerecord-jdbchsqldb-adapter",
+        "name": "tgbyte-activerecord-jdbcderby-adapter",
+        "requirements": "~> 1.2.2.5"
+      },
+      {
+        "name": "tgbyte-activerecord-jdbcmysql-adapter",
         "requirements": "~> 1.2.2.5"
       },
       {
@@ -14075,10 +14355,6 @@
       },
       {
         "name": "tgbyte-activerecord-jdbcpostgresql-adapter",
-        "requirements": "~> 1.2.2.5"
-      },
-      {
-        "name": "tgbyte-activerecord-jdbcmysql-adapter",
         "requirements": "~> 1.2.2.5"
       }
     ],
@@ -14608,6 +14884,13 @@
     ],
     "description": "Allows you to add foreign keys to your migrations and enforce them. Forked to fix exception on Rails 3 beta 4"
   },
+  "theampm": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "am/pm convenience methods on integers to create time objects"
+  },
   "theatre": {
     "version": "0.8.0",
     "dependents": [
@@ -14630,7 +14913,7 @@
     "description": "TheBigDB a simply structured open database of real life facts. See http://thebigdb.com for details."
   },
   "thecity": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -14672,7 +14955,7 @@
     "description": "Facebook tools for rails to generate signed request. Helpers soon to be included."
   },
   "thegarage-gitx": {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -14685,6 +14968,34 @@
     ],
     "description": "Grid"
   },
+  "theguardian": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "thegurdian-console",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "theguardian-console",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "The Guardian Ruby API"
+  },
+  "theguardian-console": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "TheGuardian is in the console ... Geek"
+  },
+  "thegurdian-console": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "TheGuardian is in the console ... Geek"
+  },
   "thehenster-resque-scheduler": {
     "version": "1.0.12",
     "dependents": [
@@ -14693,7 +15004,7 @@
     "description": "Light weight job scheduling on top of Resque.\n  Adds methods enqueue_at/enqueue_in to schedule jobs in the future.\n  Also supports queueing jobs on a fixed, cron-like schedule."
   },
   "theine": {
-    "version": "0.0.6",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -14733,6 +15044,13 @@
 
     ],
     "description": "  ThemeSupport adds support for multi-themes to your Rails 3.0 application\n"
+  },
+  "themebox": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Command line tool for developing tablefillr themes"
   },
   "themedoc": {
     "version": "0.3",
@@ -14921,11 +15239,11 @@
         "requirements": "= 0.7.4"
       },
       {
-        "name": "bone_tree",
+        "name": "boner",
         "requirements": ">= 0"
       },
       {
-        "name": "boner",
+        "name": "bone_tree",
         "requirements": ">= 0"
       },
       {
@@ -14947,6 +15265,10 @@
       {
         "name": "causes-hydra",
         "requirements": "= 0.7.4"
+      },
+      {
+        "name": "CirrusKit",
+        "requirements": ">= 0"
       },
       {
         "name": "coffee_compiler",
@@ -15010,11 +15332,11 @@
       },
       {
         "name": "fanforce-app-factory",
-        "requirements": "~> 0.12"
+        "requirements": "~> 0.12.0"
       },
       {
         "name": "fanforce-plugin-factory",
-        "requirements": "~> 0.12"
+        "requirements": "~> 0.12.0"
       },
       {
         "name": "font-awesome-more",
@@ -15034,7 +15356,7 @@
       },
       {
         "name": "gherkin",
-        "requirements": ">= 0.11.4"
+        "requirements": ">= 0.12.0"
       },
       {
         "name": "gocart",
@@ -15046,7 +15368,7 @@
       },
       {
         "name": "goldencobra",
-        "requirements": "~> 0.10.2"
+        "requirements": ">= 0"
       },
       {
         "name": "golf-coffee",
@@ -15109,12 +15431,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jadeite",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jader",
         "requirements": "~> 0.10.2"
+      },
+      {
+        "name": "jadeite",
+        "requirements": ">= 0"
       },
       {
         "name": "jcov",
@@ -15133,12 +15455,12 @@
         "requirements": "~> 0.10.2"
       },
       {
-        "name": "jslint-v8",
-        "requirements": "~> 0.10.0"
-      },
-      {
         "name": "jslintrb_v8",
         "requirements": "~> 0.11.0"
+      },
+      {
+        "name": "jslint-v8",
+        "requirements": "~> 0.10.0"
       },
       {
         "name": "jsmetric",
@@ -15197,11 +15519,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mustache-trimmer-rails",
+        "name": "mustache-trimmer",
         "requirements": ">= 0"
       },
       {
-        "name": "mustache-trimmer",
+        "name": "mustache-trimmer-rails",
         "requirements": ">= 0"
       },
       {
@@ -15237,11 +15559,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rake-pipeline-web-filters",
+        "name": "rake-pipeline-typescript",
         "requirements": ">= 0"
       },
       {
-        "name": "rake-pipeline-typescript",
+        "name": "rake-pipeline-web-filters",
         "requirements": ">= 0"
       },
       {
@@ -15345,20 +15667,20 @@
         "requirements": "~> 0.9.3beta1"
       },
       {
-        "name": "turnip_formatter",
-        "requirements": ">= 0"
-      },
-      {
         "name": "twbs_sass_rails",
         "requirements": ">= 0"
       },
       {
-        "name": "twitter-bootstrap-ruby",
-        "requirements": "~> 0.10.2"
+        "name": "twbs_less_rails",
+        "requirements": ">= 0"
       },
       {
         "name": "twitter-bootstrap-rails",
         "requirements": "= 0.11.1"
+      },
+      {
+        "name": "twitter-bootstrap-ruby",
+        "requirements": "~> 0.10.2"
       },
       {
         "name": "twitter-bootswatch-rails",
@@ -15541,15 +15863,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "active_admin_acts_as_list_integration",
-        "requirements": ">= 0"
-      },
-      {
         "name": "active_admin-acts_as_list",
         "requirements": ">= 0"
       },
       {
         "name": "active_admin-awesome_nested_set",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "active_admin_acts_as_list_integration",
         "requirements": ">= 0"
       },
       {
@@ -15589,11 +15911,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "apiary",
+        "name": "api_taster",
         "requirements": ">= 0"
       },
       {
-        "name": "api_taster",
+        "name": "apiary",
         "requirements": ">= 0"
       },
       {
@@ -15785,6 +16107,10 @@
         "requirements": ">= 1.3.1"
       },
       {
+        "name": "client_side_validations",
+        "requirements": ">= 0"
+      },
+      {
         "name": "client_side_validations-ember",
         "requirements": ">= 0"
       },
@@ -15793,15 +16119,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "client_side_validations",
+        "name": "client_side_validations-simple_form",
         "requirements": ">= 0"
       },
       {
         "name": "client_side_validations-turbolinks",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "client_side_validations-simple_form",
         "requirements": ">= 0"
       },
       {
@@ -15937,19 +16259,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ecm_cms_core",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ecm_downloads",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ecm_cms_navigation",
         "requirements": ">= 0"
       },
       {
         "name": "ecm_pictures",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ecm_cms_core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ecm_downloads",
         "requirements": ">= 0"
       },
       {
@@ -16005,15 +16327,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fake_sensu",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fake_sqs",
         "requirements": ">= 0"
       },
       {
-        "name": "faye-online",
+        "name": "fake_sensu",
         "requirements": ">= 0"
       },
       {
@@ -16021,7 +16339,7 @@
         "requirements": ">= 1.2.0"
       },
       {
-        "name": "faye-rails",
+        "name": "faye-online",
         "requirements": ">= 0"
       },
       {
@@ -16031,6 +16349,10 @@
       {
         "name": "faye-websocket",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "faye-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "fingerpoken",
@@ -16278,7 +16600,7 @@
       },
       {
         "name": "locomotivecms_wagon",
-        "requirements": ">= 0"
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "lorraine",
@@ -16377,15 +16699,15 @@
         "requirements": "= 1.2.11"
       },
       {
+        "name": "nagios_webbed_log",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nagios_webbed_log",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nagios_rails_server",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "nagios_webbed_log",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "nagios_webbed_log",
         "requirements": ">= 0"
       },
       {
@@ -16557,6 +16879,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rails_chat",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rails_view_helpers",
         "requirements": ">= 0"
       },
@@ -16609,12 +16935,12 @@
         "requirements": "= 1.2.7"
       },
       {
-        "name": "reloadlive",
-        "requirements": "~> 1.5.1"
-      },
-      {
         "name": "reloader",
         "requirements": "= 1.2.7"
+      },
+      {
+        "name": "reloadlive",
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "repctl",
@@ -16646,7 +16972,7 @@
       },
       {
         "name": "riddl",
-        "requirements": ">= 0"
+        "requirements": "= 1.5.1"
       },
       {
         "name": "riemann-dash",
@@ -16689,6 +17015,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sadi-rb",
+        "requirements": ">= 0"
+      },
+      {
         "name": "satisfaction-jasmine",
         "requirements": ">= 1.2.4"
       },
@@ -16709,12 +17039,12 @@
         "requirements": ">= 1.2.1"
       },
       {
-        "name": "screw-unit-server",
-        "requirements": ">= 1.2.1"
-      },
-      {
         "name": "screw_server",
         "requirements": "= 1.2.7"
+      },
+      {
+        "name": "screw-unit-server",
+        "requirements": ">= 1.2.1"
       },
       {
         "name": "scripted",
@@ -16801,35 +17131,35 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra-websocket",
-        "requirements": ">= 1.3.1"
-      },
-      {
         "name": "sinatra-websocketio",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sinatra-websocket",
+        "requirements": ">= 1.3.1"
       },
       {
         "name": "siuying-gitdocs",
         "requirements": "~> 1.3.1"
       },
       {
-        "name": "skinny_daemon_example",
-        "requirements": ">= 0"
-      },
-      {
         "name": "skinny",
         "requirements": "~> 1.5.0"
+      },
+      {
+        "name": "skinny_daemon_example",
+        "requirements": ">= 0"
       },
       {
         "name": "sklik-api",
         "requirements": ">= 0"
       },
       {
-        "name": "skybox",
+        "name": "skycap",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "skycap",
+        "name": "skybox",
         "requirements": "~> 1.5.0"
       },
       {
@@ -16965,7 +17295,23 @@
         "requirements": "~> 1.5"
       },
       {
+        "name": "thin-fun_embed",
+        "requirements": ">= 1.4"
+      },
+      {
         "name": "thin-attach_socket",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thin-glazed",
+        "requirements": ">= 1.3.1"
+      },
+      {
+        "name": "thin_balance",
+        "requirements": ">= 1.2"
+      },
+      {
+        "name": "thin-rails",
         "requirements": ">= 0"
       },
       {
@@ -16977,28 +17323,12 @@
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "thin-fun_embed",
-        "requirements": ">= 1.4"
-      },
-      {
-        "name": "thin-glazed",
-        "requirements": ">= 1.3.1"
-      },
-      {
         "name": "thin_async",
         "requirements": ">= 1.2.1"
       },
       {
-        "name": "thin-rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "thin-service",
         "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "thin_balance",
-        "requirements": ">= 1.2"
       },
       {
         "name": "Thin_Upstreams",
@@ -17065,11 +17395,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "visor-meta",
+        "name": "visor-web",
         "requirements": ">= 0"
       },
       {
-        "name": "visor-web",
+        "name": "visor-meta",
         "requirements": ">= 0"
       },
       {
@@ -17083,6 +17413,10 @@
       {
         "name": "webmate",
         "requirements": ">= 0"
+      },
+      {
+        "name": "websocket-gui",
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "websocket-rails",
@@ -17298,20 +17632,20 @@
     "version": "1.0.0",
     "dependents": [
       {
-        "name": "thincloud-deployment",
+        "name": "thincloud-resque",
         "requirements": ">= 0"
       },
       {
-        "name": "thincloud-postmark",
-        "requirements": "~> 0.3.2"
-      },
-      {
-        "name": "thincloud-resque",
+        "name": "thincloud-deployment",
         "requirements": ">= 0"
       },
       {
         "name": "thincloud-test-rails",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "thincloud-postmark",
+        "requirements": "~> 0.3.2"
       }
     ],
     "description": "Opinionated test dependencies and conventions for Ruby applications."
@@ -17376,7 +17710,7 @@
     "description": "couchrest docs with multiple characters"
   },
   "thinking-sphinx": {
-    "version": "3.0.5",
+    "version": "3.0.6",
     "dependents": [
       {
         "name": "base2_cms",
@@ -17439,12 +17773,12 @@
         "requirements": ">= 1.3.8"
       },
       {
-        "name": "ts-xml",
-        "requirements": ">= 1.3.8"
-      },
-      {
         "name": "ts-resque-delta",
         "requirements": ">= 1.4.1"
+      },
+      {
+        "name": "ts-xml",
+        "requirements": ">= 1.3.8"
       },
       {
         "name": "ts-delayed-delta",
@@ -17528,7 +17862,7 @@
     "description": "Display a list of files to be deleted by a specific pattern (e.g. keep hourly backups for 1 day, dauly for 90 days, etc)"
   },
   "thinp_xml": {
-    "version": "0.0.12",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -17538,12 +17872,12 @@
     "version": "0.7.6",
     "dependents": [
       {
-        "name": "thinreports-handler",
-        "requirements": "~> 0.7.0"
-      },
-      {
         "name": "thinreports-rails",
         "requirements": "~> 0.7.6"
+      },
+      {
+        "name": "thinreports-handler",
+        "requirements": "~> 0.7.0"
       }
     ],
     "description": "ThinReports is Open Source Reporting Solution for Ruby. It provides a GUI Designer and a Library for Ruby."
@@ -17558,7 +17892,10 @@
   "thinreports-rails": {
     "version": "0.1.3",
     "dependents": [
-
+      {
+        "name": "gaku_core",
+        "requirements": "~> 0.1"
+      }
     ],
     "description": "Rails plugin for Thinreports DSL."
   },
@@ -17664,6 +18001,10 @@
     "version": "0.18.1",
     "dependents": [
       {
+        "name": "ABIF",
+        "requirements": ">= 0"
+      },
+      {
         "name": "about_p",
         "requirements": ">= 0"
       },
@@ -17728,12 +18069,12 @@
         "requirements": "~> 0.15.2"
       },
       {
-        "name": "ajax_pagination",
-        "requirements": "~> 0.14.4"
-      },
-      {
         "name": "ajax-chosen-rails",
         "requirements": "~> 0.14"
+      },
+      {
+        "name": "ajax_pagination",
+        "requirements": "~> 0.14.4"
       },
       {
         "name": "ajaxboxlogin",
@@ -17820,6 +18161,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ansible-helper",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ansible_utils",
         "requirements": ">= 0"
       },
@@ -17840,15 +18185,15 @@
         "requirements": "~> 0.15.2"
       },
       {
-        "name": "apidoc",
-        "requirements": ">= 0"
-      },
-      {
         "name": "apical",
         "requirements": ">= 0"
       },
       {
         "name": "apidone-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "apidoc",
         "requirements": ">= 0"
       },
       {
@@ -17872,12 +18217,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "apple_cart",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "appjam",
         "requirements": ">= 0"
+      },
+      {
+        "name": "apple_cart",
+        "requirements": "~> 0.14.6"
       },
       {
         "name": "appmake",
@@ -17932,11 +18277,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "atlas-client",
-        "requirements": ">= 0"
+        "name": "atomic_sass",
+        "requirements": ">= 0.18"
       },
       {
         "name": "attic-cleanup",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "audiostream",
         "requirements": ">= 0"
       },
       {
@@ -17976,12 +18325,12 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "backpack_journal",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "backpack-journal",
         "requirements": ">= 0.9.7"
+      },
+      {
+        "name": "backpack_journal",
+        "requirements": "~> 0.14.6"
       },
       {
         "name": "backrack",
@@ -18000,12 +18349,12 @@
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "backup_demon",
-        "requirements": "~> 0.18"
-      },
-      {
         "name": "backup_driver",
         "requirements": "= 0.18.1"
+      },
+      {
+        "name": "backup_demon",
+        "requirements": "~> 0.18"
       },
       {
         "name": "backups",
@@ -18016,16 +18365,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "baidupan",
+        "name": "bailiff",
         "requirements": ">= 0"
       },
       {
-        "name": "bailiff",
+        "name": "baidupan",
         "requirements": ">= 0"
       },
       {
         "name": "baldwin",
         "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "baleen",
+        "requirements": ">= 0"
       },
       {
         "name": "bamboo-cli",
@@ -18108,11 +18461,11 @@
         "requirements": "~> 0.18.1"
       },
       {
-        "name": "berkshelf",
+        "name": "berkshelf-api",
         "requirements": "~> 0.18.0"
       },
       {
-        "name": "berkshelf-api",
+        "name": "berkshelf",
         "requirements": "~> 0.18.0"
       },
       {
@@ -18152,6 +18505,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "blam",
+        "requirements": ">= 0"
+      },
+      {
         "name": "blammo",
         "requirements": ">= 0"
       },
@@ -18166,6 +18523,10 @@
       {
         "name": "blueprint-rails",
         "requirements": "< 2.0, >= 0.14"
+      },
+      {
+        "name": "blueprint",
+        "requirements": ">= 0"
       },
       {
         "name": "bnr_generator",
@@ -18232,11 +18593,11 @@
         "requirements": "~> 0.18.1"
       },
       {
-        "name": "boundio",
+        "name": "boundioV2",
         "requirements": ">= 0"
       },
       {
-        "name": "boundioV2",
+        "name": "boundio",
         "requirements": ">= 0"
       },
       {
@@ -18252,11 +18613,11 @@
         "requirements": "~> 0.14.3"
       },
       {
-        "name": "brandeins-dl",
+        "name": "brandeins",
         "requirements": ">= 0"
       },
       {
-        "name": "brandeins",
+        "name": "brandeins-dl",
         "requirements": ">= 0"
       },
       {
@@ -18268,11 +18629,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "buff-extensions",
-        "requirements": "~> 0.18.0"
+        "name": "bring",
+        "requirements": ">= 0"
       },
       {
         "name": "buff-config",
+        "requirements": "~> 0.18.0"
+      },
+      {
+        "name": "buff-extensions",
         "requirements": "~> 0.18.0"
       },
       {
@@ -18304,6 +18669,14 @@
         "requirements": "~> 0.14.0"
       },
       {
+        "name": "bundle_dev",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bundleinabox",
+        "requirements": "~> 0.18.1"
+      },
+      {
         "name": "bundler-talks",
         "requirements": ">= 0"
       },
@@ -18324,20 +18697,20 @@
         "requirements": "~> 0.18.1"
       },
       {
+        "name": "c_project",
+        "requirements": "~> 0.18.1"
+      },
+      {
         "name": "cabi",
         "requirements": ">= 0.18.1, ~> 0.18"
       },
       {
-        "name": "c_project",
+        "name": "cadre",
         "requirements": "~> 0.18.1"
       },
       {
         "name": "cactu",
         "requirements": ">= 0"
-      },
-      {
-        "name": "cadre",
-        "requirements": "~> 0.18.1"
       },
       {
         "name": "calatrava",
@@ -18436,11 +18809,11 @@
         "requirements": "~> 0.16.0"
       },
       {
-        "name": "chap",
+        "name": "chaperone",
         "requirements": ">= 0"
       },
       {
-        "name": "chaperone",
+        "name": "chap",
         "requirements": ">= 0"
       },
       {
@@ -18460,19 +18833,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "checksummer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "checkup",
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "chef-cooker",
+        "name": "checksummer",
         "requirements": ">= 0"
       },
       {
-        "name": "chefkitchen_cli",
+        "name": "chef-cooker",
         "requirements": ">= 0"
       },
       {
@@ -18481,6 +18850,10 @@
       },
       {
         "name": "chekku",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "chefkitchen_cli",
         "requirements": ">= 0"
       },
       {
@@ -18516,12 +18889,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chosen-rails",
-        "requirements": ">= 0.14"
-      },
-      {
         "name": "chosen-rails_ffcrm",
         "requirements": "~> 0.14"
+      },
+      {
+        "name": "chosen-rails",
+        "requirements": ">= 0.14"
       },
       {
         "name": "christmas-rails",
@@ -18552,11 +18925,11 @@
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "cijoe_passenger",
+        "name": "cimd",
         "requirements": ">= 0"
       },
       {
-        "name": "cimd",
+        "name": "cijoe_passenger",
         "requirements": ">= 0"
       },
       {
@@ -18608,12 +18981,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cloud66-backup",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "cloud-maker",
         "requirements": "~> 0.15"
+      },
+      {
+        "name": "cloud66-backup",
+        "requirements": "~> 0.14.6"
       },
       {
         "name": "cloudalign-cli",
@@ -18628,12 +19001,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cloudfoundry-jquery-rails",
-        "requirements": "~> 0.14"
-      },
-      {
         "name": "cloudfront-private",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cloudfoundry-jquery-rails",
+        "requirements": "~> 0.14"
       },
       {
         "name": "cloudstack-cli",
@@ -18650,6 +19023,10 @@
       {
         "name": "cmd_tools",
         "requirements": "~> 0.16"
+      },
+      {
+        "name": "cocoaout",
+        "requirements": ">= 0.18"
       },
       {
         "name": "cocoapods-publisher",
@@ -18693,6 +19070,10 @@
       },
       {
         "name": "confuddle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "conjure",
         "requirements": ">= 0"
       },
       {
@@ -18764,12 +19145,12 @@
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "crampy",
-        "requirements": "~> 0.14"
-      },
-      {
         "name": "cramp",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "crampy",
+        "requirements": "~> 0.14"
       },
       {
         "name": "credy",
@@ -18792,16 +19173,16 @@
         "requirements": ">= 0.15.2"
       },
       {
+        "name": "cucumber-selenium-standalone",
+        "requirements": "= 0.14.6"
+      },
+      {
         "name": "cucumber-slice",
         "requirements": "~> 0.14"
       },
       {
         "name": "cucumber-standalone",
         "requirements": ">= 0.14.4"
-      },
-      {
-        "name": "cucumber-selenium-standalone",
-        "requirements": "= 0.14.6"
       },
       {
         "name": "cuke-island",
@@ -18832,15 +19213,19 @@
         "requirements": ">= 0.17.0"
       },
       {
+        "name": "cylons",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cynq",
         "requirements": "~> 0.15"
       },
       {
-        "name": "daemon-kit",
+        "name": "dadablog",
         "requirements": ">= 0"
       },
       {
-        "name": "dadablog",
+        "name": "daemon-kit",
         "requirements": ">= 0"
       },
       {
@@ -18860,11 +19245,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dashing",
+        "name": "dashing-weather",
         "requirements": ">= 0"
       },
       {
-        "name": "dashing-weather",
+        "name": "dashing",
         "requirements": ">= 0"
       },
       {
@@ -18873,7 +19258,7 @@
       },
       {
         "name": "days",
-        "requirements": ">= 0"
+        "requirements": "~> 0.16.0"
       },
       {
         "name": "dayvan",
@@ -18920,12 +19305,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "deploy",
-        "requirements": ">= 0"
-      },
-      {
         "name": "deplot",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "deploy",
+        "requirements": ">= 0"
       },
       {
         "name": "deploy_docus",
@@ -18984,6 +19369,10 @@
         "requirements": ">= 0.16.0"
       },
       {
+        "name": "docdown",
+        "requirements": ">= 0"
+      },
+      {
         "name": "docjs",
         "requirements": ">= 0"
       },
@@ -19033,6 +19422,10 @@
       },
       {
         "name": "dotty",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dropbox-archive",
         "requirements": ">= 0"
       },
       {
@@ -19156,6 +19549,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ende",
+        "requirements": ">= 0"
+      },
+      {
         "name": "engage",
         "requirements": "~> 0.14"
       },
@@ -19168,19 +19565,19 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "engineyard-hudson",
-        "requirements": "~> 0.14.6"
-      },
-      {
-        "name": "engineyard-local",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "engineyard-dnsimple",
         "requirements": ">= 0"
       },
       {
+        "name": "engineyard-hudson",
+        "requirements": "~> 0.14.6"
+      },
+      {
         "name": "engineyard-jenkins",
+        "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "engineyard-local",
         "requirements": "~> 0.14.6"
       },
       {
@@ -19252,11 +19649,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eyeballs",
+        "name": "eye",
         "requirements": ">= 0"
       },
       {
-        "name": "eye",
+        "name": "eyeballs",
         "requirements": ">= 0"
       },
       {
@@ -19288,6 +19685,10 @@
         "requirements": "~> 0.16.0"
       },
       {
+        "name": "fake_server",
+        "requirements": ">= 0"
+      },
+      {
         "name": "faker19",
         "requirements": ">= 0"
       },
@@ -19314,6 +19715,10 @@
       {
         "name": "fasta_util",
         "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "favourite-language",
+        "requirements": "~> 0.18"
       },
       {
         "name": "fbapp",
@@ -19380,11 +19785,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "flex-source-inspector",
+        "name": "flex-compiler",
         "requirements": ">= 0"
       },
       {
-        "name": "flex-compiler",
+        "name": "flex-source-inspector",
         "requirements": ">= 0"
       },
       {
@@ -19404,11 +19809,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-iwd",
+        "name": "fog-maestrodev",
         "requirements": ">= 0"
       },
       {
-        "name": "fog-maestrodev",
+        "name": "fog-iwd",
         "requirements": ">= 0"
       },
       {
@@ -19420,11 +19825,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-test-me",
+        "name": "fog-test-again",
         "requirements": ">= 0"
       },
       {
-        "name": "fog-test-again",
+        "name": "fog-test-me",
         "requirements": ">= 0"
       },
       {
@@ -19440,24 +19845,24 @@
         "requirements": "~> 0.18.1"
       },
       {
-        "name": "fontcustomtoadstool",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fontcustom",
         "requirements": "~> 0.18.1"
+      },
+      {
+        "name": "fontcustomtoadstool",
+        "requirements": ">= 0"
       },
       {
         "name": "fontrobot",
         "requirements": ">= 0"
       },
       {
-        "name": "foodie",
-        "requirements": ">= 0"
-      },
-      {
         "name": "foodie2",
         "requirements": "~> 0.18.1"
+      },
+      {
+        "name": "foodie",
+        "requirements": ">= 0"
       },
       {
         "name": "foreman",
@@ -19480,12 +19885,12 @@
         "requirements": ">= 0.15.0"
       },
       {
-        "name": "forge-cli",
-        "requirements": ">= 0"
-      },
-      {
         "name": "forge",
         "requirements": "~> 0.15.4"
+      },
+      {
+        "name": "forge-cli",
+        "requirements": ">= 0"
       },
       {
         "name": "forklifter",
@@ -19540,12 +19945,12 @@
         "requirements": ">= 0.14"
       },
       {
-        "name": "fvm",
-        "requirements": "= 0.14.3"
-      },
-      {
         "name": "fwtoolkit",
         "requirements": "~> 0.17.0"
+      },
+      {
+        "name": "fvm",
+        "requirements": "= 0.14.3"
       },
       {
         "name": "g5gem",
@@ -19624,6 +20029,10 @@
         "requirements": "~> 0.15.3"
       },
       {
+        "name": "gemshack",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gemsmith",
         "requirements": "~> 0.18"
       },
@@ -19692,12 +20101,12 @@
         "requirements": "~> 0.17.0"
       },
       {
-        "name": "git-deploy",
-        "requirements": "= 0.14.6"
-      },
-      {
         "name": "git-current_branch",
         "requirements": ">= 0"
+      },
+      {
+        "name": "git-deploy",
+        "requirements": "= 0.14.6"
       },
       {
         "name": "git-dropbox",
@@ -19712,11 +20121,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "git-review-notes",
+        "name": "git-review-branch",
         "requirements": ">= 0"
       },
       {
-        "name": "git-review-branch",
+        "name": "git-review-notes",
         "requirements": ">= 0"
       },
       {
@@ -19764,16 +20173,20 @@
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "gitdummy",
-        "requirements": ">= 0.14.6"
-      },
-      {
         "name": "giteaucrat",
         "requirements": ">= 0"
       },
       {
         "name": "gitflow",
         "requirements": "~> 0.14"
+      },
+      {
+        "name": "gitdummy",
+        "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "github-archive",
+        "requirements": ">= 0"
       },
       {
         "name": "github-commit-status-updater",
@@ -19796,12 +20209,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gitio",
-        "requirements": ">= 0"
-      },
-      {
         "name": "githug",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "gitio",
+        "requirements": ">= 0"
       },
       {
         "name": "gitlab-cli",
@@ -19834,10 +20247,6 @@
       {
         "name": "glitter",
         "requirements": ">= 0"
-      },
-      {
-        "name": "gloader",
-        "requirements": "~> 0.18.1"
       },
       {
         "name": "glub",
@@ -19921,7 +20330,7 @@
       },
       {
         "name": "guard",
-        "requirements": ">= 0.14.6"
+        "requirements": ">= 0.18.1"
       },
       {
         "name": "guard-jasmine",
@@ -20020,6 +20429,10 @@
         "requirements": ">= 0.11.5"
       },
       {
+        "name": "hatebu_entry",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hatetepe",
         "requirements": ">= 0"
       },
@@ -20060,12 +20473,12 @@
         "requirements": "~> 0.18.1"
       },
       {
-        "name": "HeSYINUvSBZfxqA-foreman",
-        "requirements": ">= 0.13.6"
-      },
-      {
         "name": "HeSYINUvSBZfxqA-veewee",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "HeSYINUvSBZfxqA-foreman",
+        "requirements": ">= 0.13.6"
       },
       {
         "name": "hetzner-api",
@@ -20104,11 +20517,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hobber",
+        "name": "HNsearch",
         "requirements": ">= 0"
       },
       {
-        "name": "HNsearch",
+        "name": "hobber",
         "requirements": ">= 0"
       },
       {
@@ -20120,12 +20533,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "homesick",
-        "requirements": ">= 0.14.0"
-      },
-      {
         "name": "homesync",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "homesick",
+        "requirements": ">= 0.14.0"
       },
       {
         "name": "hoof",
@@ -20148,16 +20561,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hpp",
-        "requirements": ">= 0.16.0"
-      },
-      {
         "name": "hpfog",
         "requirements": ">= 0"
       },
       {
         "name": "hpcloudmangler",
         "requirements": ">= 0"
+      },
+      {
+        "name": "hpp",
+        "requirements": ">= 0.16.0"
       },
       {
         "name": "hse",
@@ -20176,12 +20589,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "html_mockup",
-        "requirements": "~> 0.16.0"
-      },
-      {
         "name": "html_package",
         "requirements": ">= 0.14"
+      },
+      {
+        "name": "html_mockup",
+        "requirements": "~> 0.16.0"
       },
       {
         "name": "http_machinegun",
@@ -20404,11 +20817,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jelaniharris-activemerchant",
+        "name": "jekyll_and_hyde",
         "requirements": ">= 0"
       },
       {
-        "name": "jekyll_and_hyde",
+        "name": "jekyll_date_chart",
+        "requirements": ">= 0.18.1, ~> 0.18"
+      },
+      {
+        "name": "jelaniharris-activemerchant",
         "requirements": ">= 0"
       },
       {
@@ -20416,12 +20833,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "jenerator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jenkins",
         "requirements": "~> 0.14.2"
       },
       {
-        "name": "jenerator",
-        "requirements": ">= 0"
+        "name": "jenkins_api_client",
+        "requirements": ">= 0.16.0"
       },
       {
         "name": "jenkins-maestrodev",
@@ -20432,20 +20853,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jenkins_api_client",
-        "requirements": ">= 0.16.0"
-      },
-      {
         "name": "jenkins_cron",
         "requirements": ">= 0"
       },
       {
-        "name": "jenkins_launcher",
-        "requirements": "~> 0.18.0"
-      },
-      {
         "name": "jenkins_job",
         "requirements": "~> 0.14.0"
+      },
+      {
+        "name": "jenkins_launcher",
+        "requirements": "~> 0.18.0"
       },
       {
         "name": "jenkins_tracker",
@@ -20464,12 +20881,12 @@
         "requirements": "~> 0.15"
       },
       {
-        "name": "jettr",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jetstream",
         "requirements": ">= 0.11.5"
+      },
+      {
+        "name": "jettr",
+        "requirements": ">= 0"
       },
       {
         "name": "jim",
@@ -20496,11 +20913,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jpi",
+        "name": "jplugin",
         "requirements": ">= 0"
       },
       {
-        "name": "jplugin",
+        "name": "jpi",
         "requirements": ">= 0"
       },
       {
@@ -20524,16 +20941,16 @@
         "requirements": "< 2.0, >= 0.14"
       },
       {
+        "name": "jquery-rails-rails4",
+        "requirements": "< 2.0, >= 0.14"
+      },
+      {
         "name": "jquery-rails-multipart-xhr",
         "requirements": "~> 0.14"
       },
       {
         "name": "jquery-rails_vho",
         "requirements": "~> 0.14"
-      },
-      {
-        "name": "jquery-rails-rails4",
-        "requirements": "< 2.0, >= 0.14"
       },
       {
         "name": "jquery-validation-rails",
@@ -20560,23 +20977,27 @@
         "requirements": "~> 0.14"
       },
       {
+        "name": "jsonip",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jsonrpc2",
         "requirements": ">= 0"
       },
       {
         "name": "jtest",
-        "requirements": ">= 0"
+        "requirements": "~> 0.18.1"
       },
       {
         "name": "jupiter",
         "requirements": "~> 0.17.0"
       },
       {
-        "name": "justiz",
+        "name": "justiz_sync",
         "requirements": ">= 0"
       },
       {
-        "name": "justiz_sync",
+        "name": "justiz",
         "requirements": ">= 0"
       },
       {
@@ -20624,6 +21045,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kia",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kibo",
         "requirements": ">= 0"
       },
@@ -20632,12 +21057,12 @@
         "requirements": "~> 0.18.1"
       },
       {
-        "name": "kitabu",
-        "requirements": ">= 0"
-      },
-      {
         "name": "kissy-rails",
         "requirements": "~> 0.14"
+      },
+      {
+        "name": "kitabu",
+        "requirements": ">= 0"
       },
       {
         "name": "klarna_chef",
@@ -20952,10 +21377,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "majic",
-        "requirements": ">= 0"
-      },
-      {
         "name": "makecal",
         "requirements": ">= 0"
       },
@@ -20964,12 +21385,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mamemose",
-        "requirements": ">= 0.17.0"
-      },
-      {
         "name": "mami",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mamemose",
+        "requirements": ">= 0.17.0"
       },
       {
         "name": "manamana",
@@ -20984,12 +21405,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "marhan_cli",
-        "requirements": ">= 0"
-      },
-      {
         "name": "marginalia-io",
         "requirements": "~> 0.16.0"
+      },
+      {
+        "name": "marhan_cli",
+        "requirements": ">= 0"
       },
       {
         "name": "markyboot",
@@ -21104,12 +21525,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "middleman-core-x86-mingw32",
-        "requirements": "~> 0.15.4"
-      },
-      {
         "name": "middleman-core",
         "requirements": "< 2.0, >= 0.15.2"
+      },
+      {
+        "name": "middleman-core-x86-mingw32",
+        "requirements": "~> 0.15.4"
       },
       {
         "name": "middleman-webcomic",
@@ -21120,16 +21541,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "milkman",
-        "requirements": ">= 0"
+        "name": "milkode",
+        "requirements": ">= 0.18.1"
       },
       {
         "name": "milkshake",
         "requirements": ">= 0"
       },
       {
-        "name": "milkode",
-        "requirements": ">= 0.18.1"
+        "name": "milkman",
+        "requirements": ">= 0"
       },
       {
         "name": "mines",
@@ -21196,15 +21617,19 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "mokuji",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "moka",
         "requirements": ">= 0"
       },
       {
+        "name": "mokuji",
+        "requirements": "~> 0.14.6"
+      },
+      {
         "name": "mologue",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "money_exchange",
         "requirements": ">= 0"
       },
       {
@@ -21212,12 +21637,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mongo_browser",
-        "requirements": "= 0.18.1"
-      },
-      {
         "name": "mongo_backer",
         "requirements": ">= 0.13.8"
+      },
+      {
+        "name": "mongo_browser",
+        "requirements": "= 0.18.1"
       },
       {
         "name": "mongolly",
@@ -21228,12 +21653,12 @@
         "requirements": "~> 0.11"
       },
       {
-        "name": "moode_auto_deploy_kit",
-        "requirements": "~> 0.17.0"
-      },
-      {
         "name": "moodle2cc",
         "requirements": ">= 0"
+      },
+      {
+        "name": "moode_auto_deploy_kit",
+        "requirements": "~> 0.17.0"
       },
       {
         "name": "mootools-rails",
@@ -21294,6 +21719,10 @@
       {
         "name": "multiengine",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "mundane",
+        "requirements": ">= 0"
       },
       {
         "name": "muni",
@@ -21400,12 +21829,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nginx_utils",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nginxtra",
         "requirements": "~> 0.16"
+      },
+      {
+        "name": "nginx_utils",
+        "requirements": ">= 0"
       },
       {
         "name": "nit",
@@ -21424,11 +21853,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "norikra-client",
+        "name": "norikra-client-jruby",
         "requirements": ">= 0"
       },
       {
-        "name": "norikra-client-jruby",
+        "name": "norikra-client",
         "requirements": ">= 0"
       },
       {
@@ -21456,6 +21885,10 @@
         "requirements": "~> 0.14.6"
       },
       {
+        "name": "ocean_commander",
+        "requirements": ">= 0.18.1"
+      },
+      {
         "name": "octopush",
         "requirements": "~> 0.18.1"
       },
@@ -21476,11 +21909,11 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "omnibus-sonian",
+        "name": "omnibus",
         "requirements": ">= 0.16.0"
       },
       {
-        "name": "omnibus",
+        "name": "omnibus-sonian",
         "requirements": ">= 0.16.0"
       },
       {
@@ -21624,12 +22057,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pay_dirt",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pawnee",
         "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "pay_dirt",
+        "requirements": ">= 0"
       },
       {
         "name": "pbs_job",
@@ -21736,6 +22169,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pkgr-deb-s3",
+        "requirements": "~> 0.18.0"
+      },
+      {
+        "name": "pkgr",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pkgwat",
         "requirements": ">= 0"
       },
@@ -21768,6 +22209,10 @@
         "requirements": "~> 0.14.6"
       },
       {
+        "name": "poper",
+        "requirements": "~> 0.18.0"
+      },
+      {
         "name": "popme",
         "requirements": "~> 0.17"
       },
@@ -21777,6 +22222,10 @@
       },
       {
         "name": "posty_cli",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "posty_client",
         "requirements": ">= 0"
       },
       {
@@ -21824,7 +22273,15 @@
         "requirements": "~> 0.11"
       },
       {
+        "name": "prime_table",
+        "requirements": ">= 0"
+      },
+      {
         "name": "private-bam",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "procfile-upstart-exporter",
         "requirements": ">= 0"
       },
       {
@@ -22132,16 +22589,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "releaser",
-        "requirements": ">= 0"
-      },
-      {
         "name": "releasy",
         "requirements": "~> 0.14.6"
       },
       {
         "name": "relevance_rails",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "releaser",
+        "requirements": ">= 0"
       },
       {
         "name": "remian",
@@ -22216,16 +22673,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rity",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ritual",
         "requirements": ">= 0"
       },
       {
         "name": "ritsu",
         "requirements": ">= 0.13.4"
+      },
+      {
+        "name": "rity",
+        "requirements": ">= 0"
       },
       {
         "name": "rleber-textmate",
@@ -22252,24 +22709,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "robot-army",
-        "requirements": ">= 0.11.7"
+        "name": "robot-army-git-deploy",
+        "requirements": ">= 0.11.3"
       },
       {
         "name": "robot",
         "requirements": ">= 0"
       },
       {
-        "name": "robot-army-git-deploy",
-        "requirements": ">= 0.11.3"
+        "name": "robot-army",
+        "requirements": ">= 0.11.7"
       },
       {
         "name": "rocketwheel-command",
         "requirements": "~> 0.17.0"
-      },
-      {
-        "name": "rotation",
-        "requirements": ">= 0"
       },
       {
         "name": "roundtrip",
@@ -22284,8 +22737,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rotation",
+        "requirements": ">= 0"
+      },
+      {
         "name": "roxie",
         "requirements": "~> 0.18.1"
+      },
+      {
+        "name": "rrod",
+        "requirements": "~> 0.18"
       },
       {
         "name": "rs_vagrant_shim",
@@ -22328,11 +22789,11 @@
         "requirements": "~> 0.17.0"
       },
       {
-        "name": "rtmux",
+        "name": "RTop",
         "requirements": ">= 0"
       },
       {
-        "name": "RTop",
+        "name": "rtmux",
         "requirements": ">= 0"
       },
       {
@@ -22436,6 +22897,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rundoc",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rupi",
         "requirements": ">= 0"
       },
@@ -22460,16 +22925,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "s3cmd",
-        "requirements": "~> 0.18.1"
+        "name": "s3_website",
+        "requirements": "= 0.18.1"
       },
       {
         "name": "s3archive",
         "requirements": "~> 0.14.6"
       },
       {
-        "name": "s3_website",
-        "requirements": "= 0.18.1"
+        "name": "s3cmd",
+        "requirements": "~> 0.18.1"
       },
       {
         "name": "s3poller",
@@ -22480,12 +22945,12 @@
         "requirements": "~> 0.18"
       },
       {
-        "name": "s3snapshot",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "s3stream",
         "requirements": "< 0.16, >= 0.14.6"
+      },
+      {
+        "name": "s3snapshot",
+        "requirements": "~> 0.14.6"
       },
       {
         "name": "s3twin",
@@ -22524,15 +22989,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sasslint",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "sasslint",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sassquatch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sasslint",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sasslint",
         "requirements": ">= 0"
       },
       {
@@ -22624,7 +23089,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "select2-master-rails",
+        "name": "select2-duckinator-rails",
         "requirements": "~> 0.14"
       },
       {
@@ -22632,7 +23097,7 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "select2-duckinator-rails",
+        "name": "select2-master-rails",
         "requirements": "~> 0.14"
       },
       {
@@ -22664,6 +23129,10 @@
         "requirements": "~> 0.16"
       },
       {
+        "name": "serverist-replication",
+        "requirements": ">= 0"
+      },
+      {
         "name": "service_disruption",
         "requirements": ">= 0"
       },
@@ -22688,6 +23157,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shard",
+        "requirements": "~> 0.18.1"
+      },
+      {
         "name": "shellpress",
         "requirements": ">= 0.14.6"
       },
@@ -22696,15 +23169,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shinkansen",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "shinkansen",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ship_it",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "shinkansen",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "shinkansen",
         "requirements": ">= 0"
       },
       {
@@ -22716,11 +23189,11 @@
         "requirements": ">= 0.14.4"
       },
       {
-        "name": "shopify_theme_multi_shop",
+        "name": "shopify_theme",
         "requirements": ">= 0.14.4"
       },
       {
-        "name": "shopify_theme",
+        "name": "shopify_theme_multi_shop",
         "requirements": ">= 0.14.4"
       },
       {
@@ -22744,12 +23217,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "simba",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "SimControl",
         "requirements": ">= 0"
+      },
+      {
+        "name": "simba",
+        "requirements": "~> 0.14.6"
       },
       {
         "name": "simple-tooltip",
@@ -22804,12 +23277,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "skynet-deploy",
-        "requirements": "~> 0.16"
-      },
-      {
         "name": "skyp",
         "requirements": "~> 0.18.1"
+      },
+      {
+        "name": "skynet-deploy",
+        "requirements": "~> 0.16"
       },
       {
         "name": "sleep",
@@ -22822,6 +23295,10 @@
       {
         "name": "slickr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "slide_hero",
+        "requirements": "~> 0.18.1"
       },
       {
         "name": "slideshift",
@@ -22854,6 +23331,10 @@
       {
         "name": "snfn",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "sneakers",
+        "requirements": ">= 0"
       },
       {
         "name": "snipcheat",
@@ -22900,12 +23381,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "soybean",
-        "requirements": ">= 0"
-      },
-      {
         "name": "spaceport",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "soybean",
+        "requirements": ">= 0"
       },
       {
         "name": "spade",
@@ -22918,10 +23399,6 @@
       {
         "name": "spade-runtime",
         "requirements": "~> 0.14.3"
-      },
-      {
-        "name": "spar",
-        "requirements": ">= 0.15.2, ~> 0.15"
       },
       {
         "name": "spatula",
@@ -22950,6 +23427,10 @@
       {
         "name": "sphonglepress",
         "requirements": ">= 0"
+      },
+      {
+        "name": "spar",
+        "requirements": ">= 0.15.2, ~> 0.15"
       },
       {
         "name": "spike",
@@ -23064,12 +23545,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "step_definitions_viewer",
-        "requirements": "= 0.14.6"
-      },
-      {
         "name": "step-up",
         "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "step_definitions_viewer",
+        "requirements": "= 0.14.6"
       },
       {
         "name": "stepford",
@@ -23077,6 +23558,14 @@
       },
       {
         "name": "stickyflag",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stock_quote_cli",
+        "requirements": "~> 0.18.1"
+      },
+      {
+        "name": "stock_quote_cli",
         "requirements": ">= 0"
       },
       {
@@ -23220,11 +23709,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tddium",
+        "name": "tddium-preview",
         "requirements": ">= 0"
       },
       {
-        "name": "tddium-preview",
+        "name": "tddium",
         "requirements": ">= 0"
       },
       {
@@ -23256,6 +23745,10 @@
         "requirements": "~> 0.14.0"
       },
       {
+        "name": "termrc",
+        "requirements": "~> 0.18.0"
+      },
+      {
         "name": "termup",
         "requirements": "~> 0.16.0"
       },
@@ -23280,12 +23773,12 @@
         "requirements": "~> 0.16.0"
       },
       {
-        "name": "testinator",
-        "requirements": "~> 0.14.0"
-      },
-      {
         "name": "testgen",
         "requirements": ">= 0.17.0"
+      },
+      {
+        "name": "testinator",
+        "requirements": "~> 0.14.0"
       },
       {
         "name": "textile_editor_helper",
@@ -23316,6 +23809,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "themebox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "therapist",
         "requirements": ">= 0"
       },
@@ -23336,10 +23833,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thor-levenshtein",
-        "requirements": "~> 0.16.0"
-      },
-      {
         "name": "thor-package",
         "requirements": ">= 0"
       },
@@ -23348,7 +23841,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "thor-levenshtein",
+        "requirements": "~> 0.16.0"
+      },
+      {
         "name": "thor-tropo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thor_250mm_cannon",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thor_hammer",
         "requirements": ">= 0"
       },
       {
@@ -23356,20 +23861,12 @@
         "requirements": ">= 0.14.6"
       },
       {
-        "name": "thor_hammer",
+        "name": "thor_subtree",
         "requirements": ">= 0"
       },
       {
         "name": "thor_plus",
         "requirements": "~> 0.18"
-      },
-      {
-        "name": "thor_250mm_cannon",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "thor_subtree",
-        "requirements": ">= 0"
       },
       {
         "name": "thyone_creator",
@@ -23445,15 +23942,15 @@
       },
       {
         "name": "torpedo",
-        "requirements": "~> 0.14.6"
-      },
-      {
-        "name": "torquebox-backstage",
-        "requirements": "= 0.14.6"
+        "requirements": ">= 0"
       },
       {
         "name": "torquebox",
         "requirements": ">= 0.14.6"
+      },
+      {
+        "name": "torquebox-backstage",
+        "requirements": "= 0.14.6"
       },
       {
         "name": "torquebox-lite",
@@ -23596,12 +24093,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tz_pickup",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tyrone",
         "requirements": ">= 0.13.0"
+      },
+      {
+        "name": "tz_pickup",
+        "requirements": ">= 0"
       },
       {
         "name": "uberinstaller",
@@ -23660,12 +24157,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "varia_model",
-        "requirements": "~> 0.18.0"
-      },
-      {
         "name": "varfile",
         "requirements": "~> 0.16.0"
+      },
+      {
+        "name": "varia_model",
+        "requirements": "~> 0.18.0"
       },
       {
         "name": "vbox",
@@ -23674,14 +24171,6 @@
       {
         "name": "veewee-atlassian",
         "requirements": "~> 0.15"
-      },
-      {
-        "name": "veewee",
-        "requirements": "~> 0.15"
-      },
-      {
-        "name": "velcro",
-        "requirements": "~> 0.16.0"
       },
       {
         "name": "velociraptor",
@@ -23696,6 +24185,18 @@
         "requirements": ">= 0.18.1"
       },
       {
+        "name": "veewee",
+        "requirements": "~> 0.15"
+      },
+      {
+        "name": "versacommerce_api",
+        "requirements": ">= 0.14.4"
+      },
+      {
+        "name": "velcro",
+        "requirements": "~> 0.16.0"
+      },
+      {
         "name": "vhost_admin",
         "requirements": ">= 0"
       },
@@ -23704,12 +24205,12 @@
         "requirements": ">= 0.14.6"
       },
       {
-        "name": "vim-flavor",
-        "requirements": "~> 0.14"
-      },
-      {
         "name": "vim-jar",
         "requirements": ">= 0"
+      },
+      {
+        "name": "vim-flavor",
+        "requirements": "~> 0.14"
       },
       {
         "name": "vimdo",
@@ -23720,16 +24221,16 @@
         "requirements": ">= 0.14.6"
       },
       {
+        "name": "vimjar",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vimmer",
         "requirements": ">= 0"
       },
       {
         "name": "vimmy",
         "requirements": "~> 0.14.6"
-      },
-      {
-        "name": "vimjar",
-        "requirements": ">= 0"
       },
       {
         "name": "visitors",
@@ -23744,8 +24245,16 @@
         "requirements": "= 0.14.6"
       },
       {
+        "name": "vulcan",
+        "requirements": "~> 0.14.6"
+      },
+      {
         "name": "vvm-rb",
         "requirements": ">= 0"
+      },
+      {
+        "name": "waddup",
+        "requirements": "~> 0.18.1"
       },
       {
         "name": "wakame-vdc-webui",
@@ -23776,10 +24285,6 @@
         "requirements": "~> 0"
       },
       {
-        "name": "vulcan",
-        "requirements": "~> 0.14.6"
-      },
-      {
         "name": "wd_sinatra",
         "requirements": ">= 0"
       },
@@ -23800,12 +24305,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wepay-rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "wepredict",
         "requirements": "~> 0.14.6"
+      },
+      {
+        "name": "wepay-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "westarete-skylinecms",
@@ -23816,12 +24321,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "whisk",
+        "name": "whipped-cream",
         "requirements": ">= 0"
       },
       {
         "name": "whiskey",
         "requirements": "~> 0.18"
+      },
+      {
+        "name": "whisk",
+        "requirements": ">= 0"
       },
       {
         "name": "whosup",
@@ -23852,11 +24361,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wolfpack",
+        "name": "wl",
         "requirements": ">= 0"
       },
       {
-        "name": "wl",
+        "name": "wolfpack",
         "requirements": ">= 0"
       },
       {
@@ -23868,11 +24377,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wordmove",
+        "name": "wordmove-sshbump",
         "requirements": ">= 0"
       },
       {
-        "name": "wordmove-sshbump",
+        "name": "wordmove",
         "requirements": ">= 0"
       },
       {
@@ -23888,12 +24397,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wox",
-        "requirements": ">= 0"
-      },
-      {
         "name": "woz",
         "requirements": "= 0.16.0"
+      },
+      {
+        "name": "wox",
+        "requirements": ">= 0"
       },
       {
         "name": "wp-fire",
@@ -23902,10 +24411,6 @@
       {
         "name": "wp_backup",
         "requirements": "= 0.15.2"
-      },
-      {
-        "name": "wp_cli",
-        "requirements": "~> 0.18.1"
       },
       {
         "name": "wpcap",
@@ -23980,15 +24485,19 @@
         "requirements": "~> 0.14"
       },
       {
-        "name": "yoke",
-        "requirements": "= 0.18.1"
-      },
-      {
         "name": "yohoushi-client",
         "requirements": ">= 0"
       },
       {
+        "name": "yoke",
+        "requirements": "= 0.18.1"
+      },
+      {
         "name": "yolo_backup",
+        "requirements": "~> 0.18"
+      },
+      {
+        "name": "yourub",
         "requirements": "~> 0.18"
       },
       {
@@ -24068,6 +24577,13 @@
 
     ],
     "description": "General Thor extension for building console-based ruby apps with built-in colour UI"
+  },
+  "thor-dleavitt": {
+    "version": "0.18.1",
+    "dependents": [
+
+    ],
+    "description": "Thor is a toolkit for building powerful command-line interfaces."
   },
   "thor-exclude_pattern": {
     "version": "0.18.1",
@@ -24155,6 +24671,13 @@
     ],
     "description": "A set of thor scripts for administration tasks for rails applications.\n                     Use it to handle most common project administration tasks."
   },
+  "thor_dleavitt": {
+    "version": "0.18.1",
+    "dependents": [
+
+    ],
+    "description": "Thor is a toolkit for building powerful command-line interfaces."
+  },
   "thor_hammer": {
     "version": "1.0.0",
     "dependents": [
@@ -24206,7 +24729,7 @@
     "description": "Add Thorax to the Rails asset pipeline.  Generators take care of boilerplate code so you don't have to"
   },
   "thorax-rails": {
-    "version": "0.0.1.22",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -24409,11 +24932,11 @@
         "requirements": "~> 1.2.3"
       },
       {
-        "name": "stratify-rhapsody",
+        "name": "stratify-instapaper",
         "requirements": "~> 1.2.3"
       },
       {
-        "name": "stratify-instapaper",
+        "name": "stratify-rhapsody",
         "requirements": "~> 1.2.3"
       }
     ],
@@ -24434,11 +24957,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "AbsoluteRenamer",
+        "name": "AbsoluteRenamer-date",
         "requirements": ">= 0"
       },
       {
-        "name": "AbsoluteRenamer-date",
+        "name": "AbsoluteRenamer",
         "requirements": ">= 0"
       },
       {
@@ -24462,11 +24985,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "active_scaffold_generator_gem",
+        "name": "active_scaffold_generator",
         "requirements": ">= 0"
       },
       {
-        "name": "active_scaffold_generator",
+        "name": "active_scaffold_generator_gem",
         "requirements": ">= 0"
       },
       {
@@ -24530,11 +25053,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ahp-linalg",
+        "name": "ahp",
         "requirements": ">= 0"
       },
       {
-        "name": "ahp",
+        "name": "ahp-linalg",
         "requirements": ">= 0"
       },
       {
@@ -24570,15 +25093,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Anyhub",
-        "requirements": ">= 0"
-      },
-      {
         "name": "anychart_xml_builder",
         "requirements": ">= 0"
       },
       {
         "name": "anychart_helpers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "Anyhub",
         "requirements": ">= 0"
       },
       {
@@ -24742,11 +25265,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cache_back",
+        "name": "cache-with-yuicompressor",
         "requirements": ">= 0"
       },
       {
-        "name": "cache-with-yuicompressor",
+        "name": "cache_back",
         "requirements": ">= 0"
       },
       {
@@ -24838,11 +25361,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chubasaweber",
+        "name": "chuck-norris",
         "requirements": ">= 0"
       },
       {
-        "name": "chuck-norris",
+        "name": "chubasaweber",
         "requirements": ">= 0"
       },
       {
@@ -24878,11 +25401,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cobalt",
+        "name": "code_statistics",
         "requirements": ">= 0"
       },
       {
-        "name": "code_statistics",
+        "name": "cobalt",
         "requirements": ">= 0"
       },
       {
@@ -25078,16 +25601,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "doppelganger",
-        "requirements": "~> 2.0"
-      },
-      {
-        "name": "doppelganger",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "dopplr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "doppelganger",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "doppelganger",
+        "requirements": "~> 2.0"
       },
       {
         "name": "drank",
@@ -25122,11 +25645,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easybench",
+        "name": "easycrumbs",
         "requirements": ">= 0"
       },
       {
-        "name": "easycrumbs",
+        "name": "easybench",
         "requirements": ">= 0"
       },
       {
@@ -25282,11 +25805,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "formtastic_state_select",
+        "name": "formtastic_extensions",
         "requirements": ">= 0"
       },
       {
-        "name": "formtastic_extensions",
+        "name": "formtastic_state_select",
         "requirements": ">= 0"
       },
       {
@@ -25386,11 +25909,11 @@
         "requirements": ">= 2.10.1"
       },
       {
-        "name": "git-up-portertech",
+        "name": "git-up-decklin",
         "requirements": ">= 0"
       },
       {
-        "name": "git-up-decklin",
+        "name": "git-up-portertech",
         "requirements": ">= 0"
       },
       {
@@ -25418,11 +25941,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "good_touch",
+        "name": "gooddata",
         "requirements": ">= 0"
       },
       {
-        "name": "gooddata",
+        "name": "good_touch",
         "requirements": ">= 0"
       },
       {
@@ -25602,16 +26125,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "imposter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "imposter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "importer",
         "requirements": "= 2.11.1"
-      },
-      {
-        "name": "imposter",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "imposter",
-        "requirements": ">= 0"
       },
       {
         "name": "in_enumerable",
@@ -25646,11 +26169,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "is_contacted",
+        "name": "is_alias",
         "requirements": ">= 0"
       },
       {
-        "name": "is_alias",
+        "name": "is_contacted",
         "requirements": ">= 0"
       },
       {
@@ -25679,10 +26202,6 @@
       },
       {
         "name": "jet",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "jira4r",
         "requirements": ">= 0"
       },
       {
@@ -25734,15 +26253,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kete_browserid",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kete_gets_trollied",
         "requirements": ">= 0"
       },
       {
         "name": "kete_trackable_items",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "kete_browserid",
         "requirements": ">= 0"
       },
       {
@@ -25779,10 +26298,6 @@
       },
       {
         "name": "laze",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "lazyeval",
         "requirements": ">= 0"
       },
       {
@@ -26190,7 +26705,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pine2csv",
+        "name": "pinba",
         "requirements": ">= 0"
       },
       {
@@ -26198,7 +26713,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pinba",
+        "name": "pine2csv",
         "requirements": ">= 0"
       },
       {
@@ -26342,11 +26857,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "redmine_client_user",
+        "name": "redmine_client",
         "requirements": ">= 0"
       },
       {
-        "name": "redmine_client",
+        "name": "redmine_client_user",
         "requirements": ">= 0"
       },
       {
@@ -26486,15 +27001,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rot",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rotten-tomatoes",
         "requirements": ">= 0"
       },
       {
         "name": "rotten-tomatoes47",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rot",
         "requirements": ">= 0"
       },
       {
@@ -26598,7 +27113,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "santey_vote",
+        "name": "santey-blog",
         "requirements": ">= 0"
       },
       {
@@ -26606,7 +27121,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "santey-blog",
+        "name": "santey_vote",
         "requirements": ">= 0"
       },
       {
@@ -26626,15 +27141,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "scharfie-rails-footnotes",
-        "requirements": ">= 0"
-      },
-      {
         "name": "scensus-utils",
         "requirements": ">= 0"
       },
       {
         "name": "sched",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "scharfie-rails-footnotes",
         "requirements": ">= 0"
       },
       {
@@ -26690,11 +27205,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sga_enum",
+        "name": "sga_fields_synchronizer",
         "requirements": ">= 0"
       },
       {
-        "name": "sga_fields_synchronizer",
+        "name": "sga_enum",
         "requirements": ">= 0"
       },
       {
@@ -26810,11 +27325,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "snapshots",
+        "name": "snapurl",
         "requirements": ">= 0"
       },
       {
-        "name": "snapurl",
+        "name": "snapshots",
         "requirements": ">= 0"
       },
       {
@@ -26930,15 +27445,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tagomatic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tallakt-picsort",
         "requirements": ">= 0"
       },
       {
         "name": "tappie",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "tagomatic",
         "requirements": ">= 0"
       },
       {
@@ -27403,6 +27918,10 @@
       {
         "name": "queuel",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sneakers",
+        "requirements": ">= 0"
       }
     ],
     "description": "Includes a thread pool, message passing capabilities, a recursive mutex, promise, future and delay."
@@ -27466,15 +27985,22 @@
     ],
     "description": "Placeholder for a gem to be migrated later"
   },
+  "thread_puddle": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "puddles of threads"
+  },
   "thread_safe": {
     "version": "unknown",
     "dependents": [
       {
-        "name": "activesupport",
+        "name": "activesupport-core-ext",
         "requirements": "~> 0.1"
       },
       {
-        "name": "activesupport-core-ext",
+        "name": "activesupport",
         "requirements": "~> 0.1"
       },
       {
@@ -27514,16 +28040,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "resque_safe",
-        "requirements": ">= 0"
-      },
-      {
         "name": "semantic_logger",
         "requirements": ">= 0.1.0"
       },
       {
         "name": "tickr_client",
         "requirements": "~> 0.1"
+      },
+      {
+        "name": "triad",
+        "requirements": "~> 0.1.3"
       },
       {
         "name": "tzinfo",
@@ -27605,7 +28131,7 @@
     "description": "A simple wrapper for Ruby Threads and SizedQueue."
   },
   "threadedlogger": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -27639,7 +28165,7 @@
     "description": "Fork threads like Thread.fork, but limit the number of concurrently running threads."
   },
   "threadlock": {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "dependents": [
       {
         "name": "hegemon",
@@ -27715,7 +28241,7 @@
     "description": "Provides a simple API to query ThreatExpert by malware name (to receive a list of matching hashes) or hash (to receive a malware report).  This also provides a simple upload feature."
   },
   "thredded": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -28011,12 +28537,16 @@
         "requirements": "~> 0.7.0"
       },
       {
+        "name": "cassandra",
+        "requirements": "< 0.9, ~> 0.7"
+      },
+      {
         "name": "cassandra-cql",
         "requirements": "< 0.9, >= 0.7.1"
       },
       {
-        "name": "cassandra",
-        "requirements": "< 0.9, ~> 0.7"
+        "name": "cassandra_object_rails",
+        "requirements": "~> 0.9.2"
       },
       {
         "name": "cassandra_integration",
@@ -28027,16 +28557,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cassandra_object_rails",
-        "requirements": "~> 0.9.2"
+        "name": "evernote",
+        "requirements": ">= 0.8.1"
       },
       {
         "name": "evernotable",
         "requirements": ">= 0"
-      },
-      {
-        "name": "evernote",
-        "requirements": ">= 0.8.1"
       },
       {
         "name": "everton",
@@ -28306,7 +28832,7 @@
     "description": "Collection of capistano recipes for deployment and server tasks"
   },
   "thunderboltlabs-rubyXL": {
-    "version": "1.2.10.1",
+    "version": "1.2.10.2",
     "dependents": [
 
     ],
@@ -28362,7 +28888,7 @@
     "description": "Creates thumbnails or gif animations using Gnash as SWF renderer"
   },
   "thyme": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -28497,6 +29023,13 @@
     ],
     "description": "Retrieves tickers, names, and other useful data for all stocks listed on the 3 major US exchanges (NYSE, NASDAQ, AMEX)."
   },
+  "tickerizer": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Parses content and extras stock tickers for companies mentioned"
+  },
   "ticket_network": {
     "version": "0.0.3",
     "dependents": [
@@ -28575,28 +29108,32 @@
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "ticketmaster-bugshelf",
-        "requirements": ">= 0.6.6"
-      },
-      {
         "name": "ticketmaster-bugzilla",
         "requirements": "= 0.6.10"
-      },
-      {
-        "name": "ticketmaster-github",
-        "requirements": "= 0.7.0"
       },
       {
         "name": "ticketmaster-bugherd",
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "ticketmaster-bugshelf",
+        "requirements": ">= 0.6.6"
+      },
+      {
         "name": "ticketmaster-codaset",
         "requirements": "= 0.6.6"
       },
       {
+        "name": "ticketmaster-github",
+        "requirements": "= 0.7.0"
+      },
+      {
         "name": "ticketmaster-fogbugz",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "ticketmaster-jira",
+        "requirements": ">= 0"
       },
       {
         "name": "ticketmaster-kanbanpad",
@@ -28607,35 +29144,31 @@
         "requirements": "= 0.6.10"
       },
       {
-        "name": "ticketmaster-jira",
-        "requirements": ">= 0"
+        "name": "ticketmaster-rally",
+        "requirements": "= 0.6.10"
       },
       {
         "name": "ticketmaster-mingle",
         "requirements": "= 0.6.6"
       },
       {
-        "name": "ticketmaster-redmine",
-        "requirements": "~> 0.7.0"
-      },
-      {
         "name": "ticketmaster-pivotal",
         "requirements": "~> 0.7"
       },
       {
-        "name": "ticketmaster-rally",
-        "requirements": "= 0.6.10"
+        "name": "ticketmaster-redmine",
+        "requirements": "~> 0.7.0"
       },
       {
         "name": "ticketmaster-teambox",
         "requirements": "= 0.6.6"
       },
       {
-        "name": "ticketmaster-trac",
+        "name": "ticketmaster-zendesk",
         "requirements": "= 0.6.10"
       },
       {
-        "name": "ticketmaster-zendesk",
+        "name": "ticketmaster-trac",
         "requirements": "= 0.6.10"
       }
     ],
@@ -28833,19 +29366,19 @@
     ],
     "description": "Tic-Tac-Toe game in Ruby..."
   },
-  "tictactoe": {
-    "version": "0.0.4",
-    "dependents": [
-
-    ],
-    "description": "A simple tictactoe game gem to play in your terminal"
-  },
   "TicTacToe": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Gem of the Tic Tac Toe Game"
+  },
+  "tictactoe": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A simple tictactoe game gem to play in your terminal"
   },
   "Tictactoe-alu4116": {
     "version": "0.0.1",
@@ -28904,7 +29437,7 @@
     "description": "SinaWeibo API gem"
   },
   "tida_template": {
-    "version": "0.2.8",
+    "version": "0.2.9",
     "dependents": [
 
     ],
@@ -29143,9 +29676,12 @@
     "description": "ruby client for varnishd's admin interface"
   },
   "tiktalik": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
-
+      {
+        "name": "vagrant-tiktalik",
+        "requirements": "~> 1.0.4"
+      }
     ],
     "description": "Tiktalik.com Ruby API library"
   },
@@ -29326,11 +29862,11 @@
         "requirements": "!= 1.3.0, ~> 1.1"
       },
       {
-        "name": "code-stats",
+        "name": "code-statistics",
         "requirements": ">= 0"
       },
       {
-        "name": "code-statistics",
+        "name": "code-stats",
         "requirements": ">= 0"
       },
       {
@@ -29498,11 +30034,15 @@
         "requirements": ">= 1.2.2"
       },
       {
-        "name": "grape-jbuilder",
+        "name": "gors",
         "requirements": ">= 0"
       },
       {
         "name": "grape-rabl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "grape-jbuilder",
         "requirements": ">= 0"
       },
       {
@@ -29614,16 +30154,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "houdini-rails3",
-        "requirements": "~> 1.1"
-      },
-      {
-        "name": "houdini-rails3",
-        "requirements": "~> 1.1"
-      },
-      {
         "name": "houdini-rails",
         "requirements": ">= 1.0.1"
+      },
+      {
+        "name": "houdini-rails3",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "houdini-rails3",
+        "requirements": "~> 1.1"
       },
       {
         "name": "hqmf2js",
@@ -29786,11 +30326,11 @@
         "requirements": ">= 1.3.3"
       },
       {
-        "name": "middleman-core-x86-mingw32",
+        "name": "middleman-core",
         "requirements": "~> 1.3.6"
       },
       {
-        "name": "middleman-core",
+        "name": "middleman-core-x86-mingw32",
         "requirements": "~> 1.3.6"
       },
       {
@@ -29946,6 +30486,10 @@
         "requirements": ">= 1.0.0"
       },
       {
+        "name": "racktion",
+        "requirements": "~> 1.4"
+      },
+      {
         "name": "ractive-rails",
         "requirements": ">= 1.3"
       },
@@ -30042,11 +30586,11 @@
         "requirements": "~> 1.3.6"
       },
       {
-        "name": "rubypython",
+        "name": "rubypython-raspi",
         "requirements": "~> 1.0"
       },
       {
-        "name": "rubypython-raspi",
+        "name": "rubypython",
         "requirements": "~> 1.0"
       },
       {
@@ -30090,11 +30634,11 @@
         "requirements": ">= 1.3.4, ~> 1.3"
       },
       {
-        "name": "sinatra-assetpack",
+        "name": "sinatra-assetpack-flexible-compression",
         "requirements": ">= 1.3.0"
       },
       {
-        "name": "sinatra-assetpack-flexible-compression",
+        "name": "sinatra-assetpack",
         "requirements": ">= 1.3.0"
       },
       {
@@ -30128,6 +30672,10 @@
       {
         "name": "sinatra_more",
         "requirements": ">= 0.2"
+      },
+      {
+        "name": "slide_hero",
+        "requirements": "~> 1.4.1"
       },
       {
         "name": "slim",
@@ -30186,12 +30734,12 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "sprockets-typescript",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sprockets-umodule",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "sprockets-typescript",
+        "requirements": ">= 0"
       },
       {
         "name": "sprockets_html_template",
@@ -30266,7 +30814,7 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "tilt-jbuilder",
+        "name": "tilt-harmony",
         "requirements": ">= 0"
       },
       {
@@ -30274,15 +30822,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tilt-jbuilder",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tilt-jadeite",
         "requirements": ">= 0"
       },
       {
-        "name": "tilt-harmony",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "tilt-rdoc-markdown",
+        "name": "tilt-knitr",
         "requirements": ">= 0"
       },
       {
@@ -30290,7 +30838,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tilt-knitr",
+        "name": "tilt-rdoc-markdown",
         "requirements": ">= 0"
       },
       {
@@ -30604,11 +31152,11 @@
         "requirements": "~> 0.2.5"
       },
       {
-        "name": "cinch-cooldown",
+        "name": "cinch-dicebag",
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "cinch-dicebag",
+        "name": "cinch-cooldown",
         "requirements": "~> 1.0.1"
       },
       {
@@ -30708,7 +31256,7 @@
     "description": "Extra methods for Date, Time, and DateTime"
   },
   "time_capsule": {
-    "version": "1.2.2",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -30722,7 +31270,7 @@
     "description": "Iterate over time ranges in discrete chunks."
   },
   "time_clock": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -30780,7 +31328,7 @@
     "description": "It returns a hash file with the difference in terms of year, month, week, day, hour, minute and second"
   },
   "time_difference": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
       {
         "name": "mongodb-graphite-agent",
@@ -30855,7 +31403,7 @@
     "description": "Useful for dividing up linear time into nested intervals"
   },
   "time_jawn": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -30939,7 +31487,7 @@
     "description": "A simple natural language date time parser extracted from hound.cc. Perfect for parsing the local part of an email address"
   },
   "time_range": {
-    "version": "0.0.2",
+    "version": "0.0.3.1",
     "dependents": [
 
     ],
@@ -31005,7 +31553,7 @@
     "description": "Returns a time span splitted in desired units given two timestamps."
   },
   "time_splitter": {
-    "version": "0.3.1",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -31169,6 +31717,10 @@
         "requirements": "~> 0.3.5"
       },
       {
+        "name": "acts_as_footprintable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "actv",
         "requirements": ">= 0"
       },
@@ -31189,6 +31741,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "aggtive_record",
+        "requirements": ">= 0"
+      },
+      {
         "name": "akami",
         "requirements": "~> 0.3.5"
       },
@@ -31198,6 +31754,10 @@
       },
       {
         "name": "almaz-revelation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aloe",
         "requirements": ">= 0"
       },
       {
@@ -31218,6 +31778,10 @@
       },
       {
         "name": "apdm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "app_status",
         "requirements": ">= 0"
       },
       {
@@ -31357,7 +31921,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "carrierwave_direct",
+        "name": "carrierwave_direct_mongoid",
         "requirements": ">= 0"
       },
       {
@@ -31365,7 +31929,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "carrierwave_direct_mongoid",
+        "name": "carrierwave_direct",
         "requirements": ">= 0"
       },
       {
@@ -31501,11 +32065,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "daily",
+        "name": "daikon",
         "requirements": ">= 0"
       },
       {
-        "name": "daikon",
+        "name": "daily",
         "requirements": ">= 0"
       },
       {
@@ -31629,11 +32193,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "event_calendar",
+        "name": "event_cal",
         "requirements": ">= 0"
       },
       {
-        "name": "event_cal",
+        "name": "event_calendar",
         "requirements": ">= 0"
       },
       {
@@ -31653,6 +32217,10 @@
         "requirements": "~> 0.6"
       },
       {
+        "name": "fast_cache",
+        "requirements": ">= 0"
+      },
+      {
         "name": "file_series",
         "requirements": "= 0.3.5"
       },
@@ -31667,6 +32235,10 @@
       {
         "name": "fluent-logger",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "fluent-plugin-unique-counter",
+        "requirements": ">= 0"
       },
       {
         "name": "fluentd",
@@ -31689,12 +32261,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gds-api-adapters",
+        "requirements": "~> 0.5.1"
+      },
+      {
         "name": "gds-sso",
         "requirements": "= 0.3.5"
       },
       {
-        "name": "gds-api-adapters",
-        "requirements": "~> 0.5.1"
+        "name": "gem_velocity",
+        "requirements": ">= 0"
       },
       {
         "name": "github-expirer",
@@ -31797,11 +32373,11 @@
         "requirements": "~> 0.3.1"
       },
       {
-        "name": "improved-rack-throttle-w-expiry",
+        "name": "improved-rack-throttle",
         "requirements": "~> 0.5.2"
       },
       {
-        "name": "improved-rack-throttle",
+        "name": "improved-rack-throttle-w-expiry",
         "requirements": "~> 0.5.2"
       },
       {
@@ -31917,12 +32493,12 @@
         "requirements": "~> 0.3.5"
       },
       {
-        "name": "microsoft_translator",
-        "requirements": ">= 0.3.5"
-      },
-      {
         "name": "micro_q",
         "requirements": ">= 0"
+      },
+      {
+        "name": "microsoft_translator",
+        "requirements": ">= 0.3.5"
       },
       {
         "name": "mm-carrierwave",
@@ -31945,7 +32521,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mongomapper_id2",
+        "name": "mongomapper-versioned",
         "requirements": ">= 0"
       },
       {
@@ -31953,7 +32529,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mongomapper-versioned",
+        "name": "mongomapper_id2",
         "requirements": ">= 0"
       },
       {
@@ -32033,12 +32609,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "open_badges",
-        "requirements": "= 0.4.5"
-      },
-      {
         "name": "open_auth2",
         "requirements": "~> 0.3"
+      },
+      {
+        "name": "open_badges",
+        "requirements": "= 0.4.5"
       },
       {
         "name": "open_gpx_2_kml",
@@ -32049,11 +32625,11 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "opentoken-newrelic-rails23",
+        "name": "opentoken",
         "requirements": "= 0.3.5"
       },
       {
-        "name": "opentoken",
+        "name": "opentoken-newrelic-rails23",
         "requirements": "= 0.3.5"
       },
       {
@@ -32121,11 +32697,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "protobuf-activerecord",
+        "name": "protobuf",
         "requirements": ">= 0"
       },
       {
-        "name": "protobuf",
+        "name": "protobuf-activerecord",
         "requirements": ">= 0"
       },
       {
@@ -32133,15 +32709,19 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "puffer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "puffer_pages",
         "requirements": ">= 0"
       },
       {
+        "name": "puffer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pulse-meter-client-backport",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pulse_meter_visualizer",
         "requirements": ">= 0"
       },
       {
@@ -32150,10 +32730,6 @@
       },
       {
         "name": "pulse_meter_core",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pulse_meter_visualizer",
         "requirements": ">= 0"
       },
       {
@@ -32197,11 +32773,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ray-db2fog",
+        "name": "rayback",
         "requirements": "~> 0.3.5"
       },
       {
-        "name": "rayback",
+        "name": "ray-db2fog",
         "requirements": "~> 0.3.5"
       },
       {
@@ -32217,11 +32793,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "redir",
+        "name": "Redir",
         "requirements": ">= 0"
       },
       {
-        "name": "Redir",
+        "name": "redir",
         "requirements": ">= 0"
       },
       {
@@ -32241,11 +32817,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "resque-history",
+        "name": "resque-job-stats",
         "requirements": ">= 0"
       },
       {
-        "name": "resque-job-stats",
+        "name": "resque-history",
         "requirements": ">= 0"
       },
       {
@@ -32361,6 +32937,10 @@
         "requirements": "~> 0.6.1"
       },
       {
+        "name": "shokkenki",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sidekiq-encryptor",
         "requirements": ">= 0"
       },
@@ -32441,6 +33021,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "snappy_stats",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sniff",
         "requirements": ">= 0"
       },
@@ -32485,11 +33069,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "state_manager",
+        "name": "state_machine_rspec",
         "requirements": ">= 0"
       },
       {
-        "name": "state_machine_rspec",
+        "name": "state_manager",
         "requirements": ">= 0"
       },
       {
@@ -32525,12 +33109,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tangerine",
-        "requirements": "= 0.3.5"
-      },
-      {
         "name": "tamarillo",
         "requirements": "~> 0.3.5"
+      },
+      {
+        "name": "tangerine",
+        "requirements": "= 0.3.5"
       },
       {
         "name": "tf1_converter",
@@ -32589,10 +33173,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "timer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "timeout_cache",
         "requirements": ">= 0"
       },
@@ -32645,11 +33225,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "unread",
+        "name": "unread-mongoid",
         "requirements": ">= 0"
       },
       {
-        "name": "unread-mongoid",
+        "name": "unread",
         "requirements": ">= 0"
       },
       {
@@ -32661,12 +33241,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "viki_utils",
-        "requirements": ">= 0.5.9"
-      },
-      {
         "name": "viki-api",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "viki_utils",
+        "requirements": ">= 0.5.9"
       },
       {
         "name": "viximo-rack-throttle",
@@ -32717,11 +33297,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "woodchuck",
+        "name": "woodchuck-json-event",
         "requirements": "~> 0.4.6"
       },
       {
-        "name": "woodchuck-json-event",
+        "name": "woodchuck",
         "requirements": "~> 0.4.6"
       },
       {
@@ -32862,7 +33442,10 @@
   "timeit": {
     "version": "unknown",
     "dependents": [
-
+      {
+        "name": "rere",
+        "requirements": "= 0.0.4"
+      }
     ],
     "description": "    Very basic ruby timer for keeping track of the duration, splits and rate of\n    a block of code.\n"
   },
@@ -32924,6 +33507,13 @@
   },
   "timelineJS-rails": {
     "version": "1.1.1",
+    "dependents": [
+
+    ],
+    "description": "timelineJS resources files packaged for the Rails asset pieline"
+  },
+  "timelineJS_rails": {
+    "version": "2.17",
     "dependents": [
 
     ],
@@ -33034,7 +33624,7 @@
     "description": "Parses time information from strings."
   },
   "timer": {
-    "version": "0.1.7",
+    "version": "0.2",
     "dependents": [
       {
         "name": "idiom",
@@ -33049,7 +33639,7 @@
         "requirements": ">= 0"
       }
     ],
-    "description": "Simple timer to perform a block and display the elapsed time. Growls message if growl is turned on."
+    "description": "Simple timer to perform a block and display the elapsed time."
   },
   "timer.rb": {
     "version": "0.3",
@@ -33310,7 +33900,7 @@
     "description": "a library that makes dates and times slightly less horrible"
   },
   "timezone": {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "fury-bug",
@@ -33421,10 +34011,6 @@
         "requirements": ">= 1.4.0"
       },
       {
-        "name": "campfire-bot",
-        "requirements": ">= 1.4.3"
-      },
-      {
         "name": "campfire",
         "requirements": "~> 1.4.3"
       },
@@ -33433,8 +34019,8 @@
         "requirements": ">= 1.4.3"
       },
       {
-        "name": "campfire_bot",
-        "requirements": "~> 1.4.2"
+        "name": "campfire-bot",
+        "requirements": ">= 1.4.3"
       },
       {
         "name": "campfire-say",
@@ -33445,6 +34031,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "campfire_bot",
+        "requirements": "~> 1.4.2"
+      },
+      {
         "name": "campfire_handler",
         "requirements": ">= 0"
       },
@@ -33453,12 +34043,12 @@
         "requirements": "= 1.8.0"
       },
       {
-        "name": "camptweet",
-        "requirements": ">= 0.1.6"
-      },
-      {
         "name": "campystrano",
         "requirements": ">= 1.9.2"
+      },
+      {
+        "name": "camptweet",
+        "requirements": ">= 0.1.6"
       },
       {
         "name": "capistrano-campfire",
@@ -33706,7 +34296,7 @@
     "description": "Handling e-mail attachments with MIME type 'application/ms-tnef'"
   },
   "tins": {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "dependents": [
       {
         "name": "amatch",
@@ -33913,11 +34503,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "somatics3",
+        "name": "somatics3-generators",
         "requirements": ">= 0"
       },
       {
-        "name": "somatics3-generators",
+        "name": "somatics3",
         "requirements": ">= 0"
       },
       {
@@ -34133,7 +34723,7 @@
     "description": "TinyGem builds gems from a single source file."
   },
   "tinymce-rails": {
-    "version": "4.0.6",
+    "version": "4.0.8",
     "dependents": [
       {
         "name": "caboose-cms",
@@ -34184,16 +34774,16 @@
         "requirements": ">= 3.4.9"
       },
       {
-        "name": "tinymce-rails-langs",
-        "requirements": "~> 4.0"
-      },
-      {
         "name": "tinymce-rails-documentupload",
         "requirements": "~> 3.5.8.1"
       },
       {
         "name": "tinymce-rails-imageupload",
         "requirements": "~> 3.5.8.1"
+      },
+      {
+        "name": "tinymce-rails-langs",
+        "requirements": "~> 4.0"
       }
     ],
     "description": "Seamlessly integrates TinyMCE into the Rails asset pipeline introduced in Rails 3.1."
@@ -34365,12 +34955,12 @@
     "version": "1.17",
     "dependents": [
       {
-        "name": "ctioga2",
-        "requirements": ">= 1.17"
-      },
-      {
         "name": "ctioga",
         "requirements": ">= 1.9"
+      },
+      {
+        "name": "ctioga2",
+        "requirements": ">= 1.17"
       }
     ],
     "description": "Tioga is a blend of PDF, pdfTex and ruby into a library to make\nscientific graphs of high quality. It is fairly complete and\nextensive, and comes with examples and (online) complete\ndocumentation.\n"
@@ -34414,7 +35004,7 @@
     "description": "A quick and dirty wrapper for the Tippr API"
   },
   "tipsanity_merchant_extractor": {
-    "version": "0.0.3",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -34470,7 +35060,7 @@
     "description": "text - mode interface for qiita"
   },
   "tire": {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "dependents": [
       {
         "name": "activesearch",
@@ -34501,12 +35091,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "elastic_models",
-        "requirements": ">= 0"
-      },
-      {
         "name": "elastic_ransack",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "elastic_models",
+        "requirements": ">= 0"
       },
       {
         "name": "elasticrepo",
@@ -34525,6 +35115,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lifesaver",
+        "requirements": "~> 0.6.0"
+      },
+      {
         "name": "logstash-cli",
         "requirements": ">= 0"
       },
@@ -34541,23 +35135,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tire-contrib",
-        "requirements": ">= 0"
+        "name": "tire-mock_client",
+        "requirements": ">= 0.3.11"
       },
       {
         "name": "tire-suggest_plugin",
         "requirements": "~> 0.5.8"
       },
       {
-        "name": "tire-mock_client",
-        "requirements": ">= 0.3.11"
+        "name": "tire-contrib",
+        "requirements": ">= 0"
       },
       {
         "name": "tire_async_index",
         "requirements": ">= 0"
       }
     ],
-    "description": "   Tire is a Ruby client for the Elasticsearch search engine/database.\n\n   It provides Ruby-like API for fluent communication with the Elasticsearch server\n   and blends with ActiveModel class for convenient usage in Rails applications.\n\n   It allows to delete and create indices, define mapping for them, supports\n   the bulk API, and presents an easy-to-use DSL for constructing your queries.\n\n   It has full ActiveRecord/ActiveModel compatibility, allowing you to index\n   your models (incrementally upon saving, or in bulk), searching and\n   paginating the results.\n\n   Please check the documentation at <http://karmi.github.com/tire/>.\n"
+    "description": "   Tire is a Ruby client for the Elasticsearch search engine/database.\n\n   It provides Ruby-like API for fluent communication with the Elasticsearch server\n   and blends with ActiveModel class for convenient usage in Rails applications.\n\n   It allows to delete and create indices, define mapping for them, supports\n   the bulk API, and presents an easy-to-use DSL for constructing your queries.\n\n   It has full ActiveRecord/ActiveModel compatibility, allowing you to index\n   your models (incrementally upon saving, or in bulk), searching and\n   paginating the results.\n\n   Please check the documentation at <http://karmi.github.com/retire/>.\n"
   },
   "tire-am_serializers": {
     "version": "0.1.0",
@@ -34640,7 +35234,7 @@
     "description": "Helps you creating and managing daemon threads with Ruby."
   },
   "titanic": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -34760,7 +35354,7 @@
     "description": "Just a easy way to titleize names for pt-BR"
   },
   "titlekit": {
-    "version": "1.0.0",
+    "version": "1.2.0",
     "dependents": [
 
     ],
@@ -34835,6 +35429,13 @@
 
     ],
     "description": "A safe Plurk API wrapper based on Ruby and mainly designed for easily making plurk robot. installgem install tjplurker."
+  },
+  "tjstamp": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "A tool for generating Chinese charater stamp image."
   },
   "tjstyle": {
     "version": "0.9.3",
@@ -35010,11 +35611,15 @@
     "version": "0.3.3",
     "dependents": [
       {
+        "name": "tlb-rspec1",
+        "requirements": "= 0.3.3"
+      },
+      {
         "name": "tlb-cucumber",
         "requirements": "= 0.3.3"
       },
       {
-        "name": "tlb-rspec1",
+        "name": "tlb-rspec2",
         "requirements": "= 0.3.3"
       },
       {
@@ -35023,10 +35628,6 @@
       },
       {
         "name": "tlb-testunit19",
-        "requirements": "= 0.3.3"
-      },
-      {
-        "name": "tlb-rspec2",
         "requirements": "= 0.3.3"
       }
     ],
@@ -35314,12 +35915,12 @@
         "requirements": ">= 1.2.3"
       },
       {
-        "name": "imapstore",
-        "requirements": ">= 1.2.3"
-      },
-      {
         "name": "imap_to_rss",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "imapstore",
+        "requirements": ">= 1.2.3"
       },
       {
         "name": "irgat",
@@ -35599,7 +36200,7 @@
     "description": "Create and manage complex tmux sessions easily."
   },
   "tmuxite": {
-    "version": "0.0.2",
+    "version": "0.0.1",
     "dependents": [
 
     ],
@@ -36377,6 +36978,13 @@
     ],
     "description": "A git porcelain for pair programming. Changes git-config's user.name and user.email settings so you can commit as more than one author."
   },
+  "tocify": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Tocify is an easy way to generate a table of contents for your markdown file"
+  },
   "tock": {
     "version": "0.0.1",
     "dependents": [
@@ -36457,19 +37065,19 @@
     ],
     "description": "A pure Ruby implementation of a two year old"
   },
-  "todo": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "simple command line todo list manager"
-  },
   "Todo": {
     "version": "0.2",
     "dependents": [
 
     ],
     "description": "Todo list checker for projects."
+  },
+  "todo": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "simple command line todo list manager"
   },
   "todo-gist": {
     "version": "0.1.3",
@@ -37109,11 +37717,11 @@
     "version": "0.2.5",
     "dependents": [
       {
-        "name": "codesake",
+        "name": "codesake-dawn",
         "requirements": ">= 0"
       },
       {
-        "name": "codesake-dawn",
+        "name": "codesake",
         "requirements": ">= 0"
       },
       {
@@ -37214,7 +37822,7 @@
     "description": "Parse your TOML, seriously."
   },
   "toml-rb": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
       {
         "name": "ork",
@@ -37229,7 +37837,7 @@
         "requirements": ">= 0"
       }
     ],
-    "description": "A TOML parser using Citrus parsing library. Formerly known as 'toml_parser-ruby'. "
+    "description": "A TOML parser using Citrus parsing library. "
   },
   "toml-ruby": {
     "version": "0.0.1",
@@ -37336,7 +37944,7 @@
     "description": "Client gem for the Tonic CMS"
   },
   "tonka": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -37473,7 +38081,7 @@
     "description": "Get your tools out for parade"
   },
   "tools-cf-plugin": {
-    "version": "2.4.0",
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -37520,6 +38128,13 @@
 
     ],
     "description": "Get building in one hundred thousandth of the time."
+  },
+  "tooth": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Simple page objects for Capybara. All tooth-generated methods return Capybara Elements so that you can use these familiar objects for your needs."
   },
   "toothbrush": {
     "version": "0.1.3",
@@ -37655,7 +38270,7 @@
     "description": "Generic implementation of DFS for topological sorting."
   },
   "toppings": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -37873,11 +38488,11 @@
     "description": "Description coming soon"
   },
   "torpedo": {
-    "version": "1.0.19",
+    "version": "2.1.0",
     "dependents": [
 
     ],
-    "description": "Fast integration tests OpenStack Compute."
+    "description": "Fast integration tests for OpenStack."
   },
   "torque": {
     "version": "0.4.1",
@@ -37991,11 +38606,11 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "torquebox-cache",
+        "name": "torquebox",
         "requirements": "= 3.0.0"
       },
       {
-        "name": "torquebox",
+        "name": "torquebox-cache",
         "requirements": "= 3.0.0"
       },
       {
@@ -38007,11 +38622,11 @@
         "requirements": "= 3.0.0"
       },
       {
-        "name": "torquebox-security",
+        "name": "torquebox-naming",
         "requirements": "= 3.0.0"
       },
       {
-        "name": "torquebox-naming",
+        "name": "torquebox-security",
         "requirements": "= 3.0.0"
       },
       {
@@ -38186,11 +38801,11 @@
     "version": "3.0.0",
     "dependents": [
       {
-        "name": "torquebox-cache",
+        "name": "torquebox",
         "requirements": "= 3.0.0"
       },
       {
-        "name": "torquebox",
+        "name": "torquebox-cache",
         "requirements": "= 3.0.0"
       },
       {
@@ -38335,6 +38950,13 @@
     ],
     "description": "Tortoise is a Logo interpreter for ruby."
   },
+  "tortoiselabs": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ],
+    "description": "A TortoiseLabs API wrapper."
+  },
   "toss": {
     "version": "0.0.5",
     "dependents": [
@@ -38437,6 +39059,13 @@
     ],
     "description": "Add Totsuzen method to String Class."
   },
+  "totsuzen-no-shi": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "totsuzen no shi generator"
+  },
   "totsuzennoshi": {
     "version": "0.1.1",
     "dependents": [
@@ -38535,7 +39164,7 @@
     "description": "TouRETS is a rails gem used to interface with multiple RETS using the ruby-rets gem"
   },
   "tourico": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -38867,7 +39496,7 @@
     "description": "Exports Trac wiki pages as local HTML files"
   },
   "trac-wiki": {
-    "version": "0.1.9",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -39174,11 +39803,11 @@
     "description": "  `tp` is a dead simple command-line utility for importing story templates into Pivotal Tracker.\n"
   },
   "trackerific": {
-    "version": "0.6.2",
+    "version": "0.7.4",
     "dependents": [
 
     ],
-    "description": "Package tracking made easy for Rails. Currently supported services include FedEx, UPS, and USPS."
+    "description": "Package tracking made easy. Currently supported services include FedEx, UPS, and USPS."
   },
   "trackinator": {
     "version": "0.0.17",
@@ -39247,7 +39876,7 @@
     "description": "Trackman hosts your maintenances and app-down pages (503s) and lets you keep them in your current development environment so that you can focus on delivering and not configuring."
   },
   "trackme": {
-    "version": "0.0.3",
+    "version": "0.0.21",
     "dependents": [
 
     ],
@@ -39299,7 +39928,7 @@
     "description": "Rails: Track unique and total visits/viewings of an ActiveRecord resource based on user/account or IP."
   },
   "tracksperanto": {
-    "version": "3.3.10",
+    "version": "3.3.11",
     "dependents": [
 
     ],
@@ -39320,7 +39949,7 @@
     "description": "Track ATTR_updated_at and ATTR_updated_by"
   },
   "traco": {
-    "version": "1.2.4",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -39449,7 +40078,7 @@
     "description": "A traffic light serveur for Raspberry π"
   },
   "traffic_mansion": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
 
     ],
@@ -39588,7 +40217,7 @@
     "description": "traits"
   },
   "traject": {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "dependents": [
       {
         "name": "traject_horizon",
@@ -39597,12 +40226,26 @@
     ],
     "description": "Index MARC to Solr; or generally process source records to hash-like structures"
   },
+  "traject_alephsequential_reader": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A basic traject reader to process Ex Libris's AlephSequential format on input"
+  },
   "traject_horizon": {
-    "version": "0.11.2",
+    "version": "1.0.0",
     "dependents": [
 
     ],
     "description": "Horizon ILS MARC Exporter, a plugin for the traject tool"
+  },
+  "traject_umich_format": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "The algorithm used by the University of Michigan University Library to determine format (book, serial, etc.) and type (audio, video, conference, etc.) from a (ruby marc) MARC record"
   },
   "trajectory": {
     "version": "0.1.2",
@@ -39887,6 +40530,13 @@
     ],
     "description": "Consumes TransferTo.com API and provides with ruby methods for the same"
   },
+  "transfermarkt": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Integrate with Transfermarkt"
+  },
   "transfigr": {
     "version": "0.1.0",
     "dependents": [
@@ -39998,6 +40648,13 @@
 
     ],
     "description": "A custom validator for stateful attribute transitions."
+  },
+  "transitional_logger": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Singleton logger available in all Objects that can transition destinations."
   },
   "transitions": {
     "version": "0.1.11",
@@ -40231,11 +40888,11 @@
     "description": "Scrapes public transport data from Translink into GTFS"
   },
   "translit": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
 
     ],
-    "description": "Transliteration between cyrillic <-> latin | Транслитерация между кирилицой и латиницой "
+    "description": "Transliteration between cyrillic <-> latin | Транслитерация между кириллицей и латиницей "
   },
   "transliterate": {
     "version": "0.0.1",
@@ -40412,7 +41069,7 @@
     "description": "Nil values can be quite annoying. TransparentNil defines some methods for +nil+ so nil values behave like any other object."
   },
   "transpec": {
-    "version": "0.1.2",
+    "version": "0.2.6",
     "dependents": [
 
     ],
@@ -40426,7 +41083,7 @@
     "description": "Transplant your data from your old database into your new Rails application"
   },
   "transponder": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "dependents": [
 
     ],
@@ -40444,11 +41101,11 @@
         "requirements": ">= 1.0.1"
       },
       {
-        "name": "holoserve",
+        "name": "holoserve-connector",
         "requirements": ">= 0"
       },
       {
-        "name": "holoserve-connector",
+        "name": "holoserve",
         "requirements": ">= 0"
       }
     ],
@@ -40493,7 +41150,7 @@
     "description": " a library and command-line tool for quality assessment of de-novo transcriptome assemblies "
   },
   "transync": {
-    "version": "1.0.2",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -40507,7 +41164,7 @@
     "description": "Captcha generator for rails"
   },
   "traquitana": {
-    "version": "0.0.17",
+    "version": "0.0.20",
     "dependents": [
 
     ],
@@ -40522,13 +41179,6 @@
       }
     ],
     "description": "when it's hard to say goodbye, and rm is just too much... use trash instead."
-  },
-  "trashable": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "A simple library allowing for the soft deletion of Rails 3.X ActiveRecord records."
   },
   "trashcan": {
     "version": "0.0.5",
@@ -40608,8 +41258,16 @@
     "description": "A little bot for travian."
   },
   "travis": {
-    "version": "1.5.4",
+    "version": "1.5.5",
     "dependents": [
+      {
+        "name": "algoliasearch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "algoliasearch-rails",
+        "requirements": ">= 0"
+      },
       {
         "name": "fuci-travis",
         "requirements": "~> 1.4"
@@ -40634,7 +41292,7 @@
     "description": "CLI and Ruby client library for Travis CI"
   },
   "travis-artifacts": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -40939,6 +41597,13 @@
     ],
     "description": "a gem"
   },
+  "trawler": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Scrapes the web"
+  },
   "tray-checkout": {
     "version": "0.2.1",
     "dependents": [
@@ -41012,7 +41677,10 @@
   "treat": {
     "version": "2.0.7",
     "dependents": [
-
+      {
+        "name": "immature",
+        "requirements": "~> 2.0.7"
+      }
     ],
     "description": " Treat is a natural language processing framework for Ruby. "
   },
@@ -41352,6 +42020,10 @@
         "requirements": ">= 1.2.3"
       },
       {
+        "name": "fbo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fig",
         "requirements": ">= 1.4.14"
       },
@@ -41600,11 +42272,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "purple-lang",
+        "name": "purple",
         "requirements": ">= 0"
       },
       {
-        "name": "purple",
+        "name": "purple-lang",
         "requirements": ">= 0"
       },
       {
@@ -41700,12 +42372,12 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "sql_munger",
-        "requirements": "~> 1.4.8"
-      },
-      {
         "name": "sql_parser",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sql_munger",
+        "requirements": "~> 1.4.8"
       },
       {
         "name": "ssh-allow",
@@ -41906,7 +42578,7 @@
     "description": "Trello automation DSL"
   },
   "trema": {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -42028,7 +42700,7 @@
     "description": "Tria is a multi-dimensional array based tree format, with a parent, child, and descendants\nfor each branch of the tree."
   },
   "triad": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
       {
         "name": "surrounded",
@@ -42191,6 +42863,13 @@
     ],
     "description": "  Schedule remote triggered switches and dimmers to activate/deactivate the lights in your home.\n\n  Type your schedule in plain text and have an USB connected tellstick send the appropriate commands,\n\n  according to your schedule.\n"
   },
+  "triggerful": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Create callbacks to methods that you can easily and dynamically create/remove. Quite useful for lightweight event based programming. Even the medic agrees."
+  },
   "triggerhappy": {
     "version": "0.1.2",
     "dependents": [
@@ -42223,11 +42902,11 @@
     "version": "0.9.1",
     "dependents": [
       {
-        "name": "trigonal-rails3",
+        "name": "trigonal-rails2",
         "requirements": "= 0.9.1"
       },
       {
-        "name": "trigonal-rails2",
+        "name": "trigonal-rails3",
         "requirements": "= 0.9.1"
       }
     ],
@@ -42345,40 +43024,44 @@
     "version": "1.4.5",
     "dependents": [
       {
-        "name": "trinidad_daemon_extension",
-        "requirements": ">= 1.3.5"
-      },
-      {
         "name": "trinidad_daemon",
         "requirements": ">= 1.0.5"
       },
       {
-        "name": "trinidad_hotdeploy_extension",
-        "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "trinidad_hornetq_extension",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "trinidad_hornetq_extension",
-        "requirements": ">= 0"
+        "name": "trinidad_daemon_extension",
+        "requirements": ">= 1.3.5"
       },
       {
         "name": "trinidad_diagnostics_extension",
         "requirements": ">= 0"
       },
       {
+        "name": "trinidad_hornetq_extension",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "trinidad_hornetq_extension",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "trinidad_hotdeploy_extension",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "trinidad_jbundler_extension",
+        "requirements": "~> 1.4.5"
+      },
+      {
         "name": "trinidad_init_services",
+        "requirements": ">= 1.3.5"
+      },
+      {
+        "name": "trinidad_jmx_remote_extension",
         "requirements": ">= 1.3.5"
       },
       {
         "name": "trinidad_lifecycle_extension",
         "requirements": ">= 1.4.1"
-      },
-      {
-        "name": "trinidad_jmx_remote_extension",
-        "requirements": ">= 1.3.5"
       },
       {
         "name": "trinidad_logging_extension",
@@ -42389,16 +43072,12 @@
         "requirements": ">= 1.0.1"
       },
       {
-        "name": "trinidad_sandbox_extension",
-        "requirements": ">= 1.0.1"
-      },
-      {
         "name": "trinidad_resque_extension",
         "requirements": ">= 0"
       },
       {
-        "name": "trinidad_threaded_resque_extension",
-        "requirements": ">= 0"
+        "name": "trinidad_sandbox_extension",
+        "requirements": ">= 1.0.1"
       },
       {
         "name": "trinidad_sidekiq_extension",
@@ -42411,6 +43090,10 @@
       {
         "name": "trinidad_worker_extension",
         "requirements": ">= 1.4.4"
+      },
+      {
+        "name": "trinidad_threaded_resque_extension",
+        "requirements": ">= 0"
       }
     ],
     "description": "Trinidad allows you to run Rails or Rack applications within an embedded Apache Tomcat container. Serves your requests with the elegance of a cat !"
@@ -42536,6 +43219,13 @@
       }
     ],
     "description": "Bundled version of Tomcat and a slice of Java required by Trinidad."
+  },
+  "trinidad_jbundler_extension": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Pulls jars resolved by jbundler into trinidad webapp"
   },
   "trinidad_jmx_remote_extension": {
     "version": "0.1.1",
@@ -42830,6 +43520,13 @@
     ],
     "description": "Database based on GDBM and Marshal with complex queries, indexes, constraints relationships and calculated fields."
   },
+  "trixter": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Turns the Trixter Dream Bike into a real training platform"
+  },
   "trixy_scopes": {
     "version": "1.0.7",
     "dependents": [
@@ -42845,7 +43542,7 @@
     "description": "Trello comman line tool"
   },
   "trocla": {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -42896,6 +43593,10 @@
     "version": "2.0",
     "dependents": [
       {
+        "name": "88miles",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "ajmurmann_right_http_connection",
         "requirements": "~> 1.16"
       },
@@ -42916,12 +43617,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "andeogen",
-        "requirements": ">= 0"
-      },
-      {
         "name": "andparcel",
         "requirements": ">= 1.15"
+      },
+      {
+        "name": "andeogen",
+        "requirements": ">= 0"
       },
       {
         "name": "ansify",
@@ -42949,6 +43650,10 @@
       },
       {
         "name": "asana-cli",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aspen",
         "requirements": ">= 0"
       },
       {
@@ -42996,11 +43701,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "basil",
+        "name": "Basil",
         "requirements": ">= 0"
       },
       {
-        "name": "Basil",
+        "name": "basil",
         "requirements": ">= 0"
       },
       {
@@ -43156,11 +43861,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "couch-warmer",
+        "name": "couch-replicate-helper",
         "requirements": ">= 0"
       },
       {
-        "name": "couch-replicate-helper",
+        "name": "couch-warmer",
         "requirements": ">= 0"
       },
       {
@@ -43256,6 +43961,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dns_load",
+        "requirements": "~> 2"
+      },
+      {
         "name": "docface",
         "requirements": "= 2.0"
       },
@@ -43324,16 +44033,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "filezor",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "filezor",
-        "requirements": ">= 0"
-      },
-      {
         "name": "filewatcher",
         "requirements": ">= 1.16.2"
+      },
+      {
+        "name": "filezor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "filezor",
+        "requirements": ">= 0"
       },
       {
         "name": "find_beads",
@@ -43454,6 +44163,10 @@
       {
         "name": "ghtorrent",
         "requirements": "~> 2.0.0"
+      },
+      {
+        "name": "gigawatt",
+        "requirements": "~> 2.0"
       },
       {
         "name": "git-find-branching-point",
@@ -43621,6 +44334,10 @@
       },
       {
         "name": "htttee",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hybridgroup-crubyflie",
         "requirements": ">= 0"
       },
       {
@@ -43824,12 +44541,12 @@
         "requirements": ">= 1.16"
       },
       {
-        "name": "marmalade",
-        "requirements": "~> 1.16.2"
-      },
-      {
         "name": "marmot",
         "requirements": ">= 0"
+      },
+      {
+        "name": "marmalade",
+        "requirements": "~> 1.16.2"
       },
       {
         "name": "mdpress",
@@ -43880,12 +44597,12 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "morning-pages-journal",
-        "requirements": ">= 0"
-      },
-      {
         "name": "morning-pages",
         "requirements": "~> 1.16.2"
+      },
+      {
+        "name": "morning-pages-journal",
+        "requirements": ">= 0"
       },
       {
         "name": "mosespa",
@@ -43908,20 +44625,20 @@
         "requirements": "~> 1.16"
       },
       {
-        "name": "mspire-sequest",
-        "requirements": "~> 2.0.0"
-      },
-      {
         "name": "mspire",
         "requirements": "~> 2.0.0"
       },
       {
-        "name": "msplinter",
+        "name": "mspire-sequest",
         "requirements": "~> 2.0.0"
       },
       {
         "name": "mspire-simulator",
         "requirements": "= 2.0"
+      },
+      {
+        "name": "msplinter",
+        "requirements": "~> 2.0.0"
       },
       {
         "name": "mup",
@@ -44100,6 +44817,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rack-json-logs",
+        "requirements": ">= 0"
+      },
+      {
         "name": "radiovis-generator",
         "requirements": ">= 0"
       },
@@ -44216,11 +44937,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rrproxy",
+        "name": "rrlist",
         "requirements": ">= 0"
       },
       {
-        "name": "rrlist",
+        "name": "rrproxy",
         "requirements": ">= 0"
       },
       {
@@ -44676,12 +45397,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zencoder-fetcher",
-        "requirements": ">= 0"
-      },
-      {
         "name": "zencoder-cli",
         "requirements": "~> 1.16.2"
+      },
+      {
+        "name": "zencoder-fetcher",
+        "requirements": ">= 0"
       }
     ],
     "description": "Trollop is a commandline option parser for Ruby that just\ngets out of your way. One line of code per option is all you need to write.\nFor that, you get a nice automatically-generated help page, robust option\nparsing, command subcompletion, and sensible defaults for everything you don't\nspecify."
@@ -44836,7 +45557,7 @@
     "description": "Loads ActiveRecord seed data from YAML"
   },
   "troy": {
-    "version": "0.0.20",
+    "version": "0.0.23",
     "dependents": [
 
     ],
@@ -44965,7 +45686,7 @@
     "description": "Finds RSS and Atom feed urls in html like a hog finds truffles. Tasty, delicious feeds... er, truffles."
   },
   "trufflepig": {
-    "version": "0.2.12",
+    "version": "0.2.13",
     "dependents": [
 
     ],
@@ -45171,11 +45892,18 @@
     "description": "An API wrapper for the trustedSEARCH.org API."
   },
   "trustworthy": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "dependents": [
 
     ],
     "description": "Implements a special case (k = 2) of Adi Shamir's secret sharing algorithm. This allows secret files to be encrypted on disk and require two secret holders to decrypt it."
+  },
+  "trusty": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Trusty is a configuration and utilities library."
   },
   "tRuTag": {
     "version": "0.5.0",
@@ -45380,11 +46108,11 @@
     "version": "0.0.11",
     "dependents": [
       {
-        "name": "knjrbfw",
+        "name": "knjappserver",
         "requirements": ">= 0"
       },
       {
-        "name": "knjappserver",
+        "name": "knjrbfw",
         "requirements": ">= 0"
       },
       {
@@ -45688,11 +46416,11 @@
     "description": "TTT is a Tic Tac Toe lib, as well as a CLI and GUI to play it."
   },
   "ttt_gem_8thlight": {
-    "version": "0.0.2",
+    "version": "1.0.0",
     "dependents": [
 
     ],
-    "description": "Tic Tac Toe Gem"
+    "description": "Tic Tac Toe engine for powering CLI & Sinatra Web App"
   },
   "tttazures": {
     "version": "0.0.23",
@@ -45711,6 +46439,10 @@
   "tty": {
     "version": "0.0.11",
     "dependents": [
+      {
+        "name": "github_cli",
+        "requirements": "~> 0.0.10"
+      },
       {
         "name": "static_deploy",
         "requirements": ">= 0"
@@ -45927,11 +46659,11 @@
     "description": "    Tumblr is a \"feature rich and free blog hosting platform.\"\n    Tumbl_rb is a ruby wrapper around v2 of the tumblr API.\n"
   },
   "tumblargh": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ],
-    "description": "If you've ever had to build a Tumblr theme, you've probably cried out in pain while tweaking locally, copying, pasting into the theme editor, saving, switching tabs and finally refreshing and waiting for your tesing blog to reload. Tumblargh aims to reduce suffering involved with building a theme by offering a way to fully develop, lint and test Tumblr themes locally, with real posts from any existing Tumblog."
+    "description": "Tumblargh aims to reduce suffering involved with building a theme by offering a way to fully develop, lint and test Tumblr themes locally, with real posts from any existing Tumblog."
   },
   "tumble": {
     "version": "0.2.0",
@@ -46117,7 +46849,7 @@
     "description": "Tumblr API v2 Gem for Ruby on Rails"
   },
   "tumblr_to_dayone": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -46179,8 +46911,15 @@
     ],
     "description": "Ruby SDK for TuneCore web services"
   },
+  "tungsten-support": {
+    "version": "1.8.9",
+    "dependents": [
+
+    ],
+    "description": "Support classes and helpers for Rails-based Airbnb frontend services."
+  },
   "tuning": {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "dependents": [
       {
         "name": "rails_contrib",
@@ -46330,7 +47069,7 @@
     "description": "A convenient wrapper for the Tupalo.com API"
   },
   "tupelo": {
-    "version": "0.8",
+    "version": "0.9",
     "dependents": [
 
     ],
@@ -46430,6 +47169,10 @@
       {
         "name": "client_side_validations-turbolinks",
         "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "gaku_core",
+        "requirements": ">= 0"
       },
       {
         "name": "h2ocube_rails_assets",
@@ -46543,15 +47286,19 @@
     "version": "0.9.6",
     "dependents": [
       {
+        "name": "abstract_importer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "absurdity",
         "requirements": ">= 0"
       },
       {
-        "name": "acl_system2",
+        "name": "acl9",
         "requirements": ">= 0"
       },
       {
-        "name": "acl9",
+        "name": "acl_system2",
         "requirements": ">= 0"
       },
       {
@@ -46629,10 +47376,6 @@
       {
         "name": "bbc_data_service",
         "requirements": "~> 0.8.2"
-      },
-      {
-        "name": "bixby-common",
-        "requirements": ">= 0"
       },
       {
         "name": "bixby_common",
@@ -46855,6 +47598,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "elasticsearch-extensions",
+        "requirements": ">= 0"
+      },
+      {
         "name": "elasticsearch-transport",
         "requirements": ">= 0"
       },
@@ -46895,6 +47642,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "fbo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fillertext",
         "requirements": ">= 0"
       },
@@ -46911,11 +47662,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fraggle-block",
+        "name": "fraggle-spanx",
         "requirements": ">= 0"
       },
       {
-        "name": "fraggle-spanx",
+        "name": "fraggle-block",
         "requirements": ">= 0"
       },
       {
@@ -46940,10 +47691,6 @@
       },
       {
         "name": "gnip-rules",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "goldmine",
         "requirements": ">= 0"
       },
       {
@@ -47095,11 +47842,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "MissionHub",
+        "name": "Missionhub",
         "requirements": ">= 0"
       },
       {
-        "name": "Missionhub",
+        "name": "MissionHub",
         "requirements": ">= 0"
       },
       {
@@ -47111,11 +47858,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
+        "name": "mobvious",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious",
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
@@ -47216,7 +47963,7 @@
       },
       {
         "name": "proposal",
-        "requirements": ">= 0"
+        "requirements": ">= 0.9.6"
       },
       {
         "name": "qu-scheduler",
@@ -47363,11 +48110,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "settingsdb",
+        "name": "set_builder",
         "requirements": ">= 0"
       },
       {
         "name": "settingsdb-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "settingsdb",
         "requirements": ">= 0"
       },
       {
@@ -47483,11 +48234,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thorax",
+        "name": "thorax-rails",
         "requirements": "~> 0.8.3"
       },
       {
-        "name": "thorax-rails",
+        "name": "thorax",
         "requirements": "~> 0.8.3"
       },
       {
@@ -47499,12 +48250,12 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "tire-contrib",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tire-erez",
         "requirements": "~> 0.9"
+      },
+      {
+        "name": "tire-contrib",
+        "requirements": ">= 0"
       },
       {
         "name": "toil",
@@ -47520,6 +48271,10 @@
       },
       {
         "name": "twbs_sass_rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twbs_less_rails",
         "requirements": ">= 0"
       },
       {
@@ -47591,11 +48346,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yahoo_sports19",
+        "name": "yahoo_sports",
         "requirements": ">= 0"
       },
       {
-        "name": "yahoo_sports",
+        "name": "yahoo_sports19",
         "requirements": ">= 0"
       },
       {
@@ -47675,19 +48430,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tapp-awesome_print",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tapp",
         "requirements": ">= 0"
       },
       {
-        "name": "turnip_formatter",
+        "name": "tapp-awesome_print",
         "requirements": ">= 0"
       },
       {
         "name": "turnip-kanban",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "turnip_formatter",
         "requirements": ">= 0"
       }
     ],
@@ -47704,14 +48459,14 @@
     "description": "Adds \"wip\" and \"backlog\" tags to rspec allowing you to commit scenarios without having to worry about them running."
   },
   "turnip-parallel_tests": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Helper ParallelTests for Turnip"
   },
   "turnip_formatter": {
-    "version": "0.2.5",
+    "version": "0.2.6",
     "dependents": [
       {
         "name": "gnawrnip",
@@ -47780,9 +48535,12 @@
     "description": "Turntable.FM API for Ruby"
   },
   "turntables": {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "dependents": [
-
+      {
+        "name": "wlog",
+        "requirements": ">= 1.0.3"
+      }
     ],
     "description": "A dumb experimental, lightweight db version control system for SQLite3"
   },
@@ -48210,6 +48968,13 @@
 
     ],
     "description": "Dirt simple API for twaud.io"
+  },
+  "twbs_less_rails": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "Provides assets for Bootstrap and FontAwesome in your Rails application."
   },
   "twbs_sass_rails": {
     "version": "0.2.0",
@@ -48648,7 +49413,7 @@
     "version": "0.0.5",
     "dependents": [
       {
-        "name": "twigg-app",
+        "name": "twigg-gerrit",
         "requirements": "~> 0.0.5"
       },
       {
@@ -48656,7 +49421,7 @@
         "requirements": "~> 0.0.5"
       },
       {
-        "name": "twigg-gerrit",
+        "name": "twigg-app",
         "requirements": "~> 0.0.5"
       },
       {
@@ -48726,7 +49491,7 @@
     "description": "A nice Ruby wrapper for the Twilio REST API"
   },
   "twilio-ruby": {
-    "version": "3.11.1",
+    "version": "3.11.4",
     "dependents": [
       {
         "name": "bobble",
@@ -49142,11 +49907,11 @@
         "requirements": "~> 3.7.0"
       },
       {
-        "name": "botolo",
+        "name": "bountydeps",
         "requirements": ">= 0"
       },
       {
-        "name": "bountydeps",
+        "name": "botolo",
         "requirements": ">= 0"
       },
       {
@@ -49174,12 +49939,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "cinch-twitter",
-        "requirements": "~> 4.8"
-      },
-      {
         "name": "cinch-twitterstatus",
         "requirements": "~> 4.8.1"
+      },
+      {
+        "name": "cinch-twitter",
+        "requirements": "~> 4.8"
       },
       {
         "name": "cogbot",
@@ -49204,6 +49969,10 @@
       {
         "name": "firenxis-god",
         "requirements": ">= 0.3.7"
+      },
+      {
+        "name": "fluent-plugin-twittersearch",
+        "requirements": "~> 4.8.1"
       },
       {
         "name": "fluent-plugin-twitter",
@@ -49250,6 +50019,10 @@
         "requirements": ">= 1.7.2"
       },
       {
+        "name": "inst_lti_twitter",
+        "requirements": "~> 5.0.0.rc.1"
+      },
+      {
         "name": "instafavs",
         "requirements": ">= 1.1.2"
       },
@@ -49292,6 +50065,10 @@
       {
         "name": "lolcommits",
         "requirements": ">= 0"
+      },
+      {
+        "name": "long_tweet",
+        "requirements": "~> 4.8"
       },
       {
         "name": "mines",
@@ -49386,12 +50163,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "social-bee",
-        "requirements": ">= 0"
-      },
-      {
         "name": "social_cleaner",
         "requirements": ">= 4.8"
+      },
+      {
+        "name": "social-bee",
+        "requirements": ">= 0"
       },
       {
         "name": "social_feed_agregator",
@@ -49402,12 +50179,12 @@
         "requirements": "~> 4.0"
       },
       {
-        "name": "socialshare",
-        "requirements": ">= 0"
-      },
-      {
         "name": "socialoud",
         "requirements": ">= 4.0.0"
+      },
+      {
+        "name": "socialshare",
+        "requirements": ">= 0"
       },
       {
         "name": "spherebird",
@@ -49466,10 +50243,6 @@
         "requirements": "~> 2.0.2"
       },
       {
-        "name": "tweetable",
-        "requirements": "= 0.9.12"
-      },
-      {
         "name": "tweet_frequency",
         "requirements": ">= 0"
       },
@@ -49482,6 +50255,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tweetable",
+        "requirements": "= 0.9.12"
+      },
+      {
         "name": "tweetdump",
         "requirements": ">= 0"
       },
@@ -49490,15 +50267,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tweetline",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "tweetlr",
         "requirements": ">= 0"
       },
       {
+        "name": "tweetline",
+        "requirements": "~> 1.2.0"
+      },
+      {
         "name": "tweetly",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tweetwall",
         "requirements": ">= 0"
       },
       {
@@ -49508,10 +50289,6 @@
       {
         "name": "tweetstream",
         "requirements": "~> 4.5"
-      },
-      {
-        "name": "tweetwall",
-        "requirements": ">= 0"
       },
       {
         "name": "tweety",
@@ -49530,12 +50307,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "twilip",
-        "requirements": ">= 0"
-      },
-      {
         "name": "twilter",
         "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "twilip",
+        "requirements": ">= 0"
       },
       {
         "name": "twink",
@@ -49594,6 +50371,10 @@
         "requirements": ">= 1.1.2"
       },
       {
+        "name": "twitter_lti",
+        "requirements": "~> 5.0.0.rc.1"
+      },
+      {
         "name": "twitter_search_photos",
         "requirements": "~> 4.6"
       },
@@ -49612,10 +50393,6 @@
       {
         "name": "twt",
         "requirements": ">= 2.1.1"
-      },
-      {
-        "name": "voluntary",
-        "requirements": "= 2.0.2"
       },
       {
         "name": "who-needs-wp",
@@ -49768,6 +50545,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "neilin-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nimbleshop_core",
         "requirements": "= 2.1.0"
       },
@@ -49777,6 +50558,10 @@
       },
       {
         "name": "queue_classic_admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails-settings-ui",
         "requirements": ">= 0"
       },
       {
@@ -49830,10 +50615,6 @@
       {
         "name": "vision",
         "requirements": ">= 0"
-      },
-      {
-        "name": "voluntary",
-        "requirements": "= 2.1.3"
       }
     ],
     "description": "twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3.1 Asset Pipeline"
@@ -49846,14 +50627,14 @@
     "description": "twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3.1 Asset Pipeline"
   },
   "twitter-bootstrap-rails-cdn": {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependents": [
 
     ],
     "description": "Twitter Boostrap CDN support for Rails 3 and 4"
   },
   "twitter-bootstrap-rails-confirm": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -49898,12 +50679,12 @@
     "version": "3.0.0.2",
     "dependents": [
       {
-        "name": "twitter-bootswatch-rails-helpers",
-        "requirements": "~> 3.0.0"
-      },
-      {
         "name": "twitter-bootswatch-rails-fontawesome",
         "requirements": ">= 0"
+      },
+      {
+        "name": "twitter-bootswatch-rails-helpers",
+        "requirements": "~> 3.0.0"
       }
     ],
     "description": "twitter-bootswatch-rails gem integrates Bootstrap for Rails Asset Pipeline with less-rails"
@@ -49916,7 +50697,7 @@
     "description": "twitter-bootswatch-rails-fontawesome is a gem extension for twitter-bootswatch-rails 2.3.2 gem that adds Font Awesome toolkit for Rails 3.1+ Asset Pipeline with less-rails"
   },
   "twitter-bootswatch-rails-helpers": {
-    "version": "3.0.0.0",
+    "version": "3.0.0.1",
     "dependents": [
 
     ],
@@ -50017,11 +50798,11 @@
     "version": "0.1.16",
     "dependents": [
       {
-        "name": "campfire-bot",
+        "name": "campfire-bot_alexchee",
         "requirements": "~> 0.1"
       },
       {
-        "name": "campfire-bot_alexchee",
+        "name": "campfire-bot",
         "requirements": "~> 0.1"
       },
       {
@@ -50138,6 +50919,13 @@
 
     ],
     "description": "Injects twitter-text-js into your asset pipeline."
+  },
+  "twitter-text-relative": {
+    "version": "1.6.2.3",
+    "dependents": [
+
+    ],
+    "description": "A gem that provides text handling for Twitter, with relative URLs instead of http://twitter.com/..."
   },
   "twitter-typeahead-rails": {
     "version": "0.9.3",
@@ -50369,6 +51157,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tungsten-support",
+        "requirements": "= 2.1.1"
+      },
+      {
         "name": "twitter_cldr_js",
         "requirements": "~> 2.4.0"
       }
@@ -50438,6 +51230,13 @@
     ],
     "description": "Twitter Kotoba gets a user's last 1000 tweets and prints the frequency of each word in descending order."
   },
+  "twitter_lti": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Embed a Twitter widget into your LMS with this LTI App."
+  },
   "twitter_oauth": {
     "version": "0.4.94",
     "dependents": [
@@ -50468,6 +51267,10 @@
       {
         "name": "rabbiter",
         "requirements": ">= 0"
+      },
+      {
+        "name": "social_count",
+        "requirements": "~> 0.4.94"
       },
       {
         "name": "termitter",
@@ -50994,19 +51797,19 @@
     ],
     "description": "Shortcuts for Typhoeus"
   },
-  "TYLER": {
-    "version": "0.0.2",
-    "dependents": [
-
-    ],
-    "description": "Exceptions, done right."
-  },
   "tyler": {
     "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "Allows easy generation of tiling textures, via files, or in memory!"
+  },
+  "TYLER": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Exceptions, done right."
   },
   "tyler_bio": {
     "version": "0.0.1",
@@ -51110,7 +51913,7 @@
     "description": "      All methods that alter the contents of an array that implements this Gem are first checked to\n      ensure that the added items are of the types allowed. All methods behave exactly as their Array\n      counterparts, including additional forms, block processing, etc.\n\n      Defining a TypedArray Class:\n\n      ```ruby\n      class ThingsArray < Array\n        extend TypedArray\n        restrict_types Thing1, Thing2\n      end\n\n      things = ThingsArray.new\n      ```\n\n      Generating a single TypedArray\n      \n      ```ruby\n      things = TypedArray(Thing1,Thing2).new\n\n      These classes can be extended, and their accepted-types appended to after their initial definition.\n"
   },
   "typed-class": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "dependents": [
 
     ],
@@ -51261,6 +52064,13 @@
     ],
     "description": "Simplifies typesafe development by providing the additional\n      methods Object#must_by_kind_of ad Object#must_be_a."
   },
+  "typesafe-config-jars": {
+    "version": "unknown",
+    "dependents": [
+
+    ],
+    "description": "Typesafe Config JARs from http://typesafe.com"
+  },
   "typesafe-ruby": {
     "version": "0.0.2",
     "dependents": [
@@ -51389,6 +52199,10 @@
       },
       {
         "name": "adm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ahab",
         "requirements": ">= 0"
       },
       {
@@ -51572,6 +52386,10 @@
         "requirements": "~> 0.2"
       },
       {
+        "name": "ctgb-ids-converter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "darksky",
         "requirements": ">= 0"
       },
@@ -51748,6 +52566,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hotels_pro",
+        "requirements": ">= 0"
+      },
+      {
         "name": "html-proofer",
         "requirements": "~> 0.6.3"
       },
@@ -51780,12 +52602,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "iron_mq",
-        "requirements": ">= 0.5.4"
-      },
-      {
         "name": "iron_mailer",
         "requirements": ">= 0"
+      },
+      {
+        "name": "iron_mq",
+        "requirements": ">= 0.5.4"
       },
       {
         "name": "itunes_crawler",
@@ -52220,6 +53042,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tungsten-support",
+        "requirements": ">= 0.2.4"
+      },
+      {
         "name": "twitter-photos",
         "requirements": ">= 0"
       },
@@ -52236,12 +53062,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "typhoid",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "typhoeus-simple",
         "requirements": "~> 0.2.4"
+      },
+      {
+        "name": "typhoid",
+        "requirements": "~> 0.4"
       },
       {
         "name": "uncoil",
@@ -52593,11 +53419,11 @@
         "requirements": "~> 0.3.29"
       },
       {
-        "name": "activesupport",
+        "name": "activesupport-core-ext",
         "requirements": "~> 0.3.37"
       },
       {
-        "name": "activesupport-core-ext",
+        "name": "activesupport",
         "requirements": "~> 0.3.37"
       },
       {
@@ -52689,11 +53515,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cells",
+        "name": "cells-capture",
         "requirements": ">= 0"
       },
       {
-        "name": "cells-capture",
+        "name": "cells",
         "requirements": ">= 0"
       },
       {
@@ -52717,12 +53543,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "couchrest_model",
+        "name": "couchrest_model-radiant",
         "requirements": "~> 0.3.22"
       },
       {
-        "name": "couchrest_model-radiant",
-        "requirements": "~> 0.3.22"
+        "name": "couchrest_model",
+        "requirements": ">= 0.3.22"
       },
       {
         "name": "cowtech-extensions",
@@ -52785,16 +53611,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eventbright",
-        "requirements": ">= 0.3.22"
+        "name": "eventbrite-client",
+        "requirements": "~> 0.3.22"
       },
       {
         "name": "eventbrite",
         "requirements": "~> 0.3.22"
       },
       {
-        "name": "eventbrite-client",
-        "requirements": "~> 0.3.22"
+        "name": "eventbright",
+        "requirements": ">= 0.3.22"
       },
       {
         "name": "exchanger",
@@ -52814,6 +53640,10 @@
       },
       {
         "name": "fine_uploader",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fitbit-to-graphite",
         "requirements": ">= 0"
       },
       {
@@ -52845,11 +53675,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "formtastic-bootstrap",
+        "name": "formtastic",
         "requirements": ">= 0"
       },
       {
-        "name": "formtastic",
+        "name": "formtastic-bootstrap",
         "requirements": ">= 0"
       },
       {
@@ -52985,6 +53815,10 @@
         "requirements": "~> 0.3"
       },
       {
+        "name": "locomotivecms_mounter",
+        "requirements": "~> 1.0.1"
+      },
+      {
         "name": "massimo",
         "requirements": "~> 0.3"
       },
@@ -53049,12 +53883,12 @@
         "requirements": "~> 0.3.22"
       },
       {
-        "name": "mongomapper_ext",
-        "requirements": "~> 0.3"
-      },
-      {
         "name": "mongomapper-versioned",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mongomapper_ext",
+        "requirements": "~> 0.3"
       },
       {
         "name": "mosaic-lyris",
@@ -53102,6 +53936,10 @@
       },
       {
         "name": "octranspo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "odeon_uk",
         "requirements": ">= 0"
       },
       {
@@ -53226,7 +54064,7 @@
       },
       {
         "name": "rufus-scheduler",
-        "requirements": ">= 0.3.22"
+        "requirements": ">= 0"
       },
       {
         "name": "s3_browser_uploads",
@@ -53282,10 +54120,6 @@
       },
       {
         "name": "staticman",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "stripe-rails",
         "requirements": ">= 0"
       },
       {
@@ -53381,6 +54215,10 @@
         "requirements": "~> 0.3.33"
       },
       {
+        "name": "vremya",
+        "requirements": "~> 0.3.37"
+      },
+      {
         "name": "wasserstand",
         "requirements": ">= 0"
       },
@@ -53409,11 +54247,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yahoo_sports19",
+        "name": "yahoo_sports",
         "requirements": "~> 0.3.15"
       },
       {
-        "name": "yahoo_sports",
+        "name": "yahoo_sports19",
         "requirements": "~> 0.3.15"
       },
       {
@@ -53440,10 +54278,14 @@
     "description": "TZInfo provides daylight savings aware transformations between times in different time zones."
   },
   "tzinfo-data": {
-    "version": "1.2013.6",
+    "version": "1.2013.7",
     "dependents": [
       {
         "name": "flapjack",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "odeon_uk",
         "requirements": ">= 0"
       },
       {

@@ -7,7 +7,7 @@
     "description": "Ruby utilities."
   },
   "x-editable-rails": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "dependents": [
 
     ],
@@ -27,19 +27,19 @@
     ],
     "description": "X11 client"
   },
-  "x12": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
-  },
   "X12": {
     "version": "1.1.0",
     "dependents": [
 
     ],
     "description": "Library to parse X12 messages and manipulate their loops, segments, fields, composites, and validation tables."
+  },
+  "x12": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
   },
   "x12edi": {
     "version": "0.0.3",
@@ -119,15 +119,15 @@
     "description": "A lightweight Ruby DSL for building text-stream filters"
   },
   "xamarin-test-cloud": {
-    "version": "0.9.25",
+    "version": "0.9.26",
     "dependents": [
-      {
-        "name": "calabash",
-        "requirements": "~> 0.9.25"
-      },
       {
         "name": "calabash-android",
         "requirements": ">= 0.9.23"
+      },
+      {
+        "name": "calabash",
+        "requirements": "~> 0.9.25"
       },
       {
         "name": "calabash-cucumber",
@@ -311,7 +311,7 @@
     "description": "Give it an xml and define a mapping for it as a ruby hash and there you have it. A ruby hash for your XML"
   },
   "xarf": {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "dependents": [
 
     ],
@@ -405,7 +405,7 @@
     "description": "This Xbox Live wrapper allows you to get profiles, games, achievements and friends data"
   },
   "xbox_leaders": {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "dependents": [
 
     ],
@@ -584,7 +584,7 @@
     "description": "Build Xcode projects using Rake"
   },
   "xcodebuilder": {
-    "version": "0.0.9.5",
+    "version": "0.0.16",
     "dependents": [
 
     ],
@@ -608,7 +608,7 @@
     "description": "\n    Helps you publish HTML web pages on the Internet somewhere appropriate, e.g.\n    on GitHub via the gh-pages branch feature.\n\n    Works for Objective-C projects built using Apple's Xcode IDE and\n    consequently focuses on documentation within Objective-C and Objective-C++\n    source files; files ending with extensions h, m or mm."
   },
   "xcodeproj": {
-    "version": "0.11.1",
+    "version": "0.13.1",
     "dependents": [
       {
         "name": "botstrap",
@@ -616,7 +616,7 @@
       },
       {
         "name": "cocoapods",
-        "requirements": "~> 0.11.0"
+        "requirements": "~> 0.13.0"
       },
       {
         "name": "cocoapods-square-stable",
@@ -652,11 +652,15 @@
       },
       {
         "name": "lanekit",
-        "requirements": "~> 0.5.5"
+        "requirements": "~> 0.10.0"
       },
       {
         "name": "liftoff",
         "requirements": "~> 0.5.1"
+      },
+      {
+        "name": "liygem",
+        "requirements": ">= 0"
       },
       {
         "name": "motion-objc",
@@ -1032,7 +1036,7 @@
     "description": "Starling is a lightweight, transactional, distributed queue server"
   },
   "xhr_flash": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -1216,6 +1220,13 @@
     ],
     "description": "When reading the subdomain of an xip.io request, you will get a different value\ncompared to a local pow request. The reason for this is that the tld length is\n1 by default, but an xip.io request has a tld length of 6. This gem inserts a\nmiddleware that corrects the tld length config of rails on the fly so that you\ncan use local and xip requests at the same time without restarting the server.\n"
   },
+  "xirr_newton_calculator": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "a library to calculate xirr on Ruby."
+  },
   "xisbn": {
     "version": "0.0.4",
     "dependents": [
@@ -1355,6 +1366,13 @@
     ],
     "description": "\"send xm(pp) messages quickly everywhere\""
   },
+  "xmandrill": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A simple API wrapper for Mandrill."
+  },
   "xmapper": {
     "version": "0.1.0",
     "dependents": [
@@ -1453,12 +1471,12 @@
     "version": "0.9.1",
     "dependents": [
       {
-        "name": "ebayapi-awt",
-        "requirements": "~> 0.8.1"
-      },
-      {
         "name": "ebayapi",
         "requirements": ">= 0.8.1"
+      },
+      {
+        "name": "ebayapi-awt",
+        "requirements": "~> 0.8.1"
       },
       {
         "name": "goodercode-zune",
@@ -1647,19 +1665,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "aws-s3-akhtaboot",
-        "requirements": ">= 0"
-      },
-      {
         "name": "aws-s3-instructure",
         "requirements": ">= 0"
       },
       {
-        "name": "aws-s3-multi-region",
+        "name": "aws-s3-akhtaboot",
         "requirements": ">= 0"
       },
       {
         "name": "aws-ses",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-s3-multi-region",
         "requirements": ">= 0"
       },
       {
@@ -1696,11 +1714,11 @@
       },
       {
         "name": "boomi-ruby",
-        "requirements": "~> 1.0.0"
+        "requirements": "= 1.0.12"
       },
       {
         "name": "buildr",
-        "requirements": "= 1.1.1"
+        "requirements": "= 1.1.2"
       },
       {
         "name": "buildr-dependency-extensions",
@@ -2107,11 +2125,11 @@
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "restrack-client",
+        "name": "restrack",
         "requirements": ">= 1.0.13"
       },
       {
-        "name": "restrack",
+        "name": "restrack-client",
         "requirements": ">= 1.0.13"
       },
       {
@@ -2183,15 +2201,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_quickfix",
-        "requirements": ">= 0"
-      },
-      {
         "name": "salesforce_bulk2",
         "requirements": ">= 0"
       },
       {
         "name": "salesforce_bulk_oauth2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk_quickfix",
         "requirements": ">= 0"
       },
       {
@@ -2303,6 +2321,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sunweather",
+        "requirements": "~> 1.1.2"
+      },
+      {
         "name": "svanzoest-aws-s3",
         "requirements": ">= 0"
       },
@@ -2379,12 +2401,12 @@
         "requirements": ">= 1.0.12"
       },
       {
-        "name": "xbrlware-ruby19",
-        "requirements": ">= 0"
-      },
-      {
         "name": "xbrlware-ce",
         "requirements": "= 1.0.12"
+      },
+      {
+        "name": "xbrlware-ruby19",
+        "requirements": ">= 0"
       },
       {
         "name": "xml_hate",
@@ -2407,11 +2429,11 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "zohoho",
+        "name": "zohax",
         "requirements": ">= 0"
       },
       {
-        "name": "zohax",
+        "name": "zohoho",
         "requirements": ">= 0"
       },
       {
@@ -2603,20 +2625,6 @@
     ],
     "description": "ActiveRecord plugin for versioning your models. Based on an old version of metaskills' fork."
   },
-  "XMLCanonicalizer": {
-    "version": "1.0.1",
-    "dependents": [
-      {
-        "name": "oa-enterprise",
-        "requirements": "~> 1.0.1"
-      },
-      {
-        "name": "saml2ruby",
-        "requirements": ">= 1.0.1"
-      }
-    ],
-    "description": "Implementation of w3c xml canonicalizer standart."
-  },
   "xmlcanonicalizer": {
     "version": "0.1.2",
     "dependents": [
@@ -2634,7 +2642,7 @@
       },
       {
         "name": "ruby-saml-for-portal",
-        "requirements": "~> 0.1.1"
+        "requirements": "~> 0.1.2"
       },
       {
         "name": "xml_signature",
@@ -2642,6 +2650,20 @@
       }
     ],
     "description": "This is taken from XMLCanonicalizer/WSS4R and http://github.com/borisnadion/xml-canonicalizer"
+  },
+  "XMLCanonicalizer": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "oa-enterprise",
+        "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "saml2ruby",
+        "requirements": ">= 1.0.1"
+      }
+    ],
+    "description": "Implementation of w3c xml canonicalizer standart."
   },
   "xmlcellent": {
     "version": "0.1.0",
@@ -2706,7 +2728,7 @@
     "description": "A really easy xml-api."
   },
   "xmlenc": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -2728,6 +2750,13 @@
       }
     ],
     "description": "Fast XML to Ruby Hash converter"
+  },
+  "xmlish": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "small almost-xml parser for complex string interpolation"
   },
   "xmlize": {
     "version": "0.1.1",
@@ -3001,7 +3030,7 @@
     "description": "A Logger via xmpp"
   },
   "xmpp4r": {
-    "version": "0.5",
+    "version": "0.5.5",
     "dependents": [
       {
         "name": "ahoy",
@@ -3116,12 +3145,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jabber-tee",
-        "requirements": ">= 0.5"
-      },
-      {
         "name": "jab",
         "requirements": ">= 0"
+      },
+      {
+        "name": "jabber-tee",
+        "requirements": ">= 0.5"
       },
       {
         "name": "jabber_delivery",
@@ -3248,11 +3277,11 @@
         "requirements": ">= 0.5"
       },
       {
-        "name": "xmpp4r-hipchat",
-        "requirements": "~> 0.5"
+        "name": "xmpp4r-simple",
+        "requirements": ">= 0.3.2"
       },
       {
-        "name": "xmpp4r-simple",
+        "name": "xmpp4r-simple-19",
         "requirements": ">= 0.3.2"
       },
       {
@@ -3260,23 +3289,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp4r-observable",
-        "requirements": ">= 0.5.0"
-      },
-      {
-        "name": "xmpp4r-simple-19",
-        "requirements": ">= 0.3.2"
+        "name": "xmpp4r-hipchat",
+        "requirements": "~> 0.5"
       },
       {
         "name": "xmpp_server",
         "requirements": ">= 0"
       },
       {
+        "name": "xmpp4r-observable",
+        "requirements": ">= 0.5.0"
+      },
+      {
         "name": "zoe",
         "requirements": "~> 0.5.0"
       }
     ],
-    "description": "XMPP4R is an XMPP/Jabber library for Ruby."
+    "description": "XMPP/Jabber library for ruby"
   },
   "xmpp4r-hipchat": {
     "version": "0.0.1",
@@ -3406,15 +3435,15 @@
     ],
     "description": "XML-Object Mapper with many built-in XML formats supported"
   },
-  "Xooie": {
-    "version": "0.0.13",
+  "xooie": {
+    "version": "1.0.1",
     "dependents": [
 
     ],
     "description": "A highly modular, extensible JavaScript UI framework."
   },
-  "xooie": {
-    "version": "1.0.0",
+  "Xooie": {
+    "version": "0.0.13",
     "dependents": [
 
     ],
@@ -3621,6 +3650,13 @@
     ],
     "description": "Ruby wrapper/enhancer for xrandr, the Linux CLI monitor manager."
   },
+  "XRay": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "Dump backtrace for all threads."
+  },
   "xray": {
     "version": "1.1",
     "dependents": [
@@ -3632,13 +3668,6 @@
         "name": "dp_stm_map",
         "requirements": ">= 0"
       }
-    ],
-    "description": "Dump backtrace for all threads."
-  },
-  "XRay": {
-    "version": "1.0.3",
-    "dependents": [
-
     ],
     "description": "Dump backtrace for all threads."
   },

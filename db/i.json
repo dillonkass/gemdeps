@@ -42,15 +42,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "absa-h2h",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ach_builder",
         "requirements": ">= 0"
       },
       {
         "name": "action_param_caching",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "absa-h2h",
         "requirements": ">= 0"
       },
       {
@@ -82,11 +82,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "activesupport",
+        "name": "activesupport-core-ext",
         "requirements": ">= 0.6.4, ~> 0.6"
       },
       {
-        "name": "activesupport-core-ext",
+        "name": "activesupport",
         "requirements": ">= 0.6.4, ~> 0.6"
       },
       {
@@ -354,11 +354,11 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "bodega",
+        "name": "bodhi",
         "requirements": ">= 0"
       },
       {
-        "name": "bodhi",
+        "name": "bodega",
         "requirements": ">= 0"
       },
       {
@@ -462,6 +462,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "capistrano",
+        "requirements": ">= 0"
+      },
+      {
         "name": "capistrano-exts",
         "requirements": ">= 0"
       },
@@ -516,10 +520,6 @@
       {
         "name": "chatty_error",
         "requirements": ">= 0"
-      },
-      {
-        "name": "chefspec",
-        "requirements": "~> 0.6"
       },
       {
         "name": "chigusa",
@@ -702,12 +702,12 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "datatrans",
-        "requirements": ">= 0"
-      },
-      {
         "name": "date-casually",
         "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "datatrans",
+        "requirements": ">= 0"
       },
       {
         "name": "dball-mail",
@@ -858,40 +858,40 @@
         "requirements": ">= 0.4.1"
       },
       {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "excesselt",
+        "requirements": ">= 0"
+      },
+      {
         "name": "exchange-rates-generator",
         "requirements": "~> 0.5.0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "excesselt",
-        "requirements": ">= 0"
       },
       {
         "name": "exchanger",
@@ -914,12 +914,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "faker",
-        "requirements": "~> 0.5"
-      },
-      {
         "name": "faker-fakeme",
         "requirements": "~> 0.4"
+      },
+      {
+        "name": "faker",
+        "requirements": "~> 0.5"
       },
       {
         "name": "faker19",
@@ -944,10 +944,6 @@
       {
         "name": "feature_set",
         "requirements": ">= 0"
-      },
-      {
-        "name": "feedzirra",
-        "requirements": ">= 0.5.0"
       },
       {
         "name": "feedzirra-redis",
@@ -990,11 +986,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "flip",
+        "name": "flip_fork",
         "requirements": ">= 0"
       },
       {
-        "name": "flip_fork",
+        "name": "flip",
         "requirements": ">= 0"
       },
       {
@@ -1007,7 +1003,7 @@
       },
       {
         "name": "flydata",
-        "requirements": ">= 0"
+        "requirements": "~> 0.6.5"
       },
       {
         "name": "flynn",
@@ -1026,12 +1022,12 @@
         "requirements": "~> 0.5.0"
       },
       {
-        "name": "formic",
-        "requirements": ">= 0"
-      },
-      {
         "name": "formeze",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "formic",
+        "requirements": ">= 0"
       },
       {
         "name": "formtastic_datepicker_inputs",
@@ -1146,6 +1142,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "govkit-h",
+        "requirements": ">= 0"
+      },
+      {
         "name": "govkit",
         "requirements": ">= 0"
       },
@@ -1158,16 +1158,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "grape-jbuilder",
+        "name": "grape-rabl",
         "requirements": ">= 0"
       },
       {
-        "name": "grape-rabl",
+        "name": "grape-jbuilder",
         "requirements": ">= 0"
       },
       {
         "name": "grapevine",
         "requirements": "~> 0.6.4"
+      },
+      {
+        "name": "gravatar-ultimate",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "graticule",
@@ -1178,24 +1182,16 @@
         "requirements": "~> 0.6.5"
       },
       {
-        "name": "gravatar-ultimate",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "govkit-h",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gumdrop",
         "requirements": "= 0.6.0"
       },
       {
-        "name": "hakon-lacquer",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "hakiri",
         "requirements": ">= 0"
+      },
+      {
+        "name": "hakon-lacquer",
+        "requirements": "~> 0.4"
       },
       {
         "name": "haml-i18n",
@@ -1298,11 +1294,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hungrytable-pjc",
+        "name": "hungrytable",
         "requirements": ">= 0"
       },
       {
-        "name": "hungrytable",
+        "name": "hungrytable-pjc",
         "requirements": ">= 0"
       },
       {
@@ -1310,28 +1306,28 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "i18n-active_record-backend",
-        "requirements": ">= 0.6.0"
-      },
-      {
         "name": "i18n-airbrake",
         "requirements": "~> 0.6"
       },
       {
-        "name": "i18n-complements",
-        "requirements": ">= 0.6"
+        "name": "i18n-active_record-backend",
+        "requirements": ">= 0.6.0"
       },
       {
         "name": "i18n-backend-http",
         "requirements": ">= 0"
       },
       {
-        "name": "i18n-export",
-        "requirements": ">= 0"
+        "name": "i18n-complements",
+        "requirements": ">= 0.6"
       },
       {
         "name": "i18n-country-translations",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "i18n-export",
+        "requirements": ">= 0"
       },
       {
         "name": "i18n-extra_translations",
@@ -1346,7 +1342,7 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "i18n-message",
+        "name": "i18n-js",
         "requirements": ">= 0"
       },
       {
@@ -1354,7 +1350,7 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "i18n-js",
+        "name": "i18n-message",
         "requirements": ">= 0"
       },
       {
@@ -1362,24 +1358,20 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "i18n-recursive-lookup",
-        "requirements": ">= 0"
-      },
-      {
         "name": "i18n-one_sky",
         "requirements": ">= 0.5.0"
-      },
-      {
-        "name": "i18n-timezones",
-        "requirements": "~> 0.5"
       },
       {
         "name": "i18n-sequel_bitemporal",
         "requirements": "< 0.7.0, >= 0.5"
       },
       {
-        "name": "i18n-validator",
+        "name": "i18n-recursive-lookup",
         "requirements": ">= 0"
+      },
+      {
+        "name": "i18n-timezones",
+        "requirements": "~> 0.5"
       },
       {
         "name": "i18n-translators-tools",
@@ -1390,16 +1382,20 @@
         "requirements": "~> 0.5"
       },
       {
+        "name": "i18n-validator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "i18n_auto_scoping",
         "requirements": "> 0.3.5"
       },
       {
-        "name": "i18n_backend_sequel",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "i18n_backend_database",
         "requirements": ">= 0"
+      },
+      {
+        "name": "i18n_backend_sequel",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "i18n_country_select",
@@ -1410,11 +1406,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "i18n_locale_editor",
+        "name": "i18n_lookup_tracer",
         "requirements": ">= 0"
       },
       {
-        "name": "i18n_lookup_tracer",
+        "name": "i18n_locale_editor",
         "requirements": ">= 0"
       },
       {
@@ -1530,15 +1526,15 @@
         "requirements": "= 0.3.7"
       },
       {
+        "name": "jakewendt-photos",
+        "requirements": "= 0.3.7"
+      },
+      {
         "name": "jakewendt-documents",
         "requirements": "= 0.3.7"
       },
       {
         "name": "jakewendt-pages",
-        "requirements": "= 0.3.7"
-      },
-      {
-        "name": "jakewendt-photos",
         "requirements": "= 0.3.7"
       },
       {
@@ -1606,6 +1602,10 @@
         "requirements": ">= 0.6.1"
       },
       {
+        "name": "komba-itunes-receipt",
+        "requirements": ">= 0"
+      },
+      {
         "name": "konjac",
         "requirements": ">= 0"
       },
@@ -1670,15 +1670,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "localite",
-        "requirements": ">= 0"
-      },
-      {
         "name": "localist-feedzirra",
         "requirements": ">= 0.5.0"
       },
       {
+        "name": "localite",
+        "requirements": ">= 0"
+      },
+      {
         "name": "localization-middleware",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "locomotivecms-solid",
         "requirements": ">= 0"
       },
       {
@@ -1687,10 +1691,6 @@
       },
       {
         "name": "locomotivecms_solid",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "locomotivecms-solid",
         "requirements": ">= 0"
       },
       {
@@ -1738,19 +1738,19 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "machines",
-        "requirements": ">= 0"
-      },
-      {
         "name": "machined",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "machinist2_mongomapper",
+        "name": "machines",
         "requirements": ">= 0"
       },
       {
         "name": "machinist-dm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "machinist2_mongomapper",
         "requirements": ">= 0"
       },
       {
@@ -1799,6 +1799,10 @@
       },
       {
         "name": "mediawiki_tool",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "melitta",
         "requirements": ">= 0"
       },
       {
@@ -1874,15 +1878,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mlanett-i18n-js",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mm-commentable",
         "requirements": ">= 0"
       },
       {
-        "name": "mm-friendable",
+        "name": "mm-draft",
         "requirements": ">= 0"
       },
       {
-        "name": "mm-draft",
+        "name": "mm-friendable",
         "requirements": ">= 0"
       },
       {
@@ -1966,12 +1974,12 @@
         "requirements": "= 0.5.0"
       },
       {
-        "name": "mongomatic",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "mongomapper_ext",
         "requirements": "~> 0.4.1"
+      },
+      {
+        "name": "mongomatic",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "mongoo",
@@ -2046,11 +2054,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi",
+        "name": "nicoapi-core",
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi-core",
+        "name": "nicoapi",
         "requirements": ">= 0"
       },
       {
@@ -2086,11 +2094,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "number_to_words_ru",
+        "name": "numbers_and_words",
         "requirements": ">= 0"
       },
       {
-        "name": "numbers_and_words",
+        "name": "number_to_words_ru",
         "requirements": ">= 0"
       },
       {
@@ -2142,11 +2150,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opentoken-newrelic-rails23",
+        "name": "opentoken",
         "requirements": ">= 0"
       },
       {
-        "name": "opentoken",
+        "name": "opentoken-newrelic-rails23",
         "requirements": ">= 0"
       },
       {
@@ -2415,10 +2423,14 @@
       },
       {
         "name": "rails-i18n",
-        "requirements": "~> 0.5"
+        "requirements": "~> 0.6"
       },
       {
         "name": "rails-localization",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails-settings-ui",
         "requirements": ">= 0"
       },
       {
@@ -2442,11 +2454,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rails_best_practices-gorgeouscode",
+        "name": "rails_best_practices",
         "requirements": ">= 0"
       },
       {
-        "name": "rails_best_practices",
+        "name": "rails_best_practices-gorgeouscode",
         "requirements": ">= 0"
       },
       {
@@ -2518,11 +2530,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "recurrent",
+        "name": "recurrence",
         "requirements": ">= 0"
       },
       {
-        "name": "recurrence",
+        "name": "recurrent",
         "requirements": ">= 0"
       },
       {
@@ -2574,11 +2586,11 @@
         "requirements": ">= 0.6"
       },
       {
-        "name": "restrack-client",
+        "name": "restrack",
         "requirements": ">= 0"
       },
       {
-        "name": "restrack",
+        "name": "restrack-client",
         "requirements": ">= 0"
       },
       {
@@ -2614,11 +2626,11 @@
         "requirements": "~> 0.5.0"
       },
       {
-        "name": "rich_pluralization",
+        "name": "rich_i18n",
         "requirements": ">= 0.3.7"
       },
       {
-        "name": "rich_i18n",
+        "name": "rich_pluralization",
         "requirements": ">= 0.3.7"
       },
       {
@@ -2650,12 +2662,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "routing_filter_locale_unless_api",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "routing-filter",
         "requirements": ">= 0"
+      },
+      {
+        "name": "routing_filter_locale_unless_api",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "rpv_i18n",
@@ -2794,11 +2806,11 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "schrodingers-cat",
+        "name": "schreihals",
         "requirements": ">= 0"
       },
       {
-        "name": "schreihals",
+        "name": "schrodingers-cat",
         "requirements": ">= 0"
       },
       {
@@ -2839,6 +2851,10 @@
       },
       {
         "name": "serve",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sexp_info",
         "requirements": ">= 0"
       },
       {
@@ -2986,16 +3002,8 @@
         "requirements": ">= 0.6.0"
       },
       {
-        "name": "spree_custom_multi_lingual",
-        "requirements": ">= 0"
-      },
-      {
         "name": "spree_i18n",
         "requirements": "~> 0.5"
-      },
-      {
-        "name": "spree_multi_lingual",
-        "requirements": ">= 0"
       },
       {
         "name": "sprinkle_packages",
@@ -3046,11 +3054,11 @@
         "requirements": "~> 0.2"
       },
       {
-        "name": "sugarcrm",
+        "name": "sugarcrm_emp",
         "requirements": ">= 0"
       },
       {
-        "name": "sugarcrm_emp",
+        "name": "sugarcrm",
         "requirements": ">= 0"
       },
       {
@@ -3154,6 +3162,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "text_helpers",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tg_config",
         "requirements": ">= 0"
       },
@@ -3166,15 +3178,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thyone_creator",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "thyone_creator",
-        "requirements": ">= 0"
-      },
-      {
         "name": "thwart",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thyone_creator",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thyone_creator",
         "requirements": ">= 0"
       },
       {
@@ -3362,12 +3374,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "vagrant-berkshelf",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "vagrant-bundler",
         "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "vagrant-berkshelf",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "vagrant-chef-zero",
@@ -3386,8 +3398,16 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "vagrant-vcloud",
+        "requirements": "~> 0.6.4"
+      },
+      {
         "name": "vagrant-yaml",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "vagrant-vsphere",
+        "requirements": "~> 0.6.4"
       },
       {
         "name": "vagrantup",
@@ -3406,10 +3426,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vcontainer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vcr-xml",
         "requirements": ">= 0.5.0"
       },
@@ -3418,7 +3434,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "veewee",
+        "name": "vcontainer",
         "requirements": ">= 0"
       },
       {
@@ -3426,11 +3442,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "verbs",
+        "requirements": ">= 0"
+      },
+      {
         "name": "veridit-vagrant",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "verbs",
+        "name": "veewee",
         "requirements": ">= 0"
       },
       {
@@ -3494,11 +3514,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wordmove",
+        "name": "wordmove-sshbump",
         "requirements": ">= 0"
       },
       {
-        "name": "wordmove-sshbump",
+        "name": "wordmove",
         "requirements": ">= 0"
       },
       {
@@ -3566,11 +3586,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zabbix_nudge",
+        "name": "zabbix_pusher",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "zabbix_pusher",
+        "name": "zabbix_nudge",
         "requirements": "~> 0.6.0"
       },
       {
@@ -3610,6 +3630,10 @@
       {
         "name": "armot",
         "requirements": ">= 0.0.2"
+      },
+      {
+        "name": "goldencobra",
+        "requirements": ">= 0"
       },
       {
         "name": "i18n-one_sky",
@@ -3748,6 +3772,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gaku_core",
+        "requirements": "~> 2.1"
+      },
+      {
         "name": "guard-i18n-js",
         "requirements": "~> 3.0.0.rc3"
       },
@@ -3857,7 +3885,7 @@
       },
       {
         "name": "rails-i18n",
-        "requirements": "= 0.3.0"
+        "requirements": "= 0.4.0"
       },
       {
         "name": "rails_admin-i18n",
@@ -3879,14 +3907,14 @@
     "description": "Includes a number of rspec matchers to make specing your locale files easy peasy."
   },
   "i18n-tasks": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
     "description": "Rails I18n tasks to find missing / unused translations and more"
   },
   "i18n-timezones": {
-    "version": "1.2.3",
+    "version": "1.3.1",
     "dependents": [
 
     ],
@@ -4284,7 +4312,7 @@
     "description": "I18n url module for Rails 3. Translate your routes easily"
   },
   "i18n_utils": {
-    "version": "0.1",
+    "version": "0.2",
     "dependents": [
 
     ],
@@ -4536,7 +4564,7 @@
     "description": "IAuthU provides a basic iTunes U authentication server, along with libraries for building iTunes U authentication servers into your own application."
   },
   "ib": {
-    "version": "0.3.5",
+    "version": "0.4.1",
     "dependents": [
 
     ],
@@ -4609,7 +4637,7 @@
     "description": "ibanizator generates the correct IBAN for given account number and bank number for german accounts. It is possible to validate given international IBANS. Calculates also the BIC and bank names for given german bank codes."
   },
   "ibanomat": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -4672,7 +4700,7 @@
     "description": "An iCalendar generator in Ruby, modelled after Jim Weirich's Builder"
   },
   "ical_importer": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -4714,6 +4742,10 @@
       },
       {
         "name": "concerto_calendar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-zimbreasy",
         "requirements": ">= 0"
       },
       {
@@ -4938,10 +4970,6 @@
         "requirements": "~> 0.9.0"
       },
       {
-        "name": "memory_model",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mutant",
         "requirements": "~> 0.7.0"
       },
@@ -5106,7 +5134,7 @@
     "description": "Static website compiler with advanced feature, including watcher script."
   },
   "iching": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -5158,11 +5186,11 @@
     "version": "0.3.0",
     "dependents": [
       {
-        "name": "germinate",
+        "name": "germinate-atompub",
         "requirements": "~> 0.3.0"
       },
       {
-        "name": "germinate-atompub",
+        "name": "germinate",
         "requirements": "~> 0.3.0"
       },
       {
@@ -5219,7 +5247,7 @@
     "description": "This Compass plugin provides some easy to use mixins for creating buttons with icons."
   },
   "icon_generator": {
-    "version": "0.9.0",
+    "version": "0.10.1",
     "dependents": [
 
     ],
@@ -5300,6 +5328,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "audiostream",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cashflow",
         "requirements": "~> 1.0.2"
       },
@@ -5313,6 +5345,10 @@
       },
       {
         "name": "hacker_news",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ipgeobase",
         "requirements": ">= 0"
       },
       {
@@ -5433,11 +5469,11 @@
     "version": "0.0.12",
     "dependents": [
       {
-        "name": "daodalus-moped",
+        "name": "daodalus",
         "requirements": ">= 0"
       },
       {
-        "name": "daodalus",
+        "name": "daodalus-moped",
         "requirements": ">= 0"
       },
       {
@@ -5505,7 +5541,7 @@
     "description": "id3rename"
   },
   "id3tag": {
-    "version": "0.1.1",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -5648,7 +5684,7 @@
     "description": "Validadores para los formatos de CURP y RFC"
   },
   "identifier": {
-    "version": "1.1.5",
+    "version": "1.1.8",
     "dependents": [
       {
         "name": "attached",
@@ -5752,7 +5788,7 @@
     "description": "Classifiers"
   },
   "idid": {
-    "version": "0.0.5",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -5849,7 +5885,7 @@
     "description": "Allows you to follow the git-flow with auto adding time tracking to your harvest account"
   },
   "idol-search": {
-    "version": "0.6.2",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -6531,7 +6567,7 @@
     "description": "Image, a small image processing library"
   },
   "image-dumper": {
-    "version": "0.5.2",
+    "version": "0.5.3.4",
     "dependents": [
 
     ],
@@ -6621,9 +6657,20 @@
     ],
     "description": "Upload image, resize, documentize with model name, without hassel."
   },
+  "image_monger_client": {
+    "version": "0.0.12",
+    "dependents": [
+
+    ],
+    "description": "Ruby client for image monger"
+  },
   "image_optim": {
     "version": "0.9.1",
     "dependents": [
+      {
+        "name": "alchemy_cms_picture_optim",
+        "requirements": ">= 0"
+      },
       {
         "name": "asset-image-opt",
         "requirements": ">= 0"
@@ -6724,6 +6771,13 @@
 
     ],
     "description": "Simple utility to pull image urls from web page"
+  },
+  "image_search": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
   },
   "image_size": {
     "version": "1.1.3",
@@ -7033,6 +7087,12 @@
     ],
     "description": "This library allows to generate images of teeth for odontograms with tooth faces painted in a color (red, green, blue, white or black for example). This is very usefull for dental applications.\n"
   },
+  "imageupload": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ]
+  },
   "imageurl": {
     "version": "0.1.0",
     "dependents": [
@@ -7269,11 +7329,11 @@
         "requirements": "~> 0.6.8"
       },
       {
-        "name": "movie-renamer",
+        "name": "movie-garnish",
         "requirements": ">= 0"
       },
       {
-        "name": "movie-garnish",
+        "name": "movie-renamer",
         "requirements": ">= 0"
       },
       {
@@ -7551,6 +7611,13 @@
     ],
     "description": "A framework"
   },
+  "immature": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A ruby module to add silly, immature endings to sentences."
+  },
   "immigrant": {
     "version": "0.1.5",
     "dependents": [
@@ -7603,6 +7670,10 @@
   "immutable_struct": {
     "version": "1.1.1",
     "dependents": [
+      {
+        "name": "blockchain-wallet",
+        "requirements": ">= 0"
+      },
       {
         "name": "pompompom",
         "requirements": ">= 0"
@@ -7690,15 +7761,15 @@
     ],
     "description": "Impas API client (Impas is social parameters crawling application.)"
   },
-  "Impatient": {
-    "version": "1.0.0",
+  "impatient": {
+    "version": "1.1.1",
     "dependents": [
 
     ],
     "description": "Some of us are impatient. At least, I am - when I deploy an update to my app to Heroku, I want to know whether it's ready. This tells you."
   },
-  "impatient": {
-    "version": "1.1.1",
+  "Impatient": {
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -7900,7 +7971,7 @@
     "description": "Fork of original charlotte-ruby impressionist gem, with added histogram functionality"
   },
   "impressionist": {
-    "version": "1.4.10",
+    "version": "1.4.11",
     "dependents": [
       {
         "name": "rostra",
@@ -7966,8 +8037,12 @@
     "description": "Lo and behold"
   },
   "ims-lti": {
-    "version": "1.1.3",
+    "version": "1.1.4",
     "dependents": [
+      {
+        "name": "inst_lti_twitter",
+        "requirements": "~> 1.1.4"
+      },
       {
         "name": "omniauth-lti",
         "requirements": ">= 0"
@@ -7975,6 +8050,10 @@
       {
         "name": "rack-lti",
         "requirements": "~> 1.1.3"
+      },
+      {
+        "name": "twitter_lti",
+        "requirements": "~> 1.1.4"
       }
     ],
     "description": "Ruby library for creating IMS LTI tool providers and consumers"
@@ -8128,6 +8207,13 @@
 
     ],
     "description": "Inari is a system monitoring program."
+  },
+  "inazuma": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Lightweight, ORM and framework agnostic pagination library for Ruby"
   },
   "inbound": {
     "version": "0.0.1",
@@ -8354,7 +8440,7 @@
     "description": "Parser for python-style (or haml, sass, etc...) indent markup languages"
   },
   "indentation": {
-    "version": "0.0.7",
+    "version": "0.1.1",
     "dependents": [
       {
         "name": "gir_ffi",
@@ -8588,16 +8674,16 @@
     "version": "0.1.4",
     "dependents": [
       {
+        "name": "indis",
+        "requirements": "~> 0.1.3"
+      },
+      {
         "name": "indis-arm",
         "requirements": "~> 0.1.2"
       },
       {
         "name": "indis-macho",
         "requirements": "~> 0.1.2"
-      },
-      {
-        "name": "indis",
-        "requirements": "~> 0.1.3"
       }
     ],
     "description": "Core components of indis, the intelligent disassembler framework"
@@ -8606,12 +8692,12 @@
     "version": "0.3.1",
     "dependents": [
       {
-        "name": "indis-arm",
-        "requirements": "~> 0.3.0"
-      },
-      {
         "name": "indis",
         "requirements": "~> 0.3.1"
+      },
+      {
+        "name": "indis-arm",
+        "requirements": "~> 0.3.0"
       }
     ],
     "description": "Mach-o format processor for indis provides support for loading mach-o binaries for analysis"
@@ -8629,6 +8715,20 @@
 
     ],
     "description": "Indonesian Faker, cause \"good\" fakes are important here :).\nsee\nhttp://faker.rubyforge.org/\nhttp://www.rubyinside.com/faker-quick-fake-data-generation-in-ruby-665.html\nhttp://railscasts.com/episodes/126-populating-a-databasehttp://faker.rubyforge.org/"
+  },
+  "indonesian_currency_format": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Conver integer into Indonesian Currency Format"
+  },
+  "indonesian_province": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "List Indonesian Province and cities"
   },
   "indonesian_stemmer": {
     "version": "0.2.0",
@@ -8948,25 +9048,25 @@
         "requirements": ">= 6.8.2.7.128454143"
       },
       {
-        "name": "infopark_dashboard",
-        "requirements": ">= 6.9.2.1.125136549"
-      },
-      {
         "name": "infopark_kickstarter",
         "requirements": ">= 6.9.4"
+      },
+      {
+        "name": "infopark_dashboard",
+        "requirements": ">= 6.9.2.1.125136549"
       }
     ],
     "description": "The Cloud Connector for Infopark CMS Fiona enables you to develop modern, dynamic Web 2.0 applications using Ruby on Rails and at the same time display CMS managed content."
   },
   "infopark_component_cache": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
     "description": "Easy and intelligent fragment caching for RailsConnector projects"
   },
   "infopark_crm_connector": {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "infopark_dashboard",
@@ -9004,24 +9104,24 @@
         "requirements": ">= 6.8.2.7.128454143"
       },
       {
-        "name": "infopark_dashboard",
-        "requirements": ">= 6.9.2.1.125136549"
+        "name": "infopark_component_cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "infopark_kickstarter",
+        "requirements": ">= 6.9.4"
       },
       {
         "name": "infopark_rails_connector_meta",
         "requirements": ">= 0"
       },
       {
-        "name": "infopark_component_cache",
-        "requirements": ">= 0"
+        "name": "infopark_dashboard",
+        "requirements": ">= 6.9.2.1.125136549"
       },
       {
         "name": "infopark_reactor",
         "requirements": ">= 0"
-      },
-      {
-        "name": "infopark_kickstarter",
-        "requirements": ">= 6.9.4"
       }
     ],
     "description": "The Rails Connector for Infopark CMS Fiona enables you to develop modern, dynamic Web 2.0 applications using Ruby on Rails and at the same time display CMS managed content."
@@ -9089,7 +9189,7 @@
     "description": "Informant is a full-featured form builder for Ruby on Rails which promotes a simple syntax that keeps your views clean. Everything about a field (label, description, error display, etc) is encapsulated in a single method call."
   },
   "informant-rails": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -9105,15 +9205,15 @@
     ],
     "description": "A library for processing information cards"
   },
-  "informer": {
-    "version": "0.2.0",
+  "Informer": {
+    "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "Informer is a flexible information gathering and reporting system."
   },
-  "Informer": {
-    "version": "0.1.0",
+  "informer": {
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -9141,7 +9241,7 @@
     "description": "An abstraction layer to help deal with infrastructure in applications."
   },
   "infusion": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -9229,6 +9329,13 @@
 
     ],
     "description": "Natural language recipe ingredient parser that supports numeric amount, units, and ingredient"
+  },
+  "inheritable_attr": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Creates a class-level attribute that is inherited (but modifiable) by subclasses "
   },
   "inheritance_hash": {
     "version": "0.0.1",
@@ -9370,7 +9477,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_inventory",
+        "name": "enju_circulation",
         "requirements": ">= 0"
       },
       {
@@ -9378,11 +9485,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_circulation",
+        "name": "enju_library",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_library",
+        "name": "enju_inventory",
         "requirements": ">= 0"
       },
       {
@@ -9394,11 +9501,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_resource_merge",
+        "name": "enju_subject",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_subject",
+        "name": "enju_resource_merge",
         "requirements": ">= 0"
       },
       {
@@ -9414,11 +9521,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "espresso-framework",
+        "name": "espresso",
         "requirements": "~> 1.0.5"
       },
       {
-        "name": "espresso",
+        "name": "espresso-framework",
         "requirements": "~> 1.0.5"
       },
       {
@@ -9434,6 +9541,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gaku_core",
+        "requirements": "~> 1.4"
+      },
+      {
         "name": "geopolitical",
         "requirements": ">= 0"
       },
@@ -9442,11 +9553,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts",
+        "name": "has_accounts_engine",
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts_engine",
+        "name": "has_accounts",
         "requirements": ">= 0"
       },
       {
@@ -9462,10 +9573,6 @@
         "requirements": ">= 1.0"
       },
       {
-        "name": "inherited_views",
-        "requirements": ">= 1.0.6"
-      },
-      {
         "name": "inherited_resources_helpers",
         "requirements": ">= 0"
       },
@@ -9474,15 +9581,19 @@
         "requirements": ">= 1.0.6"
       },
       {
+        "name": "inherited_views",
+        "requirements": ">= 1.0.6"
+      },
+      {
+        "name": "inkling",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "inkling",
+        "requirements": ">= 0"
+      },
+      {
         "name": "inkling-cms",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "inkling",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "inkling",
         "requirements": ">= 0"
       },
       {
@@ -9492,10 +9603,6 @@
       {
         "name": "invoice_bar",
         "requirements": "= 1.3.1"
-      },
-      {
-        "name": "kuhsaft",
-        "requirements": ">= 0"
       },
       {
         "name": "layout_options",
@@ -9535,7 +9642,11 @@
       },
       {
         "name": "power_resource",
-        "requirements": "~> 1.4.0"
+        "requirements": "~> 1.4.1"
+      },
+      {
+        "name": "protector-inherited_resources",
+        "requirements": ">= 0"
       },
       {
         "name": "public_service_announcement",
@@ -9910,7 +10021,7 @@
     "description": "Simple ruby ini reader"
   },
   "init": {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "dependents": [
 
     ],
@@ -9924,7 +10035,7 @@
     "description": "Javascript loading gem"
   },
   "initforthe-cookies": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -10255,7 +10366,7 @@
     "description": "Loads inline template as a Hash"
   },
   "inline_templates": {
-    "version": "0.0.6",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -10433,6 +10544,16 @@
     ],
     "description": "A simple inorite"
   },
+  "inotify": {
+    "version": "1.0.2",
+    "dependents": [
+      {
+        "name": "autobuilder",
+        "requirements": "~> 1.0"
+      }
+    ],
+    "description": "Inotify wrapper for Ruby."
+  },
   "inotify-ffi": {
     "version": "0.1.0",
     "dependents": [
@@ -10535,7 +10656,7 @@
     "description": "Inputmask Multi for Rails. https://github.com/andr-04/inputmask-multi"
   },
   "inqlude": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -10547,6 +10668,13 @@
 
     ],
     "description": "Extracted from the refinerycms-inquiries gem. Records inquiries in the DB and sends notifications via email"
+  },
+  "inquisitio": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Ruby Gem that wraps search for CloudSearch"
   },
   "inquisition": {
     "version": "0.3.1",
@@ -10768,7 +10896,7 @@
     "description": "Universal Google Gadget specification DSL"
   },
   "insque": {
-    "version": "0.4.0",
+    "version": "0.4.2",
     "dependents": [
 
     ],
@@ -10787,6 +10915,13 @@
 
     ],
     "description": "Rails3 engine that adds OAuth2 Provider support to any application built with Devise authentication"
+  },
+  "inst_lti_twitter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Embed a Twitter widget into your LMS with this LTI App."
   },
   "insta-rails": {
     "version": "1.0.0",
@@ -11240,7 +11375,7 @@
     "description": "Obfuscate 32-bit Integers using a 32-bit block cipher based on SKIPJACK"
   },
   "integer_expansion": {
-    "version": "1.0.0",
+    "version": "2.0.1",
     "dependents": [
 
     ],
@@ -11316,11 +11451,15 @@
     "version": "0.1.11",
     "dependents": [
       {
+        "name": "integrity-campfire",
+        "requirements": ">= 0"
+      },
+      {
         "name": "integrity-email",
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-campfire",
+        "name": "integrity-hooks",
         "requirements": ">= 0"
       },
       {
@@ -11332,11 +11471,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-hooks",
+        "name": "integrity-jabber",
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-jabber",
+        "name": "integrity-prowl",
         "requirements": ">= 0"
       },
       {
@@ -11345,10 +11484,6 @@
       },
       {
         "name": "integrity-yammer",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "integrity-prowl",
         "requirements": ">= 0"
       }
     ],
@@ -11525,19 +11660,15 @@
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "tac",
-        "requirements": "~> 0.4.0"
-      },
-      {
         "name": "tac-cli",
         "requirements": "~> 0.4.8"
       },
       {
-        "name": "udn",
+        "name": "tac",
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "vmc-stic",
+        "name": "udn",
         "requirements": "~> 0.4.0"
       },
       {
@@ -11547,6 +11678,10 @@
       {
         "name": "vmc",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "vmc-stic",
+        "requirements": "~> 0.4.0"
       },
       {
         "name": "vmc_virgo",
@@ -11562,6 +11697,10 @@
   "interactive_editor": {
     "version": "0.0.10",
     "dependents": [
+      {
+        "name": "baleen",
+        "requirements": ">= 0"
+      },
       {
         "name": "ChuckTestar",
         "requirements": ">= 0"
@@ -11623,6 +11762,13 @@
     ],
     "description": "Interactor Rails provides Rails support for the Interactor gem."
   },
+  "interakt_rails": {
+    "version": "0.0.1.6",
+    "dependents": [
+
+    ],
+    "description": "Import your users data into interakt"
+  },
   "interakthq_rails": {
     "version": "0.0.1.3",
     "dependents": [
@@ -11662,7 +11808,7 @@
     "description": "Integrations for using Intercity"
   },
   "intercom": {
-    "version": "0.1.15",
+    "version": "0.1.17",
     "dependents": [
 
     ],
@@ -11730,6 +11876,13 @@
 
     ],
     "description": "A decent yet still flawed battleship player"
+  },
+  "interfix": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Interfix Rails User Interface"
   },
   "interior": {
     "version": "0.9.2",
@@ -12024,7 +12177,7 @@
     "description": "test description"
   },
   "introjs-rails": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -12093,11 +12246,11 @@
     "version": "1.5.2",
     "dependents": [
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 1.5"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 1.5"
       },
       {
@@ -12117,12 +12270,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "value",
-        "requirements": "~> 1.5"
-      },
-      {
         "name": "value-yard",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "value",
+        "requirements": "~> 1.5"
       },
       {
         "name": "yard-heuristics",
@@ -12167,12 +12320,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "value",
-        "requirements": "~> 1.6"
-      },
-      {
         "name": "value-yard",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "value",
+        "requirements": "~> 1.6"
       },
       {
         "name": "yard-heuristics",
@@ -12283,7 +12436,7 @@
     "description": "Open current terminal tab (shell, irb) in vim text editor."
   },
   "invisible_captcha": {
-    "version": "0.6.0",
+    "version": "0.6.2",
     "dependents": [
 
     ],
@@ -12394,7 +12547,7 @@
     "description": "This is a framework for generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc. It aims to be both developer-friendly and accountant-friendly.  The Ruby Invoicing Framework is based on {ActiveRecord}[http://api.rubyonrails.org/classes/ActiveRecord/Base.html].  Please see {the website}[http://ept.github.com/invoicing/] for an introduction to using Invoicing, and check the {API reference}[http://invoicing.rubyforge.org/doc/] for in-depth details."
   },
   "invoker": {
-    "version": "0.1.2",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -12714,7 +12867,7 @@
     "description": "CLI to view iOS Provisioning Profiles and Devices in Member Center"
   },
   "ios_android_toolbox": {
-    "version": "0.0.28",
+    "version": "0.0.29",
     "dependents": [
 
     ],
@@ -12812,6 +12965,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cloud_builder",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gamequery",
         "requirements": ">= 0.2.1"
       },
@@ -12849,6 +13006,13 @@
 
     ],
     "description": "IP2Country library for Ruby"
+  },
+  "ip2dword": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Converts IP to ip2dword"
   },
   "ip2location": {
     "version": "0.1.0",
@@ -12998,12 +13162,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "radiusrb",
-        "requirements": ">= 0"
-      },
-      {
         "name": "radiustar",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "radiusrb",
+        "requirements": ">= 0"
       },
       {
         "name": "vpnmaker",
@@ -13016,11 +13180,11 @@
     "version": "0.0.2",
     "dependents": [
       {
-        "name": "rack-auth-ip",
+        "name": "rack-auth-simples",
         "requirements": ">= 0.0.2"
       },
       {
-        "name": "rack-auth-simples",
+        "name": "rack-auth-ip",
         "requirements": ">= 0.0.2"
       }
     ],
@@ -13080,12 +13244,12 @@
         "requirements": ">= 0.8.0"
       },
       {
-        "name": "firewool",
-        "requirements": ">= 0.7.0"
-      },
-      {
         "name": "firewall_constraint",
         "requirements": ">= 0"
+      },
+      {
+        "name": "firewool",
+        "requirements": ">= 0.7.0"
       },
       {
         "name": "fog-bouncer",
@@ -13120,8 +13284,8 @@
         "requirements": ">= 0.7.0"
       },
       {
-        "name": "pantheon",
-        "requirements": ">= 0"
+        "name": "rack-subdomain",
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "rack_ip_restrictor",
@@ -13148,11 +13312,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": "= 0.7.0"
       },
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": "= 0.7.0"
       }
     ],
@@ -13236,7 +13400,7 @@
     "description": "An extensible tool for purging urls from caches and CDNs"
   },
   "ipgeobase": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -13466,11 +13630,11 @@
     "version": "2.0.0",
     "dependents": [
       {
-        "name": "ipsum-french",
+        "name": "ipsum-english",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "ipsum-english",
+        "name": "ipsum-french",
         "requirements": ">= 2.0.0"
       },
       {
@@ -13600,6 +13764,13 @@
     ],
     "description": "Library containing a series of helper methods for creating html markup including the escaping of strings."
   },
+  "iq_calculator": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "just the worst"
+  },
   "iq_captcha": {
     "version": "1.0",
     "dependents": [
@@ -13652,6 +13823,10 @@
     "version": "4.1.3",
     "dependents": [
       {
+        "name": "iqvoc_compound_forms",
+        "requirements": "~> 4.1.0"
+      },
+      {
         "name": "iqvoc_skosxl",
         "requirements": "~> 4.1.0"
       },
@@ -13661,10 +13836,6 @@
       },
       {
         "name": "iqvoc_similar_terms",
-        "requirements": "~> 4.1.0"
-      },
-      {
-        "name": "iqvoc_compound_forms",
         "requirements": "~> 4.1.0"
       }
     ],
@@ -13695,11 +13866,11 @@
     "version": "2.1.0",
     "dependents": [
       {
-        "name": "iqvoc_inflectionals",
+        "name": "iqvoc_compound_forms",
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "iqvoc_compound_forms",
+        "name": "iqvoc_inflectionals",
         "requirements": "~> 2.1.0"
       }
     ],
@@ -13877,11 +14048,11 @@
     "description": "copy and paste between ruby arrays in irb/rails console and a spreadsheet (tab delimited) and vise versa. Based on irbcp by Ara T. Howard"
   },
   "irbtools": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "dependents": [
       {
         "name": "irbtools-more",
-        "requirements": "~> 1.5.0"
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "pws",
@@ -13895,7 +14066,7 @@
     "description": "irbtools makes using irb easier and more fun. Simply put a require \"irbtools\" in the .irbrc file in your home directory."
   },
   "irbtools-more": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "dependents": [
 
     ],
@@ -14110,6 +14281,13 @@
     ],
     "description": "Ruby gem which generates a random string of characters of a specified length for password use"
   },
+  "irlp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby gem to interact with the Internet Radio Linking Project (IRLP), such as retrieving reflector and node status."
+  },
   "irm_yaml_db": {
     "version": "0.0.4",
     "dependents": [
@@ -14195,11 +14373,11 @@
         "requirements": "= 1.4.0"
       },
       {
-        "name": "fanforce-workers",
-        "requirements": "~> 1.4"
+        "name": "fanforce-worker",
+        "requirements": "~> 1.4.0"
       },
       {
-        "name": "fanforce-worker",
+        "name": "fanforce-workers",
         "requirements": "~> 1.4"
       },
       {
@@ -14208,7 +14386,7 @@
       },
       {
         "name": "iron_mailer",
-        "requirements": "~> 1.3"
+        "requirements": "~> 1.4"
       },
       {
         "name": "iron_response",
@@ -14255,12 +14433,12 @@
         "requirements": ">= 0.5.1"
       },
       {
-        "name": "iron_worker_ng",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "iron_worker",
         "requirements": ">= 0.5.1"
+      },
+      {
+        "name": "iron_worker_ng",
+        "requirements": ">= 1.0.0"
       }
     ],
     "description": "Core library for Iron products"
@@ -14294,7 +14472,7 @@
     "description": "Iron Maiden is a tool for easing deployment of IronRuby applications providing both a gem command and a convential command line interface."
   },
   "iron_mailer": {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "dependents": [
 
     ],
@@ -14308,16 +14486,16 @@
         "requirements": ">= 4.0.0"
       },
       {
+        "name": "fanforce-worker",
+        "requirements": "~> 4.0.3"
+      },
+      {
         "name": "fanforce-workers",
         "requirements": "~> 4"
       },
       {
-        "name": "fanforce-worker",
-        "requirements": "~> 4"
-      },
-      {
         "name": "iron_mailer",
-        "requirements": "~> 3.1"
+        "requirements": "~> 4.0"
       },
       {
         "name": "parse-ruby-client",
@@ -14389,7 +14567,7 @@
     "description": "Adds support for using msbuild tasks in ironruby with rake"
   },
   "ironfan": {
-    "version": "4.12.2",
+    "version": "4.12.3",
     "dependents": [
 
     ],
@@ -14441,7 +14619,7 @@
     "description": "Wires up ActiveRecord to use SQLServer through IronRuby."
   },
   "irontask": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -14511,6 +14689,13 @@
     ],
     "description": "If you use IRT in place of irb or Rails Console, you will have more tools that will make your life a lot easier."
   },
+  "iruby": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ],
+    "description": "Ruby Kernel for IPython"
+  },
   "irule": {
     "version": "unknown",
     "dependents": [
@@ -14553,6 +14738,13 @@
     ],
     "description": "Gem for handling IRXML's API"
   },
+  "irxrb": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Ruby extension"
+  },
   "irxrb-rails": {
     "version": "0.0.4",
     "dependents": [
@@ -14568,7 +14760,7 @@
     "description": "Simple small tool for finding points in polygon"
   },
   "is-build": {
-    "version": "0.2.0",
+    "version": "0.2.0.3",
     "dependents": [
 
     ],
@@ -14991,6 +15183,13 @@
     ],
     "description": "Ruby ISBNdb is a amazingly fast and accurate gem that reads ISBNdb.com's XML API and gives you incredible flexibilty with the results! The newest version of the gem also features caching, so developers minimize API-key usage."
   },
+  "isbnify": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "This gem verifies, creates and hyphinates ISBN13 numbers"
+  },
   "isbumiawake-chef": {
     "version": "0.1.5",
     "dependents": [
@@ -15147,7 +15346,7 @@
     "description": "A subset of the ISO spec implemented in ruby"
   },
   "iso-639": {
-    "version": "0.1.0",
+    "version": "0.2.3",
     "dependents": [
       {
         "name": "exlibris-primo",
@@ -15364,7 +15563,7 @@
     "description": "Calculate the Isoelectric point"
   },
   "isoftbetapi": {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -15389,6 +15588,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "isolate-git",
+        "requirements": "~> 3.2.2"
+      },
+      {
         "name": "isolate-lockdown",
         "requirements": ">= 0"
       },
@@ -15399,10 +15602,6 @@
       {
         "name": "isolate-scenarios",
         "requirements": "~> 2.1.2"
-      },
-      {
-        "name": "isolate-git",
-        "requirements": "~> 3.2.2"
       },
       {
         "name": "libertine",
@@ -15503,11 +15702,11 @@
     "version": "0.2.19",
     "dependents": [
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": "= 0.2.9"
       },
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": "= 0.2.9"
       }
     ],
@@ -15692,7 +15891,7 @@
     "description": "A helper for links and other html tags in your translations"
   },
   "it-logica-application-backbone": {
-    "version": "1.4.4",
+    "version": "1.4.5",
     "dependents": [
 
     ],
@@ -15851,7 +16050,7 @@
     "description": "A gem that packages the iText library for Java."
   },
   "itext-jruby": {
-    "version": "0.0.6",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -15959,24 +16158,24 @@
     "version": "1.5.1",
     "dependents": [
       {
+        "name": "itrigga-admin_api_client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "itrigga-admin_api_client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "itrigga-cache",
         "requirements": ">= 0"
       },
       {
-        "name": "itrigga-admin_api_client",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "itrigga-admin_api_client",
+        "name": "itrigga-net_helper",
         "requirements": ">= 0"
       },
       {
         "name": "itrigga-param_fu",
         "requirements": "~> 0.4.1"
-      },
-      {
-        "name": "itrigga-net_helper",
-        "requirements": ">= 0"
       }
     ],
     "description": "Adds methods for \n    Hash: \n    - symbolize_keys\n    - recursive_symbolize_keys\n    Array:\n    - to_csv (requires FasterCSV gem if ruby 1.8)\n    - select_with_index\n    - to_auto_complete_list\n    - active_record_type_condition_rendering\n  "
@@ -16013,19 +16212,19 @@
     "version": "0.4.3",
     "dependents": [
       {
-        "name": "itrigga-cache",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "itrigga-cache",
-        "requirements": ">= 0"
-      },
-      {
         "name": "itrigga-admin_api_client",
         "requirements": ">= 0"
       },
       {
         "name": "itrigga-admin_api_client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "itrigga-cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "itrigga-cache",
         "requirements": ">= 0"
       }
     ],
@@ -16107,7 +16306,7 @@
     "description": "The 960 Grid System is an effort to streamline web development workflow by providing commonly used dimensions, based on a width of 960 pixels. http://960.gs/"
   },
   "itu_codes": {
-    "version": "0.4.8",
+    "version": "0.4.9",
     "dependents": [
 
     ],
@@ -16163,8 +16362,12 @@
     "description": "a command line interface for itunes (only supports windows/cygwin currently)"
   },
   "itunes-client": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
+      {
+        "name": "eventmachine-distributed-notification",
+        "requirements": ">= 0"
+      },
       {
         "name": "musical",
         "requirements": "~> 0.1.2"
@@ -16409,11 +16612,11 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-brutefuzzy-service",
+        "name": "iudex-da",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-da",
+        "name": "iudex-brutefuzzy-service",
         "requirements": "~> 1.3.0"
       },
       {
@@ -16421,11 +16624,11 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-simhash",
+        "name": "iudex-rome",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-rome",
+        "name": "iudex-simhash",
         "requirements": "~> 1.3.0"
       },
       {
@@ -16473,11 +16676,11 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "iudex-async-httpclient",
+        "name": "iudex-barc",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-barc",
+        "name": "iudex-async-httpclient",
         "requirements": "~> 1.3.0"
       },
       {
@@ -16485,11 +16688,11 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-httpclient-3",
+        "name": "iudex-jetty-httpclient",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-jetty-httpclient",
+        "name": "iudex-httpclient-3",
         "requirements": "~> 1.3.0"
       }
     ],
@@ -16503,11 +16706,11 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-httpclient-3",
+        "name": "iudex-jetty-httpclient",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "iudex-jetty-httpclient",
+        "name": "iudex-httpclient-3",
         "requirements": "~> 1.3.0"
       }
     ],
@@ -16596,7 +16799,7 @@
     "description": "Iugu User Experience and Components for HTML5,CSS,JS"
   },
   "iugusdk": {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "dependents": [
 
     ],
@@ -16783,8 +16986,16 @@
     "version": "0.4.2",
     "dependents": [
       {
+        "name": "ixtlan-configuration",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ixtlan-generators",
         "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "ixtlan-user-management",
+        "requirements": ">= 0"
       }
     ],
     "description": "audit the controller actions for the current user. log that data into the database and allow to expire this log files (privacy protection) and be able to browse it from the UI"
@@ -16800,9 +17011,12 @@
     "description": "babel offers a filter for hashes and with that comes json/yaml/xml de/serialization of models which provides a hash representationi. possible models are activerecord, activemodel, resources from datamapper, virtus"
   },
   "ixtlan-configuration": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
-
+      {
+        "name": "ixtlan-user-management",
+        "requirements": ">= 0"
+      }
     ],
     "description": "configuration for other ixtlan-xyz wth serializer, input-filter and cuba definition"
   },
@@ -16817,9 +17031,16 @@
     "description": "cache header control, dynamic configuration, and optimistic find on model via updated_at timestamp"
   },
   "ixtlan-error-handler": {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "dependents": [
-
+      {
+        "name": "ixtlan-configuration",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ixtlan-user-management",
+        "requirements": ">= 0"
+      }
     ],
     "description": "dump errors on filesystem and notify developers, map different errors to specific pages"
   },
@@ -16840,7 +17061,14 @@
   "ixtlan-gettext": {
     "version": "0.1.3",
     "dependents": [
-
+      {
+        "name": "ixtlan-configuration",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ixtlan-user-management",
+        "requirements": ">= 0"
+      }
     ],
     "description": "helper to use fast_gettext with datamapper/ixtlan"
   },
@@ -16852,7 +17080,7 @@
     "description": "simple authorization framework for rails controllers"
   },
   "ixtlan-optimistic": {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "dependents": [
 
     ],
@@ -16862,8 +17090,16 @@
     "version": "0.2.0",
     "dependents": [
       {
+        "name": "ixtlan-configuration",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ixtlan-gettext",
         "requirements": "~> 0.1"
+      },
+      {
+        "name": "ixtlan-user-management",
+        "requirements": ">= 0"
       }
     ],
     "description": "helper sync data between miniapps or communicate wth realtime rest-services"
@@ -16876,14 +17112,21 @@
     "description": "idle session timeout for rails on a per controller base"
   },
   "ixtlan-user-management": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
-
+      {
+        "name": "cuba-api",
+        "requirements": "~> 0.2"
+      },
+      {
+        "name": "ixtlan-configuration",
+        "requirements": ">= 0"
+      }
     ],
     "description": "helper for managing users with login/password via local db or remote rest-services"
   },
   "ixyml": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],

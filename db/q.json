@@ -42,7 +42,7 @@
     "description": "Interface to pragmatically setup a queue job for Q4M!"
   },
   "q_deploy": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -54,6 +54,13 @@
 
     ],
     "description": "Extends String with a 'translate' method. Returned value is the according translated text for a Wordpress Post translated by QTranslate plugin."
+  },
+  "qa": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Provides a set of uniform RESTful routes to query any controlled vocabulary or set of authority terms."
   },
   "qa-rails": {
     "version": "0.1.2",
@@ -210,11 +217,11 @@
     "description": "This rubygem does not have a description or summary."
   },
   "qdoc": {
-    "version": "0.0.25",
+    "version": "0.0.99",
     "dependents": [
 
     ],
-    "description": "Allows you to create quick documents from textile or markdown into an html format."
+    "description": "Allows you to create quick documents from textile or markdown into an html format.  Rev 0.1 will be released when documentation is up to par."
   },
   "qdox": {
     "version": "1.10.1",
@@ -250,11 +257,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "assay-testunit",
+        "name": "assay",
         "requirements": ">= 0"
       },
       {
-        "name": "assay",
+        "name": "assay-testunit",
         "requirements": ">= 0"
       },
       {
@@ -616,7 +623,7 @@
     "description": "A lightweight framework for background processing across many child processes, inspired heavily by Unicorn."
   },
   "qimport": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -680,15 +687,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "qless-pool",
-        "requirements": "~> 0.9"
-      },
-      {
         "name": "qless-campfire",
         "requirements": "~> 0.9"
       },
       {
         "name": "qless-growl",
+        "requirements": "~> 0.9"
+      },
+      {
+        "name": "qless-pool",
         "requirements": "~> 0.9"
       },
       {
@@ -820,12 +827,12 @@
     "version": "0.3.3",
     "dependents": [
       {
-        "name": "qor_cache",
-        "requirements": ">= 0"
-      },
-      {
         "name": "qor_layout",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "qor_cache",
+        "requirements": ">= 0"
       },
       {
         "name": "qor_test",
@@ -994,7 +1001,7 @@
     "description": "This Gem is a wrapper around an useful open-source library for creating QR\n  Codes, a two-dimensional bar code format popular in Japan created by the Denso-Wave Corporation in 1994."
   },
   "qreport": {
-    "version": "0.0.9",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -1138,6 +1145,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hornetseye-qt4",
+        "requirements": "~> 4.8"
+      },
+      {
         "name": "lingvo",
         "requirements": ">= 0"
       },
@@ -1208,10 +1219,7 @@
   "qtruby4": {
     "version": "unknown",
     "dependents": [
-      {
-        "name": "hornetseye-qt4",
-        "requirements": "~> 2.1"
-      }
+
     ],
     "description": "Qt4 Bindings for Ruby."
   },
@@ -1230,6 +1238,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "qu-mongo",
+        "requirements": "= 0.2.0"
+      },
+      {
         "name": "qu-exceptional",
         "requirements": "= 0.2.0"
       },
@@ -1238,23 +1250,19 @@
         "requirements": "= 0.1.4"
       },
       {
-        "name": "qu-airbrake",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "qu-mongo",
-        "requirements": "= 0.2.0"
-      },
-      {
         "name": "qu-mongoid",
         "requirements": ">= 0"
       },
       {
-        "name": "qu-redis",
+        "name": "qu-airbrake",
         "requirements": "= 0.2.0"
       },
       {
         "name": "qu-rails",
+        "requirements": "= 0.2.0"
+      },
+      {
+        "name": "qu-redis",
         "requirements": "= 0.2.0"
       },
       {
@@ -1384,7 +1392,7 @@
     "description": "longer description of your gem"
   },
   "quaff": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -1426,9 +1434,12 @@
     "description": "Quake log parser"
   },
   "quality": {
-    "version": "0.2.12",
+    "version": "1.1.0",
     "dependents": [
-
+      {
+        "name": "quality",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Quality is a tool that runs quality checks on Ruby\ncode using rubocop, cane, reek, flog and flay, and makes sure \nyour numbers don't get any worse over time.\n"
   },
@@ -1494,7 +1505,7 @@
     "description": "A collection of reusable Ruby methods developed by QualitySmith."
   },
   "quandl_cassinatra": {
-    "version": "0.1.16",
+    "version": "0.2.3",
     "dependents": [
 
     ],
@@ -1520,6 +1531,13 @@
       }
     ],
     "description": "Data will be interfaced"
+  },
+  "quandl_location": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Provides a library for accessing data from arbitrary key-value storage"
   },
   "quandl_logger": {
     "version": "0.1.1",
@@ -1618,7 +1636,7 @@
     "description": "Unit of measure, quantity framework"
   },
   "quantize": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -1715,6 +1733,13 @@
     ],
     "description": "From {Quartz Scheduler's website}[http://www.quartz-scheduler.org/]\n\nQuartz is a full-featured, open source job scheduling service that can be integrated with, or used along side virtually any Java EE or Java SE application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may executed virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as JTA transactions and clustering.\n\nThis gem makes these available in a ruby friendly syntax"
   },
+  "quartz_torrent": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A pure ruby bittorrent library"
+  },
   "quasi": {
     "version": "0.0.6",
     "dependents": [
@@ -1742,6 +1767,13 @@
 
     ],
     "description": "A worker queue framework built around beanstalkd"
+  },
+  "queen": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "    English spelling and grammer verficiation tool.\n    Queen will help you keep code and comments in high esteem.\n"
   },
   "Queen_Of_Diamonds": {
     "version": "unknown",
@@ -1788,6 +1820,13 @@
     ],
     "description": "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
   },
+  "query": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This GEM is designed to work for SEOers who need to fetch query and parse results from all kinds of search engines"
+  },
   "query-analyzer": {
     "version": "0.1.1",
     "dependents": [
@@ -1796,14 +1835,14 @@
     "description": "Run explain on all the sql queries rails generates."
   },
   "query-interface-client": {
-    "version": "0.0.3",
+    "version": "0.1.1",
     "dependents": [
 
     ],
     "description": "Client for the radar query interface"
   },
   "query-interface-server": {
-    "version": "0.0.1",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -1831,7 +1870,7 @@
     "description": "Rails database query counter that stays out of your way"
   },
   "query_report": {
-    "version": "1.0.4",
+    "version": "1.0.10",
     "dependents": [
 
     ],
@@ -2076,12 +2115,12 @@
         "requirements": "~> 2.1"
       },
       {
-        "name": "queue_classic_admin",
-        "requirements": ">= 2.1.0"
-      },
-      {
         "name": "queue_classic-later",
         "requirements": ">= 2.1.3"
+      },
+      {
+        "name": "queue_classic_admin",
+        "requirements": ">= 2.1.0"
       }
     ],
     "description": "queue_classic is a queueing library for Ruby apps. (Rails, Sinatra, Etc...) queue_classic features asynchronous job polling, database maintained locks and no ridiculous dependencies. As a matter of fact, queue_classic only requires pg."
@@ -2536,7 +2575,7 @@
     "description": "Quickly connect to a Rails database by inspecting the database.yml of the current application directory."
   },
   "quickeebooks": {
-    "version": "0.1.20",
+    "version": "0.1.21",
     "dependents": [
 
     ],
@@ -2635,6 +2674,13 @@
       }
     ],
     "description": "Quickl helps you creating commandline ruby programs. From simple commands \nwith options to complex delegators with subcommands, global and local \noptions."
+  },
+  "quicklog": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "easy logging of a variable value with its label"
   },
   "quickmug": {
     "version": "0.0.3",

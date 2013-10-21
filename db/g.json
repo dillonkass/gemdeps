@@ -171,7 +171,7 @@
     "description": "Gem to parse the utmz, utmb and utma tracking coockies used by Google Analytics."
   },
   "ga_events": {
-    "version": "0.2.0",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -296,7 +296,7 @@
     "description": "cloud api's via amqp and json'"
   },
   "gaffe": {
-    "version": "0.2.1",
+    "version": "1.0",
     "dependents": [
 
     ],
@@ -347,9 +347,34 @@
     ],
     "description": "Ruby Amazon Alexa web information service REST API"
   },
+  "gaku": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "It allows for full student management, grading etc. It's bascally what all student grading tools are with some unique features"
+  },
+  "gaku_core": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "gaku",
+        "requirements": "= 0.0.3"
+      },
+      {
+        "name": "gaku_sample",
+        "requirements": "= 0.0.3"
+      }
+    ],
+    "description": "It allows for full student management, grading etc. It's basically what all student grading tools are with some unique features"
+  },
   "gaku_forms": {
     "version": "0.1.5",
     "dependents": [
+      {
+        "name": "gaku_core",
+        "requirements": "= 0.1.5"
+      },
       {
         "name": "gaku_nested_forms",
         "requirements": "~> 0.1.0"
@@ -358,11 +383,15 @@
     "description": "Gaku Forms"
   },
   "gaku_helpers": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
         "name": "gaku_forms",
         "requirements": "~> 0.0.6"
+      },
+      {
+        "name": "gaku_core",
+        "requirements": "= 0.0.7"
       }
     ],
     "description": "Gaku View Helpers"
@@ -370,9 +399,22 @@
   "gaku_nested_forms": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "gaku_core",
+        "requirements": "= 0.1.0"
+      }
     ],
     "description": "Gaku Nested Forms"
+  },
+  "gaku_sample": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "gaku",
+        "requirements": "= 0.0.3"
+      }
+    ],
+    "description": "Just some sample data"
   },
   "galakei": {
     "version": "0.15.2",
@@ -924,7 +966,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "gangway": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -1028,7 +1070,7 @@
     "description": "gaptool-server for managing cloud resources"
   },
   "gaq": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -1084,7 +1126,7 @@
     "description": "GarbReporter removes the need in Garb to create a new class for every report by offering a querying api that dynamically creates the Garb classes for you at runtime."
   },
   "garbageman": {
-    "version": "0.1.20",
+    "version": "0.1.21",
     "dependents": [
 
     ],
@@ -1185,7 +1227,7 @@
     "description": "GarminConnectr is a simple Ruby library for accessing data from Garmin Connect."
   },
   "garner": {
-    "version": "0.4.4",
+    "version": "0.4.5",
     "dependents": [
 
     ],
@@ -1317,7 +1359,7 @@
     "description": "Game Algorithms Tournament Ruby SDK"
   },
   "gatchaman": {
-    "version": "0.2.1",
+    "version": "0.2.3",
     "dependents": [
 
     ],
@@ -1365,16 +1407,16 @@
     "version": "0.2.3",
     "dependents": [
       {
-        "name": "gateway-cassandra-cql",
-        "requirements": "~> 0.1.1"
+        "name": "gateway-memcache",
+        "requirements": ">= 0.1.0"
       },
       {
         "name": "gateway-http",
         "requirements": ">= 0.1.0"
       },
       {
-        "name": "gateway-memcache",
-        "requirements": ">= 0.1.0"
+        "name": "gateway-cassandra-cql",
+        "requirements": "~> 0.1.1"
       }
     ],
     "description": " Opinionated Generic IO Connection Manager "
@@ -1482,7 +1524,7 @@
     "description": "Interact with Gauge.io's REST API"
   },
   "gaugejs-rails": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -1512,7 +1554,10 @@
   "gauntlet": {
     "version": "2.0.2",
     "dependents": [
-
+      {
+        "name": "parser",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Gauntlet is a pluggable means of running code against all the latest\ngems and storing off the data."
   },
@@ -1531,7 +1576,7 @@
     "description": "Easy statsd metrics at the method level"
   },
   "gauthify": {
-    "version": "1.2.71",
+    "version": "2.0.0",
     "dependents": [
 
     ],
@@ -1579,33 +1624,6 @@
     ],
     "description": "Simple Ruby wrapper gem to interact with the Instapaper API.  Supports authenticate and add API methods, as well as https, jsonp and all other features of the API."
   },
-  "gazou": {
-    "version": "1.5.7",
-    "dependents": [
-      {
-        "name": "gazou_active_record",
-        "requirements": "~> 1.5.0"
-      }
-    ],
-    "description": "Ruby client allowing for easy external access to the Gazou service"
-  },
-  "gazou_active_record": {
-    "version": "1.0.4",
-    "dependents": [
-
-    ],
-    "description": "Ruby client providing a simple way to mount gazou resources on to active record models"
-  },
-  "gazou_support": {
-    "version": "1.0.0",
-    "dependents": [
-      {
-        "name": "gazou",
-        "requirements": "~> 1.0.0"
-      }
-    ],
-    "description": "A centralized collection of Gazou specific helper and utility classes"
-  },
   "gazouillis": {
     "version": "0.1.3",
     "dependents": [
@@ -1621,14 +1639,14 @@
     "description": "Flexible, Simple alternative to Guard. Watchr for Ruby 1.9.3 and beyond."
   },
   "gb_mapfish_appserver": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
     "description": "Mapfish Appserver is a framework for web mapping applications using OGC standards and the Mapfish protocol."
   },
   "gb_mapfish_print": {
-    "version": "0.1.1",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -1677,7 +1695,7 @@
     "description": "the fun way to create gists from your command line"
   },
   "GBRb": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -1717,6 +1735,13 @@
 
     ],
     "description": "This gem allows you to send GC related commands to a running Rails process"
+  },
+  "gcad": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "game cloud auto deploy gem"
   },
   "gcal-ruby": {
     "version": "0.1.3",
@@ -1886,12 +1911,15 @@
   "gcm": {
     "version": "0.0.4",
     "dependents": [
-
+      {
+        "name": "fwt_push_notification_server",
+        "requirements": ">= 0"
+      }
     ],
     "description": "gcm is a service that helps developers send data from servers to their Android applications on Android devices."
   },
   "gcm_for_chrome": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -1999,7 +2027,7 @@
     "description": "gd2-ffij is a refactoring of the Ruby/GD2 library implemented with FFI"
   },
   "gd_bam": {
-    "version": "0.1.33",
+    "version": "0.1.35",
     "dependents": [
 
     ],
@@ -2020,13 +2048,13 @@
     "dependents": [
       {
         "name": "gd_bam",
-        "requirements": ">= 0.0.2"
+        "requirements": ">= 0.0.4"
       }
     ],
     "description": "Small gem that wraps common tasks that I do with Salesforce"
   },
   "gda": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -2094,15 +2122,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "contacts-gdiggs",
-        "requirements": ">= 1.1.1"
-      },
-      {
         "name": "contacts",
         "requirements": "= 1.1.1"
       },
       {
         "name": "contacts-rscheepmaker",
+        "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "contacts-gdiggs",
         "requirements": ">= 1.1.1"
       },
       {
@@ -2386,6 +2414,13 @@
     ],
     "description": "A really simple ruby client to the GData API"
   },
+  "gday": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A gem developed as a learning experience."
+  },
   "gdb.rb": {
     "version": "0.1.7",
     "dependents": [
@@ -2394,7 +2429,7 @@
     "description": "A set of gdb7 extensions for the MRI/REE 1.8.x interpreter (and basic support for YARV 1.9.2)"
   },
   "gdbflasher": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -2530,7 +2565,7 @@
     "description": "Ruby plugin that installs the Google Drive driver for Cloudstrg system"
   },
   "gds-api-adapters": {
-    "version": "7.6.0",
+    "version": "7.12.0",
     "dependents": [
       {
         "name": "slimmer",
@@ -2692,6 +2727,13 @@
     ],
     "description": "This is meant to be used with Geektool to display the number of emails in your inbox that you need to handle"
   },
+  "geeknote": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "geeknote ruby clone"
+  },
   "geeo_code": {
     "version": "0.0.4",
     "dependents": [
@@ -2758,16 +2800,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "graylog2-resque",
+        "requirements": ">= 0"
+      },
+      {
         "name": "graylog2-rails",
         "requirements": "~> 1.3.2"
       },
       {
         "name": "graylog2_exceptions",
         "requirements": "= 1.1.3"
-      },
-      {
-        "name": "graylog2-resque",
-        "requirements": ">= 0"
       },
       {
         "name": "graytoad",
@@ -2909,7 +2951,7 @@
     "description": "Uninstall all unnecessary gems."
   },
   "gem-dependent": {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "dependents": [
 
     ],
@@ -3042,11 +3084,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
@@ -3205,10 +3247,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "atlas-client",
-        "requirements": ">= 0"
-      },
-      {
         "name": "atomjs-rails",
         "requirements": ">= 0.4.1"
       },
@@ -3217,11 +3255,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "banker",
+        "name": "banker-ofx",
         "requirements": ">= 0"
       },
       {
-        "name": "banker-ofx",
+        "name": "banker",
         "requirements": ">= 0"
       },
       {
@@ -3305,6 +3343,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "jquery-easing-rails",
+        "requirements": ">= 0.4.1"
+      },
+      {
         "name": "keener",
         "requirements": ">= 0"
       },
@@ -3341,15 +3383,23 @@
         "requirements": "~> 0.3.1"
       },
       {
-        "name": "mortar",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mortar-api-ruby",
         "requirements": ">= 0"
       },
       {
+        "name": "mortar",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "multi_scheduler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mutaconf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "notifies",
         "requirements": ">= 0"
       },
       {
@@ -3362,6 +3412,10 @@
       },
       {
         "name": "quotefm",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rack-body_classes",
         "requirements": ">= 0"
       },
       {
@@ -3450,6 +3504,10 @@
       },
       {
         "name": "voot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "which_works",
         "requirements": ">= 0"
       },
       {
@@ -3937,7 +3995,7 @@
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "activerdf_redland",
+        "name": "activerdf_sesame",
         "requirements": ">= 0.2.1"
       },
       {
@@ -3945,11 +4003,11 @@
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "activerdf_rdflite",
+        "name": "activerdf_redland",
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "activerdf_sesame",
+        "name": "activerdf_rdflite",
         "requirements": ">= 0.2.1"
       },
       {
@@ -3985,8 +4043,20 @@
         "requirements": ">= 0.2.3"
       },
       {
+        "name": "mongrel_console",
+        "requirements": ">= 0.2.3"
+      },
+      {
+        "name": "mongrel_config",
+        "requirements": ">= 0.2.3"
+      },
+      {
         "name": "mongrel_cluster_recovery",
         "requirements": ">= 0.2.3"
+      },
+      {
+        "name": "mongrel_download_progress",
+        "requirements": ">= 0.2.2"
       },
       {
         "name": "mongrel_cow_cluster",
@@ -3997,19 +4067,7 @@
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "mongrel_download_progress",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "mongrel_config",
-        "requirements": ">= 0.2.3"
-      },
-      {
         "name": "mongrel_in_a_tunnel",
-        "requirements": ">= 0.2.1"
-      },
-      {
-        "name": "mongrel_jcluster",
         "requirements": ">= 0.2.1"
       },
       {
@@ -4017,12 +4075,12 @@
         "requirements": ">= 0.2.3"
       },
       {
-        "name": "mongrel_console",
+        "name": "mongrel_proctitle",
         "requirements": ">= 0.2.3"
       },
       {
-        "name": "mongrel_proctitle",
-        "requirements": ">= 0.2.3"
+        "name": "mongrel_jcluster",
+        "requirements": ">= 0.2.1"
       },
       {
         "name": "mongrel_raw_output",
@@ -4033,20 +4091,20 @@
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "mongrel_secure_download-redux",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "mongrel_service",
-        "requirements": "~> 0.2.3"
+        "name": "mongrel_upload_progress",
+        "requirements": ">= 0.2.1"
       },
       {
         "name": "mongrel_send_file",
         "requirements": ">= 0.2.1"
       },
       {
-        "name": "mongrel_upload_progress",
-        "requirements": ">= 0.2.1"
+        "name": "mongrel_secure_download-redux",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mongrel_service",
+        "requirements": "~> 0.2.3"
       },
       {
         "name": "mongrel_status",
@@ -4087,16 +4145,16 @@
     "version": "1.3.0",
     "dependents": [
       {
-        "name": "gds-sso",
-        "requirements": "= 1.0.0"
-      },
-      {
         "name": "gds-warmup-controller",
         "requirements": "~> 1.0.0"
       },
       {
         "name": "gds-api-adapters",
         "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "gds-sso",
+        "requirements": "= 1.0.0"
       },
       {
         "name": "geogov",
@@ -4135,11 +4193,11 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "vcloud-network-configurator",
+        "name": "vcloud-net-spinner",
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "vcloud-net-spinner",
+        "name": "vcloud-network-configurator",
         "requirements": "~> 1.3.0"
       }
     ],
@@ -4188,11 +4246,11 @@
     "description": "This gem adds the `gem require` command.  It's almost identical to `gem install`,\nexcept that it does nothing if the specified gem is already installed."
   },
   "gem_sample_pruby": {
-    "version": "0.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
-    "description": "omikuji"
+    "description": "Are you studing 'Perfect Ruby' which published by GijyutuHyoronSha ? the sample gem's name has already been used by me. Please use another gem name."
   },
   "gem_sample_ryopeko": {
     "version": "0.0.2.1",
@@ -4244,11 +4302,11 @@
     "description": "Test the entire usage workflow (including the generators) of your newly generated or existing gem within Rails 2 and 3 and make the gem development mobile"
   },
   "gem_template": {
-    "version": "0.1.0",
+    "version": "0.0.6",
     "dependents": [
 
     ],
-    "description": "This rubygem does not have a description or summary."
+    "description": "Gem template for new Ruby projects"
   },
   "gem_test": {
     "version": "0.0.1",
@@ -4277,6 +4335,13 @@
 
     ],
     "description": "Removes rvm gemset gems not being used by your project"
+  },
+  "gem_velocity": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ],
+    "description": "generate gem velocity images"
   },
   "gem_version": {
     "version": "0.0.6",
@@ -4408,11 +4473,11 @@
     "version": "0.7.1",
     "dependents": [
       {
-        "name": "acceptance_test",
+        "name": "acceptance_tests_support",
         "requirements": ">= 0"
       },
       {
-        "name": "acceptance_tests_support",
+        "name": "acceptance_test",
         "requirements": ">= 0"
       },
       {
@@ -4644,19 +4709,19 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "haml-sass-converters-rubymine-plugin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "haml-sass-converters-rubymine-plugin",
-        "requirements": ">= 0"
-      },
-      {
         "name": "haml-sass-converters",
         "requirements": ">= 0"
       },
       {
         "name": "haml-sass-converters",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "haml-sass-converters-rubymine-plugin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "haml-sass-converters-rubymine-plugin",
         "requirements": ">= 0"
       },
       {
@@ -4728,10 +4793,6 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "jiralicious",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jobmanager",
         "requirements": ">= 0.3.0"
       },
@@ -4800,11 +4861,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mvn_plugin_config",
+        "name": "mvn-plugin-config",
         "requirements": ">= 0"
       },
       {
-        "name": "mvn-plugin-config",
+        "name": "mvn_plugin_config",
         "requirements": ">= 0"
       },
       {
@@ -4940,10 +5001,6 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "scide",
-        "requirements": ">= 0"
-      },
-      {
         "name": "script_executor",
         "requirements": ">= 0"
       },
@@ -5000,12 +5057,12 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "sproutit-narwhal",
-        "requirements": ">= 0.1.0"
-      },
-      {
         "name": "sproutcore",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "sproutit-narwhal",
+        "requirements": ">= 0.1.0"
       },
       {
         "name": "storehouse_client",
@@ -5181,6 +5238,13 @@
 
     ],
     "description": "Gemenv provides a container for your gems, and otherwise stays out of your way."
+  },
+  "gemerald": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "..."
   },
   "gemerator": {
     "version": "0.2.0",
@@ -5375,7 +5439,7 @@
     "description": "gemignore allows you to automatically insert a wide range of preset .gitignore snippets into your .gitignore files"
   },
   "geminabox": {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "dependents": [
       {
         "name": "admin_interface",
@@ -5514,12 +5578,12 @@
         "requirements": "~> 0.5.2"
       },
       {
-        "name": "bundleinabox",
-        "requirements": "~> 0.11.0"
-      },
-      {
         "name": "bundle_rc",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bundleinabox",
+        "requirements": "~> 0.11.1"
       },
       {
         "name": "bundler_geminabox",
@@ -5570,15 +5634,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mock_search",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nswebgen",
         "requirements": ">= 0"
       },
       {
         "name": "okta_saml",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "protobuf-activerecord",
         "requirements": ">= 0"
       },
       {
@@ -5896,6 +5960,13 @@
     ],
     "description": "Gemology is a command line utlity that helps with day to day Ruby gem development."
   },
+  "gemometry": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Adds area and perimeter methods for common shapes."
+  },
   "gempath": {
     "version": "0.1.1",
     "dependents": [
@@ -5961,6 +6032,10 @@
         "requirements": "~> 0.5.0"
       },
       {
+        "name": "gem_velocity",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kitchen-all",
         "requirements": "~> 0.8"
       },
@@ -5996,11 +6071,18 @@
     "description": "Ruby wrapper for the RubyGems.org API"
   },
   "gems-status": {
-    "version": "1.68.0",
+    "version": "1.70.0",
     "dependents": [
 
     ],
     "description": "gem-status gets the list of gems you use from Gemfile.lock file and runs some checks on those gems. Checks that can be run are:\n  \n      * Does it has a license? If it does not, it can be a problem for distributing your software with this gem.\n      * Is it Gpl? If it is, it can be a problem if your software or other gems are not GPL compatible.\n      * Is the same in Rubygems.org? This is for people who uses his own gem server. This checks the gems are the same.\n      * Does it has security alerts? This will search into the commits and into security mailing lists for possible security messages.\n                  "
+  },
+  "gemshack": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "WIP: just working on it"
   },
   "gemshit": {
     "version": "unknown",
@@ -6044,11 +6126,11 @@
     "version": "1.1.2",
     "dependents": [
       {
-        "name": "acceptance_test",
+        "name": "acceptance_tests_support",
         "requirements": ">= 0"
       },
       {
-        "name": "acceptance_tests_support",
+        "name": "acceptance_test",
         "requirements": ">= 0"
       },
       {
@@ -6171,7 +6253,7 @@
     "description": "Gemstub is a very simple tool for creating the stub code you need to build a gem.  Usage: at a command prompt simply type: gemstub your_gem_name_here  That's it, after that, you all you have to do is the actual coding of your gem! Enjoy!"
   },
   "gemsurance": {
-    "version": "0.0.0",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -6366,12 +6448,12 @@
         "requirements": ">= 1.0"
       },
       {
-        "name": "jruby-jms",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jruby-hornetq",
         "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "jruby-jms",
+        "requirements": ">= 0"
       },
       {
         "name": "modern_times",
@@ -6417,6 +6499,20 @@
     ],
     "description": "A Sinatra app to monitor multiple CIJoe Projects"
   },
+  "general_store": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "easy-auto",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "long_tweet",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Get what you need from the General Store"
+  },
   "generate": {
     "version": "0.0.1",
     "dependents": [
@@ -6452,19 +6548,19 @@
     ],
     "description": "Generate vhosts for all rack apps in a given directory"
   },
-  "generator": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Generator gem is designed for use in ruby projects and provides templates generators like rails 3"
-  },
   "Generator": {
     "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Much longer explanation of the example!"
+  },
+  "generator": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Generator gem is designed for use in ruby projects and provides templates generators like rails 3"
   },
   "generator-spec": {
     "version": "0.7.8",
@@ -6570,6 +6666,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "deface",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "doorkeeper",
         "requirements": "~> 0.9.0"
       },
@@ -6662,11 +6762,11 @@
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "make_watchable",
+        "name": "make_voteable",
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "make_voteable",
+        "name": "make_watchable",
         "requirements": "~> 0.8.2"
       },
       {
@@ -6680,10 +6780,6 @@
       {
         "name": "pages",
         "requirements": ">= 0"
-      },
-      {
-        "name": "paloma",
-        "requirements": "~> 0.8.7"
       },
       {
         "name": "parse_resource_rails",
@@ -6706,15 +6802,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redditor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "redis_storage",
         "requirements": ">= 0.8.5"
       },
       {
-        "name": "resort-bjones",
+        "name": "resort",
         "requirements": "~> 0.8.1"
       },
       {
-        "name": "resort",
+        "name": "resort-bjones",
         "requirements": "~> 0.8.1"
       },
       {
@@ -7007,12 +7107,12 @@
         "requirements": ">= 0.0.4"
       },
       {
-        "name": "genomer-plugin-validate",
-        "requirements": ">= 0.0.6"
-      },
-      {
         "name": "genomer-plugin-view",
         "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "genomer-plugin-validate",
+        "requirements": ">= 0.0.6"
       }
     ],
     "description": "Turns scaffolded contigs and annotations into a genome."
@@ -7064,7 +7164,7 @@
     "description": "GenPass is a minimalistic password generator that works in the terminal. \"genpass {length}\" will return a safe, random password at the specified length."
   },
   "genprovider": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -7335,6 +7435,13 @@
     ],
     "description": "Converts addresses to geo coordinates using Google Maps JS Api"
   },
+  "geo_graf": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "Calculates the relations between overlapping polygons"
+  },
   "geo_hex": {
     "version": "3.1.3",
     "dependents": [
@@ -7584,11 +7691,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "currency_converter_cis",
+        "name": "currency_converter_CIS",
         "requirements": ">= 0"
       },
       {
-        "name": "currency_converter_CIS",
+        "name": "currency_converter_cis",
         "requirements": ">= 0"
       },
       {
@@ -7626,6 +7733,10 @@
       {
         "name": "geo-core",
         "requirements": ">= 0"
+      },
+      {
+        "name": "geocoder-oracle",
+        "requirements": "~> 1.1"
       },
       {
         "name": "geocoder-simplified",
@@ -7696,6 +7807,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sunweather",
+        "requirements": "~> 1.1.8"
+      },
+      {
         "name": "tbot",
         "requirements": "~> 1.1.8"
       },
@@ -7721,6 +7836,13 @@
       }
     ],
     "description": "Provides object geocoding (by street or IP address), reverse geocoding (coordinates to street address), distance queries for ActiveRecord and Mongoid, result caching, and more. Designed for Rails but works with Sinatra and other Rack frameworks too."
+  },
+  "geocoder-oracle": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Adds Oracle support to the geocoder gem"
   },
   "geocoder-sgonyea": {
     "version": "1.1.6.1",
@@ -7805,6 +7927,13 @@
 
     ],
     "description": "This gem allows users to download geo location information based on a number of parameters. The source of the data is the Open Street Map geo database. There is a requirement that the end user has a mysql database. Future releases will hopefully make the gem more generic in terms of the database that is required. Please refer to the documentation for information on the parameters required to be passed to the gem. The gem will generate a table called overlays on any mysql database with the data passed from the Open Street Map database. "
+  },
+  "geoelevation": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Geoelevation.rb allows you to retrieve elevation for any point in Earth (if present in the SRTM dataset) and the undulation error (the difference between the WGS84 ellipsoid and the actual Earth size)."
   },
   "geoff": {
     "version": "0.2.3",
@@ -7914,7 +8043,7 @@
     "description": "GeoInfo gem offers comprehensive and reliable databases of localities and zip codes for numerous state of india. Such data may be integrated to professional software, websites, may be used to generate statistics and to various other ends. Gem will provide localities, administrative subdivisions, state and geographical coordinates."
   },
   "geoip": {
-    "version": "1.3.0",
+    "version": "1.3.2",
     "dependents": [
       {
         "name": "charted",
@@ -7981,16 +8110,16 @@
         "requirements": "~> 1.2.0"
       },
       {
-        "name": "rack-geo-locale",
-        "requirements": ">= 0"
+        "name": "rack-geoipcountry",
+        "requirements": ">= 1.1.2"
       },
       {
         "name": "rack-geoipcity",
         "requirements": ">= 0"
       },
       {
-        "name": "rack-geoipcountry",
-        "requirements": ">= 1.1.2"
+        "name": "rack-geo-locale",
+        "requirements": ">= 0"
       },
       {
         "name": "redis_analytics",
@@ -8012,7 +8141,7 @@
     "description": "GeoIP searches a GeoIP database for a given host or IP address, and\nreturns information about the country where the IP address is allocated,\nand the city, ISP and other information, if you have that database version."
   },
   "geoip-c": {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "dependents": [
       {
         "name": "fluent-plugin-geoip",
@@ -8175,16 +8304,12 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "geokit-pretty_heading",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "geokit-rails31",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "geokit-rails",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "geokit-pretty_heading",
+        "requirements": ">= 0"
       },
       {
         "name": "geokit-rails3",
@@ -8200,7 +8325,7 @@
       },
       {
         "name": "goldencobra",
-        "requirements": ">= 0"
+        "requirements": "~> 1.6.7"
       },
       {
         "name": "google-v3-geocoder",
@@ -8239,12 +8364,12 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "noaa",
-        "requirements": ">= 1.5.0"
-      },
-      {
         "name": "noaa-weather",
         "requirements": ">= 0"
+      },
+      {
+        "name": "noaa",
+        "requirements": ">= 1.5.0"
       },
       {
         "name": "open_porch",
@@ -8295,11 +8420,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "supernova-ts",
+        "name": "supernova",
         "requirements": ">= 0"
       },
       {
-        "name": "supernova",
+        "name": "supernova-ts",
         "requirements": ">= 0"
       },
       {
@@ -8400,13 +8525,6 @@
       }
     ],
     "description": "Port of the Rails plugin \"geokit-rails\" to Rails 3, as a gem"
-  },
-  "geokit-rails31": {
-    "version": "0.1.3",
-    "dependents": [
-
-    ],
-    "description": "Port of the Rails plugin \"geokit-rails\" to Rails 3.1.0, as a gem"
   },
   "geokit-with-google-premier": {
     "version": "1.5.5",
@@ -8509,6 +8627,13 @@
     ],
     "description": "Простой набор правил и комманд, заточеных для работы в git-flow с использование в качестве удаленного репозитория github"
   },
+  "geometrize": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Simple geometry methods on triangles, rectangles, and circles."
+  },
   "geometry": {
     "version": "6",
     "dependents": [
@@ -8519,6 +8644,34 @@
     ],
     "description": "Geometric primitives and algorithms for Ruby"
   },
+  "geometry-befr": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Find perimeter, area, circumference, etc."
+  },
+  "geometry-bgw": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Gem for geometry"
+  },
+  "geometry-mc": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Geometry!"
+  },
+  "geometry-mf": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Checks difference shapes info"
+  },
   "geomock-rails": {
     "version": "1.0.1",
     "dependents": [
@@ -8527,7 +8680,7 @@
     "description": "This gem provides geomock for your Rails 3 application."
   },
   "geomotion": {
-    "version": "0.12.3",
+    "version": "0.13.1",
     "dependents": [
       {
         "name": "goldensections",
@@ -8540,6 +8693,10 @@
       {
         "name": "kiln",
         "requirements": ">= 0.7.0"
+      },
+      {
+        "name": "motion-bureau",
+        "requirements": ">= 0"
       },
       {
         "name": "motion-xray",
@@ -8595,7 +8752,7 @@
     "description": "A client to consume the geonames web services (www.geonames.org)."
   },
   "geonames_local": {
-    "version": "3.1.1",
+    "version": "3.3.1",
     "dependents": [
 
     ],
@@ -8640,9 +8797,12 @@
     "description": "Generate geographic points from a shapefile."
   },
   "geopolitical": {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "dependents": [
-
+      {
+        "name": "geonames_local",
+        "requirements": "> 0.8.1"
+      }
     ],
     "description": "Geopolitical models for mongoid as a rails engine."
   },
@@ -8654,7 +8814,7 @@
     "description": "\nGeoptima is a suite of applications for measuring and locating\nmobile/cellular subscriber experience on GPS enabled smartphones.  It is\nproduced by AmanziTel AB in Helsingborg, Sweden, and supports many phone\nmanufacturers, with free downloads from the various app stores, markets or\nmarketplaces.  This Ruby library is capable of reading the JSON format files\nproduced by these phones and reformating them as CSV, GPX and PNG for\nfurther analysis in Excel.  This is a simple and independent way of\nanalysing the data, when compared to the full-featured analysis applications\nand servers available from AmanziTel.  If you want to analyse a limited\namount of data in excel, or with Ruby, then this GEM might be for you.  If\nyou want to analyse large amounts of data, from many subscribers, or over\nlong periods of time then rather consider the NetView and Customer IQ\napplications from AmanziTel at www.amanzitel.com.\n\nCurrent features available in the library and the show_geoptima command:\n* Import one or many JSON files\n* Organize data by device id (IMEI) into datasets\n* Split by event type\n* Time ordering and time correlation (associate data from one event to another):\n** Add GPS locations to other events (time window and interpolation algorithms)\n** Add signal strenth, battery level, etc. to other events\n* Export event tables to CSV format for further processing in excel\n* Make and export GPS traces in GPX and PNG format for simple map reports\n\nThe amount of data possible to process is limited by memory, since all data\nis imported in ruby data structures for procssing.  If you need to process\nlarger amounts of data, you will need a database-driven approach, like that\nprovided by AmanziTel's NetView and Customer IQ solutions.  This Ruby gem is\nactually used by parts of the data pre-processing chain of 'Customer IQ',\nbut it not used by the main database and statistics engine that generates\nthe reports.\n\n"
   },
   "geordi": {
-    "version": "0.15.7",
+    "version": "0.16.1",
     "dependents": [
 
     ],
@@ -8987,7 +9147,7 @@
     "description": "Full support for the Rails 3.1 asset pipeline when testing your coffeescript or javascript files using Gerbil"
   },
   "gerbilcharts": {
-    "version": "0.7.0",
+    "version": "0.7.4",
     "dependents": [
 
     ],
@@ -9651,7 +9811,7 @@
     "description": "Translate your database columns with gettext"
   },
   "gettext_i18n_rails": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "activeldap",
@@ -9963,11 +10123,11 @@
         "requirements": ">= 2011.11.29.1"
       },
       {
-        "name": "ghaki-stats",
+        "name": "ghaki-net-ssh",
         "requirements": ">= 2011.11.29.1"
       },
       {
-        "name": "ghaki-net-ssh",
+        "name": "ghaki-stats",
         "requirements": ">= 2011.11.29.1"
       }
     ],
@@ -9977,11 +10137,11 @@
     "version": "2011.11.29.1",
     "dependents": [
       {
-        "name": "ghaki-logger",
+        "name": "ghaki-match",
         "requirements": ">= 2011.11.29.1"
       },
       {
-        "name": "ghaki-match",
+        "name": "ghaki-logger",
         "requirements": ">= 2011.11.29.1"
       }
     ],
@@ -10023,11 +10183,11 @@
         "requirements": ">= 2011.11.29.1"
       },
       {
-        "name": "ghaki-stats",
+        "name": "ghaki-net-ssh",
         "requirements": ">= 2011.11.29.1"
       },
       {
-        "name": "ghaki-net-ssh",
+        "name": "ghaki-stats",
         "requirements": ">= 2011.11.29.1"
       }
     ],
@@ -10368,6 +10528,13 @@
     ],
     "description": "A complete, simple, and intuitive ruby API for all things Github."
   },
+  "gherk": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Gherkin RSpec formatter for feature specs"
+  },
   "gherkin": {
     "version": "unknown",
     "dependents": [
@@ -10404,11 +10571,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cuke_profiles",
+        "name": "cuke_iterations",
         "requirements": ">= 0"
       },
       {
-        "name": "cuke_iterations",
+        "name": "cuke_profiles",
         "requirements": ">= 0"
       },
       {
@@ -10468,6 +10635,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rspec-gherkin",
+        "requirements": ">= 2.5"
+      },
+      {
         "name": "ruby-band",
         "requirements": ">= 0"
       },
@@ -10488,11 +10659,15 @@
         "requirements": ">= 2.5"
       },
       {
-        "name": "wally-client",
+        "name": "turnip-parallel_tests",
         "requirements": ">= 0"
       },
       {
         "name": "wally",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wally-client",
         "requirements": ">= 0"
       },
       {
@@ -10821,11 +10996,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "secret_service",
+        "name": "secret_store",
         "requirements": ">= 0"
       },
       {
-        "name": "secret_store",
+        "name": "secret_service",
         "requirements": ">= 0"
       },
       {
@@ -10862,7 +11037,7 @@
     "description": "Git-like hashes for Ruby objects"
   },
   "gibbon": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "artfully_ose",
@@ -10883,6 +11058,10 @@
       {
         "name": "kit_cms",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mc",
+        "requirements": "= 1.0.4"
       },
       {
         "name": "mcmailer",
@@ -10918,6 +11097,13 @@
 
     ],
     "description": "Generates random mixes of numbers and letters of fixed length, usable as UUIDs. Now supports Arrays as an argument type for lean. Also has a instance-based interfaced, you now have to do: gid = GID.new; gid.generate"
+  },
+  "giddy": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "Ruby client for Getty API"
   },
   "giddyup": {
     "version": "0.0.2",
@@ -11011,7 +11197,7 @@
     "description": "Rubygem for creating thin wrappers around RESTful JSON APIs"
   },
   "gig": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -11023,6 +11209,13 @@
 
     ],
     "description": "description of gem"
+  },
+  "gigawatt": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "88 Miles (http://88miles.net) is simple time tracking for freelance developers, designers and copywriters. This gem allows you to access you account from your command line."
   },
   "gigest": {
     "version": "3.2.0",
@@ -11115,7 +11308,7 @@
     "description": "random Japanese name generator"
   },
   "gimizen": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -11250,11 +11443,11 @@
         "requirements": "= 1.2.0"
       },
       {
-        "name": "joshcutler-thinking-sphinx",
+        "name": "josh_cutler-thinking-sphinx",
         "requirements": "= 1.2.0"
       },
       {
-        "name": "josh_cutler-thinking-sphinx",
+        "name": "joshcutler-thinking-sphinx",
         "requirements": "= 1.2.0"
       },
       {
@@ -11385,12 +11578,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "gir_ffi-gnome_keyring",
-        "requirements": "~> 0.6.6"
-      },
-      {
         "name": "gir_ffi-gtk",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "gir_ffi-gnome_keyring",
+        "requirements": "~> 0.6.6"
       },
       {
         "name": "gir_ffi-pango",
@@ -11406,6 +11599,10 @@
       },
       {
         "name": "pulseaudio",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "r_notify",
         "requirements": ">= 0"
       }
     ],
@@ -11429,11 +11626,11 @@
     "version": "0.6.0",
     "dependents": [
       {
-        "name": "gtk3webtable",
+        "name": "gtk3assist",
         "requirements": ">= 0"
       },
       {
-        "name": "gtk3assist",
+        "name": "gtk3webtable",
         "requirements": ">= 0"
       },
       {
@@ -11573,11 +11770,11 @@
         "requirements": "~> 0.10.0"
       },
       {
-        "name": "projectlocker_errata",
+        "name": "projectlocker_pulse",
         "requirements": ">= 0"
       },
       {
-        "name": "projectlocker_pulse",
+        "name": "projectlocker_errata",
         "requirements": ">= 0"
       },
       {
@@ -11862,6 +12059,10 @@
         "requirements": "~> 1.2"
       },
       {
+        "name": "aspen",
+        "requirements": ">= 0"
+      },
+      {
         "name": "assette",
         "requirements": ">= 0"
       },
@@ -11878,11 +12079,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "awestruct",
+        "name": "awestructx",
         "requirements": "~> 1.2.5"
       },
       {
-        "name": "awestructx",
+        "name": "awestruct",
         "requirements": "~> 1.2.5"
       },
       {
@@ -12006,6 +12207,10 @@
         "requirements": "~> 1.2"
       },
       {
+        "name": "clenver",
+        "requirements": "= 1.2.6"
+      },
+      {
         "name": "cleverbot",
         "requirements": "< 1.2.6, >= 1.0.1"
       },
@@ -12050,12 +12255,12 @@
         "requirements": "~> 1.2.5"
       },
       {
-        "name": "dotfu",
-        "requirements": ">= 0"
-      },
-      {
         "name": "dotify",
         "requirements": "~> 1.2.5"
+      },
+      {
+        "name": "dotfu",
+        "requirements": ">= 0"
       },
       {
         "name": "engen",
@@ -12138,11 +12343,11 @@
         "requirements": ">= 1.2.5"
       },
       {
-        "name": "git-review-notes",
+        "name": "git-review-branch",
         "requirements": ">= 0"
       },
       {
-        "name": "git-review-branch",
+        "name": "git-review-notes",
         "requirements": ">= 0"
       },
       {
@@ -12162,20 +12367,20 @@
         "requirements": ">= 1.2.5"
       },
       {
-        "name": "git_test",
-        "requirements": ">= 0"
-      },
-      {
         "name": "git_time_extractor",
         "requirements": ">= 0"
       },
       {
-        "name": "gitconfig",
+        "name": "git_test",
         "requirements": ">= 0"
       },
       {
         "name": "gitchangelog",
         "requirements": ">= 1.2.5"
+      },
+      {
+        "name": "gitconfig",
+        "requirements": ">= 0"
       },
       {
         "name": "gitfeed",
@@ -12190,12 +12395,16 @@
         "requirements": "~> 1.2.5"
       },
       {
-        "name": "gitnesse",
-        "requirements": "~> 1.2.6"
+        "name": "github_issues_cli",
+        "requirements": ">= 1.2.5"
       },
       {
         "name": "gitnext",
         "requirements": "= 1.2.5"
+      },
+      {
+        "name": "gitnesse",
+        "requirements": "~> 1.2.6"
       },
       {
         "name": "gitofigure",
@@ -12226,11 +12435,11 @@
         "requirements": "= 1.2.5"
       },
       {
-        "name": "gnag",
+        "name": "glennr_opensrs",
         "requirements": ">= 0"
       },
       {
-        "name": "glennr_opensrs",
+        "name": "gnag",
         "requirements": ">= 0"
       },
       {
@@ -12290,11 +12499,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jeweler2",
+        "name": "jeweler",
         "requirements": ">= 1.2.5"
       },
       {
-        "name": "jeweler",
+        "name": "jeweler2",
         "requirements": ">= 1.2.5"
       },
       {
@@ -12398,6 +12607,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "nyx",
+        "requirements": "< 2.0, >= 1.2.6"
+      },
+      {
         "name": "opensrs",
         "requirements": ">= 0"
       },
@@ -12406,11 +12619,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "orm_adapter-sequel",
+        "name": "orm_adapter",
         "requirements": ">= 1.2.5"
       },
       {
-        "name": "orm_adapter",
+        "name": "orm_adapter-sequel",
         "requirements": ">= 1.2.5"
       },
       {
@@ -12430,16 +12643,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pgmodelgen",
+        "requirements": "~> 1.2.5"
+      },
+      {
         "name": "pickle",
         "requirements": ">= 0"
       },
       {
         "name": "pig",
         "requirements": "= 1.2.5"
-      },
-      {
-        "name": "pione",
-        "requirements": "~> 1.2.5"
       },
       {
         "name": "pkg_noisrev",
@@ -12460,6 +12673,10 @@
       {
         "name": "pullcrusher",
         "requirements": ">= 0"
+      },
+      {
+        "name": "puppet_local",
+        "requirements": ">= 1.2.5"
       },
       {
         "name": "purse",
@@ -12518,10 +12735,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "scm_workspace",
-        "requirements": ">= 0"
-      },
-      {
         "name": "segments",
         "requirements": ">= 0"
       },
@@ -12566,11 +12779,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "therapist",
+        "name": "therapy",
         "requirements": ">= 0"
       },
       {
-        "name": "therapy",
+        "name": "therapist",
         "requirements": ">= 0"
       },
       {
@@ -12677,6 +12890,13 @@
     ],
     "description": "Find the first broken commit without having to learn git bisect"
   },
+  "git-background": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "execute git command in background"
+  },
   "git-blame-game": {
     "version": "0.1.0",
     "dependents": [
@@ -12716,7 +12936,7 @@
     "description": "Git-bro provides tools to serve your Git repositories"
   },
   "git-browse-remote": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -12749,6 +12969,13 @@
 
     ],
     "description": "Check CI status of the local project"
+  },
+  "git-ci-helper": {
+    "version": "0.0.16",
+    "dependents": [
+
+    ],
+    "description": "Git Commit Helper"
   },
   "git-cleaner": {
     "version": "0.0.5",
@@ -13064,7 +13291,7 @@
     "description": "git-notifier is a gem for Mac Os that allows you to watch one or more git repositories and receive a growl notification when a change is committed"
   },
   "git-object-browser": {
-    "version": "0.0.8",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -13621,6 +13848,13 @@
     ],
     "description": "Send a file to your dedicated public github repo and have a short url  returned that points to the uploaded file"
   },
+  "git_commit_size_scraper": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Walk Git history to calculate commit size in bytes."
+  },
   "git_deployer": {
     "version": "0.1.0",
     "dependents": [
@@ -13764,13 +13998,6 @@
     ],
     "description": "Counts new, deleted and modified lines in git repository with ability to pass various options"
   },
-  "git_manager": {
-    "version": "0.1.2",
-    "dependents": [
-
-    ],
-    "description": "A QA Automation Enineer's Assistant, utilizing Jenkins and Git."
-  },
   "git_mirror": {
     "version": "0.4",
     "dependents": [
@@ -13821,7 +14048,7 @@
     "description": "CLI for displaying and interacting with recently checked-out git branches"
   },
   "git_reflow": {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "dependents": [
       {
         "name": "reflow",
@@ -13866,7 +14093,7 @@
     "description": "git is a widely used version control system. with this gem, we can analysis the git repository to get useful information."
   },
   "git_statistics": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -14104,7 +14331,7 @@
     "description": "Highline integration for gitconfig"
   },
   "gitcycle": {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "dependents": [
 
     ],
@@ -14296,6 +14523,13 @@
     ],
     "description": "A wrapper for GitHub's API v3."
   },
+  "github-archive": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Github Archive"
+  },
   "github-auth": {
     "version": "1.2.0",
     "dependents": [
@@ -14430,7 +14664,7 @@
     "description": "Ldap authentication for humans"
   },
   "github-linguist": {
-    "version": "2.9.4",
+    "version": "2.9.5",
     "dependents": [
       {
         "name": "copyright-header",
@@ -14446,10 +14680,6 @@
       },
       {
         "name": "git-branch_stats",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "git_statistics",
         "requirements": ">= 0"
       },
       {
@@ -14476,8 +14706,12 @@
     "description": "GitHub Language detection"
   },
   "github-markdown": {
-    "version": "0.5.3",
+    "version": "0.5.5",
     "dependents": [
+      {
+        "name": "apitome",
+        "requirements": ">= 0"
+      },
       {
         "name": "cookie_alert",
         "requirements": ">= 0"
@@ -14501,6 +14735,10 @@
       {
         "name": "gitlab-gollum-lib",
         "requirements": "~> 0.5.3"
+      },
+      {
+        "name": "gollum",
+        "requirements": "~> 0.5.5"
       },
       {
         "name": "gollum-lib",
@@ -14545,6 +14783,10 @@
       {
         "name": "style-guide",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "text_helpers",
+        "requirements": ">= 0"
       }
     ],
     "description": "Self-contained Markdown parser for GitHub, with all our custom extensions"
@@ -14576,11 +14818,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "beats-client",
+        "name": "beats-rack",
         "requirements": ">= 0"
       },
       {
-        "name": "beats-rack",
+        "name": "beats-client",
         "requirements": ">= 0"
       },
       {
@@ -14688,12 +14930,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gollum-bibanon",
-        "requirements": "< 1.0.0, >= 0.7.0"
-      },
-      {
         "name": "gollum-lib",
         "requirements": "< 1.0.0, >= 0.7.5"
+      },
+      {
+        "name": "gollum-bibanon",
+        "requirements": "< 1.0.0, >= 0.7.0"
       },
       {
         "name": "headmaster",
@@ -14784,11 +15026,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "RTFMd",
+        "name": "rtfmd",
         "requirements": "< 1.0.0, >= 0.7.0"
       },
       {
-        "name": "rtfmd",
+        "name": "RTFMd",
         "requirements": "< 1.0.0, >= 0.7.0"
       },
       {
@@ -14796,11 +15038,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sandrbox",
+        "name": "Sandrbox",
         "requirements": ">= 0"
       },
       {
-        "name": "Sandrbox",
+        "name": "sandrbox",
         "requirements": ">= 0"
       },
       {
@@ -14860,7 +15102,7 @@
     "description": "A simple gem to handle the Github OAuth authentication"
   },
   "github-pages": {
-    "version": "6",
+    "version": "8",
     "dependents": [
       {
         "name": "jekyll-auth",
@@ -14961,16 +15203,16 @@
         "requirements": "= 0.8.1"
       },
       {
-        "name": "git_analyze",
-        "requirements": ">= 0"
-      },
-      {
         "name": "git2bit",
         "requirements": ">= 0"
       },
       {
+        "name": "git_analyze",
+        "requirements": ">= 0"
+      },
+      {
         "name": "git_reflow",
-        "requirements": "= 0.7.0"
+        "requirements": "= 0.10.2"
       },
       {
         "name": "github-bridge",
@@ -14997,11 +15239,15 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "github_login",
-        "requirements": ">= 0"
+        "name": "github_issues_cli",
+        "requirements": ">= 0.10.0"
       },
       {
         "name": "github_org_reports",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "github_login",
         "requirements": ">= 0"
       },
       {
@@ -15069,6 +15315,10 @@
         "requirements": "~> 0.9.7"
       },
       {
+        "name": "rails_tracker",
+        "requirements": ">= 0"
+      },
+      {
         "name": "socialoud",
         "requirements": "~> 0.6.4"
       },
@@ -15112,8 +15362,15 @@
     ],
     "description": "a gem to have the same output as the github branch list page"
   },
+  "github_chart": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Uses github_stats to grab Github contributions scores and converts that into an SVG"
+  },
   "github_cli": {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "dependents": [
 
     ],
@@ -15178,6 +15435,13 @@
     ],
     "description": "Github API connector"
   },
+  "github_issues_cli": {
+    "version": "0.2.8",
+    "dependents": [
+
+    ],
+    "description": "Command line tool for managing issues, pull-requests on GitHub platform"
+  },
   "github_login": {
     "version": "1.0.0",
     "dependents": [
@@ -15188,7 +15452,10 @@
   "github_markup": {
     "version": "0.1.1",
     "dependents": [
-
+      {
+        "name": "attr_readonly",
+        "requirements": ">= 0"
+      }
     ],
     "description": "The code we use to render README.your_favorite_markup"
   },
@@ -15249,9 +15516,12 @@
     "description": "Snapshots multiple organizations GitHub repositories, including wikis, and syncs them to Amazon's S3"
   },
   "github_stats": {
-    "version": "0.0.8",
+    "version": "0.1.3",
     "dependents": [
-
+      {
+        "name": "github_chart",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Pulls the statistics from Github's user contribution chart and provides an interface for analyzing that data"
   },
@@ -15429,6 +15699,13 @@
     ],
     "description": "Command-line client for GitLab"
   },
+  "gitlab-flowdock-git-hook": {
+    "version": "0.4.2.2",
+    "dependents": [
+
+    ],
+    "description": "Git Post-Receive hook for Flowdock. Gem requirements patched for use with Gitlab."
+  },
   "gitlab-fogbugz": {
     "version": "0.0.5",
     "dependents": [
@@ -15454,11 +15731,23 @@
     "version": "2.6.0",
     "dependents": [
       {
+        "name": "branch_raker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gitlab-flowdock-git-hook",
+        "requirements": ">= 2.4.1"
+      },
+      {
         "name": "gitlab-gollum-lib",
         "requirements": ">= 2.5.1"
       },
       {
         "name": "gitlab_git",
+        "requirements": "~> 2.6.0"
+      },
+      {
+        "name": "gollum-lib",
         "requirements": "~> 2.6.0"
       },
       {
@@ -15574,7 +15863,7 @@
     "description": "A Rails gem that integrates Gitmodel (https://github.com/pauldowman/gitmodel) with Ruby on Rails"
   },
   "gitnesse": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -15779,15 +16068,15 @@
     ],
     "description": "Creates a page located in the public directory with the git SHA of the release after a Capistrano deploy.\n"
   },
-  "Gitspotter": {
-    "version": "0.0.1",
+  "gitspotter": {
+    "version": "0.0.3",
     "dependents": [
 
     ],
     "description": "Visualize git log/graph in html"
   },
-  "gitspotter": {
-    "version": "0.0.3",
+  "Gitspotter": {
+    "version": "0.0.1",
     "dependents": [
 
     ],
@@ -15885,7 +16174,7 @@
     "description": "Easily push and pull from remote repositories without running into conflicts."
   },
   "gitvers": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -15983,7 +16272,7 @@
     "description": "\n      Gjman is my neighbourhood friendly handyman with some useful tools.\n      Tools available will remain diverse, and are added as and when i need them.\n    "
   },
   "gjp": {
-    "version": "0.14.1",
+    "version": "0.22.0",
     "dependents": [
 
     ],
@@ -16066,7 +16355,7 @@
     "description": "ruby-opengl wrapper for writing quick applets"
   },
   "glark": {
-    "version": "1.10.3",
+    "version": "1.10.4",
     "dependents": [
 
     ],
@@ -16200,12 +16489,15 @@
   "glebtv-carrierwave-mongoid": {
     "version": "0.6.4",
     "dependents": [
-
+      {
+        "name": "glebtv-rails-uploader",
+        "requirements": ">= 0"
+      }
     ],
     "description": "This fork makes GridFS optional"
   },
   "glebtv-ckeditor": {
-    "version": "4.1.1.6",
+    "version": "4.2.1.4",
     "dependents": [
 
     ],
@@ -16218,6 +16510,13 @@
     ],
     "description": "Fork of httpclient with some fixes and patches I needed. Please use original gem instead"
   },
+  "glebtv-mongoid-paperclip": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Mongoid::Paperclip enables you to use Paperclip with the Mongoid ODM for MongoDB."
+  },
   "glebtv-mongoid_nested_set": {
     "version": "0.4.1",
     "dependents": [
@@ -16226,7 +16525,7 @@
     "description": "Fully featured tree implementation for Mongoid using the nested set model"
   },
   "glebtv-rails-uploader": {
-    "version": "0.2.0",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -16376,7 +16675,7 @@
     "description": "GLFW 3 bindings for Ruby 2.x"
   },
   "gli": {
-    "version": "2.8.0",
+    "version": "2.8.1",
     "dependents": [
       {
         "name": "alonzo",
@@ -16419,6 +16718,10 @@
         "requirements": "= 2.5.4"
       },
       {
+        "name": "brightbox-cli",
+        "requirements": "~> 2.8"
+      },
+      {
         "name": "brio",
         "requirements": "~> 2.4"
       },
@@ -16433,6 +16736,10 @@
       {
         "name": "canary",
         "requirements": ">= 0"
+      },
+      {
+        "name": "clenver",
+        "requirements": "= 2.8.0"
       },
       {
         "name": "cloudpatrol",
@@ -16455,11 +16762,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "concordance-demo",
+        "name": "concordance-example",
         "requirements": ">= 0"
       },
       {
-        "name": "concordance-example",
+        "name": "concordance-demo",
         "requirements": ">= 0"
       },
       {
@@ -16544,7 +16851,11 @@
       },
       {
         "name": "git_reflow",
-        "requirements": "= 2.1.0"
+        "requirements": "= 2.8.1"
+      },
+      {
+        "name": "git_team_stats",
+        "requirements": ">= 0"
       },
       {
         "name": "git_test",
@@ -16553,10 +16864,6 @@
       {
         "name": "git_test",
         "requirements": "= 1.3.5"
-      },
-      {
-        "name": "git_team_stats",
-        "requirements": ">= 0"
       },
       {
         "name": "gitplate",
@@ -16647,12 +16954,12 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "ki_youtrack",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "ki_trello",
         "requirements": "~> 2.2.1"
+      },
+      {
+        "name": "ki_youtrack",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "klipbook",
@@ -16689,6 +16996,10 @@
       {
         "name": "mattmatt-showoff",
         "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "mc",
+        "requirements": "= 2.8.0"
       },
       {
         "name": "mcspoofy",
@@ -16875,11 +17186,11 @@
         "requirements": ">= 2.5.2"
       },
       {
-        "name": "showoff-alexch",
+        "name": "showoff",
         "requirements": ">= 1.3.2"
       },
       {
-        "name": "showoff",
+        "name": "showoff-alexch",
         "requirements": ">= 1.3.2"
       },
       {
@@ -16901,6 +17212,10 @@
       {
         "name": "sly",
         "requirements": ">= 2.5.0"
+      },
+      {
+        "name": "snapback",
+        "requirements": "= 2.8.0"
       },
       {
         "name": "snip",
@@ -16996,15 +17311,23 @@
       },
       {
         "name": "ugc",
-        "requirements": ">= 0"
+        "requirements": ">= 2.6"
       },
       {
         "name": "ugalic_yelp",
         "requirements": ">= 0"
       },
       {
+        "name": "ugv",
+        "requirements": ">= 2.6"
+      },
+      {
         "name": "urturn-cli",
         "requirements": ">= 0"
+      },
+      {
+        "name": "veye",
+        "requirements": "= 2.8.0"
       },
       {
         "name": "vigilant",
@@ -17125,14 +17448,14 @@
     "description": "allows you to get quotes from the glide api for the services required in one go and sum up the totals"
   },
   "glider-rails": {
-    "version": "0.0.6",
+    "version": "0.1.2",
     "dependents": [
 
     ],
     "description": "Glider, AngularJS UI slider for rails asset pipeline"
   },
   "gliffy": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -17161,18 +17484,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "glimpse-performance_bar",
-        "requirements": ">= 0.0.5"
-      },
-      {
-        "name": "glimpse-pg",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "glimpse-redis",
-        "requirements": ">= 0"
-      },
-      {
         "name": "glimpse-resque",
         "requirements": ">= 0"
       },
@@ -17182,6 +17493,18 @@
       },
       {
         "name": "glimpse-svn",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "glimpse-performance_bar",
+        "requirements": ">= 0.0.5"
+      },
+      {
+        "name": "glimpse-pg",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "glimpse-redis",
         "requirements": ">= 0"
       }
     ],
@@ -17335,7 +17658,7 @@
     "description": "Track your application errors with GlitchyApp and search through them."
   },
   "glitter": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "dependents": [
 
     ],
@@ -17354,13 +17677,6 @@
 
     ],
     "description": "Generalized Linear Method, wait until I finished it..."
-  },
-  "gloader": {
-    "version": "0.0.2",
-    "dependents": [
-
-    ],
-    "description": "Buids Grinder load test platform and controls test runs"
   },
   "gloater": {
     "version": "0.0.1",
@@ -17425,6 +17741,13 @@
     ],
     "description": "Provides a global_phone_dbgen command to generate databases for the GlobalPhone library."
   },
+  "global_phone_locomote": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "This is a fork of the wonderful sstepenson/global_phone it only exists because our company has a runtime dependency on this gem as part of a private gem that we use in a rails app.  And the gemspec for our private gem can't reference a github branch.  Hopefully we can delete this if our PRs get merged (ie. sstephenson/global_phone/pull/6 , sstephenson/global_phone/pull/7 , sstephenson/global_phone/pull/8 , sstephenson/global_phone/pull/9, sstephenson/global_phone/pull/10) and we can go back to depending on global_phone"
+  },
   "global_registry": {
     "version": "1.0.1",
     "dependents": [
@@ -17440,7 +17763,7 @@
     "description": "Simple gem to provide global roles for ActiveRecord models without using of another models"
   },
   "global_session": {
-    "version": "2.0.3",
+    "version": "3.0.1",
     "dependents": [
       {
         "name": "right_session",
@@ -17480,6 +17803,13 @@
     ],
     "description": "This librairy aims to provide easy global hotkeys setting for ruby applications so users can interact with an application even if it does not have the focus."
   },
+  "globalize-accessors": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Define methods for accessing translated attributes"
+  },
   "globalize2": {
     "version": "0.2.1",
     "dependents": [
@@ -17498,19 +17828,19 @@
     "version": "0.3.0",
     "dependents": [
       {
-        "name": "activeadmin-globalize3",
-        "requirements": ">= 0"
-      },
-      {
         "name": "activeadmin-globalize3-dougui",
         "requirements": ">= 0"
       },
       {
-        "name": "activeadmin-globalize3-unofficial",
+        "name": "activeadmin-globalize3",
         "requirements": ">= 0"
       },
       {
         "name": "ActiveAdmin-Globalize3-inputs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "activeadmin-globalize3-unofficial",
         "requirements": ">= 0"
       },
       {
@@ -17566,23 +17896,19 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "friendly_id",
-        "requirements": ">= 0"
-      },
-      {
         "name": "geothird_friendly_id",
         "requirements": ">= 0"
       },
       {
-        "name": "globalize3_helpers",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "globalize3_accessors",
-        "requirements": ">= 0.1.0"
+        "name": "globalize-accessors",
+        "requirements": "~> 0.3.0"
       },
       {
         "name": "globalize3-jquery-autocomplete",
+        "requirements": "~> 0.3"
+      },
+      {
+        "name": "globalize3-validations",
         "requirements": "~> 0.3"
       },
       {
@@ -17590,12 +17916,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "globalize3_translator",
-        "requirements": ">= 0.0.7"
+        "name": "globalize3_accessors",
+        "requirements": ">= 0.1.0"
       },
       {
-        "name": "globalize3-validations",
-        "requirements": "~> 0.3"
+        "name": "globalize3_helpers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "globalize3_translator",
+        "requirements": ">= 0.0.7"
       },
       {
         "name": "goobalize3",
@@ -17610,12 +17940,12 @@
         "requirements": ">= 0.2.0"
       },
       {
-        "name": "humpyard_form",
-        "requirements": ">= 0.0.7"
-      },
-      {
         "name": "humpyard",
         "requirements": ">= 0.0.11"
+      },
+      {
+        "name": "humpyard_form",
+        "requirements": ">= 0.0.7"
       },
       {
         "name": "i18n_fields",
@@ -17658,20 +17988,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spree_custom_multi_lingual",
-        "requirements": "= 0.2.0"
-      },
-      {
-        "name": "spree_multi_lingual",
-        "requirements": "= 0.2.0"
+        "name": "spree_product_translation",
+        "requirements": "~> 0.2.0.beta3"
       },
       {
         "name": "spree_product_translations",
         "requirements": "~> 0.1.0.beta"
-      },
-      {
-        "name": "spree_product_translation",
-        "requirements": "~> 0.2.0.beta3"
       },
       {
         "name": "static_blocks",
@@ -17758,7 +18080,7 @@
     "description": "Cascading Global Log"
   },
   "globals": {
-    "version": "0.0.2",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -18045,6 +18367,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mytradewizard",
+        "requirements": ">= 0"
+      },
+      {
         "name": "restart_notifier",
         "requirements": "= 0.4.0"
       },
@@ -18186,10 +18512,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gmail",
-        "requirements": ">= 0.3.0"
-      },
-      {
         "name": "gmail-afurmanov",
         "requirements": ">= 0.3.0"
       },
@@ -18200,6 +18522,10 @@
       {
         "name": "gmail-mailer",
         "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "gmail",
+        "requirements": ">= 0.3.0"
       },
       {
         "name": "gmail_cli",
@@ -18739,6 +19065,10 @@
         "requirements": ">= 2.3.1"
       },
       {
+        "name": "ruby-lint",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ruby-plot",
         "requirements": ">= 0"
       },
@@ -18920,6 +19250,13 @@
     ],
     "description": "ActiveRecord models for GO."
   },
+  "goal": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Keep track of your hour goals"
+  },
   "goalie": {
     "version": "0.0.4",
     "dependents": [
@@ -18967,11 +19304,11 @@
         "requirements": "= 2.0.2"
       },
       {
-        "name": "webkit-gtk2",
+        "name": "webkit-gtk",
         "requirements": "= 2.0.2"
       },
       {
-        "name": "webkit-gtk",
+        "name": "webkit-gtk2",
         "requirements": "= 2.0.2"
       }
     ],
@@ -19096,7 +19433,7 @@
     "description": "Simple and opinionated helper for creating and managing Rubygem projects on GitHub"
   },
   "gofer": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "dependents": [
       {
         "name": "ami",
@@ -19299,7 +19636,7 @@
     "description": " Restful controllers will have their resources automatically loaded for them."
   },
   "goldencobra": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependents": [
 
     ],
@@ -19334,11 +19671,11 @@
     "description": "Goldie is a command line todo list with lots of progress bars. Progress is its middle name."
   },
   "goldmine": {
-    "version": "0.9.2",
+    "version": "1.0.0",
     "dependents": [
 
     ],
-    "description": "Pivot tables for the Rubyist."
+    "description": "Extract a wealth of information from Arrays & Hashes"
   },
   "goldshark_gem": {
     "version": "0.2.7",
@@ -19470,6 +19807,10 @@
         "requirements": "~> 1.0.0"
       },
       {
+        "name": "grapeape",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guide-em-up",
         "requirements": "~> 0.9"
       },
@@ -19598,7 +19939,7 @@
     "description": "Goling is a linguistic compiler allowing you to compile and execute plain english."
   },
   "gollum": {
-    "version": "2.5.0",
+    "version": "2.5.1",
     "dependents": [
       {
         "name": "birdses",
@@ -19664,27 +20005,23 @@
     "description": "This gem includes the `gollum-export` command that allows converting local markdown files to html. It also includes a switch to download and convert a full wiki from a github repo."
   },
   "gollum-lib": {
-    "version": "1.0.6",
+    "version": "1.0.8",
     "dependents": [
       {
         "name": "caramelize",
         "requirements": ">= 1.0.0"
       },
       {
+        "name": "gollum",
+        "requirements": "~> 1.0.8"
+      },
+      {
         "name": "gollum-descendant_tree",
         "requirements": "<= 1.0.6"
       },
       {
-        "name": "gollum",
-        "requirements": "~> 1.0.4"
-      },
-      {
         "name": "gollum_rails",
         "requirements": "~> 1.0.4"
-      },
-      {
-        "name": "nwiki",
-        "requirements": ">= 0"
       }
     ],
     "description": "A simple, Git-powered wiki with a sweet API and local frontend."
@@ -19721,7 +20058,7 @@
     "description": "This contains a bunch of shared, utility code that has no external dependencies apart from Ruby stdlib."
   },
   "golr": {
-    "version": "0.5.4",
+    "version": "0.5.5",
     "dependents": [
 
     ],
@@ -19731,12 +20068,12 @@
     "version": "0.5.2",
     "dependents": [
       {
-        "name": "gom-elasticsearch-adapter",
-        "requirements": ">= 0.5.1"
-      },
-      {
         "name": "gom-couchdb-adapter",
         "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "gom-elasticsearch-adapter",
+        "requirements": ">= 0.5.1"
       },
       {
         "name": "gom-filesystem-adapter",
@@ -19757,7 +20094,7 @@
     "description": "REST client for the gom HTTP API"
   },
   "gom-core": {
-    "version": "0.2.6",
+    "version": "0.2.8",
     "dependents": [
       {
         "name": "gom-script",
@@ -19923,7 +20260,7 @@
     "description": "A drop-in replacement for e.g. MemCacheStore to store Rails sessions (and Rails sessions only) in Redis."
   },
   "gondler": {
-    "version": "0.0.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -20139,7 +20476,7 @@
     "description": "Gem to access the GoodGuide Accounts API"
   },
   "goodguide-gibbon": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "dependents": [
 
     ],
@@ -20277,7 +20614,7 @@
     "description": "Essential utilities shared by all Ads Ruby client libraries"
   },
   "google-adwords-api": {
-    "version": "0.9.3",
+    "version": "0.10.0",
     "dependents": [
       {
         "name": "adapi",
@@ -20404,12 +20741,12 @@
         "requirements": "~> 0.6.4"
       },
       {
-        "name": "google-api-omniauth",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "google-api-middle_man",
         "requirements": "~> 0.6.3"
+      },
+      {
+        "name": "google-api-omniauth",
+        "requirements": "~> 0.4"
       },
       {
         "name": "google-api-rails",
@@ -20448,6 +20785,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kitchen-gce",
+        "requirements": ">= 0"
+      },
+      {
         "name": "knife-google",
         "requirements": ">= 0"
       },
@@ -20473,6 +20814,10 @@
       },
       {
         "name": "worochi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yourub",
         "requirements": ">= 0"
       }
     ],
@@ -20742,7 +21087,10 @@
   "google-refine": {
     "version": "0.1.1",
     "dependents": [
-
+      {
+        "name": "orefine",
+        "requirements": "~> 0.1.1"
+      }
     ],
     "description": "Client library for interacting with Google Refine instances. Easily work with CSVs from the command line"
   },
@@ -20868,12 +21216,12 @@
         "requirements": "= 0.2.1"
       },
       {
-        "name": "opentox-ruby",
-        "requirements": "= 0.1.5"
-      },
-      {
         "name": "opentox-ruby-api-wrapper",
         "requirements": ">= 0"
+      },
+      {
+        "name": "opentox-ruby",
+        "requirements": "= 0.1.5"
       },
       {
         "name": "scraped_resource",
@@ -20916,7 +21264,7 @@
     "description": "Use Google Tag Manager ( http://www.google.com/tagmanager/ ) in your Rails application."
   },
   "google-translate": {
-    "version": "0.8.7",
+    "version": "0.8.8",
     "dependents": [
       {
         "name": "yaml_translate",
@@ -20926,7 +21274,7 @@
     "description": "Simple client for Google Translate API."
   },
   "google-translator-cis": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -21257,7 +21605,7 @@
     "description": "Ruby API to Google Custom Search Engine. Works with the paid version of CSE where you get results in XML format."
   },
   "google_currency": {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "dependents": [
       {
         "name": "counterfeit",
@@ -21344,6 +21692,10 @@
       {
         "name": "cloudsheet",
         "requirements": ">= 0"
+      },
+      {
+        "name": "csv2strings",
+        "requirements": "= 0.3.6"
       },
       {
         "name": "drive_time",
@@ -21493,6 +21845,13 @@
     ],
     "description": "GoogleGeocoding is a small library for performing geocoding using the Google's HTTP geocoding API"
   },
+  "google_hangout": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Launches a fullscreen Google Hangout in Firefox"
+  },
   "google_hash": {
     "version": "0.8.0",
     "dependents": [
@@ -21589,7 +21948,7 @@
     "description": "Include Google's Over Time Graph in your app"
   },
   "google_places": {
-    "version": "0.18.0",
+    "version": "0.19.0",
     "dependents": [
       {
         "name": "bizratr",
@@ -22094,19 +22453,19 @@
     ],
     "description": "Scraping and download CSV data from Google Play developer console and Google Wallet."
   },
-  "googleplus": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Google+ API Wrapper"
-  },
   "GooglePlus": {
     "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Ruby wrapper for GooglePlus API heavily inspired by the twitter gem."
+  },
+  "googleplus": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Google+ API Wrapper"
   },
   "googler": {
     "version": "0.0.1",
@@ -22387,11 +22746,11 @@
     "version": "0.5.0",
     "dependents": [
       {
-        "name": "cluster_chef-knife",
+        "name": "cluster_chef",
         "requirements": "~> 0.1.7"
       },
       {
-        "name": "cluster_chef",
+        "name": "cluster_chef-knife",
         "requirements": "~> 0.1.7"
       },
       {
@@ -22450,6 +22809,13 @@
 
     ],
     "description": "    Enables the creation of scenarios that involve creating a rails project,\n    starting and stoppping of servers, generating projects, editing files,\n    issuing http requests, running of commands, etc.  Output is captured as\n    a single HTML file that can be viewed locally or uploaded.\n\n    Additionally, there is support for verification, in the form of defining\n    assertions based on selections (typically CSS) against the generated HTML.\n"
+  },
+  "gors": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A web framework built on top of Rack, it has the simplicity of sinatra and the structure of rails"
   },
   "goruby": {
     "version": "0.2.0",
@@ -22574,12 +22940,12 @@
         "requirements": ">= 0.7.12"
       },
       {
-        "name": "gosu_extensions",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gosu-keyboard",
         "requirements": "~> 0.7.0"
+      },
+      {
+        "name": "gosu_extensions",
+        "requirements": ">= 0"
       },
       {
         "name": "gubby-gosu",
@@ -22654,15 +23020,15 @@
         "requirements": "~> 0.7.47.1"
       },
       {
-        "name": "rcade_menu",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rcade_colors",
         "requirements": ">= 0"
       },
       {
         "name": "rcade_controls",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rcade_menu",
         "requirements": ">= 0"
       },
       {
@@ -22737,7 +23103,7 @@
     "description": "You meant git."
   },
   "got_fixed": {
-    "version": "0.0.4",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -22779,7 +23145,7 @@
     "description": "originates from \"learn ruby the hard way\""
   },
   "gotime-cassandra_object": {
-    "version": "4.10.0",
+    "version": "4.10.1",
     "dependents": [
 
     ],
@@ -22850,14 +23216,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "governor_blogger",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "governor_livejournal",
-        "requirements": ">= 0"
-      },
-      {
         "name": "governor_formatters",
         "requirements": ">= 0"
       },
@@ -22866,12 +23224,20 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "governor_tags",
-        "requirements": ">= 0.5.2"
+        "name": "governor_blogger",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "governor_livejournal",
+        "requirements": ">= 0"
       },
       {
         "name": "governor_thinking_sphinx",
         "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "governor_tags",
+        "requirements": ">= 0.5.2"
       },
       {
         "name": "governor_states",
@@ -23109,11 +23475,11 @@
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "hiera-gpg",
+        "name": "hiera-eyaml-gpg",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "hiera-eyaml-gpg",
+        "name": "hiera-gpg",
         "requirements": ">= 2.0.0"
       },
       {
@@ -23143,6 +23509,10 @@
       {
         "name": "repomate",
         "requirements": "~> 2.0.0"
+      },
+      {
+        "name": "ropes",
+        "requirements": ">= 0"
       },
       {
         "name": "schleuder",
@@ -23396,6 +23766,13 @@
     ],
     "description": "A ruby wrapper for the grabbio platform"
   },
+  "grabbit": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Grabbit - Scrape the title, description and best thumbnail image(s) from a given URL."
+  },
   "grabjs": {
     "version": "0.0.5",
     "dependents": [
@@ -23430,6 +23807,13 @@
 
     ],
     "description": "Automatically create screenshots of website for free, with GrabzIt. Screenshots can be output in a variety of formats including: JPEG, PNG, TIFF, BMP, PDF, CSV and XLSX."
+  },
+  "grace": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "..."
   },
   "graceful_rounding": {
     "version": "0.0.1",
@@ -23470,15 +23854,15 @@
     ],
     "description": "    Grackle is a lightweight library for the Twitter REST API designed to be\n    resilient to Twitter API changes or errors.\n"
   },
-  "grada": {
-    "version": "3.0.0",
+  "GraDA": {
+    "version": "1.1.0",
     "dependents": [
 
     ],
     "description": "Graphic Data Analysis gem"
   },
-  "GraDA": {
-    "version": "1.1.0",
+  "grada": {
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -23787,7 +24171,7 @@
     "description": "engine that allows users to specify really tiny permissions levels"
   },
   "grape": {
-    "version": "0.6.0",
+    "version": "0.6.1",
     "dependents": [
       {
         "name": "ar_http_wrapper",
@@ -23830,11 +24214,11 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "grape-jbuilder",
-        "requirements": ">= 0.3"
+        "name": "grape-msgpack",
+        "requirements": "~> 0.6.0"
       },
       {
-        "name": "grape-pagination",
+        "name": "grape-rabl",
         "requirements": "~> 0.3"
       },
       {
@@ -23842,7 +24226,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "grape-rabl",
+        "name": "grape-rails-cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "grape-jbuilder",
+        "requirements": ">= 0.3"
+      },
+      {
+        "name": "grape-pagination",
         "requirements": "~> 0.3"
       },
       {
@@ -23858,12 +24250,16 @@
         "requirements": "= 0.2.1"
       },
       {
-        "name": "grapeful",
-        "requirements": "~> 0.5.0"
+        "name": "grapeape",
+        "requirements": ">= 0"
       },
       {
         "name": "grapevine",
         "requirements": "~> 0.3.2"
+      },
+      {
+        "name": "grapeful",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "httpsql",
@@ -23922,11 +24318,15 @@
     "version": "0.3.0",
     "dependents": [
       {
-        "name": "grape",
+        "name": "grape-entity-matchers",
         "requirements": ">= 0.2.0"
       },
       {
-        "name": "grape-entity-matchers",
+        "name": "grape-msgpack",
+        "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "grape",
         "requirements": ">= 0.2.0"
       },
       {
@@ -23957,6 +24357,13 @@
     ],
     "description": "librato metrics for grape"
   },
+  "grape-msgpack": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "msgpack formatter for grape"
+  },
   "grape-pagination": {
     "version": "0.1.0",
     "dependents": [
@@ -23973,6 +24380,13 @@
       }
     ],
     "description": "Use rabl in grape"
+  },
+  "grape-rails-cache": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "HTTP and server side cache integration for Grape and Rails"
   },
   "grape-swagger": {
     "version": "0.6.0",
@@ -24030,8 +24444,15 @@
     ],
     "description": "Small subset of Sinatra helper methods ported to Grape"
   },
-  "grapeful": {
+  "grapeape": {
     "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Message based, event driven web dsl in ruby"
+  },
+  "grapeful": {
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -24189,7 +24610,7 @@
     "description": "Ruby client for sending stats to Graphite"
   },
   "graphite-api": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "nutcracker-graphite",
@@ -24355,6 +24776,16 @@
     ],
     "description": "for visualization of music playlist data"
   },
+  "graphviz": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "teapot",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "\t\tGraphviz is a graph visualisation system. This gem is a lightweight interface for generating graphs with Graphviz.\n"
+  },
   "GraphvizR": {
     "version": "0.5.1",
     "dependents": [
@@ -24422,7 +24853,7 @@
     "description": "This gem provides the grate CSS grid system for your Rails 3 application."
   },
   "graticule": {
-    "version": "2.3.0",
+    "version": "2.4.0",
     "dependents": [
       {
         "name": "acts_as_geocodable",
@@ -24440,7 +24871,7 @@
     "description": "Graticule is a geocoding API that provides a common interface to all the popular services, including Google, Yahoo, Geocoder.us, and MetaCarta."
   },
   "gratitude": {
-    "version": "0.0.6",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -24538,12 +24969,19 @@
     ],
     "description": "Ruby (and Rails) Gravatar helpers with unique options like Proc's for default images, support for gravatar.com's multiple host names, ability to define reusable styles and much more..."
   },
-  "gravaty": {
-    "version": "1.0.0",
+  "gravatarnize": {
+    "version": "1.0.1",
     "dependents": [
 
     ],
-    "description": "My first experimental Ruby gem, to retrieve information from Gravatar site. This gem can be used to automagically retrieve complete URIs from Gravatar site, both for avatars and profiles with all currently (2013-09-03) supported options, starting from a single email address! It's just my first experiment with a 'real' Ruby gem, hoping it will be useful for someone (let me know if you use it, please!). GNU GPLv3 license; source code available through anonymous checkout: hg clone http://hg.savannah.nongnu.org/hgweb/gravaty/ or write me and I'll send it. You can even decide to contribute to this little free software project by registering to Savannah and ask to be part of the 'gravaty' project! FSIJ理事会の理事長、新部裕さんの日本語の翻訳。 Japanese translation by Yutaka Niibe, President of Free Software Initiative of Japan. 'RFC 5322 Email Validation Regex in Ruby Regular Expressions' gist by Peter Marreck licensed under BSD 3-clause license. See lib/gravaty/rfc5322.rb file for source code and license iteself."
+    "description": "Gravatar and nothing else."
+  },
+  "gravaty": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ],
+    "description": "My first experimental Ruby gem, to retrieve information from Gravatar site. This gem can be used to automagically retrieve complete URIs from Gravatar site, both for avatars and profiles with all currently (2013-09-03) supported options, starting from a single email address! It's just my first experiment with a 'real' Ruby gem, hoping it will be useful for someone (let me know if you use it, please!). GNU GPLv3 license; source code available through anonymous checkout: hg clone http://hg.savannah.nongnu.org/hgweb/gravaty/ or write me and I'll send it. You can even decide to contribute to this little free software project by registering to Savannah and ask to be part of the 'gravaty' project! FSIJ理事会の理事長、新部裕さんの日本語の翻訳。 Japanese translation by Yutaka Niibe, President of Free Software Initiative of Japan. 'RFC 5322 Email Validation Regex in Ruby Regular Expressions' gist by Peter Marreck licensed under BSD 3-clause license. See lib/gravaty/rfc5322.rb file for source code and license itself."
   },
   "grave": {
     "version": "1.9.1",
@@ -24603,15 +25041,15 @@
         "requirements": "~> 1.7.0"
       },
       {
+        "name": "iudex-filter",
+        "requirements": "~> 1.7.0"
+      },
+      {
         "name": "iudex-core",
         "requirements": "~> 1.7.0"
       },
       {
         "name": "iudex-http",
-        "requirements": "~> 1.7.0"
-      },
-      {
-        "name": "iudex-filter",
         "requirements": "~> 1.7.0"
       }
     ],
@@ -25079,7 +25517,7 @@
     "description": "Ruby bindings for libspotify"
   },
   "greentable": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -25214,7 +25652,10 @@
   "gretel": {
     "version": "2.1.0",
     "dependents": [
-
+      {
+        "name": "gretel-trails",
+        "requirements": ">= 3.0.0.beta4"
+      }
     ],
     "description": "Gretel is a Ruby on Rails plugin that makes it easy yet flexible to create breadcrumbs."
   },
@@ -25224,6 +25665,13 @@
 
     ],
     "description": "EOS This is a significant fork of Lasse Bunk's rails gem 'gretel' (http://github.com/lassebunk/gretel) that retains the convenient page hierarchy specification DSL of the original gem, but does all rendering using a user-specifiable partial template."
+  },
+  "gretel-trails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Gretel::Trails is a collection of strategies for handling Gretel trails."
   },
   "greyhawkweather": {
     "version": "0.0.10",
@@ -25356,12 +25804,12 @@
         "requirements": ">= 0.0.5"
       },
       {
-        "name": "grid-plugin-osx-notifier",
-        "requirements": ">= 0.1.0"
-      },
-      {
         "name": "grid-plugin-growl",
         "requirements": ">= 0"
+      },
+      {
+        "name": "grid-plugin-osx-notifier",
+        "requirements": ">= 0.1.0"
       }
     ],
     "description": "A command line interface to The Grid: Social Networking, Web 0.2"
@@ -25422,7 +25870,7 @@
     "description": "gridfs-rackdav enables you to use GridFS as backend for WebDAV collections with RackDAV application"
   },
   "gridgraphy": {
-    "version": "0.0.3",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -25520,7 +25968,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "gridx-rails": {
-    "version": "1.1.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -25541,7 +25989,7 @@
     "description": "Rack middleware for Mongo GridFileSystem"
   },
   "grifter": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -25706,10 +26154,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "branch_raker",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bugspots",
         "requirements": ">= 0"
       },
@@ -25754,11 +26198,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "codefumes_harvester",
+        "name": "codefumes",
         "requirements": "= 2.0"
       },
       {
-        "name": "codefumes",
+        "name": "codefumes_harvester",
         "requirements": "= 2.0"
       },
       {
@@ -25838,12 +26282,12 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "git-ds",
-        "requirements": ">= 2.2.0"
-      },
-      {
         "name": "git-dag",
         "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "git-ds",
+        "requirements": ">= 2.2.0"
       },
       {
         "name": "git-find-branching-point",
@@ -25882,15 +26326,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "git-up-decklin",
+        "requirements": ">= 0"
+      },
+      {
         "name": "git-up-portertech",
         "requirements": ">= 0"
       },
       {
         "name": "git-version",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "git-up-decklin",
         "requirements": ">= 0"
       },
       {
@@ -25914,20 +26358,16 @@
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "git_pivotal_tracker",
+        "name": "git_pivotal_tracker_x",
         "requirements": ">= 0"
       },
       {
-        "name": "git_pivotal_tracker_x",
+        "name": "git_pivotal_tracker",
         "requirements": ">= 0"
       },
       {
         "name": "git_presenter",
         "requirements": "~> 2.4"
-      },
-      {
-        "name": "git_statistics",
-        "requirements": ">= 0"
       },
       {
         "name": "gitback",
@@ -25938,16 +26378,16 @@
         "requirements": "~> 2.4.1"
       },
       {
-        "name": "gitdummy",
-        "requirements": ">= 2.4.1"
-      },
-      {
         "name": "giteaucrat",
         "requirements": ">= 0"
       },
       {
         "name": "gitflow",
         "requirements": "~> 2.4"
+      },
+      {
+        "name": "gitdummy",
+        "requirements": ">= 2.4.1"
       },
       {
         "name": "gitgo",
@@ -25966,12 +26406,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gitmine",
-        "requirements": ">= 2.0.0"
-      },
-      {
         "name": "gitme",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "gitmine",
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "gitmodel",
@@ -26006,10 +26446,6 @@
         "requirements": "~> 2.4.1"
       },
       {
-        "name": "gollum-lib",
-        "requirements": "~> 2.5.0"
-      },
-      {
         "name": "grit-ext",
         "requirements": "~> 2.5.0"
       },
@@ -26018,12 +26454,12 @@
         "requirements": "~> 2.5"
       },
       {
-        "name": "grit_service",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gritano-core",
         "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "grit_service",
+        "requirements": ">= 0"
       },
       {
         "name": "groundcontrol",
@@ -26090,12 +26526,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "knife-cookbook-bump",
-        "requirements": ">= 0"
-      },
-      {
         "name": "knife-community",
         "requirements": "~> 2"
+      },
+      {
+        "name": "knife-cookbook-bump",
+        "requirements": ">= 0"
       },
       {
         "name": "knife-sharp",
@@ -26114,11 +26550,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Legit-the-Git",
+        "name": "legit-the-git",
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "legit-the-git",
+        "name": "Legit-the-Git",
         "requirements": "~> 2.3.0"
       },
       {
@@ -26186,16 +26622,20 @@
         "requirements": "~> 2.5.0"
       },
       {
-        "name": "pronto",
-        "requirements": "~> 2.5.0"
+        "name": "project_group",
+        "requirements": ">= 0"
       },
       {
-        "name": "pry-github",
+        "name": "pronto",
         "requirements": "~> 2.5.0"
       },
       {
         "name": "pry-git",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pry-github",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "puer",
@@ -26226,12 +26666,12 @@
         "requirements": "~> 2.4.1"
       },
       {
-        "name": "regulate",
-        "requirements": "~> 2.3.0"
-      },
-      {
         "name": "release_party",
         "requirements": ">= 2.4.1"
+      },
+      {
+        "name": "regulate",
+        "requirements": "~> 2.3.0"
       },
       {
         "name": "repoman",
@@ -26266,11 +26706,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "RTFMd",
+        "name": "rtfmd",
         "requirements": "~> 2.4.1"
       },
       {
-        "name": "rtfmd",
+        "name": "RTFMd",
         "requirements": "~> 2.4.1"
       },
       {
@@ -26548,11 +26988,11 @@
         "requirements": "~> 0.4"
       },
       {
-        "name": "passbook-ios",
+        "name": "passbook",
         "requirements": ">= 0"
       },
       {
-        "name": "passbook",
+        "name": "passbook-ios",
         "requirements": ">= 0"
       },
       {
@@ -26699,7 +27139,7 @@
     "description": "Generator to create a web application consisting of Sinatra, MongoDB, jQuery, HTML5, Effigy, and Hoptoad."
   },
   "grooveshark": {
-    "version": "0.2.8.2",
+    "version": "0.2.9",
     "dependents": [
       {
         "name": "spotify-to-mp3",
@@ -26807,7 +27247,7 @@
     "description": "Responsive Rails Apps using Groundwork"
   },
   "groundworkcss": {
-    "version": "2.2.1",
+    "version": "2.3.5",
     "dependents": [
 
     ],
@@ -26866,7 +27306,7 @@
     "description": "The simplest way to group temporal data"
   },
   "groupdocs": {
-    "version": "1.5.3",
+    "version": "1.5.5",
     "dependents": [
       {
         "name": "carrierwave-viewer",
@@ -27147,12 +27587,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bookkeeper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bookingsync",
         "requirements": "= 1.0.3"
+      },
+      {
+        "name": "bookkeeper",
+        "requirements": ">= 0"
       },
       {
         "name": "boxafe",
@@ -27247,15 +27687,19 @@
         "requirements": "~> 1.0.3"
       },
       {
+        "name": "deferred-for-ruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "define-wn",
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "dependor-sinatra",
+        "name": "dependor",
         "requirements": ">= 0"
       },
       {
-        "name": "dependor",
+        "name": "dependor-sinatra",
         "requirements": ">= 0"
       },
       {
@@ -27379,10 +27823,6 @@
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "gloader",
-        "requirements": "~> 1.0.3"
-      },
-      {
         "name": "goliath",
         "requirements": "~> 1.0.3"
       },
@@ -27399,19 +27839,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "growl-amqp",
-        "requirements": ">= 1.0.3"
-      },
-      {
         "name": "growl-atom",
         "requirements": "= 1.0.3"
       },
       {
-        "name": "growl_mailer",
-        "requirements": ">= 0"
+        "name": "growl-amqp",
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "growl-rspec",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "growl_mailer",
         "requirements": ">= 0"
       },
       {
@@ -27511,15 +27951,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "locasms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "machiawase",
         "requirements": ">= 0"
       },
       {
-        "name": "mameapns",
+        "name": "mameconf",
         "requirements": ">= 0"
       },
       {
-        "name": "mameconf",
+        "name": "mameapns",
         "requirements": ">= 0"
       },
       {
@@ -27617,6 +28061,10 @@
       {
         "name": "nosey",
         "requirements": ">= 0"
+      },
+      {
+        "name": "notifies",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "nude",
@@ -27755,11 +28203,11 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "rong-elements",
+        "name": "rong-client",
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "rong-client",
+        "name": "rong-elements",
         "requirements": "~> 1.0.3"
       },
       {
@@ -27836,10 +28284,6 @@
       },
       {
         "name": "seofy",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "serverspec",
         "requirements": ">= 0"
       },
       {
@@ -28203,11 +28647,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rong-elements",
+        "name": "rong-client",
         "requirements": "~> 0.0.1"
       },
       {
-        "name": "rong-client",
+        "name": "rong-elements",
         "requirements": "~> 0.0.1"
       },
       {
@@ -28336,6 +28780,13 @@
     ],
     "description": "Grubber uses the Yelp API to find nearby restaurants to eat at"
   },
+  "gruber-case": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A ruby port of John Gruber's Title Case algorithm"
+  },
   "gruby": {
     "version": "0.2.1",
     "dependents": [
@@ -28389,6 +28840,10 @@
       },
       {
         "name": "chart-topper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gem_velocity",
         "requirements": ">= 0"
       },
       {
@@ -28523,7 +28978,7 @@
     "description": "Simple Apple push notification service gem"
   },
   "gs2crmod": {
-    "version": "0.10.16",
+    "version": "0.10.20",
     "dependents": [
       {
         "name": "gryfxcrmod",
@@ -28554,7 +29009,7 @@
     "description": "Application to mange and configure a group of Grandstream Voip phones"
   },
   "gsa": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -28683,10 +29138,6 @@
       {
         "name": "correlation",
         "requirements": ">= 0"
-      },
-      {
-        "name": "diverge",
-        "requirements": ">= 1.14.0"
       },
       {
         "name": "finmodeling",
@@ -29087,11 +29538,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dclext-anim",
+        "name": "dclext-gtk",
         "requirements": ">= 0"
       },
       {
-        "name": "dclext-gtk",
+        "name": "dclext-anim",
         "requirements": ">= 0"
       },
       {
@@ -29147,16 +29598,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gtksourceview2",
-        "requirements": "= 2.0.2"
+        "name": "gtkmozembed",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "gtkbuilder",
         "requirements": ">= 0"
       },
       {
-        "name": "gtkmozembed",
-        "requirements": ">= 1.0.0"
+        "name": "gtksourceview2",
+        "requirements": "= 2.0.2"
       },
       {
         "name": "hilfer",
@@ -29175,11 +29626,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "manqod",
+        "name": "manqod-server-console",
         "requirements": ">= 0"
       },
       {
-        "name": "manqod-server-console",
+        "name": "manqod",
         "requirements": ">= 0"
       },
       {
@@ -29358,15 +29809,7 @@
     "version": "15.3.1",
     "dependents": [
       {
-        "name": "gtk2bookmarks",
-        "requirements": "~> 15.3"
-      },
-      {
         "name": "gtk2bitcoin",
-        "requirements": "~> 15.3"
-      },
-      {
-        "name": "gtk2blackjack",
         "requirements": "~> 15.3"
       },
       {
@@ -29374,11 +29817,11 @@
         "requirements": "~> 15.3"
       },
       {
-        "name": "gtk2checkboxes",
+        "name": "gtk2blackjack",
         "requirements": "~> 15.3"
       },
       {
-        "name": "gtk2clockapp",
+        "name": "gtk2bookmarks",
         "requirements": "~> 15.3"
       },
       {
@@ -29386,15 +29829,15 @@
         "requirements": "~> 15.0"
       },
       {
-        "name": "gtk2diet",
+        "name": "gtk2clockapp",
         "requirements": "~> 15.3"
       },
       {
-        "name": "gtk2go",
-        "requirements": "~> 15.0"
+        "name": "gtk2checkboxes",
+        "requirements": "~> 15.3"
       },
       {
-        "name": "gtk2mp3",
+        "name": "gtk2diet",
         "requirements": "~> 15.3"
       },
       {
@@ -29402,8 +29845,8 @@
         "requirements": "~> 15.3"
       },
       {
-        "name": "gtk2todoapp",
-        "requirements": "~> 15.0"
+        "name": "gtk2mp3",
+        "requirements": "~> 15.3"
       },
       {
         "name": "gtk2twitter",
@@ -29412,6 +29855,14 @@
       {
         "name": "gtk2passwordapp",
         "requirements": "~> 15.3"
+      },
+      {
+        "name": "gtk2todoapp",
+        "requirements": "~> 15.0"
+      },
+      {
+        "name": "gtk2go",
+        "requirements": "~> 15.0"
       },
       {
         "name": "gtk2youtubeapp",
@@ -29731,7 +30182,7 @@
     "description": "Base Enterprise Application"
   },
   "guard": {
-    "version": "1.8.3",
+    "version": "2.1.1",
     "dependents": [
       {
         "name": "accessor",
@@ -29739,6 +30190,10 @@
       },
       {
         "name": "accumulators",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "action_kit_rest",
         "requirements": ">= 0"
       },
       {
@@ -29766,15 +30221,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "acts-as-taggable-on",
-        "requirements": ">= 0"
-      },
-      {
         "name": "acts-as-taggable-on-dynamic",
         "requirements": ">= 0"
       },
       {
         "name": "acts-as-taggable-hstore",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "acts-as-taggable-on",
         "requirements": ">= 0"
       },
       {
@@ -29830,12 +30285,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amfetamine",
-        "requirements": ">= 0"
-      },
-      {
         "name": "amf_socket",
         "requirements": "= 1.3.2"
+      },
+      {
+        "name": "amfetamine",
+        "requirements": ">= 0"
       },
       {
         "name": "analytical",
@@ -29912,6 +30367,10 @@
       {
         "name": "audit_record",
         "requirements": ">= 0"
+      },
+      {
+        "name": "aviator_session_pool",
+        "requirements": "~> 1.8.0"
       },
       {
         "name": "aviator",
@@ -30003,7 +30462,7 @@
       },
       {
         "name": "bonethug",
-        "requirements": ">= 0"
+        "requirements": "< 2.0, >= 1.8.3"
       },
       {
         "name": "Bowling",
@@ -30018,11 +30477,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "buff-extensions",
+        "name": "buff-config",
         "requirements": ">= 0"
       },
       {
-        "name": "buff-config",
+        "name": "buff-extensions",
         "requirements": ">= 0"
       },
       {
@@ -30122,11 +30581,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "classicCMS",
+        "name": "classiccms",
         "requirements": ">= 0"
       },
       {
-        "name": "classiccms",
+        "name": "classicCMS",
         "requirements": ">= 0"
       },
       {
@@ -30190,12 +30649,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "crypt_keeper",
-        "requirements": "~> 1.8.0"
-      },
-      {
         "name": "crypt_keeper_providers",
         "requirements": "~> 1.2.0"
+      },
+      {
+        "name": "crypt_keeper",
+        "requirements": "~> 1.8.0"
       },
       {
         "name": "csp_report",
@@ -30254,7 +30713,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dependor-sinatra",
+        "name": "delayed_job_honeybadger",
         "requirements": ">= 0"
       },
       {
@@ -30262,7 +30721,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dependor-sinatra",
+        "requirements": ">= 0"
+      },
+      {
         "name": "deposit",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "developwithpassion_arrays",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "developwithpassion_expander",
         "requirements": ">= 0"
       },
       {
@@ -30274,15 +30745,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "developwithpassion_arrays",
-        "requirements": ">= 0"
-      },
-      {
         "name": "developwithpassion_fakes",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "developwithpassion_expander",
         "requirements": ">= 0"
       },
       {
@@ -30322,12 +30785,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "doctor_scrape",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "doctor-swagger",
         "requirements": "~> 1.2.1"
+      },
+      {
+        "name": "doctor_scrape",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "docx_generator",
@@ -30454,10 +30917,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "exvo_helpers",
-        "requirements": ">= 0.10.0"
-      },
-      {
         "name": "exvo_auth",
         "requirements": ">= 0"
       },
@@ -30466,15 +30925,19 @@
         "requirements": "~> 0.8"
       },
       {
+        "name": "exvo_helpers",
+        "requirements": ">= 0.10.0"
+      },
+      {
         "name": "ezlinkedin",
         "requirements": ">= 0"
       },
       {
-        "name": "fakes",
+        "name": "fakes-rspec",
         "requirements": ">= 0"
       },
       {
-        "name": "fakes-rspec",
+        "name": "fakes",
         "requirements": ">= 0"
       },
       {
@@ -30558,6 +31021,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "geopolitical",
+        "requirements": ">= 0"
+      },
+      {
         "name": "georuby-ext",
         "requirements": ">= 1.3.3"
       },
@@ -30572,6 +31039,10 @@
       {
         "name": "ghost_reader",
         "requirements": ">= 0"
+      },
+      {
+        "name": "git-browse-remote",
+        "requirements": "~> 1"
       },
       {
         "name": "git-precommit",
@@ -30606,10 +31077,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gloader",
-        "requirements": "~> 1.8.2"
-      },
-      {
         "name": "glue_gun",
         "requirements": ">= 0"
       },
@@ -30634,11 +31101,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "goliath",
+        "name": "goliath_rack_sprockets",
         "requirements": ">= 0"
       },
       {
-        "name": "goliath_rack_sprockets",
+        "name": "goliath",
         "requirements": ">= 0"
       },
       {
@@ -30646,11 +31113,11 @@
         "requirements": "~> 1.8.0"
       },
       {
-        "name": "gom-core",
+        "name": "gom-client",
         "requirements": ">= 0"
       },
       {
-        "name": "gom-client",
+        "name": "gom-core",
         "requirements": ">= 0"
       },
       {
@@ -30686,18 +31153,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-annotate",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "guard-autoupload",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-autorefresh",
-        "requirements": ">= 0.4.0"
-      },
-      {
         "name": "guard-addremove",
         "requirements": ">= 0.2.0"
       },
@@ -30706,20 +31161,32 @@
         "requirements": "~> 1.8.0"
       },
       {
+        "name": "guard-annotate",
+        "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "guard-autorefresh",
+        "requirements": ">= 0.4.0"
+      },
+      {
         "name": "guard-bdd",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "guard-autoupload",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-blink1",
         "requirements": ">= 1.8"
       },
       {
-        "name": "guard-brakeman",
-        "requirements": ">= 1.1.0"
+        "name": "guard-chef",
+        "requirements": ">= 0.2.2"
       },
       {
-        "name": "guard-bundler",
-        "requirements": "~> 1.1"
+        "name": "guard-cedar",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-calabash-ios",
@@ -30730,32 +31197,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-chef",
-        "requirements": ">= 0.2.2"
+        "name": "guard-brakeman",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "guard-bundler",
+        "requirements": "~> 1.1"
       },
       {
         "name": "guard-clockwork",
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-cloudformation",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-cedar",
-        "requirements": ">= 0"
+        "name": "guard-cocoapods",
+        "requirements": "~> 1.8.1"
       },
       {
         "name": "guard-coffeedripper",
         "requirements": ">= 0.4"
       },
       {
-        "name": "guard-compass",
-        "requirements": ">= 1.8"
-      },
-      {
-        "name": "guard-cocoapods",
-        "requirements": "~> 1.8.1"
+        "name": "guard-cloudformation",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-concat",
@@ -30766,8 +31229,8 @@
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "guard-componentjscompile",
-        "requirements": "~> 1.8"
+        "name": "guard-compass",
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-cop",
@@ -30775,19 +31238,23 @@
       },
       {
         "name": "guard-copy",
-        "requirements": "~> 1.1"
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-ctags-bundler",
-        "requirements": ">= 1.1"
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "guard-cucumber",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-copy2",
         "requirements": "~> 1.7.0"
       },
       {
-        "name": "guard-ctags-composer",
-        "requirements": ">= 1.0.0"
+        "name": "guard-cunit",
+        "requirements": ">= 1.1"
       },
       {
         "name": "guard-cucumber-js",
@@ -30798,40 +31265,44 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-cunit",
-        "requirements": ">= 1.1"
-      },
-      {
-        "name": "guard-cucumber",
-        "requirements": ">= 1.1.0"
-      },
-      {
-        "name": "guard-ejs",
-        "requirements": ">= 1.8.0"
+        "name": "guard-ctags-composer",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "guard-delayed",
         "requirements": "> 0.3"
       },
       {
-        "name": "guard-ego",
-        "requirements": ">= 0.2.1"
-      },
-      {
         "name": "guard-docbook-status",
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-elixir",
-        "requirements": ">= 0"
+        "name": "guard-ecukes",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "guard-ego",
+        "requirements": ">= 0.2.1"
       },
       {
         "name": "guard-embertools",
         "requirements": ">= 0"
       },
       {
+        "name": "guard-elixir",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-ejs",
+        "requirements": ">= 1.8.0"
+      },
+      {
         "name": "guard-erb",
         "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "guard-erlang",
+        "requirements": ">= 0.8.3"
       },
       {
         "name": "guard-evergreen",
@@ -30842,8 +31313,8 @@
         "requirements": ">= 0.10.0"
       },
       {
-        "name": "guard-erlang",
-        "requirements": ">= 0.8.3"
+        "name": "guard-foodcritic",
+        "requirements": "< 3.0, >= 1.0"
       },
       {
         "name": "guard-focus",
@@ -30862,88 +31333,84 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-foodcritic",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "guard-gitpusher",
         "requirements": ">= 0.2.0"
-      },
-      {
-        "name": "guard-go",
-        "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "guard-haml2erb",
-        "requirements": ">= 0.4"
-      },
-      {
-        "name": "guard-haml-coffee",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-haml-ext",
-        "requirements": ">= 1.1"
       },
       {
         "name": "guard-gotest",
         "requirements": ">= 1.8"
       },
       {
+        "name": "guard-haml",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "guard-go",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "guard-haml-ext",
+        "requirements": ">= 1.1"
+      },
+      {
+        "name": "guard-haml-coffee",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guard-handlebars",
         "requirements": ">= 0.4"
       },
       {
-        "name": "guard-haml",
-        "requirements": ">= 1.1"
-      },
-      {
-        "name": "guard-hydra",
-        "requirements": ">= 0.5.0"
+        "name": "guard-haml2erb",
+        "requirements": ">= 0.4"
       },
       {
         "name": "guard-hogan",
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "guard-i18n-js",
-        "requirements": "~> 1.1"
+        "name": "guard-herbalizer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-hydra",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "guard-i18next",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-jade",
-        "requirements": "~> 1.7.0"
-      },
-      {
-        "name": "guard-jasmine",
-        "requirements": ">= 1.1.0"
-      },
-      {
-        "name": "guard-java",
-        "requirements": ">= 1.1"
-      },
-      {
-        "name": "guard-jasmine-node",
-        "requirements": ">= 0.4"
+        "name": "guard-i18n-js",
+        "requirements": "~> 1.1"
       },
       {
         "name": "guard-jammit",
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "guard-jasmine-headless-webkit",
-        "requirements": ">= 0.4.0"
+        "name": "guard-jade",
+        "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "guard-jasmine-node",
+        "requirements": ">= 0.4"
+      },
+      {
+        "name": "guard-jasmine",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-jasmine-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-jessie",
+        "name": "guard-jasmine-headless-webkit",
         "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "guard-java",
+        "requirements": ">= 1.1"
       },
       {
         "name": "guard-jekyll",
@@ -30951,15 +31418,23 @@
       },
       {
         "name": "guard-jekyll-plus",
-        "requirements": ">= 1.1.0"
+        "requirements": "~> 1.8.3"
       },
       {
         "name": "guard-jekyll2",
         "requirements": ">= 0"
       },
       {
+        "name": "guard-jessie",
+        "requirements": ">= 0.4.0"
+      },
+      {
         "name": "guard-jenkins",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "guard-jetty",
+        "requirements": "~> 1.1"
       },
       {
         "name": "guard-jruby-rspec",
@@ -30970,27 +31445,15 @@
         "requirements": ">= 0.8.4"
       },
       {
-        "name": "guard-jshint-node",
-        "requirements": ">= 0.10.0"
-      },
-      {
         "name": "guard-jshint-on-rails",
         "requirements": ">= 1.0.0"
       },
       {
+        "name": "guard-jshint-node",
+        "requirements": ">= 0.10.0"
+      },
+      {
         "name": "guard-jshintrb",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-jslint-on-rails-for-1.1.1",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "guard-knife",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-kitchen",
         "requirements": ">= 0"
       },
       {
@@ -30998,31 +31461,23 @@
         "requirements": ">= 0.4.0"
       },
       {
+        "name": "guard-jslint-on-rails-for-1.1.1",
+        "requirements": ">= 0.4.0"
+      },
+      {
         "name": "guard-jstd",
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "guard-konacha",
-        "requirements": "~> 1.1"
-      },
-      {
-        "name": "guard-less",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "guard-krl",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "guard-live-set",
+        "name": "guard-kitchen",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-livereload",
-        "requirements": ">= 1.8.0"
+        "name": "guard-knife",
+        "requirements": ">= 0"
       },
       {
-        "name": "guard-librarian",
+        "name": "guard-less",
         "requirements": ">= 0.2.2"
       },
       {
@@ -31030,24 +31485,52 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-llsprockets",
-        "requirements": ">= 1.1.0"
+        "name": "guard-krl",
+        "requirements": ">= 0.2.2"
       },
       {
-        "name": "guard-maven",
-        "requirements": "~> 1.8.2"
+        "name": "guard-lilypond",
+        "requirements": "~> 1.8.3"
+      },
+      {
+        "name": "guard-live-set",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-librarian",
+        "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "guard-konacha",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "guard-livereload",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "guard-llsprockets",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-lono",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-markdown",
-        "requirements": ">= 0.2.2"
+        "name": "guard-markdown2impress",
+        "requirements": ">= 0.2.0"
       },
       {
         "name": "guard-migrate",
         "requirements": ">= 1.3.0"
+      },
+      {
+        "name": "guard-markdown",
+        "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "guard-maven",
+        "requirements": "~> 1.8.2"
       },
       {
         "name": "guard-middleman",
@@ -31055,31 +31538,27 @@
       },
       {
         "name": "guard-minitest",
-        "requirements": ">= 1.8"
-      },
-      {
-        "name": "guard-minitest-decisiv",
-        "requirements": "~> 0.4"
-      },
-      {
-        "name": "guard-markdown2impress",
-        "requirements": ">= 0.2.0"
-      },
-      {
-        "name": "guard-mocha-node",
-        "requirements": ">= 0.4"
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-mirror",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-motion",
-        "requirements": ">= 1.1.0"
+        "name": "guard-minitest-decisiv",
+        "requirements": "~> 0.4"
       },
       {
         "name": "guard-mustachejs",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "guard-mocha-node",
+        "requirements": ">= 0.4"
+      },
+      {
+        "name": "guard-motion",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-mutant",
@@ -31090,48 +31569,40 @@
         "requirements": ">= 1.8.0"
       },
       {
-        "name": "guard-ocunit",
-        "requirements": ">= 1.1"
-      },
-      {
-        "name": "guard-npm",
-        "requirements": "~> 1.1"
+        "name": "guard-notifier-gntp_only-darwin",
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-notifier-git_auto_commit",
         "requirements": "~> 1.6.2"
       },
       {
-        "name": "guard-passenger",
-        "requirements": ">= 1.1.0.beta"
+        "name": "guard-npm",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "guard-ocunit",
+        "requirements": ">= 1.1"
       },
       {
         "name": "guard-parallel_all",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-notifier-gntp_only-darwin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-pdflatex",
-        "requirements": "~> 1.6"
-      },
-      {
-        "name": "guard-phpspec",
-        "requirements": ">= 0.8.8"
+        "name": "guard-passenger",
+        "requirements": ">= 1.1.0.beta"
       },
       {
         "name": "guard-openscad",
         "requirements": "~> 1.6"
       },
       {
-        "name": "guard-phpcs",
-        "requirements": ">= 0.8.8"
+        "name": "guard-pdflatex",
+        "requirements": "~> 1.6"
       },
       {
-        "name": "guard-play",
-        "requirements": ">= 0"
+        "name": "guard-phpcs",
+        "requirements": ">= 0.8.8"
       },
       {
         "name": "guard-phpunit2",
@@ -31142,32 +31613,48 @@
         "requirements": ">= 0.8.8"
       },
       {
+        "name": "guard-phpspec",
+        "requirements": ">= 0.8.8"
+      },
+      {
         "name": "guard-phpunit",
         "requirements": "~> 1.1"
       },
       {
-        "name": "guard-premailer",
-        "requirements": ">= 0.4"
+        "name": "guard-play",
+        "requirements": ">= 0"
       },
       {
-        "name": "guard-pow",
-        "requirements": ">= 1.1"
+        "name": "guard-preek",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-preek",
+        "requirements": "~> 2.0.0"
       },
       {
         "name": "guard-preserves",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-preek",
-        "requirements": ">= 0"
+        "name": "guard-pow",
+        "requirements": "~> 2.0"
       },
       {
-        "name": "guard-preek",
-        "requirements": "~> 1.6"
+        "name": "guard-premailer",
+        "requirements": ">= 0.4"
       },
       {
-        "name": "guard-pusher",
-        "requirements": ">= 0.3"
+        "name": "guard-process",
+        "requirements": ">= 0.4.2"
+      },
+      {
+        "name": "guard-prostores",
+        "requirements": ">= 1.0"
+      },
+      {
+        "name": "guard-prove",
+        "requirements": ">= 1.1.1"
       },
       {
         "name": "guard-puma",
@@ -31178,16 +31665,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-prove",
-        "requirements": ">= 1.1.1"
-      },
-      {
-        "name": "guard-prostores",
-        "requirements": ">= 1.0"
-      },
-      {
-        "name": "guard-process",
-        "requirements": ">= 0.4.2"
+        "name": "guard-pusher",
+        "requirements": ">= 0.3"
       },
       {
         "name": "guard-puppet-lint",
@@ -31210,23 +31689,11 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "guard-ragel",
-        "requirements": ">= 0.2.1"
-      },
-      {
         "name": "guard-rails",
         "requirements": ">= 0.2.2"
       },
       {
         "name": "guard-rails-assets",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-redis",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "guard-rake",
         "requirements": ">= 0"
       },
       {
@@ -31238,11 +31705,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-rebar",
-        "requirements": "~> 1.5.4"
-      },
-      {
-        "name": "guard-reek",
+        "name": "guard-rake",
         "requirements": ">= 0"
       },
       {
@@ -31250,12 +31713,24 @@
         "requirements": ">= 0.10.0"
       },
       {
-        "name": "guard-remote-sync",
-        "requirements": ">= 1.5.3"
+        "name": "guard-rebar",
+        "requirements": "~> 1.5.4"
       },
       {
         "name": "guard-redcarpet",
         "requirements": ">= 0.8.8"
+      },
+      {
+        "name": "guard-redis",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "guard-ragel",
+        "requirements": ">= 0.2.1"
+      },
+      {
+        "name": "guard-reek",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-reloader",
@@ -31266,32 +31741,44 @@
         "requirements": ">= 0.8"
       },
       {
+        "name": "guard-restarter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guard-resque-scheduler",
         "requirements": "~> 1.0"
       },
       {
-        "name": "guard-rocco",
-        "requirements": ">= 0.4.0"
+        "name": "guard-remote-sync",
+        "requirements": ">= 1.5.3"
       },
       {
         "name": "guard-rna",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-ronn",
-        "requirements": ">= 1.8"
+        "name": "guard-rocco",
+        "requirements": ">= 0.4.0"
       },
       {
-        "name": "guard-restarter",
-        "requirements": ">= 0"
+        "name": "guard-rrails",
+        "requirements": ">= 1.3.0"
+      },
+      {
+        "name": "guard-ronn",
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-rspec",
-        "requirements": ">= 1.8"
+        "requirements": ">= 2.1.1"
       },
       {
         "name": "guard-rspec-jruby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "guard-rspectacle",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-rsync",
@@ -31302,23 +31789,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-rrails",
-        "requirements": ">= 1.3.0"
-      },
-      {
-        "name": "guard-rspectacle",
-        "requirements": ">= 1.1.0"
-      },
-      {
         "name": "guard-rubocop",
-        "requirements": "~> 1.8"
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-ruby",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-s3",
         "requirements": ">= 0"
       },
       {
@@ -31326,7 +31801,7 @@
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "guard-schema",
+        "name": "guard-s3",
         "requirements": ">= 0"
       },
       {
@@ -31338,35 +31813,43 @@
         "requirements": ">= 1.1.0"
       },
       {
+        "name": "guard-schema",
+        "requirements": ">= 0"
+      },
+      {
         "name": "guard-shopify",
         "requirements": ">= 0.10.0"
-      },
-      {
-        "name": "guard-shotgun",
-        "requirements": "~> 1.5.4"
-      },
-      {
-        "name": "guard-sidekiq",
-        "requirements": ">= 1.1"
       },
       {
         "name": "guard-simple_shell",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-spinach",
+        "name": "guard-sidekiq",
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-spinoff",
-        "requirements": ">= 0"
+        "name": "guard-shotgun",
+        "requirements": "~> 1.5.4"
       },
       {
         "name": "guard-slim",
         "requirements": ">= 0.4.0"
       },
       {
+        "name": "guard-spinach",
+        "requirements": ">= 1.1"
+      },
+      {
         "name": "guard-spin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-spinoff",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-spring",
         "requirements": ">= 0"
       },
       {
@@ -31374,16 +31857,12 @@
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-spring",
-        "requirements": ">= 0"
-      },
-      {
         "name": "guard-sporkminitest",
         "requirements": ">= 0"
       },
       {
         "name": "guard-sprockets",
-        "requirements": "~> 1.8"
+        "requirements": "~> 2.0"
       },
       {
         "name": "guard-sprite-factory",
@@ -31398,16 +31877,20 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "guard-sprockets2",
-        "requirements": ">= 0"
-      },
-      {
         "name": "guard-stitch",
         "requirements": ">= 0.4"
       },
       {
         "name": "guard-stendhal",
         "requirements": ">= 0.2.0"
+      },
+      {
+        "name": "guard-sprockets2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-stitch-plus",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "guard-strainer",
@@ -31422,16 +31905,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-stitch-plus",
-        "requirements": ">= 1.1.0"
+        "name": "guard-sunspot",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-sync",
         "requirements": ">= 1.8"
       },
       {
-        "name": "guard-sunspot",
-        "requirements": ">= 0"
+        "name": "guard-tap",
+        "requirements": ">= 1.8"
       },
       {
         "name": "guard-teabag",
@@ -31442,20 +31925,12 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "guard-tap",
-        "requirements": ">= 1.8"
+        "name": "guard-teaspoon",
+        "requirements": ">= 1.6.1"
       },
       {
         "name": "guard-templates",
         "requirements": ">= 0"
-      },
-      {
-        "name": "guard-tilt",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "guard-teaspoon",
-        "requirements": ">= 1.6.1"
       },
       {
         "name": "guard-templates-jshaml",
@@ -31463,7 +31938,15 @@
       },
       {
         "name": "guard-test",
-        "requirements": ">= 1.8"
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "guard-toc",
+        "requirements": ">= 0.2.2"
+      },
+      {
+        "name": "guard-uglify",
+        "requirements": ">= 0.2.2"
       },
       {
         "name": "guard-titan",
@@ -31474,23 +31957,7 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "guard-webrick",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "guard-toc",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "guard-vows",
-        "requirements": ">= 0.10.0"
-      },
-      {
-        "name": "guard-uglify",
-        "requirements": ">= 0.2.2"
-      },
-      {
-        "name": "guard-xcode",
+        "name": "guard-tilt",
         "requirements": ">= 0"
       },
       {
@@ -31502,7 +31969,7 @@
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-xcoder",
+        "name": "guard-vows",
         "requirements": ">= 0.10.0"
       },
       {
@@ -31510,16 +31977,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-yard",
-        "requirements": ">= 1.1.0"
+        "name": "guard-webrick",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "guard-xcode",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "guard-xcoder",
+        "requirements": ">= 0.10.0"
       },
       {
         "name": "guard-yaml",
         "requirements": ">= 1.1"
       },
       {
-        "name": "guard-zeus",
-        "requirements": ">= 0"
+        "name": "guard-yard",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "guard_boilerplate",
+        "requirements": "~> 0.3.0"
       },
       {
         "name": "guard-zeus-client",
@@ -31530,8 +32009,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard_boilerplate",
-        "requirements": "~> 0.3.0"
+        "name": "guard-zeus",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-zeus_server",
@@ -31542,11 +32021,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guided_path",
+        "name": "guided_track",
         "requirements": ">= 0"
       },
       {
-        "name": "guided_track",
+        "name": "guided_path",
         "requirements": ">= 0"
       },
       {
@@ -31710,6 +32189,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "job-bob",
+        "requirements": ">= 0"
+      },
+      {
         "name": "joinme-api",
         "requirements": "~> 1.5.2"
       },
@@ -31743,7 +32226,7 @@
       },
       {
         "name": "kanpachi",
-        "requirements": ">= 2.0.0.beta.3"
+        "requirements": ">= 0"
       },
       {
         "name": "keen",
@@ -31790,6 +32273,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lazyeval",
+        "requirements": ">= 0"
+      },
+      {
         "name": "leadlight",
         "requirements": ">= 0"
       },
@@ -31822,6 +32309,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "locasms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "logg",
         "requirements": ">= 0"
       },
@@ -31838,12 +32329,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lrucache",
-        "requirements": "~> 1.5.4"
-      },
-      {
         "name": "lru_redux",
         "requirements": ">= 0"
+      },
+      {
+        "name": "lrucache",
+        "requirements": "~> 1.5.4"
       },
       {
         "name": "machines",
@@ -31902,6 +32393,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "melitta",
+        "requirements": ">= 0"
+      },
+      {
         "name": "memfs",
         "requirements": "~> 1.5"
       },
@@ -31954,15 +32449,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mobme_support",
         "requirements": ">= 0"
       },
       {
         "name": "mobvious",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
@@ -32142,16 +32637,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-jwt",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-kongregate",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-saml-rstr",
-        "requirements": "= 1.0.1"
-      },
-      {
         "name": "omniauth-saml",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-saml-rstr",
+        "requirements": "= 1.0.1"
       },
       {
         "name": "omnis",
@@ -32258,6 +32757,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pmp",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pogoplug",
         "requirements": ">= 0"
       },
@@ -32294,11 +32797,15 @@
         "requirements": "~> 1.6.2"
       },
       {
-        "name": "projectlocker_errata",
+        "name": "project_group",
         "requirements": ">= 0"
       },
       {
         "name": "projectlocker_pulse",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "projectlocker_errata",
         "requirements": ">= 0"
       },
       {
@@ -32330,11 +32837,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "puffer",
+        "name": "puffing-billy",
         "requirements": ">= 0"
       },
       {
-        "name": "puffing-billy",
+        "name": "puffer",
         "requirements": ">= 0"
       },
       {
@@ -32346,12 +32853,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "qedproject",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "qemu",
         "requirements": ">= 0"
+      },
+      {
+        "name": "qedproject",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "qio",
@@ -32390,11 +32897,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rack-contrib-sign",
+        "name": "rack-contrib-nonce",
         "requirements": ">= 0"
       },
       {
-        "name": "rack-contrib-nonce",
+        "name": "rack-contrib-sign",
         "requirements": ">= 0"
       },
       {
@@ -32554,11 +33061,11 @@
         "requirements": ">= 1.0.1"
       },
       {
-        "name": "rong-elements",
+        "name": "rong-client",
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "rong-client",
+        "name": "rong-elements",
         "requirements": "~> 0.6.1"
       },
       {
@@ -32838,6 +33345,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "slide_hero",
+        "requirements": ">= 0"
+      },
+      {
         "name": "slim-rails",
         "requirements": "~> 0.10"
       },
@@ -32862,11 +33373,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sorted_array",
+        "name": "soundcloud-plus",
         "requirements": ">= 0"
       },
       {
-        "name": "soundcloud-plus",
+        "name": "sorted_array",
         "requirements": ">= 0"
       },
       {
@@ -33042,11 +33553,11 @@
         "requirements": "~> 1.2.3"
       },
       {
-        "name": "tg_cli",
+        "name": "tg_config",
         "requirements": ">= 0"
       },
       {
-        "name": "tg_config",
+        "name": "tg_cli",
         "requirements": ">= 0"
       },
       {
@@ -33158,12 +33669,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "ts-resque-delta",
-        "requirements": "~> 0.8.8"
-      },
-      {
         "name": "tryphon-pige-client",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ts-resque-delta",
+        "requirements": "~> 0.8.8"
       },
       {
         "name": "tumblr-oauth",
@@ -33202,7 +33713,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "utf8-cleaner",
+        "requirements": ">= 0"
+      },
+      {
         "name": "utiles",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vatsim_online",
         "requirements": ">= 0"
       },
       {
@@ -33211,10 +33730,6 @@
       },
       {
         "name": "vatbook",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vatsim_online",
         "requirements": ">= 0"
       },
       {
@@ -33327,6 +33842,10 @@
       },
       {
         "name": "wpcap",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "wrapp",
         "requirements": ">= 0"
       },
       {
@@ -33569,11 +34088,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Bowling",
+        "name": "boxfs",
         "requirements": ">= 0"
       },
       {
-        "name": "boxfs",
+        "name": "Bowling",
         "requirements": ">= 0"
       },
       {
@@ -33753,6 +34272,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "guard-jetty",
+        "requirements": ">= 1.0"
+      },
+      {
         "name": "guard-lono",
         "requirements": ">= 0"
       },
@@ -33866,6 +34389,14 @@
       },
       {
         "name": "master_cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "membrain",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "memory_model",
         "requirements": ">= 0"
       },
       {
@@ -33989,6 +34520,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pmp",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pogoplug",
         "requirements": ">= 0"
       },
@@ -34061,11 +34596,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval_rails_2",
+        "name": "requires_approval",
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval",
+        "name": "requires_approval_rails_2",
         "requirements": ">= 0"
       },
       {
@@ -34197,11 +34732,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "tg_cli",
+        "name": "tg_config",
         "requirements": ">= 0"
       },
       {
-        "name": "tg_config",
+        "name": "tg_cli",
         "requirements": ">= 0"
       },
       {
@@ -34318,11 +34853,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "busser",
+        "name": "busser-bash",
         "requirements": ">= 0"
       },
       {
-        "name": "busser-bash",
+        "name": "busser",
         "requirements": ">= 0"
       },
       {
@@ -34350,13 +34885,6 @@
 
     ],
     "description": "Guard::Cedar automatically runs your Cedar suite."
-  },
-  "guard-changelog": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "Guard:Changelog creates a log of recent changes"
   },
   "guard-chef": {
     "version": "0.0.2",
@@ -34491,7 +35019,7 @@
     "description": "Guard::CoffeeScript automatically generates your JavaScripts from your CoffeeScripts"
   },
   "guard-compass": {
-    "version": "0.0.8",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "cyaml",
@@ -34499,13 +35027,6 @@
       }
     ],
     "description": "Guard::Compass automatically rebuilds scss|sass files when a modification occurs taking in account your compass configuration."
-  },
-  "guard-componentjscompile": {
-    "version": "0.0.2",
-    "dependents": [
-
-    ],
-    "description": "componentjscompile"
   },
   "guard-concat": {
     "version": "0.0.3",
@@ -34522,7 +35043,7 @@
     "description": "Guard::Cop automatically runs rubocop"
   },
   "guard-copy": {
-    "version": "0.0.8",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -34536,7 +35057,7 @@
     "description": "A Guard plugin to watch and copy files"
   },
   "guard-ctags-bundler": {
-    "version": "0.2.0",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "bogus",
@@ -34636,11 +35157,11 @@
         "requirements": "~> 0.5.1"
       },
       {
-        "name": "busser",
+        "name": "busser-bash",
         "requirements": ">= 0"
       },
       {
-        "name": "busser-bash",
+        "name": "busser",
         "requirements": ">= 0"
       },
       {
@@ -34660,11 +35181,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cucumber-value",
+        "name": "cucumber-voip",
         "requirements": ">= 0"
       },
       {
-        "name": "cucumber-voip",
+        "name": "cucumber-value",
         "requirements": ">= 0"
       },
       {
@@ -34765,6 +35286,10 @@
       },
       {
         "name": "migrant-boxes",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nagios-zfs",
         "requirements": ">= 0"
       },
       {
@@ -34900,11 +35425,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zuppler",
+        "name": "wrapp",
         "requirements": ">= 0"
       },
       {
         "name": "zuperhero",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "zuppler",
         "requirements": ">= 0"
       }
     ],
@@ -34944,6 +35473,13 @@
 
     ],
     "description": "The docbook-status guard will watch your DocBook documents and check\ntheir status when they change. It is meant to work with the\n'docbook_status'  utility, see https://github.com/rvolz/docbook_status"
+  },
+  "guard-ecukes": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Guard::Ecukes automatically runs your features (much like autotest)"
   },
   "guard-ego": {
     "version": "0.0.1",
@@ -35030,7 +35566,7 @@
     "description": "Replaces guard-rspec & guard-cucumber with a stripped down\n                     version that will run with --tag @focus if any examples or\n                     scenarios are tagged with 'focus'."
   },
   "guard-foodcritic": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -35079,7 +35615,7 @@
     "description": "Guard gem for Go test"
   },
   "guard-haml": {
-    "version": "0.5",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "cyaml",
@@ -35137,6 +35673,13 @@
       }
     ],
     "description": "Helper modules to make making Guard plugins easier "
+  },
+  "guard-herbalizer": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Guard plugin for herbalizer, to convert HAML to ERB"
   },
   "guard-hogan": {
     "version": "0.0.1",
@@ -35253,14 +35796,14 @@
     "description": "Guard::Java automatically run your unit tests when you save files (much like Eclipse's Build on Save"
   },
   "guard-jekyll": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "dependents": [
 
     ],
-    "description": "guard file for jekyll"
+    "description": "Guard::Jekyll automatically rebuilds websites with the Jekyll static site generator."
   },
   "guard-jekyll-plus": {
-    "version": "1.4.9",
+    "version": "1.4.10",
     "dependents": [
 
     ],
@@ -35293,6 +35836,13 @@
 
     ],
     "description": "Guard::Jet automatically build your Jet app."
+  },
+  "guard-jetty": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Guard::Jetty automatically starts/restarts your jetty server when needed."
   },
   "guard-jruby-rspec": {
     "version": "0.2.1",
@@ -35409,6 +35959,13 @@
     ],
     "description": "Guard::Librarian automatically installs your cookbook dependencies from your Cheffile using librarian-chef when needed"
   },
+  "guard-lilypond": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Guard plugin for Lilypond"
+  },
   "guard-live-set": {
     "version": "0.1.1",
     "dependents": [
@@ -35417,7 +35974,7 @@
     "description": "Converts Ableton Live .als files to XML as they're saved. The point of this is so that you can use git with your .als files.  Git is a lot more useful with line based text files then binary files."
   },
   "guard-livereload": {
-    "version": "1.4.0",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "amalgam",
@@ -35565,7 +36122,7 @@
     "description": "Guard::Migrate automatically runs your database migrations when needed"
   },
   "guard-minitest": {
-    "version": "1.3.1",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "accessor",
@@ -35600,8 +36157,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "aviator_session_pool",
+        "requirements": "~> 0.5.0"
+      },
+      {
         "name": "aviator",
         "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "biblesearch-api",
+        "requirements": ">= 0"
       },
       {
         "name": "bite_the_dust",
@@ -35752,7 +36317,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "furnish-ip",
+        "name": "furnish-aws",
         "requirements": ">= 0"
       },
       {
@@ -35760,11 +36325,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "furnish-aws",
+        "name": "furnish-ssh",
         "requirements": ">= 0"
       },
       {
-        "name": "furnish-ssh",
+        "name": "furnish-ip",
         "requirements": ">= 0"
       },
       {
@@ -35804,11 +36369,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guided_path",
+        "name": "guided_track",
         "requirements": ">= 0"
       },
       {
-        "name": "guided_track",
+        "name": "guided_path",
         "requirements": ">= 0"
       },
       {
@@ -35848,15 +36413,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lazyeval",
+        "requirements": ">= 0"
+      },
+      {
         "name": "legit",
         "requirements": ">= 0"
       },
       {
-        "name": "less-rails",
+        "name": "less-rails-bootstrap",
         "requirements": ">= 0"
       },
       {
-        "name": "less-rails-bootstrap",
+        "name": "less-rails",
         "requirements": ">= 0"
       },
       {
@@ -35881,6 +36450,10 @@
       },
       {
         "name": "marktag",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "melitta",
         "requirements": ">= 0"
       },
       {
@@ -35912,11 +36485,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious-rails",
+        "name": "mobvious",
         "requirements": ">= 0"
       },
       {
-        "name": "mobvious",
+        "name": "mobvious-rails",
         "requirements": ">= 0"
       },
       {
@@ -35972,8 +36545,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "peddler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pinboard_api",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pmp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "presto",
+        "requirements": "~> 1.0.1"
       },
       {
         "name": "protractor",
@@ -36076,8 +36661,16 @@
         "requirements": "~> 0.5"
       },
       {
+        "name": "slide_hero",
+        "requirements": ">= 0"
+      },
+      {
         "name": "slim-rails",
         "requirements": "~> 0.4"
+      },
+      {
+        "name": "sneakers",
+        "requirements": ">= 0"
       },
       {
         "name": "spadeio",
@@ -36282,14 +36875,14 @@
     "description": "GitAutoCommit receives guard's notification and commit with build status"
   },
   "guard-notifier-gntp_only-darwin": {
-    "version": "1.0",
+    "version": "2.0",
     "dependents": [
 
     ],
     "description": "Mades Guard::Notifier::GNTP available only on Mac OS X (darwin)"
   },
   "guard-npm": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -36380,7 +36973,7 @@
     "description": "Watch documents update, save them to MongoDB, MySQL, etc."
   },
   "guard-pow": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "amalgam",
@@ -36390,7 +36983,7 @@
     "description": "Guard::Pow automatically manage Pow applications restart"
   },
   "guard-preek": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -36575,6 +37168,10 @@
         "requirements": "~> 0.0.8"
       },
       {
+        "name": "aviator_session_pool",
+        "requirements": "~> 0.0.0"
+      },
+      {
         "name": "aviator",
         "requirements": "~> 0.0.0"
       },
@@ -36583,7 +37180,7 @@
         "requirements": "~> 0.0.8"
       },
       {
-        "name": "furnish-ip",
+        "name": "furnish-aws",
         "requirements": "~> 0.0.8"
       },
       {
@@ -36591,11 +37188,11 @@
         "requirements": "~> 0.0.8"
       },
       {
-        "name": "furnish-aws",
+        "name": "furnish-ssh",
         "requirements": "~> 0.0.8"
       },
       {
-        "name": "furnish-ssh",
+        "name": "furnish-ip",
         "requirements": "~> 0.0.8"
       },
       {
@@ -36605,10 +37202,6 @@
       {
         "name": "game_machine",
         "requirements": ">= 0"
-      },
-      {
-        "name": "gloader",
-        "requirements": "~> 0.0.9"
       },
       {
         "name": "gocart",
@@ -36717,7 +37310,7 @@
     "description": "Guard::Resque automatically starts/stops/restarts resque scheduler"
   },
   "guard-restarter": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -36748,11 +37341,11 @@
     "description": "Guard to generate Rocco documentation"
   },
   "guard-ronn": {
-    "version": "1.1.0",
+    "version": "2.0.0",
     "dependents": [
 
     ],
-    "description": "Guard::Ronn automatically builds manual pages."
+    "description": "Guard::Ronn automatically builds your manual pages."
   },
   "guard-roxy": {
     "version": "0.0.2",
@@ -36769,7 +37362,7 @@
     "description": "run rrails on guard"
   },
   "guard-rspec": {
-    "version": "3.1.0",
+    "version": "4.0.3",
     "dependents": [
       {
         "name": "accumulators",
@@ -36780,15 +37373,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "action_kit_rest",
+        "requirements": ">= 0"
+      },
+      {
         "name": "actionable",
         "requirements": ">= 0"
       },
       {
-        "name": "actionmailer-callbacks",
+        "name": "actionmailer-instyle",
         "requirements": ">= 0"
       },
       {
-        "name": "actionmailer-instyle",
+        "name": "actionmailer-callbacks",
         "requirements": ">= 0"
       },
       {
@@ -36848,15 +37445,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "acts-as-taggable-on",
-        "requirements": ">= 0"
-      },
-      {
         "name": "acts-as-taggable-on-dynamic",
         "requirements": ">= 0"
       },
       {
         "name": "acts-as-taggable-hstore",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "acts-as-taggable-on",
         "requirements": ">= 0"
       },
       {
@@ -36872,11 +37469,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "actv",
+        "name": "acts_permissive",
         "requirements": ">= 0"
       },
       {
-        "name": "acts_permissive",
+        "name": "actv",
         "requirements": ">= 0"
       },
       {
@@ -36884,12 +37481,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "address_picker-rails",
+        "requirements": "~> 2.5.0"
+      },
+      {
         "name": "address_me",
         "requirements": ">= 0"
       },
       {
-        "name": "address_picker-rails",
-        "requirements": "~> 2.5.0"
+        "name": "adhearsion",
+        "requirements": ">= 0"
       },
       {
         "name": "adhearsion-asr",
@@ -36900,7 +37501,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "adhearsion",
+        "name": "adhearsion-drb",
         "requirements": ">= 0"
       },
       {
@@ -36913,10 +37514,6 @@
       },
       {
         "name": "adhearsion-loquacious",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "adhearsion-drb",
         "requirements": ">= 0"
       },
       {
@@ -36988,12 +37585,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amfetamine",
-        "requirements": ">= 0"
-      },
-      {
         "name": "amf_socket",
         "requirements": "= 1.2.1"
+      },
+      {
+        "name": "amfetamine",
+        "requirements": ">= 0"
       },
       {
         "name": "analytical",
@@ -37060,12 +37657,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ase",
-        "requirements": ">= 0"
-      },
-      {
         "name": "asdrubal",
         "requirements": "~> 1.2"
+      },
+      {
+        "name": "ase",
+        "requirements": ">= 0"
       },
       {
         "name": "ashikawa-ar",
@@ -37184,11 +37781,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "backup_organizer",
+        "name": "backup_jenkins",
         "requirements": ">= 0"
       },
       {
-        "name": "backup_jenkins",
+        "name": "backup_organizer",
         "requirements": ">= 0"
       },
       {
@@ -37232,12 +37829,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bcs-interrogator",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "bcp47",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bcs-interrogator",
+        "requirements": "~> 2.0"
       },
       {
         "name": "be_taskable",
@@ -37312,12 +37909,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bookkeeper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bookingsync",
         "requirements": "= 0.1.9"
+      },
+      {
+        "name": "bookkeeper",
+        "requirements": ">= 0"
       },
       {
         "name": "bootstrap-navbar",
@@ -37328,15 +37925,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "boxfs",
+        "requirements": ">= 0"
+      },
+      {
         "name": "Bowling",
         "requirements": ">= 0"
       },
       {
         "name": "box-release",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "boxfs",
         "requirements": ">= 0"
       },
       {
@@ -37352,15 +37949,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "buff-config",
+        "requirements": ">= 0"
+      },
+      {
         "name": "buff",
         "requirements": ">= 0"
       },
       {
         "name": "buff-extensions",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "buff-config",
         "requirements": ">= 0"
       },
       {
@@ -37444,6 +38041,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "catchy",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ccup",
         "requirements": ">= 0"
       },
@@ -37464,11 +38065,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "centro-client",
+        "name": "centro-client-internal",
         "requirements": ">= 0"
       },
       {
-        "name": "centro-client-internal",
+        "name": "centro-client",
         "requirements": ">= 0"
       },
       {
@@ -37524,11 +38125,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "classicCMS",
+        "name": "classiccms",
         "requirements": ">= 0"
       },
       {
-        "name": "classiccms",
+        "name": "classicCMS",
         "requirements": ">= 0"
       },
       {
@@ -37672,12 +38273,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "crypt_keeper",
-        "requirements": "~> 2.5.4"
-      },
-      {
         "name": "crypt_keeper_providers",
         "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "crypt_keeper",
+        "requirements": "~> 2.5.4"
       },
       {
         "name": "csp_report",
@@ -37736,11 +38337,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dbd_onto",
+        "name": "dbd_data_engine",
         "requirements": ">= 0"
       },
       {
-        "name": "dbd_data_engine",
+        "name": "dbd_onto",
         "requirements": ">= 0"
       },
       {
@@ -37784,11 +38385,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "deferred-for-ruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "defgen",
         "requirements": ">= 0"
       },
       {
         "name": "define-wn",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "delayed_job_honeybadger",
         "requirements": ">= 0"
       },
       {
@@ -37800,11 +38409,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dependor-sinatra",
+        "name": "dependor",
         "requirements": ">= 0"
       },
       {
-        "name": "dependor",
+        "name": "dependor-sinatra",
         "requirements": ">= 0"
       },
       {
@@ -37812,15 +38421,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "deposit",
-        "requirements": ">= 0"
-      },
-      {
         "name": "depot",
         "requirements": "~> 0.6"
       },
       {
+        "name": "deposit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "desi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "developwithpassion_arrays",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "developwithpassion_expander",
         "requirements": ">= 0"
       },
       {
@@ -37832,15 +38449,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "developwithpassion_arrays",
-        "requirements": ">= 0"
-      },
-      {
         "name": "developwithpassion_fakes",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "developwithpassion_expander",
         "requirements": ">= 0"
       },
       {
@@ -37856,15 +38465,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "digitalfilmtree-util",
-        "requirements": ">= 0"
-      },
-      {
         "name": "digital_ocean",
         "requirements": ">= 0"
       },
       {
         "name": "digitalfilmtree",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "digitalfilmtree-util",
         "requirements": ">= 0"
       },
       {
@@ -37908,16 +38517,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "doctor-swagger",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "doctest-rspec",
         "requirements": ">= 0"
       },
       {
         "name": "doctor_scrape",
         "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "doctor-swagger",
-        "requirements": "~> 1.1.0"
       },
       {
         "name": "docx_generator",
@@ -37988,12 +38597,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easytobookr",
-        "requirements": "~> 2.1.1"
-      },
-      {
         "name": "easystats",
         "requirements": ">= 0"
+      },
+      {
+        "name": "easytobookr",
+        "requirements": "~> 2.1.1"
       },
       {
         "name": "easyxdm-rails",
@@ -38036,11 +38645,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "elf_manifesto",
+        "name": "elfproef",
         "requirements": ">= 0"
       },
       {
-        "name": "elfproef",
+        "name": "elf_manifesto",
         "requirements": ">= 0"
       },
       {
@@ -38076,12 +38685,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "endless",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "endeca_on_demand",
         "requirements": ">= 0"
+      },
+      {
+        "name": "endless",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "engagecsm",
@@ -38192,16 +38801,16 @@
         "requirements": "~> 2.5"
       },
       {
-        "name": "exvo_helpers",
-        "requirements": ">= 0.6.0"
-      },
-      {
         "name": "exvo-metrics",
         "requirements": ">= 0"
       },
       {
         "name": "exvo_globalize",
         "requirements": ">= 0"
+      },
+      {
+        "name": "exvo_helpers",
+        "requirements": ">= 0.6.0"
       },
       {
         "name": "ezlinkedin",
@@ -38220,11 +38829,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fakes",
+        "name": "fakes-rspec",
         "requirements": ">= 0"
       },
       {
-        "name": "fakes-rspec",
+        "name": "fakes",
         "requirements": ">= 0"
       },
       {
@@ -38268,11 +38877,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "flattery",
+        "name": "flattener",
         "requirements": ">= 0"
       },
       {
-        "name": "flattener",
+        "name": "flattery",
         "requirements": ">= 0"
       },
       {
@@ -38368,11 +38977,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fuelsdk",
+        "name": "fudge",
         "requirements": ">= 0"
       },
       {
-        "name": "fudge",
+        "name": "fuelsdk",
         "requirements": ">= 0"
       },
       {
@@ -38396,11 +39005,11 @@
         "requirements": "~> 2.1"
       },
       {
-        "name": "game-tictactoe-alu3299",
+        "name": "game-tictactoe-alu4078",
         "requirements": ">= 0"
       },
       {
-        "name": "game-tictactoe-alu4078",
+        "name": "game-tictactoe-alu3299",
         "requirements": ">= 0"
       },
       {
@@ -38440,6 +39049,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "geo_graf",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "geopolitical",
+        "requirements": ">= 0"
+      },
+      {
         "name": "georuby-ext",
         "requirements": ">= 0"
       },
@@ -38476,6 +39093,10 @@
         "requirements": "~> 2.5.2"
       },
       {
+        "name": "git-browse-remote",
+        "requirements": ">= 0"
+      },
+      {
         "name": "git-switcher",
         "requirements": ">= 0"
       },
@@ -38508,12 +39129,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gliffy",
-        "requirements": ">= 0"
-      },
-      {
         "name": "glib-eventable",
         "requirements": "~> 2.1"
+      },
+      {
+        "name": "gliffy",
+        "requirements": ">= 0"
       },
       {
         "name": "glue_gun",
@@ -38540,19 +39161,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "goliath",
-        "requirements": ">= 0"
-      },
-      {
         "name": "goliath_rack_sprockets",
         "requirements": ">= 0"
       },
       {
-        "name": "gom-core",
+        "name": "goliath",
         "requirements": ">= 0"
       },
       {
         "name": "gom-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gom-core",
         "requirements": ">= 0"
       },
       {
@@ -38564,16 +39185,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google-custom_search",
-        "requirements": ">= 0"
-      },
-      {
         "name": "google-contacts",
         "requirements": "~> 0.6.0"
       },
       {
         "name": "google-copy-link",
         "requirements": "~> 0.2"
+      },
+      {
+        "name": "google-custom_search",
+        "requirements": ">= 0"
       },
       {
         "name": "google-scholar",
@@ -38608,11 +39229,11 @@
         "requirements": "~> 2.0.0"
       },
       {
-        "name": "gritano-core",
+        "name": "gritano",
         "requirements": ">= 0"
       },
       {
-        "name": "gritano",
+        "name": "gritano-core",
         "requirements": ">= 0"
       },
       {
@@ -38620,11 +39241,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "growl_notify_osascript",
+        "name": "growl_notify",
         "requirements": ">= 0"
       },
       {
-        "name": "growl_notify",
+        "name": "growl_notify_osascript",
         "requirements": ">= 0"
       },
       {
@@ -38648,16 +39269,16 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "guard-bundler",
-        "requirements": "~> 1.0"
+        "name": "guard-cedar",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-cane",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-cedar",
-        "requirements": ">= 0"
+        "name": "guard-bundler",
+        "requirements": "~> 1.0"
       },
       {
         "name": "guard-coffeescript",
@@ -38680,16 +39301,20 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "guard-jasmine-node",
+        "name": "guard-jammit",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-jammit",
+        "name": "guard-jasmine-node",
         "requirements": ">= 0"
       },
       {
         "name": "guard-jessie",
         "requirements": ">= 0"
+      },
+      {
+        "name": "guard-jetty",
+        "requirements": "~> 3.0"
       },
       {
         "name": "guard-jruby-rspec",
@@ -38708,12 +39333,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "guard-migrate",
+        "requirements": "~> 1.2.1"
+      },
+      {
         "name": "guard-markdown",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-migrate",
-        "requirements": "~> 1.2.1"
+        "name": "guard-mustachejs",
+        "requirements": "~> 1.1"
       },
       {
         "name": "guard-mocha-node",
@@ -38721,10 +39350,6 @@
       },
       {
         "name": "guard-motion",
-        "requirements": "~> 1.1"
-      },
-      {
-        "name": "guard-mustachejs",
         "requirements": "~> 1.1"
       },
       {
@@ -38736,10 +39361,6 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "guard-phpspec",
-        "requirements": ">= 0"
-      },
-      {
         "name": "guard-openscad",
         "requirements": "~> 2.3"
       },
@@ -38748,24 +39369,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-phpunit",
+        "name": "guard-phpspec",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-pow",
-        "requirements": "~> 1.0"
+        "name": "guard-phpunit",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-preek",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-pusher",
-        "requirements": ">= 0"
-      },
-      {
         "name": "guard-puma",
         "requirements": "~> 0.7.0"
+      },
+      {
+        "name": "guard-pusher",
+        "requirements": ">= 0"
       },
       {
         "name": "guard-pushover",
@@ -38776,20 +39397,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-ragel",
+        "name": "guard-redis",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-redis",
+        "name": "guard-ragel",
         "requirements": ">= 0"
       },
       {
         "name": "guard-reek",
         "requirements": ">= 0"
-      },
-      {
-        "name": "guard-remote-sync",
-        "requirements": "~> 2.1.0"
       },
       {
         "name": "guard-resque",
@@ -38798,6 +39415,10 @@
       {
         "name": "guard-resque-scheduler",
         "requirements": ">= 0.2.0"
+      },
+      {
+        "name": "guard-remote-sync",
+        "requirements": "~> 2.1.0"
       },
       {
         "name": "guard-rna",
@@ -38944,12 +39565,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "heroku_resque_autoscaler",
-        "requirements": "~> 2.1.0"
-      },
-      {
         "name": "heroku_plus",
         "requirements": ">= 0"
+      },
+      {
+        "name": "heroku_resque_autoscaler",
+        "requirements": "~> 2.1.0"
       },
       {
         "name": "hetzner-api",
@@ -39152,6 +39773,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "job-bob",
+        "requirements": ">= 0"
+      },
+      {
         "name": "john_stamos",
         "requirements": "~> 3.0"
       },
@@ -39180,11 +39805,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "k4compiler",
+        "name": "k4slide",
         "requirements": ">= 0"
       },
       {
-        "name": "k4slide",
+        "name": "k4compiler",
         "requirements": ">= 0"
       },
       {
@@ -39344,11 +39969,11 @@
         "requirements": "~> 2.1"
       },
       {
-        "name": "line_up",
+        "name": "lineage",
         "requirements": ">= 0"
       },
       {
-        "name": "lineage",
+        "name": "line_up",
         "requirements": ">= 0"
       },
       {
@@ -39360,11 +39985,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lipa-web",
+        "name": "lipa",
         "requirements": ">= 0"
       },
       {
-        "name": "lipa",
+        "name": "lipa-web",
         "requirements": ">= 0"
       },
       {
@@ -39393,6 +40018,10 @@
       },
       {
         "name": "localwiki_client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "locasms",
         "requirements": ">= 0"
       },
       {
@@ -39476,11 +40105,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mameapns",
+        "name": "mameconf",
         "requirements": ">= 0"
       },
       {
-        "name": "mameconf",
+        "name": "mameapns",
         "requirements": ">= 0"
       },
       {
@@ -39488,12 +40117,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mandrill-rails",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "mandrill",
         "requirements": ">= 0.7.0"
+      },
+      {
+        "name": "mandrill-rails",
+        "requirements": "~> 1.2.0"
       },
       {
         "name": "manic_baker",
@@ -39561,6 +40190,10 @@
       },
       {
         "name": "melissadata",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "membrain",
         "requirements": ">= 0"
       },
       {
@@ -39632,10 +40265,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mince_dynamo_db",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "mince",
         "requirements": "~> 0.6"
       },
@@ -39646,6 +40275,10 @@
       {
         "name": "mince_mongo_db",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "mince_dynamo_db",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "mindworker",
@@ -39760,28 +40393,32 @@
         "requirements": "~> 0.4.3"
       },
       {
-        "name": "mongoid-random",
-        "requirements": ">= 2.5.0"
-      },
-      {
         "name": "mongoid-publishable",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mongoid-random",
+        "requirements": ">= 2.5.0"
       },
       {
         "name": "mongoid-searchable",
         "requirements": "~> 0.4.3"
       },
       {
-        "name": "mongoid_denormalize",
-        "requirements": ">= 0"
+        "name": "mongoid-tree-rational",
+        "requirements": ">= 2.6.0"
       },
       {
-        "name": "mongoid_max_denormalize",
+        "name": "mongoid_denormalize",
         "requirements": ">= 0"
       },
       {
         "name": "mongoid_markdown",
         "requirements": "~> 2.4"
+      },
+      {
+        "name": "mongoid_max_denormalize",
+        "requirements": ">= 0"
       },
       {
         "name": "mongoid_slug",
@@ -39860,12 +40497,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nagira",
-        "requirements": "~> 1.2.1"
+        "name": "nagios-zfs",
+        "requirements": ">= 0"
       },
       {
         "name": "nagiosplugin",
         "requirements": ">= 0"
+      },
+      {
+        "name": "nagira",
+        "requirements": "~> 1.2.1"
       },
       {
         "name": "namba",
@@ -39956,12 +40597,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nrename",
-        "requirements": "~> 2.5.4"
+        "name": "nowtv",
+        "requirements": ">= 0"
       },
       {
         "name": "NRB_http_service",
         "requirements": "~> 2.0"
+      },
+      {
+        "name": "nrename",
+        "requirements": "~> 2.5.4"
       },
       {
         "name": "ns_connector",
@@ -40036,6 +40681,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-jwt",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-kongregate",
         "requirements": ">= 0"
       },
@@ -40044,12 +40693,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-saml-rstr",
-        "requirements": "= 0.6.0"
-      },
-      {
         "name": "omniauth-saml",
         "requirements": "~> 2.1"
+      },
+      {
+        "name": "omniauth-saml-rstr",
+        "requirements": "= 0.6.0"
       },
       {
         "name": "omnis",
@@ -40176,6 +40825,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "patriarch",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pause",
         "requirements": ">= 0"
       },
@@ -40201,10 +40854,6 @@
       },
       {
         "name": "pebbles-productivity10x-switch_hosts",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "patriarch",
         "requirements": ">= 0"
       },
       {
@@ -40248,16 +40897,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pimpmychangelog",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pin-ruby",
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "pinboard",
-        "requirements": "~> 0.5"
+        "name": "pin_up",
+        "requirements": ">= 0"
       },
       {
-        "name": "pimpmychangelog",
-        "requirements": ">= 0"
+        "name": "pinboard",
+        "requirements": "~> 0.5"
       },
       {
         "name": "pinniped",
@@ -40277,10 +40930,6 @@
       },
       {
         "name": "pirate_metrics_agent",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pin_up",
         "requirements": ">= 0"
       },
       {
@@ -40358,6 +41007,10 @@
       {
         "name": "product_widgets",
         "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "project_group",
+        "requirements": ">= 0"
       },
       {
         "name": "prosper",
@@ -40456,16 +41109,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "quickening",
-        "requirements": ">= 0"
-      },
-      {
         "name": "quickeebooks",
         "requirements": "= 3.0.0"
       },
       {
+        "name": "quickening",
+        "requirements": ">= 0"
+      },
+      {
         "name": "r_type",
         "requirements": "~> 3.0.1"
+      },
+      {
+        "name": "rack-auth-travis",
+        "requirements": ">= 0"
       },
       {
         "name": "rack-block",
@@ -40476,11 +41133,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rack-contrib-sign",
+        "name": "rack-contrib-nonce",
         "requirements": ">= 0"
       },
       {
-        "name": "rack-contrib-nonce",
+        "name": "rack-contrib-sign",
         "requirements": ">= 0"
       },
       {
@@ -40584,6 +41241,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ravengar",
+        "requirements": ">= 0"
+      },
+      {
         "name": "raw_image",
         "requirements": ">= 0"
       },
@@ -40596,12 +41257,12 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "rbrc",
-        "requirements": "~> 0.4.5"
-      },
-      {
         "name": "rbraspag",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rbrc",
+        "requirements": "~> 0.4.5"
       },
       {
         "name": "rchoice",
@@ -40636,6 +41297,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redditor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "redis-scripting",
         "requirements": ">= 0"
       },
@@ -40652,11 +41317,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "reply",
+        "name": "repoman",
         "requirements": ">= 0"
       },
       {
-        "name": "repoman",
+        "name": "reply",
         "requirements": ">= 0"
       },
       {
@@ -40668,11 +41333,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval_rails_2",
+        "name": "requires_approval",
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval",
+        "name": "requires_approval_rails_2",
         "requirements": ">= 0"
       },
       {
@@ -40682,6 +41347,10 @@
       {
         "name": "rescue-me",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "rescue_time_api",
+        "requirements": ">= 0"
       },
       {
         "name": "resource",
@@ -40828,11 +41497,11 @@
         "requirements": ">= 0.7.0"
       },
       {
-        "name": "rong-elements",
+        "name": "rong-client",
         "requirements": "~> 0.4.2"
       },
       {
-        "name": "rong-client",
+        "name": "rong-elements",
         "requirements": "~> 0.4.2"
       },
       {
@@ -40956,6 +41625,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "ruby-sox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ruby-supervisor",
         "requirements": "~> 0.4.5"
       },
@@ -41032,11 +41705,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "sailthru_batching_client",
+        "name": "sailthru_mailer",
         "requirements": ">= 0"
       },
       {
-        "name": "sailthru_mailer",
+        "name": "sailthru_batching_client",
         "requirements": ">= 0"
       },
       {
@@ -41088,11 +41761,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "seedable",
+        "name": "seed_upgrade",
         "requirements": ">= 0"
       },
       {
-        "name": "seed_upgrade",
+        "name": "seedable",
         "requirements": ">= 0"
       },
       {
@@ -41109,10 +41782,6 @@
       },
       {
         "name": "serialnumber",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "serverspec",
         "requirements": ">= 0"
       },
       {
@@ -41168,11 +41837,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "shortest_path",
+        "name": "shortcut",
         "requirements": ">= 0"
       },
       {
-        "name": "shortcut",
+        "name": "shortest_path",
         "requirements": ">= 0"
       },
       {
@@ -41308,19 +41977,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sort_it_out",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sorter",
         "requirements": ">= 0"
       },
       {
-        "name": "sorted_array",
+        "name": "sort_it_out",
         "requirements": ">= 0"
       },
       {
         "name": "soundcloud-plus",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sorted_array",
         "requirements": ">= 0"
       },
       {
@@ -41340,12 +42009,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spinal_tap",
-        "requirements": "= 1.2.0"
-      },
-      {
         "name": "spinach-console-reporter",
         "requirements": ">= 0"
+      },
+      {
+        "name": "spinal_tap",
+        "requirements": "= 1.2.0"
       },
       {
         "name": "spira",
@@ -41536,11 +42205,11 @@
         "requirements": "~> 2.1.1"
       },
       {
-        "name": "tabl",
+        "name": "tab_menu",
         "requirements": ">= 0"
       },
       {
-        "name": "tab_menu",
+        "name": "tabl",
         "requirements": ">= 0"
       },
       {
@@ -41580,6 +42249,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tataki",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tdev_metrics",
         "requirements": ">= 0"
       },
@@ -41588,11 +42261,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tentd",
+        "name": "tent-client-joebadmo",
         "requirements": ">= 0"
       },
       {
-        "name": "tent-client-joebadmo",
+        "name": "tentd",
         "requirements": ">= 0"
       },
       {
@@ -41608,11 +42281,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tg_cli",
+        "name": "tg_config",
         "requirements": ">= 0"
       },
       {
-        "name": "tg_config",
+        "name": "tg_cli",
         "requirements": ">= 0"
       },
       {
@@ -41761,7 +42434,7 @@
       },
       {
         "name": "transpec",
-        "requirements": "~> 3.0"
+        "requirements": "~> 4.0"
       },
       {
         "name": "treasure_hunt",
@@ -41792,24 +42465,24 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "trope",
-        "requirements": "~> 2.1"
-      },
-      {
         "name": "trouble",
         "requirements": ">= 0"
+      },
+      {
+        "name": "trope",
+        "requirements": "~> 2.1"
       },
       {
         "name": "true_queue",
         "requirements": ">= 0"
       },
       {
-        "name": "ts-resque-delta",
-        "requirements": "~> 0.5.8"
-      },
-      {
         "name": "tryphon-pige-client",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ts-resque-delta",
+        "requirements": "~> 0.5.8"
       },
       {
         "name": "tumbl_rb",
@@ -41849,6 +42522,10 @@
       },
       {
         "name": "ulticoder",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "uml_architect",
         "requirements": ">= 0"
       },
       {
@@ -41900,6 +42577,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "utf8-cleaner",
+        "requirements": ">= 0"
+      },
+      {
         "name": "utiles",
         "requirements": ">= 0"
       },
@@ -41916,6 +42597,10 @@
         "requirements": ">= 0.1.9"
       },
       {
+        "name": "vatsim_online",
+        "requirements": ">= 0"
+      },
+      {
         "name": "varia_model",
         "requirements": ">= 0"
       },
@@ -41925,10 +42610,6 @@
       },
       {
         "name": "vatbook",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vatsim_online",
         "requirements": ">= 0"
       },
       {
@@ -41948,12 +42629,12 @@
         "requirements": "~> 2.5.0"
       },
       {
-        "name": "vincecima-acts-as-taggable-on",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vimjar",
         "requirements": "~> 1.2.0"
+      },
+      {
+        "name": "vincecima-acts-as-taggable-on",
+        "requirements": ">= 0"
       },
       {
         "name": "vircs",
@@ -42012,6 +42693,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "waddup",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wallabee",
         "requirements": ">= 0"
       },
@@ -42028,12 +42713,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "watch_tower",
-        "requirements": "~> 0.4.5"
-      },
-      {
         "name": "watchme",
         "requirements": ">= 0"
+      },
+      {
+        "name": "watch_tower",
+        "requirements": "~> 0.4.5"
       },
       {
         "name": "watchmaker",
@@ -42052,11 +42737,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "webern",
+        "name": "webfeed",
         "requirements": ">= 0"
       },
       {
-        "name": "webfeed",
+        "name": "webern",
         "requirements": ">= 0"
       },
       {
@@ -42112,6 +42797,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "word_count",
+        "requirements": ">= 0"
+      },
+      {
         "name": "workon",
         "requirements": ">= 0"
       },
@@ -42128,11 +42817,11 @@
         "requirements": ">= 2.1.1"
       },
       {
-        "name": "wsdl-reader",
+        "name": "wrapp",
         "requirements": ">= 0"
       },
       {
-        "name": "xcdatamodel",
+        "name": "wsdl-reader",
         "requirements": ">= 0"
       },
       {
@@ -42144,16 +42833,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "xcdatamodel",
+        "requirements": ">= 0"
+      },
+      {
         "name": "xml_schema_mapper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yaml_converters",
         "requirements": ">= 0"
       },
       {
         "name": "yaml_db_anonymizer",
         "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "yaml_converters",
-        "requirements": ">= 0"
       },
       {
         "name": "yash",
@@ -42192,12 +42885,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zemanta",
-        "requirements": ">= 0"
-      },
-      {
         "name": "zeit",
         "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "zemanta",
+        "requirements": ">= 0"
       },
       {
         "name": "zenflow",
@@ -42220,11 +42913,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zuppler",
+        "name": "zuperhero",
         "requirements": ">= 0"
       },
       {
-        "name": "zuperhero",
+        "name": "zuppler",
         "requirements": ">= 0"
       }
     ],
@@ -42265,7 +42958,7 @@
     "description": "Automatically transpile Rubby into Ruby"
   },
   "guard-rubocop": {
-    "version": "0.2.2",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "develry",
@@ -42276,16 +42969,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gloader",
-        "requirements": "~> 0.2.2"
-      },
-      {
         "name": "pavlov",
         "requirements": ">= 0"
       },
       {
         "name": "transpec",
-        "requirements": "~> 0.2"
+        "requirements": "~> 1.0"
       }
     ],
     "description": "Guard::Rubocop automatically checks Ruby code style with RuboCop when files are modified."
@@ -42585,11 +43274,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "buff-extensions",
+        "name": "buff-config",
         "requirements": ">= 0"
       },
       {
-        "name": "buff-config",
+        "name": "buff-extensions",
         "requirements": ">= 0"
       },
       {
@@ -42873,6 +43562,10 @@
         "requirements": "~> 1.2"
       },
       {
+        "name": "project_group",
+        "requirements": ">= 0"
+      },
+      {
         "name": "protected",
         "requirements": ">= 0"
       },
@@ -42913,11 +43606,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval_rails_2",
+        "name": "requires_approval",
         "requirements": ">= 0"
       },
       {
-        "name": "requires_approval",
+        "name": "requires_approval_rails_2",
         "requirements": ">= 0"
       },
       {
@@ -43072,7 +43765,7 @@
     "description": "guard-sprite-factory automatically regenerates images by running a rake task."
   },
   "guard-sprockets": {
-    "version": "0.5.0",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "bonethug",
@@ -43215,7 +43908,7 @@
     "description": "Compiles file.jshaml into valid javascript"
   },
   "guard-test": {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "dependents": [
       {
         "name": "as_dialed_from",
@@ -43354,11 +44047,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "projectlocker_errata",
+        "name": "projectlocker_pulse",
         "requirements": ">= 0"
       },
       {
-        "name": "projectlocker_pulse",
+        "name": "projectlocker_errata",
         "requirements": ">= 0"
       },
       {
@@ -43717,7 +44410,7 @@
     "description": "Guard::ZeusClient automatically runs a zeus command (test by default) when your files change.  Does not run zeus server."
   },
   "guard-zeus_server": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -43797,11 +44490,11 @@
     "description": "This gem wraps the guards.js jQuery validation library as a Rails asset gem."
   },
   "guardtime": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
-    "description": "Keyless Signatures are a combination of hash function based server-side signatures and hash-linking based digital timestamping delivered using a distributed and hierarchical infrastructure.\nThis extension provides high-level API to access KSI.\n"
+    "description": "Keyless Signatures are a combination of hash function based server-side signatures and hash-linking based digital timestamping delivered using a distributed and hierarchical infrastructure.\nThis extension provides high-level API to access the KSI.\n"
   },
   "guava-jars": {
     "version": "unknown",
@@ -43818,7 +44511,7 @@
     "description": "A simple JRuby wrapper for Google Guava"
   },
   "gub": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -43982,11 +44675,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "CollegiateLink",
+        "name": "collegiatelink",
         "requirements": ">= 0"
       },
       {
-        "name": "collegiatelink",
+        "name": "CollegiateLink",
         "requirements": ">= 0"
       },
       {
@@ -44150,11 +44843,15 @@
     "version": "2.0.0",
     "dependents": [
       {
+        "name": "g_fancybox",
+        "requirements": ">= 1.0"
+      },
+      {
         "name": "g_already_grid",
         "requirements": ">= 1.0"
       },
       {
-        "name": "g_fancybox",
+        "name": "g_form_submit_protector",
         "requirements": ">= 1.0"
       },
       {
@@ -44162,11 +44859,7 @@
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "g_form_submit_protector",
-        "requirements": ">= 1.0"
-      },
-      {
-        "name": "g_sectioned_shower",
+        "name": "g_named_scope_filters",
         "requirements": ">= 1.0.0"
       },
       {
@@ -44174,11 +44867,18 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "g_named_scope_filters",
+        "name": "g_sectioned_shower",
         "requirements": ">= 1.0.0"
       }
     ],
     "description": "A set of tools that work with the Rails asset pipeline to help in authoring GUI components."
+  },
+  "guileless": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Naive HTML preprocessor"
   },
   "guilleiguaran-rubyntlm": {
     "version": "0.1.2",
@@ -44272,7 +44972,7 @@
     "description": "Gumby Framework Gem for Ruby on Rails"
   },
   "gumdrop": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -44423,11 +45123,18 @@
     "description": "An improved version of mtgox-gem with HTTP API v1"
   },
   "gutenberg": {
-    "version": "1.0.0",
+    "version": "1.1.2",
     "dependents": [
 
     ],
     "description": "Write dynamic READMEs using mixins, and build them into your static README.md"
+  },
+  "gutenberg_rdf": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "A Ruby wrapper for the Project Gutenberg RDF catalog files (requires Ruby 2)."
   },
   "gutentag": {
     "version": "0.5.0",
@@ -44500,7 +45207,7 @@
     "description": "Ruby's interface of graphviz"
   },
   "gw2": {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -44676,6 +45383,10 @@
       },
       {
         "name": "savon",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "savon-ng-1.6",
         "requirements": "~> 1.1.0"
       },
       {
