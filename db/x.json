@@ -7,11 +7,18 @@
     "description": "Ruby utilities."
   },
   "x-editable-rails": {
-    "version": "1.4.0",
+    "version": "1.5.1",
     "dependents": [
 
     ],
     "description": "X-editable for Rails"
+  },
+  "x-real-ip": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Replace REMOTE_IP with X-Real-Ip if it's trusted (useful for Nginx)"
   },
   "x10-cm17a": {
     "version": "unknown",
@@ -27,19 +34,19 @@
     ],
     "description": "X11 client"
   },
-  "X12": {
-    "version": "1.1.0",
-    "dependents": [
-
-    ],
-    "description": "Library to parse X12 messages and manipulate their loops, segments, fields, composites, and validation tables."
-  },
   "x12": {
     "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
+  },
+  "X12": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ],
+    "description": "Library to parse X12 messages and manipulate their loops, segments, fields, composites, and validation tables."
   },
   "x12edi": {
     "version": "0.0.3",
@@ -56,7 +63,7 @@
     "description": "the client itself is an irb shell executing commands on the client object, which has been extended to get a powerfull and easy interface to playback, playlists and collections. As it is all ruby, you can easily extend its functionality, create new aliases or functions, or create you own client ontop of it."
   },
   "x2ch": {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "dependents": [
 
     ],
@@ -345,6 +352,13 @@
     ],
     "description": "Integrate DataMapper with Rails 3"
   },
+  "xbad": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "xbad - shared memory key/value cache using shared memory and udp broadcasts for distribution"
+  },
   "xbar": {
     "version": "0.4.2",
     "dependents": [
@@ -527,7 +541,7 @@
     "description": "Rake tasks to deploy xcode project"
   },
   "xcode-installer": {
-    "version": "0.1.9",
+    "version": "0.2.3",
     "dependents": [
 
     ],
@@ -584,7 +598,7 @@
     "description": "Build Xcode projects using Rake"
   },
   "xcodebuilder": {
-    "version": "0.0.16",
+    "version": "0.0.18",
     "dependents": [
 
     ],
@@ -608,7 +622,7 @@
     "description": "\n    Helps you publish HTML web pages on the Internet somewhere appropriate, e.g.\n    on GitHub via the gh-pages branch feature.\n\n    Works for Objective-C projects built using Apple's Xcode IDE and\n    consequently focuses on documentation within Objective-C and Objective-C++\n    source files; files ending with extensions h, m or mm."
   },
   "xcodeproj": {
-    "version": "0.13.1",
+    "version": "0.14.1",
     "dependents": [
       {
         "name": "botstrap",
@@ -616,7 +630,7 @@
       },
       {
         "name": "cocoapods",
-        "requirements": "~> 0.13.0"
+        "requirements": "~> 0.14.1"
       },
       {
         "name": "cocoapods-square-stable",
@@ -652,7 +666,7 @@
       },
       {
         "name": "lanekit",
-        "requirements": "~> 0.10.0"
+        "requirements": "~> 0.12.0"
       },
       {
         "name": "liftoff",
@@ -679,6 +693,10 @@
   "xcoder": {
     "version": "0.1.18",
     "dependents": [
+      {
+        "name": "objc",
+        "requirements": "~> 0.1.15"
+      },
       {
         "name": "pr-changelog",
         "requirements": ">= 0"
@@ -715,6 +733,13 @@
     ],
     "description": "Restructures .xcodeproj directory structures to match the .pbxproj tree."
   },
+  "xcpretty": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "\n  Xcodebuild formatter designed to be piped with `xcodebuild`,\n  and thus keeping 100% compatibility.\n\n  It has modes for CI, running tests (RSpec dot-style),\n  and it can also mine Bitcoins.\n  "
+  },
   "xcselect": {
     "version": "0.1.11",
     "dependents": [
@@ -733,12 +758,20 @@
     "version": "2.2.3",
     "dependents": [
       {
+        "name": "devpki",
+        "requirements": ">= 0"
+      },
+      {
         "name": "epubforge",
         "requirements": ">= 0"
       },
       {
         "name": "maid",
         "requirements": "~> 2.2.3"
+      },
+      {
+        "name": "mgit",
+        "requirements": ">= 0"
       },
       {
         "name": "rgtk",
@@ -1206,6 +1239,20 @@
     ],
     "description": "Super simple capistrano deployment notifications. Forked from relevance/cap_gun."
   },
+  "xing_api": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "Provides access to every endpoint of the XING API. Takes care of oauth, reponse parsing and simplifies error handling. You can get the required consumer_key and consumer_secret at https://dev.xing.com"
+  },
+  "xing_api_client": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Wrapper for the XING API"
+  },
   "xinuc-indofaker": {
     "version": "0.0.3",
     "dependents": [
@@ -1221,7 +1268,7 @@
     "description": "When reading the subdomain of an xip.io request, you will get a different value\ncompared to a local pow request. The reason for this is that the tld length is\n1 by default, but an xip.io request has a tld length of 6. This gem inserts a\nmiddleware that corrects the tld length config of rails on the fly so that you\ncan use local and xip requests at the same time without restarting the server.\n"
   },
   "xirr_newton_calculator": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -1265,6 +1312,20 @@
     ],
     "description": "A simple gem to get random img/comic url from xkcd"
   },
+  "xkcd-gem": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "xkcd-gem"
+  },
+  "xkcd_guru": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Allows easy interactions with the 'xkcd-unofficial-api'."
+  },
   "xkeys": {
     "version": "1.0.1",
     "dependents": [
@@ -1278,6 +1339,13 @@
 
     ],
     "description": "xkimo is a railsview gem that add a vest to your app"
+  },
+  "xlgrep": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "support to grep something in .xlsx files"
   },
   "xlib_ruby": {
     "version": "0.1",
@@ -1336,7 +1404,7 @@
     "description": "XLSX is a Ruby library for writing simple XLSX-format Excel documents."
   },
   "xlsx_writer": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "dependents": [
       {
         "name": "report",
@@ -1408,6 +1476,13 @@
     ],
     "description": "A helper gem for working with XMI files"
   },
+  "xmindoc": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Exports XMind Mindmap to any documents with Pandoc."
+  },
   "xml-focus": {
     "version": "0.0.1",
     "dependents": [
@@ -1420,7 +1495,7 @@
     "dependents": [
       {
         "name": "rightsignature",
-        "requirements": ">= 0.1.7"
+        "requirements": ">= 0.2.0"
       }
     ],
     "description": "\n    Inspired by the Gyoku gem for hash to xml conversion,\n    XmlFu is designed to require no meta tagging for\n    node attributes and content. (i.e. no :attributes! and no :order!)\n  "
@@ -1665,19 +1740,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "aws-s3-instructure",
-        "requirements": ">= 0"
-      },
-      {
         "name": "aws-s3-akhtaboot",
         "requirements": ">= 0"
       },
       {
-        "name": "aws-ses",
+        "name": "aws-s3-instructure",
         "requirements": ">= 0"
       },
       {
         "name": "aws-s3-multi-region",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "aws-ses",
         "requirements": ">= 0"
       },
       {
@@ -1711,6 +1786,10 @@
       {
         "name": "bigbluebutton-api-ruby",
         "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "bilibili_sunday",
+        "requirements": ">= 0"
       },
       {
         "name": "boomi-ruby",
@@ -1829,10 +1908,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ey_ronin",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fanny_pack",
         "requirements": "~> 1.1.1"
       },
@@ -1919,6 +1994,10 @@
       {
         "name": "identity",
         "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "indicadores_cl",
+        "requirements": ">= 0"
       },
       {
         "name": "io_tools",
@@ -2069,11 +2148,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "picasa_albums",
+        "name": "picasa-ruby",
         "requirements": ">= 0"
       },
       {
-        "name": "picasa-ruby",
+        "name": "picasa_albums",
         "requirements": ">= 0"
       },
       {
@@ -2125,11 +2204,11 @@
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "restrack",
+        "name": "restrack-client",
         "requirements": ">= 1.0.13"
       },
       {
-        "name": "restrack-client",
+        "name": "restrack",
         "requirements": ">= 1.0.13"
       },
       {
@@ -2193,11 +2272,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_api",
+        "name": "salesforce_bulk",
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk",
+        "name": "salesforce_bulk_api",
         "requirements": ">= 0"
       },
       {
@@ -2205,11 +2284,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_oauth2",
+        "name": "salesforce_bulk_quickfix",
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_quickfix",
+        "name": "salesforce_bulk_oauth2",
         "requirements": ">= 0"
       },
       {
@@ -2251,10 +2330,6 @@
       {
         "name": "shenandoah",
         "requirements": "= 1.0.12"
-      },
-      {
-        "name": "simple_deploy",
-        "requirements": "= 1.1.2"
       },
       {
         "name": "simple_qs",
@@ -2323,6 +2398,10 @@
       {
         "name": "sunweather",
         "requirements": "~> 1.1.2"
+      },
+      {
+        "name": "sunweather",
+        "requirements": ">= 0"
       },
       {
         "name": "svanzoest-aws-s3",
@@ -2444,7 +2523,7 @@
     "description": "A simple API for XML processing."
   },
   "xml-sitemap": {
-    "version": "1.3.2",
+    "version": "1.3.3",
     "dependents": [
 
     ],
@@ -2531,11 +2610,11 @@
     "description": "Simple XML parser wrapper that provides the benefits of stream parsing with the ease of using document nodes."
   },
   "xml_resource": {
-    "version": "1.0.0",
+    "version": "2.0.5",
     "dependents": [
 
     ],
-    "description": "Turn XML into Ruby objects"
+    "description": "Create object trees out of XML documents"
   },
   "xml_schema": {
     "version": "0.2.0",
@@ -2697,7 +2776,7 @@
     "description": "Converts XML files to flat files. Works nicely with i2."
   },
   "xmldsig": {
-    "version": "0.2.2",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "libsaml",
@@ -2728,9 +2807,12 @@
     "description": "A really easy xml-api."
   },
   "xmlenc": {
-    "version": "0.1.0",
+    "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "libsaml",
+        "requirements": "~> 0.1.1"
+      }
     ],
     "description": "A (partial)implementation of the XMLENC specificiation"
   },
@@ -2916,7 +2998,7 @@
     "description": "Generate spreadsheet docs for MS Excel using XML Spreedsheet"
   },
   "xmlstats": {
-    "version": "1.5.0",
+    "version": "1.6.1",
     "dependents": [
 
     ],
@@ -3009,11 +3091,11 @@
     "description": "xmpp-agent"
   },
   "xmpp-logger": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
-    "description": "    For version bellow then 0.1.0 it's just a gem building test. Further it will be a logger or proxy logger that send information through xmpp.\n"
+    "description": "    Simple xmpp logger.  0.2.0 - groups and lists\n"
   },
   "xmpp4em": {
     "version": "0.2.3",
@@ -3098,6 +3180,10 @@
       },
       {
         "name": "eye",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "facebook_chat",
         "requirements": ">= 0"
       },
       {
@@ -3269,23 +3355,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp4em",
-        "requirements": ">= 0"
-      },
-      {
         "name": "xmpp-logger",
         "requirements": ">= 0.5"
       },
       {
-        "name": "xmpp4r-simple",
-        "requirements": ">= 0.3.2"
-      },
-      {
-        "name": "xmpp4r-simple-19",
-        "requirements": ">= 0.3.2"
-      },
-      {
-        "name": "xmpp4r_facebook",
+        "name": "xmpp4em",
         "requirements": ">= 0"
       },
       {
@@ -3293,12 +3367,24 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "xmpp_server",
+        "name": "xmpp4r-observable",
+        "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "xmpp4r_facebook",
         "requirements": ">= 0"
       },
       {
-        "name": "xmpp4r-observable",
-        "requirements": ">= 0.5.0"
+        "name": "xmpp4r-simple-19",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "xmpp_server",
+        "requirements": ">= 0"
       },
       {
         "name": "zoe",
@@ -3308,11 +3394,11 @@
     "description": "XMPP/Jabber library for ruby"
   },
   "xmpp4r-hipchat": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
-    "description": "HipChat client extension to xmpp4r"
+    "description": "HipChat client extension to XMPP4R"
   },
   "xmpp4r-observable": {
     "version": "0.5.4",
@@ -3341,10 +3427,6 @@
         "requirements": ">= 0.8.8"
       },
       {
-        "name": "twitter2jabber",
-        "requirements": ">= 0"
-      },
-      {
         "name": "whistle",
         "requirements": ">= 0"
       },
@@ -3358,7 +3440,10 @@
   "xmpp4r-simple-19": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "twitter2jabber",
+        "requirements": ">= 0"
+      }
     ],
     "description": "    Jabber::Simple takes the strong foundation laid by xmpp4r\n    and hides the relatively high complexity of maintaining a simple instant\n    messenger bot in Ruby.\n"
   },
@@ -3418,16 +3503,6 @@
     ],
     "description": "Simple wrapper for the GitHub API v2"
   },
-  "xni": {
-    "version": "0.1.0",
-    "dependents": [
-      {
-        "name": "walters",
-        "requirements": ">= 0.1.0"
-      }
-    ],
-    "description": "Native C access for JRuby"
-  },
   "xommelier": {
     "version": "0.1.31",
     "dependents": [
@@ -3436,14 +3511,7 @@
     "description": "XML-Object Mapper with many built-in XML formats supported"
   },
   "xooie": {
-    "version": "1.0.1",
-    "dependents": [
-
-    ],
-    "description": "A highly modular, extensible JavaScript UI framework."
-  },
-  "Xooie": {
-    "version": "0.0.13",
+    "version": "1.0.6",
     "dependents": [
 
     ],
@@ -3623,7 +3691,7 @@
     "description": "A Rack compatible HTTP Proxy"
   },
   "xqcoretools": {
-    "version": "0.2.1",
+    "version": "0.2.4",
     "dependents": [
 
     ],
@@ -3672,7 +3740,7 @@
     "description": "Dump backtrace for all threads."
   },
   "xray-rails": {
-    "version": "0.1.6",
+    "version": "0.1.10",
     "dependents": [
 
     ],
@@ -3726,6 +3794,13 @@
 
     ],
     "description": "FIX (describe your package)"
+  },
+  "xs_capistrano_recipes": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Gem adds some recipes to Capistrano"
   },
   "xscreen_usb_unlocker": {
     "version": "0.91.0",
@@ -3860,7 +3935,7 @@
     "description": "C-implementation version of thread.rb and monitor.eb libraries\n"
   },
   "xthreads": {
-    "version": "0.1.2",
+    "version": "0.1.6",
     "dependents": [
       {
         "name": "run_every",
@@ -3911,6 +3986,13 @@
     ],
     "description": "XUL based test runner for running your JS unit tests."
   },
+  "xunch": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ],
+    "description": "cache client"
+  },
   "xunitnet": {
     "version": "1.6.0",
     "dependents": [
@@ -3945,6 +4027,13 @@
 
     ],
     "description": "ruby-xurrency is a wrapper library for API xurrency(http://xurrency.com/api)."
+  },
+  "xvideos_helper": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "xvideos_helper is a gem to support for adult site creater."
   },
   "xvp": {
     "version": "0.1.0",

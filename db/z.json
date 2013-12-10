@@ -6,6 +6,13 @@
     ],
     "description": "Summary"
   },
+  "z-http-request": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "ZMachine based, async HTTP Request client"
+  },
   "z-rqr": {
     "version": "0.2.4",
     "dependents": [
@@ -70,11 +77,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix-simple",
+        "name": "fluent-plugin-zabbix-simple-bufferd",
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix-simple-bufferd",
+        "name": "fluent-plugin-zabbix-simple",
         "requirements": ">= 0"
       },
       {
@@ -88,8 +95,15 @@
     ],
     "description": "send data to zabbix from ruby"
   },
+  "zabbix-cloudwatch": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A library for getting cloudwatch metrics into Zabbix\n\nPlease see http://github.com/randywallace/zabbix-cloudwatch for more details\n"
+  },
   "zabbix-ruby-client": {
-    "version": "0.0.14",
+    "version": "0.0.17",
     "dependents": [
 
     ],
@@ -124,7 +138,7 @@
     "description": "Send data to Zabbix trappers from Ruby"
   },
   "zabbixapi": {
-    "version": "0.6.2",
+    "version": "0.6.4",
     "dependents": [
 
     ],
@@ -292,11 +306,18 @@
     "description": "ZeroAS provides an authentication service that uses 0mq as its transport protocol"
   },
   "zassets": {
-    "version": "0.2.1",
+    "version": "0.2.7",
     "dependents": [
 
     ],
-    "description": "Standalone asset pipeline based on sprockets.\n"
+    "description": "Assets server and builder"
+  },
+  "zassets-plugins-emblem": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Emblem processor for zassets.\n"
   },
   "zassets-plugins-haml_coffee": {
     "version": "0.0.1",
@@ -306,7 +327,7 @@
     "description": "Haml Coffee processor for zassets.\n"
   },
   "zassets-plugins-handlebars": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -465,14 +486,14 @@
     "description": "Zebra is a HTTP proxy server that uses ZMQ as the wire protocol between HTTP proxy gateway(s) and backend worker node(s). This allows for seamless load distribution to worker nodes behind a firewall."
   },
   "zebra-datepicker-rails": {
-    "version": "0.0.2",
+    "version": "1.8.7",
     "dependents": [
 
     ],
     "description": "Zebra Datepicker packaged for rails"
   },
   "zebra-epl": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -487,6 +508,13 @@
       }
     ],
     "description": "Use ruby to describe labels, fields, and barcodes for printing via ZPL II."
+  },
+  "zebris": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Zebris is a library to persist your object data to Redis.  Its goal is to be as unobtrusive as possible."
   },
   "zedbeans": {
     "version": "0.0.5",
@@ -506,12 +534,12 @@
     "version": "1.2.0",
     "dependents": [
       {
-        "name": "zeddb",
-        "requirements": ">= 1.1.3"
-      },
-      {
         "name": "zedbeans",
         "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "zeddb",
+        "requirements": ">= 1.1.3"
       },
       {
         "name": "zedlocales",
@@ -563,11 +591,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_delayed",
+        "name": "zeevex_threadsafe",
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_threadsafe",
+        "name": "zeevex_delayed",
         "requirements": ">= 0"
       }
     ],
@@ -626,7 +654,7 @@
     "description": "Describe package zemax"
   },
   "zemus": {
-    "version": "0.0.4",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -652,6 +680,13 @@
 
     ],
     "description": "Zend_Config translated into Ruby"
+  },
+  "zen_garden": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "ZenGarden is a continuous deployment workflow for Rails apps. After testing your app on Travis-CI, it deploys your app to Heroku upon successful builds. ZenGarden is built with Rake tasks for extreme ease."
   },
   "zen_pub": {
     "version": "0.0.1",
@@ -717,16 +752,16 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "forge-rad",
-        "requirements": "= 2.4.4"
-      },
-      {
         "name": "forge-rad19",
         "requirements": "= 2.4.4"
       },
       {
         "name": "forge-rad20",
         "requirements": "~> 2.4.4"
+      },
+      {
+        "name": "forge-rad",
+        "requirements": "= 2.4.4"
       },
       {
         "name": "phocoder-rails",
@@ -754,16 +789,16 @@
     "version": "0.2.8",
     "dependents": [
       {
-        "name": "forge-rad",
-        "requirements": "= 0.2.8"
-      },
-      {
         "name": "forge-rad19",
         "requirements": "= 0.2.8"
       },
       {
         "name": "forge-rad20",
         "requirements": "~> 0.2.8"
+      },
+      {
+        "name": "forge-rad",
+        "requirements": "= 0.2.8"
       }
     ],
     "description": "Fetches notifications from Zencoder for local development where Zencoder is unable to communicate to the server, usually because it's localhost."
@@ -792,10 +827,7 @@
   "zendesk": {
     "version": "0.1.9",
     "dependents": [
-      {
-        "name": "ey_ronin",
-        "requirements": "~> 0.1.14"
-      }
+
     ],
     "description": "Ruby wrapper around the Zendesk API"
   },
@@ -828,14 +860,14 @@
     "description": "A command line tool to generate Zendesk orgs and users from CSV."
   },
   "zendesk2": {
-    "version": "0.3.0",
+    "version": "0.3.2",
     "dependents": [
 
     ],
     "description": "Zendesk V2 API client"
   },
   "zendesk_api": {
-    "version": "1.0.7",
+    "version": "1.2.1",
     "dependents": [
       {
         "name": "killbill-zendesk",
@@ -860,17 +892,17 @@
     "description": "A wrapper for Zendesk Apps Manager"
   },
   "zendesk_apps_support": {
-    "version": "1.6.0",
+    "version": "1.8.0",
     "dependents": [
       {
         "name": "zendesk_apps_tools",
-        "requirements": "~> 1.5.0"
+        "requirements": "~> 1.8.0"
       }
     ],
     "description": "Support to help you develop Zendesk Apps."
   },
   "zendesk_apps_tools": {
-    "version": "1.4.0",
+    "version": "1.8.0",
     "dependents": [
 
     ],
@@ -905,7 +937,7 @@
     "description": "A Ruby wrapper for the Zenfolio API"
   },
   "ZenfolioAPI": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -996,7 +1028,7 @@
     "description": "zengile.com rake tasks"
   },
   "ZenTest": {
-    "version": "4.9.4",
+    "version": "4.9.5",
     "dependents": [
       {
         "name": "action-guard",
@@ -1063,24 +1095,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-images",
-        "requirements": ">= 0"
-      },
-      {
         "name": "autotest-mac",
         "requirements": ">= 4.0.0"
+      },
+      {
+        "name": "autotest-images",
+        "requirements": ">= 0"
       },
       {
         "name": "autotest-notifyosd",
         "requirements": ">= 4.0.0"
       },
       {
-        "name": "autotest-run_dependencies",
-        "requirements": ">= 3.9.0"
-      },
-      {
         "name": "autotest-rails",
         "requirements": "~> 4.5"
+      },
+      {
+        "name": "autotest-run_dependencies",
+        "requirements": ">= 3.9.0"
       },
       {
         "name": "bc-rspec-matchers",
@@ -1111,11 +1143,11 @@
         "requirements": "~> 4.7.0"
       },
       {
-        "name": "chicagowarehouse",
+        "name": "chicago-etl",
         "requirements": ">= 0"
       },
       {
-        "name": "chicago-etl",
+        "name": "chicagowarehouse",
         "requirements": ">= 0"
       },
       {
@@ -1187,11 +1219,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "epa",
+        "name": "EPA_envirofacts",
         "requirements": "~> 4.5"
       },
       {
-        "name": "EPA_envirofacts",
+        "name": "epa",
         "requirements": "~> 4.5"
       },
       {
@@ -1575,19 +1607,7 @@
         "requirements": "~> 4.5.0"
       },
       {
-        "name": "tengine_core",
-        "requirements": "~> 4.9.0"
-      },
-      {
-        "name": "tengine_event",
-        "requirements": "~> 4.9.0"
-      },
-      {
         "name": "tengine_job",
-        "requirements": "~> 4.9.0"
-      },
-      {
-        "name": "tengine_rails_plugin",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1595,11 +1615,19 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_resource",
+        "name": "tengine_core",
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_support",
+        "name": "tengine_rails_plugin",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_event",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_resource",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1608,6 +1636,10 @@
       },
       {
         "name": "tengine_resource_wakame",
+        "requirements": "~> 4.9.0"
+      },
+      {
+        "name": "tengine_support",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1764,20 +1796,27 @@
     ],
     "description": "UNCOMPLETED GEM!!! Do nothing for now."
   },
+  "zenvia-ruby": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ],
+    "description": " Ruby API for send sms with Zenvia"
+  },
   "zenweb": {
-    "version": "3.2.0",
+    "version": "3.3.0",
     "dependents": [
       {
         "name": "zenweb-autolink",
         "requirements": "= 3.0.0.b3"
       },
       {
-        "name": "zenweb-haml",
-        "requirements": ">= 3.0.0.b1"
-      },
-      {
         "name": "zenweb-template",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "zenweb-haml",
+        "requirements": ">= 3.0.0.b1"
       },
       {
         "name": "zenweb-textile",
@@ -1897,11 +1936,11 @@
         "requirements": ">= 0.0.9"
       },
       {
-        "name": "zerg",
+        "name": "zergling",
         "requirements": ">= 0.0.1"
       },
       {
-        "name": "zergling",
+        "name": "zerg",
         "requirements": ">= 0.0.1"
       }
     ],
@@ -2013,7 +2052,7 @@
     "description": "Use Google's protobuf on top 0mq for RPC"
   },
   "zeroclipboard-rails": {
-    "version": "0.0.7",
+    "version": "0.0.10",
     "dependents": [
 
     ],
@@ -2068,15 +2107,22 @@
     ],
     "description": "Ruby API wrapper for Zillow API built with httparty designed for multiple keys"
   },
+  "zestia_employee_auth": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Make it even easier to build internal apps"
+  },
   "zeus": {
     "version": "0.13.3",
     "dependents": [
       {
-        "name": "guard-zeus-client",
+        "name": "guard-zeus",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-zeus",
+        "name": "guard-zeus-client",
         "requirements": ">= 0"
       },
       {
@@ -2088,12 +2134,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeus-parallel_tests",
-        "requirements": "~> 0.13.3"
-      },
-      {
         "name": "zeus-rails23",
         "requirements": ">= 0"
+      },
+      {
+        "name": "zeus-parallel_tests",
+        "requirements": "~> 0.13.3"
       }
     ],
     "description": "Boot any rails app in under a second"
@@ -2359,6 +2405,13 @@
     ],
     "description": "The Official Zillabyte API Gem"
   },
+  "zillow-snatcher": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "The zillow-snatcher gem connects you to the Zillow Rentals API. From there, you can pull photos from their remote server to your local environment. You'll need a working API key to access their API."
+  },
   "zillow4r": {
     "version": "0.1.1",
     "dependents": [
@@ -2440,7 +2493,7 @@
     "description": "Zimt downloads and adds files to your .xcodeproj."
   },
   "zinbei": {
-    "version": "0.1.6.8",
+    "version": "0.1.6.13.1",
     "dependents": [
 
     ],
@@ -2519,10 +2572,6 @@
         "requirements": "~> 2.0.2"
       },
       {
-        "name": "crxmake",
-        "requirements": "~> 2.0.2"
-      },
-      {
         "name": "deployto",
         "requirements": ">= 0"
       },
@@ -2544,10 +2593,6 @@
       },
       {
         "name": "geo2tz",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "h2ocube_rails_assets",
         "requirements": ">= 0"
       },
       {
@@ -2577,6 +2622,10 @@
       {
         "name": "kjess",
         "requirements": "~> 2.0.2"
+      },
+      {
+        "name": "lagunitas",
+        "requirements": ">= 0"
       },
       {
         "name": "launchcraft",
@@ -2687,11 +2736,11 @@
     "description": "A Ruby library for working with ZIP Container Format files. See http://www.idpf.org/epub/30/spec/epub30-ocf.html for the OCF specification and https://learn.adobe.com/wiki/display/PDFNAV/Universal+Container+Format for the UCF specification."
   },
   "zip-zip": {
-    "version": "0.1",
+    "version": "0.2",
     "dependents": [
 
     ],
-    "description": "\nIn Gem hell migrating to RubyZip v1.0.0?\nInclude zip-zip in your Gemfile and everythings coming up roses!\n"
+    "description": "\nIn Gem hell migrating to RubyZip v1.0.0?\nInclude zip-zip in your Gemfile and everything's coming up roses!\n"
   },
   "zip64writer": {
     "version": "0.0.2",
@@ -2715,7 +2764,7 @@
     "description": "An utility for comparing content of ZIP files.\nIt does not extract the files anywhere, its's using instead ZIP::ZipFile class\nfrom rubyzip gem which enables to access ZIP files like a file system.\nIt uses MD5 to compare files.\n"
   },
   "zip_dsl": {
-    "version": "1.3.4",
+    "version": "1.4.1",
     "dependents": [
       {
         "name": "web_app_builder",
@@ -2829,6 +2878,13 @@
     ],
     "description": "Adds tracing instrumentation for ruby applications"
   },
+  "zipline": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "this is a giant pile of hax that may let you stream dynamically generated zip files"
+  },
   "ziplist": {
     "version": "0.0.1",
     "dependents": [
@@ -2909,6 +2965,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "browserstack-webdriver",
+        "requirements": "= 0.3.6"
+      },
+      {
         "name": "doc_template",
         "requirements": ">= 0"
       },
@@ -2921,11 +2981,11 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       },
       {
@@ -2947,6 +3007,10 @@
       {
         "name": "officex2str",
         "requirements": "= 0.3.6"
+      },
+      {
+        "name": "parsecom-importer",
+        "requirements": ">= 0"
       },
       {
         "name": "peregrin",
@@ -2994,6 +3058,14 @@
       },
       {
         "name": "word_parsing",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmindoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xmindoc",
         "requirements": ">= 0"
       },
       {
@@ -3092,6 +3164,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "chef-handler-zookeeper",
+        "requirements": "~> 1.9"
+      },
+      {
         "name": "cylons",
         "requirements": ">= 0"
       },
@@ -3104,8 +3180,12 @@
         "requirements": "= 1.8.0"
       },
       {
+        "name": "nerve",
+        "requirements": "~> 1.9.2"
+      },
+      {
         "name": "nogara-redis_failover",
-        "requirements": "< 1.9, >= 1.7.4"
+        "requirements": "< 2.0, >= 1.7.4"
       },
       {
         "name": "rebuy_deployment",
@@ -3124,16 +3204,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "synapse",
+        "requirements": "~> 1.7.4"
+      },
+      {
+        "name": "test_kafka",
+        "requirements": "~> 1.9.2"
+      },
+      {
         "name": "vidocq",
         "requirements": ">= 1.6.4"
       },
       {
-        "name": "zk-eventmachine",
-        "requirements": "~> 1.6.2"
-      },
-      {
         "name": "zk-group",
         "requirements": "~> 1.6.0"
+      },
+      {
+        "name": "zk-eventmachine",
+        "requirements": "~> 1.6.2"
       },
       {
         "name": "zknrg",
@@ -3283,14 +3371,18 @@
     "description": "Read Hacker News on the Terminal via Sock Proxy"
   },
   "zmachine": {
-    "version": "0.1.1",
+    "version": "0.3.0",
     "dependents": [
+      {
+        "name": "z-http-request",
+        "requirements": ">= 0"
+      },
       {
         "name": "zoomq",
         "requirements": ">= 0"
       }
     ],
-    "description": "pure JRuby multi-threaded EventMachine compatible event loop"
+    "description": "pure JRuby multi-threaded mostly EventMachine compatible event loop"
   },
   "zmack-ultraviolet": {
     "version": "0.10.2",
@@ -3347,6 +3439,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mongrel2",
+        "requirements": "~> 2.1"
+      },
+      {
         "name": "vagrant-dns-server",
         "requirements": ">= 0"
       },
@@ -3378,6 +3474,13 @@
     ],
     "description": "Drop-in replacement for async AMQP library based on ZMQ/ZmqMachine (pre-alpha!)."
   },
+  "zoanthid": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Zoanthid is a library that interfaces with Rails and RSpec to help you write expressive tests for your HAL API."
+  },
   "zobjinspect": {
     "version": "1.0.0",
     "dependents": [
@@ -3392,6 +3495,13 @@
     ],
     "description": "Zocial CSS3 button set and vector icons with @font-face"
   },
+  "zocial-buttons-rails": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Zocial Buttons support a lot of social icons. This gem is used for seamless integration of those icons."
+  },
   "zocial-rails": {
     "version": "1.0.2",
     "dependents": [
@@ -3400,7 +3510,7 @@
     "description": "Adds Zocial CSS social buttons to Rails using the asset pipeline"
   },
   "zodiac": {
-    "version": "0.2.5",
+    "version": "0.2.6",
     "dependents": [
 
     ],
@@ -3601,11 +3711,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring_client",
+        "name": "redis_ring",
         "requirements": ">= 0"
       },
       {
-        "name": "redis_ring",
+        "name": "redis_ring_client",
         "requirements": ">= 0"
       },
       {
@@ -3697,7 +3807,7 @@
     "description": "Access zoopla.co.uk API from ruby scripts. Fetch sales and rental properties for the UK"
   },
   "zooplankton": {
-    "version": "0.1.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -3739,7 +3849,7 @@
     "description": "This is a very stripped down version of innate."
   },
   "zoro": {
-    "version": "0.0.2",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -3774,7 +3884,7 @@
     "description": "Use ruby to describe labels, fields, and barcodes for printing via ZPL II."
   },
   "zpng": {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "sugar_png",
@@ -3854,7 +3964,7 @@
     "description": "Automatically shows git status on file changes"
   },
   "ztk": {
-    "version": "1.9.0",
+    "version": "1.9.1",
     "dependents": [
       {
         "name": "cucumber-chef",
@@ -3881,6 +3991,20 @@
 
     ],
     "description": "Simple Console Task Manager. Check homepage or github sources for further information."
+  },
+  "ztore": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "This gem allows easy creation of in-memory hashes and persists them into a pstore file."
+  },
+  "ztree": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "ztree for rails, Extractive common action and helper"
   },
   "ztrening": {
     "version": "0.0.4.2",
@@ -3972,12 +4096,33 @@
     ],
     "description": "displays the temperature and additional information about all municipal baths in zurich"
   },
+  "zugzug": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "zugzug"
+  },
   "zui53": {
     "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "ZUI53 is a JavaScript Library to create powerfull webbased Zoomable User Interfaces (ZUIs) with new technologies like HTML5 and CSS3."
+  },
+  "zulip": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A ruby wrapper for the Zulip API."
+  },
+  "zulip_machine": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "EventMachine bindings for Zulip's API."
   },
   "zulu": {
     "version": "0.0.5",
@@ -4077,11 +4222,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "foundation_scaffold",
+        "requirements": ">= 0"
+      },
+      {
         "name": "foundationize",
         "requirements": "~> 4.2.3"
       },
       {
         "name": "helios",
+        "requirements": "= 4.1.2"
+      },
+      {
+        "name": "helios_aim",
         "requirements": "= 4.1.2"
       },
       {
@@ -4099,6 +4252,10 @@
       {
         "name": "rbbt-rest",
         "requirements": ">= 0"
+      },
+      {
+        "name": "reimagine2",
+        "requirements": "~> 4"
       },
       {
         "name": "wordpress-starter",
@@ -4197,6 +4354,13 @@
       }
     ],
     "description": "Need to decode 1D/2D bars and don't mind using JRuby to help with the task? ZXing is the wrapper for you!"
+  },
+  "zy_baidu_pcs": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A simple hello world gem"
   },
   "zymurgy": {
     "version": "0.10.0",

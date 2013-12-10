@@ -45,7 +45,7 @@
     "description": "1.to_proc returns {|x| x}. COOL!!"
   },
   "1pass": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -57,6 +57,13 @@
 
     ],
     "description": "computes an expression to solve the 24 game if possible."
+  },
+  "24point": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A gem for 24-point calculate game"
   },
   "2DArray": {
     "version": "0.1.6",

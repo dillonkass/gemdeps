@@ -244,6 +244,13 @@
     ],
     "description": "stand in replacement for Enumerable#each that will print a progress bar to the console as it loops"
   },
+  "each_with_rank": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Rank iterator for Enumerable"
+  },
   "each_with_time_interval": {
     "version": "0.0.1",
     "dependents": [
@@ -328,7 +335,7 @@
     "description": "OO Eagle Lables"
   },
   "eaglecad": {
-    "version": "0",
+    "version": "1",
     "dependents": [
 
     ],
@@ -349,7 +356,7 @@
     "description": "Eagleplatform API library for crud records, translations etc. For more infromation see documentation "
   },
   "eagletree-log": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -439,7 +446,7 @@
     "description": "URL metadata API"
   },
   "earl-report": {
-    "version": "0.2.7.2",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -649,7 +656,7 @@
     "description": "A repository of common, reusable API code"
   },
   "easy-auto": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -677,7 +684,7 @@
     "description": "A nice looking button in RubyMotion"
   },
   "easy-deployment": {
-    "version": "0.5.3",
+    "version": "0.6.0",
     "dependents": [
 
     ],
@@ -715,7 +722,7 @@
     "description": "A simple way to set up a secure MySQL connection."
   },
   "easy-prof": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -729,7 +736,7 @@
     "description": "You supply OpenIDs, this keeps anyone but people with access to those ids from getting through. You don't even have to make a form. :)"
   },
   "easy-s3": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -809,7 +816,7 @@
     "description": "Use a YAML file to specify your API, and EasyApiDoc will serve up this information with executable examples."
   },
   "easy_app_helper": {
-    "version": "1.0.6",
+    "version": "1.0.8",
     "dependents": [
       {
         "name": "batch_audio_convert",
@@ -843,11 +850,11 @@
     "version": "0.2.1",
     "dependents": [
       {
-        "name": "easy_auth-oauth",
+        "name": "easy_auth-oauth2",
         "requirements": "~> 0.2.0"
       },
       {
-        "name": "easy_auth-oauth2",
+        "name": "easy_auth-oauth",
         "requirements": "~> 0.2.0"
       },
       {
@@ -903,7 +910,7 @@
     "version": "0.1.1",
     "dependents": [
       {
-        "name": "easy_auth-facebook",
+        "name": "easy_auth-google",
         "requirements": "~> 0.1.0"
       },
       {
@@ -911,7 +918,7 @@
         "requirements": "~> 0.1.0"
       },
       {
-        "name": "easy_auth-google",
+        "name": "easy_auth-facebook",
         "requirements": "~> 0.1.0"
       },
       {
@@ -943,7 +950,7 @@
     "description": "EasyAuth-Zinergia"
   },
   "easy_aws": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -1053,6 +1060,13 @@
     ],
     "description": "Easy date formatting for ActiveRecord"
   },
+  "easy_dialog": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Easy CLI dialog"
+  },
   "easy_dice": {
     "version": "0.0.2",
     "dependents": [
@@ -1073,7 +1087,7 @@
       },
       {
         "name": "mongoid-audit",
-        "requirements": ">= 0"
+        "requirements": "~> 0.0.2"
       },
       {
         "name": "mongoid-history",
@@ -1142,6 +1156,13 @@
     ],
     "description": "Define methods for accessing translated attributes"
   },
+  "easy_globalize_accessors": {
+    "version": "1.4.0",
+    "dependents": [
+
+    ],
+    "description": "Define methods for accessing translated attributes"
+  },
   "easy_http": {
     "version": "0.1.5",
     "dependents": [
@@ -1190,6 +1211,13 @@
 
     ],
     "description": "Quick, simple, easy logging with log4r that can easily be toggled"
+  },
+  "easy_mail": {
+    "version": "1.3.0",
+    "dependents": [
+
+    ],
+    "description": "test"
   },
   "easy_mail_preview": {
     "version": "0.1.1",
@@ -1242,6 +1270,13 @@
 
     ],
     "description": "A Ruby gem to send multipart email--the easy way"
+  },
+  "easy_nested_hash": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Easy access to nested hashes"
   },
   "easy_nils": {
     "version": "0.0.2",
@@ -1301,6 +1336,16 @@
 
     ],
     "description": "Used to create a predefined set of model instances"
+  },
+  "easy_repl": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "jscon",
+        "requirements": ">= 0.0.3"
+      }
+    ],
+    "description": "easy repl"
   },
   "easy_responders": {
     "version": "0.1.0",
@@ -1385,9 +1430,20 @@
     ],
     "description": "Easy Timer"
   },
+  "easy_transilien": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Access SNCF Transilien micro-services datan the easy way: enable access to their theoric offer."
+  },
   "easy_translate": {
     "version": "0.3.3",
     "dependents": [
+      {
+        "name": "i18n-tasks",
+        "requirements": ">= 0"
+      },
       {
         "name": "i18n_translator",
         "requirements": ">= 0"
@@ -1420,7 +1476,10 @@
   "easy_validator": {
     "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "easy_mail",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Easy Validator"
   },
@@ -1438,6 +1497,16 @@
     ],
     "description": "A simple wrapper around ruby's Benchmark library for cleaner, simpler benchmark tests"
   },
+  "easycompile": {
+    "version": "0.2",
+    "dependents": [
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This library is called easycompile.\n    \n    Use this library to compile a source archive.\n\n    Example:\n      EasyCompile.new('make-1.2.tar.xz')\n    This would try to compile make-1.2.tar.xz, if\n    it exists locally in the current directory - or,\n    you can specificy the full location for any\n    directory.\n\n    Version 0.2 added support for http-links. You can\n    now pass in URLs, and we will download it through\n    wget.\n    \n"
+  },
   "easyconf-rails": {
     "version": "0.2.2",
     "dependents": [
@@ -1448,10 +1517,6 @@
   "easycov": {
     "version": "0.4.0",
     "dependents": [
-      {
-        "name": "bixby-common",
-        "requirements": ">= 0"
-      },
       {
         "name": "micron",
         "requirements": ">= 0"
@@ -1484,6 +1549,13 @@
     ],
     "description": "one helper method render chart"
   },
+  "easyhttp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This is a wrapper around ruby http lib"
+  },
   "easyio": {
     "version": "0.4.0",
     "dependents": [
@@ -1506,7 +1578,7 @@
     "description": "Serves static images from a remote server on the dates assigned in their filenames to BERG Cloud"
   },
   "easyload": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -1634,6 +1706,13 @@
     ],
     "description": "This gem contains statistics functions that are very easy to use.  Much easier and much more complete than many of the other statistical gems available out there.  If you need a feature added, send me a message on Github!"
   },
+  "easytable": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "adds helper methods to generate simple table"
+  },
   "easytag": {
     "version": "0.4.3",
     "dependents": [
@@ -1701,7 +1780,7 @@
     "description": "Provides useful capistrano extensions for use in multiple projects"
   },
   "eb_deployer": {
-    "version": "0.2.6",
+    "version": "0.2.9",
     "dependents": [
       {
         "name": "elastic-beanstalk",
@@ -1730,6 +1809,13 @@
 
     ],
     "description": "eBay4R is a Ruby wrapper for eBay's Web Services SOAP API. Emphasis is on ease of use and small footprint."
+  },
+  "ebay_client": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Simple, lightweight eBay Trading API Client"
   },
   "ebay_enterprise_affiliate_network": {
     "version": "1.0.1",
@@ -1774,11 +1860,11 @@
     "description": "This gem intended to use Ebay API withint ruby/rails applications"
   },
   "ebayr": {
-    "version": "0.0.4",
+    "version": "0.0.7",
     "dependents": [
 
     ],
-    "description": "A tidy library for using the eBay Trading API with Ruby"
+    "description": "eBayR is a gem that makes it (relatively) easy to use the eBay Trading API from\nRuby. Includes a self-contained XML parser, a flexible callback system, and a\ncommand-line client which aids integration into other projects.\n"
   },
   "ebaytool": {
     "version": "0.0.2",
@@ -1819,7 +1905,7 @@
     "description": "an ebics client using org.kopi.ebics java lib"
   },
   "ebm": {
-    "version": "0.0.33",
+    "version": "0.0.35",
     "dependents": [
 
     ],
@@ -1834,11 +1920,11 @@
       },
       {
         "name": "rdf-turtle",
-        "requirements": ">= 0.3.0"
+        "requirements": ">= 0.3.1"
       },
       {
         "name": "sparql",
-        "requirements": ">= 0.3.0"
+        "requirements": ">= 0.3.1"
       }
     ],
     "description": "EBNF is a Ruby parser for W3C EBNF and a parser generator for compliant LL(1) grammars."
@@ -1914,7 +2000,7 @@
     "description": "Snapshot EBS volumes on AWS"
   },
   "ebsco-discovery-service-api": {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "dependents": [
 
     ],
@@ -1957,6 +2043,13 @@
 
     ],
     "description": "ec2-api-proxy is a proxy server for EC2 API."
+  },
+  "ec2-backup": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Automate backups of your infrastructure dynamically via AWS EC2 Tagging and Snapshots"
   },
   "ec2-blackout": {
     "version": "0.0.6",
@@ -2113,11 +2206,11 @@
     "description": "Cluster SSH connect to pattern mached hosts (Connected by cssh) (Hosts in ssh config written by ec2ssh)"
   },
   "ec2dream": {
-    "version": "3.6.7",
+    "version": "3.6.9",
     "dependents": [
 
     ],
-    "description": "== DESCRIPTION:\n\nBuild and Manage Cloud Servers......visually with chef or puppet\n\n== FEATURES:\n\nEC2Dream combines Fog, Ruby, into a visual open source devops platform supporting:\n      Amazon AWS with full support for VPC, Autoscaling and ability to list most entities.\n      Amazon compatible clouds:  Eucalyptus, CloudStack.\n      Openstack Clouds:  Rackspace Cloud Servers and HP Cloud.\n      Cloud Foundry and even Local Servers.\n      Chef and Puppet.\n\n"
+    "description": "== DESCRIPTION:\n\nBuild and Manage Cloud Servers\n\n== FEATURES:\n\nEC2Dream combines Fog, Ruby, into a visual open source devops platform supporting:\n      Local and Hosted Servers.\n      Amazon AWS with full support for VPC, Autoscaling and ability to list most entities.\n      Amazon compatible clouds:  Eucalyptus, CloudStack.\n      Openstack Clouds:  Rackspace Cloud Servers and HP Cloud.\n      Cloud Foundry.\n\t  Vagrant.  \n      Chef and Puppet.\n\n"
   },
   "ec2launcher": {
     "version": "1.7.5",
@@ -2175,19 +2268,19 @@
     ],
     "description": "Resets your env EC2 variables via a quick command-line."
   },
-  "ec2ssh": {
-    "version": "2.0.6",
-    "dependents": [
-
-    ],
-    "description": "ec2ssh is a ssh_config manager for AWS EC2"
-  },
   "EC2ssh": {
     "version": "0.1.6",
     "dependents": [
 
     ],
     "description": "Since ec2 instance public hostnames are dynamic, and not easy to remember or type, this script provides a list all your running instances so you can select the one you want to ssh into easily (without having to pass the aws console ritual each time you need the hostname)."
+  },
+  "ec2ssh": {
+    "version": "2.0.7",
+    "dependents": [
+
+    ],
+    "description": "ec2ssh is a ssh_config manager for AWS EC2"
   },
   "ecart": {
     "version": "1.0.0",
@@ -2273,6 +2366,20 @@
     ],
     "description": "Generates everything you need to get moving fas"
   },
+  "echo_lazy_loader": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Gem for loading images lazily using echo js library"
+  },
+  "echo_link": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Ruby gem to interact with the EchoLink, such as retrieving link status."
+  },
   "echocas-client": {
     "version": "2.1.3",
     "dependents": [
@@ -2281,7 +2388,7 @@
     "description": "Client library for the Central Authentication Service (CAS) protocol. (this version specially prepared for echologic)"
   },
   "echoe": {
-    "version": "4.6.3",
+    "version": "4.6.5",
     "dependents": [
       {
         "name": "360_services",
@@ -2712,11 +2819,11 @@
         "requirements": ">= 3.2"
       },
       {
-        "name": "tem_ruby",
+        "name": "tem_multi_updater",
         "requirements": ">= 3.2"
       },
       {
-        "name": "tem_multi_updater",
+        "name": "tem_ruby",
         "requirements": ">= 3.2"
       },
       {
@@ -2798,7 +2905,7 @@
     "description": "A ruby ribrary for accessing the echonest api"
   },
   "echonest-ruby-api": {
-    "version": "0.3.0",
+    "version": "0.4.1",
     "dependents": [
 
     ],
@@ -3049,6 +3156,13 @@
     ],
     "description": "ECS is a Ruby interface to Amazon's E-Commerce Service. ECS uses the Query API, exposing all the published API calls, plus a few more. For more information on ECS, see http://www.amazonaws.com"
   },
+  "ecstatic": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "A static site generator focused on simplicity"
+  },
   "ectd_check": {
     "version": "0.0.2",
     "dependents": [
@@ -3110,6 +3224,13 @@
 
     ],
     "description": "Evil Dango is a small Ruby application that can extract torrent tickets from 'torrentpier'-enabled sites.\n\nIt fetches a ticket with a predefined account and replaces the initial passkey with the new defined one."
+  },
+  "edanrb": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "a simple library to get data from Smithsonian EDAN API"
   },
   "edave-enumerated_attribute": {
     "version": "0.2.18",
@@ -3177,6 +3298,13 @@
     ],
     "description": "A simple Ruby client for the Piwik API"
   },
+  "eddie": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
+  },
   "eden": {
     "version": "0.1.1",
     "dependents": [
@@ -3216,7 +3344,7 @@
     "description": "Rack provides minimal, modular and adaptable interface for developing\nweb applications in Ruby.  By wrapping HTTP requests and responses in\nthe simplest way possible, it unifies and distills the API for web\nservers, web frameworks, and software in between (the so-called\nmiddleware) into a single method call.\n\nAlso see http://rack.rubyforge.org.\n"
   },
   "edgar-stocks": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -3456,7 +3584,7 @@
     "description": "Open a file in your edit with line number. It provides the command 'edit'."
   },
   "edit_mode": {
-    "version": "0.0.9",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -3623,7 +3751,7 @@
       },
       {
         "name": "jrzmq",
-        "requirements": ">= 1.0.0"
+        "requirements": ">= 1.0.2"
       },
       {
         "name": "torquebox-core",
@@ -3744,9 +3872,19 @@
   "edtf": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "edtf-rails",
+        "requirements": "~> 1.0"
+      }
     ],
     "description": "A Ruby implementation of the Extended Date/Time Format (EDTF)."
+  },
+  "edtf-rails": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ],
+    "description": "An ActiveRecord extension to deal with Extended DateTime Format attributes"
   },
   "educandus_api": {
     "version": "0.0.2",
@@ -3841,6 +3979,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "burr",
+        "requirements": "~> 0.8.1"
+      },
+      {
         "name": "git2epub",
         "requirements": ">= 0"
       },
@@ -3930,6 +4072,13 @@
 
     ],
     "description": "parser for Earthquake Early Warning"
+  },
+  "efail": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A simple wrapper for Roadie v3+ gem to render html email with external stylesheet dependencies from the command line. Because inlining styles is so 1996"
   },
   "efax": {
     "version": "1.4.2",
@@ -4033,11 +4182,11 @@
     "description": "Enforces default internal and external encodings to be UTF-8 on Ruby 1.9. Has no effect on 1.8.7."
   },
   "effuse": {
-    "version": "2.0.1",
+    "version": "2.1.0",
     "dependents": [
 
     ],
-    "description": "A tool for symlinking dotfiles"
+    "description": "Tool for symlinking dotfiles"
   },
   "EFL": {
     "version": "1.0.2",
@@ -4068,7 +4217,7 @@
     "description": "downloader for nijigazou sokuhou"
   },
   "egads": {
-    "version": "3.2.0",
+    "version": "3.2.1",
     "dependents": [
       {
         "name": "capistrano-hivequeen",
@@ -4153,6 +4302,16 @@
     ],
     "description": "A nano-sized json client engine"
   },
+  "eggs": {
+    "version": "0.0.7",
+    "dependents": [
+      {
+        "name": "hawkeye",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Eggs Scrambles and Unscrambles (Encrypts and Decrypts) text and strings, and generates random keys of any length."
+  },
   "eggsh": {
     "version": "0.2.0",
     "dependents": [
@@ -4168,7 +4327,7 @@
     "description": "manage multi-environments"
   },
   "egn": {
-    "version": "0.0.1",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -4227,7 +4386,7 @@
     "description": "gem name squatting"
   },
   "eideticpdf": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -4295,6 +4454,10 @@
   "einhorn": {
     "version": "0.5.1",
     "dependents": [
+      {
+        "name": "chalk-thrift",
+        "requirements": ">= 0"
+      },
       {
         "name": "chalk-web",
         "requirements": ">= 0.4.7"
@@ -4396,6 +4559,10 @@
       },
       {
         "name": "luca",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "marionette_dust",
         "requirements": ">= 0"
       },
       {
@@ -4511,11 +4678,11 @@
     "version": "0.5.0",
     "dependents": [
       {
-        "name": "el-finder",
+        "name": "el-ace",
         "requirements": ">= 0.4.8"
       },
       {
-        "name": "el-ace",
+        "name": "el-finder",
         "requirements": ">= 0.4.8"
       },
       {
@@ -4588,6 +4755,13 @@
     ],
     "description": "Ruby library to provide server side functionality for elFinder.  elFinder is an open-source file manager for web, written in JavaScript using jQuery UI."
   },
+  "el_gato": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A drb implementation of the tic tac toe game"
+  },
   "el_generators": {
     "version": "0.0.6",
     "dependents": [
@@ -4626,6 +4800,13 @@
     ],
     "description": "Provides a set of usefull rspec matchers to be used with RSpec and/or Capybara"
   },
+  "elaine": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Distribtuted implementation of Google's Pregel framework for large-scale graph processing. Forked from http://github.com/igrigorik/pregel"
+  },
   "elance": {
     "version": "1.0.2",
     "dependents": [
@@ -4641,7 +4822,7 @@
     "description": "Elapsed time measurement tool"
   },
   "elapsed_watch": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -4739,7 +4920,7 @@
     "description": "Elasticdns is a simple bind9 configurator"
   },
   "elasticity": {
-    "version": "2.6",
+    "version": "2.7",
     "dependents": [
 
     ],
@@ -4760,57 +4941,57 @@
     "description": "Index a list of 'starred' repositories per user."
   },
   "elastics-admin": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
 
     ],
     "description": "Provides binary and rake tasks to dump, load and optionally rename indices. Implements live-reindex with hot-swap of old code/index with new code/index."
   },
   "elastics-client": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
       {
         "name": "elastics-admin",
-        "requirements": "= 1.1.5"
-      },
-      {
-        "name": "elastics-models",
-        "requirements": "= 1.1.5"
-      },
-      {
-        "name": "elastics-scopes",
-        "requirements": "= 1.1.5"
+        "requirements": "= 1.1.9"
       },
       {
         "name": "elastics-legacy",
-        "requirements": "= 1.1.5"
+        "requirements": "= 1.1.9"
+      },
+      {
+        "name": "elastics-models",
+        "requirements": "= 1.1.9"
+      },
+      {
+        "name": "elastics-scopes",
+        "requirements": "= 1.1.9"
       },
       {
         "name": "elastics-rails",
-        "requirements": "= 1.1.5"
+        "requirements": "= 1.1.9"
       }
     ],
     "description": "Core gem used by all the elastics gems. Provides the core resources: HTTP clients,\nElasticsearch API Methods, Templating System, Cascading Variables Management, Result Extenders, Logging & Debugging, Self-documenting Tool, Rake Tasks, ..."
   },
   "elastics-legacy": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
 
     ],
     "description": "Provides out-of-the box legacy compatibility (with flex and old versions). Use it for a smooth migration to the new gems."
   },
   "elastics-models": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
       {
         "name": "elastics-rails",
-        "requirements": "= 1.1.5"
+        "requirements": "= 1.1.9"
       }
     ],
     "description": "Provides ActiveRecord, Mongoid, ActiveModel and elasticsearch-mapper-attachment integrations, cross syncing, parent/child relationships, bulk-import, live-reindex of models, ..."
   },
   "elastics-rails": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
       {
         "name": "cap-elastics",
@@ -4820,24 +5001,40 @@
     "description": "Provides the engine, generators and helpers to integrate Elastics with Rails"
   },
   "elastics-scopes": {
-    "version": "1.1.5",
+    "version": "1.1.9",
     "dependents": [
       {
         "name": "elastics-models",
-        "requirements": "= 1.1.5"
+        "requirements": "= 1.1.9"
       }
     ],
     "description": "Provides an easy to use ruby API to search elasticsearch with ActiveRecord-like chainable and mergeables scopes."
   },
   "elasticsearch": {
-    "version": "0.4.0",
+    "version": "0.4.3",
     "dependents": [
       {
+        "name": "elasticsearch-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "elasticsearch-extensions",
-        "requirements": "= 0.4.0"
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gummi",
+        "requirements": "~> 0.4.0"
       },
       {
         "name": "mongoid-elasticsearch",
+        "requirements": "~> 0.4.1"
+      },
+      {
+        "name": "observed-logstash",
+        "requirements": "~> 0.4.1"
+      },
+      {
+        "name": "syphon",
         "requirements": "~> 0.4.0"
       }
     ],
@@ -4858,11 +5055,11 @@
     "description": "Elasticsearch gem integration for ActiveRecord (WIP)"
   },
   "elasticsearch-api": {
-    "version": "0.4.0",
+    "version": "0.4.3",
     "dependents": [
       {
         "name": "elasticsearch",
-        "requirements": "= 0.4.0"
+        "requirements": "= 0.4.3"
       }
     ],
     "description": "Ruby API for Elasticsearch. See the `elasticsearch` gem for full integration.\n"
@@ -4885,17 +5082,35 @@
     "description": "Elasticsearch Ruby DSL sugar (WIP)"
   },
   "elasticsearch-extensions": {
-    "version": "0.0.2",
+    "version": "0.0.6",
+    "dependents": [
+      {
+        "name": "elasticsearch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "elasticsearch-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "elasticsearch-transport",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Extensions for the Elasticsearch Rubygem"
+  },
+  "elasticsearch-model": {
+    "version": "0.0.1",
     "dependents": [
 
     ],
-    "description": "Extensions for the Elasticsearch Rubygem"
+    "description": "Elasticsearch gem integration for ActiveModel/ActiveRecord (WIP)"
   },
   "elasticsearch-node": {
     "version": "0.7.5",
     "dependents": [
       {
-        "name": "eson-more",
+        "name": "eson-dsl",
         "requirements": ">= 0"
       },
       {
@@ -4907,7 +5122,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "eson-dsl",
+        "name": "eson-more",
         "requirements": ">= 0"
       }
     ],
@@ -4942,11 +5157,11 @@
     "description": "Ruby Driver for Elastic Search"
   },
   "elasticsearch-transport": {
-    "version": "0.4.0",
+    "version": "0.4.3",
     "dependents": [
       {
         "name": "elasticsearch",
-        "requirements": "= 0.4.0"
+        "requirements": "= 0.4.3"
       },
       {
         "name": "elasticsearch-api",
@@ -4994,7 +5209,7 @@
     "description": "Elastictastic is an object-document mapper and lightweight API adapter for\nElasticSearch. Elastictastic's primary use case is to define model classes which\nuse ElasticSearch as a primary document-oriented data store, and to expose\nElasticSearch's search functionality to query for those models.\n"
   },
   "elastix": {
-    "version": "0.0.3",
+    "version": "0.0.12",
     "dependents": [
 
     ],
@@ -5008,7 +5223,7 @@
     "description": "Capistrano plugin for deploying to an AWS Elastic Load Balancer"
   },
   "elbping": {
-    "version": "0.0.14",
+    "version": "0.0.16",
     "dependents": [
 
     ],
@@ -5057,11 +5272,15 @@
     "description": "Eleanor is a Ruby script and accompanying library for formatting speculative screenplays.  It parses plain text written in a simple format and outputs pretty PDF that conforms to standard rules of screenplay layout.  Eleanor's primary goal is to create PDF that is indistinguishable from PDF produced by professional screenwriting software such as Final Draft."
   },
   "elecksee": {
-    "version": "1.0.10",
+    "version": "1.0.16",
     "dependents": [
       {
+        "name": "kitchen-lxc",
+        "requirements": ">= 1.0.14"
+      },
+      {
         "name": "vagabond",
-        "requirements": ">= 1.0.6"
+        "requirements": ">= 1.0.10"
       }
     ],
     "description": "LXC helpers"
@@ -5133,7 +5352,7 @@
     "description": "Elemental provides enumerated set of elements allowing your code to think symbolically and unambiguously while giving you the means to easily display what end-users need to see."
   },
   "elementaljs-rails": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -5265,7 +5484,7 @@
     "description": "Elves are creatures to manage background processes"
   },
   "elf-mithril": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -5339,7 +5558,7 @@
     "description": "Gem designed to allow easy addition of elibri based product system to your application.\n  Currently tested and support only on REE - due to dependencies."
   },
   "elibri_onix": {
-    "version": "0.2.12",
+    "version": "0.2.13",
     "dependents": [
       {
         "name": "elibri_api_client",
@@ -5502,7 +5721,7 @@
     "description": "This gem is going to be amazing, when we finish it."
   },
   "elk": {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "dependents": [
 
     ],
@@ -5579,7 +5798,7 @@
     "description": "elock-client provides a simple ruby interface to the elock distributed lock server."
   },
   "elong": {
-    "version": "0.2.1",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -5626,6 +5845,10 @@
       {
         "name": "els_bootstrap",
         "requirements": "~> 1.2.2"
+      },
+      {
+        "name": "sinatra-els",
+        "requirements": "~> 1.2.3"
       }
     ],
     "description": "A simple plugin to assist ELS token validation"
@@ -6207,12 +6430,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amaze_sns",
-        "requirements": ">= 0.2.8"
-      },
-      {
         "name": "amaze-sms",
         "requirements": ">= 0.2.10"
+      },
+      {
+        "name": "amaze_sns",
+        "requirements": ">= 0.2.8"
       },
       {
         "name": "apiary",
@@ -6343,35 +6566,35 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-betfair",
-        "requirements": ">= 0"
+        "name": "em-ci",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "em-campfire",
         "requirements": "~> 1.0"
       },
       {
-        "name": "em-ci",
-        "requirements": "~> 1.0.3"
+        "name": "em-betfair",
+        "requirements": ">= 0"
       },
       {
         "name": "em-cometio-client",
         "requirements": ">= 0"
       },
       {
-        "name": "em-convore",
-        "requirements": "= 0.3.0"
-      },
-      {
         "name": "em-couchbase",
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "em-dextras",
-        "requirements": ">= 0"
+        "name": "em-convore",
+        "requirements": "= 0.3.0"
       },
       {
         "name": "em-couchdb-request",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-dextras",
         "requirements": ">= 0"
       },
       {
@@ -6383,16 +6606,16 @@
         "requirements": "= 1.0.0.beta.3"
       },
       {
+        "name": "em-http-oauth-request",
+        "requirements": ">= 0.2.5"
+      },
+      {
         "name": "em-http-fetcher",
         "requirements": ">= 1.0.0"
       },
       {
         "name": "em-http-metrics",
         "requirements": "= 1.0.0.beta4"
-      },
-      {
-        "name": "em-http-oauth-request",
-        "requirements": ">= 0.2.5"
       },
       {
         "name": "em-http-promise",
@@ -6407,11 +6630,11 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "em-idigi",
+        "name": "em-instagram",
         "requirements": ">= 0"
       },
       {
-        "name": "em-instagram",
+        "name": "em-idigi",
         "requirements": ">= 0"
       },
       {
@@ -6427,10 +6650,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-nordnet",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-net-http",
         "requirements": ">= 0.2.10"
       },
@@ -6439,20 +6658,24 @@
         "requirements": ">= 0.2.10"
       },
       {
-        "name": "em-redfinger",
-        "requirements": ">= 1.0.0"
+        "name": "em-nordnet",
+        "requirements": ">= 0"
       },
       {
-        "name": "em-redfinger",
-        "requirements": ">= 1.0.0"
+        "name": "em-proxy",
+        "requirements": ">= 0"
       },
       {
         "name": "em-pusher",
         "requirements": "~> 0.2.10"
       },
       {
-        "name": "em-proxy",
-        "requirements": ">= 0"
+        "name": "em-redfinger",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "em-redfinger",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "em-rocketio-client",
@@ -6463,12 +6686,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-shorturl",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "em-service-now",
         "requirements": ">= 0"
+      },
+      {
+        "name": "em-shorturl",
+        "requirements": "~> 1.0"
       },
       {
         "name": "em-sofa",
@@ -6483,12 +6706,12 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "em-synchrony-couchdb",
-        "requirements": ">= 1.1.0"
-      },
-      {
         "name": "em-synchrony-dataone-vin",
         "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "em-synchrony-couchdb",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "em-tvdb",
@@ -6503,24 +6726,24 @@
         "requirements": "= 1.0.0"
       },
       {
-        "name": "em-websocket-request",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "em-websocket",
         "requirements": "~> 0.2.6"
+      },
+      {
+        "name": "em-websocket-request",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "em-xmlrpc-client",
         "requirements": ">= 0"
       },
       {
-        "name": "em-zimbreasy",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-zipper",
         "requirements": ">= 1.1.1"
+      },
+      {
+        "name": "em-zimbreasy",
+        "requirements": ">= 0"
       },
       {
         "name": "em_aws",
@@ -6539,12 +6762,12 @@
         "requirements": "~> 0.3.0"
       },
       {
-        "name": "enjin",
-        "requirements": "~> 0.3.0"
-      },
-      {
         "name": "enigmamachine",
         "requirements": ">= 0"
+      },
+      {
+        "name": "enjin",
+        "requirements": "~> 0.3.0"
       },
       {
         "name": "erchef-expander",
@@ -6596,19 +6819,19 @@
       },
       {
         "name": "gnip-stream",
-        "requirements": ">= 1.0.0"
+        "requirements": ">= 1.0.3"
       },
       {
-        "name": "goliath-reverse-proxy",
-        "requirements": "~> 1.0.3"
+        "name": "goliath",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "goliath_rack_sprockets",
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "goliath",
-        "requirements": ">= 1.0.0"
+        "name": "goliath-reverse-proxy",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "goshrine_bot",
@@ -6637,10 +6860,6 @@
       {
         "name": "heroku-forward",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "hessian2",
-        "requirements": ">= 0"
       },
       {
         "name": "hexabat",
@@ -6727,12 +6946,12 @@
         "requirements": ">= 0.2.6"
       },
       {
-        "name": "mn_client",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mneme",
         "requirements": ">= 1.0.0.beta.3"
+      },
+      {
+        "name": "mn_client",
+        "requirements": ">= 0"
       },
       {
         "name": "motionbox-oauth",
@@ -6792,7 +7011,7 @@
       },
       {
         "name": "parallel_http",
-        "requirements": ">= 1.0.3"
+        "requirements": ">= 1.1.1"
       },
       {
         "name": "pbenchmark",
@@ -6823,10 +7042,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pubnub-picklive",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pubnub",
         "requirements": ">= 0"
       },
@@ -6835,11 +7050,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "puffing-billy",
+        "name": "pubnub-picklive",
         "requirements": ">= 0"
       },
       {
         "name": "pubsubhubbub",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puffing-billy",
         "requirements": ">= 0"
       },
       {
@@ -6927,6 +7146,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rubycut-sinatra-synchrony",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "rubytus",
         "requirements": ">= 0"
       },
@@ -6991,12 +7214,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra-symphony",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sinatra-synchrony",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "sinatra-symphony",
+        "requirements": ">= 0"
       },
       {
         "name": "siriproxy-sancho",
@@ -7017,6 +7240,10 @@
       {
         "name": "sonixlabs-em-websocket",
         "requirements": "~> 0.2.6"
+      },
+      {
+        "name": "spotify_web",
+        "requirements": ">= 0"
       },
       {
         "name": "sproutcore",
@@ -7092,7 +7319,7 @@
       },
       {
         "name": "tweetstream",
-        "requirements": "~> 1.0.2"
+        "requirements": ">= 1.1.1"
       },
       {
         "name": "twitter-userstream",
@@ -7111,15 +7338,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vcap_common",
-        "requirements": "~> 1.0"
+        "name": "upnp-nickewing",
+        "requirements": ">= 1.0.2"
       },
       {
         "name": "vayacondios-server",
         "requirements": "~> 1.0"
       },
       {
-        "name": "vines-couchdb",
+        "name": "vcap_common",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "vinesmod",
         "requirements": "~> 1.0.3"
       },
       {
@@ -7127,7 +7358,7 @@
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "vinesmod",
+        "name": "vines-couchdb",
         "requirements": "~> 1.0.3"
       },
       {
@@ -7161,6 +7392,10 @@
       {
         "name": "zebra",
         "requirements": ">= 1.0.2"
+      },
+      {
+        "name": "zulip_machine",
+        "requirements": "~> 1.1.1"
       }
     ],
     "description": "EventMachine based, async HTTP Request client"
@@ -7173,7 +7408,7 @@
     "description": "Adds WebDAV-specific HTTP methods to em-http-request. Works with em-synchrony too."
   },
   "em-http-server": {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "dependents": [
       {
         "name": "reacter",
@@ -7201,7 +7436,7 @@
     "description": "An EventMachine interface to the iDigi platform"
   },
   "em-imap": {
-    "version": "0.4.1",
+    "version": "0.5",
     "dependents": [
 
     ],
@@ -7756,7 +7991,7 @@
     "description": "Sinatra RocketIO client for eventmachine"
   },
   "em-rocketio-linda-client": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
       {
         "name": "babascript",
@@ -8083,12 +8318,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-flickraw",
-        "requirements": "= 0.3.0.beta.1"
-      },
-      {
         "name": "em-facebook",
         "requirements": ">= 0"
+      },
+      {
+        "name": "em-flickraw",
+        "requirements": "= 0.3.0.beta.1"
       },
       {
         "name": "em-nordnet",
@@ -8111,16 +8346,16 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "em-synchrony-couchdb",
-        "requirements": ">= 1.0.3"
+        "name": "em-synchrony-dataone-vin",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "em-synchrony-moped",
         "requirements": "~> 1.0"
       },
       {
-        "name": "em-synchrony-dataone-vin",
-        "requirements": "~> 1.0.3"
+        "name": "em-synchrony-couchdb",
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "em-twitter-client",
@@ -8151,20 +8386,20 @@
         "requirements": "~> 1.0.2"
       },
       {
-        "name": "fraggle-synchrony",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fraggle-synchrony-spanx",
         "requirements": ">= 0"
       },
       {
-        "name": "goliath-reverse-proxy",
+        "name": "fraggle-synchrony",
         "requirements": ">= 0"
       },
       {
         "name": "goliath",
         "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "goliath-reverse-proxy",
+        "requirements": ">= 0"
       },
       {
         "name": "hatetepe",
@@ -8176,10 +8411,6 @@
       },
       {
         "name": "herdis",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "hessian2",
         "requirements": ">= 0"
       },
       {
@@ -8279,6 +8510,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rubycut-sinatra-synchrony",
+        "requirements": "~> 1.0.1"
+      },
+      {
         "name": "scales-core",
         "requirements": ">= 1.0.2"
       },
@@ -8295,12 +8530,12 @@
         "requirements": ">= 1.0.2"
       },
       {
-        "name": "sinatra-symphony",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sinatra-synchrony",
         "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "sinatra-symphony",
+        "requirements": ">= 0"
       },
       {
         "name": "son_of_a_batch",
@@ -8309,6 +8544,10 @@
       {
         "name": "souffle",
         "requirements": "~> 0.2.0"
+      },
+      {
+        "name": "spotify_web",
+        "requirements": ">= 0"
       },
       {
         "name": "stooge",
@@ -8363,6 +8602,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "upnp-nickewing",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vk-ruby",
         "requirements": "~> 1.0.2"
       },
@@ -8396,7 +8639,7 @@
     "description": "em-synchrony-couchdb is a simple, convenient, and non-blocking client for CouchDB\nimplemented using the em-synchrony version of EventMachine::HttpRequest and based\ncompletely on the em-couchdb gem. With em-synchrony-couchdb, you can easily save,\nquery, delete documents, databases to/from a CouchDB database in your favourite\nlanguage - Ruby.\n"
   },
   "em-synchrony-dataone-vin": {
-    "version": "0.0.3",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -8453,6 +8696,13 @@
     ],
     "description": "A rate-limited Queue for EventMachine"
   },
+  "em-timers": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "helper methods for timers in EventMachine"
+  },
   "em-tvdb": {
     "version": "0.0.5",
     "dependents": [
@@ -8461,15 +8711,19 @@
     "description": "EM tvdb website wrapper"
   },
   "em-twitter": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
+      {
+        "name": "fluent-plugin-twitter",
+        "requirements": "= 0.2.2"
+      },
       {
         "name": "jls-tweetstream",
         "requirements": "~> 0.2"
       },
       {
         "name": "tweetstream",
-        "requirements": "~> 0.2"
+        "requirements": "~> 0.3"
       }
     ],
     "description": "Twitter Streaming API client for EventMachine"
@@ -8685,11 +8939,11 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "nagios-dashboard",
+        "name": "nagios-dashboard-sonian",
         "requirements": ">= 0"
       },
       {
-        "name": "nagios-dashboard-sonian",
+        "name": "nagios-dashboard",
         "requirements": ">= 0"
       },
       {
@@ -8769,12 +9023,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra-websocketio",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "sinatra-websocket",
         "requirements": "~> 0.3.6"
+      },
+      {
+        "name": "sinatra-websocketio",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "slanger",
@@ -8809,16 +9063,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "upnp-nickewing",
+        "requirements": ">= 0.3.6"
+      },
+      {
+        "name": "wampus",
+        "requirements": ">= 0"
+      },
+      {
         "name": "websocket-client-simple",
         "requirements": ">= 0"
       },
       {
-        "name": "websocket-gui",
-        "requirements": "~> 0.5.0"
-      },
-      {
         "name": "websocket-rack",
         "requirements": "~> 0.3.6"
+      },
+      {
+        "name": "websocket-gui",
+        "requirements": "~> 0.5.0"
       },
       {
         "name": "webtail",
@@ -8987,6 +9249,10 @@
         "requirements": "~> 0.2.1"
       },
       {
+        "name": "ruby-trade",
+        "requirements": ">= 0"
+      },
+      {
         "name": "true_queue",
         "requirements": ">= 0"
       },
@@ -9137,7 +9403,7 @@
     "description": "email helpers"
   },
   "email-authentication": {
-    "version": "0.1.2",
+    "version": "0.2.5",
     "dependents": [
 
     ],
@@ -9235,11 +9501,11 @@
     "description": "See README for details."
   },
   "email_center_api": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": " A RubyGem That wraps EmailCenter's maxemail JSON Api "
+    "description": "A RubyGem That wraps EmailCenter's maxemail JSON Api"
   },
   "email_detector": {
     "version": "0.0.1",
@@ -9261,6 +9527,13 @@
 
     ],
     "description": "Generates a feedback form with model, controller, and views to make it dead simple for your users to send messages to you."
+  },
+  "email_format": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Validates the email format."
   },
   "email_format_validator": {
     "version": "1.0.4",
@@ -9328,12 +9601,15 @@
   "email_regex": {
     "version": "0.0.1",
     "dependents": [
-
+      {
+        "name": "email_format",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Validate email address regex"
   },
   "email_reply_parser": {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "dependents": [
       {
         "name": "rockdove",
@@ -9403,6 +9679,10 @@
       },
       {
         "name": "inboxer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "levtera",
         "requirements": ">= 0"
       },
       {
@@ -9537,7 +9817,14 @@
   "email_veracity": {
     "version": "0.6.0",
     "dependents": [
-
+      {
+        "name": "formulary",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gman",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Email Veracity abstracts an email address into a series of objects which makes it easy to see if an address is invalid, and if so, why."
   },
@@ -9549,7 +9836,7 @@
     "description": "Check email is exist or not without sending message"
   },
   "email_verifier": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -9584,7 +9871,7 @@
     "description": "Sends stdin via email"
   },
   "emailvision": {
-    "version": "2.1.22",
+    "version": "2.2",
     "dependents": [
       {
         "name": "emailvision4rails",
@@ -9616,6 +9903,13 @@
 
     ],
     "description": "making several different emailyak projects into a gem description"
+  },
+  "emarsys": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A Ruby library for interacting with the Emarsys API."
   },
   "emarsys-broadcast": {
     "version": "0.1.2",
@@ -9674,7 +9968,7 @@
     "description": "ActiveRecord controller-level support for embedded associations"
   },
   "embedded_localization": {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "dependents": [
 
     ],
@@ -9694,6 +9988,13 @@
     ],
     "description": "Give you embedded markup for youtube, gist and etc"
   },
+  "embedder": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Finds info about urls"
+  },
   "embedify": {
     "version": "0.7.3",
     "dependents": [
@@ -9709,7 +10010,7 @@
     "description": "Wrapper for http://embedit.me"
   },
   "embeditor-rails": {
-    "version": "1.0.1",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -9746,6 +10047,13 @@
       }
     ],
     "description": "Ember (EMBEdded Ruby) is an [eRuby] template processor that allows\r debugging, reduces markup, and improves composability of eRuby templates."
+  },
+  "ember-appkit-rails": {
+    "version": "0.2.2",
+    "dependents": [
+
+    ],
+    "description": "Ember App Kit for Rails"
   },
   "ember-auth-module-action_redirectable-rails": {
     "version": "1.0.0",
@@ -10013,15 +10321,7 @@
     "version": "9.0.7",
     "dependents": [
       {
-        "name": "ember-auth-module-auth_redirectable-source",
-        "requirements": "~> 9.0"
-      },
-      {
         "name": "ember-auth-module-action_redirectable-source",
-        "requirements": "~> 9.0"
-      },
-      {
-        "name": "ember-auth-module-ember_data-source",
         "requirements": "~> 9.0"
       },
       {
@@ -10029,7 +10329,11 @@
         "requirements": "~> 9.0"
       },
       {
-        "name": "ember-auth-module-rememberable-source",
+        "name": "ember-auth-module-ember_data-source",
+        "requirements": "~> 9.0"
+      },
+      {
+        "name": "ember-auth-module-auth_redirectable-source",
         "requirements": "~> 9.0"
       },
       {
@@ -10037,8 +10341,20 @@
         "requirements": "~> 9.0"
       },
       {
+        "name": "ember-auth-module-rememberable-source",
+        "requirements": "~> 9.0"
+      },
+      {
+        "name": "ember-auth-module-timeoutable-source",
+        "requirements": "~> 9.0"
+      },
+      {
         "name": "ember-auth-module-url_authenticatable-source",
         "requirements": "~> 9.0"
+      },
+      {
+        "name": "ember-auth-rails",
+        "requirements": ">= 8.0.0"
       },
       {
         "name": "ember-auth-request-jquery-source",
@@ -10047,14 +10363,6 @@
       {
         "name": "ember-auth-request-dummy-source",
         "requirements": "~> 9.0"
-      },
-      {
-        "name": "ember-auth-module-timeoutable-source",
-        "requirements": "~> 9.0"
-      },
-      {
-        "name": "ember-auth-rails",
-        "requirements": ">= 8.0.0"
       },
       {
         "name": "ember-auth-response-json-source",
@@ -10077,11 +10385,11 @@
         "requirements": "~> 9.0"
       },
       {
-        "name": "ember-auth-strategy-token-source",
+        "name": "ember-auth-strategy-dummy-source",
         "requirements": "~> 9.0"
       },
       {
-        "name": "ember-auth-strategy-dummy-source",
+        "name": "ember-auth-strategy-token-source",
         "requirements": "~> 9.0"
       }
     ],
@@ -10155,6 +10463,10 @@
   "ember-data-source": {
     "version": "0.14",
     "dependents": [
+      {
+        "name": "ember-appkit-rails",
+        "requirements": "~> 1.0.0.beta.3"
+      },
       {
         "name": "ember-auth-module-ember_data-source",
         "requirements": "< 2.0, >= 1.0.0.beta.1"
@@ -10270,8 +10582,12 @@
     "description": "Use Ember OAuth 2 in your Rails app"
   },
   "ember-rails": {
-    "version": "0.13.0",
+    "version": "0.14.1",
     "dependents": [
+      {
+        "name": "ember-appkit-rails",
+        "requirements": ">= 0.14.0"
+      },
       {
         "name": "ember-generators",
         "requirements": ">= 0.2.4"
@@ -10282,7 +10598,7 @@
       },
       {
         "name": "emblem-rails",
-        "requirements": ">= 0.11.1"
+        "requirements": ">= 0.14.0"
       },
       {
         "name": "kojac",
@@ -10342,22 +10658,18 @@
     "description": "Ember routemanager for rails asset pipeline"
   },
   "ember-source": {
-    "version": "1.0.0",
+    "version": "1.2.0.1",
     "dependents": [
       {
         "name": "barber",
         "requirements": ">= 0"
       },
       {
-        "name": "ember-auth-module-auth_redirectable-source",
-        "requirements": "~> 1.0"
+        "name": "ember-appkit-rails",
+        "requirements": "~> 1.2.0.1"
       },
       {
         "name": "ember-auth-module-action_redirectable-source",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "ember-auth-module-ember_data-source",
         "requirements": "~> 1.0"
       },
       {
@@ -10365,11 +10677,23 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "ember-auth-module-rememberable-source",
+        "name": "ember-auth-module-ember_data-source",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "ember-auth-module-auth_redirectable-source",
         "requirements": "~> 1.0"
       },
       {
         "name": "ember-auth-module-epf-source",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "ember-auth-module-rememberable-source",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "ember-auth-module-timeoutable-source",
         "requirements": "~> 1.0"
       },
       {
@@ -10382,10 +10706,6 @@
       },
       {
         "name": "ember-auth-request-dummy-source",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "ember-auth-module-timeoutable-source",
         "requirements": "~> 1.0"
       },
       {
@@ -10405,11 +10725,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "ember-auth-session-local_storage-source",
-        "requirements": "~> 1.0"
+        "name": "ember-auth-source",
+        "requirements": ">= 1.0.0.rc6.2"
       },
       {
-        "name": "ember-auth-strategy-token-source",
+        "name": "ember-auth-session-local_storage-source",
         "requirements": "~> 1.0"
       },
       {
@@ -10417,19 +10737,19 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "ember-auth-source",
-        "requirements": ">= 1.0.0.rc6.2"
+        "name": "ember-auth-strategy-token-source",
+        "requirements": "~> 1.0"
       },
       {
         "name": "ember-data-source",
         "requirements": ">= 0"
       },
       {
-        "name": "ember-bootstrap-source",
+        "name": "ember-data-source-machty",
         "requirements": ">= 0"
       },
       {
-        "name": "ember-data-source-machty",
+        "name": "ember-bootstrap-source",
         "requirements": ">= 0"
       },
       {
@@ -10450,7 +10770,7 @@
       },
       {
         "name": "ember-rails",
-        "requirements": "= 1.0.0.rc6"
+        "requirements": "~> 1.2"
       },
       {
         "name": "ember-rails",
@@ -10522,7 +10842,7 @@
     "description": "Asset pipeline support for EmberScript files. Uses a .em file extension."
   },
   "ember_script-source": {
-    "version": "0.0.8",
+    "version": "0.0.11",
     "dependents": [
       {
         "name": "ember_script",
@@ -10570,14 +10890,14 @@
     "description": "Provides a ruby interface to Emblem.js"
   },
   "emblem-rails": {
-    "version": "0.1.1",
+    "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "Use emblem.js with ember-rails - see https://github.com/machty/emblem.js"
   },
   "emblem-source": {
-    "version": "0.3.2",
+    "version": "0.3.5",
     "dependents": [
       {
         "name": "barber-emblem",
@@ -10593,7 +10913,10 @@
   "emblem-sprockets": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "zassets-plugins-emblem",
+        "requirements": "~> 0.1.0"
+      }
     ],
     "description": "Use emblem.js with sprockets - see https://github.com/machty/emblem.js"
   },
@@ -10826,12 +11149,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opentox-ruby-api-wrapper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "opentox-ruby",
         "requirements": "= 0.2.1"
+      },
+      {
+        "name": "opentox-ruby-api-wrapper",
+        "requirements": ">= 0"
       },
       {
         "name": "table_setter",
@@ -10900,7 +11223,7 @@
     "description": "https://github.com/petethepig/emoji4rails"
   },
   "emoji_data": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -10914,7 +11237,7 @@
     "description": "Phantom Open Emoji with utilities and resources for Rails."
   },
   "emojidex-desktop": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -10937,12 +11260,26 @@
     ],
     "description": "Use emoji in your content. Pass it a string and it will return the string with emoji images."
   },
+  "emojimmy": {
+    "version": "0.2",
+    "dependents": [
+
+    ],
+    "description": "Emojimmy makes it possible to store emoji characters in ActiveRecord datastores that don’t support 4-Byte UTF-8 Unicode encoding."
+  },
   "emojis": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "A Ruby gem for Emoji!"
+  },
+  "emojivert": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Translate emoji from one encoding to another."
   },
   "emory": {
     "version": "0.1.2",
@@ -10978,6 +11315,13 @@
 
     ],
     "description": "A simple gem to collect an array of, get sentiment about a string based on, determine if a string contains...emoticons"
+  },
+  "emotion": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Add some emotion to your code. Use English."
   },
   "emotions": {
     "version": "0.2.2",
@@ -11108,12 +11452,12 @@
     "version": "0.4",
     "dependents": [
       {
-        "name": "employer-activerecord",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "employer-mongoid",
         "requirements": "~> 0.1"
+      },
+      {
+        "name": "employer-activerecord",
+        "requirements": "~> 0.4"
       }
     ],
     "description": "Job processing with pluggable backends made easy"
@@ -11222,6 +11566,16 @@
 
     ],
     "description": "A a small off-side langauge that compiles into the routes.rb file for Rails 3"
+  },
+  "enable_autologin": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This library is called enable_autologin\n"
   },
   "enable_beer": {
     "version": "1.0.2",
@@ -11488,7 +11842,7 @@
     "description": "A Rails 3 version of Encrypted Cookie Store by FooBarWidget"
   },
   "encrypted_cookie_store-instructure": {
-    "version": "1.0.4",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -11500,6 +11854,13 @@
 
     ],
     "description": "Allows for reading and writing to the ENV in an encrypted way"
+  },
+  "encrypted_form_fields": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Encrypted form fields for Rails"
   },
   "encrypted_id": {
     "version": "1.1.1",
@@ -11584,19 +11945,33 @@
     ],
     "description": "Ruby gem to prompt for password at run time for attr_encrypted"
   },
+  "encrypto": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A gem that supports encrypting personal data by using rbnacl and attr_encrypted"
+  },
   "encrypto_signo": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "opendelivery",
+        "requirements": "= 1.0.0"
+      },
+      {
+        "name": "opendelivery",
+        "requirements": "= 1.0.0"
+      }
     ],
     "description": "Basic encryption and signing library for Ruby"
   },
   "encryptor": {
-    "version": "1.1.3",
+    "version": "1.3.0",
     "dependents": [
       {
         "name": "attr_encrypted",
-        "requirements": ">= 1.1.1"
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "auth_origin_control",
@@ -11684,7 +12059,7 @@
     "description": "A simple wrapper for the standard ruby OpenSSL library to encrypt and decrypt strings"
   },
   "ende": {
-    "version": "0.1.5",
+    "version": "0.2.9",
     "dependents": [
 
     ],
@@ -11801,12 +12176,26 @@
     ],
     "description": "Endorster API wrapper"
   },
+  "endow": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A library to assist in consuming API endpoints."
+  },
   "endpoint": {
     "version": "1.0.3",
     "dependents": [
 
     ],
     "description": "A Rails generator for working with RABL to create endpoint controllers"
+  },
+  "endpoint_base": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Shared functionality for SpreeCommerce hub endpoints"
   },
   "energizer_bunny": {
     "version": "unknown",
@@ -11937,9 +12326,16 @@
     "description": "Determine how well your engine will run under certain meteorological and geological conditions."
   },
   "engine_cart": {
-    "version": "0.0.2",
+    "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "blacklight",
+        "requirements": ">= 0.1.0"
+      },
+      {
+        "name": "riiif",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Helper for testing Rails Engines sanely"
   },
@@ -12013,15 +12409,11 @@
     "description": "Creates a Rails 3 engine with Rakefile, Gemfile and running tests"
   },
   "engineyard": {
-    "version": "2.3.1",
+    "version": "2.3.2",
     "dependents": [
       {
         "name": "engineyard-dnsimple",
         "requirements": ">= 0"
-      },
-      {
-        "name": "engineyard-dns",
-        "requirements": "= 1.4.10"
       },
       {
         "name": "engineyard-hudson",
@@ -12032,12 +12424,16 @@
         "requirements": "~> 1.3.20"
       },
       {
-        "name": "engineyard-migrate",
-        "requirements": "~> 1.4.11"
+        "name": "engineyard-dns",
+        "requirements": "= 1.4.10"
       },
       {
         "name": "engineyard-recipes",
         "requirements": "~> 1.4.6"
+      },
+      {
+        "name": "engineyard-migrate",
+        "requirements": "~> 1.4.11"
       },
       {
         "name": "engineyard-visualvm",
@@ -12046,10 +12442,6 @@
       {
         "name": "ey_info",
         "requirements": "= 1.4.18"
-      },
-      {
-        "name": "ey_ronin",
-        "requirements": "~> 1.4.23"
       },
       {
         "name": "ey_tools",
@@ -12070,11 +12462,11 @@
     "description": "Ruby Wrapper for Egnine Yard API"
   },
   "engineyard-cloud-client": {
-    "version": "1.0.14",
+    "version": "2.0.1",
     "dependents": [
       {
         "name": "engineyard",
-        "requirements": "~> 1.0.14"
+        "requirements": "~> 1.0.16"
       },
       {
         "name": "engineyard-serverside",
@@ -12140,7 +12532,7 @@
     "description": "Tools to generate, upload, test and apply chef recipes for Engine Yard Cloud."
   },
   "engineyard-serverside": {
-    "version": "2.3.3",
+    "version": "2.3.7",
     "dependents": [
 
     ],
@@ -12277,7 +12669,7 @@
     "description": "Extends OpenStruct to add some useful methods"
   },
   "engrade": {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "dependents": [
 
     ],
@@ -12301,7 +12693,15 @@
     "version": "0.1.2",
     "dependents": [
       {
+        "name": "automated_metareview",
+        "requirements": ">= 0"
+      },
+      {
         "name": "style-scanner",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twitter_ebooks",
         "requirements": ">= 0"
       },
       {
@@ -12319,7 +12719,7 @@
     "description": "Middleware to \"enhance\" and resize images on the fly."
   },
   "enhanced_date_select": {
-    "version": "1.0.0",
+    "version": "1.0.4",
     "dependents": [
 
     ],
@@ -12414,7 +12814,7 @@
         "requirements": "~> 0.1.0.pre"
       },
       {
-        "name": "enju_event",
+        "name": "enju_inventory",
         "requirements": "~> 0.1.0.pre"
       },
       {
@@ -12422,12 +12822,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_ndl",
-        "requirements": ">= 0"
+        "name": "enju_event",
+        "requirements": "~> 0.1.0.pre"
       },
       {
-        "name": "enju_inventory",
-        "requirements": "~> 0.1.0.pre"
+        "name": "enju_ndl",
+        "requirements": ">= 0"
       },
       {
         "name": "enju_oai",
@@ -12438,11 +12838,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_subject",
+        "name": "enju_resource_merge",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_resource_merge",
+        "name": "enju_subject",
         "requirements": ">= 0"
       }
     ],
@@ -12490,15 +12890,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_export",
-        "requirements": ">= 0"
-      },
-      {
         "name": "enju_circulation",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_event",
+        "name": "enju_export",
         "requirements": ">= 0"
       },
       {
@@ -12507,6 +12903,10 @@
       },
       {
         "name": "enju_library",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_event",
         "requirements": ">= 0"
       },
       {
@@ -12522,19 +12922,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_purchase_request",
-        "requirements": ">= 0"
-      },
-      {
         "name": "enju_question",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_subject",
+        "name": "enju_purchase_request",
         "requirements": ">= 0"
       },
       {
         "name": "enju_resource_merge",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_subject",
         "requirements": ">= 0"
       },
       {
@@ -12619,19 +13019,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_circulation",
-        "requirements": ">= 0"
-      },
-      {
         "name": "enju_bookmark",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_event",
+        "name": "enju_circulation",
         "requirements": ">= 0"
       },
       {
         "name": "enju_library",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "enju_event",
         "requirements": ">= 0"
       },
       {
@@ -12647,11 +13047,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_subject",
+        "name": "enju_resource_merge",
         "requirements": ">= 0"
       },
       {
-        "name": "enju_resource_merge",
+        "name": "enju_subject",
         "requirements": ">= 0"
       }
     ],
@@ -12842,7 +13242,7 @@
     "description": "No Rails ActiveRecord"
   },
   "enrico": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -12950,6 +13350,13 @@
     ],
     "description": "A quick mixin that lets you quickly define methods to ensure a parameter exists on a request"
   },
+  "ensure_subdomain": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Ensure requests are going to the right subdomain to avoid competing with yourself for dem SERPs. Adds a couple methods to ActionDispatch for routes."
+  },
   "ensure_valid_encoding": {
     "version": "0.5.3",
     "dependents": [
@@ -12958,8 +13365,16 @@
         "requirements": "~> 0.5.3"
       },
       {
+        "name": "marc",
+        "requirements": ">= 0"
+      },
+      {
         "name": "openurl",
         "requirements": ">= 0"
+      },
+      {
+        "name": "traject_horizon",
+        "requirements": ">= 0.5.3"
       },
       {
         "name": "umlaut",
@@ -13016,6 +13431,13 @@
 
     ],
     "description": "Various scripts used on an enterprise VM."
+  },
+  "enterprise_mti": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "    Enterprise MTI is gem that adds multiple table inheritance to Active\n    Record models backed by database-level referential integrity.  The\n    design and the project's name are inspired by Dan Chak's book,\n    \"Enterprise Rails,\" from which some code has been taken.\n"
   },
   "enterprise_time_extensions": {
     "version": "1.0",
@@ -13095,7 +13517,7 @@
     "description": "An easy to use Key/Value store for any Ruby on Rails project. Like Memcache, only persistent. Stores config values &amp; application wide state in the database in order to survive server restarts.\n\nDesigned to allow you to add persistent value storage to any Rails project in about 5 minutes.\n\nAdditionally, allows users to set a list of default keys that auto-initializes baseline key/value pairs in the database for easy initialization."
   },
   "entity_store": {
-    "version": "0.2.3",
+    "version": "0.2.9",
     "dependents": [
 
     ],
@@ -13147,8 +13569,12 @@
     "description": "This little gem calculates the entropy and ( the cardinality) of a finite probability space, defined by a probability vector; and of a finite probability metric space, defined by a probability vector and metric function. Requires ruby 1.9.x"
   },
   "entypo-rails": {
-    "version": "2.0.2",
+    "version": "2.1.0",
     "dependents": [
+      {
+        "name": "avocado",
+        "requirements": ">= 0"
+      },
       {
         "name": "publish_my_data",
         "requirements": ">= 0"
@@ -13269,7 +13695,7 @@
     "description": "Defines Enumerable#to_h ; See https://bugs.ruby-lang.org/issues/7292"
   },
   "enum_type": {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "dependents": [
 
     ],
@@ -13406,6 +13832,13 @@
     ],
     "description": "Enumeradical is a collection of useful functions for iterating over collections in common ways."
   },
+  "enumerate": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "    Enumerate adds an `enumerate` command to all ActiveRecord models, enabling you to work with string or integer columns as if they were enums.\n\n    The following features are added to your model:\n      Validation - ensures that the field only receives accepted values\n      Predicate Methods - adds ? and ! functions for each enum value\n      Scopes - you can easily query for values of the enum\n"
+  },
   "enumerate_by": {
     "version": "0.4.4",
     "dependents": [
@@ -13472,12 +13905,16 @@
       {
         "name": "enumerated_state",
         "requirements": ">= 0.2.10"
+      },
+      {
+        "name": "jdc-planning",
+        "requirements": ">= 0"
       }
     ],
     "description": "Enumerated model attributes and view helpers"
   },
   "enumerated_field": {
-    "version": "1.0",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "sendgrid_events_pbxx",
@@ -13498,7 +13935,7 @@
     "description": "Implement state patterns for your enumerated_attributes"
   },
   "enumerated_type": {
-    "version": "0.0.2",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -13540,7 +13977,7 @@
     "description": "Allows you to treat instances of your ActiveRecord models as though they were an enumeration of values"
   },
   "enumerative": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -13590,6 +14027,10 @@
       {
         "name": "droom",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kebab_remote_api",
+        "requirements": "~> 0.7.0"
       },
       {
         "name": "mix-rails-core",
@@ -13662,6 +14103,23 @@
     ],
     "description": "Allows your to manage many ENV vars by declaring them as dependencies on ENV vars and then enforcing those dependencies.  Supports wrapping URIs with support methods."
   },
+  "env_bang": {
+    "version": "0.2.5",
+    "dependents": [
+      {
+        "name": "env_bang-rails",
+        "requirements": "= 0.2.5"
+      }
+    ],
+    "description": "ENV! provides a thin wrapper around ENV to encourage central, self-documenting configuration and helpful error message."
+  },
+  "env_bang-rails": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ],
+    "description": "ENV! provides a thin wrapper around ENV to encourage central, self-documenting configuration and helpful error message."
+  },
   "env_config": {
     "version": "0.2.0",
     "dependents": [
@@ -13675,6 +14133,13 @@
 
     ],
     "description": "use ENV['http_proxy'] for Net::HTTP"
+  },
+  "env_loader": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Reads a YAML file and creates ENV variables from it"
   },
   "envb-rails": {
     "version": "0.0.5",
@@ -13691,17 +14156,17 @@
     "description": "Provides a simple way to test that your environment is configured correctly."
   },
   "envconfig": {
-    "version": "0.0.3",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "envconfig-rails",
-        "requirements": "= 0.0.3"
+        "requirements": "= 1.0.0"
       }
     ],
     "description": "Connect your app to backing services via Broadstack/Heroku-style ENV vars."
   },
   "envconfig-rails": {
-    "version": "0.0.3",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -13778,14 +14243,18 @@
     "description": "A library that makes environment dependent configuration easy in rails."
   },
   "environment_information": {
-    "version": "1.0.8",
+    "version": "1.0.14",
     "dependents": [
+      {
+        "name": "cyberweb",
+        "requirements": ">= 0"
+      },
       {
         "name": "DIAMOND_SHELL",
         "requirements": ">= 0"
       }
     ],
-    "description": "\nThis small library, consisting of just one .rb file, will\noutput some information about the environment, i.e. GCC\nVersion, Glibc Version, Ruby Version, Host CPU model and\nso on. It will store this information in the instance_variable\n@string, which can be accessed through a reader-method \nand used in other scripts.\n\nThere are two basic and recommended ways how to use this\nclass:\n  (1) From the commandline, just call it directly and\n      pass it specific commands (optionally).\n  (2) Embedded somewhere else, i.e. for use in a .cgi\n  page. An example for the latter follows:\n   \n   _ = EnvironmentInformation.new(false)\n   _.set_n_tokens 58\n   _.disable_colours\n   _.be_silent\n   _.dont_show_ruby_stuff\n   _.run\n\nYou can also display some additional information, such\nas GTK, Glib, Atk and Pango Versions, by passing in\n\"f\" or \"full\" on the commandline. See the help section\nof this script, which you can invoke by passing \"help\"\nas argument to it.\n\nSince April 2013 it will use the module UnifiedColours\nfor colour-related output.\n\n"
+    "description": "\n    This small library, consisting of just one .rb file, will\n    output some information about the environment, i.e. GCC\n    Version, Glibc Version, Ruby Version, Host CPU model and\n    so on. It will store this information in the instance_variable\n    @string, which can be accessed through a reader-method \n    and used in other scripts.\n    \n    There are two basic and recommended ways how to use this\n    class:\n      (1) From the commandline, just call it directly and\n          pass it specific commands (optionally).\n      (2) Embedded somewhere else, i.e. for use in a .cgi\n      page. An example for the latter follows:\n       \n       _ = EnvironmentInformation.new(false)\n       _.set_n_tokens 58\n       _.disable_colours\n       _.be_silent\n       _.dont_show_ruby_stuff\n       _.run\n   \n    You can also display some additional information, such\n    as GTK, Glib, Atk and Pango Versions, by passing in\n    \"f\" or \"full\" on the commandline. See the help section\n    of this script, which you can invoke by passing \"help\"\n    as argument to it.\n    \n    Since April 2013 it will use the module UnifiedColours\n    for colour-related output.\n\n    Since Nov 2013 we will also feedback openssl information\n    if you pass in the syntax \"openssl\" to it.\n\n"
   },
   "environment_initializers": {
     "version": "0.0.1",
@@ -13855,12 +14324,12 @@
         "requirements": "= 0.3.7"
       },
       {
-        "name": "jazz",
-        "requirements": ">= 0.1.7"
-      },
-      {
         "name": "jazrb",
         "requirements": ">= 0.1.0"
+      },
+      {
+        "name": "jazz",
+        "requirements": ">= 0.1.7"
       },
       {
         "name": "juliocesar-harmony",
@@ -13871,11 +14340,11 @@
         "requirements": "= 0.3.7"
       },
       {
-        "name": "universe-rack-testing",
+        "name": "universe-javascript",
         "requirements": ">= 0"
       },
       {
-        "name": "universe-javascript",
+        "name": "universe-rack-testing",
         "requirements": ">= 0"
       }
     ],
@@ -13976,7 +14445,7 @@
     "description": "Enzyme is a tool developed by Katalyst to make collaborating on projects easier."
   },
   "eoat": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -14111,6 +14580,13 @@
 
     ],
     "description": "Manage, deploy and create Enterprise PaaS applications using the Agility Release Manager system and the epc gem. run epc to see all the options and help"
+  },
+  "epdiff": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "diff command for EPUB files."
   },
   "epf-rails": {
     "version": "1.1.0",
@@ -14295,7 +14771,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "epitools": {
-    "version": "0.5.36",
+    "version": "0.5.39",
     "dependents": [
 
     ],
@@ -14539,14 +15015,14 @@
     "description": "Provides tool and library of full text search for EPUB books"
   },
   "epub_validator": {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "epub-parser",
         "requirements": ">= 0"
       }
     ],
-    "description": "EPUB Validator lets you check that your EPUB files are valid IDPF documents with the help of the epubcheck tool."
+    "description": "EPUB Validator is a Ruby wrapper for the Java epubcheck tool; validating EPUB files against the IDPF standard."
   },
   "epubbery": {
     "version": "0.2.0",
@@ -14559,15 +15035,22 @@
     "version": "3.0.0",
     "dependents": [
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       }
     ],
     "description": "This is a command-line ePub check tool. It is wrapper of epubcheck(http://code.google.com/p/epubcheck/)."
+  },
+  "EPUBChop": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Create EPUB previews"
   },
   "epubforge": {
     "version": "0.0.9",
@@ -14581,6 +15064,16 @@
     "dependents": [
       {
         "name": "epinfo",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Supports EPUB2 and EPUB3 formats."
+  },
+  "epubinfo_with_toc": {
+    "version": "0.4.5",
+    "dependents": [
+      {
+        "name": "EPUBChop",
         "requirements": ">= 0"
       }
     ],
@@ -14604,11 +15097,11 @@
     "version": "0.8.0",
     "dependents": [
       {
-        "name": "epub-parser",
+        "name": "epub-maker",
         "requirements": ">= 0"
       },
       {
-        "name": "epub-maker",
+        "name": "epub-parser",
         "requirements": ">= 0"
       }
     ],
@@ -14636,7 +15129,7 @@
     "description": "Grants equal rights for Hash like other Ruby data\n                     structures: Array, String, Integer, and Float."
   },
   "equalizer": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
       {
         "name": "anima",
@@ -14661,6 +15154,10 @@
       {
         "name": "axiom-arango-adapter",
         "requirements": "~> 0.0.5"
+      },
+      {
+        "name": "casted_hash",
+        "requirements": ">= 0.0.7"
       },
       {
         "name": "concord",
@@ -14707,7 +15204,7 @@
         "requirements": "~> 0.0.7"
       },
       {
-        "name": "rom-relation",
+        "name": "rom-session",
         "requirements": "~> 0.0.7"
       },
       {
@@ -14715,7 +15212,7 @@
         "requirements": "~> 0.0.7"
       },
       {
-        "name": "rom-session",
+        "name": "rom-relation",
         "requirements": "~> 0.0.7"
       },
       {
@@ -14725,6 +15222,10 @@
       {
         "name": "to_source",
         "requirements": "~> 0.0.5"
+      },
+      {
+        "name": "twitter",
+        "requirements": "~> 0.0.7"
       },
       {
         "name": "unparser",
@@ -14827,6 +15328,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "earl-report",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gearbox",
         "requirements": ">= 0"
       },
@@ -14887,16 +15392,16 @@
         "requirements": ">= 0.3.0"
       },
       {
-        "name": "rdf-rdfa",
-        "requirements": ">= 0.3.0"
-      },
-      {
         "name": "rdf-rdfxml",
         "requirements": ">= 0.2.8"
       },
       {
+        "name": "rdf-rdfa",
+        "requirements": ">= 0.3.0"
+      },
+      {
         "name": "rdf-xsd",
-        "requirements": ">= 0.2.8"
+        "requirements": ">= 0.3.0"
       },
       {
         "name": "rgeoserver",
@@ -14931,16 +15436,16 @@
         "requirements": "~> 0.2.9"
       },
       {
-        "name": "vcr-xml",
-        "requirements": "~> 0.3.0"
-      },
-      {
         "name": "vcloud-net-spinner",
         "requirements": "~> 0.2.9"
       },
       {
         "name": "vcloud-network-configurator",
         "requirements": "~> 0.2.9"
+      },
+      {
+        "name": "vcr-xml",
+        "requirements": "~> 0.3.0"
       }
     ],
     "description": "Compares two XML Nodes (Documents, etc.) for certain semantic equivalencies. \n    Currently written for Nokogiri, but with an eye toward supporting multiple XML libraries"
@@ -14967,7 +15472,7 @@
     "description": "Print the time a block takes but still return its value."
   },
   "era_ja": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -15513,12 +16018,12 @@
     "version": "3.1.16",
     "dependents": [
       {
-        "name": "compass_ae",
-        "requirements": "~> 3.1.0"
-      },
-      {
         "name": "compass_ae_console",
         "requirements": "~> 3.1"
+      },
+      {
+        "name": "compass_ae",
+        "requirements": "~> 3.1.0"
       },
       {
         "name": "erp_financial_accounting",
@@ -15586,7 +16091,7 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_app",
+        "name": "erp_commerce",
         "requirements": "~> 3.1"
       },
       {
@@ -15594,7 +16099,7 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_commerce",
+        "name": "erp_app",
         "requirements": "~> 3.1"
       },
       {
@@ -15602,11 +16107,11 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_inventory",
+        "name": "erp_forms",
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_forms",
+        "name": "erp_inventory",
         "requirements": "~> 3.1"
       },
       {
@@ -15618,6 +16123,10 @@
         "requirements": "~> 3.1"
       },
       {
+        "name": "erp_search",
+        "requirements": "~> 3.1"
+      },
+      {
         "name": "erp_rules",
         "requirements": "~> 3.1"
       },
@@ -15626,19 +16135,15 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_search",
-        "requirements": "~> 3.1"
-      },
-      {
         "name": "erp_tech_svcs",
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_work_effort",
+        "name": "erp_txns_and_accts",
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_txns_and_accts",
+        "name": "erp_work_effort",
         "requirements": "~> 3.1"
       },
       {
@@ -15752,11 +16257,11 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_app",
+        "name": "erp_communication_events",
         "requirements": "~> 3.1"
       },
       {
-        "name": "erp_communication_events",
+        "name": "erp_app",
         "requirements": "~> 3.1"
       },
       {
@@ -15802,7 +16307,7 @@
     "description": "Rails Engine for rendering error pages"
   },
   "err_supply": {
-    "version": "0.1.7",
+    "version": "0.1.10",
     "dependents": [
 
     ],
@@ -15834,11 +16339,11 @@
         "requirements": ">= 1.0.1"
       },
       {
-        "name": "remote_table",
+        "name": "remote_table-ruby19",
         "requirements": ">= 0.2.0"
       },
       {
-        "name": "remote_table-ruby19",
+        "name": "remote_table",
         "requirements": ">= 0.2.0"
       }
     ],
@@ -15858,8 +16363,46 @@
     ],
     "description": "Nice error handling"
   },
+  "errawr": {
+    "version": "1.1.6",
+    "dependents": [
+      {
+        "name": "errawr-rails",
+        "requirements": ">= 1.1.3"
+      },
+      {
+        "name": "errawr-http",
+        "requirements": ">= 1.1.3"
+      },
+      {
+        "name": "rosebud",
+        "requirements": "~> 1.1.5"
+      }
+    ],
+    "description": "Easily define and raise localized errors."
+  },
+  "errawr-http": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "errawr-rails",
+        "requirements": ">= 1.0.1"
+      }
+    ],
+    "description": "Raise 4xx and 5xx HTTP status code errors using Errawr"
+  },
+  "errawr-rails": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "rosebud",
+        "requirements": "~> 1.0.0"
+      }
+    ],
+    "description": "Raise and render errors in Rails using Errawr"
+  },
   "errbag": {
-    "version": "0.0.3",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -15957,7 +16500,7 @@
     "description": "Single error message for Rails Form"
   },
   "error_messages": {
-    "version": "0.2.6",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -16013,7 +16556,7 @@
     "description": "Logs exceptions to a pluggable backend. Also provides a server for centralized exception logging using a pluggable data store."
   },
   "errorapp_notifier": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -16026,12 +16569,26 @@
     ],
     "description": "A ruby client for www.errordite.com"
   },
+  "errorhandlr": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Longer stealth mode ftw"
+  },
   "errorinbox": {
     "version": "0.0.6",
     "dependents": [
 
     ],
     "description": "Send exceptions to errorinbox.com"
+  },
+  "errorkit": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "ErrorKit allows you to track errors within your application and generate a notification when they happen."
   },
   "errornot_notifier": {
     "version": "1.1.1",
@@ -16105,10 +16662,6 @@
       },
       {
         "name": "admin-helper",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ahc",
         "requirements": ">= 0"
       },
       {
@@ -16200,6 +16753,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "chef-handler-zookeeper",
+        "requirements": ">= 0"
+      },
+      {
         "name": "chester",
         "requirements": ">= 2.6.5"
       },
@@ -16210,6 +16767,10 @@
       {
         "name": "city-watch",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cloudstack-nagios",
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "coffee-processing",
@@ -16244,6 +16805,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "datastory",
+        "requirements": "~> 2.7.0"
+      },
+      {
         "name": "debug-bar",
         "requirements": ">= 0"
       },
@@ -16268,12 +16833,12 @@
         "requirements": "~> 2.7.0"
       },
       {
-        "name": "erb2haml_cli",
-        "requirements": "> 0"
-      },
-      {
         "name": "erb2slim",
         "requirements": ">= 0"
+      },
+      {
+        "name": "erb2haml_cli",
+        "requirements": "> 0"
       },
       {
         "name": "erector",
@@ -16284,6 +16849,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "erubis_rails_helper",
+        "requirements": ">= 2.6.2"
+      },
+      {
         "name": "erubis-auto",
         "requirements": ">= 2.7.0"
       },
@@ -16292,15 +16861,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "erubis_rails_helper",
-        "requirements": ">= 2.6.2"
-      },
-      {
         "name": "ESBify",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "exception-formatter",
         "requirements": ">= 0"
       },
       {
@@ -16460,6 +17021,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "i18n-tasks",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ichiban",
         "requirements": ">= 0"
       },
@@ -16529,6 +17094,10 @@
       },
       {
         "name": "link2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "liquid-ext",
         "requirements": ">= 0"
       },
       {
@@ -16656,6 +17225,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "norikra",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nuodb",
         "requirements": "~> 2.7.0"
       },
@@ -16669,6 +17242,10 @@
       },
       {
         "name": "portera",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "potion",
         "requirements": ">= 0"
       },
       {
@@ -16757,6 +17334,10 @@
       },
       {
         "name": "rubycut-sinatra-contrib",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rulers_seanfred",
         "requirements": ">= 0"
       },
       {
@@ -16882,10 +17463,6 @@
       {
         "name": "ti",
         "requirements": "~> 2.7.0"
-      },
-      {
-        "name": "tilt",
-        "requirements": ">= 0"
       },
       {
         "name": "tiny",
@@ -17051,6 +17628,16 @@
     ],
     "description": "Asset gem for es5-shim"
   },
+  "es6_module_transpiler-rails": {
+    "version": "0.3.0",
+    "dependents": [
+      {
+        "name": "ember-appkit-rails",
+        "requirements": "~> 0.3.0"
+      }
+    ],
+    "description": "Compile ES6 modules in the asset pipeline"
+  },
   "es_dump_restore": {
     "version": "0.0.6",
     "dependents": [
@@ -17064,6 +17651,13 @@
 
     ],
     "description": "A simple HTTP and REST client for Ruby, inspired by the Sinatra microframework style of specifying actions: get, put, post, delete."
+  },
+  "esb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A command line tool to tell you what color the empire state building is, and why."
   },
   "ESBify": {
     "version": "0.1.2",
@@ -17150,6 +17744,10 @@
         "requirements": "= 0.0.4"
       },
       {
+        "name": "etree",
+        "requirements": ">= 0"
+      },
+      {
         "name": "flare",
         "requirements": ">= 0.0.4"
       },
@@ -17182,11 +17780,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "inception",
+        "name": "inception-server",
         "requirements": ">= 0"
       },
       {
-        "name": "inception-server",
+        "name": "inception",
         "requirements": ">= 0"
       },
       {
@@ -17326,10 +17924,6 @@
         "requirements": ">= 0.0.4"
       },
       {
-        "name": "ubuntu-server-setup",
-        "requirements": ">= 0"
-      },
-      {
         "name": "vendorificator",
         "requirements": ">= 0"
       },
@@ -17355,14 +17949,22 @@
     "description": "Game built for Writing Games with Ruby presentation at RubyConf 2010."
   },
   "escape_utils": {
-    "version": "0.3.2",
+    "version": "1.0.0",
     "dependents": [
+      {
+        "name": "classy_assets",
+        "requirements": ">= 0"
+      },
       {
         "name": "Dex_Rack",
         "requirements": ">= 0"
       },
       {
         "name": "diffed",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "elasticsearch-api",
         "requirements": ">= 0"
       },
       {
@@ -17379,27 +17981,27 @@
       },
       {
         "name": "flaky",
-        "requirements": "~> 0.3.2"
-      },
-      {
-        "name": "geothird-linguist",
-        "requirements": "~> 0.3.1"
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "geothird-html-pipeline",
         "requirements": "~> 0.3"
       },
       {
-        "name": "github-linguist",
+        "name": "geothird-linguist",
         "requirements": "~> 0.3.1"
       },
       {
-        "name": "html-pipeline",
-        "requirements": "~> 0.3"
+        "name": "github-linguist",
+        "requirements": ">= 0.3.1"
+      },
+      {
+        "name": "gitlab-linguist",
+        "requirements": "~> 0.2.4"
       },
       {
         "name": "html-pipeline-linuxfr",
-        "requirements": "~> 0.3"
+        "requirements": "~> 1.0"
       },
       {
         "name": "html-pipeline-no-charlock",
@@ -17428,6 +18030,10 @@
       {
         "name": "sinatra-tag-helpers",
         "requirements": ">= 0.3.0"
+      },
+      {
+        "name": "string_awesome",
+        "requirements": "~> 1.0"
       },
       {
         "name": "tanuki",
@@ -17513,6 +18119,10 @@
       {
         "name": "boiler",
         "requirements": ">= 0"
+      },
+      {
+        "name": "chef-ladder",
+        "requirements": "~> 0.4.0"
       },
       {
         "name": "ppjson",
@@ -17665,11 +18275,11 @@
         "requirements": "= 0.8.0"
       },
       {
-        "name": "eson-more",
+        "name": "eson-http",
         "requirements": ">= 0"
       },
       {
-        "name": "eson-http",
+        "name": "eson-more",
         "requirements": ">= 0"
       }
     ],
@@ -17802,6 +18412,20 @@
     ],
     "description": "espeak-ruby is small Ruby API for utilizing âespeakâ and âlameâ to create Text-To-Speech mp3 files"
   },
+  "ESPGem": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "A gem to access ESPN's public API"
+  },
+  "espinita": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Audit activerecord models like a boss"
+  },
   "espn": {
     "version": "0.2.0",
     "dependents": [
@@ -17866,7 +18490,7 @@
     "description": "YAQS (tm). (Yet Another Queuing Solution"
   },
   "esriveter": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -17946,7 +18570,7 @@
     "description": "abstracting out things"
   },
   "estorm-message-processor": {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "dependents": [
 
     ],
@@ -17988,7 +18612,7 @@
     "description": "A simple Subversion client for Ruby"
   },
   "esx": {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "dependents": [
       {
         "name": "boxgrinder-esx-delivery-plugin",
@@ -18004,7 +18628,7 @@
       },
       {
         "name": "knife-esx",
-        "requirements": ">= 0.4.2"
+        "requirements": ">= 0.4.4"
       }
     ],
     "description": "Manage VMWare ESX hosts with ease"
@@ -18041,11 +18665,11 @@
     "version": "0.0.12",
     "dependents": [
       {
-        "name": "etabliocms_galleries",
+        "name": "etabliocms_actualities",
         "requirements": ">= 0"
       },
       {
-        "name": "etabliocms_actualities",
+        "name": "etabliocms_galleries",
         "requirements": ">= 0"
       },
       {
@@ -18132,19 +18756,19 @@
     ],
     "description": "Ruby client library for etcd"
   },
-  "Etch": {
-    "version": "unknown",
-    "dependents": [
-
-    ],
-    "description": "A Win32 Printing Library"
-  },
   "etch": {
     "version": "4.0.0",
     "dependents": [
 
     ],
     "description": "Etch system configuration management client"
+  },
+  "Etch": {
+    "version": "unknown",
+    "dependents": [
+
+    ],
+    "description": "A Win32 Printing Library"
   },
   "etcutils": {
     "version": "unknown",
@@ -18179,7 +18803,7 @@
     "description": "Embedded testing"
   },
   "etest-unit": {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "dependents": [
 
     ],
@@ -18223,11 +18847,11 @@
     "version": "0.1.3",
     "dependents": [
       {
-        "name": "ether_ping",
+        "name": "ether_shell",
         "requirements": ">= 0.1.0"
       },
       {
-        "name": "ether_shell",
+        "name": "ether_ping",
         "requirements": ">= 0.1.0"
       }
     ],
@@ -18301,8 +18925,29 @@
     ],
     "description": "Uses fast operations without relying onto maven to convert eclipse plugins to maven artifacts witin a local maven repository. "
   },
+  "etoro_utility_mcollective": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "test"
+  },
+  "etree": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Scripts for converting flac files posted to http://bt.etree.org to MP3"
+  },
+  "ETSII_GEM": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "\"Gema para la representación de matrices, tanto densas como dispersas.\""
+  },
   "etsy": {
-    "version": "0.2.3",
+    "version": "0.2.5",
     "dependents": [
       {
         "name": "mad_cart",
@@ -18459,12 +19104,12 @@
         "requirements": "~> 1.2.9"
       },
       {
-        "name": "euston-daemons",
-        "requirements": "~> 1.2.9"
-      },
-      {
         "name": "euston-rabbitmq",
         "requirements": "~> 1.2.0"
+      },
+      {
+        "name": "euston-daemons",
+        "requirements": "~> 1.2.9"
       }
     ],
     "description": "Cqrs tooling."
@@ -18484,12 +19129,12 @@
         "requirements": "~> 1.2.3"
       },
       {
-        "name": "euston-daemons",
-        "requirements": "~> 1.2.3"
-      },
-      {
         "name": "euston-rabbitmq",
         "requirements": "~> 1.2.0"
+      },
+      {
+        "name": "euston-daemons",
+        "requirements": "~> 1.2.3"
       }
     ],
     "description": "Ruby port for Jonathan Oliver's EventStore. See https://github.com/joliver/EventStore for details."
@@ -18540,7 +19185,7 @@
     "description": "Codepad is a remote code evaluation service. eval uses codepad to run code from various languages. Think of it as Ruby's eval from the command line."
   },
   "evalhook": {
-    "version": "0.5.5",
+    "version": "0.5.7",
     "dependents": [
       {
         "name": "shikashi",
@@ -18736,6 +19381,13 @@
     ],
     "description": "\n    event_shipper reads log files and sends each line in logstash JSON format \n    via encrypted UDP to redis.\n  "
   },
+  "event_aggregator": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A simple Ruby event aggregator."
+  },
   "event_attribute": {
     "version": "1.0.1",
     "dependents": [
@@ -18775,7 +19427,7 @@
     "description": "Provides basic event management features with versioned history of changes."
   },
   "event_counter": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -18851,7 +19503,7 @@
     "description": "Ruby port of EventEmitter from Node.js"
   },
   "event_girl_client": {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -19186,11 +19838,11 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "_bushido-faye-websocket",
+        "name": "_bushido-faye",
         "requirements": ">= 0.12.0"
       },
       {
-        "name": "_bushido-faye",
+        "name": "_bushido-faye-websocket",
         "requirements": ">= 0.12.0"
       },
       {
@@ -19206,11 +19858,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amaze_sns",
+        "name": "amaze-sms",
         "requirements": ">= 0.12.10"
       },
       {
-        "name": "amaze-sms",
+        "name": "amaze_sns",
         "requirements": ">= 0.12.10"
       },
       {
@@ -19222,12 +19874,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amqp-daemon-kit",
-        "requirements": ">= 0.12.10"
-      },
-      {
         "name": "amqp",
         "requirements": ">= 0"
+      },
+      {
+        "name": "amqp-daemon-kit",
+        "requirements": ">= 0.12.10"
       },
       {
         "name": "analogger",
@@ -19294,12 +19946,12 @@
         "requirements": ">= 0.12.9"
       },
       {
-        "name": "asynchro",
-        "requirements": ">= 0"
-      },
-      {
         "name": "async_sinatra",
         "requirements": ">= 0.12.11"
+      },
+      {
+        "name": "asynchro",
+        "requirements": ">= 0"
       },
       {
         "name": "audio_player",
@@ -19342,11 +19994,11 @@
         "requirements": ">= 0.12"
       },
       {
-        "name": "bbrowning-deltacloud-core",
+        "name": "bbrowning-ponder",
         "requirements": ">= 0.12.10"
       },
       {
-        "name": "bbrowning-ponder",
+        "name": "bbrowning-deltacloud-core",
         "requirements": ">= 0.12.10"
       },
       {
@@ -19368,10 +20020,6 @@
       {
         "name": "birdgrinder",
         "requirements": ">= 0.12.10"
-      },
-      {
-        "name": "bitcoin-ruby",
-        "requirements": ">= 0"
       },
       {
         "name": "bite_the_dust",
@@ -19410,12 +20058,12 @@
         "requirements": "~> 0.12.10"
       },
       {
-        "name": "blur",
-        "requirements": "> 0.12"
-      },
-      {
         "name": "blurrily",
         "requirements": ">= 0"
+      },
+      {
+        "name": "blur",
+        "requirements": "> 0.12"
       },
       {
         "name": "boat",
@@ -19455,6 +20103,10 @@
       },
       {
         "name": "bud",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bugsnag-em",
         "requirements": ">= 0"
       },
       {
@@ -19726,18 +20378,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-apn",
-        "requirements": ">= 1.0.0.beta.3"
-      },
-      {
-        "name": "em-beanstalk",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "em-berp-protocol",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-apns",
         "requirements": ">= 1.0.0.beta.3"
       },
@@ -19746,16 +20386,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-betfair",
+        "name": "em-apn",
+        "requirements": ">= 1.0.0.beta.3"
+      },
+      {
+        "name": "em-berp-protocol",
         "requirements": ">= 0"
+      },
+      {
+        "name": "em-beanstalk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-ci",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "em-campfire",
         "requirements": "~> 1.0"
       },
       {
-        "name": "em-ci",
-        "requirements": "~> 1.0.3"
+        "name": "em-betfair",
+        "requirements": ">= 0"
       },
       {
         "name": "em-cometio-client",
@@ -19774,28 +20426,32 @@
         "requirements": ">= 0.12.10"
       },
       {
-        "name": "em-dns",
-        "requirements": ">= 0"
+        "name": "em-eventsource",
+        "requirements": "~> 1.0.0.beta3"
       },
       {
         "name": "em-easy",
         "requirements": "~> 0.12.10"
       },
       {
-        "name": "em-eventsource",
-        "requirements": "~> 1.0.0.beta3"
+        "name": "em-dns",
+        "requirements": ">= 0"
       },
       {
         "name": "em-flickraw",
         "requirements": ">= 1.0.0.beta.3"
       },
       {
+        "name": "em-fs",
+        "requirements": ">= 0"
+      },
+      {
         "name": "em-ftp-client",
         "requirements": ">= 0"
       },
       {
-        "name": "em-fs",
-        "requirements": ">= 0"
+        "name": "em-ftpd",
+        "requirements": "~> 1.0.0.beta1"
       },
       {
         "name": "em-files",
@@ -19806,11 +20462,11 @@
         "requirements": "= 1.0.1"
       },
       {
-        "name": "em-ftpd",
-        "requirements": "~> 1.0.0.beta1"
+        "name": "em-handlersocket",
+        "requirements": ">= 0"
       },
       {
-        "name": "em-handlersocket",
+        "name": "em-http-server",
         "requirements": ">= 0"
       },
       {
@@ -19818,19 +20474,15 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "em-http-server",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-http-request-webdav",
         "requirements": ">= 1.0.0.beta.1"
       },
       {
-        "name": "em-instagram",
+        "name": "em-imap",
         "requirements": ">= 0"
       },
       {
-        "name": "em-imap",
+        "name": "em-instagram",
         "requirements": ">= 0"
       },
       {
@@ -19846,23 +20498,19 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "em-langrove",
-        "requirements": ">= 0.12.10, ~> 0.12"
-      },
-      {
-        "name": "em-mailer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-logger",
         "requirements": ">= 0.12.10"
+      },
+      {
+        "name": "em-langrove",
+        "requirements": ">= 0.12.10, ~> 0.12"
       },
       {
         "name": "em-minitest-spec",
         "requirements": ">= 0"
       },
       {
-        "name": "em-monitor",
+        "name": "em-minitest",
         "requirements": ">= 0"
       },
       {
@@ -19870,11 +20518,19 @@
         "requirements": ">= 0.12.10"
       },
       {
-        "name": "em-minitest",
+        "name": "em-mqtt",
         "requirements": ">= 0"
       },
       {
-        "name": "em-mqtt",
+        "name": "em-mailer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-monitor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-mqtts",
         "requirements": ">= 0"
       },
       {
@@ -19882,16 +20538,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-mysql",
-        "requirements": ">= 0.12.9"
-      },
-      {
         "name": "em-mysqlplus",
         "requirements": ">= 0.12.9"
       },
       {
-        "name": "em-nordnet",
-        "requirements": ">= 0"
+        "name": "em-mysql",
+        "requirements": ">= 0.12.9"
       },
       {
         "name": "em-net-http",
@@ -19902,7 +20554,7 @@
         "requirements": ">= 0.12.10"
       },
       {
-        "name": "em-mqtts",
+        "name": "em-nordnet",
         "requirements": ">= 0"
       },
       {
@@ -19926,16 +20578,16 @@
         "requirements": ">= 0.12.9"
       },
       {
-        "name": "em-printer-serialport",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "em-priority-queue",
         "requirements": ">= 1.0.0.beta.3"
       },
       {
         "name": "em-promise",
         "requirements": ">= 1.0.0.beta.4"
+      },
+      {
+        "name": "em-printer-serialport",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "em-proxy",
@@ -19950,15 +20602,15 @@
         "requirements": ">= 0.12.10"
       },
       {
+        "name": "em-redis",
+        "requirements": ">= 0"
+      },
+      {
         "name": "em-redislite",
         "requirements": ">= 0"
       },
       {
         "name": "em-rocketio-client",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "em-redis",
         "requirements": ">= 0"
       },
       {
@@ -19970,24 +20622,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-scheduled-timer",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "em-ruby-irc",
-        "requirements": ">= 0.12.8"
-      },
-      {
-        "name": "em-scenario",
-        "requirements": "= 1.0.0.beta.3"
+        "name": "em-rspec",
+        "requirements": ">= 0.12.10"
       },
       {
         "name": "em-rtmp",
         "requirements": ">= 0"
       },
       {
-        "name": "em-rspec",
-        "requirements": ">= 0.12.10"
+        "name": "em-scenario",
+        "requirements": "= 1.0.0.beta.3"
+      },
+      {
+        "name": "em-scheduled-timer",
+        "requirements": "~> 1.0"
       },
       {
         "name": "em-sequel-async",
@@ -19995,10 +20643,6 @@
       },
       {
         "name": "em-sequence",
-        "requirements": ">= 0.12.10"
-      },
-      {
-        "name": "em-sflow",
         "requirements": ">= 0.12.10"
       },
       {
@@ -20010,19 +20654,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-simple_telnet",
-        "requirements": ">= 1.0.0"
+        "name": "em-sflow",
+        "requirements": ">= 0.12.10"
+      },
+      {
+        "name": "em-ruby-irc",
+        "requirements": ">= 0.12.8"
+      },
+      {
+        "name": "em-smsified",
+        "requirements": ">= 0"
       },
       {
         "name": "em-socksify",
         "requirements": ">= 1.0.0.beta.4"
       },
       {
-        "name": "em-ssh",
+        "name": "em-simple_telnet",
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "em-spec",
         "requirements": ">= 0"
       },
       {
-        "name": "em-smsified",
+        "name": "em-spec-helpers",
         "requirements": ">= 0"
       },
       {
@@ -20030,7 +20686,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-spec",
+        "name": "em-ssh",
         "requirements": ">= 0"
       },
       {
@@ -20038,16 +20694,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "em-spec-helpers",
+        "name": "em-synchrony-moped",
         "requirements": ">= 0"
       },
       {
         "name": "em-synchrony",
         "requirements": ">= 1.0.0.beta.1"
-      },
-      {
-        "name": "em-synchrony-moped",
-        "requirements": ">= 0"
       },
       {
         "name": "em-syslog-logger",
@@ -20062,6 +20714,18 @@
         "requirements": ">= 0"
       },
       {
+        "name": "em-test",
+        "requirements": ">= 1.0.0.beta.1"
+      },
+      {
+        "name": "em-throttled_queue",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-timers",
+        "requirements": ">= 0"
+      },
+      {
         "name": "em-tvdb",
         "requirements": "~> 1.0.0.rc"
       },
@@ -20070,16 +20734,8 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "em-throttled_queue",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-twitter-client",
         "requirements": ">= 1.0.0.beta.3"
-      },
-      {
-        "name": "em-test",
-        "requirements": ">= 1.0.0.beta.1"
       },
       {
         "name": "em-ucengine",
@@ -20094,15 +20750,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-ventually",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "em-udp-proxy",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "em-websocket-server",
+        "name": "em-websocket-proxy",
         "requirements": ">= 0.12.10"
       },
       {
@@ -20114,15 +20762,23 @@
         "requirements": ">= 0.12.9"
       },
       {
-        "name": "em-websocket-proxy",
-        "requirements": ">= 0.12.10"
-      },
-      {
         "name": "em-websocket-client",
         "requirements": ">= 0"
       },
       {
-        "name": "em-work_queue",
+        "name": "em-udp-proxy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-ventually",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-websocket-server",
+        "requirements": ">= 0.12.10"
+      },
+      {
+        "name": "em-websocketio-client",
         "requirements": ">= 0"
       },
       {
@@ -20130,7 +20786,11 @@
         "requirements": "= 1.0.0.beta.3"
       },
       {
-        "name": "em-websocketio-client",
+        "name": "em-work_queue",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "em-wrapper",
         "requirements": ">= 0"
       },
       {
@@ -20138,24 +20798,16 @@
         "requirements": "~> 1.0.0.beta.4"
       },
       {
-        "name": "em-wrapper",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "em-xmpp",
-        "requirements": ">= 0"
-      },
-      {
         "name": "em-xmlrpc-client",
         "requirements": ">= 0"
       },
       {
-        "name": "em-zeromq",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "em-zipper",
         "requirements": ">= 1.0.3"
+      },
+      {
+        "name": "em-xmpp",
+        "requirements": ">= 0"
       },
       {
         "name": "em-zmq",
@@ -20170,16 +20822,12 @@
         "requirements": "~> 1.0.0.beta4"
       },
       {
-        "name": "em_json_connection",
-        "requirements": ">= 0"
+        "name": "em-zeromq",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "em-zmq-tp10",
         "requirements": ">= 0"
-      },
-      {
-        "name": "em_pessimistic",
-        "requirements": "~> 1.0"
       },
       {
         "name": "em_mysql2_connection_pool",
@@ -20190,6 +20838,14 @@
         "requirements": ">= 0.12.10"
       },
       {
+        "name": "em_pessimistic",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "em_json_connection",
+        "requirements": ">= 0"
+      },
+      {
         "name": "em_remote_call",
         "requirements": ">= 0"
       },
@@ -20198,12 +20854,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em_rugged",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "em_ws_discovery",
         "requirements": ">= 0"
+      },
+      {
+        "name": "em_rugged",
+        "requirements": "~> 1.0"
       },
       {
         "name": "emdrb",
@@ -20278,6 +20934,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "eventmachinealignedperiodic",
+        "requirements": "~> 1.0.3"
+      },
+      {
         "name": "exception_handling",
         "requirements": ">= 0.12.10"
       },
@@ -20314,20 +20974,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "faye-server",
-        "requirements": ">= 0"
-      },
-      {
         "name": "faye-websocket",
         "requirements": ">= 0.12.0"
       },
       {
-        "name": "faye-redis",
-        "requirements": ">= 0.12.0"
+        "name": "faye-server",
+        "requirements": ">= 0"
       },
       {
         "name": "faye-rails",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "faye-redis",
+        "requirements": ">= 0.12.0"
       },
       {
         "name": "fenris",
@@ -20378,8 +21038,16 @@
         "requirements": ">= 0.12.0"
       },
       {
+        "name": "fluent-plugin-cloudstack",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fluent-plugin-nats",
         "requirements": "= 0.12.10"
+      },
+      {
+        "name": "fluent-plugin-network-probe",
+        "requirements": ">= 0"
       },
       {
         "name": "fnf",
@@ -20666,16 +21334,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "krakatoa-icmp4em",
+        "requirements": ">= 1.0.0.beta.4"
+      },
+      {
+        "name": "krakatoa-icmp4em",
+        "requirements": ">= 1.0.0.beta.4"
+      },
+      {
         "name": "kpigen",
         "requirements": "= 0.12.10"
-      },
-      {
-        "name": "krakatoa-icmp4em",
-        "requirements": ">= 1.0.0.beta.4"
-      },
-      {
-        "name": "krakatoa-icmp4em",
-        "requirements": ">= 1.0.0.beta.4"
       },
       {
         "name": "kronisk",
@@ -20726,8 +21394,16 @@
         "requirements": ">= 0.12.10"
       },
       {
+        "name": "librr",
+        "requirements": ">= 0"
+      },
+      {
         "name": "libsl",
         "requirements": ">= 0.12.10"
+      },
+      {
+        "name": "limitless-led",
+        "requirements": ">= 0"
       },
       {
         "name": "localhost",
@@ -20759,7 +21435,7 @@
       },
       {
         "name": "lookout-statsd",
-        "requirements": ">= 0.12.10"
+        "requirements": "< 0.15.2, >= 0.12.10"
       },
       {
         "name": "lspace",
@@ -20778,12 +21454,12 @@
         "requirements": "= 0.12.10"
       },
       {
-        "name": "mabicro",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "mac-event-monitor",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mabicro",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "mad_chatter",
@@ -20803,7 +21479,7 @@
       },
       {
         "name": "mail_sandbox",
-        "requirements": "~> 0.12.9"
+        "requirements": "~> 1.0.1"
       },
       {
         "name": "mailcatcher",
@@ -20839,6 +21515,10 @@
       },
       {
         "name": "meme-bot",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "menuboy",
         "requirements": ">= 0"
       },
       {
@@ -20886,6 +21566,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "miniserver",
+        "requirements": ">= 0"
+      },
+      {
         "name": "minitest-em-sync",
         "requirements": ">= 0.12"
       },
@@ -20922,6 +21606,10 @@
         "requirements": "~> 0.12.10"
       },
       {
+        "name": "mtgox-websocket",
+        "requirements": ">= 0.12.0"
+      },
+      {
         "name": "multi-statsd",
         "requirements": ">= 0"
       },
@@ -20946,11 +21634,7 @@
         "requirements": "~> 1.0.3"
       },
       {
-        "name": "mysql2-cs-bind",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "mysql2-sp",
+        "name": "mysql2_bigint",
         "requirements": ">= 0"
       },
       {
@@ -20958,7 +21642,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mysql2_bigint",
+        "name": "mysql2-cs-bind",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mysql2-sp",
         "requirements": ">= 0"
       },
       {
@@ -20974,11 +21662,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nagios-dashboard",
+        "name": "nagios-dashboard-sonian",
         "requirements": ">= 0"
       },
       {
-        "name": "nagios-dashboard-sonian",
+        "name": "nagios-dashboard",
         "requirements": ">= 0"
       },
       {
@@ -21086,20 +21774,20 @@
         "requirements": ">= 1.0.0.beta.3"
       },
       {
-        "name": "panmind-usage-tracker-server",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "panmind-usage-tracker",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "panmind-usage-tracker",
-        "requirements": ">= 0"
-      },
-      {
         "name": "panoptimon",
         "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "panmind-usage-tracker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "panmind-usage-tracker",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "panmind-usage-tracker-server",
+        "requirements": ">= 0"
       },
       {
         "name": "pants",
@@ -21107,7 +21795,7 @@
       },
       {
         "name": "parallel_http",
-        "requirements": ">= 1.0.0"
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "pbenchmark",
@@ -21148,6 +21836,10 @@
       {
         "name": "pokan",
         "requirements": ">= 0"
+      },
+      {
+        "name": "poly-cms",
+        "requirements": "= 1.0.3"
       },
       {
         "name": "ponder",
@@ -21210,10 +21902,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pubnub-picklive",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pubnub",
         "requirements": ">= 0"
       },
@@ -21222,11 +21910,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "puffing-billy",
+        "name": "pubnub-picklive",
         "requirements": ">= 0"
       },
       {
         "name": "pubsubhubbub",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puffing-billy",
         "requirements": ">= 0"
       },
       {
@@ -21294,12 +21986,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "reacter",
-        "requirements": ">= 0"
-      },
-      {
         "name": "readability_importer",
         "requirements": "= 1.0.0.beta.4"
+      },
+      {
+        "name": "reacter",
+        "requirements": ">= 0"
       },
       {
         "name": "realityforge-em-winrm",
@@ -21368,6 +22060,10 @@
       {
         "name": "resque-ranger",
         "requirements": "= 0.12.0"
+      },
+      {
+        "name": "resque_to_cloudwatch",
+        "requirements": "= 1.0.3"
       },
       {
         "name": "revent",
@@ -21454,6 +22150,10 @@
         "requirements": "~> 1.0.0.beta.3"
       },
       {
+        "name": "rspec-eventmachine",
+        "requirements": ">= 0.12.0"
+      },
+      {
         "name": "rstatsd",
         "requirements": ">= 0"
       },
@@ -21498,6 +22198,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rubycut-sinatra-synchrony",
+        "requirements": "~> 1.0.0"
+      },
+      {
         "name": "rubydns",
         "requirements": "~> 1.0.0"
       },
@@ -21534,15 +22238,15 @@
         "requirements": ">= 0.12.0"
       },
       {
+        "name": "scheduler_daemon",
+        "requirements": ">= 0.12.8"
+      },
+      {
+        "name": "scheduler_daemon",
+        "requirements": ">= 0.12.8"
+      },
+      {
         "name": "scheduler_daemon_robertcigan",
-        "requirements": ">= 0.12.8"
-      },
-      {
-        "name": "scheduler_daemon",
-        "requirements": ">= 0.12.8"
-      },
-      {
-        "name": "scheduler_daemon",
         "requirements": ">= 0.12.8"
       },
       {
@@ -21614,6 +22318,10 @@
         "requirements": ">= 1.0.0.beta.4"
       },
       {
+        "name": "simple_relay",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simultaneous",
         "requirements": "< 2.0, >= 1.0.0.rc.1"
       },
@@ -21630,12 +22338,12 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "sinatra-websocketio",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "sinatra-websocket",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sinatra-websocketio",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "siriproxy",
@@ -21702,12 +22410,12 @@
         "requirements": "~> 0.12.10"
       },
       {
-        "name": "spamchronic",
-        "requirements": "~> 0.12"
-      },
-      {
         "name": "spade-runtime",
         "requirements": "~> 0.12.10"
+      },
+      {
+        "name": "spamchronic",
+        "requirements": "~> 0.12"
       },
       {
         "name": "sparrow",
@@ -21770,12 +22478,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "stompserver_ng",
-        "requirements": ">= 0.12.10"
-      },
-      {
         "name": "stompserver",
         "requirements": ">= 0.7.2"
+      },
+      {
+        "name": "stompserver_ng",
+        "requirements": ">= 0.12.10"
       },
       {
         "name": "strand",
@@ -21850,16 +22558,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thin-glazed",
-        "requirements": ">= 0"
+        "name": "thin-async-test",
+        "requirements": "~> 1.0.0.beta.3"
       },
       {
         "name": "thin",
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "thin-async-test",
-        "requirements": "~> 1.0.0.beta.3"
+        "name": "thin-glazed",
+        "requirements": ">= 0"
       },
       {
         "name": "tinder",
@@ -21914,12 +22622,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tunnelss",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tunnels",
         "requirements": ">= 0"
       },
       {
-        "name": "tunnelss",
-        "requirements": ">= 0"
+        "name": "tuttinator-skinny",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "tweetdump",
@@ -21962,16 +22674,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "url_tracker",
-        "requirements": ">= 0"
+        "name": "upnp-nickewing",
+        "requirements": ">= 1.0.0"
       },
       {
-        "name": "vcap_common",
+        "name": "url_tracker",
         "requirements": ">= 0"
       },
       {
         "name": "vayacondios-server",
         "requirements": "~> 1.0.0.beta.4"
+      },
+      {
+        "name": "vcap_common",
+        "requirements": ">= 0"
       },
       {
         "name": "velociraptor",
@@ -22010,6 +22726,10 @@
         "requirements": "~> 1.0.0.beta.3"
       },
       {
+        "name": "wampus",
+        "requirements": ">= 0"
+      },
+      {
         "name": "watercooling",
         "requirements": ">= 0.12.10"
       },
@@ -22030,15 +22750,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "websocket-client-simple",
+        "requirements": ">= 0"
+      },
+      {
         "name": "websocket-eventmachine-base",
         "requirements": "~> 1.0"
       },
       {
         "name": "websocket-driver",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "websocket-client-simple",
         "requirements": ">= 0"
       },
       {
@@ -22120,12 +22840,12 @@
     "version": "0.2.0",
     "dependents": [
       {
-        "name": "eventmachine-swinsian",
-        "requirements": ">= 0.2.0"
-      },
-      {
         "name": "eventmachine-itunes",
         "requirements": ">= 0.1.4"
+      },
+      {
+        "name": "eventmachine-swinsian",
+        "requirements": ">= 0.2.0"
       }
     ],
     "description": "An EventMachine extension to watch OSX's Distributed Notification, posted by iTunes etc."
@@ -22408,12 +23128,29 @@
     ],
     "description": "EventMachine HTTP Server"
   },
+  "eventmachine_httpserver_update": {
+    "version": "0.2.1",
+    "dependents": [
+      {
+        "name": "librr",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "EventMachine HTTP Server"
+  },
   "eventmachine_snmpagent": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Evented SNMP Agent"
+  },
+  "eventmachinealignedperiodic": {
+    "version": "2.1.1",
+    "dependents": [
+
+    ],
+    "description": "EventMachineAlignedPeriodic helps to kick off a block of code on a periodic\nschedule aligned with a time period.  Rather than have something starting at\n2 seconds, 17 seconds, 32 seconds and so on you can have it consistently\nlaunch at 0, 15, 30."
   },
   "eventoverse": {
     "version": "0.2.4",
@@ -22428,6 +23165,13 @@
 
     ],
     "description": "A module which enables objects to publish multiple events, which other objects can subscribe to See http://github.com/davybrion/EventPublisher for more information."
+  },
+  "eventr": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A threaded publish/subscribe object, for internal application events."
   },
   "events": {
     "version": "0.9.8",
@@ -22588,7 +23332,7 @@
     "description": "Simple command line creation and editing of Evernote notes in Markdown format with your favorite editor via a gem installed binary"
   },
   "evernote-thrift": {
-    "version": "1.25.0",
+    "version": "1.25.1",
     "dependents": [
       {
         "name": "evernote_oauth",
@@ -22606,7 +23350,7 @@
     "description": "This SDK contains wrapper code used to call the Evernote Cloud API from Ruby."
   },
   "evernote_oauth": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
       {
         "name": "cloud_file",
@@ -22787,6 +23531,13 @@
     ],
     "description": "Simple non-blocking IO"
   },
+  "evm": {
+    "version": "0.3.4",
+    "dependents": [
+
+    ],
+    "description": "EVM is a command-line tool that allows you to install multiple Emacs versions."
+  },
   "evma_xmlpushparser": {
     "version": "0.0.1",
     "dependents": [
@@ -22840,7 +23591,7 @@
     "description": "See how regularly files are modified using Git. Inspired by Churn."
   },
   "evopop": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -22895,7 +23646,7 @@
     "description": " Evrone CI messages "
   },
   "evrone-common-amqp": {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "dependents": [
       {
         "name": "serverist-replication",
@@ -22923,7 +23674,7 @@
     "description": " The Rack::Builder extracted from Rack "
   },
   "evrone-common-spawn": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
         "name": "evrone-ci-common",
@@ -22968,7 +23719,7 @@
     "description": "Exchange Web Services API. It doesn't use soap4r."
   },
   "ex_cite": {
-    "version": "1.2.5",
+    "version": "1.2.6",
     "dependents": [
 
     ],
@@ -23031,7 +23782,7 @@
     "description": "Very simple Exact Target SOAP client. Only supports subscriber creation at this point"
   },
   "exactly": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -23092,6 +23843,16 @@
 
     ],
     "description": "RSpec formatter to measure run times of individual example groups"
+  },
+  "exams": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This library is called exams.\n"
   },
   "exc1_sum_squares": {
     "version": "0.0.2",
@@ -23157,7 +23918,7 @@
     "description": "Allows you to program spreadsheets using .rxls views"
   },
   "excel_to_code": {
-    "version": "0.1.20",
+    "version": "0.1.23",
     "dependents": [
       {
         "name": "belgium_2050_model",
@@ -23189,14 +23950,14 @@
     "description": "convert your csv data and html tables to excel data"
   },
   "excelizer": {
-    "version": "0.0.8",
+    "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "An Excel helper for Rails project. It integrates with ActiveRecord models and other space magic."
   },
   "excellent": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
       {
         "name": "epodder",
@@ -23241,7 +24002,7 @@
     "description": "JRuby DSL for XML Building and Manipulation with XPath"
   },
   "exceptio-ruby": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -23253,23 +24014,6 @@
 
     ],
     "description": "Send email on exception"
-  },
-  "exception-context": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "Adds an err.context hash to Ruby exceptions that allows you to add arbitrary data about your exception context (like record ids)"
-  },
-  "exception-formatter": {
-    "version": "0.1.0",
-    "dependents": [
-      {
-        "name": "exception-publisher",
-        "requirements": "~> 0.1"
-      }
-    ],
-    "description": "Simple utility for rendering Ruby exceptions in text, HTML and other formats"
   },
   "exception-hashify": {
     "version": "0.0.1",
@@ -23288,12 +24032,12 @@
     ],
     "description": "Rails exception handling happens with ActionController extension and Mongoid support."
   },
-  "exception-publisher": {
-    "version": "0.1.0",
+  "exception-notifier-pushover": {
+    "version": "0.0.1",
     "dependents": [
 
     ],
-    "description": "Adds a `publish` instance method to Ruby exceptions that allows you to deliver\nnotifications about them from anywhere in your code"
+    "description": "a pushover notifier for exception_notification"
   },
   "exception2db": {
     "version": "0.0.1",
@@ -23420,6 +24164,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "trusty",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ucb_rails",
         "requirements": "~> 4.0.0.rc1"
       }
@@ -23512,11 +24260,11 @@
     "description": "\n\n    Turn your log files into exceptions.\n    The contents are used as a backtrace.\n\n  "
   },
   "exceptioncatchable": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "Provide block-scope for to catch exceptions easy."
+    "description": "Simplified exceptions catcher"
   },
   "exceptioner": {
     "version": "0.0.5",
@@ -23592,7 +24340,7 @@
     "description": "Excession is a collection of code for parsing and otherwise\nmunging CSS files. It has sprung from a need to be able to\nprogrammatically modify colours in a site's style sheets.\n"
   },
   "exchange": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -23611,6 +24359,13 @@
 
     ],
     "description": "Exchange rate lib"
+  },
+  "exchange_rates": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "exchange_rates is a gem that allows currency conversion and rate history tracking."
   },
   "exchanger": {
     "version": "0.1.3",
@@ -23654,6 +24409,13 @@
     ],
     "description": "  \tList asset groups, list information about certain asset groups, start a site scan with certain asset groups excluded.\n"
   },
+  "exclaim": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Silly gem that adds random exclamations to the start of strings"
+  },
   "exclameterize": {
     "version": "0.0.2",
     "dependents": [
@@ -23669,8 +24431,16 @@
     "description": "The inverse of `select` on an ActiveRecord::Relation. Use to avoid loading large columns (e.g. texts or blobs)."
   },
   "excon": {
-    "version": "0.27.6",
+    "version": "0.30.0",
     "dependents": [
+      {
+        "name": "aerosol",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "alchemy-api-rb",
+        "requirements": "~> 0.28.0"
+      },
       {
         "name": "amara",
         "requirements": ">= 0"
@@ -23713,7 +24483,7 @@
       },
       {
         "name": "bsm-sso-client",
-        "requirements": "~> 0.25.0"
+        "requirements": "< 1.0.0, >= 0.27.0"
       },
       {
         "name": "capistrano-hivequeen",
@@ -23729,7 +24499,7 @@
       },
       {
         "name": "cloud-queues",
-        "requirements": "~> 0.25.0"
+        "requirements": "> 0.25.0"
       },
       {
         "name": "cloud66_agent",
@@ -23741,7 +24511,11 @@
       },
       {
         "name": "cloudhealth-setup",
-        "requirements": "= 0.23.0"
+        "requirements": "= 0.25.3"
+      },
+      {
+        "name": "cottus",
+        "requirements": ">= 0"
       },
       {
         "name": "crowdbase",
@@ -23765,7 +24539,11 @@
       },
       {
         "name": "docker-api",
-        "requirements": ">= 0.22.0"
+        "requirements": ">= 0.28"
+      },
+      {
+        "name": "dockly",
+        "requirements": ">= 0"
       },
       {
         "name": "elasticsearch-client",
@@ -23797,7 +24575,15 @@
       },
       {
         "name": "fog",
-        "requirements": "~> 0.27.0"
+        "requirements": "~> 0.28.0"
+      },
+      {
+        "name": "fog-iwd",
+        "requirements": "~> 0.13.0"
+      },
+      {
+        "name": "fog-parser-fix",
+        "requirements": "~> 0.14"
       },
       {
         "name": "fog-nirvanix",
@@ -23805,18 +24591,10 @@
       },
       {
         "name": "fog-maestrodev",
-        "requirements": "~> 0.25.0"
-      },
-      {
-        "name": "fog-iwd",
-        "requirements": "~> 0.13.0"
+        "requirements": "~> 0.30.0"
       },
       {
         "name": "fog-sgonyea",
-        "requirements": "~> 0.14"
-      },
-      {
-        "name": "fog-parser-fix",
         "requirements": "~> 0.14"
       },
       {
@@ -23832,12 +24610,12 @@
         "requirements": "~> 0.20"
       },
       {
-        "name": "fog_ec2dream",
-        "requirements": "~> 0.14"
-      },
-      {
         "name": "fog_tractical",
         "requirements": "~> 0.7.4"
+      },
+      {
+        "name": "fog_ec2dream",
+        "requirements": "~> 0.14"
       },
       {
         "name": "gamesdb",
@@ -23904,6 +24682,10 @@
         "requirements": "~> 0.25.1"
       },
       {
+        "name": "inquisitio",
+        "requirements": "~> 0.25.0"
+      },
+      {
         "name": "instavin",
         "requirements": ">= 0"
       },
@@ -23913,11 +24695,11 @@
       },
       {
         "name": "jaxx",
-        "requirements": "= 0.20.0"
+        "requirements": "= 0.22.0"
       },
       {
         "name": "jeff",
-        "requirements": "~> 0.26.0"
+        "requirements": "~> 0.29.0"
       },
       {
         "name": "ktheory-fog",
@@ -23940,6 +24722,10 @@
         "requirements": "< 1.0, >= 0.16.0"
       },
       {
+        "name": "megam_api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "metanym",
         "requirements": ">= 0.5.6"
       },
@@ -23952,12 +24738,12 @@
         "requirements": "~> 0.20.1"
       },
       {
-        "name": "mortar-api-ruby",
-        "requirements": "< 0.17, ~> 0.15"
+        "name": "mortar",
+        "requirements": "~> 0.28"
       },
       {
-        "name": "mortar",
-        "requirements": "~> 0.15"
+        "name": "mortar-api-ruby",
+        "requirements": "~> 0.28"
       },
       {
         "name": "nephelae",
@@ -23973,6 +24759,10 @@
       },
       {
         "name": "nimbu-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ontologies_api_client",
         "requirements": ">= 0"
       },
       {
@@ -23993,6 +24783,10 @@
       },
       {
         "name": "pmp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "podnix",
         "requirements": ">= 0"
       },
       {
@@ -24037,7 +24831,11 @@
       },
       {
         "name": "riak-shim",
-        "requirements": "~> 0.22.1"
+        "requirements": "~> 0.29.0"
+      },
+      {
+        "name": "right_publish",
+        "requirements": "<= 0.25.3"
       },
       {
         "name": "riik",
@@ -24050,6 +24848,10 @@
       {
         "name": "rubberband-pure",
         "requirements": "~> 0.13.2"
+      },
+      {
+        "name": "rubychina",
+        "requirements": "~> 0.25.3"
       },
       {
         "name": "russian_post",
@@ -24068,6 +24870,10 @@
         "requirements": ">= 0.16"
       },
       {
+        "name": "simple_deploy",
+        "requirements": "= 0.28.0"
+      },
+      {
         "name": "small_wonder",
         "requirements": ">= 0"
       },
@@ -24081,7 +24887,7 @@
       },
       {
         "name": "stickler",
-        "requirements": "~> 0.20.0"
+        "requirements": "~> 0.29"
       },
       {
         "name": "stretcher",
@@ -24094,6 +24900,10 @@
       {
         "name": "tootsie",
         "requirements": "~> 0.19"
+      },
+      {
+        "name": "totango",
+        "requirements": ">= 0"
       },
       {
         "name": "trakt",
@@ -24112,11 +24922,11 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "vault-usage-client",
+        "name": "vault-invoice-builder-client",
         "requirements": ">= 0"
       },
       {
-        "name": "vault-invoice-builder-client",
+        "name": "vault-usage-client",
         "requirements": ">= 0"
       },
       {
@@ -24165,8 +24975,15 @@
     ],
     "description": "Excon instrumentor providing instrumentation in Slides format."
   },
+  "exctl": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Allows you to create a command-line dispatcher for a project to consolidate dev, release, and runtime workflows."
+  },
   "excursion": {
-    "version": "0.1.0",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -24195,6 +25012,16 @@
 
     ],
     "description": "Exec#system Exec#system_v Exec#system! Exec#system_v!"
+  },
+  "exec_env": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "hash_builder",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "See README.md"
   },
   "exec_remote": {
     "version": "0.0.2",
@@ -24288,11 +25115,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dust-rails",
-        "requirements": ">= 0"
+        "name": "dashing",
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "dust-sinatra",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dust-rails",
         "requirements": ">= 0"
       },
       {
@@ -24329,6 +25160,10 @@
       },
       {
         "name": "ember_script",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "es6_module_transpiler-rails",
         "requirements": ">= 0"
       },
       {
@@ -24408,16 +25243,20 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "hamler",
-        "requirements": ">= 0"
-      },
-      {
         "name": "hamlbars",
         "requirements": ">= 1.2"
       },
       {
+        "name": "hamler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hanber-rails",
         "requirements": ">= 1.2"
+      },
+      {
+        "name": "handlebars.rb",
+        "requirements": ">= 0"
       },
       {
         "name": "handlebars-amd-rails",
@@ -24472,11 +25311,11 @@
         "requirements": "~> 1.4.0"
       },
       {
-        "name": "jshint4r",
+        "name": "jshintrb",
         "requirements": ">= 0"
       },
       {
-        "name": "jshintrb",
+        "name": "jshint4r",
         "requirements": ">= 0"
       },
       {
@@ -24509,6 +25348,10 @@
       },
       {
         "name": "lodash-assets",
+        "requirements": ">= 1.2.9"
+      },
+      {
+        "name": "marionette_dust",
         "requirements": ">= 1.2.9"
       },
       {
@@ -24576,12 +25419,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "react-rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "react-jsx",
         "requirements": ">= 2.0.2"
+      },
+      {
+        "name": "react-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "render_execjs",
@@ -24636,6 +25479,10 @@
         "requirements": ">= 0.3.0"
       },
       {
+        "name": "sibilant-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simple_jshint",
         "requirements": ">= 0"
       },
@@ -24653,6 +25500,10 @@
       },
       {
         "name": "smart_editor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "spotify_web",
         "requirements": ">= 0"
       },
       {
@@ -24696,6 +25547,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "twitter-bootstrap3-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "twitter-bootswatch-rails",
         "requirements": ">= 1.4.0"
       },
@@ -24721,7 +25576,7 @@
       },
       {
         "name": "zassets",
-        "requirements": "~> 1.4.0"
+        "requirements": "~> 2.0.2"
       }
     ],
     "description": "ExecJS lets you run JavaScript code from Ruby."
@@ -24739,6 +25594,13 @@
 
     ],
     "description": "    A bridge to run JSLint from Ruby via ExecJS.\n"
+  },
+  "execphp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Coming soon...\n"
   },
   "executable": {
     "version": "1.2.1",
@@ -24879,7 +25741,7 @@
     "description": "spreadsheet replacement. for real."
   },
   "exercism": {
-    "version": "0.0.27",
+    "version": "0.0.28",
     "dependents": [
 
     ],
@@ -24905,6 +25767,13 @@
 
     ],
     "description": "Render and process HTML files in Ruby using javascript and PhantomJS"
+  },
+  "exgem": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "My description"
   },
   "exhibit": {
     "version": "0.1.6",
@@ -24960,12 +25829,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "exif_weather",
-        "requirements": ">= 0"
-      },
-      {
         "name": "exif-date-sorter",
         "requirements": "> 1.1"
+      },
+      {
+        "name": "exif_weather",
+        "requirements": ">= 0"
       },
       {
         "name": "flickru",
@@ -24996,6 +25865,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "photo_geoloader",
+        "requirements": "~> 1.1.3"
+      },
+      {
         "name": "photostat",
         "requirements": ">= 0"
       },
@@ -25024,11 +25897,11 @@
         "requirements": "~> 1.1.3"
       },
       {
-        "name": "xmp-fixed_prefix",
+        "name": "xmp",
         "requirements": ">= 1.0.4"
       },
       {
-        "name": "xmp",
+        "name": "xmp-fixed_prefix",
         "requirements": ">= 1.0.4"
       },
       {
@@ -25043,11 +25916,11 @@
     "description": "EXIF Reader is a module to read EXIF from JPEG images."
   },
   "exiftool": {
-    "version": "0.3.0",
+    "version": "0.6.0",
     "dependents": [
       {
         "name": "exiftool_vendored",
-        "requirements": ">= 0.3.0"
+        "requirements": ">= 0.6.0"
       },
       {
         "name": "exiftoolr",
@@ -25057,7 +25930,7 @@
     "description": "Multiget ExifTool wrapper for ruby"
   },
   "exiftool_vendored": {
-    "version": "9.37.0",
+    "version": "9.41.2",
     "dependents": [
 
     ],
@@ -25171,7 +26044,7 @@
     "description": "Library to handle Exlibris' Aleph ILS."
   },
   "exlibris-primo": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
       {
         "name": "umlaut-primo",
@@ -25202,7 +26075,7 @@
     "description": "A small framework for cgi scripts"
   },
   "exodus": {
-    "version": "1.0.6",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -25243,9 +26116,20 @@
     ],
     "description": "Get page statistics from the most popular social networks."
   },
+  "exp": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "no; we're too lazy for that."
+  },
   "expand_cd_aliases": {
     "version": "1.0.0",
     "dependents": [
+      {
+        "name": "bioroebe",
+        "requirements": ">= 0"
+      },
       {
         "name": "DIAMOND_SHELL",
         "requirements": ">= 0"
@@ -25421,7 +26305,7 @@
     "description": "It provides basic command line tools for simply defining things like cross validations, factorial experimental design and basic statistics. All of this can be run in a distributed manner."
   },
   "experimental": {
-    "version": "0.1.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -25780,7 +26664,7 @@
     "description": "The Ext Direct plugin is a simple implementation of Ext Direct router to call server-side methods on the client-side."
   },
   "ext_form": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "dependents": [
 
     ],
@@ -25797,15 +26681,15 @@
     "version": "0.0.3",
     "dependents": [
       {
-        "name": "ruby-mpfi",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ruby-mpc",
         "requirements": ">= 0"
       },
       {
         "name": "ruby-mpfr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby-mpfi",
         "requirements": ">= 0"
       }
     ],
@@ -26104,7 +26988,7 @@
     "description": "Generates Sass-based Ext themes.  Includes methods for colorizing themes."
   },
   "extjs4-rails": {
-    "version": "4.1.0.3",
+    "version": "4.2.1.883",
     "dependents": [
 
     ],
@@ -26198,11 +27082,11 @@
         "requirements": ">= 0.9.3"
       },
       {
-        "name": "dm-paperclip-r3",
+        "name": "dm-paperclip",
         "requirements": ">= 0"
       },
       {
-        "name": "dm-paperclip",
+        "name": "dm-paperclip-r3",
         "requirements": ">= 0"
       },
       {
@@ -26418,15 +27302,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "wakame-vdc-dcmgr",
+        "requirements": "= 0.9.15"
+      },
+      {
         "name": "wakame-dolphin",
         "requirements": "~> 0.9.16"
       },
       {
         "name": "wakame-vdc-agents",
-        "requirements": "= 0.9.15"
-      },
-      {
-        "name": "wakame-vdc-dcmgr",
         "requirements": "= 0.9.15"
       },
       {
@@ -26549,7 +27433,7 @@
     "description": "Extract Curves a simplistic GTK Ruby-based appliaction which can convert the raster image file result of a geometric-trace-producing process's interaction with the characteristic of motion of another (interesting) process into a list of rectangular coordinates (in raster image's system) representing the inferred characteristic of motion of the midline of an image blob.  Blob recognition is done by color: * by maximum pixel neighbor-to-neighbor difference * by maximum difference from blob's average color * by maximum difference from a pixel neighborhood's average color (using RGB or HSV).  Use other software to pre-process (e.g. enhance contrast, or even reduce to gray scale), but Extract Curves's skeletonization is done based on the hypothesis of a recognized image blob, as opposed to a collection of pixels.  Output is human-readable (tab-separated)."
   },
   "extract_audio": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "extracter",
@@ -26587,9 +27471,16 @@
     "description": "This module is to extract the text from web page(html)."
   },
   "extracter": {
-    "version": "1.0.2",
+    "version": "1.0.6",
     "dependents": [
-
+      {
+        "name": "easycompile",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "repackage",
+        "requirements": ">= 0"
+      }
     ],
     "description": "    This small library can be used to extract different\n    archives, including .gem files and .lzma files.\n    Usage example:\n      Extracter.new(archive, extract_where_to)\n"
   },
@@ -26674,7 +27565,7 @@
     "description": "Fetches Jobs from a Jenkins CI via the REST JSON API and sets LEDs of an Extreme Feedback Device to the status of the corresponding Job. Build and designed for running on a Raspberry Pi with Debian 7."
   },
   "extreme_timeout": {
-    "version": "0.2.1",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -26716,7 +27607,7 @@
     "description": "Metrics wrapper for Exvo apps."
   },
   "exvo_auth": {
-    "version": "0.16.4",
+    "version": "0.16.5",
     "dependents": [
 
     ],
@@ -26730,11 +27621,11 @@
     "description": "It exposes `/globalize/translations.json` with JSON of all translations in the app"
   },
   "exvo_helpers": {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "dependents": [
       {
         "name": "exvo_auth",
-        "requirements": "~> 0.5"
+        "requirements": "~> 0.6"
       }
     ],
     "description": "Ruby gem providing various helper methods, like auth_host, auth_uri, cdn_host, etc."
@@ -26774,6 +27665,13 @@
     ],
     "description": "A gem that provides oversight of the ey-cloud"
   },
+  "ey-core": {
+    "version": "0.4.19",
+    "dependents": [
+
+    ],
+    "description": "Engine Yard Core Ruby Client"
+  },
   "ey-deploy": {
     "version": "1.1.3",
     "dependents": [
@@ -26801,7 +27699,10 @@
   "ey-hmac": {
     "version": "0.0.5",
     "dependents": [
-
+      {
+        "name": "ey-core",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Lightweight HMAC signing libraries and middleware for Farday and Rack"
   },
@@ -26827,7 +27728,7 @@
     "description": "[Modified to vendor Fog 1.8.0] Backup is a RubyGem, written for UNIX-like operating systems, that allows you to easily perform backup operations on both your remote and local environments. It provides you with an elegant DSL in Ruby for modeling your backups. Backup has built-in support for various databases, storage protocols/services, syncers, compressors, encryptors and notifiers which you can mix and match. It was built with modularity, extensibility and simplicity in mind."
   },
   "ey_api_hmac": {
-    "version": "0.4.9",
+    "version": "0.4.10",
     "dependents": [
       {
         "name": "erroneous-api",
@@ -26962,7 +27863,7 @@
     "description": "Gem for kicking off chef recipes "
   },
   "ey_resolver": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
       {
         "name": "engineyard-cloud-client",
@@ -26970,13 +27871,6 @@
       }
     ],
     "description": "Resolves apps, environments, app_environments and accounts using a set of constraints"
-  },
-  "ey_ronin": {
-    "version": "0.58.0",
-    "dependents": [
-
-    ],
-    "description": "Samurai for the Cloud"
   },
   "ey_services_api": {
     "version": "0.3.19",
@@ -27093,7 +27987,7 @@
     "description": "Sidekiq recipe for EY Cloud"
   },
   "eye": {
-    "version": "0.4.2",
+    "version": "0.5",
     "dependents": [
 
     ],
@@ -27161,6 +28055,20 @@
 
     ],
     "description": "Cute command line IP addy getter."
+  },
+  "eyes_selenium": {
+    "version": "1.21.0",
+    "dependents": [
+
+    ],
+    "description": "Applitools Ruby SDK"
+  },
+  "eyes_selenium_ruby": {
+    "version": "1.4.0",
+    "dependents": [
+
+    ],
+    "description": "Applitools Ruby SDK"
   },
   "eymigrate": {
     "version": "0.1.4",
@@ -27302,7 +28210,7 @@
     "description": "A wrapper for ruby net/http, supports http/https, RESTful methods, headers, certificate and file uploads"
   },
   "ez_import": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -27321,6 +28229,13 @@
 
     ],
     "description": "Paypal express checkout plugin"
+  },
+  "ez_table": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Create Table easily for Rails app"
   },
   "ez_video": {
     "version": "1.0.2",
@@ -27418,11 +28333,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "twitter-auth",
+        "name": "twitter-auth-with-mongo-mapper",
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "twitter-auth-with-mongo-mapper",
+        "name": "twitter-auth",
         "requirements": ">= 0.7.2"
       },
       {
@@ -27489,6 +28404,13 @@
     ],
     "description": "General use library for OCLC's EZproxy"
   },
+  "ezrss": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Simple EZRSS client interface"
+  },
   "EZsmtp": {
     "version": "0.5.0",
     "dependents": [
@@ -27523,5 +28445,12 @@
 
     ],
     "description": "Ruby wrapper for the Google Time Zone API"
+  },
+  "ezy": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A collection of SCSS tools for creating responsive websites. Includes a simple but powerful grid framework, media query helpers and sprite helpers."
   }
 }

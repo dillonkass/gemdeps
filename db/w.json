@@ -187,11 +187,11 @@
     "description": "Wacky Graph is a gem extracted from Wacky Words Friends for using the Facebook graph API."
   },
   "waddup": {
-    "version": "0.0.1",
+    "version": "0.2.1",
     "dependents": [
 
     ],
-    "description": "Waddup retraces your activities from arbitrary sources - such as version control, issue tracking software and mail clients - and displays them in a neat chronological overview"
+    "description": "Waddup retraces your activities from arbitrary sources such as version control, issue tracking software and mail clients - and displays them in a neat chronological overview"
   },
   "wadl": {
     "version": "0.2.7",
@@ -222,7 +222,7 @@
     "description": "Abstract flow publisher and subscriber"
   },
   "waffleiron": {
-    "version": "0.2.0",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -257,7 +257,7 @@
     "description": "Waigs default project template."
   },
   "waistband": {
-    "version": "0.7.1",
+    "version": "0.7.3",
     "dependents": [
 
     ],
@@ -273,6 +273,10 @@
       {
         "name": "cloudpassage",
         "requirements": "~> 0.5.1"
+      },
+      {
+        "name": "page_magic",
+        "requirements": ">= 0"
       }
     ],
     "description": "Executes a block until there's a valid result."
@@ -313,15 +317,15 @@
     "description": "the wait_pid command -- (ruby gem/binary for waiting on an arbitrary external pid, doze/linux supported)"
   },
   "wait_until": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
       {
         "name": "http_server_manager",
-        "requirements": "~> 0.0.1"
+        "requirements": "~> 0.1"
       },
       {
         "name": "http_stub",
-        "requirements": "~> 0.0.1"
+        "requirements": "~> 0.1"
       }
     ],
     "description": "Suspends execution until state changes via ::Wait.until! methods, timing-out after a configured period of time"
@@ -503,6 +507,13 @@
     ],
     "description": "Ruby implementation of Walker's Alias Method for quickly sampling objects with a given probability distribution"
   },
+  "walkon": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Play your entrance music"
+  },
   "walkscore": {
     "version": "0.0.2",
     "dependents": [
@@ -603,6 +614,13 @@
 
     ],
     "description": "This gem contains Ruby routines for parsing org-mode files.The most\nsignificant thing this library does today is convert org-mode files to\nHTML or textile. Currently, you cannot do much to customize the\nconversion. The supplied textile conversion is optimized for\nextracting \"content\" from the orgfile as opposed to \"metadata.\" "
+  },
+  "walmart_open": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby implementation for Walmart Open API."
   },
   "walnut": {
     "version": "0.1.0",
@@ -715,6 +733,13 @@
     ],
     "description": "WAMP client"
   },
+  "wampus": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "WebSocket server supporting the WAMP subprotocol"
+  },
   "wamupd": {
     "version": "1.1.2",
     "dependents": [
@@ -781,14 +806,21 @@
     "description": "call telephone and cancel after several seconds(say WAN GIRI in Japan)"
   },
   "wanikani": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
       {
         "name": "wkcheck",
-        "requirements": "~> 0.0.4"
+        "requirements": "~> 0.0.5"
       }
     ],
     "description": "Use WaniKani's (http://www.wanikani.com/) API in your Ruby applications"
+  },
+  "wankel": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "SAX based JSON parser and encoder"
   },
   "wannabeparser": {
     "version": "0.1.0",
@@ -843,7 +875,7 @@
     "description": "Simulator for the War card game."
   },
   "warbler": {
-    "version": "1.3.8",
+    "version": "1.4.0",
     "dependents": [
       {
         "name": "cloudbees",
@@ -870,6 +902,13 @@
 
     ],
     "description": "This utility allows you to execute commands with the context of a Warbler WAR file"
+  },
+  "warc": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "warc is a pure ruby implementation of Web ARChive file reader and writer"
   },
   "warcards": {
     "version": "0.0.7",
@@ -997,6 +1036,10 @@
         "requirements": "~> 1.2.1"
       },
       {
+        "name": "devise_strategy_google_apps_open_social",
+        "requirements": ">= 0"
+      },
+      {
         "name": "devise_suspendable",
         "requirements": ">= 0"
       },
@@ -1113,36 +1156,32 @@
         "requirements": ">= 0"
       },
       {
-        "name": "warden-bootic",
-        "requirements": "~> 1.0.4"
-      },
-      {
-        "name": "warden-github",
-        "requirements": "> 1.0"
-      },
-      {
         "name": "warden-always-authenticate",
         "requirements": ">= 0"
+      },
+      {
+        "name": "warden-bootic",
+        "requirements": "~> 1.0.4"
       },
       {
         "name": "warden-browserid",
         "requirements": ">= 0"
       },
       {
+        "name": "warden-github",
+        "requirements": "> 1.0"
+      },
+      {
         "name": "warden-googleapps",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "warden-hmac-authentication",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "warden-oauth2",
         "requirements": ">= 0"
       },
       {
         "name": "warden-ldap",
         "requirements": "~> 1.2.1"
+      },
+      {
+        "name": "warden-hmac-authentication",
+        "requirements": ">= 0"
       },
       {
         "name": "warden-ocra",
@@ -1153,7 +1192,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "warden-redirect",
+        "name": "warden-oauth2",
         "requirements": ">= 0"
       },
       {
@@ -1161,24 +1200,28 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "warden_oauth",
-        "requirements": ">= 0.8.1"
+        "name": "warden-redirect",
+        "requirements": ">= 0"
       },
       {
-        "name": "warden_omniauth-jonrowe",
-        "requirements": ">= 0.9"
+        "name": "warden_oauth",
+        "requirements": ">= 0.8.1"
       },
       {
         "name": "warden_oauth_provider",
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "warden_watch",
-        "requirements": ">= 0"
-      },
-      {
         "name": "warden_omniauth",
         "requirements": ">= 0.9"
+      },
+      {
+        "name": "warden_omniauth-jonrowe",
+        "requirements": ">= 0.9"
+      },
+      {
+        "name": "warden_watch",
+        "requirements": ">= 0"
       },
       {
         "name": "yauth",
@@ -1571,6 +1614,13 @@
     ],
     "description": "POkes A10 SLBs with a RESTick"
   },
+  "wary": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Helps you keep track of your system's health"
+  },
   "was_new_record": {
     "version": "0.0.2",
     "dependents": [
@@ -1586,7 +1636,7 @@
     "description": "This gem allows you to parse IBM's Websphere Application Server trace files\ncontaining methods entries and exits and outputs a set of HTML files that allows you to navigate\nthrough a recreated call stack highlighting possible bottlenecks."
   },
   "wasabi": {
-    "version": "3.2.0",
+    "version": "3.2.2",
     "dependents": [
       {
         "name": "ec2_ultradns_updater",
@@ -1602,7 +1652,7 @@
       },
       {
         "name": "savon",
-        "requirements": "~> 3.2.0"
+        "requirements": "~> 3.2.2"
       },
       {
         "name": "shapewear",
@@ -1651,9 +1701,12 @@
     "description": "    WashAwayTheSoap parses WSDL and XSD files and attempts to\n    pretty-print the service structure so you can make sense\n    of a legacy (or just poorly written) system.\n"
   },
   "wash_out": {
-    "version": "0.8.4",
+    "version": "0.9.0",
     "dependents": [
-
+      {
+        "name": "washout_builder",
+        "requirements": ">= 0.10.0.beta.1"
+      }
     ],
     "description": "Dead simple Rails 3 SOAP server library"
   },
@@ -1663,6 +1716,13 @@
 
     ],
     "description": "Gem for finding polling places in Washoe County, NV"
+  },
+  "washout_builder": {
+    "version": "0.8.12",
+    "dependents": [
+
+    ],
+    "description": "WashOut Soap Service Documentation builder (extends WashOut https://github.com/inossidabile/wash_out/) "
   },
   "wasko": {
     "version": "0.2.1",
@@ -1699,6 +1759,13 @@
     ],
     "description": "A Simple Wassr Client"
   },
+  "wassup_rubygems": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A simple hello world gem"
+  },
   "WasThreadStackProcessor": {
     "version": "0.1.5",
     "dependents": [
@@ -1707,14 +1774,14 @@
     "description": "This utility extracts all the Thread Stacks from a set of thread dump files of a WebSphere Application Server and generates a unique tree with all the threads"
   },
   "wat_catcher": {
-    "version": "0.4.1",
+    "version": "0.5.5",
     "dependents": [
 
     ],
     "description": "Catch your wats"
   },
   "watable-rails": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -1732,6 +1799,10 @@
     "dependents": [
       {
         "name": "bonsai",
+        "requirements": ">= 0.1.0"
+      },
+      {
+        "name": "ceedling-autorake",
         "requirements": ">= 0.1.0"
       },
       {
@@ -1930,12 +2001,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "citeproc-js",
-        "requirements": ">= 0.7"
-      },
-      {
         "name": "citeproc",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "citeproc-js",
+        "requirements": ">= 0.7"
       },
       {
         "name": "compass_ae_starter_kit",
@@ -1974,6 +2045,10 @@
         "requirements": ">= 0.7"
       },
       {
+        "name": "ecstatic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "eloqua",
         "requirements": ">= 0"
       },
@@ -1982,27 +2057,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0"
+      },
+      {
         "name": "engine-rea",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "engine-rea-admin",
         "requirements": ">= 0"
       },
       {
@@ -2086,6 +2161,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kshramt",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "LanGrove",
         "requirements": ">= 0"
       },
@@ -2146,11 +2225,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi-core",
+        "name": "nicoapi",
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi",
+        "name": "nicoapi-core",
         "requirements": ">= 0"
       },
       {
@@ -2158,11 +2237,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery-core",
+        "name": "nicoquery",
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery",
+        "name": "nicoquery-core",
         "requirements": ">= 0"
       },
       {
@@ -2214,11 +2293,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rspec-rails-watchr",
+        "name": "rspec-rails-watchr-emacs",
         "requirements": ">= 0"
       },
       {
-        "name": "rspec-rails-watchr-emacs",
+        "name": "rspec-rails-watchr",
         "requirements": ">= 0"
       },
       {
@@ -2284,10 +2363,6 @@
       {
         "name": "testowl",
         "requirements": ">= 0"
-      },
-      {
-        "name": "torquebox-backstage",
-        "requirements": "~> 0.7"
       },
       {
         "name": "tr8n",
@@ -2402,11 +2477,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "watir-rspec",
+        "name": "watir-rails",
         "requirements": "~> 5.0"
       },
       {
-        "name": "watir-rails",
+        "name": "watir-rspec",
         "requirements": "~> 5.0"
       },
       {
@@ -2432,7 +2507,7 @@
     "description": "    WATIR is \"Web Application Testing in Ruby\". Watir (pronounced water) is a free,\n    open-source functional testing tool for automating browser-based tests of web applications.\n    It works with applications written in any language.\n    Watir drives the Internet Explorer browser the same way an end user would.\n    It clicks links, fills in forms, presses buttons.\n    Watir also checks results, such as whether expected text appears on the\n    page, or whether a control is enabled.\n    Watir can test web applications written in any language.\n    Watir is a Ruby library that works with Internet Explorer on Windows.\n"
   },
   "watir-dom-wait": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -2481,7 +2556,7 @@
     "description": "A DRB server program and client libraries for Watir."
   },
   "watir-rails": {
-    "version": "1.0.0",
+    "version": "1.0.3",
     "dependents": [
       {
         "name": "inkwell_timelines",
@@ -2492,22 +2567,18 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ro_support",
+        "name": "roro_support",
         "requirements": ">= 0"
       },
       {
         "name": "roro_crawler",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "roro_support",
         "requirements": ">= 0"
       }
     ],
     "description": "Use Watir (http://github.com/watir/watir) in Rails."
   },
   "watir-rspec": {
-    "version": "1.1.0",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -2590,11 +2661,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gxt-widgets",
+        "name": "gwt_widgets",
         "requirements": ">= 0.6.2"
       },
       {
-        "name": "gwt_widgets",
+        "name": "gxt-widgets",
         "requirements": ">= 0.6.2"
       },
       {
@@ -2634,6 +2705,10 @@
         "requirements": ">= 0.6.4"
       },
       {
+        "name": "page_magic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "page_object_wrapper",
         "requirements": ">= 0"
       },
@@ -2646,12 +2721,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sakai-cle-test-api",
+        "requirements": ">= 0.5.5"
+      },
+      {
         "name": "sakai-oae-test-api",
         "requirements": ">= 0.5.5"
       },
       {
-        "name": "sakai-cle-test-api",
-        "requirements": ">= 0.5.5"
+        "name": "Scrapah",
+        "requirements": ">= 0.6.4"
       },
       {
         "name": "sequenceserver",
@@ -2679,7 +2758,7 @@
       },
       {
         "name": "test-factory",
-        "requirements": ">= 0.6.2"
+        "requirements": ">= 0.6.4"
       },
       {
         "name": "trackit_scraper",
@@ -2687,10 +2766,6 @@
       },
       {
         "name": "watir",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "watir-page-helper",
         "requirements": ">= 0"
       },
       {
@@ -2702,7 +2777,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "watir-proxy",
+        "name": "watir-page-helper",
         "requirements": ">= 0"
       },
       {
@@ -2710,20 +2785,12 @@
         "requirements": ">= 0"
       },
       {
+        "name": "watir-proxy",
+        "requirements": ">= 0"
+      },
+      {
         "name": "watir-schema",
         "requirements": "~> 0.6.2"
-      },
-      {
-        "name": "watir_robot",
-        "requirements": ">= 0.1.8"
-      },
-      {
-        "name": "watir-webdriver-utils",
-        "requirements": ">= 0.6.1"
-      },
-      {
-        "name": "watirmark",
-        "requirements": ">= 0"
       },
       {
         "name": "watir-webdriver-performance",
@@ -2735,6 +2802,18 @@
       },
       {
         "name": "watir-webdriver-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "watir-webdriver-utils",
+        "requirements": ">= 0.6.1"
+      },
+      {
+        "name": "watir_robot",
+        "requirements": ">= 0.1.8"
+      },
+      {
+        "name": "watirmark",
         "requirements": ">= 0"
       },
       {
@@ -2794,6 +2873,13 @@
 
     ],
     "description": "A utility for making Automation Testing faster, simpler and easier."
+  },
+  "watir_keyword_driver": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Keyword driven framework for watir"
   },
   "watir_robot": {
     "version": "0.1.8",
@@ -2869,7 +2955,7 @@
     "description": "Watnow finds and lists your project todo and fixme"
   },
   "watobo": {
-    "version": "0.9.16",
+    "version": "0.9.19",
     "dependents": [
 
     ],
@@ -2888,6 +2974,13 @@
 
     ],
     "description": "Rails plugin that adds powerful full text search capabilities to ActiveRecord models. This is a fork of the original acts_as_ferret plugin by Jens Kraemer with some minor custom ajustments."
+  },
+  "watson-ruby": {
+    "version": "1.5.0",
+    "dependents": [
+
+    ],
+    "description": "an inline issue manager with GitHub and Bitbucket support"
   },
   "watterson": {
     "version": "0.0.1",
@@ -2956,7 +3049,7 @@
     "description": "A simple push style messaging based on redis"
   },
   "wavefile": {
-    "version": "0.5.0",
+    "version": "0.6.0",
     "dependents": [
       {
         "name": "beats",
@@ -2995,7 +3088,7 @@
     "description": "Generate waveform json from audio files. Includes a Waveform class for generating waveforms in your code as well as a simple command-line program called 'waveform' for generating on the command line."
   },
   "wavefront": {
-    "version": "0.0.6",
+    "version": "0.0.61",
     "dependents": [
 
     ],
@@ -3095,7 +3188,7 @@
     "description": "Smart menus for Rails."
   },
   "wayfinder": {
-    "version": "0.0.2",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -3187,7 +3280,7 @@
     "description": "ruby-wbem allows to access a CIMOM transparently through CIM/XML or WS-Management"
   },
   "wbench": {
-    "version": "0.3.7",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -3201,11 +3294,18 @@
     "description": "This is a simple hello world program using ruby gems"
   },
   "wbxml": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "Wrapper for wbxml2, a WAP&lt;-&gt;XML converter"
+    "description": "\nThe Wbxml library wraps libwbxml to enable handling WBXML, a binary representation of XML used in WAP to reduce bandwidth in mobile communications.\n"
+  },
+  "wbxml-npn47": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Wrapper for wbxml2, a WAP<->XML converter"
   },
   "wc": {
     "version": "0.99.0",
@@ -3459,7 +3559,7 @@
     "description": "Observable::Weak is very similar to Observable from ruby’ standard library, but\nwith the very important difference in that it allows it’s subscribers to be\ngarbage collected.\n"
   },
   "weak_parameters": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "altria",
@@ -3587,6 +3687,13 @@
     ],
     "description": "A wrapper for the Yahoo! Weather XML RSS feed"
   },
+  "weather-random": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "This gem provides a class WeatherRandom that uses the WeatherUnderground API to generate a seed for a \"T\"RNG."
+  },
   "weather-report": {
     "version": "0.3.7",
     "dependents": [
@@ -3676,6 +3783,13 @@
 
     ],
     "description": "Uses yahoo-weather gem to get weather for calgary"
+  },
+  "weather_pinpoint_jp": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "weather information library for ruby"
   },
   "weather_report": {
     "version": "0.0.4",
@@ -3865,6 +3979,13 @@
     ],
     "description": "Daemon which serves information from a local puppet master as JSON over HTTP"
   },
+  "web-push-notification-rails": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "Apple Web Push Notifications Package Generator"
+  },
   "web-scraper": {
     "version": "0.0.6",
     "dependents": [
@@ -3899,7 +4020,7 @@
     "description": "HTML5 Web Socket server/client implementation in Ruby"
   },
   "web_app_builder": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "dependents": [
 
     ],
@@ -4215,7 +4336,7 @@
     "description": "easy webapp documentation"
   },
   "webdriver-firefox": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -4288,11 +4409,11 @@
     "description": "WebFont Loader gives you added control when using linked fonts via\n`@font-face`. It provides a common interface to loading fonts regardless of\nthe source, then adds a standard set of events you may use to control the\nloading experience.\n"
   },
   "webfontspecimen": {
-    "version": "0.3.0",
+    "version": "0.4",
     "dependents": [
 
     ],
-    "description": "A Compass port of Nice Web Type's Web Font Specimen tool"
+    "description": "A Compass port of Nice Web Type's (Tim Brown) Web Font Specimen tool http://webfontspecimen.com/"
   },
   "webformsmvp": {
     "version": "0.9.7.4.20100820",
@@ -4330,7 +4451,7 @@
     "description": "Minimal, RESTful, json, sinatra-inspired framework."
   },
   "webgen": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "lazibi",
@@ -4587,6 +4708,13 @@
     ],
     "description": "WebGet spreadsheet_import_export_helpers gem: parsers and prettifiers for spreadsheets"
   },
+  "webgit": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Git Web Client."
+  },
   "webhdfs": {
     "version": "0.5.5",
     "dependents": [
@@ -4721,7 +4849,7 @@
     "description": "Activeresource gem for webistrano"
   },
   "webistrano_cli": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -4809,6 +4937,10 @@
         "requirements": "~> 1.2.1"
       },
       {
+        "name": "pact_broker",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pedal",
         "requirements": "~> 0.4.2"
       },
@@ -4821,12 +4953,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "webmachine-test",
-        "requirements": ">= 0"
-      },
-      {
         "name": "webmachine-actionview",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "webmachine-test",
+        "requirements": ">= 0"
       }
     ],
     "description": " webmachine is a toolkit for building HTTP applications in a declarative fashion, that avoids the confusion of going through a CGI-style interface like Rack. It is strongly influenced by the original Erlang project of the same name and shares its opinionated nature about HTTP. "
@@ -4922,7 +5054,7 @@
     "description": "use in conjunction with https://github.com/yushen/tflogr, run rails r script/webminer_script.rb"
   },
   "webmock": {
-    "version": "1.15.0",
+    "version": "1.16.0",
     "dependents": [
       {
         "name": "abiquo",
@@ -4939,6 +5071,10 @@
       {
         "name": "acop",
         "requirements": ">= 0"
+      },
+      {
+        "name": "acquia_toolbelt",
+        "requirements": "= 1.15.2"
       },
       {
         "name": "action_kit_rest",
@@ -4985,11 +5121,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ael_tracker",
+        "requirements": ">= 0"
+      },
+      {
         "name": "aeolus-image",
         "requirements": ">= 0"
       },
       {
-        "name": "ael_tracker",
+        "name": "aerosol",
         "requirements": ">= 0"
       },
       {
@@ -5001,6 +5141,22 @@
         "requirements": "~> 1.7.7"
       },
       {
+        "name": "agra_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "agra_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "agra_api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "agra_api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ahab",
         "requirements": ">= 0"
       },
@@ -5009,12 +5165,12 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "al_papi",
-        "requirements": ">= 1.8.11"
-      },
-      {
         "name": "aladin-books",
         "requirements": ">= 0"
+      },
+      {
+        "name": "al_papi",
+        "requirements": ">= 1.8.11"
       },
       {
         "name": "alexa",
@@ -5027,6 +5183,10 @@
       {
         "name": "allegro-webapi",
         "requirements": ">= 0"
+      },
+      {
+        "name": "allscripts_unity_client",
+        "requirements": "~> 1.15.0"
       },
       {
         "name": "altum",
@@ -5085,16 +5245,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "api-model",
+        "requirements": "= 1.15.0"
+      },
+      {
         "name": "api_cache",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "apical",
         "requirements": ">= 0"
       },
       {
         "name": "apigee-platform",
         "requirements": "= 1.8.0"
-      },
-      {
-        "name": "apical",
-        "requirements": ">= 0"
       },
       {
         "name": "apostle",
@@ -5149,12 +5313,12 @@
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "asana-ruby",
-        "requirements": "~> 1.8.8"
-      },
-      {
         "name": "asana",
         "requirements": "~> 1.8.6"
+      },
+      {
+        "name": "asana-ruby",
+        "requirements": "~> 1.8.8"
       },
       {
         "name": "asin",
@@ -5189,6 +5353,10 @@
         "requirements": "~> 1.9.0"
       },
       {
+        "name": "audio_vision",
+        "requirements": ">= 0"
+      },
+      {
         "name": "auth0",
         "requirements": ">= 0"
       },
@@ -5201,12 +5369,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "authpds-nyu",
-        "requirements": "~> 1.9.0"
-      },
-      {
         "name": "authpds",
         "requirements": "~> 1.13.0"
+      },
+      {
+        "name": "authpds-nyu",
+        "requirements": "~> 1.9.0"
       },
       {
         "name": "autodiscover",
@@ -5257,6 +5425,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bad_link_finder",
+        "requirements": ">= 0"
+      },
+      {
         "name": "badbill",
         "requirements": ">= 0"
       },
@@ -5293,6 +5465,10 @@
         "requirements": "~> 1.6.2"
       },
       {
+        "name": "barometer-forecast_io",
+        "requirements": ">= 0"
+      },
+      {
         "name": "barometer",
         "requirements": ">= 0"
       },
@@ -5305,12 +5481,12 @@
         "requirements": "~> 1.8.7"
       },
       {
-        "name": "battle",
-        "requirements": "~> 1.9.0"
-      },
-      {
         "name": "battle-on",
         "requirements": ">= 1.11.0"
+      },
+      {
+        "name": "battle",
+        "requirements": "~> 1.9.0"
       },
       {
         "name": "battlenet",
@@ -5441,11 +5617,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bixby-client",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "bixby-common",
+        "name": "bitpay-client",
         "requirements": ">= 0"
       },
       {
@@ -5469,12 +5641,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "board_game_geek",
-        "requirements": ">= 0"
-      },
-      {
         "name": "board-client",
         "requirements": "~> 1.7.4"
+      },
+      {
+        "name": "board_game_geek",
+        "requirements": ">= 0"
       },
       {
         "name": "bomb_defuser",
@@ -5497,11 +5669,11 @@
         "requirements": "~> 1.11.0"
       },
       {
-        "name": "boundioV2",
+        "name": "boundio",
         "requirements": ">= 0"
       },
       {
-        "name": "boundio",
+        "name": "boundioV2",
         "requirements": ">= 0"
       },
       {
@@ -5535,6 +5707,10 @@
       {
         "name": "browserstack",
         "requirements": "= 1.8.11"
+      },
+      {
+        "name": "browserstack-webdriver",
+        "requirements": "~> 1.7.5"
       },
       {
         "name": "bsm-sso-client",
@@ -5613,11 +5789,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "caldecott-client",
+        "name": "caldecott",
         "requirements": "~> 1.7.6"
       },
       {
-        "name": "caldecott",
+        "name": "caldecott-client",
         "requirements": "~> 1.7.6"
       },
       {
@@ -5645,6 +5821,10 @@
         "requirements": "~> 1.8.5"
       },
       {
+        "name": "canvas_webex",
+        "requirements": ">= 0"
+      },
+      {
         "name": "capgun",
         "requirements": ">= 0"
       },
@@ -5653,12 +5833,12 @@
         "requirements": "~> 1.8.4"
       },
       {
-        "name": "capistrano-ci",
-        "requirements": "~> 1.14.0"
-      },
-      {
         "name": "capistrano-cloudflare",
         "requirements": ">= 0"
+      },
+      {
+        "name": "capistrano-ci",
+        "requirements": "~> 1.14.0"
       },
       {
         "name": "capistrano-lingr",
@@ -5679,6 +5859,10 @@
       {
         "name": "car_query",
         "requirements": "~> 1.8.6"
+      },
+      {
+        "name": "carbonculture",
+        "requirements": ">= 0"
       },
       {
         "name": "career_builder",
@@ -5717,6 +5901,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "casino",
+        "requirements": "~> 1.9"
+      },
+      {
         "name": "casino_core",
         "requirements": "~> 1.9"
       },
@@ -5727,6 +5915,10 @@
       {
         "name": "castle",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "catobills",
+        "requirements": ">= 0"
       },
       {
         "name": "catsocket_client",
@@ -5753,11 +5945,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "centro-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "centro-client-internal",
         "requirements": ">= 0"
       },
       {
-        "name": "centro-client",
+        "name": "cetacean",
         "requirements": ">= 0"
       },
       {
@@ -5767,6 +5963,10 @@
       {
         "name": "cfoundry",
         "requirements": "~> 1.9"
+      },
+      {
+        "name": "chain",
+        "requirements": "~> 1.15.2"
       },
       {
         "name": "chargify2",
@@ -5817,6 +6017,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cineworld_uk",
+        "requirements": ">= 0"
+      },
+      {
         "name": "circleci",
         "requirements": ">= 1.8.11"
       },
@@ -5843,6 +6047,10 @@
       {
         "name": "clever-ruby",
         "requirements": "~> 1.9.0"
+      },
+      {
+        "name": "client",
+        "requirements": ">= 0"
       },
       {
         "name": "clinical_trials",
@@ -5897,7 +6105,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cloudxls",
+        "name": "cloudxls-rails",
         "requirements": ">= 0"
       },
       {
@@ -5914,6 +6122,10 @@
       },
       {
         "name": "coderwall_ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "codesake-gengiscan",
         "requirements": ">= 0"
       },
       {
@@ -5969,19 +6181,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-key-pair",
-        "requirements": ">= 0"
-      },
-      {
         "name": "conjur-api",
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-key-pair-api",
+        "name": "conjur-asset-deployment-api",
         "requirements": ">= 0"
       },
       {
-        "name": "conjur-asset-deployment-api",
+        "name": "conjur-asset-key-pair",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "conjur-asset-key-pair-api",
         "requirements": ">= 0"
       },
       {
@@ -6033,11 +6245,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "correios-sro-xml",
+        "name": "correios-frete",
         "requirements": "~> 1.8"
       },
       {
-        "name": "correios-frete",
+        "name": "correios-sro-xml",
         "requirements": "~> 1.8"
       },
       {
@@ -6101,11 +6313,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cube",
+        "name": "cube-evaluator",
         "requirements": ">= 0"
       },
       {
-        "name": "cube-evaluator",
+        "name": "cube",
         "requirements": ">= 0"
       },
       {
@@ -6115,6 +6327,10 @@
       {
         "name": "cultome_player",
         "requirements": ">= 1.11.0"
+      },
+      {
+        "name": "curate",
+        "requirements": ">= 0"
       },
       {
         "name": "curb_threadpool",
@@ -6137,11 +6353,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "databasedotcom-oauth2",
+        "name": "databasedotcom_cloudfuji",
         "requirements": ">= 0"
       },
       {
-        "name": "databasedotcom_cloudfuji",
+        "name": "databasedotcom-oauth2",
         "requirements": ">= 0"
       },
       {
@@ -6159,6 +6375,10 @@
       {
         "name": "dcentralized",
         "requirements": "~> 1.8.0"
+      },
+      {
+        "name": "deckard_cain",
+        "requirements": "~> 1.15"
       },
       {
         "name": "delayable_km",
@@ -6221,12 +6441,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dmm",
-        "requirements": "= 1.10.1"
-      },
-      {
         "name": "dmm-api",
         "requirements": "= 1.11.0"
+      },
+      {
+        "name": "dmm",
+        "requirements": "= 1.10.1"
       },
       {
         "name": "dms",
@@ -6245,8 +6465,12 @@
         "requirements": "~> 1.11"
       },
       {
-        "name": "docker-api",
-        "requirements": ">= 1.11.0"
+        "name": "dockistrano",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dockly",
+        "requirements": ">= 0"
       },
       {
         "name": "doctor_scrape",
@@ -6409,6 +6633,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ember-rails",
+        "requirements": "< 1.14.0"
+      },
+      {
         "name": "emeril",
         "requirements": ">= 0"
       },
@@ -6433,19 +6661,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enhanced_date_select",
-        "requirements": ">= 0"
-      },
-      {
         "name": "eoat",
         "requirements": "~> 1.13.0"
       },
       {
-        "name": "epa",
+        "name": "EPA_envirofacts",
         "requirements": "~> 1.6"
       },
       {
-        "name": "EPA_envirofacts",
+        "name": "epa",
         "requirements": "~> 1.6"
       },
       {
@@ -6485,6 +6709,10 @@
         "requirements": ">= 1.9.0"
       },
       {
+        "name": "exception-notifier-pushover",
+        "requirements": ">= 0"
+      },
+      {
         "name": "executrix",
         "requirements": "< 1.14"
       },
@@ -6493,11 +6721,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "exlibris-primo",
+        "name": "exlibris-aleph",
         "requirements": "~> 1.13.0"
       },
       {
-        "name": "exlibris-aleph",
+        "name": "exlibris-primo",
         "requirements": "~> 1.13.0"
       },
       {
@@ -6521,12 +6749,12 @@
         "requirements": "~> 1.11.0"
       },
       {
-        "name": "eztz",
-        "requirements": "~> 1.9.3"
-      },
-      {
         "name": "f1results",
         "requirements": ">= 0"
+      },
+      {
+        "name": "eztz",
+        "requirements": "~> 1.9.3"
       },
       {
         "name": "facebook_api",
@@ -6573,12 +6801,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fcc-content-api",
-        "requirements": ">= 1.8.0"
-      },
-      {
         "name": "fcc_reboot",
         "requirements": ">= 0"
+      },
+      {
+        "name": "fcc-content-api",
+        "requirements": ">= 1.8.0"
       },
       {
         "name": "fed_spending",
@@ -6657,12 +6885,12 @@
         "requirements": "~> 1.7.6"
       },
       {
-        "name": "flowdock",
-        "requirements": ">= 0"
-      },
-      {
         "name": "flowdock-git-hook",
         "requirements": ">= 1.6.4"
+      },
+      {
+        "name": "flowdock",
+        "requirements": ">= 0"
       },
       {
         "name": "fluent-plugin-elasticsearch",
@@ -6677,16 +6905,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-maestrodev",
-        "requirements": "~> 1.11.0"
-      },
-      {
         "name": "footrest",
         "requirements": ">= 0"
       },
       {
         "name": "force",
         "requirements": "~> 1.13.0"
+      },
+      {
+        "name": "forex",
+        "requirements": ">= 0"
       },
       {
         "name": "fortnox",
@@ -6725,8 +6953,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "freesound_ruby",
+        "requirements": "~> 1.8.0"
+      },
+      {
         "name": "frenetic",
         "requirements": "~> 1.11.0"
+      },
+      {
+        "name": "frizzle",
+        "requirements": ">= 0"
       },
       {
         "name": "fulcrum",
@@ -6737,11 +6973,11 @@
         "requirements": "~> 1.8.0"
       },
       {
-        "name": "fullcontact",
+        "name": "fullcontacter",
         "requirements": "~> 1.6"
       },
       {
-        "name": "fullcontacter",
+        "name": "fullcontact",
         "requirements": "~> 1.6"
       },
       {
@@ -6797,15 +7033,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gempage",
+        "requirements": ">= 0"
+      },
+      {
         "name": "genability",
         "requirements": "~> 1.7.4"
       },
       {
-        "name": "gengo",
+        "name": "gengiscan",
         "requirements": ">= 0"
       },
       {
-        "name": "gengiscan",
+        "name": "gengo",
         "requirements": ">= 0"
       },
       {
@@ -6815,6 +7055,10 @@
       {
         "name": "geo_ip",
         "requirements": "~> 1.7.10"
+      },
+      {
+        "name": "geokit",
+        "requirements": ">= 0"
       },
       {
         "name": "geoloqi",
@@ -6835,6 +7079,10 @@
       {
         "name": "gh",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gh-trend",
+        "requirements": "= 1.15.0"
       },
       {
         "name": "ghee",
@@ -6877,6 +7125,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gistify",
+        "requirements": "~> 1.15.0"
+      },
+      {
+        "name": "git-layer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "git-storyid",
         "requirements": ">= 0"
       },
@@ -6885,12 +7141,16 @@
         "requirements": "~> 1.11.0"
       },
       {
+        "name": "git_pivotal_tracker",
+        "requirements": ">= 0"
+      },
+      {
         "name": "git_pivotal_tracker_x",
         "requirements": ">= 0"
       },
       {
-        "name": "git_pivotal_tracker",
-        "requirements": ">= 0"
+        "name": "git_snatch",
+        "requirements": "~> 1.15.2"
       },
       {
         "name": "githu3",
@@ -6898,7 +7158,7 @@
       },
       {
         "name": "github_api",
-        "requirements": "~> 1.11.0"
+        "requirements": "~> 1.13"
       },
       {
         "name": "github_api_v3",
@@ -6933,16 +7193,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gmaps4rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gmo",
         "requirements": ">= 0"
       },
       {
         "name": "gnip-rule",
         "requirements": "~> 1.8.11"
+      },
+      {
+        "name": "gnome-campfire-notifications",
+        "requirements": ">= 0"
       },
       {
         "name": "go_api_client",
@@ -6981,15 +7241,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "google-content-api",
+        "requirements": "~> 1.11.0"
+      },
+      {
         "name": "google-custom_search",
         "requirements": "~> 1.7"
       },
       {
-        "name": "google_apps_oauth2",
+        "name": "google_apps",
         "requirements": ">= 0"
       },
       {
-        "name": "google_apps",
+        "name": "google_apps_oauth2",
         "requirements": ">= 0"
       },
       {
@@ -7029,12 +7293,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "googlebook",
-        "requirements": "~> 1.6.2"
-      },
-      {
         "name": "googlebooks",
         "requirements": ">= 0"
+      },
+      {
+        "name": "googlebook",
+        "requirements": "~> 1.6.2"
       },
       {
         "name": "got_fixed",
@@ -7109,7 +7373,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hall",
+        "requirements": "= 1.8.0"
+      },
+      {
         "name": "haproxy-cluster",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "harness-haproxy",
         "requirements": ">= 0"
       },
       {
@@ -7177,6 +7449,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hipchat-chef",
+        "requirements": ">= 0"
+      },
+      {
         "name": "history_file",
         "requirements": ">= 0"
       },
@@ -7186,6 +7462,10 @@
       },
       {
         "name": "hn-api",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "honeybadger",
         "requirements": ">= 0"
       },
       {
@@ -7237,11 +7517,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hue-lib",
+        "name": "hue-cli",
         "requirements": ">= 1.8.0"
       },
       {
-        "name": "hue-cli",
+        "name": "hue-lib",
         "requirements": ">= 1.8.0"
       },
       {
@@ -7329,19 +7609,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "insound_api",
+        "name": "influxdb",
         "requirements": ">= 0"
       },
       {
-        "name": "instagram_api",
-        "requirements": "= 1.11"
+        "name": "insound_api",
+        "requirements": ">= 0"
       },
       {
         "name": "instagram",
         "requirements": "~> 1.6"
       },
       {
-        "name": "instagram-fixed",
+        "name": "instagram-innonate",
         "requirements": "~> 1.6"
       },
       {
@@ -7349,8 +7629,12 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "instagram-innonate",
+        "name": "instagram-fixed",
         "requirements": "~> 1.6"
+      },
+      {
+        "name": "instagram_api",
+        "requirements": "= 1.11"
       },
       {
         "name": "instapaper",
@@ -7369,12 +7653,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "inthenews",
-        "requirements": ">= 0"
-      },
-      {
         "name": "intown",
         "requirements": "~> 1.9.3"
+      },
+      {
+        "name": "inthenews",
+        "requirements": ">= 0"
       },
       {
         "name": "ip_tracker",
@@ -7383,6 +7667,10 @@
       {
         "name": "iprofiler",
         "requirements": "~> 1.11.0"
+      },
+      {
+        "name": "iraq_unrest",
+        "requirements": "< 1.14"
       },
       {
         "name": "ironhide",
@@ -7402,11 +7690,19 @@
       },
       {
         "name": "isbndb",
-        "requirements": "~> 1.8.7"
+        "requirements": "~> 1.15"
       },
       {
         "name": "ispeech",
         "requirements": ">= 1.8.0"
+      },
+      {
+        "name": "itrp-export-monitor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "itrp-client",
+        "requirements": ">= 0"
       },
       {
         "name": "itunes",
@@ -7481,12 +7777,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jirafe",
-        "requirements": ">= 0"
-      },
-      {
         "name": "jirarest2",
         "requirements": ">= 1.7.0"
+      },
+      {
+        "name": "jirafe",
+        "requirements": ">= 0"
       },
       {
         "name": "jist",
@@ -7570,7 +7866,7 @@
       },
       {
         "name": "kappa",
-        "requirements": "~> 1.11.0"
+        "requirements": "~> 1.15.2"
       },
       {
         "name": "karotz",
@@ -7593,7 +7889,7 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "ki_pivotal",
+        "name": "ki_youtrack",
         "requirements": "~> 1.8.8"
       },
       {
@@ -7601,7 +7897,7 @@
         "requirements": "~> 1.8.9"
       },
       {
-        "name": "ki_youtrack",
+        "name": "ki_pivotal",
         "requirements": "~> 1.8.8"
       },
       {
@@ -7609,12 +7905,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "kinopoisk_parser",
-        "requirements": ">= 0"
-      },
-      {
         "name": "kippt",
         "requirements": "~> 1.11"
+      },
+      {
+        "name": "kinopoisk_parser",
+        "requirements": ">= 0"
       },
       {
         "name": "kissmetrics",
@@ -7625,11 +7921,15 @@
         "requirements": "~> 1.7.7"
       },
       {
+        "name": "km-resque",
+        "requirements": ">= 0"
+      },
+      {
         "name": "km_resque",
         "requirements": ">= 0"
       },
       {
-        "name": "km-resque",
+        "name": "km_sidekiq",
         "requirements": ">= 0"
       },
       {
@@ -7647,6 +7947,10 @@
       {
         "name": "koha",
         "requirements": "~> 1.9.3"
+      },
+      {
+        "name": "kounta_rest",
+        "requirements": "= 1.13.0"
       },
       {
         "name": "kraken",
@@ -7677,15 +7981,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "layervault",
+        "requirements": "= 1.13"
+      },
+      {
         "name": "leadtune",
         "requirements": ">= 0"
       },
       {
-        "name": "leapfrog",
+        "name": "leapfrog-customer_scoring",
         "requirements": "~> 1.14.0"
       },
       {
-        "name": "leapfrog-customer_scoring",
+        "name": "leapfrog",
         "requirements": "~> 1.14.0"
       },
       {
@@ -7706,7 +8014,7 @@
       },
       {
         "name": "lentil",
-        "requirements": "~> 1.11.0"
+        "requirements": "< 1.16"
       },
       {
         "name": "letsfreckle-client",
@@ -7729,6 +8037,10 @@
         "requirements": "~> 1.13"
       },
       {
+        "name": "liebert",
+        "requirements": "~> 1.15.0"
+      },
+      {
         "name": "liftapp-client",
         "requirements": ">= 0"
       },
@@ -7745,32 +8057,32 @@
         "requirements": ">= 0"
       },
       {
-        "name": "link_shrink",
-        "requirements": "~> 1.13.0"
-      },
-      {
         "name": "link_thumbnailer",
         "requirements": "~> 1.8.10"
+      },
+      {
+        "name": "link_shrink",
+        "requirements": "~> 1.13.0"
       },
       {
         "name": "linkedin-bdigital",
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "linkedin-drspin",
-        "requirements": "~> 1.7"
-      },
-      {
         "name": "linkedin",
         "requirements": "~> 1.11"
       },
       {
-        "name": "linkedin-rb",
-        "requirements": "~> 1.7.7"
+        "name": "linkedin-drspin",
+        "requirements": "~> 1.7"
       },
       {
         "name": "linkedin-oauth2",
         "requirements": "~> 1.9"
+      },
+      {
+        "name": "linkedin-rb",
+        "requirements": "~> 1.7.7"
       },
       {
         "name": "linkshare_api",
@@ -7786,6 +8098,10 @@
       },
       {
         "name": "lita-boobs",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lita-gitcamp",
         "requirements": ">= 0"
       },
       {
@@ -7841,6 +8157,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lti_provider_engine",
+        "requirements": ">= 0"
+      },
+      {
         "name": "lumberg",
         "requirements": "~> 1.8.7"
       },
@@ -7877,12 +8197,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mailru-api",
-        "requirements": ">= 1.15.0"
+        "name": "mailgunner",
+        "requirements": "~> 1.13.0"
       },
       {
         "name": "mailroute",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mailru-api",
+        "requirements": ">= 1.15.0"
       },
       {
         "name": "manifests-cf-plugin",
@@ -7901,11 +8225,23 @@
         "requirements": "~> 1.11"
       },
       {
+        "name": "mapstatic",
+        "requirements": "~> 1.15.2"
+      },
+      {
         "name": "marketing_api",
         "requirements": ">= 0"
       },
       {
+        "name": "marmite",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mavenlink",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mc",
         "requirements": ">= 0"
       },
       {
@@ -7922,6 +8258,10 @@
       },
       {
         "name": "mechanize-progressbar",
+        "requirements": ">= 1.6.1"
+      },
+      {
+        "name": "mechanize-progrezzbar",
         "requirements": ">= 1.6.1"
       },
       {
@@ -7965,12 +8305,12 @@
         "requirements": "~> 1.6.0"
       },
       {
-        "name": "metric",
-        "requirements": ">= 0"
-      },
-      {
         "name": "metoffice_datapoint",
         "requirements": "~> 1.11.0"
+      },
+      {
+        "name": "metric",
+        "requirements": ">= 0"
       },
       {
         "name": "mico",
@@ -8001,11 +8341,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Missionhub",
+        "name": "MissionHub",
         "requirements": ">= 0"
       },
       {
-        "name": "MissionHub",
+        "name": "Missionhub",
         "requirements": ">= 0"
       },
       {
@@ -8041,12 +8381,12 @@
         "requirements": "~> 1.9.0"
       },
       {
-        "name": "mollie_ideal",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mollie-payment",
         "requirements": "~> 1.7.8"
+      },
+      {
+        "name": "mollie_ideal",
+        "requirements": ">= 0"
       },
       {
         "name": "monad",
@@ -8073,11 +8413,11 @@
         "requirements": "~> 1.8.10"
       },
       {
-        "name": "mosaic-facebook",
+        "name": "mosaic-foursquare",
         "requirements": ">= 0"
       },
       {
-        "name": "mosaic-foursquare",
+        "name": "mosaic-facebook",
         "requirements": ">= 0"
       },
       {
@@ -8145,12 +8485,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "national-rail",
-        "requirements": "~> 1.6.1"
+        "name": "namesia",
+        "requirements": ">= 0"
       },
       {
         "name": "nation_builder",
         "requirements": ">= 0"
+      },
+      {
+        "name": "national-rail",
+        "requirements": "~> 1.6.1"
       },
       {
         "name": "neo-tmdb",
@@ -8186,7 +8530,7 @@
       },
       {
         "name": "nexus",
-        "requirements": "~> 1.8"
+        "requirements": "< 1.16, ~> 1.8"
       },
       {
         "name": "nexus_cli",
@@ -8205,15 +8549,19 @@
         "requirements": "~> 1.8"
       },
       {
+        "name": "nice-reply-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "nicoquery",
         "requirements": ">= 0"
       },
       {
-        "name": "nike_v2",
+        "name": "nike_v2_neura",
         "requirements": "~> 1.9.0"
       },
       {
-        "name": "nike_v2_neura",
+        "name": "nike_v2",
         "requirements": "~> 1.9.0"
       },
       {
@@ -8245,16 +8593,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oa-globocom",
-        "requirements": ">= 0"
+        "name": "oa-basic",
+        "requirements": "~> 1.7"
       },
       {
         "name": "oa-enterprise",
         "requirements": "~> 1.7"
       },
       {
-        "name": "oa-basic",
-        "requirements": "~> 1.7"
+        "name": "oa-globocom",
+        "requirements": ">= 0"
       },
       {
         "name": "oa-more",
@@ -8361,7 +8709,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-appdotnet",
+        "name": "omniauth-allplayers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-angellist",
         "requirements": ">= 0"
       },
       {
@@ -8369,11 +8721,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-allplayers",
+        "name": "omniauth-appdotnet",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-angellist",
+        "name": "omniauth-aqua",
         "requirements": ">= 0"
       },
       {
@@ -8385,11 +8737,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-betable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-bitbucket",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-betable",
+        "name": "omniauth-bitcasa",
         "requirements": ">= 0"
       },
       {
@@ -8397,19 +8753,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-buffer2",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-cacoo",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-cafepress",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-broadworks",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-buffer2",
         "requirements": ">= 0"
       },
       {
@@ -8417,19 +8765,19 @@
         "requirements": "~> 1.8.11"
       },
       {
+        "name": "omniauth-cafepress",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-cacoo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-cheddar",
         "requirements": ">= 0"
       },
       {
         "name": "omniauth-cisimple",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-coinbase",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-cloud66",
         "requirements": ">= 0"
       },
       {
@@ -8441,11 +8789,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-constantcontact",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-cloudsdale",
+        "name": "omniauth-cloud66",
         "requirements": ">= 0"
       },
       {
@@ -8453,11 +8797,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-creatary",
+        "name": "omniauth-constantcontact",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-createsend",
+        "name": "omniauth-coinbase",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-cloudsdale",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-creatary",
         "requirements": ">= 0"
       },
       {
@@ -8473,7 +8825,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-do",
+        "name": "omniauth-createsend",
         "requirements": ">= 0"
       },
       {
@@ -8486,6 +8838,10 @@
       },
       {
         "name": "omniauth-deviantart",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-do",
         "requirements": ">= 0"
       },
       {
@@ -8505,19 +8861,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-eyeem",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-exvo",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-familysearch",
+        "name": "omniauth-eyeem",
         "requirements": ">= 0"
       },
       {
         "name": "omniauth-fatsecret",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-familysearch",
         "requirements": ">= 0"
       },
       {
@@ -8529,16 +8885,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-foursquare",
+        "name": "omniauth-freeagent",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-freeagent",
+        "name": "omniauth-foursquare",
         "requirements": ">= 0"
       },
       {
         "name": "omniauth-geeklist",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-github-team-member",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-getglue",
+        "requirements": "~> 1.7"
       },
       {
         "name": "omniauth-github",
@@ -8549,19 +8913,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-getglue",
-        "requirements": "~> 1.7"
-      },
-      {
-        "name": "omniauth-github-team-member",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-google",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-google-api",
         "requirements": ">= 0"
       },
       {
@@ -8569,11 +8921,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-googleplus",
+        "name": "omniauth-google-api",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-groupme",
+        "name": "omniauth-googleplus",
         "requirements": ">= 0"
       },
       {
@@ -8593,6 +8945,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-idnet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-idme",
         "requirements": ">= 0"
       },
@@ -8609,19 +8965,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-intuit",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-instapaper",
         "requirements": "~> 1.7"
       },
       {
-        "name": "omniauth-jira",
+        "name": "omniauth-intuit",
         "requirements": ">= 0"
       },
       {
         "name": "omniauth-jawbone",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-jira",
         "requirements": ">= 0"
       },
       {
@@ -8633,12 +8989,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-klout",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-kongregate",
         "requirements": "~> 1.9.0"
+      },
+      {
+        "name": "omniauth-klout",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-krb5",
@@ -8657,6 +9013,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-mapmyride",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-mapmyrun",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-mapmyfitness",
         "requirements": ">= 0"
       },
@@ -8665,15 +9029,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-mapmyride",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-mapmytri",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-mapmyrun",
         "requirements": ">= 0"
       },
       {
@@ -8685,6 +9041,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-meetup",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-mendeley",
         "requirements": ">= 0"
       },
@@ -8693,7 +9053,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-meetup",
+        "name": "omniauth-msunet",
         "requirements": ">= 0"
       },
       {
@@ -8705,15 +9065,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-msunet",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-mybigcampus",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-namba",
         "requirements": ">= 0"
       },
       {
@@ -8721,15 +9073,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-namba",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-netflix",
         "requirements": "~> 1.7"
       },
       {
-        "name": "omniauth-oauth",
+        "name": "omniauth-oauth2",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-oauth2",
+        "name": "omniauth-oauth",
         "requirements": ">= 0"
       },
       {
@@ -8737,15 +9093,15 @@
         "requirements": "~> 1.7"
       },
       {
+        "name": "omniauth-oyoh",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-osm",
         "requirements": "~> 1.7"
       },
       {
         "name": "omniauth-pachube",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-oyoh",
         "requirements": ">= 0"
       },
       {
@@ -8761,11 +9117,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-podio",
+        "name": "omniauth-pocket",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-pocket",
+        "name": "omniauth-podio",
         "requirements": ">= 0"
       },
       {
@@ -8773,11 +9129,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-resourceguru",
+        "name": "omniauth-readmill",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-readmill",
+        "name": "omniauth-resourceguru",
         "requirements": ">= 0"
       },
       {
@@ -8821,11 +9177,23 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-tequila",
+        "requirements": "~> 1.8.11"
+      },
+      {
         "name": "omniauth-tent",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-trello",
+        "name": "omniauth-ticketbud",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-toshl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tradegecko",
         "requirements": ">= 0"
       },
       {
@@ -8833,7 +9201,11 @@
         "requirements": "~> 1.7"
       },
       {
-        "name": "omniauth-tradegecko",
+        "name": "omniauth-trello",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tropo",
         "requirements": ">= 0"
       },
       {
@@ -8842,10 +9214,6 @@
       },
       {
         "name": "omniauth-tti-local",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-tropo",
         "requirements": ">= 0"
       },
       {
@@ -8861,6 +9229,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-untappd",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-viadeo",
         "requirements": ">= 0"
       },
@@ -8869,7 +9241,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-withings",
+        "name": "omniauth-weixin",
         "requirements": ">= 0"
       },
       {
@@ -8877,7 +9249,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-withings",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-wordpress",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-groupme",
         "requirements": ">= 0"
       },
       {
@@ -8901,16 +9281,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-zendesk",
+        "name": "omniauth-youroom",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-youroom",
+        "name": "omniauth-zendesk",
         "requirements": ">= 0"
       },
       {
         "name": "omniauth_crowd",
         "requirements": "~> 1.3.4"
+      },
+      {
+        "name": "omniauth-zenpayroll",
+        "requirements": ">= 0"
       },
       {
         "name": "omudid",
@@ -8925,15 +9309,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "open-companies-house",
-        "requirements": "~> 1.8.8"
-      },
-      {
         "name": "open-charities",
         "requirements": "~> 1.8.8"
       },
       {
+        "name": "open-companies-house",
+        "requirements": "~> 1.8.8"
+      },
+      {
         "name": "open311",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "openagent",
         "requirements": ">= 0"
       },
       {
@@ -8970,6 +9358,10 @@
       },
       {
         "name": "optify",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "orchestrate.io",
         "requirements": ">= 0"
       },
       {
@@ -9037,6 +9429,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "parse-ruby-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "parse-model-scaffold",
         "requirements": ">= 0"
       },
@@ -9045,23 +9441,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "parse-ruby-client",
-        "requirements": ">= 0"
-      },
-      {
         "name": "parsecom",
         "requirements": ">= 0"
       },
       {
+        "name": "party_resource",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "party_resource",
+        "requirements": ">= 0"
+      },
+      {
         "name": "party_foul",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "party_resource",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "party_resource",
         "requirements": ">= 0"
       },
       {
@@ -9089,6 +9481,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pbox",
+        "requirements": "< 1.12"
+      },
+      {
         "name": "peerindex",
         "requirements": "~> 1.7"
       },
@@ -9101,12 +9497,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "phocoder-rb",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "phocoder-rails",
         "requirements": ">= 0"
+      },
+      {
+        "name": "phocoder-rb",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "phrase",
@@ -9117,11 +9513,15 @@
         "requirements": "~> 1.5.0"
       },
       {
+        "name": "picasa-downloader",
+        "requirements": ">= 0"
+      },
+      {
         "name": "picasa",
         "requirements": ">= 0"
       },
       {
-        "name": "picasa-downloader",
+        "name": "picturehouse_uk",
         "requirements": ">= 0"
       },
       {
@@ -9137,6 +9537,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pin_up_receipts",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pinboard",
         "requirements": "~> 1.6"
       },
@@ -9145,12 +9549,12 @@
         "requirements": "~> 1.8.7"
       },
       {
-        "name": "pingdom-cap",
-        "requirements": "~> 1.7.10"
-      },
-      {
         "name": "pingback",
         "requirements": ">= 1.6.2"
+      },
+      {
+        "name": "pingdom-cap",
+        "requirements": "~> 1.7.10"
       },
       {
         "name": "pingify",
@@ -9345,12 +9749,12 @@
         "requirements": ">= 1"
       },
       {
-        "name": "rack-casual",
-        "requirements": "~> 1.3"
-      },
-      {
         "name": "rack-cas",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rack-casual",
+        "requirements": "~> 1.3"
       },
       {
         "name": "rack-livereload",
@@ -9365,12 +9769,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rack-reverse-proxy",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "rack-restfolia",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rack-reverse-proxy",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "rack-s3",
@@ -9417,10 +9821,6 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "rakuten-api",
-        "requirements": "= 1.11.0"
-      },
-      {
         "name": "rakumarket",
         "requirements": ">= 0"
       },
@@ -9435,6 +9835,10 @@
       {
         "name": "rakuten_web_service",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rakuten-api",
+        "requirements": "= 1.11.0"
       },
       {
         "name": "rapgenius",
@@ -9467,6 +9871,10 @@
       {
         "name": "rcarvalho-jigsaw",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rdf",
+        "requirements": ">= 1.15"
       },
       {
         "name": "rdio_api",
@@ -9529,6 +9937,10 @@
         "requirements": "= 1.8.8"
       },
       {
+        "name": "reittiopas2",
+        "requirements": "~> 1.15"
+      },
+      {
         "name": "reliefweb_scraper",
         "requirements": "~> 1.7.0"
       },
@@ -9555,6 +9967,10 @@
       {
         "name": "reps_client",
         "requirements": "~> 1.7"
+      },
+      {
+        "name": "request_context",
+        "requirements": ">= 0"
       },
       {
         "name": "rereplay",
@@ -9621,10 +10037,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "restpack_web",
-        "requirements": "~> 1.11"
-      },
-      {
         "name": "resumator-client",
         "requirements": ">= 0"
       },
@@ -9689,6 +10101,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rk_fx_rates",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rocket_pants",
         "requirements": ">= 0"
       },
@@ -9717,12 +10133,12 @@
         "requirements": "= 1.6.1"
       },
       {
-        "name": "rspec_api_documentation",
-        "requirements": ">= 1.7.0"
-      },
-      {
         "name": "rspec_api_test",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rspec_api_documentation",
+        "requirements": ">= 1.7.0"
       },
       {
         "name": "rspreedly",
@@ -9737,15 +10153,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-box",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ruby-bitly",
         "requirements": "~> 1.6.4"
       },
       {
-        "name": "ruby-dmm",
+        "name": "ruby-box",
         "requirements": ">= 0"
       },
       {
@@ -9757,12 +10169,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-tmdb3",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ruby-tmdb3",
-        "requirements": ">= 0"
+        "name": "ruby-stackoverflow",
+        "requirements": "~> 1.14.0"
       },
       {
         "name": "ruby-tmdb",
@@ -9770,6 +10178,14 @@
       },
       {
         "name": "ruby-traileraddict",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby-tmdb3",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby-tmdb3",
         "requirements": ">= 0"
       },
       {
@@ -9786,6 +10202,10 @@
       },
       {
         "name": "rubygems-source-cli",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rubyidescat",
         "requirements": ">= 0"
       },
       {
@@ -9809,11 +10229,15 @@
         "requirements": "~> 1.13.0"
       },
       {
+        "name": "russianpost",
+        "requirements": ">= 0"
+      },
+      {
         "name": "russian_post",
         "requirements": "~> 1.11"
       },
       {
-        "name": "russianpost",
+        "name": "ruush",
         "requirements": ">= 0"
       },
       {
@@ -9857,12 +10281,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sambatech",
-        "requirements": "~> 1.6"
-      },
-      {
         "name": "salesforcebulk",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sambatech",
+        "requirements": "~> 1.6"
       },
       {
         "name": "sandy",
@@ -9949,7 +10373,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sensor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sentiment",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "serel",
         "requirements": ">= 0"
       },
       {
@@ -9957,12 +10389,20 @@
         "requirements": "= 1.8.9"
       },
       {
-        "name": "serel",
+        "name": "serverist-email-provider",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sesheta",
         "requirements": ">= 0"
       },
       {
         "name": "sevennet-api",
         "requirements": "= 1.11.0"
+      },
+      {
+        "name": "sfdc",
+        "requirements": "~> 1.13.0"
       },
       {
         "name": "sfpark",
@@ -9981,6 +10421,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shared_count_api",
+        "requirements": "~> 1.16.0"
+      },
+      {
         "name": "shared_workforce",
         "requirements": ">= 0"
       },
@@ -9990,6 +10434,10 @@
       },
       {
         "name": "shipstation-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "shokkenki-consumer",
         "requirements": ">= 0"
       },
       {
@@ -10017,11 +10465,11 @@
         "requirements": "~> 1.8.7"
       },
       {
-        "name": "shutl_resource",
+        "name": "shutl_rails",
         "requirements": "~> 1.8.7"
       },
       {
-        "name": "shutl_rails",
+        "name": "shutl_resource",
         "requirements": "~> 1.8.7"
       },
       {
@@ -10045,11 +10493,11 @@
         "requirements": "~> 1.8"
       },
       {
-        "name": "simple-client",
+        "name": "simple-cloudfront-invalidator",
         "requirements": ">= 0"
       },
       {
-        "name": "simple-cloudfront-invalidator",
+        "name": "simple-client",
         "requirements": ">= 0"
       },
       {
@@ -10069,11 +10517,11 @@
         "requirements": "~> 1.9.0"
       },
       {
-        "name": "simple_postmark",
+        "name": "simple_postmark18",
         "requirements": ">= 0"
       },
       {
-        "name": "simple_postmark18",
+        "name": "simple_postmark",
         "requirements": ">= 0"
       },
       {
@@ -10083,6 +10531,10 @@
       {
         "name": "simplesol",
         "requirements": ">= 0"
+      },
+      {
+        "name": "simplewoo",
+        "requirements": "~> 1.13.0"
       },
       {
         "name": "simplydb",
@@ -10125,6 +10577,10 @@
         "requirements": "~> 1.11"
       },
       {
+        "name": "skuby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "skydrive",
         "requirements": ">= 0"
       },
@@ -10135,6 +10591,10 @@
       {
         "name": "skype_archive",
         "requirements": ">= 0"
+      },
+      {
+        "name": "slack-notify",
+        "requirements": "~> 1.0"
       },
       {
         "name": "slackbot",
@@ -10185,11 +10645,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "smslane",
+        "name": "smsim",
         "requirements": ">= 0"
       },
       {
-        "name": "smsim",
+        "name": "smslane",
         "requirements": ">= 0"
       },
       {
@@ -10199,6 +10659,10 @@
       {
         "name": "smtpcom_api",
         "requirements": ">= 0"
+      },
+      {
+        "name": "snapcat",
+        "requirements": ">= 1.10"
       },
       {
         "name": "soa_doctor",
@@ -10213,11 +10677,11 @@
         "requirements": ">= 1.7.7"
       },
       {
-        "name": "socialcast-opengraph",
+        "name": "socialcast-git-extensions",
         "requirements": ">= 0"
       },
       {
-        "name": "socialcast-git-extensions",
+        "name": "socialcast-opengraph",
         "requirements": ">= 0"
       },
       {
@@ -10235,6 +10699,10 @@
       {
         "name": "spark_api",
         "requirements": "~> 1.9"
+      },
+      {
+        "name": "sparql-client",
+        "requirements": ">= 1.15"
       },
       {
         "name": "spbus",
@@ -10257,31 +10725,39 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sports_direct",
-        "requirements": "= 1.6.1"
+        "name": "spodunk",
+        "requirements": ">= 0"
       },
       {
-        "name": "spot",
-        "requirements": "~> 1.8.0"
-      },
-      {
-        "name": "spotifiery",
-        "requirements": "< 1.9.0"
+        "name": "sportsdata",
+        "requirements": "~> 1.9.0"
       },
       {
         "name": "spotif-aye",
         "requirements": ">= 0"
       },
       {
+        "name": "spot",
+        "requirements": "~> 1.8.0"
+      },
+      {
+        "name": "sports_direct",
+        "requirements": "= 1.6.1"
+      },
+      {
+        "name": "spotifiery",
+        "requirements": "< 1.9.0"
+      },
+      {
         "name": "spree-api-client",
         "requirements": ">= 0"
       },
       {
-        "name": "spreedly_core",
+        "name": "spreedly-core-ruby",
         "requirements": "~> 1.6.2"
       },
       {
-        "name": "spreedly-core-ruby",
+        "name": "spreedly_core",
         "requirements": "~> 1.6.2"
       },
       {
@@ -10295,6 +10771,10 @@
       {
         "name": "squeegee",
         "requirements": ">= 0"
+      },
+      {
+        "name": "stacker_bee",
+        "requirements": "~> 1.15"
       },
       {
         "name": "stamps",
@@ -10311,6 +10791,10 @@
       {
         "name": "starcraft2",
         "requirements": "= 1.11"
+      },
+      {
+        "name": "stash-client",
+        "requirements": ">= 0"
       },
       {
         "name": "statement",
@@ -10341,15 +10825,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "streamio",
-        "requirements": "~> 1.9"
-      },
-      {
         "name": "streambot",
         "requirements": "~> 1.0.0"
       },
       {
         "name": "streamio-cli",
+        "requirements": "~> 1.9"
+      },
+      {
+        "name": "streamio",
         "requirements": "~> 1.9"
       },
       {
@@ -10401,6 +10885,10 @@
         "requirements": "= 1.8.3"
       },
       {
+        "name": "survey-gizmo-ruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "surveygizmo",
         "requirements": ">= 0"
       },
@@ -10425,12 +10913,12 @@
         "requirements": "~> 1.8"
       },
       {
-        "name": "sys",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "syoboi_calendar",
         "requirements": ">= 1.8.6"
+      },
+      {
+        "name": "sys",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "tac",
@@ -10462,7 +10950,7 @@
       },
       {
         "name": "teamcity-ruby-client",
-        "requirements": "~> 1.11.0"
+        "requirements": "~> 1.8.0"
       },
       {
         "name": "ted_api",
@@ -10505,11 +10993,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "testrail",
+        "name": "testrailv2",
         "requirements": "~> 1.11.0"
       },
       {
-        "name": "testrailv2",
+        "name": "testrail",
         "requirements": "~> 1.11.0"
       },
       {
@@ -10534,6 +11022,10 @@
       },
       {
         "name": "thegarage-gitx",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "thingdeck",
         "requirements": ">= 0"
       },
       {
@@ -10573,6 +11065,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "tinypass",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tinysong",
         "requirements": "~> 1.8.0"
       },
@@ -10597,12 +11093,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "toopher_api",
-        "requirements": ">= 1.9.0"
-      },
-      {
         "name": "tools-cf-plugin",
         "requirements": "~> 1.9"
+      },
+      {
+        "name": "toopher_api",
+        "requirements": ">= 1.9.0"
       },
       {
         "name": "tootsie",
@@ -10611,6 +11107,14 @@
       {
         "name": "toppr",
         "requirements": ">= 0"
+      },
+      {
+        "name": "touggsl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tradeking",
+        "requirements": ">= 1.8.0"
       },
       {
         "name": "transcribeme",
@@ -10657,6 +11161,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "trucker-cli",
+        "requirements": ">= 0"
+      },
+      {
         "name": "true-web",
         "requirements": ">= 1.6.2"
       },
@@ -10673,15 +11181,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tumble",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tumblife",
         "requirements": ">= 0"
       },
       {
+        "name": "tumble",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tumblr-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "tumblr_client_faraday_0_8",
         "requirements": ">= 0"
       },
       {
@@ -10690,10 +11202,6 @@
       },
       {
         "name": "tumblr_wrapper",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "tumblr_client_faraday_0_8",
         "requirements": ">= 0"
       },
       {
@@ -10722,6 +11230,10 @@
       },
       {
         "name": "twelve",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twfy",
         "requirements": ">= 0"
       },
       {
@@ -10769,12 +11281,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "umlaut-primo",
-        "requirements": "~> 1.9.0"
-      },
-      {
         "name": "umlaut",
         "requirements": "~> 1.11.0"
+      },
+      {
+        "name": "umlaut-primo",
+        "requirements": "~> 1.9.0"
       },
       {
         "name": "uncoil",
@@ -10821,12 +11333,16 @@
         "requirements": "~> 1.6"
       },
       {
+        "name": "userfox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "userbin",
         "requirements": ">= 0"
       },
       {
-        "name": "userfox",
-        "requirements": ">= 0"
+        "name": "utterson",
+        "requirements": "~> 1.15.2"
       },
       {
         "name": "uw_learn",
@@ -10849,23 +11365,23 @@
         "requirements": "~> 1.13.0"
       },
       {
-        "name": "vatsim",
+        "name": "vast_api",
         "requirements": ">= 0"
       },
       {
-        "name": "vaulted_billing",
-        "requirements": "~> 1.6"
+        "name": "vatsim",
+        "requirements": ">= 0"
       },
       {
         "name": "vaulted_billing-termcap",
         "requirements": "~> 1.6"
       },
       {
-        "name": "vcloud-box-spinner",
-        "requirements": ">= 0"
+        "name": "vaulted_billing",
+        "requirements": "~> 1.6"
       },
       {
-        "name": "vast_api",
+        "name": "vcloud-box-spinner",
         "requirements": ">= 0"
       },
       {
@@ -10910,7 +11426,11 @@
       },
       {
         "name": "video_info",
-        "requirements": "< 1.10, >= 1.8.0"
+        "requirements": ">= 0"
+      },
+      {
+        "name": "videolog",
+        "requirements": ">= 0"
       },
       {
         "name": "vidibus-resource",
@@ -10937,19 +11457,23 @@
         "requirements": "~> 1.11"
       },
       {
-        "name": "viki-api",
-        "requirements": "~> 1.12.3"
+        "name": "viglink-api",
+        "requirements": ">= 0"
       },
       {
         "name": "viki",
         "requirements": "~> 1.8.7"
       },
       {
-        "name": "vimmer",
-        "requirements": ">= 0"
+        "name": "viki-api",
+        "requirements": "~> 1.12.3"
       },
       {
         "name": "vimpack",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vimmer",
         "requirements": ">= 0"
       },
       {
@@ -10973,23 +11497,23 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "vmc-IronFoundry",
-        "requirements": "~> 1.5.0"
-      },
-      {
         "name": "vmc",
         "requirements": "~> 1.9"
+      },
+      {
+        "name": "vmcu",
+        "requirements": "~> 1.5.0"
       },
       {
         "name": "vmc_knife",
         "requirements": "= 1.5.0"
       },
       {
-        "name": "vmc_virgo",
+        "name": "vmc-IronFoundry",
         "requirements": "~> 1.5.0"
       },
       {
-        "name": "vmcu",
+        "name": "vmc_virgo",
         "requirements": "~> 1.5.0"
       },
       {
@@ -11061,12 +11585,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "webmock-resources",
+        "name": "webmock-disabler",
+        "requirements": ">= 1.6.4, < 2.0.0"
+      },
+      {
+        "name": "webmock_method",
         "requirements": ">= 0"
       },
       {
-        "name": "webmock-disabler",
-        "requirements": ">= 1.6.4, < 2.0.0"
+        "name": "webmock-resources",
+        "requirements": ">= 0"
       },
       {
         "name": "webpagetest",
@@ -11097,6 +11625,10 @@
         "requirements": "~> 1.7.10"
       },
       {
+        "name": "wikiwhat",
+        "requirements": "~> 1.8.0"
+      },
+      {
         "name": "williamhill",
         "requirements": ">= 0"
       },
@@ -11117,11 +11649,11 @@
         "requirements": "~> 1.9.0"
       },
       {
-        "name": "wishlist",
+        "name": "wishsimple",
         "requirements": ">= 0"
       },
       {
-        "name": "wishsimple",
+        "name": "wishlist",
         "requirements": ">= 0"
       },
       {
@@ -11157,11 +11689,11 @@
         "requirements": "~> 1.9.3"
       },
       {
-        "name": "worth_watching",
+        "name": "wow_community_api",
         "requirements": ">= 0"
       },
       {
-        "name": "wow_community_api",
+        "name": "worth_watching",
         "requirements": ">= 0"
       },
       {
@@ -11171,6 +11703,10 @@
       {
         "name": "wtforum",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ww-postcodeapi",
+        "requirements": "~> 1.8.0"
       },
       {
         "name": "xing",
@@ -11193,12 +11729,12 @@
         "requirements": "~> 1.9.0"
       },
       {
-        "name": "yahoo-group-data",
-        "requirements": ">= 0"
-      },
-      {
         "name": "yahoo-api",
         "requirements": "= 1.11.0"
+      },
+      {
+        "name": "yahoo-group-data",
+        "requirements": ">= 0"
       },
       {
         "name": "yahoofx",
@@ -11209,12 +11745,12 @@
         "requirements": ">= 1.9.0"
       },
       {
-        "name": "yammer",
-        "requirements": "~> 1.6"
-      },
-      {
         "name": "yammer-client",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "yammer",
+        "requirements": "~> 1.6"
       },
       {
         "name": "yammer_api",
@@ -11269,12 +11805,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zemanta_client",
-        "requirements": ">= 0"
-      },
-      {
         "name": "zen",
         "requirements": ">= 1.8.7"
+      },
+      {
+        "name": "zemanta_client",
+        "requirements": ">= 0"
       },
       {
         "name": "zenapi",
@@ -11337,6 +11873,13 @@
     ],
     "description": "Remote resource definition for tests/specs"
   },
+  "webmock_method": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Extension for webmock to make stubbed methods."
+  },
   "webmoney": {
     "version": "0.0.14",
     "dependents": [
@@ -11355,8 +11898,22 @@
     ],
     "description": "Webmoney interfaces and native wmsigner"
   },
+  "webname": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "webname(nickname, username) solution for Rails applications"
+  },
+  "webnames": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "webname(nickname, username) solution for Rails applications"
+  },
   "webp-ffi": {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "dependents": [
       {
         "name": "carrierwave-webp",
@@ -11391,7 +11948,7 @@
     "description": "A Ruby wrapper for the Webpagetest REST API."
   },
   "webpay": {
-    "version": "2.0.3",
+    "version": "2.1.0",
     "dependents": [
       {
         "name": "webpay-scaffold",
@@ -11499,11 +12056,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "brick_layer",
+        "name": "brick_house",
         "requirements": ">= 0"
       },
       {
-        "name": "brick_house",
+        "name": "brick_layer",
         "requirements": ">= 0"
       },
       {
@@ -11623,10 +12180,6 @@
         "requirements": ">= 0.7.0"
       },
       {
-        "name": "governor",
-        "requirements": ">= 0"
-      },
-      {
         "name": "governor_atom",
         "requirements": ">= 0"
       },
@@ -11635,11 +12188,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "governor_tags",
+        "name": "governor",
         "requirements": ">= 0"
       },
       {
         "name": "governor_states",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "governor_tags",
         "requirements": ">= 0"
       },
       {
@@ -11739,6 +12296,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "primary_key",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rack-bug-rails-3",
         "requirements": ">= 0"
       },
@@ -11787,11 +12348,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rules_view",
+        "name": "rules_engine_templates",
         "requirements": ">= 0"
       },
       {
-        "name": "rules_engine_templates",
+        "name": "rules_view",
         "requirements": ">= 0"
       },
       {
@@ -11907,6 +12468,10 @@
         "requirements": "= 0.4.5"
       },
       {
+        "name": "weeler",
+        "requirements": ">= 0"
+      },
+      {
         "name": "widgets",
         "requirements": ">= 0"
       },
@@ -11947,6 +12512,14 @@
     "dependents": [
       {
         "name": "airstream",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bilibili_sunday",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pact",
         "requirements": ">= 0"
       },
       {
@@ -12052,14 +12625,14 @@
     "description": "Webrtc server in ruby"
   },
   "webruby": {
-    "version": "0.1.2",
+    "version": "0.2.1",
     "dependents": [
 
     ],
     "description": "compile your favourite Ruby source code for the browser!"
   },
   "webs": {
-    "version": "0.1.49",
+    "version": "0.1.51",
     "dependents": [
 
     ],
@@ -12094,7 +12667,7 @@
     "description": "A static web server"
   },
   "webservice_tester": {
-    "version": "0.0.4",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -12115,7 +12688,7 @@
     "description": "Webshell API of APIs"
   },
   "webshims-rails": {
-    "version": "1.11.1",
+    "version": "1.11.6",
     "dependents": [
 
     ],
@@ -12134,13 +12707,6 @@
 
     ],
     "description": "== DESCRIPTION: websitary (formerly known as websitiary with an extra &quot;i&quot;) monitors  webpages, rss feeds, podcasts etc. It reuses other programs (w3m, diff  etc.) to do most of the actual work. By default, it works on an ASCII  basis, i.e. with the output of text-based webbrowsers like w3m (or lynx,  links etc.) as the output can easily be post-processed. It can also work  with HTML and highlight new items. This script was originally planned as  a ruby-based websec replacement.  By default, this script will use w3m to dump HTML pages and then run  diff over the current page and the previous backup. Some pages are  better viewed with lynx or links. Downloaded documents (HTML or ASCII)  can be post-processed (e.g., filtered through some ruby block that  extracts elements via hpricot and the like). Please see the  configuration options below to find out how to change this globally or  for a single source.  This user manual is also available as PDF[http://websitiary.rubyforge.org/websitary.pdf].  == FEATURES/PROBLEMS: * Handle webpages, rss feeds (optionally save attachments in podcasts  etc.) * Compare webpages with previous backups * Display differences between the current version and the backup * Provide hooks to post-process the downloaded documents and the diff * Display a one-page report summarizing all news * Automatically open the report in your favourite web-browser * Experimental: Download webpages on defined intervalls and generate  incremental diffs."
-  },
-  "website": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "to show seo oriented reports of the website.newbie's work, careful"
   },
   "website_builder_engine": {
     "version": "0.0.5",
@@ -12164,7 +12730,7 @@
     "description": "== DESCRIPTION: This is a script for monitoring webpages that reuses other programs  (w3m, diff, webdiff etc.) to do most of the actual work. By default, it  works on an ASCII basis, i.e. with the output of text-based webbrowsers  like w3m (or lynx, links etc.) as the output can easily be  post-processed. With the help of some friends (see the section below on  requirements), it can also work with HTML. E.g., if you have websec  installed, you can also use its webdiff program to show colored diffs.  By default, this script will use w3m to dump HTML pages and then run  diff over the current page and the previous backup. Some pages are  better viewed with lynx or links. Downloaded documents (HTML or ASCII)  can be post-processed (e.g., filtered through some ruby block that  extracts elements via hpricot and the like). Please see the  configuration options below to find out how to change this globally or  for a single source.  === CAVEAT: The script also includes experimental support for monitoring whole  websites. Basically, this script supports robots.txt directives (see  requirements) but this is hardly tested and may not work in some cases.  While it is okay for your own websites to ignore robots.txt, it is not  for others. Please make sure that the webpages you run this program on  allow such a use.  Some webpages disallow the use of any automatic  downloader or offline reader in their user agreements."
   },
   "websmsby": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -12194,19 +12760,17 @@
     ],
     "description": "A simple implementation of a Websocket client."
   },
-  "WEBSocket": {
-    "version": "0.1.1",
+  "websocket": {
+    "version": "1.1.2",
     "dependents": [
       {
-        "name": "minep-request",
-        "requirements": ">= 0.1.1, ~> 0.1"
-      }
-    ],
-    "description": "Establish a websocket communication using Ruby standard sockets or Celluloid::IO sockets if required.\n"
-  },
-  "websocket": {
-    "version": "1.1.1",
-    "dependents": [
+        "name": "browserstack-webdriver",
+        "requirements": "~> 1.0.4"
+      },
+      {
+        "name": "drunkmonkey",
+        "requirements": ">= 1.1"
+      },
       {
         "name": "em-websocket-client",
         "requirements": ">= 0"
@@ -12236,12 +12800,16 @@
         "requirements": ">= 1.0.6, ~> 1.0"
       },
       {
+        "name": "websocket-client-simple",
+        "requirements": ">= 0"
+      },
+      {
         "name": "websocket-eventmachine-base",
         "requirements": "~> 1.0"
       },
       {
-        "name": "websocket-client-simple",
-        "requirements": ">= 0"
+        "name": "websocket-td",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "wocket",
@@ -12249,6 +12817,16 @@
       }
     ],
     "description": "Universal Ruby library to handle WebSocket protocol"
+  },
+  "WEBSocket": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "minep-request",
+        "requirements": ">= 0.1.1, ~> 0.1"
+      }
+    ],
+    "description": "Establish a websocket communication using Ruby standard sockets or Celluloid::IO sockets if required.\n"
   },
   "websocket-client": {
     "version": "0.2.0",
@@ -12260,6 +12838,10 @@
   "websocket-client-simple": {
     "version": "0.0.5",
     "dependents": [
+      {
+        "name": "frage",
+        "requirements": ">= 0"
+      },
       {
         "name": "leapmotion",
         "requirements": ">= 0"
@@ -12284,7 +12866,7 @@
       },
       {
         "name": "faye-websocket",
-        "requirements": ">= 0.3.0"
+        "requirements": ">= 0.3.1"
       },
       {
         "name": "faye-redis",
@@ -12301,6 +12883,10 @@
       {
         "name": "poltergeist",
         "requirements": ">= 0.2.0"
+      },
+      {
+        "name": "spider-gazelle",
+        "requirements": ">= 0"
       }
     ],
     "description": "WebSocket protocol handler with pluggable I/O"
@@ -12323,11 +12909,23 @@
     "version": "1.0.1",
     "dependents": [
       {
+        "name": "dynarex_cron",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fluent-plugin-websocket",
         "requirements": ">= 0"
       },
       {
+        "name": "humble_rpi",
+        "requirements": ">= 0"
+      },
+      {
         "name": "leap-motion-ws",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "simplepubsub",
         "requirements": ">= 0"
       }
     ],
@@ -12339,6 +12937,10 @@
       {
         "name": "easy_wamp",
         "requirements": "~> 1.0.1"
+      },
+      {
+        "name": "simplepubsub",
+        "requirements": ">= 0"
       },
       {
         "name": "wtails",
@@ -12422,6 +13024,13 @@
     ],
     "description": "Seamless Ruby on Rails websocket integration."
   },
+  "websocket-td": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A multi-threaded WebSocket client, i.e. without event machine"
+  },
   "websocket_parser": {
     "version": "0.1.4",
     "dependents": [
@@ -12455,6 +13064,13 @@
   },
   "websolr-sunspot4heroku": {
     "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "websolr with geocoding for heroku"
+  },
+  "websolr-sunspot4heroku-cis": {
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -12520,11 +13136,15 @@
     "description": "Generate random short words. Good for human-readable confirmation codes."
   },
   "webstub": {
-    "version": "0.6.1",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "elevate",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "motion_model_resource",
+        "requirements": ">= 0.3.0"
       },
       {
         "name": "ProMotion",
@@ -12582,6 +13202,13 @@
 
     ],
     "description": "\n    Wector does what we all wish the built-in Vector class did; it makes vector\n    math easy by allowing any method of the Numeric interface to be used to\n    combine two arrays or an array and a number.\n  "
+  },
+  "wedding": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "What could be better than a gem for a wedding. A fun experiment that generates \nan invite for my wedding. The gem is generic in nature that accepts a configuration\nobject to work on.\n"
   },
   "wee": {
     "version": "2.1.0",
@@ -12695,7 +13322,7 @@
     "description": "see http://cpee.org"
   },
   "weeler": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -12736,6 +13363,13 @@
     ],
     "description": "Validates code according to style guide rules for an organization and outputs\nthem as error statements that can be consumed by another program.\n"
   },
+  "wei-backend": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "wei-backend is a DSL for quickly creating weixin open platform backend system."
+  },
   "weibo": {
     "version": "0.0.14",
     "dependents": [
@@ -12775,11 +13409,11 @@
     "description": "新浪微博oauth2"
   },
   "weibo_2": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "dependents": [
 
     ],
-    "description": "WeioOAuth2 is a Ruby gem that provides a wrapper for interacting with sina weibo's v2 API, \n                         which is currently the latest version. The output data format is Hashie::Mash"
+    "description": "WeioOAuth2 is a Ruby gem that provides a wrapper for interacting with sina weibo's v2 API,\n                         which is currently the latest version. The output data format is Hashie::Mash"
   },
   "weibo_focus": {
     "version": "1.1.5",
@@ -12808,6 +13442,13 @@
 
     ],
     "description": "Useful utility to weigh the directory contents and sort the output by size in a neatly formatted list."
+  },
+  "weight": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Dead simple value object, with one purpose work with weight"
   },
   "weighted_average": {
     "version": "2.0.2",
@@ -13002,6 +13643,20 @@
       }
     ],
     "description": "A light resource model for Ruby"
+  },
+  "wemo": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "this is a combo.  I took several things from around and fixed them, mostly taken from https://github.com/bobbrodie/siriproxy-wemo"
+  },
+  "wenbo_ruby_extendsions": {
+    "version": "2.2",
+    "dependents": [
+
+    ],
+    "description": "Ruby Extendsions"
   },
   "wendy": {
     "version": "0.0.2",
@@ -13365,6 +14020,13 @@
     ],
     "description": "The 'Whatser API' Gem is a simple Ruby / Rails wrapper for interacting with Whatser's location-based web services (see http://docs.sogeoapi.com for more details)."
   },
+  "whatToDo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Helps you to get back in a project after some idle time or to contribute to a OpenSource project by telling you what you can do on the project."
+  },
   "whedon": {
     "version": "0.0.2",
     "dependents": [
@@ -13523,6 +14185,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "io_mailer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jobbr",
         "requirements": ">= 0"
       },
@@ -13579,16 +14245,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "whenever-delorean",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "whenever_roles",
         "requirements": ">= 0"
       },
       {
         "name": "whenever-elasticbeanstalk",
         "requirements": ">= 0"
-      },
-      {
-        "name": "whenever-delorean",
-        "requirements": "~> 0.7"
       }
     ],
     "description": "Clean ruby syntax for writing and deploying cron jobs."
@@ -13651,6 +14317,13 @@
       }
     ],
     "description": "Methods to query your current file/place/gem in filesystem"
+  },
+  "where_builder": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "a sql where string builder, can ignore nil and black string."
   },
   "where_lower": {
     "version": "0.2.0",
@@ -13762,7 +14435,7 @@
     "description": "..."
   },
   "which_osx": {
-    "version": "1.0.7",
+    "version": "1.0.8",
     "dependents": [
 
     ],
@@ -13774,6 +14447,13 @@
 
     ],
     "description": "which_ruby is a simple helper for checking running Ruby engine"
+  },
+  "which_twitter": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "some description"
   },
   "which_works": {
     "version": "1.0.2",
@@ -13885,7 +14565,7 @@
     "description": "A watered-down task runner pre-wired with Redis. Built with Heroku Cedar in mind."
   },
   "whirlwind": {
-    "version": "0.1.6",
+    "version": "0.1.8",
     "dependents": [
 
     ],
@@ -14101,7 +14781,7 @@
     "description": "Controller-level whitelisting of model batch update attributes"
   },
   "whiteout": {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "dependents": [
 
     ],
@@ -14259,7 +14939,7 @@
     "description": "CLI for checking domain name availability"
   },
   "whois": {
-    "version": "3.3.1",
+    "version": "3.4.2",
     "dependents": [
       {
         "name": "bulkdom",
@@ -14491,8 +15171,15 @@
     ],
     "description": "A library for setting up model validations, such as in ActiveRecord."
   },
+  "wibble": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "IPRUG demo"
+  },
   "wice_grid": {
-    "version": "3.4.1",
+    "version": "3.4.2",
     "dependents": [
       {
         "name": "conte_rails_template",
@@ -14566,7 +15253,7 @@
     "description": "Wicked is a Rails engine for producing easy wizard controllers"
   },
   "wicked_pdf": {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "dependents": [
       {
         "name": "activeadmin-selleo-cms",
@@ -14683,6 +15370,13 @@
     ],
     "description": "A demonstration app showing how to use Commandable and HashModel. It also serves as a test platform for fleshing out problems and designing new features for the aforementioned libraries."
   },
+  "Widget2": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Widget 2 gem"
+  },
   "widget_builder": {
     "version": "0.1.2",
     "dependents": [
@@ -14701,12 +15395,12 @@
     "version": "1.3.5",
     "dependents": [
       {
-        "name": "widget_list_theme_cruddy",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "widget_list_theme_blue_sky_basin",
         "requirements": "~> 1.1.9"
+      },
+      {
+        "name": "widget_list_theme_cruddy",
+        "requirements": "~> 1.2.0"
       }
     ],
     "description": "An Advanced and flexible ajax data grid. Supports several databases where data is pulled from either using Sequel ORM (optional even though is a dependency), Active Record Models or Raw SQL."
@@ -14785,7 +15479,7 @@
     "description": "An automatically login tool for a public wireless LAN."
   },
   "wifly": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -14857,6 +15551,13 @@
     ],
     "description": "Everything You Need to Build a Better Web\nWijmo is a complete kit of over 40 UI widgets\nwith everything from interactive menus to rich charts.\nIf you know jQuery, you know Wijmo. \nComplete with documentation and professional support, \nevery widget is hand-crafted and includes premium themes.\n"
   },
+  "wiki": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Federated Wiki Server"
+  },
   "wiki-api": {
     "version": "0.1.0",
     "dependents": [
@@ -14903,11 +15604,11 @@
     "version": "0.8.0",
     "dependents": [
       {
-        "name": "acts_as_markup",
+        "name": "acts_as_markup_on",
         "requirements": ">= 0"
       },
       {
-        "name": "acts_as_markup_on",
+        "name": "acts_as_markup",
         "requirements": ">= 0"
       },
       {
@@ -14919,12 +15620,12 @@
         "requirements": "~> 0.8.0"
       },
       {
-        "name": "gollum-lib",
-        "requirements": "~> 0.8.0"
-      },
-      {
         "name": "gollum-bibanon",
         "requirements": "~> 0.6.3"
+      },
+      {
+        "name": "gollum-lib",
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "jugyo-gollum",
@@ -14947,12 +15648,12 @@
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "read-only-gollum",
-        "requirements": "~> 0.6.3"
+        "name": "potion",
+        "requirements": ">= 0"
       },
       {
-        "name": "tilt",
-        "requirements": ">= 0"
+        "name": "read-only-gollum",
+        "requirements": "~> 0.6.3"
       },
       {
         "name": "wikimovia",
@@ -15045,6 +15746,13 @@
     ],
     "description": "Ruby client for the Wikipedia API"
   },
+  "wikipedia_parser": {
+    "version": "1.1.1",
+    "dependents": [
+
+    ],
+    "description": "Parse Wikipedia dumps in compressed on uncompressed form, extract links, and page types."
+  },
   "wikiplex": {
     "version": "1.4.0.232.1",
     "dependents": [
@@ -15063,20 +15771,20 @@
     "version": "4.0.2",
     "dependents": [
       {
-        "name": "acts_as_markup",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "acts_as_markup",
-        "requirements": "~> 2.0"
+        "name": "acts_as_markup_on",
+        "requirements": "~> 4.0.2"
       },
       {
         "name": "acts_as_markup_extended",
         "requirements": "~> 2.0"
       },
       {
-        "name": "acts_as_markup_on",
-        "requirements": "~> 4.0.2"
+        "name": "acts_as_markup",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "acts_as_markup",
+        "requirements": "~> 2.0"
       },
       {
         "name": "tristandunn-acts_as_markup",
@@ -15098,6 +15806,13 @@
 
     ],
     "description": "WikiWah is a text-to-HTML converter, along the lines of Markdown.  \n\nThis isn't the markup language you're looking for.  \nIt offers no improvements on Markdown, Textile, etc.  \nI'm packaging it as a gem only because I still have some legacy content in this format.\n"
+  },
+  "wikiwhat": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Gem for extracting specific content from Wikipedia articles."
   },
   "wikyd-fancy-buttons": {
     "version": "0.5.5",
@@ -15162,7 +15877,7 @@
     "version": "0.0.1",
     "dependents": [
       {
-        "name": "wildcloud-keeper",
+        "name": "wildcloud-agent",
         "requirements": "= 0.0.1"
       },
       {
@@ -15170,7 +15885,7 @@
         "requirements": "= 0.0.1"
       },
       {
-        "name": "wildcloud-agent",
+        "name": "wildcloud-keeper",
         "requirements": "= 0.0.1"
       },
       {
@@ -15209,7 +15924,7 @@
     "version": "0.0.3",
     "dependents": [
       {
-        "name": "wildcloud-keeper",
+        "name": "wildcloud-agent",
         "requirements": "= 0.0.2"
       },
       {
@@ -15217,7 +15932,7 @@
         "requirements": "= 0.0.2"
       },
       {
-        "name": "wildcloud-agent",
+        "name": "wildcloud-keeper",
         "requirements": "= 0.0.2"
       },
       {
@@ -15343,7 +16058,7 @@
     "description": "WillCache provides simple API for caching ActiveRecord objects that uses ActiveSupport Cache Store internally so that it's trivial to switch cache storage. WillCache API is heavily inspired by excellent but no longer maintained cache_fu plugin and one of the goals of the gem is to provide drop-in replacement for it."
   },
   "will_filter": {
-    "version": "3.1.10",
+    "version": "3.1.11",
     "dependents": [
       {
         "name": "platform",
@@ -15479,7 +16194,7 @@
       },
       {
         "name": "ass",
-        "requirements": "~> 3.0"
+        "requirements": ">= 0"
       },
       {
         "name": "atreides",
@@ -15518,11 +16233,11 @@
         "requirements": "~> 3.0.3"
       },
       {
-        "name": "bootstrap-will_paginate",
+        "name": "bootstrap2-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "bootstrap2-rails",
+        "name": "bootstrap-will_paginate",
         "requirements": ">= 0"
       },
       {
@@ -15596,6 +16311,10 @@
       {
         "name": "dugway",
         "requirements": "~> 3.0.4"
+      },
+      {
+        "name": "dust-cms",
+        "requirements": ">= 0"
       },
       {
         "name": "dynamic_query",
@@ -15694,16 +16413,16 @@
         "requirements": "~> 3.0.2"
       },
       {
-        "name": "forge-rad",
-        "requirements": "= 3.0.4"
-      },
-      {
         "name": "forge-rad19",
         "requirements": "= 3.0.4"
       },
       {
         "name": "forge-rad20",
         "requirements": "~> 3.0.4"
+      },
+      {
+        "name": "forge-rad",
+        "requirements": "= 3.0.4"
       },
       {
         "name": "forgeos_core",
@@ -15730,19 +16449,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gembox",
-        "requirements": "~> 2.3.7"
-      },
-      {
         "name": "gemboree",
         "requirements": "~> 3.0.3"
+      },
+      {
+        "name": "gembox",
+        "requirements": "~> 2.3.7"
       },
       {
         "name": "gluttonberg-core",
         "requirements": "= 3.0.3"
       },
       {
-        "name": "governor_atom",
+        "name": "governor_blogger",
         "requirements": "~> 3.0.beta"
       },
       {
@@ -15750,7 +16469,7 @@
         "requirements": "~> 3.0.beta"
       },
       {
-        "name": "governor_blogger",
+        "name": "governor_atom",
         "requirements": "~> 3.0.beta"
       },
       {
@@ -15882,11 +16601,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mcms_blog",
+        "name": "mcms_resources",
         "requirements": ">= 0"
       },
       {
-        "name": "mcms_resources",
+        "name": "mcms_blog",
         "requirements": ">= 0"
       },
       {
@@ -15912,10 +16631,6 @@
       {
         "name": "mongoid_data_table",
         "requirements": "~> 3.0.pre2"
-      },
-      {
-        "name": "mongoid_geospatial",
-        "requirements": ">= 0"
       },
       {
         "name": "mongoid_location",
@@ -15998,10 +16713,6 @@
         "requirements": "~> 3.0.pre2"
       },
       {
-        "name": "pg_search",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pgq_web",
         "requirements": ">= 0"
       },
@@ -16078,6 +16789,10 @@
         "requirements": "> 0.0.0"
       },
       {
+        "name": "rails_codebook",
+        "requirements": ">= 0"
+      },
+      {
         "name": "redis_dictionary",
         "requirements": ">= 0"
       },
@@ -16087,7 +16802,7 @@
       },
       {
         "name": "rego-data-grid",
-        "requirements": ">= 0"
+        "requirements": "~> 3.0.0"
       },
       {
         "name": "releaf",
@@ -16144,6 +16859,14 @@
       {
         "name": "sbdevcore",
         "requirements": "~> 3.0.pre4"
+      },
+      {
+        "name": "search_object",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ses_machine",
+        "requirements": ">= 3.0.4"
       },
       {
         "name": "sidekiq-monitor",
@@ -16286,6 +17009,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ums",
+        "requirements": "~> 3.0"
+      },
+      {
         "name": "unigems",
         "requirements": ">= 0"
       },
@@ -16296,6 +17023,14 @@
       {
         "name": "unknown_admin",
         "requirements": "~> 3.0"
+      },
+      {
+        "name": "usefull_attachment",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "usefull_table",
+        "requirements": ">= 0"
       },
       {
         "name": "voluntary",
@@ -16322,7 +17057,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "will_paginate-bootstrap",
+        "name": "will_paginate-without-text",
         "requirements": ">= 3.0.3"
       },
       {
@@ -16330,15 +17065,19 @@
         "requirements": ">= 3.0.3"
       },
       {
-        "name": "will_paginate-bootstrap-large",
-        "requirements": ">= 3.0.3"
-      },
-      {
-        "name": "will_paginate-without-text",
+        "name": "will_paginate-bootstrap",
         "requirements": ">= 3.0.3"
       },
       {
         "name": "will_paginate_mongoid",
+        "requirements": "~> 3.0"
+      },
+      {
+        "name": "will_paginate-bootstrap-large",
+        "requirements": ">= 3.0.3"
+      },
+      {
+        "name": "will_paginate_renderers",
         "requirements": "~> 3.0"
       },
       {
@@ -16348,10 +17087,6 @@
       {
         "name": "will_paginate_twitter_bootstrap",
         "requirements": "> 3.0"
-      },
-      {
-        "name": "will_paginate_renderers",
-        "requirements": "~> 3.0"
       },
       {
         "name": "you_got_listed",
@@ -16430,11 +17165,11 @@
     "description": "This gem integrates the Twitter Bootstrap [LARGE]pagination component with the will_paginate pagination gem. Supports Rails and Sinatra."
   },
   "will_paginate-foundation": {
-    "version": "0.3.1",
+    "version": "5.3.3",
     "dependents": [
 
     ],
-    "description": "This gem integrates the Foundation pagination component with the will_paginate pagination gem. Supports Rails"
+    "description": "This gem integrates the Foundation pagination component with the will_paginate pagination gem. Supports Rails and Sinatra"
   },
   "will_paginate-without-text": {
     "version": "0.0.1",
@@ -16586,7 +17321,7 @@
     "description": "Makes it super easy to calculate Wilson confidence intervals."
   },
   "wilson_score": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -16612,6 +17347,16 @@
 
     ],
     "description": "Ruby wrapper for the gdi32.dll on Windows."
+  },
+  "win-path-utils": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "alterpath",
+        "requirements": ">= 0.0.1"
+      }
+    ],
+    "description": "Provides an API to add and remove values from Windows' system PATH variable"
   },
   "win-service": {
     "version": "0.1.1",
@@ -16654,11 +17399,11 @@
         "requirements": "= 1.4.6"
       },
       {
-        "name": "win-user32-ruby",
+        "name": "win-gdi32-ruby",
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "win-gdi32-ruby",
+        "name": "win-user32-ruby",
         "requirements": ">= 1.4.2"
       },
       {
@@ -16670,11 +17415,11 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "windows-api",
+        "name": "windows-pr",
         "requirements": ">= 1.4.5"
       },
       {
-        "name": "windows-pr",
+        "name": "windows-api",
         "requirements": ">= 1.4.5"
       }
     ],
@@ -16874,14 +17619,14 @@
     "description": "    The win32-pipe library provides an interface for named pipes on Windows.\n    A named pipe is a named, one-way or duplex pipe for communication\n    between the pipe server and one or more pipe clients. \n"
   },
   "win32-process": {
-    "version": "0.7.3",
+    "version": "0.7.4",
     "dependents": [
       {
-        "name": "cuke4nuke",
+        "name": "cuke4nuke-aslakjo",
         "requirements": ">= 0.6.1"
       },
       {
-        "name": "cuke4nuke-aslakjo",
+        "name": "cuke4nuke",
         "requirements": ">= 0.6.1"
       },
       {
@@ -16915,7 +17660,7 @@
     "description": "    The win32-sapi library provides an interface to the MS Windows sound\n    interface, otherwise known as SAPI, using OLE.\n"
   },
   "win32-security": {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "win32-file-security",
@@ -16925,7 +17670,7 @@
     "description": "    The win32-security library provides an interface for dealing with\n    security related aspects of MS Windows. At the moment it provides an\n    interface for inspecting or creating SID's.\n"
   },
   "win32-semaphore": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "dependents": [
 
     ],
@@ -17000,11 +17745,11 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "cuke4nuke",
+        "name": "cuke4nuke-aslakjo",
         "requirements": ">= 1.2.0"
       },
       {
-        "name": "cuke4nuke-aslakjo",
+        "name": "cuke4nuke",
         "requirements": ">= 1.2.0"
       },
       {
@@ -17069,7 +17814,7 @@
     "description": "A Ruby library for modifying Windows Resource files."
   },
   "win32screenshot": {
-    "version": "1.0.9",
+    "version": "1.0.10",
     "dependents": [
       {
         "name": "emils_screen_scraper",
@@ -17205,12 +17950,12 @@
         "requirements": ">= 0.6.6"
       },
       {
-        "name": "win32-autogui",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "win32-clipboard",
         "requirements": ">= 1.0.3"
+      },
+      {
+        "name": "win32-autogui",
+        "requirements": "~> 1.2.0"
       },
       {
         "name": "win32-eventlog",
@@ -17256,6 +18001,13 @@
     ],
     "description": "A command that helps windows run faster by punshing resource hogging processes (cpu/disk)"
   },
+  "windows_live_admin": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "Ruby wrapper of the Windows Live Admin API to manage domains, users and services (eg. emails) hosted on Microsoft cloud (https://domains.live.com)"
+  },
   "windowslivelogin": {
     "version": "0.1.1",
     "dependents": [
@@ -17297,6 +18049,13 @@
 
     ],
     "description": "Program language paser/executor like BrainF**k"
+  },
+  "windward": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Windward is a parser for meteofrance.fr\\n You can retrieve informations like weather, temperature for each region of France."
   },
   "windy": {
     "version": "0.1.2",
@@ -17401,15 +18160,19 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "realityforge-em-winrm",
-        "requirements": "~> 1.1.0"
+        "name": "knife-vcloud",
+        "requirements": "~> 1.1.3"
       },
       {
         "name": "realityforge-vagrant-windows",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "ridley",
+        "name": "realityforge-em-winrm",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "ridley-connectors",
         "requirements": "~> 1.1.0"
       },
       {
@@ -17564,11 +18327,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "brick_layer",
+        "name": "brick_house",
         "requirements": ">= 0"
       },
       {
-        "name": "brick_house",
+        "name": "brick_layer",
         "requirements": ">= 0"
       },
       {
@@ -17664,6 +18427,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "specialk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "stormforge-ruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "telewatts_sender_support",
         "requirements": ">= 0"
       },
@@ -17721,7 +18492,7 @@
     "description": "A Ruby Object Mapper for Wirecard XML interface"
   },
   "wired": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -17801,23 +18572,23 @@
     "description": "A lightweight dependency injection framework to help wire up objects in Ruby"
   },
   "wires": {
-    "version": "0.4.2",
+    "version": "0.5.3",
     "dependents": [
       {
-        "name": "wires-icalendar",
+        "name": "wires-inotify",
         "requirements": "~> 0.2.8"
       },
       {
-        "name": "wires-cluster",
-        "requirements": ">= 0"
+        "name": "wires-icalendar",
+        "requirements": "~> 0.2.8"
       },
       {
         "name": "wires-ircbot",
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "wires-inotify",
-        "requirements": "~> 0.2.8"
+        "name": "wires-cluster",
+        "requirements": ">= 0"
       },
       {
         "name": "wires-test",
@@ -17855,18 +18626,14 @@
     "description": "Wires extension gem for creating flexible, dynamic IRC bots."
   },
   "wires-test": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
-        "name": "wires",
+        "name": "wires-ircbot",
         "requirements": ">= 0"
       },
       {
         "name": "wires-cluster",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "wires-ircbot",
         "requirements": ">= 0"
       }
     ],
@@ -17894,11 +18661,11 @@
     "description": "WiringPi library wrapper for the Raspberry Pi only. Wraps up the Arduino wiring-like WiringPi library into a convinient Ruby gem. Currently includes GPIO functionality, serial and shiftOut/shiftIn support. Credit to Gordon for the WiringPi library, which can be found here: http://projects.drogon.net/raspberry-pi/wiringpi/"
   },
   "wiringpi2": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "dependents": [
       {
         "name": "frankenpins",
-        "requirements": ">= 2.0.0"
+        "requirements": "~> 2.0.0"
       }
     ],
     "description": "WiringPi library wrapper for the Raspberry Pi only. Wraps up version 2.x of the Arduino wiring-like WiringPi library into a convinient Ruby gem. Currently includes GPIO functionality, I2C, SPI, serial and shiftOut/shiftIn support in addition to peripheral drivers for things like the MCP23017. Credit to Gordon for the WiringPi library, which can be found here: http://www.wiringpi.com"
@@ -17916,6 +18683,13 @@
 
     ],
     "description": "A set of ruby bindings for communicating with the wise.io Machine Learning as a Service platform."
+  },
+  "wise_omf": {
+    "version": "0.9.2",
+    "dependents": [
+
+    ],
+    "description": "This gem provides helpers for working with the testbed runtime via the OMF (Orbit Measurement Framework)"
   },
   "wisebedclientruby": {
     "version": "0.0.50",
@@ -17939,7 +18713,7 @@
     "description": "Ruby implementation of WiseML"
   },
   "wisepdf": {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "dependents": [
 
     ],
@@ -17951,6 +18725,13 @@
 
     ],
     "description": "Gorgeous real-time date display plugin"
+  },
+  "wiser_sms": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Medium Rare Outgoing SMS"
   },
   "wiser_trails": {
     "version": "2.1.0",
@@ -18008,6 +18789,10 @@
     "version": "1.2.1",
     "dependents": [
       {
+        "name": "endow",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wisper-async",
         "requirements": "~> 1.0"
       }
@@ -18036,7 +18821,7 @@
     "description": "A ruby library for working with Wistia's data API."
   },
   "wistia-uploader": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -18045,7 +18830,10 @@
   "wit": {
     "version": "0.0.1",
     "dependents": [
-
+      {
+        "name": "cinch-wit",
+        "requirements": ">= 0"
+      }
     ],
     "description": "A Ruby wrapper for the Wit HTTP API, a natural language processing interface."
   },
@@ -18088,7 +18876,7 @@
     "description": "Advisory locking for ActiveRecord"
   },
   "with_connection": {
-    "version": "0.1.24",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -18161,27 +18949,27 @@
         "requirements": ">= 0.1.5"
       },
       {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0.1.5"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0.1.5"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0.1.5"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0.1.5"
+      },
+      {
+        "name": "engine-rea-admin",
+        "requirements": ">= 0.1.5"
+      },
+      {
         "name": "engine-rea",
-        "requirements": ">= 0.1.5"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0.1.5"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0.1.5"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0.1.5"
-      },
-      {
-        "name": "engine-rea-admin",
-        "requirements": ">= 0.1.5"
-      },
-      {
-        "name": "engine-rea-admin",
         "requirements": ">= 0.1.5"
       },
       {
@@ -18213,12 +19001,12 @@
         "requirements": "~> 0.3"
       },
       {
-        "name": "pg_audit_log",
-        "requirements": ">= 0.1.3"
-      },
-      {
         "name": "pg_search",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pg_audit_log",
+        "requirements": ">= 0.1.3"
       },
       {
         "name": "roleable",
@@ -18294,11 +19082,11 @@
     "description": "With statements opens the Kernel and defines a with method which behaves similar to Python with statement"
   },
   "with_template": {
-    "version": "0.0.3",
+    "version": "0.0.6",
     "dependents": [
       {
         "name": "table-for",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.6"
       }
     ],
     "description": "Render a template (partial) and easily override any of the components of the template"
@@ -18309,6 +19097,13 @@
 
     ],
     "description": "A simple time based cache"
+  },
+  "with_uuid": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Provides facilities to utilize UUIDs with ActiveRecord, including model and migration extensions."
   },
   "with_validations": {
     "version": "0.5.0",
@@ -18471,7 +19266,7 @@
     "description": "A simple, extensible reporting system"
   },
   "wkcheck": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -18603,6 +19398,10 @@
     "version": "2.2.3",
     "dependents": [
       {
+        "name": "alf-doc",
+        "requirements": "~> 2.1"
+      },
+      {
         "name": "myrrha",
         "requirements": "~> 0.10.2"
       },
@@ -18654,7 +19453,7 @@
     "dependents": [
       {
         "name": "serienrenamer",
-        "requirements": ">= 0.8.4"
+        "requirements": ">= 0.8.5"
       }
     ],
     "description": "WLAPI is a programmatic API for web services provided by the project Wortschatz, University of Leipzig. These services are a great source of linguistic knowledge for morphological, syntactic and semantic analysis of German both for traditional and Computational Linguistics (CL). Use this API to gain data on word frequencies, left and right neighbours, collocations and semantic similarity. Check it out if you are interested in Natural Language Processing (NLP) and Human Language Technology (HLT)."
@@ -18739,12 +19538,43 @@
     ],
     "description": "Wmls calls GetCap, GetFromStore, AddToStore, UpdateInStore, or DeleteFromStore on a WITSML server."
   },
+  "wms": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "wms-widget-wifissid",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Widget Management System core library"
+  },
+  "wms-widget-timespentlocation": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "A WMS widget that calculates time spent in locations"
+  },
+  "wms-widget-wifissid": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Find a list of unique WiFi ssid from mobile sensor data"
+  },
   "wms_getcapabilities": {
     "version": "0.1.0.6",
     "dependents": [
 
     ],
     "description": "Interface between ruby and Geoserver WMS GetCapabilities"
+  },
+  "wms_location1": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "test widget"
   },
   "wnck": {
     "version": "0.1.0",
@@ -18970,7 +19800,7 @@
     "description": "Ruby wrapper for the wonderfl API. See README for more details."
   },
   "wongi-engine": {
-    "version": "0.0.11",
+    "version": "0.0.13",
     "dependents": [
 
     ],
@@ -19033,8 +19863,12 @@
     "description": "Woody"
   },
   "woof_util": {
-    "version": "0.0.16",
+    "version": "0.0.18",
     "dependents": [
+      {
+        "name": "gitcredential",
+        "requirements": "~> 0.0.18"
+      },
       {
         "name": "ruby-secret_service",
         "requirements": ">= 0"
@@ -19103,7 +19937,7 @@
     "description": "Scapes woot.com sites"
   },
   "woothee": {
-    "version": "0.3.4",
+    "version": "0.3.5",
     "dependents": [
       {
         "name": "fluent-plugin-woothee",
@@ -19115,6 +19949,10 @@
   "wopen3": {
     "version": "0.3",
     "dependents": [
+      {
+        "name": "buffet",
+        "requirements": ">= 0"
+      },
       {
         "name": "buffet-gem",
         "requirements": ">= 0"
@@ -19229,6 +20067,13 @@
     ],
     "description": "Convert DocX files to html and back using ruby"
   },
+  "word_play": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": " anagrams and palindrome"
+  },
   "word_reference": {
     "version": "0.0.1",
     "dependents": [
@@ -19321,7 +20166,7 @@
     "description": "This is a trivial C extension which allows access to the wordexp(3)\nPOSIX function.  See the wordexp(3) manpage for details."
   },
   "wordfilter_client": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -19413,7 +20258,7 @@
       },
       {
         "name": "linguistics",
-        "requirements": "~> 0.99"
+        "requirements": "~> 1.0"
       },
       {
         "name": "wordfor",
@@ -19432,6 +20277,10 @@
       {
         "name": "duck_punching",
         "requirements": ">= 0"
+      },
+      {
+        "name": "linguistics",
+        "requirements": "~> 1.0"
       },
       {
         "name": "wordfor",
@@ -19691,6 +20540,13 @@
     ],
     "description": "Parallel job runner"
   },
+  "workaholic-cron": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A simple gem to find cron jobs that have been running for long time https://github.com/alaa/workaholic-cron"
+  },
   "workarounds": {
     "version": "0.0.1",
     "dependents": [
@@ -19706,7 +20562,7 @@
     "description": "Workbench strikes to reach a better balance between easy-to-read\nfactory builders, ease of use, and robustness.\n\nWorkbench doesn't use any fancy tricks. It's code is small and the\naverage rubyist should have no trouble reading it. It exploits what\nruby provides. Instead of operating on a proxy object, builders\noperate on the actual model. It's also ORM agnostic.\n"
   },
   "workbook": {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "dependents": [
 
     ],
@@ -19728,6 +20584,13 @@
       }
     ],
     "description": "Worker is a database queue for small applications. You can easily create workers, add jobs to the queue and consume them."
+  },
+  "worker-army": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Simple redis based worker queue with a HTTP/Rest interface"
   },
   "worker_pool": {
     "version": "0.0.1",
@@ -19770,19 +20633,38 @@
         "requirements": ">= 0"
       },
       {
+        "name": "smalltalk",
+        "requirements": "= 0.8.7"
+      },
+      {
+        "name": "trollo",
+        "requirements": "= 0.8.7"
+      },
+      {
         "name": "trollied",
         "requirements": ">= 0.8.0"
       },
       {
-        "name": "workflow_sequel_adapter",
-        "requirements": ">= 0"
+        "name": "uomi",
+        "requirements": "= 0.8.7"
       },
       {
         "name": "workflow_on_mongoid",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "workflow_sequel_adapter",
+        "requirements": ">= 0"
       }
     ],
     "description": "    Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n"
+  },
+  "workflow-rails4": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ],
+    "description": "    Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n Temporary version to address possible rails4 issues"
   },
   "workflow-to-galaxy": {
     "version": "0.3.5",
@@ -19790,6 +20672,13 @@
 
     ],
     "description": "This script acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (.xml and .rb files)."
+  },
+  "workflow_manager": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ],
+    "description": "Workflow Manager manages job submissions using dRuby."
   },
   "workflow_on_mongoid": {
     "version": "1.0.0.0",
@@ -19907,6 +20796,13 @@
     ],
     "description": "workling delta indexing for thinking sphinx"
   },
+  "workload": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Distribute simple tasks to multiple threads with ease"
+  },
   "workmate": {
     "version": "0.1.2",
     "dependents": [
@@ -19920,6 +20816,13 @@
 
     ],
     "description": "Runs actions based on directories"
+  },
+  "workon_rails": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Opens project in RubyMine, starts guard, starts Rails server."
   },
   "workparty": {
     "version": "0.0.2",
@@ -20218,6 +21121,13 @@
     ],
     "description": "Relocate a Wordpress database from the command line. See README.rdoc"
   },
+  "wp2tumblr": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "A CLI tool to import wordpress xml files into Tumblr"
+  },
   "wp2txt": {
     "version": "0.5.3",
     "dependents": [
@@ -20246,6 +21156,13 @@
     ],
     "description": "A Ruby library to interact with the Wordpress XMLRPC interface"
   },
+  "wp_scaffold": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Scaffold commands for Wordpress theme development."
+  },
   "wp_validators": {
     "version": "0.0.1",
     "dependents": [
@@ -20254,17 +21171,17 @@
     "description": "Currently includes a URL validator."
   },
   "wpa_cli_ruby": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
       {
         "name": "wpa_cli_web",
-        "requirements": ">= 0"
+        "requirements": ">= 0.0.2"
       }
     ],
     "description": "A ruby wrapper for the wpa_cli command line utility"
   },
   "wpa_cli_web": {
-    "version": "0.0.10",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -20297,6 +21214,13 @@
 
     ],
     "description": "A Tool to Setup, Maintain, and Deploy Capistrano Driven Wordpress Sites"
+  },
+  "wpdb": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Wrapper for Wordpress DB"
   },
   "wpdoc": {
     "version": "0.2.22",
@@ -20390,11 +21314,18 @@
     "description": "wr_b is the ir_b over the WebSocket. You can start an irb session on the browser that supports WebSocket."
   },
   "wrack": {
-    "version": "0.0.2",
+    "version": "0.0.4",
     "dependents": [
 
     ],
     "description": "webserver using rack"
+  },
+  "wraith": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Wraith can enable the simple comparison of 2 domains to determine if new code changes have impacted you website."
   },
   "wraithdb": {
     "version": "0.0.7",
@@ -20466,7 +21397,7 @@
     "description": "The unchecked nil is a dangerous concept leading to NoMethodErrors at runtime. It would be better if you were forced to explictly unwrap potentially nil values. This library provides mechanisms and convenience methods for making this more possible."
   },
   "wrapper": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -20665,7 +21596,7 @@
     "description": "yet another static blog generator"
   },
   "write_xlsx": {
-    "version": "0.72.2",
+    "version": "0.75.0",
     "dependents": [
       {
         "name": "write_xlsx_rails",
@@ -20689,7 +21620,7 @@
     "description": "A small static site generator which will take a bunch of your writings and turn them into HTML."
   },
   "writeexcel": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "apollo-crawler",
@@ -20762,6 +21693,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "conditional_validation",
+        "requirements": ">= 0"
+      },
+      {
         "name": "craig",
         "requirements": ">= 0"
       },
@@ -20779,6 +21714,10 @@
       },
       {
         "name": "hamster-the-process-watcher",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "jetstream",
         "requirements": ">= 0"
       },
       {
@@ -20802,6 +21741,10 @@
         "requirements": ">= 0.7.0"
       },
       {
+        "name": "object_identifier",
+        "requirements": ">= 0"
+      },
+      {
         "name": "psql",
         "requirements": "= 0.7.0"
       },
@@ -20812,6 +21755,10 @@
       {
         "name": "ruby-regress",
         "requirements": ">= 0.2.0"
+      },
+      {
+        "name": "rubycut-sinatra-synchrony",
+        "requirements": "~> 0.5"
       },
       {
         "name": "simple_gemset",
@@ -20836,6 +21783,10 @@
       {
         "name": "vendorificator",
         "requirements": ">= 0.7.0"
+      },
+      {
+        "name": "version_compare",
+        "requirements": ">= 0"
       }
     ],
     "description": "Wrong provides a general assert method that takes a predicate block. Assertion failure\nmessages are rich in detail. The Wrong idea is to replace all those countless assert_this,\nassert_that library methods which only exist to give a more useful failure message than\n\"assertion failed\". Wrong replaces all of them in one fell swoop, since if you can write it\nin Ruby, Wrong can make a sensible failure message out of it. Also provided are several\nhelper methods, like rescuing, capturing, and d."
@@ -20920,6 +21871,10 @@
       },
       {
         "name": "unicorn",
+        "requirements": "~> 1.6.1"
+      },
+      {
+        "name": "unicorn-academia",
         "requirements": "~> 1.6.1"
       },
       {
@@ -21081,7 +22036,7 @@
     "description": "whatthecommit.com commit message fetcher and git autocommiter. For when you hate your coworkers/collaborators."
   },
   "wtails": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -21121,6 +22076,13 @@
 
     ],
     "description": "An awesome language detector"
+  },
+  "wtf_methods": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Prints a formatted list of class methods, excluding ActiveRecord::Base (when applicable) and generic Object methods."
   },
   "wtfcm": {
     "version": "0.0.1",
@@ -21219,23 +22181,23 @@
         "requirements": ">= 0.0.0"
       },
       {
-        "name": "wukong-deploy",
-        "requirements": "= 3.0.1"
-      },
-      {
         "name": "wuclan",
         "requirements": ">= 0"
+      },
+      {
+        "name": "wukong-deploy",
+        "requirements": "= 3.0.1"
       },
       {
         "name": "wukong-hadoop",
         "requirements": "= 3.0.1"
       },
       {
-        "name": "wukong-load",
+        "name": "wukong-storm",
         "requirements": "= 3.0.1"
       },
       {
-        "name": "wukong-storm",
+        "name": "wukong-load",
         "requirements": "= 3.0.1"
       }
     ],
@@ -21321,7 +22283,7 @@
     "description": "Slug generation."
   },
   "wunderbar": {
-    "version": "0.18.0",
+    "version": "0.19.0",
     "dependents": [
 
     ],
@@ -21350,6 +22312,13 @@
 
     ],
     "description": "A simple ruby API wrapper for interacting with the Wunderground API"
+  },
+  "wunderlist-cli": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Wunderlist command-line interface"
   },
   "wunderlist-rb": {
     "version": "0.0.1",
@@ -21448,6 +22417,13 @@
     ],
     "description": "Double Web, framework to build double Web server."
   },
+  "ww-postcodeapi": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "API wrapper for postcodeapi.nu zipcode api"
+  },
   "wwdc": {
     "version": "0.0.2",
     "dependents": [
@@ -21498,8 +22474,16 @@
     "description": "This gem exposes the WWT remote API(or at least most of it) to ruby. It works by sending given commands to an open port on the \n    machine running WWT."
   },
   "wwtd": {
-    "version": "0.1.6",
+    "version": "0.4.4",
     "dependents": [
+      {
+        "name": "active_hash",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ie_iframe_cookies",
+        "requirements": ">= 0.3.2"
+      },
       {
         "name": "logstash-logger",
         "requirements": ">= 0"
@@ -21800,7 +22784,7 @@
     "description": "Temporary clone of wysihtml5. I need a published version supporting p tags to include in my gem so I'll use this until wysihtml5 0.4 is published."
   },
   "wysihtml5n-rails": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],

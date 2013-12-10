@@ -86,6 +86,13 @@
     ],
     "description": "\n    A simple gem to trigger a script upon file system change\n  "
   },
+  "ub_assets": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "reusable assets for carrierwave"
+  },
   "ubalo": {
     "version": "0.30",
     "dependents": [
@@ -143,11 +150,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "iron_cache_rails",
+        "name": "iron_cache",
         "requirements": ">= 0"
       },
       {
-        "name": "iron_cache",
+        "name": "iron_cache_rails",
         "requirements": ">= 0"
       },
       {
@@ -219,7 +226,7 @@
     "description": "Provides a ruby interface for interacting with an Ubersmith 2.0 instance"
   },
   "uberspacify": {
-    "version": "0.9.3",
+    "version": "0.9.5",
     "dependents": [
 
     ],
@@ -233,7 +240,7 @@
     "description": "Continious Integration for Rspec using Watchr"
   },
   "ubigeo_rails": {
-    "version": "0.0.1",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -316,13 +323,6 @@
     ],
     "description": "Capistrano recipes for setting up and deploying to a Ubuntu Machine"
   },
-  "ubuntu-server-setup": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Write recipes for configuring Ubuntu servers in ruby"
-  },
   "ubuntu_ami": {
     "version": "0.4.1",
     "dependents": [
@@ -397,7 +397,7 @@
     "description": "Tool for deploying Confluence and JIRA war files to tomcat"
   },
   "ucb_groups": {
-    "version": "0.0.7",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -414,11 +414,11 @@
     "version": "1.4.2",
     "dependents": [
       {
-        "name": "ccls-calnet_authenticated",
+        "name": "ccls-ccls_engine",
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "ccls-ccls_engine",
+        "name": "ccls-calnet_authenticated",
         "requirements": ">= 1.4.2"
       },
       {
@@ -430,16 +430,16 @@
         "requirements": ">= 1.4.2"
       },
       {
-        "name": "ucb_rails",
-        "requirements": "= 2.0.0.pre1"
-      },
-      {
         "name": "ucb_groups",
         "requirements": "= 2.0.0.pre5"
       },
       {
         "name": "ucb_rails_security",
         "requirements": ">= 1.3.0"
+      },
+      {
+        "name": "ucb_rails",
+        "requirements": "= 2.0.0.pre1"
       }
     ],
     "description": "Convenience classes for interacing with UCB's LDAP directory"
@@ -508,7 +508,7 @@
     "description": "A gem enabling you to create classsifers and use them using the UClassify API. www.uclassify.com/XmlApiDocumentation.aspx#examples"
   },
   "ucloud_storage": {
-    "version": "0.0.12",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -735,7 +735,7 @@
     "description": "A Ruby client for ugly, a generic UDP logging service"
   },
   "uglifier": {
-    "version": "2.2.1",
+    "version": "2.3.2",
     "dependents": [
       {
         "name": "almanac",
@@ -756,6 +756,10 @@
       {
         "name": "ample_assets",
         "requirements": ">= 1.0.3"
+      },
+      {
+        "name": "angular-rails-templates",
+        "requirements": ">= 0"
       },
       {
         "name": "appetizer-ui",
@@ -826,10 +830,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "classy_assets",
-        "requirements": "~> 2.1.1"
-      },
-      {
         "name": "coffee-views",
         "requirements": ">= 0"
       },
@@ -870,11 +870,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "esp-auth",
+        "name": "esp-permissions",
         "requirements": ">= 0"
       },
       {
-        "name": "esp-permissions",
+        "name": "esp-auth",
         "requirements": ">= 0"
       },
       {
@@ -907,6 +907,10 @@
       },
       {
         "name": "gaku_core",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gempage",
         "requirements": ">= 0"
       },
       {
@@ -1098,10 +1102,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opal",
-        "requirements": ">= 0"
-      },
-      {
         "name": "orientation",
         "requirements": "~> 2.2"
       },
@@ -1138,6 +1138,10 @@
         "requirements": "~> 0.5"
       },
       {
+        "name": "rackular",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rails-backbone",
         "requirements": ">= 0"
       },
@@ -1151,6 +1155,14 @@
       },
       {
         "name": "rails3-jquery-autocomplete",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails4-autocomplete",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails_codebook",
         "requirements": ">= 0"
       },
       {
@@ -1171,7 +1183,7 @@
       },
       {
         "name": "rake-uglifier",
-        "requirements": ">= 0"
+        "requirements": ">= 2.0.0"
       },
       {
         "name": "raptest",
@@ -1187,6 +1199,10 @@
       },
       {
         "name": "redis_dictionary",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "replicat",
         "requirements": ">= 0"
       },
       {
@@ -1215,18 +1231,18 @@
       },
       {
         "name": "shoppe",
-        "requirements": "~> 2.2.1"
+        "requirements": ">= 2.2.0"
       },
       {
         "name": "simple_site",
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra-assetpack-flexible-compression",
+        "name": "sinatra-assetpack",
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra-assetpack",
+        "name": "sinatra-assetpack-flexible-compression",
         "requirements": ">= 0"
       },
       {
@@ -1244,6 +1260,10 @@
       {
         "name": "slender_data",
         "requirements": ">= 0"
+      },
+      {
+        "name": "smalruby-editor",
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "spar",
@@ -1266,11 +1286,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thorax-rails",
+        "name": "thorax",
         "requirements": ">= 0"
       },
       {
-        "name": "thorax",
+        "name": "thorax-rails",
         "requirements": ">= 0"
       },
       {
@@ -1290,16 +1310,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vines-services",
-        "requirements": "~> 2.1.1"
+        "name": "vinesmod",
+        "requirements": "~> 1.3.0"
       },
       {
         "name": "vines-web",
         "requirements": "~> 2.1.1"
       },
       {
-        "name": "vinesmod",
-        "requirements": "~> 1.3.0"
+        "name": "vines-services",
+        "requirements": "~> 2.1.1"
       },
       {
         "name": "vision",
@@ -1326,15 +1346,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zfben_rails_assets",
+        "name": "zfben_libjs",
         "requirements": ">= 0"
       },
       {
-        "name": "zfben_libjs",
+        "name": "zfben_rails_assets",
         "requirements": ">= 0"
       }
     ],
-    "description": "Ruby wrapper for UglifyJS JavaScript compressor"
+    "description": "Uglifier minifies JavaScript files by wrapping UglifyJS to be accessible in Ruby"
   },
   "ugly.automata": {
     "version": "0.1.0",
@@ -1377,6 +1397,13 @@
 
     ],
     "description": "capistrano recipes for my works"
+  },
+  "uhoh": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Uhoh is the gem for show the faliure note of the app.."
   },
   "ui": {
     "version": "0.0.0",
@@ -1428,7 +1455,7 @@
     "description": "Buttons Icons Overlays and other design features from JQuery UI"
   },
   "uia": {
-    "version": "0.0.5.1",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -1524,6 +1551,13 @@
 
     ],
     "description": "A modification of keyword_ranking. Which displays, the Google UK & Google US Result for the Given Keyword(s)"
+  },
+  "uk_validators": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ],
+    "description": "Rails Validations for typically UK specific data"
   },
   "uk_working_days": {
     "version": "1.0.2",
@@ -1875,6 +1909,13 @@
     ],
     "description": "Umlaut service to provide fulltext, holdings, etc. from the Primo discovery solution."
   },
+  "umlautify": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "Ädd ümläüts tö ëvërÿthïng!"
+  },
   "umlify": {
     "version": "1.2.6",
     "dependents": [
@@ -1906,12 +1947,26 @@
     ],
     "description": "Renames files in specified dir with selected extension with random namesn"
   },
+  "ums": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "user manage system with rails"
+  },
   "un": {
     "version": "1.0.1",
     "dependents": [
 
     ],
     "description": "un provides unextend and uninclude to allow for a better\nprototype-oriented programming experience."
+  },
+  "un_locode": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "The Locode gem gives you the ability to lookup UN/LOCODE codes."
   },
   "unageanu-javaclass": {
     "version": "0.4.0",
@@ -1936,6 +1991,20 @@
 
     ],
     "description": "A library for working with the unapi protocol"
+  },
+  "unbelievable": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
+  },
+  "unbind": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "ISC BINDv9 config generator"
   },
   "unbork": {
     "version": "1.0.1",
@@ -2078,7 +2147,7 @@
     "description": "UnderRack is a Ruby Framework for you understand Rack"
   },
   "underglow": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -2119,6 +2188,13 @@
     ],
     "description": "simple web frameworkings"
   },
+  "underscore-inflections-rails": {
+    "version": "1.1.0",
+    "dependents": [
+
+    ],
+    "description": "Makes underscore.inflections.js available to the asset pipeline"
+  },
   "underscore-rails": {
     "version": "1.5.2",
     "dependents": [
@@ -2143,6 +2219,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "polyblock",
+        "requirements": ">= 0"
+      },
+      {
         "name": "showboat",
         "requirements": ">= 0"
       },
@@ -2161,11 +2241,11 @@
     "version": "1.3.3",
     "dependents": [
       {
-        "name": "boner",
+        "name": "bone_tree",
         "requirements": ">= 0"
       },
       {
-        "name": "bone_tree",
+        "name": "boner",
         "requirements": ">= 0"
       },
       {
@@ -2204,7 +2284,7 @@
     "description": "Adds extensions to the underscore javascript library. It adds the javascript as a rails engine to be included in to a Rails 3+ project. To use it make sure require underscore, underscore.string and underscore.extensions."
   },
   "underscore_plus": {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "dependents": [
       {
         "name": "kojac",
@@ -2297,19 +2377,79 @@
         "requirements": "~> 0.0.5"
       },
       {
+        "name": "beaker",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "conjure",
+        "requirements": ">= 0"
+      },
+      {
         "name": "domain_name",
         "requirements": "< 1.0.0, >= 0.0.5"
+      },
+      {
+        "name": "egads",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "elasticity",
+        "requirements": "~> 0.1"
+      },
+      {
+        "name": "fog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fog-maestrodev",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kitchen-openstack",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kitchen-rackspace",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "knife-cloudformation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "marc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "middleman-s3_sync",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mystro-common",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pipely",
+        "requirements": ">= 0"
       },
       {
         "name": "ritter",
         "requirements": "~> 0.1.0"
       },
       {
-        "name": "twitter-text",
-        "requirements": "~> 0.1.0"
+        "name": "s3_dir",
+        "requirements": "~> 0.1.3"
+      },
+      {
+        "name": "thredded",
+        "requirements": ">= 0"
       },
       {
         "name": "twitter-text-relative",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "twitter-text",
         "requirements": "~> 0.1.0"
       },
       {
@@ -2402,6 +2542,13 @@
     ],
     "description": "Gem that provide access to unisender.com.ua api"
   },
+  "unicafe": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Gem for fetching Unicafe lunch data"
+  },
   "unichars": {
     "version": "0.5",
     "dependents": [
@@ -2431,14 +2578,6 @@
       {
         "name": "day",
         "requirements": "~> 0.4.2"
-      },
-      {
-        "name": "fog",
-        "requirements": "~> 0.4.4"
-      },
-      {
-        "name": "fog-maestrodev",
-        "requirements": "~> 0.4.4"
       },
       {
         "name": "i18n_morse",
@@ -2477,15 +2616,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rs_russian",
+        "requirements": "~> 0.4.4"
+      },
+      {
         "name": "russian_metaphone",
         "requirements": ">= 0.4.4"
       },
       {
-        "name": "shingling",
+        "name": "shingle",
         "requirements": ">= 0"
       },
       {
-        "name": "shingle",
+        "name": "shingling",
         "requirements": ">= 0"
       },
       {
@@ -2608,6 +2751,13 @@
 
     ],
     "description": "An implementation of StringScanner that doesn't split multibyte characters."
+  },
+  "unicode_titlecase": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Gem to enable easy title casing of strings containing Unicode text."
   },
   "unicode_utils": {
     "version": "1.4.0",
@@ -2761,6 +2911,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "unicode_titlecase",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wasserstand",
         "requirements": ">= 0"
       },
@@ -2793,7 +2947,7 @@
     "description": "Colorize an object uniquely! Call Object#unicolor"
   },
   "unicorn": {
-    "version": "4.6.3",
+    "version": "4.7.0",
     "dependents": [
       {
         "name": "apis",
@@ -2832,11 +2986,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "capistrano-unicorn",
+        "name": "capistrano-unicorn-methods",
         "requirements": ">= 0"
       },
       {
-        "name": "capistrano-unicorn-methods",
+        "name": "capistrano-unicorn",
         "requirements": ">= 0"
       },
       {
@@ -2896,7 +3050,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "intercity",
+        "requirements": "~> 4.7.0"
+      },
+      {
         "name": "isitopencoffeetomorrow",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "liprug",
         "requirements": ">= 0"
       },
       {
@@ -2906,6 +3068,10 @@
       {
         "name": "mr-sparkle",
         "requirements": ">= 4.5"
+      },
+      {
+        "name": "napa",
+        "requirements": ">= 0"
       },
       {
         "name": "newsly",
@@ -2952,6 +3118,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sepastian-capistrano3-unicorn",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simple-capistrano-unicorn",
         "requirements": ">= 0"
       },
@@ -2976,16 +3146,16 @@
         "requirements": ">= 4.6.2"
       },
       {
-        "name": "unicorn-instruments",
-        "requirements": "= 4.6.2"
+        "name": "unicorn-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "unicorn-soft-timeout",
         "requirements": "~> 4"
       },
       {
-        "name": "unicorn-rails",
-        "requirements": ">= 0"
+        "name": "unicorn-instruments",
+        "requirements": "= 4.6.2"
       },
       {
         "name": "unicorn-wrangler",
@@ -3012,9 +3182,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "worker-army",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yahns",
         "requirements": "~> 4.6.3"
       }
+    ],
+    "description": "\\Unicorn is an HTTP server for Rack applications designed to only serve\nfast clients on low-latency, high-bandwidth connections and take\nadvantage of features in Unix/Unix-like kernels.  Slow clients should\nonly be served by placing a reverse proxy capable of fully buffering\nboth the the request and response in between \\Unicorn and slow clients."
+  },
+  "unicorn-academia": {
+    "version": "4.7.0.1",
+    "dependents": [
+
     ],
     "description": "\\Unicorn is an HTTP server for Rack applications designed to only serve\nfast clients on low-latency, high-bandwidth connections and take\nadvantage of features in Unix/Unix-like kernels.  Slow clients should\nonly be served by placing a reverse proxy capable of fully buffering\nboth the the request and response in between \\Unicorn and slow clients."
   },
@@ -3026,11 +3207,11 @@
     "description": "A script to control unicorn instances."
   },
   "unicorn-cuba-base": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
       {
         "name": "httpimagestore",
-        "requirements": "~> 1.1.1"
+        "requirements": "~> 1.1.2"
       },
       {
         "name": "httpthumbnailer",
@@ -3053,6 +3234,10 @@
   "unicorn-formatter": {
     "version": "0.1.3",
     "dependents": [
+      {
+        "name": "architecture-js",
+        "requirements": ">= 0"
+      },
       {
         "name": "rformat",
         "requirements": ">= 0"
@@ -3080,13 +3265,6 @@
 
     ],
     "description": "unicorn-rails overrides the Rack::Handler.default method to return Rack::Handler::Unicorn which will cause rack (and rails) to use unicorn by default."
-  },
-  "unicorn-rest": {
-    "version": "1.0.5",
-    "dependents": [
-
-    ],
-    "description": "Unicorn is a set of lightweight HTTP libraries available in PHP, Ruby, Python, Java, Objective-C."
   },
   "unicorn-soft-timeout": {
     "version": "0.0.1",
@@ -3257,36 +3435,6 @@
     ],
     "description": "A ruby interface for unified2 output. rUnified2 allows you to manipulate unified2 output for custom storage and/or analysis."
   },
-  "unified_colours": {
-    "version": "1.0.1",
-    "dependents": [
-      {
-        "name": "autostart",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "bioroebe",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "cookbooks",
-        "requirements": ">= 1.0.0"
-      },
-      {
-        "name": "environment_information",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "multimedia",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "program_information",
-        "requirements": ">= 0"
-      }
-    ],
-    "description": "\n    This module, called UnifiedColours, aims to unify colour-related\n    methods and constants into one project, usable for ruby projects.\n    \n    I needed such a module because I often found myself in need\n    of different, colour-related methods, so I thought that I\n    should bundle them all together into one new project.\n    \n    This gem also supercedes my earlier gems, such as AdvancedColours\n    or AnsiColours or CoulourStrings - these three projects have\n    now been merged into UnifiedColours (and removed from\n    rubygems.org, of course).\n\n    If you have specific suggestions to make this gem more\n    useful for others, please drop me an email at:\n      shevegen@gmail.com\n    Thank you.\n\n"
-  },
   "unified_db": {
     "version": "0.2.7",
     "dependents": [
@@ -3312,7 +3460,7 @@
     "description": "UnifiedMatchers"
   },
   "unified_partials": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -3333,11 +3481,11 @@
     "description": "Rails Forms done right"
   },
   "uniform_notifier": {
-    "version": "1.3.0",
+    "version": "1.4.0",
     "dependents": [
       {
         "name": "bullet",
-        "requirements": ">= 0"
+        "requirements": ">= 1.4.0"
       },
       {
         "name": "enough_fields",
@@ -3439,15 +3587,19 @@
         "requirements": ">= 0.2.3"
       },
       {
-        "name": "midi-topaz",
-        "requirements": ">= 0.1.10"
-      },
-      {
         "name": "midi",
         "requirements": ">= 0.2.3"
       },
       {
         "name": "midi-eye",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "midi-topaz",
+        "requirements": ">= 0.1.10"
+      },
+      {
+        "name": "mpd32api",
         "requirements": ">= 0"
       },
       {
@@ -3534,15 +3686,15 @@
         "requirements": "= 0.0.4"
       },
       {
-        "name": "skycap",
-        "requirements": "~> 0.1.0"
-      },
-      {
         "name": "skybox",
         "requirements": "~> 0.1.0"
       },
       {
         "name": "skydb",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "skycap",
         "requirements": "~> 0.1.0"
       },
       {
@@ -3574,11 +3726,11 @@
     "description": "Unipass client API"
   },
   "unipush": {
-    "version": "0.1.5",
+    "version": "0.1.6",
     "dependents": [
 
     ],
-    "description": "A simple push notification sender for iOS and Android"
+    "description": "A simple push notification sender for iOS, Android and Windows phone"
   },
   "uniq-deploy": {
     "version": "1.0.1",
@@ -3689,11 +3841,11 @@
     "description": "Generate a unique token with ActiveRecord"
   },
   "unirest": {
-    "version": "1.0.8",
+    "version": "1.1.1",
     "dependents": [
 
     ],
-    "description": "Unirest is a set of lightweight HTTP libraries available in PHP, Ruby, Python, Java, Objective-C."
+    "description": "Unirest is a set of lightweight HTTP libraries available in multiple languages."
   },
   "unisender-rails": {
     "version": "0.0.3",
@@ -3779,7 +3931,7 @@
     "description": "allow you to limit troughput of via particular interface"
   },
   "unite": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -3798,6 +3950,13 @@
 
     ],
     "description": "Unity provides extensions to your objects to support values with units"
+  },
+  "unitranslit": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Universal transliterator."
   },
   "units": {
     "version": "1.0.1",
@@ -3843,7 +4002,7 @@
     "description": "Colored output for unit tests."
   },
   "unitwise": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -4017,11 +4176,11 @@
         "requirements": "= 0.1.1"
       },
       {
-        "name": "universe-testing",
+        "name": "universe-rails-testing",
         "requirements": ">= 0"
       },
       {
-        "name": "universe-rails-testing",
+        "name": "universe-testing",
         "requirements": ">= 0"
       }
     ],
@@ -4087,11 +4246,11 @@
         "requirements": "= 0.1.1"
       },
       {
-        "name": "universe-staticweb",
+        "name": "universe-sinatra",
         "requirements": ">= 0"
       },
       {
-        "name": "universe-sinatra",
+        "name": "universe-staticweb",
         "requirements": ">= 0"
       }
     ],
@@ -4145,6 +4304,10 @@
   "unix-crypt": {
     "version": "1.1.1",
     "dependents": [
+      {
+        "name": "casino-activerecord_authenticator",
+        "requirements": "~> 1.1"
+      },
       {
         "name": "casino_core-authenticator-activerecord",
         "requirements": "~> 1.1"
@@ -4292,7 +4455,7 @@
       },
       {
         "name": "frankenpins",
-        "requirements": ">= 0.11.0"
+        "requirements": "~> 0.11.0"
       }
     ],
     "description": "An alternative to Ruby's Observable mixin"
@@ -4326,7 +4489,7 @@
     "description": "The tool relies on the presence of the command-line tools."
   },
   "unparser": {
-    "version": "0.1.3",
+    "version": "0.1.5",
     "dependents": [
       {
         "name": "outil",
@@ -4364,7 +4527,7 @@
     "description": "UnQLite lib for ruby, using C extension."
   },
   "unread": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
       {
         "name": "carrier",
@@ -4467,6 +4630,13 @@
     ],
     "description": "A simple gem that gives you an unsorted numeric array"
   },
+  "unstoppable": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Problem:\nWhile Cucumber is an awesome tool, for some kinds of tests it's default behaviour becomes an obstacle. Testing large batches of input against a slow error prone system is the source of much frustration. Cucumber will skip remaining steps on failure or error. This is especially problematic if the test input is a dynamic collection, *(e.g. results of a database query). This is opposed to a static collection testing which is solved by a Scenario Outline.\n\nSolution:\n\nWe need to step putside Cucumber's default pass/fail/error handling. Capture all failures and errors in collections. Log errors and failures. Generate a pass/fail manifest against the test inputs.\n\nDo not use this for normal BDD style testing, Cucumber's default behaviour is perfect for that.\n\nPublic Interface:\n\nThis is a works in progress so I expect changes as usage reveals more.\n\nIn your cucumber env.rb\n\nBefore do |scenario| setup_unstoppable end\n\nAfter do |scenario| print unstoppable_failures(scenario) print unstoppable_errors(scenario) end\n\nIn a step definition wrap any operation that you do not wish to stop execution like so\n\nunstoppable do expect(thing).to be(exected_thing) end\n\nThis helper method does the following:\n\nruns executes the block\ncatches any exception 2a. adds error to errors collection if an error 2b. adds expectation failure to failures collection if error is an RSpec::Expectations::ExpectationNotMetError\nlogs error/failure"
+  },
   "unsupervised-language-detection": {
     "version": "0.0.6",
     "dependents": [
@@ -4489,7 +4659,7 @@
     "description": "Leightweight dependency API for your POROs"
   },
   "untappd": {
-    "version": "4.0.0",
+    "version": "4.0.1",
     "dependents": [
 
     ],
@@ -4513,11 +4683,11 @@
     "version": "0.0.5",
     "dependents": [
       {
-        "name": "untied-consumer-sync",
+        "name": "untied",
         "requirements": "~> 0.0.5"
       },
       {
-        "name": "untied",
+        "name": "untied-consumer-sync",
         "requirements": "~> 0.0.5"
       }
     ],
@@ -4618,6 +4788,13 @@
       }
     ],
     "description": "    UOM implements Units of Measurement based on the International System of Units (SI).\n    The base SI units, metric scalar factors and all possible combinations of these units\n    are supported out of the box.\n"
+  },
+  "uomi": {
+    "version": "0.2.14",
+    "dependents": [
+
+    ],
+    "description": " Manage invoices. "
   },
   "uorm": {
     "version": "0.0.15",
@@ -4869,7 +5046,7 @@
     "description": "Useful for file attachment (paperclip, attachment_fu, etc) outside your standard web frameworks"
   },
   "uploadbox": {
-    "version": "0.0.13",
+    "version": "0.0.21",
     "dependents": [
 
     ],
@@ -4972,6 +5149,13 @@
     ],
     "description": "Simplified uploads for rails"
   },
+  "upman": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "upman - Update Manager in Ruby"
+  },
   "upmark": {
     "version": "0.1.4",
     "dependents": [
@@ -4994,11 +5178,11 @@
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "UPnP-MediaServer",
+        "name": "UPnP-ContentDirectory",
         "requirements": ">= 1.1.0"
       },
       {
-        "name": "UPnP-ContentDirectory",
+        "name": "UPnP-MediaServer",
         "requirements": ">= 1.1.0"
       }
     ],
@@ -5037,6 +5221,16 @@
 
     ],
     "description": "A UPnP MediaServer.  Currently a work in progress.  Only tested on a PlayStation 3."
+  },
+  "upnp-nickewing": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "hacky_hal",
+        "requirements": "~> 0.1.0"
+      }
+    ],
+    "description": "upnp provides the tools you need to build an app that runs\nin a UPnP environment.  This is a pre-release gem\nand is subject to substantial change."
   },
   "upnxt_aaa_user_backend": {
     "version": "0",
@@ -5479,6 +5673,13 @@
     ],
     "description": "Provides an easy to use interface to the UPS time in transit API"
   },
+  "ups_time_in_transit_plus": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Provides an easy to use interface to the UPS time in transit API"
+  },
   "upscrn-client": {
     "version": "0.2.0",
     "dependents": [
@@ -5487,7 +5688,7 @@
     "description": "client library for accessing the upscrn api"
   },
   "upsert": {
-    "version": "2.0.1",
+    "version": "2.0.3",
     "dependents": [
       {
         "name": "data_miner",
@@ -5539,11 +5740,11 @@
     "description": "Wrapper for the Uptime, a great remote monitoring tool written in node.js. See https://github.com/fzaninotto/uptime"
   },
   "upton": {
-    "version": "0.2.9",
+    "version": "0.2.11",
     "dependents": [
 
     ],
-    "description": "Don't re-write web scrapers every time. Upton gives you a scraper template that's easy to use for debugging and doesn't hammer servers by default"
+    "description": "Don't re-write web scrapers every time. Upton gives you a scraper template that's easy to use for debugging and doesn't hammer servers by default."
   },
   "upyun": {
     "version": "0.7.1",
@@ -5566,6 +5767,13 @@
     ],
     "description": "upaiyun ruby driver"
   },
+  "upyun-sdk": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Upyun SDK for Ruby. "
+  },
   "ur-product": {
     "version": "1.0.6",
     "dependents": [
@@ -5586,6 +5794,13 @@
 
     ],
     "description": "Scale out deployment for Rails."
+  },
+  "uranium-rails": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "uranium-rails is rails implementation of uranium JS which is a simple, lightweight Javascript interaction library written in jQuery."
   },
   "urban": {
     "version": "1.0.0",
@@ -5650,19 +5865,19 @@
     ],
     "description": "Read google spreadsheet and generate translation files out of it"
   },
-  "Urbanesia": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Wrapper to access the Urbanesia API"
-  },
   "urbanesia": {
     "version": "0.0.1.7",
     "dependents": [
 
     ],
     "description": "Wrapper to access the Urbanesia API (docs here: http://api1.urbanesia.com/get/?manual=please ). Gem is a port of the PHP wrapper found here: https://github.com/Urbanesia/Oauthnesia"
+  },
+  "Urbanesia": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Wrapper to access the Urbanesia API"
   },
   "urbanlexicophile": {
     "version": "0.1.0",
@@ -5707,7 +5922,7 @@
     "description": "Urges an object to take some form of action, on a timed basis"
   },
   "uri-component": {
-    "version": "0.0.4",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -5853,7 +6068,7 @@
     "description": "Providing types: t.cn, url.cn, url7.me, 126.am"
   },
   "uri_signer": {
-    "version": "0.0.3",
+    "version": "2.0.0",
     "dependents": [
 
     ],
@@ -5869,6 +6084,10 @@
       {
         "name": "altmetric.rb",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cetacean",
+        "requirements": "~> 0.6"
       },
       {
         "name": "espn",
@@ -6001,6 +6220,20 @@
 
     ],
     "description": "Convert Heroku Style Database URLS into hashes you can plug into ActiveRecord::Base.establish_connection"
+  },
+  "url_action": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "cyberweb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This library is called url_action\n"
   },
   "url_authenticator": {
     "version": "0.0.1",
@@ -6136,7 +6369,7 @@
     "description": "Glue to allow mounted rack applications to know where they're mounted"
   },
   "url_normalizer": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -6145,7 +6378,10 @@
   "url_plumber": {
     "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "flexirails",
+        "requirements": ">= 0"
+      }
     ],
     "description": "modify parts of a hash using a key_path"
   },
@@ -6515,7 +6751,7 @@
     "description": "Ruby interface for the 0.mk URL shortening service."
   },
   "use_case": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
@@ -6592,7 +6828,7 @@
     "description": "useful_functionality "
   },
   "useful_helpers": {
-    "version": "0.0.29",
+    "version": "0.0.30.2",
     "dependents": [
       {
         "name": "devise_russian",
@@ -6602,7 +6838,7 @@
     "description": "Useful helpers methods for Good Rails App"
   },
   "useful_string_extensions": {
-    "version": "0.0.17",
+    "version": "0.0.20.3",
     "dependents": [
 
     ],
@@ -6616,11 +6852,18 @@
     "description": "useful_validators"
   },
   "usefuldb": {
-    "version": "0.0.12",
+    "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "Accessible through a commandline script, UsefulDB allows the user to store information about a useful command or useful url"
+  },
+  "usefull_attachment": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Describe Gem Here"
   },
   "usefull_extension": {
     "version": "1.0.4",
@@ -6630,9 +6873,12 @@
     "description": "Extend Rails capabilities of importing and exporting excel, pdf and other extension"
   },
   "usefull_filter": {
-    "version": "0.0.4",
+    "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "usefull_attachment",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Wraps meta_search with usefull helpers"
   },
@@ -6644,9 +6890,12 @@
     "description": "This gem provides additional scopes for your Active:Record models within Ruby on Rails framework."
   },
   "usefull_table": {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "dependents": [
-
+      {
+        "name": "usefull_attachment",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Table Helper with Excel export, inline editing and monitoring funxtions"
   },
@@ -6795,7 +7044,7 @@
     "description": "Simple and opinionated helper for creating Rubygem projects on GitHub"
   },
   "user_agent_parser": {
-    "version": "2.1.0",
+    "version": "2.1.1",
     "dependents": [
 
     ],
@@ -6819,11 +7068,11 @@
     "description": "Manage and display site-wide announcements by user, scoped by user role."
   },
   "user_authentication": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "admin_engine",
-        "requirements": "~> 0.0.6"
+        "requirements": "~> 0.1.1"
       }
     ],
     "description": "A rails engine for email and password based user authentication."
@@ -6863,7 +7112,7 @@
     "description": "The library creates, saves, and loads configuration files, which are in a user's home directory or a specified directory."
   },
   "user_fullname": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -6898,7 +7147,7 @@
     "description": "    Provides a drop-in user management. Functionality is limited to\n    adding, editing and deleting users. The data editable is very simple\n    (email, password, etc.). If you need more then you probably need\n    something more custom to your app.\n"
   },
   "user_mgmt": {
-    "version": "0.6.9",
+    "version": "0.8.3.1",
     "dependents": [
 
     ],
@@ -6954,7 +7203,7 @@
     "description": "Wrapper for mulitple user review APIs"
   },
   "useragent": {
-    "version": "0.8.3",
+    "version": "0.10.0",
     "dependents": [
       {
         "name": "alexander",
@@ -6965,11 +7214,19 @@
         "requirements": ">= 0.4"
       },
       {
+        "name": "casino",
+        "requirements": "~> 0.4"
+      },
+      {
         "name": "casino_core",
         "requirements": "~> 0.4"
       },
       {
         "name": "charted",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "cookie_crypt",
         "requirements": ">= 0"
       },
       {
@@ -6985,16 +7242,20 @@
         "requirements": "~> 0"
       },
       {
-        "name": "rack-useragent",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rack-useragent-filter",
         "requirements": ">= 0.1.5"
       },
       {
+        "name": "rack-useragent",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sniffux",
         "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "speed_gun",
+        "requirements": "~> 0.10"
       },
       {
         "name": "terminus",
@@ -7025,7 +7286,7 @@
     "description": "    HTTP User Agent parser\n"
   },
   "useragent2css": {
-    "version": "1.2",
+    "version": "1.3",
     "dependents": [
 
     ],
@@ -7046,11 +7307,11 @@
     "description": "UserAPI is an application programming interface (API), which enables anyone to create social networks and other projects based on Vkontakte data storage. And I have a little problem - there is no Ruby Gem to work with this API. So this Gem will realize some features of UserAPI"
   },
   "userbin": {
-    "version": "0.2.0",
+    "version": "0.3.5",
     "dependents": [
 
     ],
-    "description": "Plug n’ play user accounts. The simplest way to integrate a full authentication and user management stack into your web application."
+    "description": "Plug n' play user accounts. The simplest way to integrate a full authentication and user management stack into your web application."
   },
   "usercycle": {
     "version": "0.1.4",
@@ -7167,6 +7428,13 @@
 
     ],
     "description": "Manipulate userscripts.org"
+  },
+  "usershell": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "UserShell is a tiny gem that uses the canonical approach to detect the shell for the current user, or a specified user."
   },
   "userstamp": {
     "version": "2.0.1",
@@ -7321,6 +7589,63 @@
 
     ],
     "description": "\"Load, save and use YAML files as if they were objects\""
+  },
+  "usno": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "The base USNO gem provides a namespace for other USNO::* gems."
+  },
+  "usno-eclipse": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "usno",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": " Obtain the circumstances of recent and upcoming solar or lunar eclipses for any location. "
+  },
+  "usno-eclipse-lunar": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "usno-eclipse",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Obtain the circumstances of recent and upcoming lunar eclipses for any location"
+  },
+  "usno-eclipse-solar": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "usno-eclipse",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Obtain the circumstances of recent and upcoming solar eclipses for any location"
+  },
+  "usno-imagery": {
+    "version": "0.1.4",
+    "dependents": [
+      {
+        "name": "usno",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Consumes USNO's imagery data services"
+  },
+  "usno-transit": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "usno",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Consumes USNO resources to return times of rise, set,\n    and transit for the major solar system bodies and selected bright stars.\n  "
   },
   "uspec": {
     "version": "0.0.3",
@@ -7490,7 +7815,7 @@
     "description": "Utilities for cleaning up UTF8 strings. Compatible with Ruby 1.8.6 - 1.9.x"
   },
   "utf8_validator": {
-    "version": "1.0.6",
+    "version": "1.0.7",
     "dependents": [
 
     ],
@@ -7538,7 +7863,7 @@
     "description": "A general collection of application utilities for dealing with paths and active_record and security"
   },
   "utilise": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -7676,16 +8001,16 @@
     "version": "0.12.2",
     "dependents": [
       {
+        "name": "utopia-extras",
+        "requirements": "~> 0.12"
+      },
+      {
         "name": "utopia-tags-gallery",
         "requirements": "~> 0.12.0"
       },
       {
         "name": "utopia-tags-google-analytics",
         "requirements": "~> 0.12.0"
-      },
-      {
-        "name": "utopia-extras",
-        "requirements": "~> 0.12"
       }
     ],
     "description": "\t\tUtopia is a website generation framework which provides a robust set of tools\n\t\tto build highly complex dynamic websites. It uses the filesystem heavily for\n\t\tcontent and provides frameworks for interacting with files and directories as\n\t\tstructure representing the website.\n"
@@ -7725,6 +8050,13 @@
     ],
     "description": "utsup.com client"
   },
+  "utterson": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "Traverses all HTML files from given directory and checks links found in them."
+  },
   "uttk": {
     "version": "0.4.6.2",
     "dependents": [
@@ -7753,6 +8085,10 @@
       },
       {
         "name": "agcaldav",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "allure-rspec",
         "requirements": ">= 0"
       },
       {
@@ -7844,6 +8180,10 @@
         "requirements": ">= 2.3.1"
       },
       {
+        "name": "carioca",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cheap_skate",
         "requirements": ">= 0"
       },
@@ -7856,11 +8196,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cloudkit",
+        "name": "cloudkit-jruby",
         "requirements": "= 2.0.1"
       },
       {
-        "name": "cloudkit-jruby",
+        "name": "cloudkit",
         "requirements": "= 2.0.1"
       },
       {
@@ -7877,6 +8217,10 @@
       },
       {
         "name": "crashlog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dalli_captcha",
         "requirements": ">= 0"
       },
       {
@@ -7898,6 +8242,10 @@
       {
         "name": "dragons_keep",
         "requirements": ">= 0"
+      },
+      {
+        "name": "drb_queue",
+        "requirements": "~> 2.3.7"
       },
       {
         "name": "dreamy",
@@ -7952,11 +8300,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "euston",
+        "name": "euston-eventstore",
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "euston-eventstore",
+        "name": "euston",
         "requirements": "~> 2.3.0"
       },
       {
@@ -7976,11 +8324,11 @@
         "requirements": ">= 2.1.0"
       },
       {
-        "name": "fatsecret",
+        "name": "fathom",
         "requirements": ">= 0"
       },
       {
-        "name": "fathom",
+        "name": "fatsecret",
         "requirements": ">= 0"
       },
       {
@@ -8056,6 +8404,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kelbim",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kent",
         "requirements": ">= 0"
       },
@@ -8065,6 +8417,10 @@
       },
       {
         "name": "kimchi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "kookaburra",
         "requirements": ">= 0"
       },
       {
@@ -8196,12 +8552,16 @@
         "requirements": "~> 2.3"
       },
       {
-        "name": "onelogin-ssm",
+        "name": "openagent",
         "requirements": ">= 0"
       },
       {
         "name": "opencoinage",
         "requirements": ">= 2.3.1"
+      },
+      {
+        "name": "openstudio-analysis",
+        "requirements": ">= 0"
       },
       {
         "name": "ot-ios-builder",
@@ -8240,15 +8600,15 @@
         "requirements": ">= 2.3.4"
       },
       {
-        "name": "pubnub-picklive",
-        "requirements": "~> 2.3.5"
-      },
-      {
         "name": "pubnub",
         "requirements": "~> 2.3.5"
       },
       {
         "name": "pubnub-ruby",
+        "requirements": "~> 2.3.5"
+      },
+      {
+        "name": "pubnub-picklive",
         "requirements": "~> 2.3.5"
       },
       {
@@ -8364,19 +8724,15 @@
         "requirements": ">= 2.3.5, ~> 2.3"
       },
       {
-        "name": "ruby-saml-bekk",
-        "requirements": "= 2.3.1"
-      },
-      {
-        "name": "ruby-saml-federa",
-        "requirements": "~> 2.3"
-      },
-      {
         "name": "ruby-saml",
         "requirements": "~> 2.3"
       },
       {
-        "name": "ruby-saml-federazione-trentina",
+        "name": "ruby-saml-bekk",
+        "requirements": "= 2.3.1"
+      },
+      {
+        "name": "ruby-saml-bm",
         "requirements": "~> 2.3"
       },
       {
@@ -8384,7 +8740,11 @@
         "requirements": "~> 2.3.7"
       },
       {
-        "name": "ruby-saml-bm",
+        "name": "ruby-saml-federazione-trentina",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "ruby-saml-federa",
         "requirements": "~> 2.3"
       },
       {
@@ -8560,6 +8920,10 @@
         "requirements": ">= 2.3.1"
       },
       {
+        "name": "warc",
+        "requirements": ">= 0"
+      },
+      {
         "name": "watirmark",
         "requirements": ">= 0"
       },
@@ -8596,12 +8960,12 @@
         "requirements": "~> 2.3.5"
       },
       {
-        "name": "zactor",
-        "requirements": "> 0.1"
-      },
-      {
         "name": "zack",
         "requirements": "~> 2.3"
+      },
+      {
+        "name": "zactor",
+        "requirements": "> 0.1"
       },
       {
         "name": "zake",
@@ -8610,6 +8974,10 @@
       {
         "name": "zebra",
         "requirements": ">= 2.3.5"
+      },
+      {
+        "name": "zebris",
+        "requirements": ">= 0"
       },
       {
         "name": "zfben_rails_jobs",
@@ -8692,7 +9060,7 @@
     "description": "Bundle friendly pure ruby UUID generator supporting v1, v3, v4, v5"
   },
   "uuidify": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -8725,11 +9093,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "activerecord_uuid",
+        "name": "activerecord_uuid_as_pk",
         "requirements": ">= 0"
       },
       {
-        "name": "activerecord_uuid_as_pk",
+        "name": "activerecord_uuid",
         "requirements": ">= 0"
       },
       {
@@ -8773,6 +9141,10 @@
         "requirements": "~> 2.1"
       },
       {
+        "name": "ardm",
+        "requirements": "~> 2.1.2"
+      },
+      {
         "name": "as",
         "requirements": "~> 2.1.0"
       },
@@ -8785,12 +9157,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "aws-sdb",
-        "requirements": ">= 0"
-      },
-      {
         "name": "aws-sdk",
         "requirements": "~> 2.1"
+      },
+      {
+        "name": "aws-sdb",
+        "requirements": ">= 0"
       },
       {
         "name": "aws-sdk-euca",
@@ -8819,10 +9191,6 @@
       {
         "name": "bosh-verify-manifest",
         "requirements": "~> 2.1.3"
-      },
-      {
-        "name": "bosh_vcloud_cpi",
-        "requirements": ">= 0"
       },
       {
         "name": "bosh_aws_cpi",
@@ -8877,12 +9245,12 @@
         "requirements": "~> 2.1.1"
       },
       {
-        "name": "chef-sandwich",
-        "requirements": ">= 0"
-      },
-      {
         "name": "chef-server-api",
         "requirements": "~> 2.1.1"
+      },
+      {
+        "name": "chef-sandwich",
+        "requirements": ">= 0"
       },
       {
         "name": "chef-vpc-toolkit",
@@ -8903,6 +9271,10 @@
       {
         "name": "cloudhdr_rails",
         "requirements": "~> 2.1.4"
+      },
+      {
+        "name": "cloulu",
+        "requirements": "~> 2.1"
       },
       {
         "name": "cluster",
@@ -8943,6 +9315,14 @@
       {
         "name": "devcreek",
         "requirements": ">= 1.0.1"
+      },
+      {
+        "name": "device-identifier",
+        "requirements": "~> 2.1.4"
+      },
+      {
+        "name": "device-identifier",
+        "requirements": "~> 2.1.4"
       },
       {
         "name": "diglossa",
@@ -9041,16 +9421,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "forge-rad",
-        "requirements": "= 2.1.3"
-      },
-      {
         "name": "forge-rad19",
         "requirements": "= 2.1.3"
       },
       {
         "name": "forge-rad20",
         "requirements": "~> 2.1.3"
+      },
+      {
+        "name": "forge-rad",
+        "requirements": "= 2.1.3"
       },
       {
         "name": "ghee",
@@ -9070,7 +9450,7 @@
       },
       {
         "name": "gorgon",
-        "requirements": "~> 2.1.3"
+        "requirements": "= 2.1.3"
       },
       {
         "name": "gotime_aws",
@@ -9237,11 +9617,11 @@
         "requirements": "~> 2.1.2"
       },
       {
-        "name": "Medea",
+        "name": "medea",
         "requirements": ">= 0"
       },
       {
-        "name": "medea",
+        "name": "Medea",
         "requirements": ">= 0"
       },
       {
@@ -9251,6 +9631,10 @@
       {
         "name": "mongoid_ext",
         "requirements": ">= 2.1.1"
+      },
+      {
+        "name": "mongoid_uuid_generator",
+        "requirements": ">= 0"
       },
       {
         "name": "mongomapper_ext",
@@ -9365,12 +9749,12 @@
         "requirements": ">= 2.1.1"
       },
       {
-        "name": "rcap",
-        "requirements": ">= 2.1.2"
-      },
-      {
         "name": "rcap-rails-generators",
         "requirements": ">= 2.0.0"
+      },
+      {
+        "name": "rcap",
+        "requirements": ">= 2.1.2"
       },
       {
         "name": "realityforge-em-winrm",
@@ -9403,10 +9787,6 @@
       {
         "name": "resumetools",
         "requirements": ">= 0"
-      },
-      {
-        "name": "rhoconnect",
-        "requirements": ">= 2.1.1"
       },
       {
         "name": "rhosync",
@@ -9545,12 +9925,12 @@
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "tac-cli",
-        "requirements": "~> 2.1.3"
-      },
-      {
         "name": "tac",
         "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "tac-cli",
+        "requirements": "~> 2.1.3"
       },
       {
         "name": "temppath",
@@ -9559,6 +9939,14 @@
       {
         "name": "thirtysixthspan-magent",
         "requirements": ">= 2.0.0"
+      },
+      {
+        "name": "tms_bridge",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "trucker-cli",
+        "requirements": "~> 2.1"
       },
       {
         "name": "tunnel-vmc-plugin",
@@ -9585,12 +9973,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "uuid_helper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "uuid_ids",
         "requirements": "~> 2.1.4"
+      },
+      {
+        "name": "uuid_helper",
+        "requirements": ">= 0"
       },
       {
         "name": "uuid_validator",
@@ -9617,19 +10005,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vmc-IronFoundry",
-        "requirements": "~> 2.1.0"
-      },
-      {
         "name": "vmc-stic",
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "vmc_virgo",
+        "name": "vmcu",
         "requirements": "~> 2.1.0"
       },
       {
-        "name": "vmcu",
+        "name": "vmc-IronFoundry",
+        "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "vmc_virgo",
         "requirements": "~> 2.1.0"
       },
       {
@@ -9651,6 +10039,10 @@
       {
         "name": "winrm",
         "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "with_uuid",
+        "requirements": ">= 0"
       },
       {
         "name": "writecast",
@@ -9714,6 +10106,13 @@
     ],
     "description": "Description of Uusoso."
   },
+  "uutdns": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Simple DNS Client built for Internet Engineering course in Urmia University of Technology"
+  },
   "uuvula": {
     "version": "0.0.2",
     "dependents": [
@@ -9730,6 +10129,13 @@
       }
     ],
     "description": "Ruby powered syntax highlighting.  Ruby 1.9 port of Ultraviolet"
+  },
+  "uv-rays": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Opinionated abstractions for Libuv"
   },
   "uv_proxmox": {
     "version": "0.0.1",
@@ -9785,15 +10191,15 @@
         "requirements": "> 0.0.0"
       },
       {
+        "name": "uwa_hello",
+        "requirements": "> 0.0.0"
+      },
+      {
         "name": "uwa_sysload",
         "requirements": "> 0.0.0"
       },
       {
         "name": "uwa_syshd",
-        "requirements": "> 0.0.0"
-      },
-      {
-        "name": "uwa_hello",
         "requirements": "> 0.0.0"
       },
       {
@@ -9874,7 +10280,7 @@
     "description": "UWN/MENTA: Towards a Universal Multilingual Wordnet API; (Ruby on Rails) gem wrapper for JRuby."
   },
   "uwsgi": {
-    "version": "1.9.18",
+    "version": "1.9.20",
     "dependents": [
 
     ],

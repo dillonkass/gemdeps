@@ -35,14 +35,18 @@
     "description": "The internationalizer. Replaces plain text strings in your views and replaces them with I18n message strings so you only have to provide the translations."
   },
   "i18n": {
-    "version": "0.6.5",
+    "version": "0.6.9",
     "dependents": [
       {
-        "name": "absa-esd",
-        "requirements": ">= 0"
+        "name": "abak-flow",
+        "requirements": ">= 0.6.1"
       },
       {
         "name": "absa-h2h",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "absa-esd",
         "requirements": ">= 0"
       },
       {
@@ -82,11 +86,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "activesupport-core-ext",
+        "name": "activesupport",
         "requirements": ">= 0.6.4, ~> 0.6"
       },
       {
-        "name": "activesupport",
+        "name": "activesupport-core-ext",
         "requirements": ">= 0.6.4, ~> 0.6"
       },
       {
@@ -128,6 +132,10 @@
       {
         "name": "adva-core",
         "requirements": "= 0.5.0"
+      },
+      {
+        "name": "adyen-skinbuilder",
+        "requirements": ">= 0"
       },
       {
         "name": "afipws",
@@ -242,6 +250,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ardbt",
+        "requirements": ">= 0.5.0"
+      },
+      {
         "name": "arena-i18n-active_record",
         "requirements": ">= 0.5.0"
       },
@@ -286,6 +298,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "babylonia",
+        "requirements": ">= 0.5.0"
+      },
+      {
         "name": "backup_cleaner",
         "requirements": ">= 0"
       },
@@ -320,6 +336,10 @@
       {
         "name": "better-riak-client",
         "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "better_responder",
+        "requirements": ">= 0"
       },
       {
         "name": "bio-band",
@@ -366,6 +386,10 @@
         "requirements": ">= 0.5.0"
       },
       {
+        "name": "bookery",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bookshelf",
         "requirements": ">= 0"
       },
@@ -396,6 +420,10 @@
       {
         "name": "brisk-bills",
         "requirements": "= 0.4.2"
+      },
+      {
+        "name": "brocade",
+        "requirements": ">= 0"
       },
       {
         "name": "brocktail",
@@ -490,12 +518,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cartodb-rb-client",
-        "requirements": "<= 0.6.0, >= 0.5.0"
-      },
-      {
         "name": "cartodb-rb-client-rails-322",
         "requirements": "<= 0.8.0, >= 0.5.0"
+      },
+      {
+        "name": "cartodb-rb-client",
+        "requirements": "<= 0.6.0, >= 0.5.0"
       },
       {
         "name": "cashboard",
@@ -522,8 +550,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cheerio",
+        "requirements": ">= 0"
+      },
+      {
         "name": "chigusa",
         "requirements": ">= 0"
+      },
+      {
+        "name": "chinese_faker",
+        "requirements": "~> 0.5"
+      },
+      {
+        "name": "chipairon-i18n-active_record",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "chiver",
@@ -551,6 +591,10 @@
       },
       {
         "name": "classify_cluster",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "clean_query_params",
         "requirements": ">= 0"
       },
       {
@@ -710,6 +754,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "date_diff",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dball-mail",
         "requirements": "~> 0.4.1"
       },
@@ -838,11 +886,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "euston-daemons",
-        "requirements": ">= 0.5.0"
+        "name": "errawr",
+        "requirements": ">= 0"
       },
       {
         "name": "euston-rabbitmq",
+        "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "euston-daemons",
         "requirements": ">= 0.5.0"
       },
       {
@@ -986,11 +1038,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "flip_fork",
+        "name": "flip",
         "requirements": ">= 0"
       },
       {
-        "name": "flip",
+        "name": "flip_fork",
         "requirements": ">= 0"
       },
       {
@@ -1043,6 +1095,10 @@
       },
       {
         "name": "friendly_id",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fuzzy-prompt",
         "requirements": ">= 0"
       },
       {
@@ -1142,11 +1198,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "govkit-h",
+        "name": "govkit",
         "requirements": ">= 0"
       },
       {
-        "name": "govkit",
+        "name": "govkit-h",
         "requirements": ">= 0"
       },
       {
@@ -1158,11 +1214,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "grape-rabl",
+        "name": "grape-jbuilder",
         "requirements": ">= 0"
       },
       {
-        "name": "grape-jbuilder",
+        "name": "grape-rabl",
         "requirements": ">= 0"
       },
       {
@@ -1170,12 +1226,12 @@
         "requirements": "~> 0.6.4"
       },
       {
-        "name": "gravatar-ultimate",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "graticule",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gravatar-ultimate",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "gravaty",
@@ -1302,10 +1358,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "i18n-active_record",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "i18n-airbrake",
         "requirements": "~> 0.6"
       },
@@ -1314,16 +1366,20 @@
         "requirements": ">= 0.6.0"
       },
       {
+        "name": "i18n-active_record",
+        "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "i18n-country-translations",
+        "requirements": "~> 0.5"
+      },
+      {
         "name": "i18n-backend-http",
         "requirements": ">= 0"
       },
       {
         "name": "i18n-complements",
         "requirements": ">= 0.6"
-      },
-      {
-        "name": "i18n-country-translations",
-        "requirements": "~> 0.5"
       },
       {
         "name": "i18n-export",
@@ -1338,11 +1394,15 @@
         "requirements": ">= 0.4.1"
       },
       {
+        "name": "i18n-js",
+        "requirements": ">= 0"
+      },
+      {
         "name": "i18n-inline_forms",
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "i18n-js",
+        "name": "i18n-message",
         "requirements": ">= 0"
       },
       {
@@ -1350,16 +1410,12 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "i18n-message",
-        "requirements": ">= 0"
-      },
-      {
         "name": "i18n-missing_translations",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "i18n-one_sky",
-        "requirements": ">= 0.5.0"
+        "name": "i18n-timezones",
+        "requirements": "~> 0.5"
       },
       {
         "name": "i18n-sequel_bitemporal",
@@ -1370,27 +1426,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "i18n-timezones",
-        "requirements": "~> 0.5"
+        "name": "i18n-one_sky",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "i18n-translators-tools",
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "i18n_alchemy",
-        "requirements": "~> 0.5"
-      },
-      {
         "name": "i18n-validator",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "i18n_auto_scoping",
-        "requirements": "> 0.3.5"
-      },
-      {
-        "name": "i18n_backend_database",
         "requirements": ">= 0"
       },
       {
@@ -1398,19 +1442,31 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "i18n_country_select",
-        "requirements": "~> 0.5"
-      },
-      {
         "name": "i18n_csv",
         "requirements": ">= 0"
       },
       {
-        "name": "i18n_lookup_tracer",
+        "name": "i18n_alchemy",
+        "requirements": "~> 0.6"
+      },
+      {
+        "name": "i18n_backend_database",
         "requirements": ">= 0"
       },
       {
+        "name": "i18n_auto_scoping",
+        "requirements": "> 0.3.5"
+      },
+      {
+        "name": "i18n_country_select",
+        "requirements": "~> 0.5"
+      },
+      {
         "name": "i18n_locale_editor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "i18n_lookup_tracer",
         "requirements": ">= 0"
       },
       {
@@ -1494,6 +1550,18 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "intersect_rails_composer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "intersect_rails_composer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "inum",
+        "requirements": "~> 0.6.5"
+      },
+      {
         "name": "irealb_parser",
         "requirements": "~> 0.6.0"
       },
@@ -1514,6 +1582,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "itrp-export-monitor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "itunes-receipt",
         "requirements": ">= 0"
       },
@@ -1526,16 +1598,20 @@
         "requirements": "= 0.3.7"
       },
       {
-        "name": "jakewendt-photos",
-        "requirements": "= 0.3.7"
-      },
-      {
         "name": "jakewendt-documents",
         "requirements": "= 0.3.7"
       },
       {
         "name": "jakewendt-pages",
         "requirements": "= 0.3.7"
+      },
+      {
+        "name": "jakewendt-photos",
+        "requirements": "= 0.3.7"
+      },
+      {
+        "name": "janrandom",
+        "requirements": ">= 0"
       },
       {
         "name": "jashmenn-feedzirra",
@@ -1654,12 +1730,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "locale_flash",
-        "requirements": ">= 0"
-      },
-      {
         "name": "locale_detector",
         "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "locale_flash",
+        "requirements": ">= 0"
       },
       {
         "name": "locale_schema",
@@ -1682,16 +1758,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "locomotivecms_solid",
+        "requirements": ">= 0"
+      },
+      {
         "name": "locomotivecms-solid",
         "requirements": ">= 0"
       },
       {
         "name": "locomotivecms_mounter",
         "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "locomotivecms_solid",
-        "requirements": ">= 0"
       },
       {
         "name": "log4ever",
@@ -1782,6 +1858,10 @@
         "requirements": "~> 0.4"
       },
       {
+        "name": "mastercoin-wallet",
+        "requirements": ">= 0"
+      },
+      {
         "name": "maybee",
         "requirements": "~> 0.5"
       },
@@ -1838,11 +1918,11 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "metro-ld25",
+        "name": "metro-ld26",
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "metro-ld26",
+        "name": "metro-ld25",
         "requirements": "~> 0.6.1"
       },
       {
@@ -1860,6 +1940,10 @@
       {
         "name": "milkman",
         "requirements": ">= 0"
+      },
+      {
+        "name": "milkode",
+        "requirements": "~> 0.6.5"
       },
       {
         "name": "mini_transformer",
@@ -1898,19 +1982,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mm-transitions",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mm-tree",
         "requirements": ">= 0"
       },
       {
-        "name": "mm-versionable",
+        "name": "mm-transitions",
         "requirements": ">= 0"
       },
       {
         "name": "mm-voteable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mm-versionable",
         "requirements": ">= 0"
       },
       {
@@ -1931,7 +2015,7 @@
       },
       {
         "name": "money",
-        "requirements": "~> 0.6.0"
+        "requirements": "~> 0.6.4"
       },
       {
         "name": "money-joshm1",
@@ -2054,19 +2138,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nicoapi-core",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nicoapi",
         "requirements": ">= 0"
       },
       {
-        "name": "nicoquery-core",
+        "name": "nicoapi-core",
         "requirements": ">= 0"
       },
       {
         "name": "nicoquery",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nicoquery-core",
         "requirements": ">= 0"
       },
       {
@@ -2094,11 +2178,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "numbers_and_words",
+        "name": "number_to_words_ru",
         "requirements": ">= 0"
       },
       {
-        "name": "number_to_words_ru",
+        "name": "numbers_and_words",
         "requirements": ">= 0"
       },
       {
@@ -2134,6 +2218,10 @@
         "requirements": ">= 0.6.0"
       },
       {
+        "name": "omniauth-launchkey",
+        "requirements": ">= 0.6.4, ~> 0.6"
+      },
+      {
         "name": "omniship",
         "requirements": ">= 0"
       },
@@ -2150,11 +2238,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opentoken",
+        "name": "opentoken-newrelic-rails23",
         "requirements": ">= 0"
       },
       {
-        "name": "opentoken-newrelic-rails23",
+        "name": "opentoken",
         "requirements": ">= 0"
       },
       {
@@ -2218,19 +2306,15 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "paypal-express",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pazuzu",
         "requirements": ">= 0"
       },
       {
-        "name": "peaty",
+        "name": "pebblebed",
         "requirements": ">= 0"
       },
       {
-        "name": "pebblebed",
+        "name": "peaty",
         "requirements": ">= 0"
       },
       {
@@ -2270,6 +2354,10 @@
         "requirements": ">= 0.6.0"
       },
       {
+        "name": "pick_ja_date",
+        "requirements": ">= 0"
+      },
+      {
         "name": "Pickaxe",
         "requirements": "= 0.4.2"
       },
@@ -2287,6 +2375,10 @@
       },
       {
         "name": "polish",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "polisher",
         "requirements": ">= 0"
       },
       {
@@ -2308,6 +2400,10 @@
       {
         "name": "procmon",
         "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "programmable_scaffold_rails",
+        "requirements": "~> 0.6.5"
       },
       {
         "name": "propagate",
@@ -2351,10 +2447,6 @@
       },
       {
         "name": "punchblock-console",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "q",
         "requirements": ">= 0"
       },
       {
@@ -2422,12 +2514,12 @@
         "requirements": "~> 0.5.0"
       },
       {
-        "name": "rails-i18n",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "rails-localization",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rails-i18n",
+        "requirements": "~> 0.6"
       },
       {
         "name": "rails-settings-ui",
@@ -2494,11 +2586,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rapnd",
+        "name": "rapnd-mikec54088",
         "requirements": ">= 0"
       },
       {
-        "name": "rapnd-mikec54088",
+        "name": "rapnd",
         "requirements": ">= 0"
       },
       {
@@ -2519,7 +2611,7 @@
       },
       {
         "name": "rdf-xsd",
-        "requirements": ">= 0.6.0"
+        "requirements": ">= 0.6.4"
       },
       {
         "name": "rdoroshenko_mediaelement_rails",
@@ -2530,11 +2622,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "recurrence",
+        "name": "recurrent",
         "requirements": ">= 0"
       },
       {
-        "name": "recurrent",
+        "name": "recurrence",
         "requirements": ">= 0"
       },
       {
@@ -2555,6 +2647,10 @@
       },
       {
         "name": "redmon",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "redqueen",
         "requirements": ">= 0"
       },
       {
@@ -2586,11 +2682,11 @@
         "requirements": ">= 0.6"
       },
       {
-        "name": "restrack",
+        "name": "restrack-client",
         "requirements": ">= 0"
       },
       {
-        "name": "restrack-client",
+        "name": "restrack",
         "requirements": ">= 0"
       },
       {
@@ -2650,11 +2746,11 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "rockstar",
+        "name": "rockstar-custom",
         "requirements": ">= 0"
       },
       {
-        "name": "rockstar-custom",
+        "name": "rockstar",
         "requirements": ">= 0"
       },
       {
@@ -2675,6 +2771,10 @@
       },
       {
         "name": "rrd-grapher",
+        "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "rs_russian",
         "requirements": "~> 0.6.0"
       },
       {
@@ -2938,6 +3038,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "smalltalk",
+        "requirements": ">= 0"
+      },
+      {
         "name": "smartgen",
         "requirements": ">= 0.5.0"
       },
@@ -2994,12 +3098,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "sports_direct",
-        "requirements": "= 0.5.0"
-      },
-      {
         "name": "spotif-aye",
         "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "sports_direct",
+        "requirements": "= 0.5.0"
       },
       {
         "name": "spree_i18n",
@@ -3020,6 +3124,10 @@
       {
         "name": "standup",
         "requirements": ">= 0.5.0"
+      },
+      {
+        "name": "stasis-extensions",
+        "requirements": ">= 0"
       },
       {
         "name": "static_list",
@@ -3298,6 +3406,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "trollo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tronprint",
         "requirements": ">= 0"
       },
@@ -3354,6 +3466,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "uomi",
+        "requirements": ">= 0"
+      },
+      {
         "name": "user_notification",
         "requirements": ">= 0.5.0"
       },
@@ -3374,12 +3490,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "vagrant-bundler",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "vagrant-berkshelf",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "vagrant-bundler",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "vagrant-chef-zero",
@@ -3395,19 +3511,19 @@
       },
       {
         "name": "vagrant-vbguest",
-        "requirements": "~> 0.6.0"
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-vcloud",
         "requirements": "~> 0.6.4"
       },
       {
-        "name": "vagrant-yaml",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "vagrant-vsphere",
         "requirements": "~> 0.6.4"
+      },
+      {
+        "name": "vagrant-yaml",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "vagrantup",
@@ -3430,11 +3546,15 @@
         "requirements": ">= 0.5.0"
       },
       {
-        "name": "veewee-atlassian",
+        "name": "vcontainer",
         "requirements": ">= 0"
       },
       {
-        "name": "vcontainer",
+        "name": "veewee",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "veewee-atlassian",
         "requirements": ">= 0"
       },
       {
@@ -3448,10 +3568,6 @@
       {
         "name": "veridit-vagrant",
         "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "veewee",
-        "requirements": ">= 0"
       },
       {
         "name": "vibedeck-activemerchant",
@@ -3470,11 +3586,11 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "voyager_api",
+        "name": "voyager_oracle_api",
         "requirements": ">= 0"
       },
       {
-        "name": "voyager_oracle_api",
+        "name": "voyager_api",
         "requirements": ">= 0"
       },
       {
@@ -3492,6 +3608,10 @@
       {
         "name": "webmachine",
         "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "weeler",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "weeter",
@@ -3686,7 +3806,7 @@
     "description": "I18n missing functionnalities"
   },
   "i18n-country-translations": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "i18n_country_select",
@@ -3907,11 +4027,11 @@
     "description": "Includes a number of rspec matchers to make specing your locale files easy peasy."
   },
   "i18n-tasks": {
-    "version": "0.1.2",
+    "version": "0.2.12",
     "dependents": [
 
     ],
-    "description": "Rails I18n tasks to find missing / unused translations and more"
+    "description": "\n    rake tasks to find unused and missing translations, normalize locale files,\n    and prefill missing keys. Supports relative and plural keys and Google Translate.\n"
   },
   "i18n-timezones": {
     "version": "1.3.1",
@@ -3956,7 +4076,7 @@
     "description": "ActionMailer to use the I18n library without affecting the controllers language"
   },
   "i18n_alchemy": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -4005,7 +4125,7 @@
     "description": "This extension provides the capabilities of storing and retrieving translations from a single database column. The translations are serialized using JSON."
   },
   "i18n_country_select": {
-    "version": "1.0.18",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "admin_interface",
@@ -4188,6 +4308,10 @@
       {
         "name": "has_accounts_engine",
         "requirements": ">= 0"
+      },
+      {
+        "name": "has_vcards",
+        "requirements": ">= 0"
       }
     ],
     "description": "Rails i18n view helpers for things like crud actions, models and and attributes."
@@ -4235,7 +4359,7 @@
     "description": "A gem for adding dynamic scopes to classes"
   },
   "i18n_screwdriver": {
-    "version": "4.0.0",
+    "version": "4.0.1",
     "dependents": [
 
     ],
@@ -4261,6 +4385,13 @@
 
     ],
     "description": "Provides a very much simple way to detect and set locale in your Rails application"
+  },
+  "i18n_structure": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Create structure for I18n locale files"
   },
   "i18n_sync": {
     "version": "0.5.1",
@@ -4360,6 +4491,13 @@
     ],
     "description": "A user friendly frontend for I18n"
   },
+  "i18nliner": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "No .yml files. Inline defaults. Optional keys. Inferred interpolation values. Wrappers and blocks, so your templates look template-y and your translations HTML-free."
+  },
   "i2c": {
     "version": "0.2.22",
     "dependents": [
@@ -4384,7 +4522,10 @@
   "i3-ipc": {
     "version": "0.2.0",
     "dependents": [
-
+      {
+        "name": "thirdeye",
+        "requirements": ">= 0"
+      }
     ],
     "description": "  uses the ipc socket of i3 to send commands or get information directly from the window manager. Useful for scripting the window manager.'\n"
   },
@@ -4535,6 +4676,13 @@
     ],
     "description": "Ruby module which process flat files from IANA"
   },
+  "ianwhite-hark": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "Create ad-hoc listener objects with impunity"
+  },
   "iap-validator": {
     "version": "1.0.0",
     "dependents": [
@@ -4564,7 +4712,7 @@
     "description": "IAuthU provides a basic iTunes U authentication server, along with libraries for building iTunes U authentication servers into your own application."
   },
   "ib": {
-    "version": "0.4.1",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -4700,7 +4848,7 @@
     "description": "An iCalendar generator in Ruby, modelled after Jim Weirich's Builder"
   },
   "ical_importer": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -4714,7 +4862,7 @@
     "description": "ical_punch converts between iCalendar files and the punch.yml format"
   },
   "icalendar": {
-    "version": "1.4.3",
+    "version": "1.5.0",
     "dependents": [
       {
         "name": "agcaldav",
@@ -4774,7 +4922,7 @@
       },
       {
         "name": "timetrap",
-        "requirements": ">= 0"
+        "requirements": "~> 1.3.0"
       },
       {
         "name": "tracker-ical",
@@ -4884,7 +5032,7 @@
     "description": "ICE encryption library"
   },
   "ice_cube": {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "dependents": [
       {
         "name": "flapjack",
@@ -4907,12 +5055,12 @@
         "requirements": "~> 0.8.1"
       },
       {
-        "name": "recurring_select",
-        "requirements": ">= 0.8"
-      },
-      {
         "name": "recurrent",
         "requirements": "= 0.6.8"
+      },
+      {
+        "name": "recurring_select",
+        "requirements": ">= 0.8"
       },
       {
         "name": "schedule_attributes",
@@ -4995,6 +5143,13 @@
     ],
     "description": "A Rubygem for the IceRocket API"
   },
+  "ice_t": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ],
+    "description": "IceT is a ruby library for handling repeated events"
+  },
   "iceauth": {
     "version": "0.0.4",
     "dependents": [
@@ -5030,6 +5185,16 @@
     ],
     "description": "A ruby interface to Icecast API"
   },
+  "icecream": {
+    "version": "0.0.11",
+    "dependents": [
+      {
+        "name": "cello",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Simple factory without any active record or external library. Just gem install and use!"
+  },
   "iced-coffee-script": {
     "version": "2.2.0",
     "dependents": [
@@ -5041,7 +5206,7 @@
     "description": "    Ruby IcedCoffeeScript is a bridge to the JS CoffeeScript compiler.\n"
   },
   "iced-rails": {
-    "version": "0.0.2",
+    "version": "0.1",
     "dependents": [
 
     ],
@@ -5056,6 +5221,13 @@
       }
     ],
     "description": "== DESCRIPTION:\n\nThe RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.\nThese gems have been used in production by RightScale since late 2006 and are being maintained to track enhancements made by Amazon.\nThe RightScale AWS gems comprise:\n\n- RightAws::Ec2 -- interface to Amazon EC2 (Elastic Compute Cloud) and the\n  associated EBS (Elastic Block Store)\n- RightAws::S3 and RightAws::S3Interface -- interface to Amazon S3 (Simple Storage Service)\n- RightAws::Sqs and RightAws::SqsInterface -- interface to first-generation Amazon SQS (Simple Queue Service) (API version 2007-05-01)\n- RightAws::SqsGen2 and RightAws::SqsGen2Interface -- interface to second-generation Amazon SQS (Simple Queue Service) (API version 2008-01-01)\n- RightAws::SdbInterface and RightAws::ActiveSdb -- interface to Amazon SDB (SimpleDB)\n- RightAws::AcfInterface -- interface to Amazon CloudFront, a content distribution service\n\n== FEATURES:\n\n- Full programmmatic access to EC2, EBS, S3, SQS, SDB, and CloudFront.\n- Complete error handling: all operations check for errors and report complete\n  error information by raising an AwsError.\n- Persistent HTTP connections with robust network-level retry layer using\n  RightHttpConnection).  This includes socket timeouts and retries.\n- Robust HTTP-level retry layer.  Certain (user-adjustable) HTTP errors returned\n  by Amazon's services are classified as temporary errors.\n  These errors are automaticallly retried using exponentially increasing intervals.\n  The number of retries is user-configurable.\n- Fast REXML-based parsing of responses (as fast as a pure Ruby solution allows).\n- Uses libxml (if available) for faster response parsing.\n- Support for large S3 list operations.  Buckets and key subfolders containing\n  many (> 1000) keys are listed in entirety.  Operations based on list (like\n  bucket clear) work on arbitrary numbers of keys.\n- Support for streaming GETs from S3, and streaming PUTs to S3 if the data source is a file.\n- Support for single-threaded usage, multithreaded usage, as well as usage with multiple\n  AWS accounts.\n- Support for both first- and second-generation SQS (API versions 2007-05-01\n  and 2008-01-01).  These versions of SQS are not compatible.\n- Support for signature versions 0 and 1 on SQS, SDB, and EC2.\n- Interoperability with any cloud running Eucalyptus (http://eucalyptus.cs.ucsb.edu)\n- Test suite (requires AWS account to do \"live\" testing).\n"
+  },
+  "icentris-rules": {
+    "version": "0.9",
+    "dependents": [
+
+    ],
+    "description": "Pyr Rules Engine"
   },
   "IcentrisJira": {
     "version": "0.0.9",
@@ -5083,11 +5255,11 @@
     "dependents": [
       {
         "name": "ifuture",
-        "requirements": "~> 8.0.0"
+        "requirements": "~> 8.1.0"
       },
       {
         "name": "ifuture",
-        "requirements": "~> 8.0.0"
+        "requirements": "~> 8.1.0"
       },
       {
         "name": "interprocess_attribute",
@@ -5111,6 +5283,13 @@
       }
     ],
     "description": "interprocess communication channel"
+  },
+  "icharger-log": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Read and interpret iCharger log files."
   },
   "icheck-rails": {
     "version": "0.9.0.2",
@@ -5186,11 +5365,11 @@
     "version": "0.3.0",
     "dependents": [
       {
-        "name": "germinate-atompub",
+        "name": "germinate",
         "requirements": "~> 0.3.0"
       },
       {
-        "name": "germinate",
+        "name": "germinate-atompub",
         "requirements": "~> 0.3.0"
       },
       {
@@ -5317,7 +5496,7 @@
     "description": "This gem allows you to Connect to a F5 appliance by means of its web services"
   },
   "iconv": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "afterparty",
@@ -5333,7 +5512,7 @@
       },
       {
         "name": "cashflow",
-        "requirements": "~> 1.0.2"
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "ebook_tools",
@@ -5369,6 +5548,10 @@
       },
       {
         "name": "rack-oauth2-server",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rails2_libmemcached_store",
         "requirements": ">= 0"
       },
       {
@@ -5428,7 +5611,7 @@
     "description": "== ICU4R - ICU Unicode bindings for Ruby\n\nICU4R is an attempt to provide better Unicode support for Ruby,\nwhere it lacks for a long time.\n\nCurrent code is mostly rewritten  string.c from Ruby 1.8.3.\n\nICU4R is Ruby C-extension binding for ICU library[1] \nand provides following classes and functionality:\n\n* UString:\n    - String-like class with internal UTF16 storage;\n    - UCA rules for UString comparisons (<=>, casecmp);\n    - encoding(codepage) conversion;\n \\   - Unicode normalization;\n    - transliteration, also rule-based;\n\n    Bunch of locale-sensitive functions:\n    - upcase/downcase;\n    - string collation;\n \\   - string search;\n    - iterators over text line/word/char/sentence breaks;\n \\   - message formatting (number/currency/string/time);\n    - date and number parsing.\n\n* URegexp - unicode regular expressions.\n\n* UResourceBundle - access to resource bundles, including ICU locale data.\n\n* UCalendar - date manipulation and timezone info.\n\n* UConverter - codepage conversions API\n\n* UCollator - locale-sensitive string comparison\n\n== Install and usage\n\n   > ruby extconf.rb\n   > make && make check\n   > make install\n\nNow, in your scripts just require 'icu4r'.\n\nTo create RDoc, run \n   > sh tools/doc.sh\n\n== Requirements\n\nTo build and use ICU4R you will need GCC and ICU v3.4 libraries[2].\n\n== Differences from Ruby String and Regexp classes\n\n=== UString vs String\n\n1. UString substring/index  methods use UTF16 codeunit indexes, not code points.\n\n2. UString supports most methods from String class. Missing methods are:\n        capitalize, capitalize!, swapcase, swapcase!\n        %, center, ljust, rjust\n        chomp, chomp!, chop, chop!\n \\       count, delete, delete!, squeeze, squeeze!, tr, tr!, tr_s, tr_s!\n        crypt, intern, sum, unpack\n        dump, each_byte, each_line\n        hex, oct, to_i, to_sym\n        reverse, reverse!\n        succ, succ!, next, next!, upto\n        \n3. Instead of String#% method, UString#format is provided. See FORMATTING for short reference.\n\n4. UStrings can be created via String.to_u(encoding='utf8') or global u(str,[encoding='utf8'])\n   calls. Note that +encoding+ parameter must be value of String class. \n\n5. There's difference between character grapheme, codepoint and codeunit. See UNICODE reports for\n   gory details, but in short: locale dependent notion of character can be presented using \n   more than one codepoint - base letter and combining (accents) (also possible more than one!), and\n   each codepoint can require more than one codeunit to store (for UTF8 codeunit size is 8bit, though\n \\  some codepoints require up to 4bytes). So, UString has normalization and locale dependent break\n   iterators.\n\t\n6. Currently UString doesn't include Enumerable module.\n\n7. UString index/[] methods which accept URegexp, throw exception if Regexp passed.\n\n8. UString#<=>, UString#casecmp use UCA rules.\n\n=== URegexp\n\nUString uses ICU regexp library. Pattern syntax is described in [./docs/UNICODE_REGEXPS] and ICU docs.\n\nThere are some differences between processing in Ruby Regexp and URegexp:\n\n1. When UString#sub, UString#gsub are called with block, special vars ($~, $&, $1, ...) aren't\n   set, as their values are processed through deep ruby core code. Instead, block receives UMatch object,\n   which is essentially immutable array of matching groups:\n        \"test\".u.gsub(ure(\"(e)(.)\")) do |match| \n \\          puts match[0]  # => 'es' <--> $&\n           puts match[1]  # => 'e' \\ <--> $1\n           puts match[2]  # => 's'  <--> $2\n        end\n\n2. In URegexp search pattern backreferences are in form \\n (\\1, \\2, ...), \n   in replacement string - in form $1, $2, ...\n\n   NOTE: URegexp considers char to be a digit NOT ONLY ASCII (0x0030-0x0039), but \n   any Unicode char, which has property Decimal digit number (Nd), e.g.:\n        a = [?$, 0x1D7D9].pack(\"U*\").u * 2\n        puts a.inspect_names\n        <U000024>DOLLAR SIGN\n        <U01D7D9>MATHEMATICAL DOUBLE-STRUCK DIGIT ONE\n        <U000024>DOLLAR SIGN\n        <U01D7D9>MATHEMATICAL DOUBLE-STRUCK DIGIT ONE\n        puts \"abracadabra\".u.gsub(/(b)/.U, a)\n        abbracadabbra\n \\   \n\n3. One can create URegexp using global Kernel#ure function, Regexp#U, Regexp#to_u, or\n   from UString using URegexp.new, e.g:\n      /pattern/.U =~ \"string\".u\n\n4. There are differences about Regexp and URegexp multiline matching options:\n      t = \"text\\ntest\"\n      # ^,$ handling : URegexp multiline <-> Ruby default\n      t.u =~ ure('^\\w+$', URegexp::MULTILINE)\n      => #<UMatch:0xf6f7de04 @ranges=[0..3], @cg=[\\u0074\\u0065\\u0078\\u0074]>\n      t =~ /^\\w+$/\n      => 0\n      # . matches \\n : URegexp DOTALL <-> /m\n      t.u =~ ure('.+test', URegexp::DOTALL)\n \\     => #<UMatch:0xf6fa4d88 ...\n      t.u =~ /.+test/m\n\n5. UMatch.range(idx) returns range for capturing group idx. This range is in codeunits.\n\n=== References\n\n1. ICU Official Homepage http://ibm.com/software/globalization/icu/ \n2. ICU downloads \\ http://ibm.com/software/globalization/icu/downloads.jsp\n3. ICU Home Page http://icu.sf.net \n4. Unicode Home Page http://www.unicode.org\n\n==== BUGS, DOCS, TO DO\n\nThe code is slow and inefficient yet, is still highly experimental, \nso can have many security and memory leaks, bugs, inconsistent \ndocumentation, incomplete test suite. Use it at your own risk.\n\nBug reports and feature requests are welcome :)\n\n===  Copying\n\nThis extension module is copyrighted free software by Nikolai Lugovoi.\n\nYou can redistribute it and/or modify it under the terms of MIT License.\n\nNikolai Lugovoi <meadow.nnick@gmail.com>\n\n"
   },
   "icu_name": {
-    "version": "1.1.1",
+    "version": "1.2.3",
     "dependents": [
       {
         "name": "icu_tournament",
@@ -5438,18 +5621,28 @@
     "description": "Canonicalises and matches person names with Latin1 characters and first and last names"
   },
   "icu_ratings": {
-    "version": "1.7.0",
+    "version": "1.8.2",
     "dependents": [
 
     ],
     "description": "Build an object that represents a chess tournament then get it to calculate ratings of all the players."
   },
   "icu_tournament": {
-    "version": "1.7.3",
+    "version": "1.9.3",
     "dependents": [
 
     ],
     "description": "Convert files of chess tournament data in different formats to ruby classes and vice-versa."
+  },
+  "icu_utils": {
+    "version": "1.1.1",
+    "dependents": [
+      {
+        "name": "icu_tournament",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "A place for shared utilities for sharing between the various ICU apps and gems"
   },
   "iCuke": {
     "version": "0.7.0",
@@ -5465,15 +5658,22 @@
     ],
     "description": "ICU Unicode Transliteration and Collation in Ruby."
   },
+  "icwot": {
+    "version": "0.2.1",
+    "dependents": [
+
+    ],
+    "description": "icwot : RESTfull sinatra server providing inversion of control for logging messages from another web-server"
+  },
   "id": {
-    "version": "0.0.12",
+    "version": "0.1",
     "dependents": [
       {
-        "name": "daodalus",
+        "name": "daodalus-moped",
         "requirements": ">= 0"
       },
       {
-        "name": "daodalus-moped",
+        "name": "daodalus",
         "requirements": ">= 0"
       },
       {
@@ -5481,11 +5681,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "git_web_hook_model",
+        "requirements": "~> 0.1"
+      },
+      {
         "name": "yamlig",
         "requirements": ">= 0"
       }
     ],
-    "description": "Developed at On The Beach Ltd. Contact russell.dunphy@onthebeach.co.uk"
+    "description": "Easily convert hashes to Ruby objects. Originally developed at www.onthebeach.co.uk."
   },
   "id2path": {
     "version": "0.1.1",
@@ -5541,7 +5745,7 @@
     "description": "id3rename"
   },
   "id3tag": {
-    "version": "0.3.2",
+    "version": "0.5.3",
     "dependents": [
 
     ],
@@ -5669,6 +5873,13 @@
     ],
     "description": "A simple github-like identicons generator."
   },
+  "identiconify": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Identiconify makes it super simple to generate identicons representing string values such as usernames or ip addresses."
+  },
   "identicons": {
     "version": "0.0.2",
     "dependents": [
@@ -5766,8 +5977,15 @@
     ],
     "description": "A better Ruby binding for the Ideone API "
   },
+  "idevice": {
+    "version": "1.1.5.4",
+    "dependents": [
+
+    ],
+    "description": "Ruby FFI bindings for libimobiledevice"
+  },
   "ideyabox": {
-    "version": "0.1.10",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -5979,7 +6197,7 @@
     "description": "IE Handler enable you to handle IE using Ruby.\nIt has simple syntax and strong methods.\nCurrently we support only IE, but we plan to extend other MS products in the\nfuture."
   },
   "ie_iframe_cookies": {
-    "version": "0.1.4",
+    "version": "0.1.6",
     "dependents": [
       {
         "name": "facepalm",
@@ -6022,6 +6240,13 @@
 
     ],
     "description": "Irish Rail Train Schedule and Status API"
+  },
+  "iesd": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "Modify Extensions, Kextcache and Packages on InstallESD."
   },
   "if": {
     "version": "1.0.0",
@@ -6101,7 +6326,7 @@
     "description": "Console for iFIN24"
   },
   "ifmapper": {
-    "version": "1.2.6",
+    "version": "1.2.8",
     "dependents": [
 
     ],
@@ -6146,7 +6371,7 @@
     "description": "A Ruby wrapper for the Twitter API."
   },
   "ifuture": {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "dependents": [
 
     ],
@@ -6179,6 +6404,13 @@
 
     ],
     "description": "gtk ig3tool client"
+  },
+  "ige_isb_api": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Implements all of the features of the ISB API version 2.1."
   },
   "igem": {
     "version": "0.0.0",
@@ -6275,7 +6507,7 @@
     "description": "Ignore this gem"
   },
   "ignore_this_gem": {
-    "version": "0.3.11",
+    "version": "0.7.13",
     "dependents": [
 
     ],
@@ -6349,6 +6581,13 @@
 
     ],
     "description": "Interactive help"
+  },
+  "iHiD_test_gem": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Foobar"
   },
   "ihoka-friendly": {
     "version": "0.7.0",
@@ -6531,6 +6770,13 @@
     ],
     "description": "HP ILO Ruby interface"
   },
+  "iloveck101": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Download images from ck101 thread, inspired by tzangms."
+  },
   "iloxx_shipping": {
     "version": "0.1.1",
     "dependents": [
@@ -6559,6 +6805,13 @@
     ],
     "description": "Is the object you're working on Ron Burgundy?"
   },
+  "imagate": {
+    "version": "0.0.1.1",
+    "dependents": [
+
+    ],
+    "description": "\"Just for test.\""
+  },
   "image": {
     "version": "0",
     "dependents": [
@@ -6567,7 +6820,7 @@
     "description": "Image, a small image processing library"
   },
   "image-dumper": {
-    "version": "0.5.3.4",
+    "version": "0.5.3.10",
     "dependents": [
 
     ],
@@ -6629,6 +6882,13 @@
     ],
     "description": "description: image_cache kicks the ass"
   },
+  "image_clipper": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "An easy ruby encapsulation for image processing. All functions are based on ImageMagick."
+  },
   "image_corrupter": {
     "version": "1.0.0",
     "dependents": [
@@ -6681,15 +6941,19 @@
       },
       {
         "name": "middleman-imageoptim",
-        "requirements": "~> 0.8.0"
+        "requirements": "~> 0.9.1"
       },
       {
         "name": "nanoc-image-compressor",
         "requirements": ">= 0"
       },
       {
+        "name": "overcommit",
+        "requirements": "= 0.9.1"
+      },
+      {
         "name": "paperclip-optimizer",
-        "requirements": "~> 0.8"
+        "requirements": "~> 0.9"
       },
       {
         "name": "pullcrusher",
@@ -6699,7 +6963,7 @@
     "description": "Optimize (lossless compress) images (jpeg, png, gif) using external utilities (advpng, gifsicle, jpegoptim, jpegtran, optipng, pngcrush, pngout)"
   },
   "image_optim_bin": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -6713,11 +6977,11 @@
     "description": "Provide a little helper command to minify images"
   },
   "image_optimizer": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependents": [
       {
         "name": "carrierwave-imageoptimizer",
-        "requirements": "~> 1.0.0"
+        "requirements": "~> 1.2"
       }
     ],
     "description": "A simple image optimizer"
@@ -6737,7 +7001,7 @@
     "description": "A no-frills image resizer, with pluggable backends. No extra software required on OS X"
   },
   "image_resizer": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "dependents": [
 
     ],
@@ -6780,18 +7044,18 @@
     "description": "This rubygem does not have a description or summary."
   },
   "image_size": {
-    "version": "1.1.3",
+    "version": "1.1.4",
     "dependents": [
       {
         "name": "best_image",
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "el_finder",
+        "name": "el_finder_ftp",
         "requirements": ">= 1.0.0"
       },
       {
-        "name": "el_finder_ftp",
+        "name": "el_finder",
         "requirements": ">= 1.0.0"
       },
       {
@@ -6932,6 +7196,13 @@
 
     ],
     "description": "QMF Console for Aeolus Image Factory"
+  },
+  "imagemagick-binaries": {
+    "version": "6.8.7.5.1",
+    "dependents": [
+
+    ],
+    "description": "Binary versions of ImageMagick for Mac and Linux"
   },
   "imagemagick-identify": {
     "version": "0.0.1",
@@ -7091,7 +7362,8 @@
     "version": "0.1.3",
     "dependents": [
 
-    ]
+    ],
+    "description": "A image upload rb lib"
   },
   "imageurl": {
     "version": "0.1.0",
@@ -7105,7 +7377,7 @@
     "dependents": [
 
     ],
-    "description": "This gem wraps a Java Library to transform scanned image docs (PDF, TIF, GIF, JPG, PNG) into PDF/A-1b. It has some extra features too"
+    "description": "(DEPRECATED) This gem wraps a Java Library to transform scanned image docs (PDF, TIF) into PDF"
   },
   "imagevenue": {
     "version": "0.0.3",
@@ -7322,18 +7594,22 @@
     "description": "imbue should be used instead of include when you need to include a module in another module that's alrleady been included in existing classes, and have it affect said classes."
   },
   "imdb": {
-    "version": "0.7.0",
+    "version": "0.8.0",
     "dependents": [
       {
         "name": "apple-tv-converter",
         "requirements": "~> 0.6.8"
       },
       {
-        "name": "movie-garnish",
-        "requirements": ">= 0"
+        "name": "blitzcrank",
+        "requirements": "= 0.8.0"
       },
       {
         "name": "movie-renamer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "movie-garnish",
         "requirements": ">= 0"
       },
       {
@@ -7427,6 +7703,13 @@
     ],
     "description": "App slice providing monitoring routes"
   },
+  "imessage": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Command line tool to send iMessage."
+  },
   "imforger": {
     "version": "0.2.2",
     "dependents": [
@@ -7484,7 +7767,7 @@
     "description": "Easily sign imgix URLs."
   },
   "imgkit": {
-    "version": "1.3.9",
+    "version": "1.3.10",
     "dependents": [
       {
         "name": "cucumber-cinema",
@@ -7498,7 +7781,7 @@
     "description": "Uses wkhtmltoimage to create Images using HTML"
   },
   "imgry": {
-    "version": "0.1.9",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -7551,6 +7834,13 @@
 
     ],
     "description": "Imgurr is a ruby gem that lets you upload images to Imgur and manage your account"
+  },
+  "imgurz": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Fast, simple."
   },
   "imhotep": {
     "version": "0.0.2",
@@ -7699,6 +7989,13 @@
     ],
     "description": "Library for servers backing iPhone applications."
   },
+  "imp": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ],
+    "description": "\nIMP is a simple console password manager. Passwords are stored in an AES\nencrypted filesystem-like tree. The main functionality includes printing,\nsetting and copying passwords, allowing the handling of passwords without\nthem being shown on screen."
+  },
   "imp3": {
     "version": "0.1.5",
     "dependents": [
@@ -7714,7 +8011,7 @@
     "description": "Ruby backend for Impact.js framework"
   },
   "impala": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "impaler",
@@ -7761,15 +8058,15 @@
     ],
     "description": "Impas API client (Impas is social parameters crawling application.)"
   },
-  "impatient": {
-    "version": "1.1.1",
+  "Impatient": {
+    "version": "1.0.0",
     "dependents": [
 
     ],
     "description": "Some of us are impatient. At least, I am - when I deploy an update to my app to Heroku, I want to know whether it's ready. This tells you."
   },
-  "Impatient": {
-    "version": "1.0.0",
+  "impatient": {
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -7822,6 +8119,16 @@
 
     ],
     "description": "generates additional information for Ruby C implementation's method definitions"
+  },
+  "implements": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "redis-copy",
+        "requirements": "~> 0.0.2"
+      }
+    ],
+    "description": " Implements is a tol for building modular libraries and tols as\n interfaces, for implementing those interfaces, and ensuring that\n consumers are able to load the best available implementation at\n runtime.\n"
   },
   "implicitly": {
     "version": "0.0.2",
@@ -7928,6 +8235,20 @@
     ],
     "description": "Import an Excel document by creating a Ruby class and passing in an 'xls' file. It will automatically format the columns into specified Ruby objects and raise errors on bad data."
   },
+  "importr": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Full Stack rails engine for xls import to activerecord, with process notification through websockets, and activeadmin integration, works with rails 4.0.+."
+  },
+  "importu": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Importu is a framework for importing data"
+  },
   "imposition": {
     "version": "0.9.5.5.1",
     "dependents": [
@@ -7956,6 +8277,13 @@
     ],
     "description": "Imprecations recursively deprecates every instance method on a class/module as well as all classes defined inside that class/module."
   },
+  "imprenta": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Publish and serve static html pages with Rails"
+  },
   "impresser": {
     "version": "0.1.0",
     "dependents": [
@@ -7971,7 +8299,7 @@
     "description": "Fork of original charlotte-ruby impressionist gem, with added histogram functionality"
   },
   "impressionist": {
-    "version": "1.4.11",
+    "version": "1.4.13",
     "dependents": [
       {
         "name": "rostra",
@@ -7993,6 +8321,13 @@
 
     ],
     "description": "Component and dependency manager for Ruby"
+  },
+  "improved-queue": {
+    "version": "1.0",
+    "dependents": [
+
+    ],
+    "description": "A simple elaboration on Ruby's native SizedQueue which allows using the queue\nobject to re-awaken a blocked thread and cause it to abandon its blocking\nenqueue/dequeue operation. Useful for simplifying program logic, reducing the\nneed for external flags/Muteces (yes, I said Muteces), and for cleanly\nresolving queues on program termination without risk of data loss or deadlock.\n\nWhy use this queue? There are two reasons. For one thing, under several\ncircumstances it is _considerably_ faster than Ruby's native SizedQueue. I\nadmit I'm not entirely sure why, but I have tested this on multiple platforms\nand it seems to hold true as a generality. You can feel free to confirm or\ndispel that this advantage holds for your use case at your own leisure.\n\nThe second reason is the aforementioned simplification of program logic.\nIn the case that all data passing through the queues must be preserved on\nprogram termination, SizedQueue can require some elaborate trickery to ensure\nthat even the most remote possibility of deadlock is removed.\nImprovedSizedQueue solves this problem by making it possible to use the queue\nto pass control messages between threads, irrespective of the queue's actual\ncontent."
   },
   "improved-rack-throttle": {
     "version": "0.7.1",
@@ -8040,8 +8375,16 @@
     "version": "1.1.4",
     "dependents": [
       {
+        "name": "coalescing_panda",
+        "requirements": ">= 0"
+      },
+      {
         "name": "inst_lti_twitter",
         "requirements": "~> 1.1.4"
+      },
+      {
+        "name": "lti_provider_engine",
+        "requirements": "= 1.1.4"
       },
       {
         "name": "omniauth-lti",
@@ -8505,6 +8848,13 @@
     ],
     "description": "A simple way to use mysql indexes in a rails app"
   },
+  "indexable": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Rack middleware that executes javascript before serving pages to crawlers."
+  },
   "indexed_search": {
     "version": "0.1.9",
     "dependents": [
@@ -8574,7 +8924,7 @@
     "description": "A Database of States, Districts and Sub-districts"
   },
   "indicadores_cl": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -8674,16 +9024,16 @@
     "version": "0.1.4",
     "dependents": [
       {
-        "name": "indis",
-        "requirements": "~> 0.1.3"
+        "name": "indis-macho",
+        "requirements": "~> 0.1.2"
       },
       {
         "name": "indis-arm",
         "requirements": "~> 0.1.2"
       },
       {
-        "name": "indis-macho",
-        "requirements": "~> 0.1.2"
+        "name": "indis",
+        "requirements": "~> 0.1.3"
       }
     ],
     "description": "Core components of indis, the intelligent disassembler framework"
@@ -8692,12 +9042,12 @@
     "version": "0.3.1",
     "dependents": [
       {
-        "name": "indis",
-        "requirements": "~> 0.3.1"
-      },
-      {
         "name": "indis-arm",
         "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "indis",
+        "requirements": "~> 0.3.1"
       }
     ],
     "description": "Mach-o format processor for indis provides support for loading mach-o binaries for analysis"
@@ -8854,7 +9204,7 @@
     "description": "Infinity Test is a continuous testing library and a flexible alternative to Autotest, using Watchr library with RSpec, Test::Unit or Bacon with RVM funcionality, giving the possibility to test with all Rubies that you have in your RVM configuration."
   },
   "infl-deployer": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -8991,12 +9341,29 @@
     ],
     "description": "api wrapper for sunlight influence explorer"
   },
+  "influxdb": {
+    "version": "0.0.10",
+    "dependents": [
+      {
+        "name": "capistrano-influxdb",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "This is the official Ruby library for InfluxDB."
+  },
   "info_unit": {
     "version": "0.1.2",
     "dependents": [
 
     ],
     "description": "Parse and compare information storage units: B, KB, MB, TB, ..."
+  },
+  "infobase": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "This gem wraps an API for the Infobase."
   },
   "infoblox": {
     "version": "0.2.1",
@@ -9020,11 +9387,11 @@
     "description": "Guard::Chef allows to automatically & intelligently update roles, cookbooks, and databags for chef."
   },
   "infod": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "a data/filesystem web-server"
+    "description": "a www-server"
   },
   "infomeme_client": {
     "version": "0.2.12",
@@ -9034,26 +9401,26 @@
     "description": "A RubyGem for implementing both Infomeme client and meme applications.\n More coming soon..."
   },
   "infopark-politics": {
-    "version": "0.3.1",
+    "version": "0.5.0",
     "dependents": [
 
     ],
     "description": "Algorithms and Tools for Distributed Computing in Ruby."
   },
   "infopark_cloud_connector": {
-    "version": "6.9.4",
+    "version": "7.0.2",
     "dependents": [
       {
         "name": "ice_kickstarter",
         "requirements": ">= 6.8.2.7.128454143"
       },
       {
-        "name": "infopark_kickstarter",
-        "requirements": ">= 6.9.4"
+        "name": "infopark_dashboard",
+        "requirements": "~> 7.0"
       },
       {
-        "name": "infopark_dashboard",
-        "requirements": ">= 6.9.2.1.125136549"
+        "name": "infopark_kickstarter",
+        "requirements": "~> 7.0"
       }
     ],
     "description": "The Cloud Connector for Infopark CMS Fiona enables you to develop modern, dynamic Web 2.0 applications using Ruby on Rails and at the same time display CMS managed content."
@@ -9070,13 +9437,13 @@
     "dependents": [
       {
         "name": "infopark_dashboard",
-        "requirements": ">= 1.0.1"
+        "requirements": "~> 1.0"
       }
     ],
     "description": "Infopark CRM Connector"
   },
   "infopark_dashboard": {
-    "version": "0.0.1",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -9090,7 +9457,7 @@
     "description": "The Fiona Connector for Infopark CMS Fiona enables you to develop modern, dynamic Web 2.0 applications using Ruby on Rails and at the same time display CMS managed content."
   },
   "infopark_kickstarter": {
-    "version": "3.1.1",
+    "version": "4.0.0",
     "dependents": [
 
     ],
@@ -9108,16 +9475,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "infopark_kickstarter",
-        "requirements": ">= 6.9.4"
-      },
-      {
         "name": "infopark_rails_connector_meta",
         "requirements": ">= 0"
-      },
-      {
-        "name": "infopark_dashboard",
-        "requirements": ">= 6.9.2.1.125136549"
       },
       {
         "name": "infopark_reactor",
@@ -9195,6 +9554,13 @@
     ],
     "description": "The Informant tells you what's irritating your users."
   },
+  "informante": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This gem is to provide a simple way of storing information in one place and get this information anywhere in a Rails application."
+  },
   "information_card": {
     "version": "0.1.0",
     "dependents": [
@@ -9205,15 +9571,15 @@
     ],
     "description": "A library for processing information cards"
   },
-  "Informer": {
-    "version": "0.1.0",
+  "informer": {
+    "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "Informer is a flexible information gathering and reporting system."
   },
-  "informer": {
-    "version": "0.2.0",
+  "Informer": {
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -9227,7 +9593,7 @@
     "description": " Scrape up-to-date news articles and headlines from infowars.com. infowars data api."
   },
   "infraction": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -9268,6 +9634,13 @@
     ],
     "description": "A Ruby wrapper written for the Infusionsoft API"
   },
+  "infusionsoft-api": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Infusionsoft API"
+  },
   "ing": {
     "version": "0.2.7",
     "dependents": [
@@ -9293,7 +9666,7 @@
     "description": "RightScale's robust HTTP/S connection module"
   },
   "ingestor": {
-    "version": "0.1.7",
+    "version": "0.1.8",
     "dependents": [
 
     ],
@@ -9333,7 +9706,10 @@
   "inheritable_attr": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "compendium",
+        "requirements": ">= 1.0.0"
+      }
     ],
     "description": "Creates a class-level attribute that is inherited (but modifiable) by subclasses "
   },
@@ -9481,7 +9857,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_event",
+        "name": "enju_inventory",
         "requirements": ">= 0"
       },
       {
@@ -9489,11 +9865,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_inventory",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "enju_message",
+        "name": "enju_event",
         "requirements": ">= 0"
       },
       {
@@ -9501,7 +9873,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "enju_subject",
+        "name": "enju_message",
         "requirements": ">= 0"
       },
       {
@@ -9509,7 +9881,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "esp-auth",
+        "name": "enju_subject",
         "requirements": ">= 0"
       },
       {
@@ -9518,6 +9890,10 @@
       },
       {
         "name": "esp-permissions",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "esp-auth",
         "requirements": ">= 0"
       },
       {
@@ -9553,11 +9929,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts_engine",
+        "name": "has_accounts",
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts",
+        "name": "has_accounts_engine",
         "requirements": ">= 0"
       },
       {
@@ -9567,10 +9943,6 @@
       {
         "name": "induction_cannon_01",
         "requirements": ">= 0"
-      },
-      {
-        "name": "inherited_resources_views",
-        "requirements": ">= 1.0"
       },
       {
         "name": "inherited_resources_helpers",
@@ -9583,6 +9955,10 @@
       {
         "name": "inherited_views",
         "requirements": ">= 1.0.6"
+      },
+      {
+        "name": "inherited_resources_views",
+        "requirements": ">= 1.0"
       },
       {
         "name": "inkling",
@@ -9820,7 +10196,7 @@
       },
       {
         "name": "beaker",
-        "requirements": ">= 0"
+        "requirements": "~> 2.0"
       },
       {
         "name": "bicho",
@@ -10065,6 +10441,10 @@
   "initializer": {
     "version": "0.0.3",
     "dependents": [
+      {
+        "name": "data_contract",
+        "requirements": ">= 0"
+      },
       {
         "name": "output",
         "requirements": ">= 0"
@@ -10318,7 +10698,7 @@
     "description": "Fast inline fixtures"
   },
   "inline_forms": {
-    "version": "2.21",
+    "version": "2.23",
     "dependents": [
 
     ],
@@ -10452,10 +10832,6 @@
       {
         "name": "riak-client",
         "requirements": "~> 1.0.2"
-      },
-      {
-        "name": "sphinx-integration",
-        "requirements": ">= 0"
       },
       {
         "name": "thinking-sphinx",
@@ -10670,7 +11046,7 @@
     "description": "Extracted from the refinerycms-inquiries gem. Records inquiries in the DB and sends notifications via email"
   },
   "inquisitio": {
-    "version": "0.0.1",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -10682,6 +11058,13 @@
 
     ],
     "description": "Inquisition is a fancy way to protect your ActiveRecord attributes from XSS"
+  },
+  "inquisitive": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ],
+    "description": "Predicate methods for those curious about their datastructures."
   },
   "inquisitor": {
     "version": "0.1.1",
@@ -10698,7 +11081,7 @@
     "description": "Gem for accessing the InSales REST web services"
   },
   "insano_image_resizer": {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "dependents": [
 
     ],
@@ -10998,7 +11381,7 @@
     "description": "A Ruby wrapper for the Instagram REST and Search APIs with geosearch"
   },
   "instagramjs-rails": {
-    "version": "0.3.0.1",
+    "version": "0.3.0.2",
     "dependents": [
 
     ],
@@ -11038,6 +11421,13 @@
 
     ],
     "description": "Retrieve cloud instance DNS names from metadata search"
+  },
+  "instance_tracker": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "A Simple Ruby DSL for Instance Tracking"
   },
   "instance_variable_hash": {
     "version": "1.1.0",
@@ -11175,6 +11565,13 @@
     ],
     "description": "Provides a ruby interface for the instaVIN's API. Read more about it here: http://www.blackbookusa.com"
   },
+  "instead_of": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "An utterly simple gem to replace specific values with other values."
+  },
   "instedd-bootstrap": {
     "version": "0.0.1",
     "dependents": [
@@ -11256,7 +11653,7 @@
     "description": "Rails instrumentation and client for imperialapp.com"
   },
   "instrumental_agent": {
-    "version": "0.12.4",
+    "version": "0.12.5",
     "dependents": [
       {
         "name": "instrumental_tools",
@@ -11381,6 +11778,13 @@
     ],
     "description": "1999#to_roman, 1999#to_old_roman, 4#fact, 1999#to_english, 1999#add_commas"
   },
+  "integra": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "A nice set of defaults for webapp integration tests, no matter what language your application is written in."
+  },
   "integratedscaffold": {
     "version": "1.0.4",
     "dependents": [
@@ -11451,7 +11855,7 @@
     "version": "0.1.11",
     "dependents": [
       {
-        "name": "integrity-campfire",
+        "name": "integrity-bonjour",
         "requirements": ">= 0"
       },
       {
@@ -11459,11 +11863,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-hooks",
+        "name": "integrity-campfire",
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-bonjour",
+        "name": "integrity-hooks",
         "requirements": ">= 0"
       },
       {
@@ -11475,11 +11879,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-prowl",
+        "name": "integrity-tumblr",
         "requirements": ">= 0"
       },
       {
-        "name": "integrity-tumblr",
+        "name": "integrity-prowl",
         "requirements": ">= 0"
       },
       {
@@ -11573,6 +11977,13 @@
     ],
     "description": "Integrates metric_fu into integrity so that metrics are run on every build."
   },
+  "intel": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Search analytics made easy"
+  },
   "intelement": {
     "version": "0.0.1",
     "dependents": [
@@ -11580,8 +11991,15 @@
     ],
     "description": "A gem that provides an intelligent way to get various different element details"
   },
+  "intellisense-ruby": {
+    "version": "0.6.6",
+    "dependents": [
+
+    ],
+    "description": "The Intellisense API for Ruby"
+  },
   "inteltech_sms": {
-    "version": "0.1.3",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -11608,12 +12026,23 @@
     ],
     "description": "Headless Webkit driver for Capybara"
   },
+  "inter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "An easy and simple way to keep track of interactions on an ActiveRecord model that would normally require a lot of boolean attributes to make possible."
+  },
   "interact": {
     "version": "0.5.2",
     "dependents": [
       {
         "name": "af",
         "requirements": "~> 0.4.0"
+      },
+      {
+        "name": "app42",
+        "requirements": "~> 0.5.2"
       },
       {
         "name": "as",
@@ -11660,19 +12089,23 @@
         "requirements": "~> 0.4.0"
       },
       {
+        "name": "tac",
+        "requirements": "~> 0.4.0"
+      },
+      {
         "name": "tac-cli",
         "requirements": "~> 0.4.8"
       },
       {
-        "name": "tac",
-        "requirements": "~> 0.4.0"
+        "name": "trucker-cli",
+        "requirements": ">= 0.5"
       },
       {
         "name": "udn",
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "vmc-IronFoundry",
+        "name": "vmc-stic",
         "requirements": "~> 0.4.0"
       },
       {
@@ -11680,15 +12113,15 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "vmc-stic",
+        "name": "vmcu",
+        "requirements": "~> 0.4.0"
+      },
+      {
+        "name": "vmc-IronFoundry",
         "requirements": "~> 0.4.0"
       },
       {
         "name": "vmc_virgo",
-        "requirements": "~> 0.4.0"
-      },
-      {
-        "name": "vmcu",
         "requirements": "~> 0.4.0"
       }
     ],
@@ -11718,6 +12151,10 @@
         "requirements": ">= 0.0.10"
       },
       {
+        "name": "rails-config",
+        "requirements": ">= 0"
+      },
+      {
         "name": "software_smithy",
         "requirements": ">= 0"
       }
@@ -11725,7 +12162,7 @@
     "description": "Use vim (or any other text editor) from inside irb to quickly test & write new code."
   },
   "interactive_grep": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -11801,11 +12238,11 @@
     "description": "Treat your sessions like models, not hashes. Intercession mixes a module into\nthe session on each request, allowing you to nicely encapsulate (and test!)\nlots of user and session-specific behavior."
   },
   "intercity": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
-    "description": "Integrations for using Intercity"
+    "description": "Use this gem to set up and deploy your application on your server."
   },
   "intercom": {
     "version": "0.1.17",
@@ -11876,13 +12313,6 @@
 
     ],
     "description": "A decent yet still flawed battleship player"
-  },
-  "interfix": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Interfix Rails User Interface"
   },
   "interior": {
     "version": "0.9.2",
@@ -11989,7 +12419,7 @@
     "description": "A library to make online payments using ABN-AMRO (Dutch bank) Internetkassa."
   },
   "interpol": {
-    "version": "0.10.4",
+    "version": "0.10.6",
     "dependents": [
 
     ],
@@ -12072,8 +12502,22 @@
     ],
     "description": "A tiny, embeddable, lisp VM"
   },
+  "intersect_rails_composer": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "A gem with default recipes to create rails application templates you can use to generate rails applications"
+  },
+  "intersect_rails_layout": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Generates Rails application layout files for use with various front-end frameworks."
+  },
   "interspire": {
-    "version": "0.2.0",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -12130,6 +12574,20 @@
 
     ],
     "description": "This library implements an interval system in the extended real set that is closed under arithmetic operations. Correct rounding ensures that the operations are inclusion-wise monotonic."
+  },
+  "intervention": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "A simple proxy that can be configured to perform actions upon a request or response"
+  },
+  "interview": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Interview is a easy and simple frontend for Rails based on Ruby Objects and Bootstrap."
   },
   "inthenews": {
     "version": "0.1.4",
@@ -12235,6 +12693,30 @@
     ],
     "description": "A simple gem for adding inuit.css to a Rails application"
   },
+  "inuit_rails": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Wapper of inuit.css for rails applications"
+  },
+  "inum": {
+    "version": "2.0.5",
+    "dependents": [
+      {
+        "name": "acts_as_gravatar",
+        "requirements": "~> 2.0.0"
+      }
+    ],
+    "description": "Inum(enumerated type of Integer) provide a java-Enum-like."
+  },
+  "invalid_utf8_rejector": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "rack middleware to reject invalid UTF8 in requests.  It will return a 400 if the decoded path or query string contain invalid UTF-8 chars."
+  },
   "invariant": {
     "version": "0.1.0",
     "dependents": [
@@ -12246,11 +12728,11 @@
     "version": "1.5.2",
     "dependents": [
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 1.5"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 1.5"
       },
       {
@@ -12258,11 +12740,11 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "lookout-rake",
+        "name": "lookout-rack",
         "requirements": "~> 1.5"
       },
       {
-        "name": "lookout-rack",
+        "name": "lookout-rake",
         "requirements": "~> 1.5"
       },
       {
@@ -12270,12 +12752,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "value-yard",
-        "requirements": "~> 1.2"
-      },
-      {
         "name": "value",
         "requirements": "~> 1.5"
+      },
+      {
+        "name": "value-yard",
+        "requirements": "~> 1.2"
       },
       {
         "name": "yard-heuristics",
@@ -12308,11 +12790,11 @@
         "requirements": "~> 1.6"
       },
       {
-        "name": "lookout-rake",
+        "name": "lookout-rack",
         "requirements": "~> 1.6"
       },
       {
-        "name": "lookout-rack",
+        "name": "lookout-rake",
         "requirements": "~> 1.6"
       },
       {
@@ -12320,12 +12802,12 @@
         "requirements": "~> 1.5"
       },
       {
-        "name": "value-yard",
-        "requirements": "~> 1.2"
-      },
-      {
         "name": "value",
         "requirements": "~> 1.6"
+      },
+      {
+        "name": "value-yard",
+        "requirements": "~> 1.2"
       },
       {
         "name": "yard-heuristics",
@@ -12354,11 +12836,11 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "lookout-rake",
+        "name": "lookout-rack",
         "requirements": "~> 1.4"
       },
       {
-        "name": "lookout-rack",
+        "name": "lookout-rake",
         "requirements": "~> 1.4"
       },
       {
@@ -12436,7 +12918,7 @@
     "description": "Open current terminal tab (shell, irb) in vim text editor."
   },
   "invisible_captcha": {
-    "version": "0.6.2",
+    "version": "0.6.4",
     "dependents": [
 
     ],
@@ -12547,7 +13029,7 @@
     "description": "This is a framework for generating and displaying invoices (ideal for commercial Rails apps). It allows for flexible business logic; provides tools for tax handling, commission calculation etc. It aims to be both developer-friendly and accountant-friendly.  The Ruby Invoicing Framework is based on {ActiveRecord}[http://api.rubyonrails.org/classes/ActiveRecord/Base.html].  Please see {the website}[http://ept.github.com/invoicing/] for an introduction to using Invoicing, and check the {API reference}[http://invoicing.rubyforge.org/doc/] for in-depth details."
   },
   "invoker": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "dependents": [
 
     ],
@@ -12600,6 +13082,10 @@
       {
         "name": "pry-coolline",
         "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "storify",
+        "requirements": ">= 0.4.2"
       }
     ],
     "description": "add console capabilities to IO instances."
@@ -12625,7 +13111,10 @@
   "io-grab": {
     "version": "0.0.1",
     "dependents": [
-
+      {
+        "name": "conjur-api",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Adds #grab method to IO, which permits capturing all writes to that IO."
   },
@@ -12698,6 +13187,13 @@
     ],
     "description": "Library to tail files and process in Ruby"
   },
+  "io_mailer": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "IOMailer is a simple script for executing commands and shell scripts, collecting their output and mailing it to designated email addresses."
+  },
   "io_splice": {
     "version": "4.2.0",
     "dependents": [
@@ -12750,6 +13246,10 @@
       {
         "name": "rev",
         "requirements": ">= 0.1.3"
+      },
+      {
+        "name": "suj-pusher",
+        "requirements": ">= 0"
       }
     ],
     "description": "fast buffers for non-blocking IO"
@@ -12788,6 +13288,13 @@
 
     ],
     "description": "mockingjay for ion_orders_engine"
+  },
+  "ionian": {
+    "version": "0.5.0",
+    "dependents": [
+
+    ],
+    "description": "A library to simplify interaction with IO streams. This includes network sockets, file sockets, and serial streams like the console and RS232. Features regular expression matching and notification of received data."
   },
   "ionic_git_scripts": {
     "version": "1.1.6",
@@ -12881,7 +13388,7 @@
     "description": "Script for iOS continuous integration"
   },
   "ios_config": {
-    "version": "1.2.3",
+    "version": "1.3.3",
     "dependents": [
 
     ],
@@ -13136,7 +13643,10 @@
   "ipa_reader": {
     "version": "0.7.1",
     "dependents": [
-
+      {
+        "name": "blast_off",
+        "requirements": "~> 0.7.1"
+      }
     ],
     "description": "I am using this gem to get version to build the over the air iPhone Ad Hoc distribution plist file."
   },
@@ -13162,12 +13672,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "radiustar",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "radiusrb",
         "requirements": ">= 0"
+      },
+      {
+        "name": "radiustar",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "vpnmaker",
@@ -13180,11 +13690,11 @@
     "version": "0.0.2",
     "dependents": [
       {
-        "name": "rack-auth-simples",
+        "name": "rack-auth-ip",
         "requirements": ">= 0.0.2"
       },
       {
-        "name": "rack-auth-ip",
+        "name": "rack-auth-simples",
         "requirements": ">= 0.0.2"
       }
     ],
@@ -13204,6 +13714,10 @@
     "version": "0.8.0",
     "dependents": [
       {
+        "name": "app42",
+        "requirements": ">= 0"
+      },
+      {
         "name": "automate-em",
         "requirements": ">= 0"
       },
@@ -13222,6 +13736,10 @@
       {
         "name": "bluecoat",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cloudbox-server",
+        "requirements": ">= 0.8.0"
       },
       {
         "name": "cookie_jar",
@@ -13304,6 +13822,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "uv-rays",
+        "requirements": ">= 0"
+      },
+      {
         "name": "validator",
         "requirements": ">= 0"
       },
@@ -13312,11 +13834,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": "= 0.7.0"
       },
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": "= 0.7.0"
       }
     ],
@@ -13342,6 +13864,13 @@
 
     ],
     "description": "IP Address Management"
+  },
+  "ipasend": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "This utiliy will create an IPA from an Xcode archive and upload it to your amazon s3 bucket"
   },
   "ipay": {
     "version": "0.2.2",
@@ -13469,15 +13998,22 @@
     ],
     "description": "iphoto contains methods to parse and access the contents of the iPhoto pictures."
   },
+  "iphoto_backup": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "tool for backing up iPhoto files"
+  },
   "ipinfodb": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Free IP address geolocation tools"
   },
   "ipiranga": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -13603,7 +14139,7 @@
     "description": "Ruby wrapper for the iProfile API"
   },
   "iproto": {
-    "version": "0.3.10",
+    "version": "0.3.11",
     "dependents": [
       {
         "name": "tarantool",
@@ -13630,11 +14166,11 @@
     "version": "2.0.0",
     "dependents": [
       {
-        "name": "ipsum-english",
+        "name": "ipsum-french",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "ipsum-french",
+        "name": "ipsum-english",
         "requirements": ">= 2.0.0"
       },
       {
@@ -13779,7 +14315,7 @@
     "description": "MVC based Math, Logic Captcha"
   },
   "iq_rdf": {
-    "version": "0.1.10",
+    "version": "0.1.13",
     "dependents": [
       {
         "name": "iqvoc",
@@ -13820,14 +14356,14 @@
     "description": "iQjax - a JS library for real unobtrusive Ajax"
   },
   "iqvoc": {
-    "version": "4.1.3",
+    "version": "4.2.0",
     "dependents": [
       {
         "name": "iqvoc_compound_forms",
         "requirements": "~> 4.1.0"
       },
       {
-        "name": "iqvoc_skosxl",
+        "name": "iqvoc_similar_terms",
         "requirements": "~> 4.1.0"
       },
       {
@@ -13835,7 +14371,7 @@
         "requirements": "~> 4.1.0"
       },
       {
-        "name": "iqvoc_similar_terms",
+        "name": "iqvoc_skosxl",
         "requirements": "~> 4.1.0"
       }
     ],
@@ -13914,6 +14450,13 @@
     ],
     "description": "You can do irb anywhere by calling 'ir b' (need a whitespace!)."
   },
+  "ir_ptz": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "CLI to control a Pan Tilt Zoom Camera by InfraRed via an Arduino"
+  },
   "iracing": {
     "version": "0.0.3",
     "dependents": [
@@ -13934,6 +14477,13 @@
 
     ],
     "description": "Lightning fast rake (in rails console)"
+  },
+  "iraq_unrest": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Ruby library to serialize, format, and visualize Iraq data shared by Agence France-Presse."
   },
   "irate": {
     "version": "0.0.1",
@@ -14092,6 +14642,13 @@
 
     ],
     "description": "The IRC protocol implemented as a Ruby mixin"
+  },
+  "irc-notify": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "irc-notify is a minimal library for publishing IRC notifications"
   },
   "irc-qik-bot": {
     "version": "0.0.1",
@@ -14399,6 +14956,10 @@
       {
         "name": "ocm",
         "requirements": ">= 0"
+      },
+      {
+        "name": "tms_bridge",
+        "requirements": ">= 0"
       }
     ],
     "description": "Ruby client for IronCache by www.iron.io"
@@ -14479,7 +15040,7 @@
     "description": "A Rails mail delivery method using Iron MQ & Workers"
   },
   "iron_mq": {
-    "version": "4.0.3",
+    "version": "4.0.5",
     "dependents": [
       {
         "name": "delayed_job_ironmq",
@@ -14504,12 +15065,16 @@
       {
         "name": "queuel",
         "requirements": ">= 0"
+      },
+      {
+        "name": "trusty",
+        "requirements": ">= 0"
       }
     ],
     "description": "Ruby client for IronMQ by www.iron.io"
   },
   "iron_response": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -14542,10 +15107,14 @@
     "description": "DEPRECATED!! Use iron_worker_ng now. The official IronWorker gem for IronWorker by Iron.io. http://www.iron.io"
   },
   "iron_worker_ng": {
-    "version": "1.0.2",
+    "version": "1.0.4",
     "dependents": [
       {
         "name": "fanforce-factory",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "iron_mq",
         "requirements": ">= 0"
       },
       {
@@ -14653,6 +15222,13 @@
     ],
     "description": "Rather than having a bunch of lame logic in your method_missing method, define separated regular expression methods that are called when no normally defined method matches."
   },
+  "irs527": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Takes one file and makes it into four files."
+  },
   "irs_forms": {
     "version": "0.0.1",
     "dependents": [
@@ -14739,7 +15315,7 @@
     "description": "Gem for handling IRXML's API"
   },
   "irxrb": {
-    "version": "0.0.7",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -14875,7 +15451,7 @@
     "description": "Simple gem to reduce the spam attacks on sign-up, sign-in and other similar sorts of forms."
   },
   "is_business_day": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -15096,6 +15672,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "squab-bot",
+        "requirements": ">= 0"
+      },
+      {
         "name": "twssbot",
         "requirements": ">= 0.2.6"
       }
@@ -15177,18 +15757,25 @@
     "description": "isbn_validation adds an isbn validation routine to active record models."
   },
   "isbndb": {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "dependents": [
 
     ],
     "description": "Ruby ISBNdb is a amazingly fast and accurate gem that reads ISBNdb.com's XML API and gives you incredible flexibilty with the results! The newest version of the gem also features caching, so developers minimize API-key usage."
   },
   "isbnify": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
     "description": "This gem verifies, creates and hyphinates ISBN13 numbers"
+  },
+  "IsbnUtils": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": " simple\tgem"
   },
   "isbumiawake-chef": {
     "version": "0.1.5",
@@ -15274,6 +15861,13 @@
     ],
     "description": "Estonian personal identification number validator"
   },
+  "isin_code_generator": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Simple random ISIN Code generator"
+  },
   "isit": {
     "version": "0.0.0",
     "dependents": [
@@ -15346,7 +15940,7 @@
     "description": "A subset of the ISO spec implemented in ruby"
   },
   "iso-639": {
-    "version": "0.2.3",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "exlibris-primo",
@@ -15389,7 +15983,7 @@
     "description": "Localized country select helper for rails that stores ISO 3166-1 alpha-3 country codes instead of names"
   },
   "iso-iban": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -15510,7 +16104,7 @@
     "description": "Adds cross-browser ISO 8601 support to the JavaScript Date object based on EC5.1. This is a Sprockets gem to simplify inclusion of the client-side library."
   },
   "iso_3166": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -15563,11 +16157,11 @@
     "description": "Calculate the Isoelectric point"
   },
   "isoftbetapi": {
-    "version": "0.4.0",
+    "version": "0.6.3",
     "dependents": [
 
     ],
-    "description": "Implements all of the features of the iSoftBet API version 1.8."
+    "description": "Implements all of the features of the iSoftBet API version 1.9."
   },
   "isohunt-es": {
     "version": "0.0.2",
@@ -15588,20 +16182,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "isolate-git",
-        "requirements": "~> 3.2.2"
-      },
-      {
-        "name": "isolate-lockdown",
-        "requirements": ">= 0"
-      },
-      {
         "name": "isolate-heroku",
         "requirements": ">= 0"
       },
       {
+        "name": "isolate-git",
+        "requirements": "~> 3.2.2"
+      },
+      {
         "name": "isolate-scenarios",
         "requirements": "~> 2.1.2"
+      },
+      {
+        "name": "isolate-lockdown",
+        "requirements": ">= 0"
       },
       {
         "name": "libertine",
@@ -15629,6 +16223,10 @@
       },
       {
         "name": "unicorn",
+        "requirements": "~> 3.2"
+      },
+      {
+        "name": "unicorn-academia",
         "requirements": "~> 3.2"
       },
       {
@@ -15702,11 +16300,11 @@
     "version": "0.2.19",
     "dependents": [
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": "= 0.2.9"
       },
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": "= 0.2.9"
       }
     ],
@@ -15783,7 +16381,7 @@
     "description": "Fetch ISP qutoa usage"
   },
   "israkel": {
-    "version": "0.4.0",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -15891,7 +16489,7 @@
     "description": "A helper for links and other html tags in your translations"
   },
   "it-logica-application-backbone": {
-    "version": "1.4.5",
+    "version": "1.4.7",
     "dependents": [
 
     ],
@@ -16057,7 +16655,7 @@
     "description": "IText"
   },
   "itextomml": {
-    "version": "1.4.11",
+    "version": "1.5.0",
     "dependents": [
 
     ],
@@ -16085,7 +16683,7 @@
     "description": "This simple itility parses your itunes library XML file and outputs song statistics.  It also provides artist recommendations based on songs with the highest play count."
   },
   "itimer": {
-    "version": "4",
+    "version": "9",
     "dependents": [
 
     ],
@@ -16237,11 +16835,36 @@
     ],
     "description": "Hacks & monkey patches needed to make Rails 2.3 work with ruby 1.9.2\n \\ * Changed binding on Hashie::Mash\n  * Overrode to_ary on RSpec mock  \n\n"
   },
+  "itrp-client": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "itrp-export-monitor",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Client for accessing the ITRP REST API"
+  },
+  "itrp-export-monitor": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Monitor a mailbox and store Scheduled ITRP Exports to disk or FTP."
+  },
   "its": {
     "version": "0.1.0",
     "dependents": [
       {
         "name": "cucumber-table",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "derelict",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-babushka",
         "requirements": ">= 0"
       }
     ],
@@ -16305,6 +16928,13 @@
     ],
     "description": "The 960 Grid System is an effort to streamline web development workflow by providing commonly used dimensions, based on a width of 960 pixels. http://960.gs/"
   },
+  "itsy-btc": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "itsy-btc is a simple secure bitcoin wallet that allows you to turn an offline computer into a hardware wallet."
+  },
   "itu_codes": {
     "version": "0.4.9",
     "dependents": [
@@ -16362,7 +16992,7 @@
     "description": "a command line interface for itunes (only supports windows/cygwin currently)"
   },
   "itunes-client": {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "dependents": [
       {
         "name": "eventmachine-distributed-notification",
@@ -16370,7 +17000,7 @@
       },
       {
         "name": "musical",
-        "requirements": "~> 0.1.2"
+        "requirements": "~> 0.1.4"
       },
       {
         "name": "taifu",
@@ -16418,7 +17048,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "itunes-receipt": {
-    "version": "0.1.4",
+    "version": "0.1.5",
     "dependents": [
 
     ],
@@ -16515,6 +17145,13 @@
     ],
     "description": "    iTunes::Store::Transporter is a wrapper around Apple's iTMSTransporter program. It allows you to upload packages to the \n    Apple Store, validate them, retrieve status information, lookup metadata, and more!\n"
   },
+  "itunes_track": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Object wrapper of iTunes music tracks"
+  },
   "itunes_transporter_generator": {
     "version": "unknown",
     "dependents": [
@@ -16523,7 +17160,7 @@
     "description": "A command-line tool for generating and packaging app store assets for Game Center and In-App Purchases"
   },
   "itunes_validator": {
-    "version": "0.3.1",
+    "version": "0.4.5",
     "dependents": [
 
     ],
@@ -16555,11 +17192,11 @@
     "dependents": [
       {
         "name": "iudex",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. This gem is an rjack-async-httpclient based implementation of the iudex-http interfaces."
@@ -16569,7 +17206,7 @@
     "dependents": [
       {
         "name": "iudex-core",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-barc gem contains support for the BARC Basic ARChive format."
@@ -16579,7 +17216,7 @@
     "dependents": [
       {
         "name": "iudex-brutefuzzy-service",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-brutefuzzy-protobuf gem contains the protocol buffer generated java classes for the iudex-brutefuzzy-service."
@@ -16589,7 +17226,7 @@
     "dependents": [
       {
         "name": "iudex",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-brutefuzzy-service provides a fuzzy simhash lookup index as a distributed service."
@@ -16599,7 +17236,7 @@
     "dependents": [
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-char-detector gem provides charset detection support."
@@ -16608,32 +17245,32 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "iudex-brutefuzzy-service",
+        "requirements": "~> 1.4.0"
+      },
+      {
         "name": "iudex-char-detector",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-da",
-        "requirements": "~> 1.3.0"
-      },
-      {
-        "name": "iudex-brutefuzzy-service",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-html",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-rome",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-simhash",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-core gem contains core facilities and notably, does not contain such facilities as database-backed state management."
@@ -16643,7 +17280,7 @@
     "dependents": [
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-da gem provides a PostgreSQL-based content meta-data store and work priority queue."
@@ -16653,7 +17290,7 @@
     "dependents": [
       {
         "name": "iudex-core",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-filter gem contains a fundamental filtering/chain of responsbility sub-system."
@@ -16663,11 +17300,11 @@
     "dependents": [
       {
         "name": "iudex-simhash",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-html gem contains filters for HTML parsing, filtering, exracting text and links."
@@ -16676,24 +17313,24 @@
     "version": "unknown",
     "dependents": [
       {
-        "name": "iudex-barc",
-        "requirements": "~> 1.3.0"
+        "name": "iudex-async-httpclient",
+        "requirements": "~> 1.4.0"
       },
       {
-        "name": "iudex-async-httpclient",
-        "requirements": "~> 1.3.0"
+        "name": "iudex-barc",
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-core",
-        "requirements": "~> 1.3.0"
-      },
-      {
-        "name": "iudex-jetty-httpclient",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-httpclient-3",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "iudex-jetty-httpclient",
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-http gem contains and http client agnostic abstraction layer."
@@ -16703,15 +17340,15 @@
     "dependents": [
       {
         "name": "iudex-async-httpclient",
-        "requirements": "~> 1.3.0"
-      },
-      {
-        "name": "iudex-jetty-httpclient",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-httpclient-3",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "iudex-jetty-httpclient",
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-http-test gem contains a HTTP test server for testing HTTP client implementations."
@@ -16721,11 +17358,11 @@
     "dependents": [
       {
         "name": "iudex",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. This gem is an rjack-httpclient-3 based implementation of the iudex-http interfaces."
@@ -16735,11 +17372,11 @@
     "dependents": [
       {
         "name": "iudex",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. This gem is a Jetty HTTP Client based implementation of the iudex-http interfaces."
@@ -16749,7 +17386,7 @@
     "dependents": [
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-rome gems is an adaption of rjack-rome for feed parsing in Iudex."
@@ -16759,11 +17396,11 @@
     "dependents": [
       {
         "name": "iudex-brutefuzzy-service",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       },
       {
         "name": "iudex-worker",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-simhash gem contains support for generation and searching over simhash fingerprints"
@@ -16773,7 +17410,7 @@
     "dependents": [
       {
         "name": "iudex",
-        "requirements": "~> 1.3.0"
+        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Iudex is a general purpose web crawler and feed processor in ruby/java. The iudex-worker gem provides a worker deamon for feed/page processing."
@@ -16789,7 +17426,7 @@
     "description": "Iugu API access"
   },
   "iugu-ux": {
-    "version": "1.0.6",
+    "version": "1.0.9",
     "dependents": [
       {
         "name": "iugusdk",
@@ -16799,7 +17436,7 @@
     "description": "Iugu User Experience and Components for HTML5,CSS,JS"
   },
   "iugusdk": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "dependents": [
 
     ],
@@ -16884,6 +17521,13 @@
 
     ],
     "description": " Gem which helps to communicate with iv.lt API "
+  },
+  "ivar_encapsulation": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Provides similar functionality to the attr_* methods, but can also generate private getter/setter methods for class internal use."
   },
   "ives": {
     "version": "0.2.0",
@@ -16983,7 +17627,7 @@
     "description": "this is set of rails and datamapper plugins for setting up a little more advanced rails application then the default rails generator does. the focus is on security and privacy as well a complete restful xml support."
   },
   "ixtlan-audit": {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "dependents": [
       {
         "name": "ixtlan-configuration",
@@ -17011,7 +17655,7 @@
     "description": "babel offers a filter for hashes and with that comes json/yaml/xml de/serialization of models which provides a hash representationi. possible models are activerecord, activemodel, resources from datamapper, virtus"
   },
   "ixtlan-configuration": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
       {
         "name": "ixtlan-user-management",
@@ -17133,7 +17777,7 @@
     "description": "I propose a new file format called \"XYML.\"  Xyml module has the following functions:\n * loads a XYML file as an instance of Xyml::Document, saves an instance of Xyml::Document as a XYML file.\n * loads an XML subset file as an instance of Xyml::Document, saves an instance of Xyml::Document as an XML file. \n * saves an instance of Xyml::Document as a JSON file.\n * converts an instance of Xyml::Document to an instance of REXML::Document and vice versa. The instance of REXML::Document supports a subset of XML specifications. \nXyml_element module provides XYML element API methods. These API methods can be used to elements in Xyml::Document."
   },
   "iye": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],

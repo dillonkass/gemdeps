@@ -27,19 +27,19 @@
     ],
     "description": "Object Base dbm.\n"
   },
-  "O_o": {
-    "version": "1.0.0",
-    "dependents": [
-
-    ],
-    "description": "require 'O_o'; raise O_o"
-  },
   "O_O": {
     "version": "1.0.0",
     "dependents": [
 
     ],
     "description": "raise O_O"
+  },
+  "O_o": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "require 'O_o'; raise O_o"
   },
   "oa-basic": {
     "version": "0.3.2",
@@ -92,23 +92,11 @@
         "requirements": "~> 0.1.2"
       },
       {
-        "name": "oa-casport",
-        "requirements": ">= 0"
-      },
-      {
         "name": "oa-cadun",
         "requirements": ">= 0"
       },
       {
-        "name": "oa-ldap",
-        "requirements": ">= 0.0.3"
-      },
-      {
-        "name": "oa-enterprise",
-        "requirements": "= 0.3.2"
-      },
-      {
-        "name": "oa-env",
+        "name": "oa-casport",
         "requirements": ">= 0"
       },
       {
@@ -116,12 +104,24 @@
         "requirements": "= 0.3.2"
       },
       {
-        "name": "oa-mailru",
-        "requirements": "~> 0.1.4"
+        "name": "oa-enterprise",
+        "requirements": "= 0.3.2"
+      },
+      {
+        "name": "oa-ldap",
+        "requirements": ">= 0.0.3"
+      },
+      {
+        "name": "oa-env",
+        "requirements": ">= 0"
       },
       {
         "name": "oa-more",
         "requirements": "= 0.3.2"
+      },
+      {
+        "name": "oa-mailru",
+        "requirements": "~> 0.1.4"
       },
       {
         "name": "oa-oauth",
@@ -132,12 +132,12 @@
         "requirements": "= 0.3.2"
       },
       {
-        "name": "oa-vkontakte",
-        "requirements": ">= 0.1.6"
-      },
-      {
         "name": "oa-vkontakte_alexandrov",
         "requirements": ">= 0.2.0.beta4"
+      },
+      {
+        "name": "oa-vkontakte",
+        "requirements": ">= 0.1.6"
       },
       {
         "name": "oa-webiso",
@@ -543,6 +543,13 @@
     ],
     "description": "Help you to communicate with the corporate advertisers world!"
   },
+  "oat": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Oat helps you separate your API schema definitions from the underlying media type. Media types can be plugged or swapped on demand globally or on the content-negotiation phase"
+  },
   "oatdoc": {
     "version": "0.0.1",
     "dependents": [
@@ -617,11 +624,11 @@
         "requirements": ">= 0.4.7"
       },
       {
-        "name": "anideo-authlogic-connect",
+        "name": "anideo-embedly",
         "requirements": ">= 0"
       },
       {
-        "name": "anideo-embedly",
+        "name": "anideo-authlogic-connect",
         "requirements": ">= 0"
       },
       {
@@ -665,12 +672,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bluevia_engine",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bluevia",
         "requirements": ">= 0.4.1"
+      },
+      {
+        "name": "bluevia_engine",
+        "requirements": ">= 0"
       },
       {
         "name": "bot_nyan",
@@ -685,15 +692,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "btrade",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cablegator",
         "requirements": ">= 0"
       },
       {
-        "name": "cartodb-rb-client",
+        "name": "cartodb-rb-client-rails-322",
         "requirements": "= 0.4.5"
       },
       {
-        "name": "cartodb-rb-client-rails-322",
+        "name": "cartodb-rb-client",
         "requirements": "= 0.4.5"
       },
       {
@@ -725,16 +736,16 @@
         "requirements": "= 0.4.6"
       },
       {
-        "name": "cloudkit",
-        "requirements": "~> 0.3"
+        "name": "cloudkick",
+        "requirements": ">= 0"
       },
       {
         "name": "cloudkit-jruby",
         "requirements": "~> 0.3"
       },
       {
-        "name": "cloudkick",
-        "requirements": ">= 0"
+        "name": "cloudkit",
+        "requirements": "~> 0.3"
       },
       {
         "name": "cloudpt-api",
@@ -785,15 +796,19 @@
         "requirements": "~> 0.4.5"
       },
       {
+        "name": "devise_strategy_google_apps_open_social",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "douban-rails2.3",
+        "requirements": ">= 0"
+      },
+      {
         "name": "douban",
         "requirements": ">= 0"
       },
       {
         "name": "douban-ruby",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "douban-rails2.3",
         "requirements": ">= 0"
       },
       {
@@ -809,16 +824,16 @@
         "requirements": ">= 0.3.6"
       },
       {
+        "name": "dropbox-api-kilgore5",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dropbox-api",
         "requirements": ">= 0"
       },
       {
         "name": "dropbox-aliix",
         "requirements": ">= 0.3.6"
-      },
-      {
-        "name": "dropbox-api-kilgore5",
-        "requirements": ">= 0"
       },
       {
         "name": "dropbox-api-petems",
@@ -1133,12 +1148,12 @@
         "requirements": ">= 0.2.7"
       },
       {
-        "name": "lasso",
-        "requirements": "~> 0.4.4"
-      },
-      {
         "name": "last-resort",
         "requirements": "~> 0.4"
+      },
+      {
+        "name": "lasso",
+        "requirements": "~> 0.4.4"
       },
       {
         "name": "le1t0-oauth-plugin",
@@ -1169,24 +1184,24 @@
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "linkedin-idkmybffjill",
-        "requirements": "~> 0.3.5"
+        "name": "linkedin",
+        "requirements": "~> 0.4"
       },
       {
         "name": "linkedin-drspin",
         "requirements": "~> 0.4.5"
       },
       {
-        "name": "linkedin-saimonmoore",
+        "name": "linkedin-idkmybffjill",
         "requirements": "~> 0.3.5"
-      },
-      {
-        "name": "linkedin",
-        "requirements": "~> 0.4"
       },
       {
         "name": "linkedin-rb",
         "requirements": "~> 0.4.3"
+      },
+      {
+        "name": "linkedin-saimonmoore",
+        "requirements": "~> 0.3.5"
       },
       {
         "name": "logworm",
@@ -1317,20 +1332,20 @@
         "requirements": "~> 0.4.1"
       },
       {
-        "name": "oauth-active-resource",
+        "name": "oauth-cli",
         "requirements": ">= 0.3.6"
       },
       {
-        "name": "oauth-client",
-        "requirements": ">= 0.3.1"
+        "name": "oauth-active-resource",
+        "requirements": ">= 0.3.6"
       },
       {
         "name": "oauth-cli-twitter",
         "requirements": ">= 0"
       },
       {
-        "name": "oauth-cli",
-        "requirements": ">= 0.3.6"
+        "name": "oauth-client",
+        "requirements": ">= 0.3.1"
       },
       {
         "name": "oauth-multipart",
@@ -1349,12 +1364,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oauth_provider",
-        "requirements": ">= 0"
+        "name": "oauth_consumer",
+        "requirements": "~> 0.4.4"
       },
       {
         "name": "oauth_provider_engine",
         "requirements": "~> 0.4.0"
+      },
+      {
+        "name": "oauth_provider",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "oauthtoken",
+        "requirements": "~> 0.4.7"
       },
       {
         "name": "oii_twitter_goodies",
@@ -1409,12 +1432,12 @@
         "requirements": ">= 0.3.2"
       },
       {
-        "name": "openstreetmap",
-        "requirements": ">= 0"
-      },
-      {
         "name": "openstreetmap-oauth-plugin",
         "requirements": "~> 0.4.4"
+      },
+      {
+        "name": "openstreetmap",
+        "requirements": ">= 0"
       },
       {
         "name": "opentransact",
@@ -1461,6 +1484,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "quickbooks-ruby",
+        "requirements": ">= 0"
+      },
+      {
         "name": "quickeebooks",
         "requirements": ">= 0"
       },
@@ -1497,11 +1524,11 @@
         "requirements": ">= 0.3.6"
       },
       {
-        "name": "readability-engine",
+        "name": "readit",
         "requirements": ">= 0"
       },
       {
-        "name": "readit",
+        "name": "readability-engine",
         "requirements": ">= 0"
       },
       {
@@ -1509,12 +1536,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rforce-raygao",
-        "requirements": "= 0.4.4"
-      },
-      {
         "name": "rforce",
         "requirements": "~> 0.4"
+      },
+      {
+        "name": "rforce-raygao",
+        "requirements": "= 0.4.4"
       },
       {
         "name": "rightsignature",
@@ -1525,12 +1552,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rorra-twitter_oauth",
-        "requirements": ">= 0.4.1"
-      },
-      {
         "name": "rorra-twitter",
         "requirements": "~> 0.4.1"
+      },
+      {
+        "name": "rorra-twitter_oauth",
+        "requirements": ">= 0.4.1"
       },
       {
         "name": "rosemary",
@@ -1601,6 +1628,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shoplo-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "signatory",
         "requirements": "= 0.4.3"
       },
@@ -1621,12 +1652,12 @@
         "requirements": ">= 0.4.0"
       },
       {
-        "name": "slainer68_youtube_it",
-        "requirements": ">= 0"
-      },
-      {
         "name": "slainer68_vimeo",
         "requirements": ">= 0.4.3"
+      },
+      {
+        "name": "slainer68_youtube_it",
+        "requirements": ">= 0"
       },
       {
         "name": "smartfm",
@@ -1770,7 +1801,7 @@
       },
       {
         "name": "tradeking",
-        "requirements": ">= 0"
+        "requirements": ">= 0.4.6"
       },
       {
         "name": "tripit",
@@ -1789,12 +1820,12 @@
         "requirements": "~> 0.4"
       },
       {
-        "name": "tumblr-fu",
-        "requirements": ">= 0.4.7"
-      },
-      {
         "name": "tumblr-follow",
         "requirements": ">= 0"
+      },
+      {
+        "name": "tumblr-fu",
+        "requirements": ">= 0.4.7"
       },
       {
         "name": "tumblr-ruby",
@@ -1809,12 +1840,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "twat",
-        "requirements": "= 0.4.4"
-      },
-      {
         "name": "twdo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "twat",
+        "requirements": "= 0.4.4"
       },
       {
         "name": "tweedle",
@@ -1841,6 +1872,10 @@
         "requirements": ">= 0.4.0"
       },
       {
+        "name": "twitter-auth-with-mongo-mapper",
+        "requirements": ">= 0.3.1"
+      },
+      {
         "name": "twitter-auth",
         "requirements": ">= 0.3.1"
       },
@@ -1851,10 +1886,6 @@
       {
         "name": "twitter-avatar-update",
         "requirements": ">= 0"
-      },
-      {
-        "name": "twitter-auth-with-mongo-mapper",
-        "requirements": ">= 0.3.1"
       },
       {
         "name": "twitter-jruby",
@@ -1905,12 +1936,12 @@
         "requirements": ">= 0.4.1"
       },
       {
-        "name": "two-legged-oauth",
-        "requirements": "~> 0.4.0"
-      },
-      {
         "name": "twix",
         "requirements": "~> 0.4.7"
+      },
+      {
+        "name": "two-legged-oauth",
+        "requirements": "~> 0.4.0"
       },
       {
         "name": "twt",
@@ -2005,12 +2036,8 @@
         "requirements": ">= 0.3.6"
       },
       {
-        "name": "xero",
+        "name": "wp2tumblr",
         "requirements": ">= 0"
-      },
-      {
-        "name": "xero-min",
-        "requirements": "~> 0.4"
       },
       {
         "name": "xero_gateway-float",
@@ -2021,8 +2048,16 @@
         "requirements": ">= 0.3.6"
       },
       {
+        "name": "xero-min",
+        "requirements": "~> 0.4"
+      },
+      {
         "name": "xero_gateway-n8vision",
         "requirements": "= 0.4.5"
+      },
+      {
+        "name": "xero",
+        "requirements": ">= 0"
       },
       {
         "name": "xeroizer",
@@ -2045,6 +2080,14 @@
         "requirements": "~> 0.4.5"
       },
       {
+        "name": "xing_api_client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "xing_api",
+        "requirements": "~> 0.4.7"
+      },
+      {
         "name": "yahoo_nba",
         "requirements": ">= 0"
       },
@@ -2061,12 +2104,12 @@
         "requirements": ">= 0.4.4"
       },
       {
-        "name": "yelp4rails",
-        "requirements": ">= 0.4.7"
-      },
-      {
         "name": "yelpster",
         "requirements": ">= 0.4.5"
+      },
+      {
+        "name": "yelp4rails",
+        "requirements": ">= 0.4.7"
       },
       {
         "name": "youtube_it",
@@ -2225,6 +2268,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "authifer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "authlogic-connect",
         "requirements": ">= 0"
       },
@@ -2243,6 +2290,10 @@
       {
         "name": "baby_tooth",
         "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "backup-baidu",
+        "requirements": "~> 0.9.2"
       },
       {
         "name": "backup-kanbox",
@@ -2318,6 +2369,10 @@
       },
       {
         "name": "deployto",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "devbootcamp",
         "requirements": ">= 0"
       },
       {
@@ -2505,6 +2560,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "kounta_rest",
+        "requirements": "= 0.9.2"
+      },
+      {
         "name": "langalex-authlogic_oauth2",
         "requirements": ">= 0"
       },
@@ -2561,6 +2620,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "myob-api",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "nation_builder",
         "requirements": ">= 0"
       },
@@ -2581,20 +2644,28 @@
         "requirements": "~> 0.5.0"
       },
       {
-        "name": "oauth-plugin",
-        "requirements": ">= 0.5.0"
-      },
-      {
         "name": "oauth-contacts",
         "requirements": ">= 0"
+      },
+      {
+        "name": "oauth-plugin",
+        "requirements": ">= 0.5.0"
       },
       {
         "name": "oauth2-rack",
         "requirements": ">= 0"
       },
       {
+        "name": "oauth_consumer",
+        "requirements": ">= 0.5.0"
+      },
+      {
         "name": "omniauth-betable",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-cas-login",
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "omniauth-facebook-access-token",
@@ -2677,11 +2748,11 @@
         "requirements": ">= 0.5.1"
       },
       {
-        "name": "robdimarco-authlogic-connect",
+        "name": "robdimarco_authlogic_oauth2",
         "requirements": ">= 0"
       },
       {
-        "name": "robdimarco_authlogic_oauth2",
+        "name": "robdimarco-authlogic-connect",
         "requirements": ">= 0"
       },
       {
@@ -2961,6 +3032,13 @@
     ],
     "description": "新浪，豆瓣，腾讯等国内微薄OAuth认证"
   },
+  "oauth_consumer": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "OAuth 1 & 2 and token management in Rails 3+"
+  },
   "oauth_doorman": {
     "version": "0.1.0",
     "dependents": [
@@ -3006,6 +3084,13 @@
     ],
     "description": "A gem to make oauth testing easier"
   },
+  "oauthtoken": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Command to get OAuth token"
+  },
   "oba-client": {
     "version": "2.1.0",
     "dependents": [
@@ -3035,7 +3120,7 @@
     "description": "Extension for git which adds a command providing similar functionality to git submodules but without attaching each module to a single version"
   },
   "obbistrano": {
-    "version": "1.1.152",
+    "version": "1.1.167",
     "dependents": [
 
     ],
@@ -3048,6 +3133,20 @@
     ],
     "description": "A Ruby API that interfaces with ELM327 compatible devices over serial."
   },
+  "obecon-client": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Simple wrapper to receive assets from oberbaum-concept asset servers."
+  },
+  "ober": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Provides an alternative to the various remote applications that fulfill the same\npurpose, such as capistrano or even chef. Installs Ruby applications to servers\non defined locations. \n\nVery early alpha. This will eventually deal with all the intricacies of bundler, \nRVM and rbenv, but for now, does really simple installations. \n"
+  },
   "obfuscate": {
     "version": "0.0.7",
     "dependents": [
@@ -3056,7 +3155,7 @@
     "description": "Obfuscate"
   },
   "obfuscate_id": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -3068,6 +3167,13 @@
 
     ],
     "description": "Obfuscate your autoincrementing primary key ids."
+  },
+  "obfuscatejs": {
+    "version": "1.1.3",
+    "dependents": [
+
+    ],
+    "description": "Simple Rails plugin to obfuscate strings in views."
   },
   "obfuscator": {
     "version": "0.0.2",
@@ -3138,6 +3244,13 @@
 
     ],
     "description": "Placeholder"
+  },
+  "objc": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "This gem is a test suite runner for Objective-C files to allow for the easy\nexecution of a test suite without the hassle of managing an Xcode Project File. This allows you to work on your source files outside of a Xcode project but still have them tested. This is useful when when you want to practice Objective-C without the hassle of Xcode."
   },
   "objds": {
     "version": "1.0.1",
@@ -3272,7 +3385,7 @@
     "description": "Stream objects over IO using Marshal, JSON, YAML, or Msgpack."
   },
   "object-template": {
-    "version": "0.2",
+    "version": "0.4",
     "dependents": [
       {
         "name": "tupelo",
@@ -3311,11 +3424,11 @@
     "description": "object2module enables ruby classes and objects to be used as modules"
   },
   "object_attorney": {
-    "version": "1.0.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
-    "description": "Form Object Patter Implementation"
+    "description": "Form Object pattern implementation for Rails"
   },
   "object_cache": {
     "version": "0.0.7",
@@ -3347,6 +3460,13 @@
 
     ],
     "description": "ObjectDojo is a utility to improve your Object oriented programming skills using rules described in the article \"Object Calisthenics\" by JeffBay"
+  },
+  "object_identifier": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Identify an object by inspecting its class name and attributes."
   },
   "object_loader": {
     "version": "1.0.1",
@@ -3449,6 +3569,13 @@
     ],
     "description": "Gem helps analyze object space before and after yielding a block"
   },
+  "object_spy": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Object Spy to send Ruby ObjectSpace and Symbol metrics"
+  },
   "object_struct": {
     "version": "0.0.9",
     "dependents": [
@@ -3510,6 +3637,13 @@
       }
     ],
     "description": "Provides an easy to use DSL resembling ActiveRecord for defining objects\nrepresenting any XML document, including deeply nested ones. This project was\nextracted from my ruby-picasa gem. You can find ruby-picasa at\nhttp://github.com/pangloss/ruby_picasa or available as a gem.\n\nThe project also has significant (if not complete) Atom support."
+  },
+  "objective-ci": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "CI tools for objective-c"
   },
   "objective-ruby": {
     "version": "0.0.3",
@@ -3683,21 +3817,21 @@
     "description": "Provides all-in-one object containing the contents of an OBO formatted file.  OBO version 1.2 is targeted, though this should work for 1.0. "
   },
   "oboe": {
-    "version": "2.2.6",
+    "version": "2.3.4.1",
     "dependents": [
-      {
-        "name": "oboe-heroku",
-        "requirements": ">= 2.1.4"
-      },
       {
         "name": "oboe_fu",
         "requirements": "= 1.3.0"
+      },
+      {
+        "name": "oboe-heroku",
+        "requirements": ">= 2.3.3.7"
       }
     ],
-    "description": "The oboe gem provides AppNeta instrumentation for Ruby and Ruby frameworks."
+    "description": "The oboe gem provides TraceView instrumentation for Ruby and Ruby frameworks."
   },
   "oboe-heroku": {
-    "version": "0.8.0.16",
+    "version": "0.9.0.1",
     "dependents": [
 
     ],
@@ -3794,6 +3928,63 @@
     ],
     "description": "A simple interface for adding observers to any class."
   },
+  "observed": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "observed-clockwork",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "observed-gauge",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "observed-logstash",
+        "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "observed-http",
+        "requirements": "~> 0.1.0"
+      }
+    ],
+    "description": "Observed"
+  },
+  "observed-clockwork": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Observed Clockwork Integration"
+  },
+  "observed-fluentd": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Observed Fluentd Output Plugin"
+  },
+  "observed-gauge": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Gauge plugin for Observed"
+  },
+  "observed-http": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "observed-http"
+  },
+  "observed-logstash": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "observed-logstash"
+  },
   "observer": {
     "version": "0.0.3",
     "dependents": [
@@ -3821,6 +4012,13 @@
 
     ],
     "description": "It's metastable"
+  },
+  "obtain": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Write a gem description"
   },
   "obtuse": {
     "version": "0.0.2",
@@ -3895,7 +4093,7 @@
     "description": "This gem is a client implementation of the Open Cloud Computing Interface in Ruby"
   },
   "occi-core": {
-    "version": "4.1.2",
+    "version": "4.2.0",
     "dependents": [
       {
         "name": "occi-api",
@@ -3933,17 +4131,17 @@
     "description": "Ocean is a High Performance Liquid Library"
   },
   "ocean-dynamo": {
-    "version": "0.5.3",
+    "version": "0.5.5",
     "dependents": [
       {
         "name": "ocean-rails",
         "requirements": ">= 0.5"
       }
     ],
-    "description": "== OceanDynamo\n\nOceanDynamo is a massively scalable Amazon DynamoDB near drop-in replacement for \nActiveRecord.\n\nAs one important use case for OceanDynamo is to facilitate the conversion of SQL\ndatabases to no-SQL DynamoDB databases, it is important that the syntax and semantics\nof OceanDynamo are as close as possible to those of ActiveRecord. This includes\ncallbacks, exceptions and method chaining semantics. OceanDynamo follows this pattern \nclosely and is of course based on ActiveModel.\n\nThe attribute and persistence layer of OceanDynamo is modeled on that of ActiveRecord:\nthere's +save+, +save!+, +create+, +update+, +update!+, +update_attributes+, +find_each+,\n+destroy_all+, +delete_all+ and all the other methods you're used to. The design goal \nis always to implement as much of the ActiveRecord interface as possible, without \ncompromising scalability. This makes the task of switching from SQL to no-SQL much easier.\n\nThanks to its structural similarity to ActiveRecord, OceanDynamo works with FactoryGirl.\nTo facilitate testing, future versions will keep track of and delete instances after tests.\n\nOceanDynamo uses primary indices to retrieve related table items, \nwhich means it will scale without limits.\n\nSee also Ocean, a Rails framework for creating highly scalable SOAs in the cloud, in which\nocean-dynamo is used as a central component: http://wiki.oceanframework.net"
+    "description": "== OceanDynamo\n\nOceanDynamo is a massively scalable Amazon DynamoDB near drop-in replacement for \nActiveRecord.\n\nAs one important use case for OceanDynamo is to facilitate the conversion of SQL\ndatabases to no-SQL DynamoDB databases, it is important that the syntax and semantics\nof OceanDynamo are as close as possible to those of ActiveRecord. This includes\ncallbacks, exceptions and method chaining semantics. OceanDynamo follows this pattern \nclosely and is of course based on ActiveModel.\n\nThe attribute and persistence layer of OceanDynamo is modeled on that of ActiveRecord:\nthere's +save+, +save!+, +create+, +update+, +update!+, +update_attributes+, +find_each+,\n+destroy_all+, +delete_all+ and all the other methods you're used to. The design goal \nis always to implement as much of the ActiveRecord interface as possible, without \ncompromising scalability. This makes the task of switching from SQL to no-SQL much easier.\n\nThanks to its structural similarity to ActiveRecord, OceanDynamo works with FactoryGirl.\n\nOceanDynamo uses primary indices to retrieve related table items, \nmeaning it scales without limits.\n\nSee also Ocean, a Rails framework for creating highly scalable SOAs in the cloud, in which\nocean-dynamo is used as a central component: http://wiki.oceanframework.net"
   },
   "ocean-rails": {
-    "version": "1.22.8",
+    "version": "1.26.1",
     "dependents": [
 
     ],
@@ -4035,6 +4233,14 @@
         "requirements": "~> 1.3.0"
       },
       {
+        "name": "spread2rdf",
+        "requirements": "~> 1.3.1"
+      },
+      {
+        "name": "trucker-cli",
+        "requirements": ">= 0"
+      },
+      {
         "name": "watir-webdriver-utils",
         "requirements": ">= 1.3.0"
       },
@@ -4088,7 +4294,7 @@
     "description": "== USAGE:  require 'octave'  engine = Octave::Engine.new engine.eval \"123.456 * 789.101112\" engine.rand(10)  matrix = Octave::Matrix.new(20, 400) 20.times { |m| 400.times { |n| matrix[m, n] = rand } } engine.put_variable(\"m\", matrix)  engine.save \"/tmp/20_x_400_matrix\"  == REQUIREMENTS:  * Octave * GCC or some other compiler to build the included extension * Mocha (For testing only)"
   },
   "octo": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -4161,7 +4367,7 @@
     "description": "  Grab activity events for you from Octocat\n"
   },
   "octokit": {
-    "version": "2.4.0",
+    "version": "2.6.3",
     "dependents": [
       {
         "name": "abak-flow",
@@ -4206,6 +4412,14 @@
       {
         "name": "capistrano-github-robot",
         "requirements": ">= 0"
+      },
+      {
+        "name": "chairman",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "chef-taste",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "cinch-github_notifications",
@@ -4256,6 +4470,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "gh-trend",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "giexp",
         "requirements": "~> 1.0.0"
       },
@@ -4269,11 +4487,19 @@
       },
       {
         "name": "gist-dep",
-        "requirements": ">= 0"
+        "requirements": "~> 2.0"
       },
       {
         "name": "git-forks",
         "requirements": "= 0.6.5"
+      },
+      {
+        "name": "git-heroes",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "git-pr",
+        "requirements": "~> 2.6"
       },
       {
         "name": "git-process-lib",
@@ -4281,7 +4507,7 @@
       },
       {
         "name": "git-pulls",
-        "requirements": ">= 0"
+        "requirements": "~> 2.6.1"
       },
       {
         "name": "git-pulls-updated",
@@ -4289,7 +4515,7 @@
       },
       {
         "name": "git-review",
-        "requirements": "~> 1.24.0"
+        "requirements": "~> 2.0.0"
       },
       {
         "name": "git-scripts",
@@ -4306,6 +4532,10 @@
       {
         "name": "github-commit-status-updater",
         "requirements": ">= 0"
+      },
+      {
+        "name": "github-xcode-bot-builder",
+        "requirements": "~> 2.0"
       },
       {
         "name": "github_deprecations",
@@ -4325,7 +4555,15 @@
       },
       {
         "name": "glean",
-        "requirements": "= 1.24.0"
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "got_skillz",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "growl-github-feed",
+        "requirements": ">= 0"
       },
       {
         "name": "gub",
@@ -4344,6 +4582,10 @@
         "requirements": "~> 1.20"
       },
       {
+        "name": "hyrb",
+        "requirements": ">= 0"
+      },
+      {
         "name": "issue-beaver",
         "requirements": ">= 0"
       },
@@ -4356,12 +4598,24 @@
         "requirements": ">= 0"
       },
       {
+        "name": "lita-gitcamp",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "lmk",
         "requirements": ">= 0"
       },
       {
+        "name": "marmite",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "metior",
         "requirements": "~> 0.6.4"
+      },
+      {
+        "name": "napa",
+        "requirements": "~> 1.25"
       },
       {
         "name": "nesta-plugin-project-meta",
@@ -4369,10 +4623,6 @@
       },
       {
         "name": "octocli",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "octoman",
         "requirements": ">= 0"
       },
       {
@@ -4384,16 +4634,28 @@
         "requirements": "= 2.0.0.rc2"
       },
       {
-        "name": "octonaut",
-        "requirements": "~> 1.22.0"
+        "name": "octokit_issue_export",
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "octomine",
         "requirements": ">= 0"
       },
       {
+        "name": "octoman",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "octonaut",
+        "requirements": "~> 1.22.0"
+      },
+      {
         "name": "omnifocus-github",
-        "requirements": "~> 1.24"
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "opal",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "opensesame",
@@ -4401,7 +4663,7 @@
       },
       {
         "name": "party_foul",
-        "requirements": "~> 2.3.1"
+        "requirements": "~> 2.5.0"
       },
       {
         "name": "pomo",
@@ -4450,6 +4712,10 @@
       {
         "name": "right_hook",
         "requirements": "~> 2.2"
+      },
+      {
+        "name": "rightscale-cli",
+        "requirements": ">= 0"
       },
       {
         "name": "rs-api-tools",
@@ -4532,6 +4798,13 @@
 
     ],
     "description": "Octokit for GitHub Enterprise"
+  },
+  "octokit_issue_export": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Octokit Extension"
   },
   "octokom": {
     "version": "0.0.2",
@@ -4639,7 +4912,7 @@
     "description": "Command-line wrapper for jekyll and octopod"
   },
   "octopress-codefence": {
-    "version": "1.1.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -4652,6 +4925,13 @@
     ],
     "description": "Octopress Gauges Popular Posts adds a popular posts asides section to your Octopress blog. It makes use of GitHub's Gaug.es to determine the popularity of the posts."
   },
+  "octopress-gist": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Embed GitHub gists, support caching, and multiple files per gist."
+  },
   "octopress-popular-posts": {
     "version": "0.1.0",
     "dependents": [
@@ -4660,11 +4940,15 @@
     "description": "Octopress popular posts adds a popular posts asides section to your Octopress blog. It makes use of Google page rank to determine the popularity of the posts."
   },
   "octopress-pygments": {
-    "version": "1.2.1",
+    "version": "1.3.1",
     "dependents": [
       {
         "name": "octopress-codefence",
-        "requirements": ">= 1.2.1"
+        "requirements": ">= 1.3.1"
+      },
+      {
+        "name": "octopress-gist",
+        "requirements": "~> 1.3.1"
       }
     ],
     "description": "Octopress's core plugin for rendering nice code blocks"
@@ -4767,6 +5051,10 @@
     "version": "1.3",
     "dependents": [
       {
+        "name": "objective-ci",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yolo",
         "requirements": "= 1.2"
       }
@@ -4823,14 +5111,14 @@
     "description": "* oddb2tdat converts oddb.csv to oddb.dat\n* http://dev.ywesee.com/wiki.php/ODDB/Oddb2tdat"
   },
   "oddb2xml": {
-    "version": "1.5.9",
+    "version": "1.6.4",
     "dependents": [
 
     ],
     "description": "oddb2xml creates xml files using swissINDEX, BAG-XML and Swissmedic."
   },
   "odeon_uk": {
-    "version": "1.0.0",
+    "version": "1.1.3",
     "dependents": [
 
     ],
@@ -4935,6 +5223,13 @@
 
     ],
     "description": "== DataMapper Integration for Oedipus\n\nThis gem adds the possibility to find DataMapper models by searching in\na Sphinx index, and to update/delete/replace them.\n\nFaceted searches are cleanly supported.\n"
+  },
+  "oeffi": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ],
+    "description": "The public transport enabler library as a gem for JRuby"
   },
   "oeis": {
     "version": "0.0.5",
@@ -5175,7 +5470,7 @@
     "dependents": [
       {
         "name": "cashflow",
-        "requirements": "~> 0.3.1"
+        "requirements": "~> 0.3.2"
       }
     ],
     "description": "A simple OFX (Open Financial Exchange) parser built on top of Nokogiri.\nCurrently supports OFX 102, 200 and 211.\n\nUsage:\n\n  OFX(\"sample.ofx\") do |ofx|\n    p ofx\n  end\n"
@@ -5344,11 +5639,11 @@
     "description": "Ditz is a simple, light-weight distributed issue tracker designed to work with\ndistributed version control systems like git, darcs, Mercurial, and Bazaar. It\ncan also be used with centralized systems like SVN.\n\nDitz maintains an issue database directory on disk, with files written in a\nline-based and human-editable format. This directory can be kept under version\ncontrol, alongside project code.\n\nDitz provides a simple, console-based interface for creating and updating the\nissue database files, and some basic static HTML generation capabilities for\nproducing world-readable status pages (for a demo, see the ditz ditz page).\n\nDitz includes a robust plugin system for adding commands, model fields, and\nmodifying output. See PLUGINS.txt for documentation on the pre-shipped plugins.\n\nDitz currently offers no central public method of bug submission. \n\n== USING DITZ\n\nThere are several different ways to use Ditz:\n\n1. Treat issue change the same as code change: include it as part of commits,\n   and merge it with changes from other developers, resolving conflicts in the\n   usual manner.\n2. Keep the issue database in the repository but in a separate branch. Issue\n   changes can be managed by your VCS, but is not tied directly to code\n   commits.\n3. Keep the issue database separate and not under VCS at all."
   },
   "ohai": {
-    "version": "6.18.0",
+    "version": "6.20.0",
     "dependents": [
       {
         "name": "baton",
-        "requirements": "~> 0.6.12"
+        "requirements": ">= 6.16"
       },
       {
         "name": "bunchr",
@@ -5356,18 +5651,18 @@
       },
       {
         "name": "chef",
-        "requirements": "< 7.0.0, >= 0.6.0"
+        "requirements": "~> 6.0"
       },
       {
         "name": "dpkginv",
         "requirements": ">= 0"
       },
       {
-        "name": "enterprise-ohai",
+        "name": "enterprise-scripts",
         "requirements": ">= 0"
       },
       {
-        "name": "enterprise-scripts",
+        "name": "enterprise-ohai",
         "requirements": ">= 0"
       },
       {
@@ -5377,6 +5672,10 @@
       {
         "name": "fauxhai",
         "requirements": ">= 0"
+      },
+      {
+        "name": "fluent-plugin-td-monitoring",
+        "requirements": "~> 6.18.0"
       },
       {
         "name": "ganymed",
@@ -5395,10 +5694,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "maid",
-        "requirements": "< 6.17.0, >= 6.14.0"
-      },
-      {
         "name": "mbailey-chef",
         "requirements": ">= 0.5.7"
       },
@@ -5409,6 +5704,10 @@
       {
         "name": "naked-chef",
         "requirements": ">= 0.5.7"
+      },
+      {
+        "name": "natives",
+        "requirements": ">= 0"
       },
       {
         "name": "omnibus",
@@ -5480,7 +5779,7 @@
     "description": "Simple library to shorten the text by the specified length."
   },
   "ohio_state_person": {
-    "version": "0.3.5",
+    "version": "0.3.6",
     "dependents": [
 
     ],
@@ -5517,24 +5816,24 @@
         "requirements": "= 0.1.3"
       },
       {
+        "name": "ohm-clob",
+        "requirements": "~> 1.2.0"
+      },
+      {
         "name": "ohm-composite",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ohm-expire",
+        "requirements": ">= 0.1.5"
       },
       {
         "name": "ohm-contrib",
         "requirements": "~> 1.2"
       },
       {
-        "name": "ohm-clob",
-        "requirements": "~> 1.2.0"
-      },
-      {
         "name": "ohm-identity_map",
         "requirements": ">= 0"
-      },
-      {
-        "name": "ohm-expire",
-        "requirements": ">= 0.1.5"
       },
       {
         "name": "ohm-find_by",
@@ -5719,6 +6018,18 @@
         "requirements": ">= 0"
       },
       {
+        "name": "eyes_selenium",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "eyes_selenium_ruby",
+        "requirements": ">= 1.1.0"
+      },
+      {
+        "name": "gnawrnip",
+        "requirements": ">= 0"
+      },
+      {
         "name": "green_onion",
         "requirements": "~> 1.0.2"
       },
@@ -5759,6 +6070,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "screenpress",
+        "requirements": ">= 0"
+      },
+      {
         "name": "silkscreen",
         "requirements": ">= 0"
       },
@@ -5767,11 +6082,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "spritopia",
+        "name": "spriteous",
         "requirements": ">= 0"
       },
       {
-        "name": "spriteous",
+        "name": "spritopia",
         "requirements": ">= 0"
       },
       {
@@ -5793,11 +6108,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "voluntary",
+        "name": "voluntary_classified_advertisement",
         "requirements": ">= 0"
       },
       {
         "name": "voluntary_text_creation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "voluntary",
         "requirements": ">= 0"
       }
     ],
@@ -5818,7 +6137,7 @@
     "description": "Oinky is an in-memory relational database which can serialize and mount extremely quickly, making it an ideal solution for relational microsharding atop distributed key-value storage."
   },
   "oj": {
-    "version": "2.1.7",
+    "version": "2.4.0",
     "dependents": [
       {
         "name": "active_datastore",
@@ -5849,10 +6168,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bixby-common",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bixby_common",
         "requirements": ">= 0"
       },
@@ -5873,8 +6188,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "catobills",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cinch-twitter",
         "requirements": "~> 2.0.14"
+      },
+      {
+        "name": "classy_assets",
+        "requirements": ">= 0"
       },
       {
         "name": "cnname",
@@ -5897,11 +6220,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "engineyard-cloud-client",
+        "name": "engineyard",
         "requirements": ">= 0"
       },
       {
-        "name": "engineyard",
+        "name": "engineyard-cloud-client",
         "requirements": ">= 0"
       },
       {
@@ -5969,12 +6292,24 @@
         "requirements": "~> 2.1.4"
       },
       {
+        "name": "infobase",
+        "requirements": "~> 2.1.0"
+      },
+      {
         "name": "ironfan",
         "requirements": ">= 1.2"
       },
       {
         "name": "job-bob",
         "requirements": ">= 0"
+      },
+      {
+        "name": "knife-spec",
+        "requirements": "~> 2.1"
+      },
+      {
+        "name": "kounta_rest",
+        "requirements": "~> 2.1.4"
       },
       {
         "name": "legacy-fernet",
@@ -6013,6 +6348,10 @@
         "requirements": ">= 2.0.12"
       },
       {
+        "name": "oauth_consumer",
+        "requirements": ">= 2.1.7"
+      },
+      {
         "name": "odisk",
         "requirements": ">= 0"
       },
@@ -6022,7 +6361,7 @@
       },
       {
         "name": "ontologies_api_client",
-        "requirements": ">= 0"
+        "requirements": "<= 2.0.14"
       },
       {
         "name": "openstack_activeresource",
@@ -6043,6 +6382,10 @@
       {
         "name": "paysio",
         "requirements": "> 2"
+      },
+      {
+        "name": "phish_dot_net_client",
+        "requirements": "~> 2.1.7"
       },
       {
         "name": "pincerna",
@@ -6085,8 +6428,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "redis-cacheable",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rocket_sms",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rox-client-rspec",
+        "requirements": "~> 2.1"
       },
       {
         "name": "rubix",
@@ -6102,7 +6453,7 @@
       },
       {
         "name": "sensu",
-        "requirements": "= 2.1.4"
+        "requirements": "= 2.0.9"
       },
       {
         "name": "seoshop-api",
@@ -6113,12 +6464,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "shoplo-api",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "shydra",
         "requirements": ">= 0"
       },
       {
         "name": "siebel_donations",
         "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "spree_conekta",
+        "requirements": ">= 0"
       },
       {
         "name": "sqlite_object_store",
@@ -6145,10 +6504,6 @@
         "requirements": "~> 2.0.2"
       },
       {
-        "name": "t",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "tbot",
         "requirements": "~> 2.1.4"
       },
@@ -6173,32 +6528,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tmx",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "twitter_kotoba",
         "requirements": "~> 1.3.4"
-      },
-      {
-        "name": "useless-museum",
-        "requirements": "~> 2.0.10"
       },
       {
         "name": "useless-doc",
         "requirements": "~> 2.0.4"
       },
       {
+        "name": "useless-museum",
+        "requirements": "~> 2.0.10"
+      },
+      {
         "name": "useless-wait-list",
         "requirements": "~> 2.0.10"
       },
       {
-        "name": "viki-api",
-        "requirements": ">= 2.0"
-      },
-      {
         "name": "viki_utils",
         "requirements": ">= 2.0.2"
+      },
+      {
+        "name": "viki-api",
+        "requirements": ">= 2.0"
       },
       {
         "name": "visiquery",
@@ -6290,11 +6641,11 @@
     "description": "Lightweight Ruby Hbase Client"
   },
   "okami": {
-    "version": "0.1.5",
+    "version": "0.2.0",
     "dependents": [
 
     ],
-    "description": "Gosu Interface with fancy functionality for simplicity."
+    "description": "Different features like simple image loading, input check, input listeners, and using symbols instead of integers for input ids. Eg. :left instead of Gosu::KbLeft"
   },
   "okapi": {
     "version": "0.1.1",
@@ -6304,7 +6655,7 @@
     "description": "OKApi has been merged into Apiary.io CLI [https://rubygems.org/gems/apiaryio]"
   },
   "okcomputer": {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "dependents": [
       {
         "name": "okcomputer-newrelic-ignore",
@@ -6399,6 +6750,13 @@
 
     ],
     "description": "A ruby wrapper for OK Venue's public API"
+  },
+  "ola": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Uma simples alô mundo gem"
   },
   "olabini-log4j": {
     "version": "1.2.17",
@@ -6550,7 +6908,7 @@
     "description": "Some helper methods for dealing with OLE objects"
   },
   "ole-qa-framework": {
-    "version": "3.0.0",
+    "version": "3.5.0",
     "dependents": [
 
     ],
@@ -6601,6 +6959,16 @@
     ],
     "description": "Fork of God - God is an easy to configure, easy to extend monitoring framework written in Ruby."
   },
+  "olgen-rchardet": {
+    "version": "1.3.3",
+    "dependents": [
+      {
+        "name": "csv-format-guesser",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Character encoding auto-detection in Ruby. This library is a port of the auto-detection code in Mozilla. It means taking a sequence of bytes in an unknown character encoding, and attempting to determine the encoding so you can read the text. It’s like cracking a code when you don’t have the decryption key."
+  },
   "ols": {
     "version": "0.3.4",
     "dependents": [
@@ -6642,7 +7010,7 @@
       },
       {
         "name": "hydra",
-        "requirements": "~> 3.0.1"
+        "requirements": "~> 3.0.3"
       },
       {
         "name": "rubyhorn",
@@ -6650,7 +7018,7 @@
       },
       {
         "name": "solr_ead",
-        "requirements": ">= 0"
+        "requirements": "~> 3.0.0"
       }
     ],
     "description": "OM (Opinionated Metadata): A library to help you tame sprawling XML schemas like MODS.  Wraps Nokogiri documents in objects with miscellaneous helper methods for doing things like retrieve generated xpath queries or look up properties based on a simplified DSL"
@@ -6661,6 +7029,13 @@
 
     ],
     "description": "Communicate with OpenSRS' Email Platform using the OMA protocol"
+  },
+  "omah": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "Offline Mail Helper: Stores email messages in a file directory archive"
   },
   "omakase": {
     "version": "0.0.2",
@@ -6677,7 +7052,7 @@
     "description": "\"just a hello world gem\""
   },
   "omdb": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "dependents": [
 
     ],
@@ -6792,11 +7167,11 @@
     "description": "Experiment controller of OMF, a generic framework for controlling and managing networking testbeds."
   },
   "omf_oml": {
-    "version": "0.9.9",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "omf_web",
-        "requirements": "~> 0.9"
+        "requirements": "~> 1.0"
       }
     ],
     "description": "Glue functionality between OMF and OMF related libraries, such as OMF Web and Labwiki, and\n    OML."
@@ -6812,7 +7187,7 @@
     "description": "Resource controller of OMF, a generic framework for controlling and managing networking testbeds."
   },
   "omf_rc_shm": {
-    "version": "0.1.11",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -6826,7 +7201,7 @@
     "description": "Tuple store with query and filter functionality."
   },
   "omf_web": {
-    "version": "0.9.9",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -6920,11 +7295,11 @@
     "version": "1.17.5",
     "dependents": [
       {
-        "name": "omikronn-resque-mongo-groups",
+        "name": "omikronn-resque-mongo-scheduler",
         "requirements": ">= 1.17"
       },
       {
-        "name": "omikronn-resque-mongo-scheduler",
+        "name": "omikronn-resque-mongo-groups",
         "requirements": ">= 1.17"
       }
     ],
@@ -6959,14 +7334,14 @@
     "description": "Provides a rails app with a way of displaying and controlling warnings to users"
   },
   "oml4r": {
-    "version": "2.9.6",
+    "version": "2.10.0",
     "dependents": [
       {
         "name": "omf_common",
         "requirements": "~> 2.9.5"
       }
     ],
-    "description": "[\"Simple OML client library for Ruby\"]"
+    "description": "[\"Simple OML client library and applications for Ruby\"]"
   },
   "omloga": {
     "version": "0.0.2",
@@ -7012,12 +7387,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "auth0",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "auth-transis-client",
         "requirements": ">= 0"
+      },
+      {
+        "name": "auth0",
+        "requirements": "~> 1.0"
       },
       {
         "name": "auth_users",
@@ -7038,6 +7413,10 @@
       {
         "name": "blti_omniauth",
         "requirements": "~> 0.2.6"
+      },
+      {
+        "name": "bucket-cli",
+        "requirements": ">= 0"
       },
       {
         "name": "centro-client",
@@ -7081,6 +7460,10 @@
       },
       {
         "name": "frame",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gallery",
         "requirements": ">= 0"
       },
       {
@@ -7172,12 +7555,12 @@
         "requirements": ">= 0.2.0.beta4"
       },
       {
-        "name": "oa-pubcookie",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "oa-vkontakte_alexandrov",
         "requirements": ">= 0.2.0.beta4"
+      },
+      {
+        "name": "oa-pubcookie",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "oauth2-baidu",
@@ -7196,15 +7579,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-account",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-active_passport",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-allied_modders",
+        "name": "omniauth-account",
         "requirements": "~> 1.0"
       },
       {
@@ -7212,11 +7591,15 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-appdotnet",
+        "name": "omniauth-allied_modders",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-amazon",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-appdotnet",
         "requirements": "~> 1.0"
       },
       {
@@ -7228,8 +7611,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-assembla",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-atech",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-betable",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-baidu-social",
@@ -7237,11 +7628,11 @@
       },
       {
         "name": "omniauth-bitbucket",
-        "requirements": "~> 1.0"
+        "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-betable",
-        "requirements": ">= 0"
+        "name": "omniauth-bitcasa",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-bluevia",
@@ -7252,7 +7643,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-buffer2",
+        "name": "omniauth-box2",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-broadworks",
         "requirements": "~> 1.0"
       },
       {
@@ -7260,11 +7655,15 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-browserid",
+        "name": "omniauth-buffer2",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-box2",
+        "name": "omniauth-cas",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "omniauth-browserid",
         "requirements": "~> 1.0"
       },
       {
@@ -7276,16 +7675,8 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-broadworks",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-cas",
-        "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "omniauth-centro",
-        "requirements": ">= 0"
+        "name": "omniauth-cas-login",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-cheddar",
@@ -7296,7 +7687,19 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-centro",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-constantcontact2",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-cloud66",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-comeeting",
         "requirements": "~> 1.0"
       },
       {
@@ -7304,28 +7707,8 @@
         "requirements": "~> 1.1.4"
       },
       {
-        "name": "omniauth-comeeting",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-constantcontact2",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-douban",
-        "requirements": "~> 1.1.0"
-      },
-      {
         "name": "omniauth-dbdc",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-do",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-deezer",
-        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-dbc",
@@ -7336,6 +7719,10 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-deezer",
+        "requirements": "~> 1.0.0"
+      },
+      {
         "name": "omniauth-deviantart",
         "requirements": "~> 1.0"
       },
@@ -7344,15 +7731,23 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-do",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-douban",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "omniauth-dwolla",
         "requirements": "~> 1.1.4"
       },
       {
-        "name": "omniauth-dropbox2",
+        "name": "omniauth-ebay",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-ebay",
+        "name": "omniauth-dropbox2",
         "requirements": "~> 1.0"
       },
       {
@@ -7360,20 +7755,20 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-etsy",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-etrade",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-etsy",
+        "name": "omniauth-exvo",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-eyeem",
         "requirements": "~> 1.1"
-      },
-      {
-        "name": "omniauth-exvo",
-        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-facebook-access-token",
@@ -7384,15 +7779,15 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-foursquare",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-force",
         "requirements": "~> 0.2"
       },
       {
         "name": "omniauth-freeagent",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-foursquare",
         "requirements": "~> 1.0"
       },
       {
@@ -7408,14 +7803,6 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-google-api",
-        "requirements": "~> 1.0.0"
-      },
-      {
-        "name": "omniauth-google-oauth2",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-google-apps",
         "requirements": "~> 1.0"
       },
@@ -7424,7 +7811,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-google_oauth2",
+        "name": "omniauth-google-api",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "omniauth-google-oauth2",
         "requirements": "~> 1.0"
       },
       {
@@ -7432,20 +7823,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-google_oauth2",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-googlefederated",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-groupme",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-gust",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-healthvault",
-        "requirements": "~> 1.1.0"
       },
       {
         "name": "omniauth-heroku",
@@ -7456,11 +7843,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-http-basic",
-        "requirements": "~> 1.0"
+        "name": "omniauth-healthvault",
+        "requirements": "~> 1.1.0"
       },
       {
-        "name": "omniauth-human-api",
+        "name": "omniauth-http-basic",
         "requirements": "~> 1.0"
       },
       {
@@ -7468,8 +7855,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-human-api",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-identity",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-idnet",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-imagerelay",
@@ -7484,11 +7879,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-jira",
+        "name": "omniauth-jawbone",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-jawbone",
+        "name": "omniauth-jira",
         "requirements": "~> 1.0"
       },
       {
@@ -7504,14 +7899,6 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-klout",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-kongregate",
-        "requirements": "~> 1.1.1"
-      },
-      {
         "name": "omniauth-khan-academy",
         "requirements": "~> 1.0"
       },
@@ -7520,7 +7907,19 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-kongregate",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "omniauth-klout",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-krb5",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-ldap",
         "requirements": "~> 1.0"
       },
       {
@@ -7532,15 +7931,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-ldap",
+        "name": "omniauth-linkedin-oauth2",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-linuxfr",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-linkedin-oauth2",
         "requirements": "~> 1.0"
       },
       {
@@ -7556,6 +7951,10 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-meetup",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-mindvalley",
         "requirements": "~> 1.1.0"
       },
@@ -7568,15 +7967,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-meetup",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-mojeid",
-        "requirements": "~> 1.1.4"
-      },
-      {
-        "name": "omniauth-mixi",
+        "name": "omniauth-moves",
         "requirements": "~> 1.0"
       },
       {
@@ -7584,7 +7975,11 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-moves",
+        "name": "omniauth-mojeid",
+        "requirements": "~> 1.1.4"
+      },
+      {
+        "name": "omniauth-mixi",
         "requirements": "~> 1.0"
       },
       {
@@ -7604,11 +7999,15 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-oauth",
+        "name": "omniauth-notes",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-oauth2",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-oauth",
         "requirements": "~> 1.0"
       },
       {
@@ -7624,6 +8023,14 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-oyoh",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-opscode",
+        "requirements": "> 1.0"
+      },
+      {
         "name": "omniauth-orcid",
         "requirements": "~> 1.0"
       },
@@ -7636,16 +8043,8 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-oyoh",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-password",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-opscode",
-        "requirements": "> 1.0"
       },
       {
         "name": "omniauth-persona",
@@ -7656,11 +8055,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-photobucket",
+        "name": "omniauth-picplz",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-picplz",
+        "name": "omniauth-photobucket",
         "requirements": "~> 1.0"
       },
       {
@@ -7668,11 +8067,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-podio",
+        "name": "omniauth-pocket",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-pocket",
+        "name": "omniauth-podio",
         "requirements": "~> 1.0"
       },
       {
@@ -7680,11 +8079,19 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-quantime",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-qq-connect",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-quantime",
+        "name": "omniauth-qzone",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-raven",
         "requirements": "~> 1.0"
       },
       {
@@ -7692,19 +8099,7 @@
         "requirements": "~> 1.0.0.rc2"
       },
       {
-        "name": "omniauth-qzone",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-radius",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-ravelry",
-        "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "omniauth-raven",
         "requirements": "~> 1.0"
       },
       {
@@ -7712,20 +8107,24 @@
         "requirements": "~> 1.0.0.rc2"
       },
       {
-        "name": "omniauth-realgravity",
-        "requirements": "~> 1.1.4"
-      },
-      {
-        "name": "omniauth-resourceguru",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-readmill",
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-realgravity",
+        "requirements": "~> 1.1.4"
+      },
+      {
         "name": "omniauth-renren-oauth2",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-ravelry",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "omniauth-resourceguru",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-roomorama",
@@ -7733,6 +8132,10 @@
       },
       {
         "name": "omniauth-rewardstyle",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-salesforce",
         "requirements": "~> 1.0"
       },
       {
@@ -7744,10 +8147,6 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-salesforce",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-saml-rstr",
         "requirements": "~> 1.0"
       },
@@ -7756,12 +8155,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-shibboleth",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "omniauth-shopify",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-shibboleth",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "omniauth-singly",
@@ -7776,11 +8175,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-socialcast-oauth2",
+        "name": "omniauth-snowflake",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-snowflake",
+        "name": "omniauth-socialcast-oauth2",
         "requirements": "~> 1.0"
       },
       {
@@ -7792,7 +8191,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-stripe-platform",
+        "name": "omniauth-strava",
         "requirements": "~> 1.0"
       },
       {
@@ -7800,7 +8199,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-strava",
+        "name": "omniauth-stripe-platform",
         "requirements": "~> 1.0"
       },
       {
@@ -7812,7 +8211,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-tapjoy",
+        "name": "omniauth-surveymonkey2",
         "requirements": "~> 1.0"
       },
       {
@@ -7820,7 +8219,7 @@
         "requirements": "~> 1.1.4"
       },
       {
-        "name": "omniauth-tenzing",
+        "name": "omniauth-tapjoy",
         "requirements": "~> 1.0"
       },
       {
@@ -7828,27 +8227,47 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-thingiverse",
-        "requirements": "> 0"
+        "name": "omniauth-tenzing",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-tqq-oauth2",
-        "requirements": "~> 1.0"
+        "name": "omniauth-tequila",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "omniauth-tent",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-tripit",
+        "name": "omniauth-thingiverse",
+        "requirements": "> 0"
+      },
+      {
+        "name": "omniauth-ticketbud",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-toshl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tradegecko",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-tqq-oauth2",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-trello",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-tradegecko",
+        "name": "omniauth-tripit",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tropo",
         "requirements": "~> 1.0"
       },
       {
@@ -7856,7 +8275,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-tropo",
+        "name": "omniauth-twitch_oauth2",
         "requirements": "~> 1.0"
       },
       {
@@ -7868,16 +8287,16 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-twitch_oauth2",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-unbounce",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-venmo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-untappd",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-vkontakte",
@@ -7888,11 +8307,7 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-wechat",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-withings",
+        "name": "omniauth-weibo-oauth2",
         "requirements": "~> 1.0"
       },
       {
@@ -7900,7 +8315,19 @@
         "requirements": "~> 1.0.0.rc2"
       },
       {
-        "name": "omniauth-weibo-oauth2",
+        "name": "omniauth-wechat",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-weixin",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-wepay",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-withings",
         "requirements": "~> 1.0"
       },
       {
@@ -7908,7 +8335,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-wepay",
+        "name": "omniauth-groupme",
         "requirements": "~> 1.0"
       },
       {
@@ -7932,12 +8359,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-yubikey",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-zendesk",
         "requirements": "> 1.0"
+      },
+      {
+        "name": "omniauth-yubikey",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth_crowd",
@@ -7948,11 +8375,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omnigollum-bibanon",
-        "requirements": ">= 0"
+        "name": "omniauth_neteasy_oauth2",
+        "requirements": "~> 1.1.4"
       },
       {
         "name": "omnigollum",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omnigollum-bibanon",
         "requirements": ">= 0"
       },
       {
@@ -8060,6 +8491,10 @@
         "requirements": "~> 1.1.3"
       },
       {
+        "name": "trusty",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tumblr_rails",
         "requirements": "~> 1.1.0"
       },
@@ -8088,12 +8523,12 @@
         "requirements": "= 1.0.3"
       },
       {
-        "name": "warden_omniauth-jonrowe",
-        "requirements": "~> 1.1.1"
-      },
-      {
         "name": "warden_omniauth",
         "requirements": ">= 0"
+      },
+      {
+        "name": "warden_omniauth-jonrowe",
+        "requirements": "~> 1.1.1"
       }
     ],
     "description": "A generalized Rack framework for multiple-provider authentication."
@@ -8113,7 +8548,7 @@
     "description": "OmniAuth strategy for 37signals."
   },
   "omniauth-500px": {
-    "version": "0.1.0",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -8217,6 +8652,13 @@
     ],
     "description": "Omniauth Strategy for App.net"
   },
+  "omniauth-aqua": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for Aqua.io"
+  },
   "omniauth-arcgis": {
     "version": "0.1.1",
     "dependents": [
@@ -8230,6 +8672,13 @@
 
     ],
     "description": "Official OmniAuth strategy for Asana."
+  },
+  "omniauth-assembla": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for Assembla"
   },
   "omniauth-atech": {
     "version": "1.0.0",
@@ -8308,11 +8757,18 @@
     "description": "Betable strategy for OmniAuth."
   },
   "omniauth-bitbucket": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "OmniAuth strategy for Bitbucket."
+  },
+  "omniauth-bitcasa": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Unofficial OmniAuth strategy for Bitcasa."
   },
   "omniauth-bitly": {
     "version": "0.0.6",
@@ -8419,6 +8875,13 @@
     ],
     "description": "CAS Strategy for OmniAuth"
   },
+  "omniauth-cas-login": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for CAS Login"
+  },
   "omniauth-casenex": {
     "version": "0.6",
     "dependents": [
@@ -8502,6 +8965,13 @@
 
     ],
     "description": "OmniAuth strategy for co-meeting."
+  },
+  "omniauth-comrade": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Comrade strategy for OmniAuth 1.x"
   },
   "omniauth-concur": {
     "version": "0.0.1",
@@ -8630,11 +9100,18 @@
     "description": "an omniauth strategy for douban"
   },
   "omniauth-douban-oauth2": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
     "description": "OmniAuth OAuth2 strategy for Douban."
+  },
+  "omniauth-doximity": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Omniauth Strategy for Doximity"
   },
   "omniauth-droom": {
     "version": "0.1.2",
@@ -8749,7 +9226,7 @@
     "description": "Omniauth Strategy for EyeEm"
   },
   "omniauth-facebook": {
-    "version": "1.4.1",
+    "version": "1.5.1",
     "dependents": [
       {
         "name": "auth_users",
@@ -8769,7 +9246,7 @@
       },
       {
         "name": "contour",
-        "requirements": "~> 1.4.1"
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "devise-omniauth",
@@ -8785,6 +9262,10 @@
       },
       {
         "name": "frame",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gallery",
         "requirements": ">= 0"
       },
       {
@@ -8890,7 +9371,10 @@
   "omniauth-fitbit": {
     "version": "1.0.2",
     "dependents": [
-
+      {
+        "name": "fitbit-omni-api",
+        "requirements": "~> 1.0"
+      }
     ],
     "description": "OmniAuth strategy for Fitbit"
   },
@@ -8909,11 +9393,18 @@
     "description": "Official OmniAuth strategy for Flattr."
   },
   "omniauth-flickr": {
-    "version": "0.0.11",
+    "version": "0.0.13",
     "dependents": [
 
     ],
     "description": "OmniAuth strategy for Flickr"
+  },
+  "omniauth-flowdock": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Flowdock OAuth 2.0 Strategy for OmniAuth"
   },
   "omniauth-foco": {
     "version": "0.0.5",
@@ -8951,7 +9442,7 @@
     "description": "OmniAuth OAuth2 strategy for FreeAgent."
   },
   "omniauth-freshbooks": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -8965,11 +9456,11 @@
     "description": "The Official Fullscreen OAuth2 strategy"
   },
   "omniauth-gds": {
-    "version": "0.0.4",
+    "version": "3.0.0",
     "dependents": [
       {
         "name": "gds-sso",
-        "requirements": "~> 0.0.3"
+        "requirements": ">= 3.0.0"
       }
     ],
     "description": " Omniauth strategy for GDS oauth2 provider "
@@ -9150,6 +9641,10 @@
       },
       {
         "name": "frame",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gallery",
         "requirements": ">= 0"
       },
       {
@@ -9361,6 +9856,13 @@
     ],
     "description": "ID.me strategy for OmniAuth"
   },
+  "omniauth-idnet": {
+    "version": "0.0.10",
+    "dependents": [
+
+    ],
+    "description": "Official OmniAuth strategy for IdNet."
+  },
   "omniauth-imagerelay": {
     "version": "1.0.0",
     "dependents": [
@@ -9522,6 +10024,13 @@
     ],
     "description": "Kerberos strategy for OmniAuth."
   },
+  "omniauth-kwanso": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Kwanso strategy for OmniAuth 1.x"
+  },
   "omniauth-lastfm": {
     "version": "0.0.5",
     "dependents": [
@@ -9535,6 +10044,13 @@
 
     ],
     "description": "Latvija.lv authentication strategy for OmniAuth"
+  },
+  "omniauth-launchkey": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for LaunchKey"
   },
   "omniauth-layervault": {
     "version": "1.0.0",
@@ -9580,7 +10096,7 @@
     "description": "LinkedIn strategy for OmniAuth."
   },
   "omniauth-linkedin-oauth2": {
-    "version": "0.1.1",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -9620,6 +10136,13 @@
 
     ],
     "description": "OmniAuth strategy for providing LTI authentication to an OmniAuth application"
+  },
+  "omniauth-magento": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Omniauth strategy for Magento"
   },
   "omniauth-mailchimp": {
     "version": "1.0.3",
@@ -9866,15 +10389,18 @@
     ],
     "description": "OmniAuth Strategy for nk.pl using OAuth2"
   },
+  "omniauth-notes": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Omniauth strategies for Notes Platform"
+  },
   "omniauth-oauth": {
     "version": "1.0.1",
     "dependents": [
       {
         "name": "fatsecret-omniauth",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "fitbit-omni-api",
         "requirements": "~> 1.0"
       },
       {
@@ -9926,6 +10452,10 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-desk",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-douban",
         "requirements": "~> 1.0.1"
       },
@@ -9934,11 +10464,11 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-desk",
+        "name": "omniauth-dropbox",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-dropbox",
+        "name": "omniauth-etsy",
         "requirements": "~> 1.0"
       },
       {
@@ -9947,10 +10477,6 @@
       },
       {
         "name": "omniauth-evernote",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-etsy",
         "requirements": "~> 1.0"
       },
       {
@@ -9966,11 +10492,11 @@
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "omniauth-fitbit",
+        "name": "omniauth-flickr",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-flickr",
+        "name": "omniauth-fitbit",
         "requirements": "~> 1.0"
       },
       {
@@ -9998,16 +10524,16 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-idcard",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-humanapi",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-hyves",
         "requirements": "~> 1.0.1"
-      },
-      {
-        "name": "omniauth-idcard",
-        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-immobilienscout24",
@@ -10018,12 +10544,12 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-justintv",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "omniauth-jira",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-justintv",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-lastfm",
@@ -10034,6 +10560,18 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-magento",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-mapmyride",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-mapmyrun",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-mapmyfitness",
         "requirements": ">= 0"
       },
@@ -10042,15 +10580,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-mapmyride",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-mapmytri",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-mapmyrun",
         "requirements": ">= 0"
       },
       {
@@ -10082,12 +10612,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-namba",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "omniauth-nate",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-namba",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-netflix",
@@ -10122,47 +10652,47 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-ravelry",
-        "requirements": "~> 1.0.1"
+        "name": "omniauth-readability",
+        "requirements": "~> 1.0.0.rc2"
       },
       {
         "name": "omniauth-rdio",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-readability",
-        "requirements": "~> 1.0.0.rc2"
-      },
-      {
-        "name": "omniauth-shapeways",
-        "requirements": ">= 0"
+        "name": "omniauth-ravelry",
+        "requirements": "~> 1.0.1"
       },
       {
         "name": "omniauth-sense",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-smugmug",
-        "requirements": "~> 1.0.1"
-      },
-      {
-        "name": "omniauth-tripit",
+        "name": "omniauth-shapeways",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-trello",
-        "requirements": "~> 1.0"
+        "name": "omniauth-smugmug",
+        "requirements": "~> 1.0.1"
       },
       {
         "name": "omniauth-tradeking",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-tumblr2",
+        "name": "omniauth-trello",
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-tripit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "omniauth-tumblr",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-tumblr2",
         "requirements": "~> 1.0"
       },
       {
@@ -10174,19 +10704,15 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-vocabulario",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-weibo",
         "requirements": "~> 1.0.0.rc2"
       },
       {
-        "name": "omniauth-xero",
+        "name": "omniauth-vocabulario",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-yahoo",
+        "name": "omniauth-xero",
         "requirements": "~> 1.0"
       },
       {
@@ -10194,11 +10720,15 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-zaim",
+        "name": "omniauth-yahoo",
         "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-youroom",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-zaim",
         "requirements": "~> 1.0"
       }
     ],
@@ -10208,12 +10738,12 @@
     "version": "1.1.1",
     "dependents": [
       {
-        "name": "auth0",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "auth-transis-client",
         "requirements": ">= 0"
+      },
+      {
+        "name": "auth0",
+        "requirements": "~> 1.0"
       },
       {
         "name": "centro-client",
@@ -10264,12 +10794,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-academiaedu",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "omniauth-accounts",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-academiaedu",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-active_passport",
@@ -10284,24 +10814,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-appdotnet",
-        "requirements": "~> 1.0"
+        "name": "omniauth-angellist",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-amazon",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-angellist",
-        "requirements": "~> 1.1"
+        "name": "omniauth-appdotnet",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-aqua",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-arcgis",
         "requirements": ">= 1.1.1"
-      },
-      {
-        "name": "omniauth-authic",
-        "requirements": ">= 1.0.2"
       },
       {
         "name": "omniauth-appnet",
@@ -10312,11 +10842,7 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-atech",
-        "requirements": "~> 1.1"
-      },
-      {
-        "name": "omniauth-baidu-social",
+        "name": "omniauth-assembla",
         "requirements": "~> 1.0"
       },
       {
@@ -10324,55 +10850,91 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "omniauth-basecamp",
-        "requirements": "~> 1.0.0"
+        "name": "omniauth-atech",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-beeminder",
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "omniauth-bitly",
-        "requirements": "~> 1.1.0"
+        "name": "omniauth-basecamp",
+        "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-buffer2",
+        "name": "omniauth-authic",
+        "requirements": ">= 1.0.2"
+      },
+      {
+        "name": "omniauth-baidu-social",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-bitcasa",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-braveid",
-        "requirements": "~> 1.0"
+        "name": "omniauth-bitly",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "omniauth-buffer",
         "requirements": "~> 1.0.2"
       },
       {
-        "name": "omniauth-canvas",
+        "name": "omniauth-braveid",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-centro",
-        "requirements": ">= 0"
+        "name": "omniauth-buffer2",
+        "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-cheddar",
-        "requirements": "~> 1.1"
+        "name": "omniauth-canvas",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-casenex",
         "requirements": "~> 1.0.2"
       },
       {
-        "name": "omniauth-clef",
+        "name": "omniauth-cheddar",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-cisimple",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-centro",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-clio",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-clever",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-cisimple",
+        "name": "omniauth-clef",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-cmply",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "omniauth-constantcontact2",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-cloud66",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-comeeting",
         "requirements": "~> 1.1"
       },
       {
@@ -10380,51 +10942,31 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-cloud66",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-clio",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-cmply",
-        "requirements": "~> 1.1.0"
-      },
-      {
         "name": "omniauth-cloudsdale",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-comeeting",
-        "requirements": "~> 1.1"
+        "name": "omniauth-comrade",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-creatary",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-constantcontact2",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-createsend",
-        "requirements": "~> 1.1"
+        "name": "omniauth-dailymotion",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-credport",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-dailymotion",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "omniauth-dbdc",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-do",
+        "name": "omniauth-createsend",
         "requirements": "~> 1.1"
       },
       {
@@ -10440,7 +10982,7 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-droom",
+        "name": "omniauth-do",
         "requirements": "~> 1.1"
       },
       {
@@ -10448,19 +10990,11 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-droom",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "omniauth-dwolla",
-        "requirements": "~> 1.1.1"
-      },
-      {
-        "name": "omniauth-empireavenue",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-eventbrite",
-        "requirements": "~> 1.0.0"
-      },
-      {
-        "name": "omniauth-emma",
         "requirements": "~> 1.1.1"
       },
       {
@@ -10468,28 +11002,40 @@
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-everyplay",
-        "requirements": "~> 1.1.0"
+        "name": "omniauth-empireavenue",
+        "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-eyeem",
-        "requirements": "~> 1.1"
+        "name": "omniauth-emma",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "omniauth-eventbrite",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "omniauth-everyplay",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "omniauth-exvo",
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-eyeem",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "omniauth-facebook",
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "omniauth-familysearch",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-fidbacks",
         "requirements": "~> 1.0.2"
+      },
+      {
+        "name": "omniauth-familysearch",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-flattr",
@@ -10500,16 +11046,20 @@
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-foursquare",
-        "requirements": "~> 1.0"
+        "name": "omniauth-flowdock",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-fullscreen",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-freeagent",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-fullscreen",
-        "requirements": ">= 0"
+        "name": "omniauth-foursquare",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-gds",
@@ -10520,12 +11070,12 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-geoloqi",
-        "requirements": ">= 1.0.0"
-      },
-      {
         "name": "omniauth-github",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-geoloqi",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "omniauth-gocardless",
@@ -10544,20 +11094,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-google_oauth2",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-google-oauth2-moses",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-groupme",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-gplus",
-        "requirements": "~> 1.1"
+        "name": "omniauth-google_oauth2",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-granicus",
@@ -10568,16 +11110,24 @@
         "requirements": "~> 1.1"
       },
       {
+        "name": "omniauth-gplus",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "omniauth-gust",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-hackid",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-harvest",
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-hackid",
-        "requirements": "~> 1.1"
+        "name": "omniauth-heroku",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-healpay",
@@ -10588,19 +11138,19 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-heroku",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-human-api",
-        "requirements": "~> 1.0"
+        "name": "omniauth-icis",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-humanapi",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-icis",
+        "name": "omniauth-human-api",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-idnet",
         "requirements": "~> 1.1"
       },
       {
@@ -10612,12 +11162,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-inbloom",
-        "requirements": "~> 1.1"
-      },
-      {
         "name": "omniauth-instagram",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-inbloom",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-jawbone",
@@ -10636,16 +11186,28 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-kwanso",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "omniauth-launchkey",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "omniauth-layervault",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-linkedin-oauth2",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-linuxfr",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-linkedin-oauth2",
-        "requirements": ">= 0"
+        "name": "omniauth-loctouch",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-lockitron",
@@ -10656,24 +11218,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-loctouch",
-        "requirements": "~> 1.0"
+        "name": "omniauth-mailup",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "omniauth-mailru",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-mailup",
-        "requirements": "~> 1.1.0"
+        "name": "omniauth-mhealth",
+        "requirements": "~> 1.0.2"
+      },
+      {
+        "name": "omniauth-meetup",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-mention",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-mhealth",
-        "requirements": "~> 1.0.2"
       },
       {
         "name": "omniauth-mindvalley",
@@ -10684,32 +11246,28 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-meetup",
+        "name": "omniauth-moves",
         "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-mixi",
-        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-msunet",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-moves",
-        "requirements": "~> 1.0"
+        "name": "omniauth-mixi",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-mydigipass",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-myheritage",
-        "requirements": "~> 1.0.0"
-      },
-      {
         "name": "omniauth-myob",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-myheritage",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-nimble",
@@ -10717,6 +11275,10 @@
       },
       {
         "name": "omniauth-nk",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-notes",
         "requirements": "~> 1.0"
       },
       {
@@ -10736,6 +11298,10 @@
         "requirements": "~> 1.1"
       },
       {
+        "name": "omniauth-oyoh",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "omniauth-orcid",
         "requirements": "~> 1.1"
       },
@@ -10745,10 +11311,6 @@
       },
       {
         "name": "omniauth-pachube",
-        "requirements": "~> 1.0"
-      },
-      {
-        "name": "omniauth-oyoh",
         "requirements": "~> 1.0"
       },
       {
@@ -10768,10 +11330,6 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-podio",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-pocket",
         "requirements": "~> 1.0"
       },
@@ -10780,12 +11338,20 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-putio",
-        "requirements": "~> 1.1.1"
+        "name": "omniauth-podio",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-pop-up-talent",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-protons",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-putio",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-qq",
@@ -10796,35 +11362,23 @@
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "omniauth-qq-connect",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-quantime",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-quizlet",
-        "requirements": "~> 1.0.0.rc2"
+        "name": "omniauth-qq-connect",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-qzone",
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-quizlet",
+        "requirements": "~> 1.0.0.rc2"
+      },
+      {
         "name": "omniauth-radius",
-        "requirements": "~> 1.1"
-      },
-      {
-        "name": "omniauth-redu",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-realgravity",
-        "requirements": "~> 1.1.1"
-      },
-      {
-        "name": "omniauth-resourceguru",
         "requirements": "~> 1.1"
       },
       {
@@ -10832,7 +11386,19 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-realgravity",
+        "requirements": "~> 1.1.1"
+      },
+      {
         "name": "omniauth-renren-oauth2",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-redu",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-resourceguru",
         "requirements": "~> 1.1"
       },
       {
@@ -10856,12 +11422,8 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-shopqi",
-        "requirements": ">= 0"
-      },
-      {
         "name": "omniauth-shopify-oauth2",
-        "requirements": "~> 1.1.0"
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-singly",
@@ -10872,35 +11434,43 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-smartcloud",
-        "requirements": "~> 1.1"
-      },
-      {
         "name": "omniauth-smailex",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-socialcast-oauth2",
-        "requirements": ">= 0"
+        "name": "omniauth-smartcloud",
+        "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-snowflake",
-        "requirements": "~> 1.1"
+        "name": "omniauth-shopqi",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-socialstream",
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-soundcloud",
-        "requirements": "~> 1.1.0"
+        "name": "omniauth-snowflake",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-socialcast-oauth2",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-stackexchange",
         "requirements": "~> 1.0"
       },
       {
+        "name": "omniauth-soundcloud",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "omniauth-stackoverflow",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "omniauth-stackoverflow-new",
         "requirements": "~> 1.1.1"
       },
       {
@@ -10908,8 +11478,12 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "omniauth-stackoverflow-new",
-        "requirements": "~> 1.1.1"
+        "name": "omniauth-strava",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-stripe-connect",
+        "requirements": ">= 1.0.3"
       },
       {
         "name": "omniauth-stormz",
@@ -10920,19 +11494,15 @@
         "requirements": ">= 1.0.3"
       },
       {
-        "name": "omniauth-stripe-connect",
-        "requirements": ">= 1.0.3"
-      },
-      {
-        "name": "omniauth-strava",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-surveymonkey",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-tapjoy",
+        "name": "omniauth-svpply",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-surveymonkey2",
         "requirements": ">= 0"
       },
       {
@@ -10940,8 +11510,12 @@
         "requirements": "~> 1.1.1"
       },
       {
-        "name": "omniauth-svpply",
-        "requirements": "~> 1.1"
+        "name": "omniauth-tapjoy",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tendril",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "omniauth-taskrabbit",
@@ -10952,23 +11526,31 @@
         "requirements": "~> 1.1"
       },
       {
+        "name": "omniauth-thecity",
+        "requirements": "~> 1.1.1"
+      },
+      {
         "name": "omniauth-thingiverse",
         "requirements": "> 0"
       },
       {
-        "name": "omniauth-tendril",
-        "requirements": "~> 1.0.0"
+        "name": "omniauth-ticketbud",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-toshl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-tradegecko",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-tqq-oauth2",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-thecity",
-        "requirements": "~> 1.1.1"
-      },
-      {
-        "name": "omniauth-tradegecko",
+        "name": "omniauth-tradier",
         "requirements": "~> 1.1"
       },
       {
@@ -10980,36 +11562,40 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-txssc",
-        "requirements": "~> 1.1.1"
+        "name": "omniauth-twingl",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-twitchtv",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-twingl",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-twitch_oauth2",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-txssc",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth-unbounce",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-venmo",
-        "requirements": "~> 1.1"
-      },
-      {
         "name": "omniauth-unipass",
         "requirements": "~> 1.0.0"
       },
       {
+        "name": "omniauth-venmo",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "omniauth-untappd",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "omniauth-viadeo",
-        "requirements": "~> 1.0.0"
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "omniauth-vkontakte",
@@ -11020,44 +11606,60 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-wechat",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "omniauth-weibo-oauth2",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-windowslive",
+        "name": "omniauth-wechat",
         "requirements": "~> 1.0"
       },
       {
-        "name": "omniauth-workmate",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "omniauth-wordpress",
-        "requirements": "~> 1.1.0"
+        "name": "omniauth-weixin",
+        "requirements": "~> 1.1"
       },
       {
         "name": "omniauth-wepay",
         "requirements": "~> 1.1"
       },
       {
+        "name": "omniauth-windowslive",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-wordpress",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "omniauth-workmate",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth-groupme",
+        "requirements": "~> 1.0"
+      },
+      {
+        "name": "omniauth-workship",
+        "requirements": "~> 1.1.1"
+      },
+      {
         "name": "omniauth-workxp",
         "requirements": "~> 1.1"
       },
       {
-        "name": "omniauth-xiaonei",
-        "requirements": ">= 0"
+        "name": "omniauth-workweek",
+        "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "omniauth-yandex",
+        "requirements": "~> 1.0"
       },
       {
         "name": "omniauth-yammer",
         "requirements": ">= 1.1"
       },
       {
-        "name": "omniauth-yandex",
-        "requirements": "~> 1.0"
+        "name": "omniauth-xiaonei",
+        "requirements": ">= 0"
       },
       {
         "name": "omniauth-yahoojp",
@@ -11076,8 +11678,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "omniauth-zenpayroll",
+        "requirements": "~> 1.1.1"
+      },
+      {
         "name": "omniauth_dailycred",
         "requirements": ">= 0"
+      },
+      {
+        "name": "omniauth_neteasy_oauth2",
+        "requirements": "~> 1.1.1"
       },
       {
         "name": "omniauth_elibri",
@@ -11197,11 +11807,11 @@
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "omniauth-steam-nitrogs",
+        "name": "omniauth-steam",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-steam",
+        "name": "omniauth-steam-nitrogs",
         "requirements": ">= 0"
       },
       {
@@ -11240,7 +11850,7 @@
     "description": "Official OmniAuth OAuth 2 strategy for Origo."
   },
   "omniauth-osm": {
-    "version": "0.3.0",
+    "version": "0.3.2",
     "dependents": [
 
     ],
@@ -11261,11 +11871,11 @@
     "description": "OmniAuth2 strategy for Pachube"
   },
   "omniauth-pam": {
-    "version": "1.1.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
-    "description": "A PAM strategy for OmniAuth."
+    "description": "An OmniAuth strategy to allow you to authenticate against Pluggable Authentication Modules (PAM)."
   },
   "omniauth-parse": {
     "version": "0.0.1",
@@ -11289,7 +11899,7 @@
     "description": "An OmniAuth strategy for use with ActiveModel's has_secure_password"
   },
   "omniauth-paypal": {
-    "version": "1.2",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -11343,6 +11953,13 @@
 
     ],
     "description": "OmniAuth strategy for Podio."
+  },
+  "omniauth-pop-up-talent": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Omniauth strategy for authenticating against Pop Up Talent"
   },
   "omniauth-positionly": {
     "version": "0.1.0",
@@ -11436,7 +12053,7 @@
     "description": "an omniauth strategy for qzone"
   },
   "omniauth-radius": {
-    "version": "0.0.1",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -11541,7 +12158,7 @@
     "description": "OmniAuth strategy for salesforce.com."
   },
   "omniauth-saml": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -11583,7 +12200,7 @@
     "description": "Omniauth strategy for Shapeways."
   },
   "omniauth-shibboleth": {
-    "version": "1.0.8",
+    "version": "1.1.1",
     "dependents": [
       {
         "name": "omniauth-aai",
@@ -11600,11 +12217,11 @@
     "description": "Strategy for authenticating to Shopify API with OmniAuth."
   },
   "omniauth-shopify-oauth2": {
-    "version": "1.1.0",
+    "version": "1.1.2",
     "dependents": [
       {
         "name": "shopify_app",
-        "requirements": "= 1.1.0"
+        "requirements": "= 1.1.2"
       }
     ],
     "description": "Shopify strategy for OmniAuth"
@@ -11787,7 +12404,14 @@
     "description": "Stripe Platform OAuth2 Strategy for OmniAuth 1.0."
   },
   "omniauth-surveymonkey": {
-    "version": "0.0.0",
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Survemonkey OAuth2 strategy for OmniAuth 1.0"
+  },
+  "omniauth-surveymonkey2": {
+    "version": "0.0.16",
     "dependents": [
 
     ],
@@ -11856,6 +12480,13 @@
     ],
     "description": "Tenzing strategy for OmniAuth."
   },
+  "omniauth-tequila": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "  This is an OmniAuth 1.0 compatible strategy that authenticates via EPFL's Tequila protocol. By default, it connects to EPFL's Tequila server, but it is fully configurable.\n"
+  },
   "omniauth-thecity": {
     "version": "1.0.1",
     "dependents": [
@@ -11869,6 +12500,20 @@
 
     ],
     "description": "omniauth adapter for thingiverse"
+  },
+  "omniauth-ticketbud": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ticketbud strategy for OmniAuth"
+  },
+  "omniauth-toshl": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Omniauth Strategy for Toshl.com"
   },
   "omniauth-tqq-oauth2": {
     "version": "0.0.4",
@@ -11890,6 +12535,13 @@
 
     ],
     "description": "TradeKing strategy for OmniAuth 1.0"
+  },
+  "omniauth-tradier": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for the Tradier API"
   },
   "omniauth-trello": {
     "version": "0.0.4",
@@ -12000,7 +12652,7 @@
       },
       {
         "name": "contour",
-        "requirements": "~> 1.0.0"
+        "requirements": "~> 1.0.1"
       },
       {
         "name": "frame",
@@ -12073,6 +12725,13 @@
     ],
     "description": "Unipass strategy for OmniAuth 1.0"
   },
+  "omniauth-untappd": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Untappd OAuth2 Strategy for OmniAuth."
+  },
   "omniauth-venmo": {
     "version": "1.0.1",
     "dependents": [
@@ -12081,7 +12740,7 @@
     "description": "Venmo strategy for OmniAuth"
   },
   "omniauth-viadeo": {
-    "version": "0.0.5",
+    "version": "0.1",
     "dependents": [
 
     ],
@@ -12095,7 +12754,7 @@
     "description": "OmniAuth strategy for Vimeo"
   },
   "omniauth-vkontakte": {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "dependents": [
       {
         "name": "auth_users",
@@ -12139,6 +12798,13 @@
     ],
     "description": "OmniAuth Oauth2 strategy for weibo.com."
   },
+  "omniauth-weixin": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for weixin."
+  },
   "omniauth-wepay": {
     "version": "0.0.5",
     "dependents": [
@@ -12177,6 +12843,20 @@
     ],
     "description": "WorkMate strategy for OmniAuth."
   },
+  "omniauth-workship": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Workship strategy for OmniAuth 1.x"
+  },
+  "omniauth-workweek": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Workweek strategy for OmniAuth 1.x"
+  },
   "omniauth-workxp": {
     "version": "0.0.3",
     "dependents": [
@@ -12185,7 +12865,7 @@
     "description": "Official OmniAuth strategy for Workxp."
   },
   "omniauth-wrapper": {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "dependents": [
 
     ],
@@ -12322,6 +13002,13 @@
     ],
     "description": "OmniAuth strategy for Zendesk"
   },
+  "omniauth-zenpayroll": {
+    "version": "0.0.9",
+    "dependents": [
+
+    ],
+    "description": "OmniAuth strategy for ZenPayroll"
+  },
   "omniauth-zotero": {
     "version": "0.0.1",
     "dependents": [
@@ -12344,7 +13031,7 @@
     "description": "OmniAuth strategy for Cobot"
   },
   "omniauth_crowd": {
-    "version": "2.2.0",
+    "version": "2.2.2",
     "dependents": [
 
     ],
@@ -12364,6 +13051,13 @@
     ],
     "description": "Omniauth strategy, log into your website using eLibri.com.pl account. OAuth2 based strategy - requires you to provide id and secret that you can obtain from eLibri.com.pl site."
   },
+  "omniauth_neteasy_oauth2": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "omniauth oauth2 for neteasy"
+  },
   "omniboard_jqtouch": {
     "version": "0.2.0",
     "dependents": [
@@ -12379,7 +13073,7 @@
     "description": "Works with AMQP for sending messages at server side.Sends notifications to an user via XMPP.Can monitor system by performing daily commands."
   },
   "omnibus": {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -12456,12 +13150,12 @@
         "requirements": "~> 1.4"
       },
       {
-        "name": "omnifocus-github",
-        "requirements": "~> 2.0"
+        "name": "omnifocus-bugzilla",
+        "requirements": "~> 1.3.1"
       },
       {
-        "name": "omnifocus-pivotaltracker",
-        "requirements": "~> 2.0.0"
+        "name": "omnifocus-github",
+        "requirements": "~> 2.0"
       },
       {
         "name": "omnifocus-lighthouse",
@@ -12472,8 +13166,12 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "omnifocus-bugzilla",
-        "requirements": "~> 1.3.1"
+        "name": "omnifocus-rubyforge",
+        "requirements": "~> 1.4.0"
+      },
+      {
+        "name": "omnifocus-pivotaltracker",
+        "requirements": "~> 2.0.0"
       },
       {
         "name": "omnifocus-rt",
@@ -12482,10 +13180,6 @@
       {
         "name": "omnifocus-trello",
         "requirements": "~> 2.1"
-      },
-      {
-        "name": "omnifocus-rubyforge",
-        "requirements": "~> 1.4.0"
       }
     ],
     "description": "Synchronizes bug tracking systems to omnifocus."
@@ -12505,7 +13199,7 @@
     "description": "Plugin for omnifocus gem to provide bugzilla BTS synchronization.\n\nThe first time this runs it creates a yaml file in your home directory\nfor the bugzilla url, username, and queries.\n\nThe queries config is optional.  If it is not included bugzilla-omnifocus will\npull all active bugs assigned to the specified user.\n\nTo use a custom query or multiple queries you must include a queries parameter\nin your config.\n\nThe queries config is an array of strings.  Each string is the query string\nportion of the bugzilla search results url.  Its easiest to create your search\nin bugzilla and then paste the portion of the url after the question mark into\nthe config file.\n\nExample:\n:bugzilla_url: http://bugs/buglist.cgi\n:username: aja\n:queries: [\"bug_status=NEW\", \"bug_status=CLOSED\"]"
   },
   "omnifocus-github": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "dependents": [
 
     ],
@@ -12561,7 +13255,7 @@
     "description": "omniform"
   },
   "omnigollum": {
-    "version": "0.1.1",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -12798,7 +13492,7 @@
     "description": "A shot at a responsive fluid grid system with fixed gutter width using the fancy css3 calc function."
   },
   "on_the_spot": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "web_backend",
@@ -12833,7 +13527,7 @@
     "description": "once provides &quot;once directive&quot;."
   },
   "once-only": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -12989,6 +13683,13 @@
     ],
     "description": "Adds #one method to Enumerable"
   },
+  "oneapi-ruby": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "OneApi Ruby client"
+  },
   "onebody-updateagent": {
     "version": "0.6.5",
     "dependents": [
@@ -13009,6 +13710,13 @@
 
     ],
     "description": "Unofficial Ruby library for interacting with the OneBusAway API. See http://code.google.com/p/onebusaway/wiki/OneBusAwayRestApi"
+  },
+  "onebusaway_ruby": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A OneBusAway Ruby library built with HTTParty"
   },
   "onebusaway_updated": {
     "version": "0.2.1",
@@ -13031,6 +13739,13 @@
     ],
     "description": "ONEIS Developer Tools"
   },
+  "onelinejson": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ],
+    "description": "Everything you need to log json oneliners"
+  },
   "oneliner": {
     "version": "0.3.0",
     "dependents": [
@@ -13041,13 +13756,6 @@
     ],
     "description": "An online code implementation for ruby."
   },
-  "onelogin-ssm": {
-    "version": "1.11.0",
-    "dependents": [
-
-    ],
-    "description": "Remote module to perform cryptographic operations using remotely stored and managed keys"
-  },
   "onemorecloud-websolr-rails": {
     "version": "1.4.6",
     "dependents": [
@@ -13056,7 +13764,7 @@
     "description": "acts_as_solr compatible gem for websolr"
   },
   "onering-client": {
-    "version": "0.0.82",
+    "version": "0.0.97",
     "dependents": [
       {
         "name": "onering-report-mysql",
@@ -13077,7 +13785,7 @@
     "description": "Plugin for information about MySQL via the Onering client utility"
   },
   "onering-report-plugins": {
-    "version": "0.0.54",
+    "version": "0.0.59",
     "dependents": [
 
     ],
@@ -13150,11 +13858,11 @@
     "description": "Serves music to Ongaku Ryoho clients"
   },
   "oni": {
-    "version": "0.0.1",
+    "version": "1.0.0",
     "dependents": [
 
     ],
-    "description": "Ruby framework for building concurrent job processing applications."
+    "description": "Framework for building concurrent daemons in Ruby."
   },
   "onigiri": {
     "version": "0.1.6",
@@ -13193,19 +13901,19 @@
     ],
     "description": "Ruby bindings to the Oniguruma[http://www.geocities.jp/kosako3/oniguruma/] regular expression library (no need to recompile Ruby)."
   },
-  "Onion": {
-    "version": "0.0.2",
-    "dependents": [
-
-    ],
-    "description": "Onion, or Array Onion, allows peeling an array like an onion.It shreds one layer after another, from the outer inwards the inner nested array, according to the given depth. Infinite depth (or greater than current nested array depth) is equivalent to Array#flatten."
-  },
   "onion": {
     "version": "0.1.3",
     "dependents": [
 
     ],
     "description": "Interact with Tor."
+  },
+  "Onion": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Onion, or Array Onion, allows peeling an array like an onion.It shreds one layer after another, from the outer inwards the inner nested array, according to the given depth. Infinite depth (or greater than current nested array depth) is equivalent to Array#flatten."
   },
   "onis": {
     "version": "0.2.1",
@@ -13364,7 +14072,7 @@
     "description": "A little parser for Wikipedia's 'On This Day' content block"
   },
   "ontologies_api_client": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -13406,16 +14114,16 @@
     "version": "2.0.5",
     "dependents": [
       {
+        "name": "ontomde-java-frontend",
+        "requirements": "= 1.0.6"
+      },
+      {
         "name": "ontomde-inspector",
         "requirements": "= 1.0.6"
       },
       {
         "name": "ontomde-uml2",
         "requirements": "= 2.0.5"
-      },
-      {
-        "name": "ontomde-java-frontend",
-        "requirements": "= 1.0.6"
       }
     ],
     "description": "ontoMDE-core is basically a library for loading a RDFS model in ruby memory and process it to do something usefull such as generating Java or C++ code.  ontoMDE-core is used by ontoMDE-uml2 which adds UML2 meta-model definitions and some helper methods. ontoMDE-uml2 is in turn used by ontoMDE-uml2-java which adds methods and rules to generate java5 code.  But ontoMDE-core is *not* *UML* *specific* and can be used with *any* RDF[http://en.wikipedia.org/wiki/Resource_Description_Framework] / RDFS[http://en.wikipedia.org/wiki/RDF_Schema] model such as those created with Protege_2000[http://protege.stanford.edu]. This opens to ontoMDE-core users the ability to generate code from custom DSL[http://en.wikipedia.org/wiki/Domain_Specific_Language] models, or join different models.  This gem bundles, ontomde-inspector which is a web server for browsing a model and a meta-model inside a running ontomde generator. Inspector is available as an independant script but may also be run from generator (such as ontomde-java with option --inspector or --inspectorAfterLoad ) to provide a view of model before or after generation."
@@ -13543,12 +14251,12 @@
     "version": "2.0.5",
     "dependents": [
       {
-        "name": "ontomde-java",
-        "requirements": "= 2.0.5"
-      },
-      {
         "name": "ontomde-java-frontend",
         "requirements": "= 1.0.6"
+      },
+      {
+        "name": "ontomde-java",
+        "requirements": "= 2.0.5"
       },
       {
         "name": "ontomde-uml2-java",
@@ -13613,10 +14321,6 @@
     "version": "1.0.6",
     "dependents": [
       {
-        "name": "ontomde-uml2-apaCom",
-        "requirements": "= 1.0.6"
-      },
-      {
         "name": "ontomde-java-frontend",
         "requirements": "= 1.0.6"
       },
@@ -13625,11 +14329,11 @@
         "requirements": "= 1.0.6"
       },
       {
-        "name": "ontomde-uml2-ejb2",
+        "name": "ontomde-uml2-apaCom",
         "requirements": "= 1.0.6"
       },
       {
-        "name": "ontomde-uml2-jpdl",
+        "name": "ontomde-uml2-ejb2",
         "requirements": "= 1.0.6"
       },
       {
@@ -13638,6 +14342,10 @@
       },
       {
         "name": "ontomde-uml2-kbjava",
+        "requirements": "= 1.0.6"
+      },
+      {
+        "name": "ontomde-uml2-jpdl",
         "requirements": "= 1.0.6"
       },
       {
@@ -13785,6 +14493,13 @@
     ],
     "description": "A barebone Markdown to TeX/LaTeX converter kit via OmniOutliner"
   },
+  "oo_auth": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Out Of Band OAuth"
+  },
   "oocss-compass": {
     "version": "0.0.2",
     "dependents": [
@@ -13828,7 +14543,7 @@
     "description": "Object-oriented access to the filesystem."
   },
   "oohlalog": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "oohlalog_syslog",
@@ -13838,7 +14553,7 @@
     "description": "Rails/Ruby Logger Tie-in for OohLaLog.com"
   },
   "oohlalog_syslog": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -13880,7 +14595,7 @@
         "requirements": ">= 1.6"
       },
       {
-        "name": "ooor_finders",
+        "name": "ooor-finders",
         "requirements": ">= 1.6.5"
       },
       {
@@ -13888,7 +14603,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ooor-finders",
+        "name": "ooor_finders",
         "requirements": ">= 1.6.5"
       },
       {
@@ -13965,7 +14680,7 @@
     "description": "easilly enables meta tag creation on your ruby/rails/rack app for Ooyala Facebook sharing - more infos: http://www.ooyala.com/support/docs/facebook_sharing_sdk"
   },
   "oozby": {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "dependents": [
 
     ],
@@ -13993,7 +14708,7 @@
     "description": "The Opal language for simplicity and Smalltalk-like syntax."
   },
   "opal": {
-    "version": "0.4.4",
+    "version": "0.5.5",
     "dependents": [
       {
         "name": "node_module",
@@ -14004,32 +14719,36 @@
         "requirements": ">= 0"
       },
       {
-        "name": "opal-activesupport",
-        "requirements": "~> 0.4.2"
+        "name": "opal-eventable",
+        "requirements": "~> 0.3.44"
       },
       {
         "name": "opal-erb",
         "requirements": "~> 0.4.1"
       },
       {
-        "name": "opal-eventable",
-        "requirements": "~> 0.3.44"
+        "name": "opal-activesupport",
+        "requirements": ">= 0"
       },
       {
         "name": "opal-jquery",
-        "requirements": ">= 0.4.4"
+        "requirements": "~> 0.5.0"
       },
       {
         "name": "opal-rails",
-        "requirements": "~> 0.4.4"
+        "requirements": "~> 0.5.0"
       },
       {
         "name": "opal-spec",
-        "requirements": "~> 0.4.4"
+        "requirements": "~> 0.5.0"
+      },
+      {
+        "name": "opal-rspec",
+        "requirements": ">= 0.5.4"
       },
       {
         "name": "opal-sprockets",
-        "requirements": "~> 0.4.4"
+        "requirements": "~> 0.5.0"
       },
       {
         "name": "rack-opal",
@@ -14043,11 +14762,11 @@
     "description": "Ruby runtime and core library for javascript."
   },
   "opal-activesupport": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
       {
         "name": "opal-rails",
-        "requirements": ">= 0"
+        "requirements": ">= 0.0.5"
       }
     ],
     "description": "The port of the glorious ActiveSupport for Opal"
@@ -14074,11 +14793,11 @@
     "description": "Opal implementation of forwardable"
   },
   "opal-jquery": {
-    "version": "0.0.13",
+    "version": "0.1.2",
     "dependents": [
       {
         "name": "opal-rails",
-        "requirements": ">= 0.0.8"
+        "requirements": ">= 0.1.0"
       }
     ],
     "description": "Opal DOM library for jquery"
@@ -14115,11 +14834,29 @@
     "description": "Opal compatible racc runtime."
   },
   "opal-rails": {
-    "version": "0.5.2",
+    "version": "0.6.1",
     "dependents": [
 
     ],
     "description": "Rails bindings for opal JS engine"
+  },
+  "opal-rspec": {
+    "version": "0.2.1",
+    "dependents": [
+      {
+        "name": "opal-activesupport",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "opal-jquery",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "opal-rails",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Opal compatible rspec library"
   },
   "opal-singleton": {
     "version": "0.0.1",
@@ -14129,27 +14866,15 @@
     "description": "Opal implementation of singleton"
   },
   "opal-spec": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
-      {
-        "name": "opal-activesupport",
-        "requirements": "~> 0.2.17"
-      },
-      {
-        "name": "opal-erb",
-        "requirements": "~> 0.2.17"
-      },
       {
         "name": "opal-eventable",
         "requirements": ">= 0"
       },
       {
-        "name": "opal-jquery",
-        "requirements": ">= 0.3.0"
-      },
-      {
-        "name": "opal-rails",
-        "requirements": "~> 0.3.1"
+        "name": "opal-erb",
+        "requirements": "~> 0.2.17"
       },
       {
         "name": "opal-typed-array",
@@ -14159,19 +14884,23 @@
     "description": "Opal compatible spec library"
   },
   "opal-sprockets": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "opal",
-        "requirements": "~> 0.1.1"
+        "requirements": "~> 0.3.0"
       },
       {
         "name": "opal-rails",
-        "requirements": "~> 0.2.0"
+        "requirements": "~> 0.3.0"
       },
       {
         "name": "opal-spec",
-        "requirements": "~> 0.2.0"
+        "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "opal-rspec",
+        "requirements": "~> 0.3.0"
       }
     ],
     "description": "Sprockets suppoer for opal."
@@ -14350,15 +15079,11 @@
         "requirements": ">= 0.0.5"
       },
       {
-        "name": "rdf-n3",
+        "name": "rdf-rdfxml",
         "requirements": ">= 0.0.5"
       },
       {
         "name": "rdf-rdfa",
-        "requirements": ">= 0.0.5"
-      },
-      {
-        "name": "rdf-rdfxml",
         "requirements": ">= 0.0.5"
       },
       {
@@ -14367,6 +15092,10 @@
       },
       {
         "name": "rdf-turtle",
+        "requirements": ">= 0.0.5"
+      },
+      {
+        "name": "rdf-n3",
         "requirements": ">= 0.0.5"
       },
       {
@@ -14379,6 +15108,13 @@
       }
     ],
     "description": "OpenURI with transparent disk caching"
+  },
+  "open-uri-s3": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "AWS S3 protocol support for open-uri"
   },
   "open311": {
     "version": "0.2.3",
@@ -14437,12 +15173,12 @@
         "requirements": ">= 0.9"
       },
       {
-        "name": "backup",
-        "requirements": "= 1.3.0"
-      },
-      {
         "name": "backup-agoddard",
         "requirements": "~> 1.3.0"
+      },
+      {
+        "name": "backup",
+        "requirements": "= 1.3.0"
       },
       {
         "name": "bahia",
@@ -14505,11 +15241,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chbs",
+        "name": "cheap_advice",
         "requirements": ">= 0"
       },
       {
-        "name": "cheap_advice",
+        "name": "chbs",
         "requirements": ">= 0"
       },
       {
@@ -14569,15 +15305,11 @@
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "engineyard-dnsimple",
-        "requirements": ">= 0"
-      },
-      {
         "name": "engineyard",
         "requirements": "~> 1.0.1"
       },
       {
-        "name": "engineyard-dns",
+        "name": "engineyard-dnsimple",
         "requirements": ">= 0"
       },
       {
@@ -14586,6 +15318,10 @@
       },
       {
         "name": "engineyard-jenkins",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "engineyard-dns",
         "requirements": ">= 0"
       },
       {
@@ -14621,20 +15357,20 @@
         "requirements": "~> 1.3.0"
       },
       {
+        "name": "fig18",
+        "requirements": ">= 1.0.1"
+      },
+      {
+        "name": "fig18",
+        "requirements": ">= 1.0.1"
+      },
+      {
         "name": "fig",
         "requirements": ">= 1.0.1"
       },
       {
-        "name": "fig18",
-        "requirements": ">= 1.0.1"
-      },
-      {
-        "name": "fig18",
-        "requirements": ">= 1.0.1"
-      },
-      {
         "name": "filbunke",
-        "requirements": ">= 1.0.1"
+        "requirements": "= 1.3.0"
       },
       {
         "name": "foreman_discovery",
@@ -14789,10 +15525,6 @@
         "requirements": ">= 0.9.6"
       },
       {
-        "name": "lucie-cmd",
-        "requirements": "= 1.3.0"
-      },
-      {
         "name": "madcat",
         "requirements": ">= 0"
       },
@@ -14881,6 +15613,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pbox",
+        "requirements": ">= 0"
+      },
+      {
         "name": "perseus_match",
         "requirements": ">= 0"
       },
@@ -14897,12 +15633,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "POpen4",
-        "requirements": ">= 0"
-      },
-      {
         "name": "popen4",
         "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "POpen4",
+        "requirements": ">= 0"
       },
       {
         "name": "portvcs",
@@ -14923,6 +15659,10 @@
       {
         "name": "pry-clipboard",
         "requirements": "~> 1.3"
+      },
+      {
+        "name": "puppetize",
+        "requirements": ">= 1.0"
       },
       {
         "name": "rack-perftools_profiler",
@@ -15041,12 +15781,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "snapback",
-        "requirements": ">= 1.3.0"
-      },
-      {
         "name": "snake_eyes",
         "requirements": ">= 0"
+      },
+      {
+        "name": "snapback",
+        "requirements": ">= 1.3.0"
       },
       {
         "name": "software_smithy",
@@ -15101,6 +15841,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "thrush",
+        "requirements": "~> 1.3"
+      },
+      {
         "name": "tlb-testunit",
         "requirements": ">= 1.0.1"
       },
@@ -15121,11 +15865,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vaulted_billing",
+        "name": "vaulted_billing-termcap",
         "requirements": ">= 0"
       },
       {
-        "name": "vaulted_billing-termcap",
+        "name": "vaulted_billing",
         "requirements": ">= 0"
       },
       {
@@ -15322,6 +16066,13 @@
     ],
     "description": "open_id_authentication provides a thin wrapper around the excellent rack-openid gem."
   },
+  "open_in_browser": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "    This library is called open_in_browser\n"
+  },
   "open_lighting": {
     "version": "0.1.3",
     "dependents": [
@@ -15372,11 +16123,11 @@
     "description": "腾讯开放平台ruby版SDK(v3版本)http://open.qq.com/"
   },
   "open_taobao": {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "dependents": [
 
     ],
-    "description": "淘宝开放平台ruby版，支持Rails3~"
+    "description": "淘宝开放平台ruby版，支持Rails3+"
   },
   "open_terms": {
     "version": "0.0.3",
@@ -15407,7 +16158,7 @@
     "description": "    A database-backed HTTP caching library for open_uri. Just use\n    open_uri like normal and any URL's requested more than once will be\n    served from the database to speed up requests and be a better net\n    citizen to other web servers.\n"
   },
   "open_uri_redirections": {
-    "version": "0.1.1",
+    "version": "0.1.4",
     "dependents": [
       {
         "name": "dry_css",
@@ -15419,7 +16170,7 @@
       },
       {
         "name": "metainspector",
-        "requirements": "~> 0.1.0"
+        "requirements": "~> 0.1.4"
       }
     ],
     "description": "OpenURI patch to allow redirections between HTTP and HTTPS"
@@ -15431,12 +16182,19 @@
     ],
     "description": "Ruby client for the Open Weather Map API"
   },
-  "OpenAgent": {
-    "version": "0.5.3",
+  "open_xml": {
+    "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "OpenAgent - SIF ADK.(SIF Agent Development Kit)"
+    "description": "Currently you can only generate word documents from a template word document."
+  },
+  "openagent": {
+    "version": "0.7.8",
+    "dependents": [
+
+    ],
+    "description": "OpenAgent - SIF ADK (SIF Agent Development Kit)"
   },
   "openall_time_applet": {
     "version": "0.0.45",
@@ -15591,11 +16349,18 @@
     "description": "Daum OpenAPI Library. API for Cafe, Calendar, and Tistory."
   },
   "opendelivery": {
-    "version": "0.0.22",
+    "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "A collection of tools that are used in the Open Delivery platform."
+  },
+  "opendns-dnsdb": {
+    "version": "0.3.0",
+    "dependents": [
+
+    ],
+    "description": "Client library for the OpenDNS Security Graph"
   },
   "opendsl": {
     "version": "1.1.1",
@@ -15637,6 +16402,13 @@
 
     ],
     "description": "Using convert currency with realtime openexchange data"
+  },
+  "openexchangerates": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "..."
   },
   "openfire_admin": {
     "version": "0.0.2",
@@ -15692,11 +16464,11 @@
     "description": "An OpenGL wrapper for Ruby.  ruby-opengl contains bindings for OpenGL and the\nGLU and GLUT libraries."
   },
   "opengl-bindings": {
-    "version": "1.2.6",
+    "version": "1.3.1",
     "dependents": [
 
     ],
-    "description": "Ruby bindings for OpenGL 1.0-4.4 and all extensions using Fiddle (For MRI >= 2.0.0).\n"
+    "description": "Ruby bindings for OpenGL 1.0-4.4, OpenGL ES 2.0/3.0 and all extensions using Fiddle (For MRI >= 2.0.0).\n"
   },
   "opengl-core": {
     "version": "1.3.2",
@@ -15815,6 +16587,13 @@
 
     ],
     "description": "An ActiveRecord store for OpenID, forked from its original author for rails 3 support"
+  },
+  "openid_ar_store": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "OpenID ActiveRecord Store."
   },
   "openid_auth": {
     "version": "1.0.2",
@@ -16020,11 +16799,11 @@
     "description": "Openmenu is parser for OpenMenu xml files.\n\nNOTE: This is an early release. There is some refactoring to be done, but \nthe interface should stay the same."
   },
   "openmeta.rb": {
-    "version": "2.0.1",
+    "version": "2.2.0",
     "dependents": [
 
     ],
-    "description": "openMeta in Ruby (support mac system native ruby 1.8, and MacRuby). This gem ports [openmeta]( http://code.google.com/p/openmeta/ ) api to ruby using framework."
+    "description": "openMeta in Ruby (support mac system native ruby 1.8, and MacRuby). This gem ports [openmeta]( http://code.google.com/p/openmeta/ ) API to ruby using framework.\n\nIn OSX 10.9, the default support for rubycocoa is dropped. You can use /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby."
   },
   "openminds_deploy": {
     "version": "1.0.7",
@@ -16041,28 +16820,28 @@
     "description": "openMSX-Builder is used for building the latest SVN checkouts of openMSX and openMSX-Debugger from their sourceforge repository.\n    It also supports publishing the created builds to an external location via scp, announcing successfully published builds via Twitter and reporting build-errors via e-mail."
   },
   "opennebula": {
-    "version": "4.2.0",
+    "version": "4.4.0",
     "dependents": [
       {
         "name": "opennebula-cli",
-        "requirements": "= 4.2.0"
+        "requirements": "= 4.4.0"
       },
       {
         "name": "opennebula-oca",
-        "requirements": "= 4.2.0"
+        "requirements": "= 4.4.0"
       }
     ],
     "description": "Libraries needed to talk to OpenNebula"
   },
   "opennebula-cli": {
-    "version": "4.2.0",
+    "version": "4.4.0",
     "dependents": [
 
     ],
     "description": "Commands used to talk to OpenNebula"
   },
   "opennebula-oca": {
-    "version": "4.2.0",
+    "version": "4.4.0",
     "dependents": [
 
     ],
@@ -16257,11 +17036,11 @@
     "version": "1.3.4",
     "dependents": [
       {
-        "name": "openshift-origin-auth-kerberos",
+        "name": "openshift-origin-auth-mongo",
         "requirements": ">= 0"
       },
       {
-        "name": "openshift-origin-auth-mongo",
+        "name": "openshift-origin-auth-kerberos",
         "requirements": ">= 0"
       },
       {
@@ -16308,7 +17087,7 @@
     "description": "Simplify deployments of JRuby applications to OpenShift"
   },
   "opensips-mi": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -16394,7 +17173,7 @@
     "description": "Adds support for verifying RSA signatures using the Probabilistic Signature Scheme (PSS)"
   },
   "openstack": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
       {
         "name": "deltacloud-core",
@@ -16468,15 +17247,22 @@
     ],
     "description": "OpenStack Ruby and RoR bindings implemented with ActiveResource - See also http://www.unicloud.it"
   },
+  "openstates": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby gem to interact with the OpenStates API."
+  },
   "openstax_connect": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
 
     ],
     "description": "Rails common code and bindings and for 'services' API"
   },
   "openstax_utilities": {
-    "version": "1.0.2",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -16510,8 +17296,22 @@
     ],
     "description": "Installs OpenStudio Ruby Bindings to help create EnergyPlus and Radiance Models"
   },
+  "openstudio-analysis": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "Basic classes for generating the files needed for OpenStudio-Server"
+  },
+  "openstudio-aws": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "Custom classes for configuring clusters for OpenStudio & EnergyPlus analyses"
+  },
   "openteam-capistrano": {
-    "version": "0.0.13",
+    "version": "0.0.14",
     "dependents": [
 
     ],
@@ -16547,13 +17347,6 @@
 
     ],
     "description": "OpenTok is an API from TokBox that enables websites to weave live group video communication into their online experience. With OpenTok you have the freedom and flexibility to create the most engaging web experience for your users. OpenTok is currently available as a JavaScript and ActionScript 3.0 library. This gem allows you to connect to the API from within Ruby (and Rails)"
-  },
-  "OpentokAPI": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Used to create and update information about OpenTok partners"
   },
   "opentoken": {
     "version": "1.2.3",
@@ -16696,6 +17489,13 @@
     ],
     "description": "OpenVZ is a container based virtualization for Linux. This API will\n                           allow you to easily write tools to manipulate containers on a host."
   },
+  "OpenWeather": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Ruby wrapper for Open Weather Map - http://openweathermap.org/"
+  },
   "openwferu": {
     "version": "0.9.17",
     "dependents": [
@@ -16730,6 +17530,13 @@
 
     ],
     "description": "Accessing Amazon SQS over its REST API"
+  },
+  "openwhenready": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Open browser when URL is ready"
   },
   "openwsman": {
     "version": "2.4.1",
@@ -16868,7 +17675,7 @@
     "description": "A simple wrapper for parsing OPML files."
   },
   "opml-parser": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -16890,6 +17697,30 @@
       },
       {
         "name": "cookbooks",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "easycompile",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ftp_paradise",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "move_file",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rbt",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "SHAKES_AND_FIDGETS",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "videotools",
         "requirements": ">= 0"
       }
     ],
@@ -16917,7 +17748,7 @@
     "description": " Enable OAuth clients (iphone, android, web sites, etc.) to access and use your Rails application, what you do with it is up to you"
   },
   "ops": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -17001,7 +17832,7 @@
     "description": "abstraction about the operation environment"
   },
   "opskeleton": {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -17022,7 +17853,7 @@
     "description": "Update configuration on Opsview server via REST API"
   },
   "opsworks": {
-    "version": "0.0.12",
+    "version": "0.0.15",
     "dependents": [
 
     ],
@@ -17081,11 +17912,11 @@
     "version": "0.7",
     "dependents": [
       {
-        "name": "AutoNZB",
+        "name": "autonzb",
         "requirements": ">= 0"
       },
       {
-        "name": "autonzb",
+        "name": "AutoNZB",
         "requirements": ">= 0"
       },
       {
@@ -17097,11 +17928,11 @@
         "requirements": ">= 0.7"
       },
       {
-        "name": "depgraph",
+        "name": "DepGraph",
         "requirements": ">= 0.6.5"
       },
       {
-        "name": "DepGraph",
+        "name": "depgraph",
         "requirements": ">= 0.6.5"
       },
       {
@@ -17109,16 +17940,16 @@
         "requirements": ">= 0.6.5"
       },
       {
-        "name": "ec2onrails-xtreme-head",
-        "requirements": ">= 0.7"
+        "name": "ec2onrails-experimental",
+        "requirements": ">= 0.6.5"
       },
       {
         "name": "ec2onrails-multiapp",
         "requirements": ">= 0.6.5"
       },
       {
-        "name": "ec2onrails-experimental",
-        "requirements": ">= 0.6.5"
+        "name": "ec2onrails-xtreme-head",
+        "requirements": ">= 0.7"
       },
       {
         "name": "gimli",
@@ -17258,7 +18089,7 @@
     "description": "An automated yet fully customizable command line options parser."
   },
   "optimus-ep": {
-    "version": "0.10.1",
+    "version": "0.10.3",
     "dependents": [
 
     ],
@@ -17296,7 +18127,7 @@
     "description": "Object construction with method chaining"
   },
   "option_list": {
-    "version": "1.0.3",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -17320,11 +18151,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "daodalus",
+        "name": "daodalus-moped",
         "requirements": ">= 0"
       },
       {
-        "name": "daodalus-moped",
+        "name": "daodalus",
         "requirements": ">= 0"
       },
       {
@@ -17543,6 +18374,23 @@
     ],
     "description": "Simple class that checks an options hash for mandatory keys."
   },
+  "options_hash": {
+    "version": "0.0.1",
+    "dependents": [
+      {
+        "name": "options_hash-method_object",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "A configurable options hash definition"
+  },
+  "options_hash-method_object": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A MethodObject with an OptionsHash built in"
+  },
   "options_library": {
     "version": "1.0.3",
     "dependents": [
@@ -17574,6 +18422,10 @@
   "optitron": {
     "version": "0.3.3",
     "dependents": [
+      {
+        "name": "actionframework",
+        "requirements": ">= 0"
+      },
       {
         "name": "db_backups",
         "requirements": ">= 0.3"
@@ -17726,6 +18578,13 @@
     ],
     "description": "OptParse-Simple parses command-line arguments and returns them as a hash."
   },
+  "optparse_ex": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "This extension allows us to use optparse library more simply to add accessor method."
+  },
   "optparshie": {
     "version": "1.2.2",
     "dependents": [
@@ -17856,16 +18715,16 @@
         "requirements": ">= 0.5.7"
       },
       {
-        "name": "orange-flickr",
-        "requirements": ">= 0"
-      },
-      {
         "name": "orange-gollum",
         "requirements": ">= 0"
       },
       {
         "name": "orange-more",
         "requirements": ">= 0.5.7"
+      },
+      {
+        "name": "orange-flickr",
+        "requirements": ">= 0"
       },
       {
         "name": "orange-sparkles",
@@ -18041,6 +18900,13 @@
     ],
     "description": "SSH toolkit for application deployment and devops tasks."
   },
+  "orchestrate.io": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "A Ruby wrapper for the Orchestrate.io API"
+  },
   "orchestrated": {
     "version": "0.0.13",
     "dependents": [
@@ -18177,6 +19043,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "csv2strings",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dike",
         "requirements": ">= 0.0.2"
       },
@@ -18309,7 +19179,7 @@
     "description": "use ordr.in web services to find restaurants that deliver near your. You can search, compile a tray, and order it."
   },
   "ordrin": {
-    "version": "0.1.4",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -18452,7 +19322,7 @@
     "description": "This gem contains libraries for parsing org-mode files and build html or textile format file"
   },
   "org-ruby": {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "dependents": [
       {
         "name": "awestructx",
@@ -18463,12 +19333,12 @@
         "requirements": "~> 0.8.1"
       },
       {
-        "name": "gollum-lib",
-        "requirements": "~> 0.8.1"
-      },
-      {
         "name": "gollum-bibanon",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gollum-lib",
+        "requirements": "~> 0.8.1"
       },
       {
         "name": "jugyo-gollum",
@@ -18493,6 +19363,10 @@
       {
         "name": "org2daily",
         "requirements": "~> 0.5.3"
+      },
+      {
+        "name": "re-org",
+        "requirements": ">= 0"
       },
       {
         "name": "read-only-gollum",
@@ -18575,7 +19449,7 @@
     "description": "Never Lose Data. Rather than deleting rows this sets Record#deleted_at and gives you all the scopes you need to work with your data."
   },
   "orgmode-cli-tools": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -18621,6 +19495,13 @@
       }
     ],
     "description": "Readline is a really useful library for textual user interfaces. Unfortunately, the Ruby interface has very limited functionality.  This gem adds access to the full line buffer during completion.    The biggest milestone before 1.0 is to similarly wrap jline for jRuby, and do it such that client code doesn't need to determine it's platform ahead of time."
+  },
+  "oridomi-rails": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "OriDomi, bundled for the Rails 3.0 and up"
   },
   "orient_db_client": {
     "version": "0.0.6",
@@ -18759,11 +19640,21 @@
     "description": "Library for ORIS.GE accounting"
   },
   "ork": {
+    "version": "0.1.2",
+    "dependents": [
+      {
+        "name": "ork-encryption",
+        "requirements": "~> 0.1.1"
+      }
+    ],
+    "description": "Ork is a small Ruby modeling layer for Riak, inspired by Ohm."
+  },
+  "ork-encryption": {
     "version": "0.0.1",
     "dependents": [
 
     ],
-    "description": "Ork is a small Ruby modeling layer for Riak, inspired by Ohm."
+    "description": "Encrypt documents persisted on Riak DB. Inspired in ripple-encryption"
   },
   "orkut": {
     "version": "0.0.0.34",
@@ -18801,7 +19692,7 @@
     "description": "    redis orm\n"
   },
   "orm_adapter": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
       {
         "name": "af-devise",
@@ -18896,19 +19787,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "orm_adapter-sequel",
-        "requirements": ">= 0.4.0"
+        "name": "orm_adapter-dynamoid",
+        "requirements": ">= 0"
       },
       {
-        "name": "orm_adapter-simple_record",
-        "requirements": ">= 0"
+        "name": "orm_adapter-sequel",
+        "requirements": ">= 0.4.0"
       },
       {
         "name": "orm_adapter_activeresource",
         "requirements": ">= 0.0.7"
       },
       {
-        "name": "orm_adapter-dynamoid",
+        "name": "orm_adapter-simple_record",
         "requirements": ">= 0"
       },
       {
@@ -19125,6 +20016,13 @@
     ],
     "description": "C-Flat to x86 compiler"
   },
+  "orzFly": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A gem describes orzFly."
+  },
   "os": {
     "version": "0.9.6",
     "dependents": [
@@ -19154,6 +20052,10 @@
       },
       {
         "name": "neography",
+        "requirements": ">= 0.9.6"
+      },
+      {
+        "name": "neography-calamitates",
         "requirements": ">= 0.9.6"
       },
       {
@@ -19193,8 +20095,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "sys-proctree",
+        "requirements": "~> 0.9"
+      },
+      {
         "name": "tacape",
         "requirements": ">= 0"
+      },
+      {
+        "name": "veewee",
+        "requirements": "~> 0.9.6"
       }
     ],
     "description": "The OS gem allows for some useful and easy functions, like OS.windows? (=> true or false) OS.bits ( => 32 or 64) etc\""
@@ -19214,7 +20124,7 @@
     "description": "Osaka wraps osascript (Applescript) and provides a ruby interface for automating tasks through the GUI on Mac"
   },
   "osbro-git-deploy": {
-    "version": "0.5.9",
+    "version": "0.6.0",
     "dependents": [
 
     ],
@@ -19258,6 +20168,10 @@
       {
         "name": "qcmd",
         "requirements": "= 1.0.0"
+      },
+      {
+        "name": "qlab-ruby",
+        "requirements": ">= 0"
       },
       {
         "name": "tuio-ruby",
@@ -19330,7 +20244,7 @@
     "description": "The OSGi framework offers an unique way for Java bundles to communicate and depend on each other.\nThis implementation of the OSGi framework is supposed to represent the framework as it should be in Ruby.\n"
   },
   "osheet": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "osheet-xmlss",
@@ -19479,18 +20393,18 @@
     "description": "Easy to use gem for downloading and parsing Oldschool Runescape highscores"
   },
   "oss_active_record": {
-    "version": "0.2.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
     "description": "oss_active_record is a library providing an all-ruby API for the OpenSearchServer search engine."
   },
   "oss_rb": {
-    "version": "0.1.2",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "oss_active_record",
-        "requirements": ">= 0.1.2"
+        "requirements": ">= 0.2.0"
       }
     ],
     "description": "OpenSearchServer Ruby Client"
@@ -19498,6 +20412,10 @@
   "ost": {
     "version": "0.1.5",
     "dependents": [
+      {
+        "name": "asynchronic",
+        "requirements": "~> 0.1"
+      },
       {
         "name": "ost-bin",
         "requirements": ">= 0"
@@ -19537,7 +20455,7 @@
     "description": "Ostrichpoll is a tiny utility for monitoring Twitter Ostrich services. Effectively it can monitor any service which exposes internal metrics in JSON over HTTP."
   },
   "ostruct2": {
-    "version": "0.2.0",
+    "version": "0.2.1.1",
     "dependents": [
 
     ],
@@ -19570,6 +20488,13 @@
 
     ],
     "description": "Open Source Version Tracker"
+  },
+  "osx-free": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Because OS X Doesn't have a `free` command"
   },
   "osx-plist": {
     "version": "1.0.3",
@@ -19737,6 +20662,13 @@
 
     ],
     "description": "A really Ruby Mail handler."
+  },
+  "otis": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "A Ruby Api wrapper framework"
   },
   "oto": {
     "version": "0.0.1",
@@ -20003,14 +20935,14 @@
     "description": "Simple service monitoring with a clean DSL for configuration."
   },
   "outpost-aggregator": {
-    "version": "1.0.0",
+    "version": "1.1.2",
     "dependents": [
 
     ],
     "description": "Content aggregator for Outpost"
   },
   "outpost-asset_host": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -20110,11 +21042,25 @@
     "description": "Seamlessly integrates TinyMCE into the Rails asset pipeline introduced in Rails 3.1."
   },
   "ouvrages_scaffold": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "Rails scaffold in HAML, using cancan and bootstrap"
+  },
+  "ov": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "write overridable methods for fun :)"
+  },
+  "ova_manager": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "CLI tools to deploy/delete an OVA to vSphere"
   },
   "ovec": {
     "version": "0.0.7",
@@ -20130,6 +21076,13 @@
     ],
     "description": "DevOps on a Budget."
   },
+  "overapp": {
+    "version": "0.5.1",
+    "dependents": [
+
+    ],
+    "description": "overapp"
+  },
   "overcast": {
     "version": "0.0.1",
     "dependents": [
@@ -20138,7 +21091,7 @@
     "description": "Play with hex colors. Darken colors, lighten colors, find the right contrast based on a color."
   },
   "overcommit": {
-    "version": "0.3.1",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -20166,11 +21119,11 @@
     "description": "\n    class A\n      def hello\n        \"hello\"\n      end\n    end\n\n    # Later, I want to overide class A methods\n\n    class A\n      extend Overider\n\n      overide (:hello) do |*a|\n        overiden(*a) + \" overide\"\n      end\n    end\n\n    A.new.hello # ==> \"hello overide\"\n  "
   },
   "overlaps": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
-    "description": "Overlaps enables a class to either count or find overlaps between a set of ranges."
+    "description": "Overlaps aids in finding shared overlaps between a set of Range or Range-like objects."
   },
   "overlay": {
     "version": "1.1.0",
@@ -20192,6 +21145,13 @@
 
     ],
     "description": "overLIB JavaScript popup library for the asset pipeline"
+  },
+  "overload": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "\n    Allows instance methods to be overloaded.\n    Also functions with inheritance.\n    Methods overloaded twice will use the last version.\n  "
   },
   "overlook": {
     "version": "0.0.4",
@@ -20254,12 +21214,26 @@
     ],
     "description": "Override is the essence of the stubbing concept: it takes an object, a hash of methods/results, and proceeds to rewrite each method in the object. It can be used as a stubbing strategy in most cases"
   },
+  "override_active_record_dynamic_finders": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Overrides dynamic finders in ActiveRecord module to use new Activerecord relation metho"
+  },
   "override_kernel": {
     "version": "1.0.0",
     "dependents": [
 
     ],
     "description": "OverrideKernel changes Kernel functions\nfrom nasty wildebeasts into fluffy, harmless bunnies.\nCurrently, only the exit function is dealt with in such a manner."
+  },
+  "overrides": {
+    "version": "0.10.0",
+    "dependents": [
+
+    ],
+    "description": "Helps during refactoring (method renaming) to assure\n  methods expected to be overriding another (and calling super) fail early during\n  definition time instead of when called."
   },
   "overseer": {
     "version": "0.0.1",
@@ -20489,7 +21463,7 @@
     "description": "A simple client that interfaces with owserver from the owfs project"
   },
   "ox": {
-    "version": "2.0.11",
+    "version": "2.0.12",
     "dependents": [
       {
         "name": "arxivsync",
@@ -20498,6 +21472,10 @@
       {
         "name": "badgerfish",
         "requirements": "~> 2.0.8"
+      },
+      {
+        "name": "catobills",
+        "requirements": ">= 0"
       },
       {
         "name": "cosm-rb",
@@ -20509,6 +21487,10 @@
       },
       {
         "name": "em-xmpp",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fias_parser",
         "requirements": ">= 0"
       },
       {
@@ -20544,19 +21526,27 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ox_builder",
-        "requirements": ">= 0"
-      },
-      {
         "name": "oxcelix",
         "requirements": ">= 2.0.6"
       },
       {
-        "name": "rss-ox",
+        "name": "ox_builder",
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-dmm",
+        "name": "oxmlrpc",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "pcap_tools",
+        "requirements": "= 2.0.11"
+      },
+      {
+        "name": "phil",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rss-ox",
         "requirements": ">= 0"
       },
       {
@@ -20597,11 +21587,11 @@
     "description": "XML builder with using ox"
   },
   "oxcelix": {
-    "version": "0.2.4",
+    "version": "0.3.1",
     "dependents": [
 
     ],
-    "description": "A fast .xlsx file  parser that returns a collection of Matrix objects"
+    "description": "A fast Excel 2007/2010 (.xlsx) file parser that returns a collection of Matrix objects"
   },
   "oxen_deployer": {
     "version": "1.0.2",
@@ -20628,7 +21618,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "oxidized": {
-    "version": "0.0.14",
+    "version": "0.0.15",
     "dependents": [
 
     ],
@@ -20647,6 +21637,13 @@
 
     ],
     "description": "OxMlk gives you a simple way to map you ruby objects to XML and then convert one to the other."
+  },
+  "oxmlrpc": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "Simple, lightweight and fast XML-RPC client library for ruby based on OX XML parser."
   },
   "oxygen": {
     "version": "0.0.0",

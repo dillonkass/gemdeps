@@ -49,7 +49,7 @@
     "description": "You got your peanut butter on my static file host!  You got your static blog content on my chocolate!"
   },
   "vacuum": {
-    "version": "0.4.1",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -63,18 +63,18 @@
     "description": "Ruby (and Rails) attribute cleaning support, provides some nice and easy to enhance default normalization strategies."
   },
   "vae": {
-    "version": "0.6.5",
+    "version": "0.6.6",
     "dependents": [
 
     ],
     "description": "Supports local development for Vae Platform (http://vaeplatform.com/)"
   },
   "vagabond": {
-    "version": "0.2.8",
+    "version": "0.2.10",
     "dependents": [
 
     ],
-    "description": "Vagabonds, lazing about"
+    "description": "LXC driven node generation and testing tooling"
   },
   "vagalume": {
     "version": "0.1.2",
@@ -115,11 +115,11 @@
         "requirements": "~> 1.0.6"
       },
       {
-        "name": "capistrano-file-transfer-ext",
+        "name": "capistrano-file-resources",
         "requirements": "~> 1.0.6"
       },
       {
-        "name": "capistrano-file-resources",
+        "name": "capistrano-file-transfer-ext",
         "requirements": "~> 1.0.6"
       },
       {
@@ -149,10 +149,6 @@
       {
         "name": "chino-vagrant-hostmaster",
         "requirements": "~> 1.0.3"
-      },
-      {
-        "name": "conjure",
-        "requirements": ">= 0"
       },
       {
         "name": "coral_vagrant",
@@ -279,28 +275,20 @@
         "requirements": "~> 1.0.7"
       },
       {
-        "name": "test-kitchen",
-        "requirements": "~> 1.0.2"
-      },
-      {
         "name": "thor-ssh",
         "requirements": "= 1.0.3"
-      },
-      {
-        "name": "toft-puppet",
-        "requirements": ">= 0.8.7"
       },
       {
         "name": "toft",
         "requirements": ">= 0.8.7"
       },
       {
-        "name": "vagrant-ansible",
-        "requirements": ">= 0"
+        "name": "toft-puppet",
+        "requirements": ">= 0.8.7"
       },
       {
-        "name": "vagrant-bundler",
-        "requirements": ">= 1.0.2"
+        "name": "vagrant-ansible",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-butter",
@@ -311,23 +299,23 @@
         "requirements": ">= 1.0"
       },
       {
-        "name": "vagrant-camera",
-        "requirements": ">= 0"
+        "name": "vagrant-bundler",
+        "requirements": ">= 1.0.2"
       },
       {
-        "name": "vagrant-dns-server",
-        "requirements": "~> 1.0.3"
+        "name": "vagrant-camera",
+        "requirements": ">= 0"
       },
       {
         "name": "vagrant-fog-box-storage",
         "requirements": "~> 1.0"
       },
       {
-        "name": "vagrant-hiera",
+        "name": "vagrant-hitch",
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-hitch",
+        "name": "vagrant-hiera",
         "requirements": ">= 0"
       },
       {
@@ -339,12 +327,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-hostmaster",
-        "requirements": "~> 1.0.3"
-      },
-      {
         "name": "vagrant-hostruby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "vagrant-hostmaster",
+        "requirements": "~> 1.0.3"
       },
       {
         "name": "vagrant-http-basic-authentication",
@@ -363,6 +351,10 @@
         "requirements": ">= 1.1.0.dev"
       },
       {
+        "name": "vagrant-putty",
+        "requirements": "~> 0.8.0"
+      },
+      {
         "name": "vagrant-proxyssh",
         "requirements": ">= 1.0.0"
       },
@@ -375,10 +367,6 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "vagrant-putty",
-        "requirements": "~> 0.8.0"
-      },
-      {
         "name": "vagrant-rake-fork",
         "requirements": "~> 0.8.0"
       },
@@ -387,20 +375,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "vagrant-snap",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vagrant-spatula",
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "vagrant-snap",
+        "name": "vagrant-sync",
         "requirements": ">= 0"
       },
       {
         "name": "vagrant-test",
         "requirements": ">= 0.9.0"
-      },
-      {
-        "name": "vagrant-sync",
-        "requirements": ">= 0"
       },
       {
         "name": "vagrant-vmhosts",
@@ -415,16 +403,16 @@
         "requirements": "= 1.0.6"
       },
       {
-        "name": "vagrantboxes",
-        "requirements": "~> 0.7.0"
+        "name": "vagrant_bootstrap",
+        "requirements": "~> 1.0"
       },
       {
         "name": "VagrantHyperV",
         "requirements": ">= 1.2"
       },
       {
-        "name": "vagrant_bootstrap",
-        "requirements": "~> 1.0"
+        "name": "vagrantboxes",
+        "requirements": "~> 0.7.0"
       },
       {
         "name": "vbox",
@@ -432,10 +420,6 @@
       },
       {
         "name": "veewee-atlassian",
-        "requirements": ">= 0.9"
-      },
-      {
-        "name": "veewee",
         "requirements": ">= 0.9"
       },
       {
@@ -481,6 +465,13 @@
 
     ],
     "description": "Develop & test your ansible playbooks with Vagrant"
+  },
+  "vagrant-ansible-local": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "\"vagrant plugin to provision VM with ansible in local mode\""
   },
   "vagrant-application-cookbooks": {
     "version": "0.1.4",
@@ -535,11 +526,11 @@
     "description": "vagrant aws info querying plugin"
   },
   "vagrant-babushka": {
-    "version": "0.0.4",
+    "version": "0.1.1",
     "dependents": [
 
     ],
-    "description": "Vagrant provisioner plugin for using Babushka"
+    "description": "A Vagrant plugin which allows virtual machines to be provisioned using Babushka."
   },
   "vagrant-bee": {
     "version": "0.1.0",
@@ -549,14 +540,25 @@
     "description": "Wrapper for https://github.com/jcartledge/bee task runner"
   },
   "vagrant-berkshelf": {
-    "version": "1.3.4",
+    "version": "1.3.5",
     "dependents": [
       {
         "name": "berkshelf-vagrant",
         "requirements": ">= 1.2.0"
+      },
+      {
+        "name": "vagrant-berkshelf-multi-berksfile",
+        "requirements": ">= 0"
       }
     ],
     "description": "A Vagrant plugin to add Berkshelf integration to the Chef provisioners"
+  },
+  "vagrant-berkshelf-multi-berksfile": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "vagrant-berkshelf Berksfile support for multiple vms"
   },
   "vagrant-bindfs": {
     "version": "0.2.2",
@@ -604,7 +606,7 @@
     "description": "vagrant-bundler-tools has been renamed vagrant-bundler, please install this\ninstead.\n"
   },
   "vagrant-butcher": {
-    "version": "1.1.1",
+    "version": "2.0.0",
     "dependents": [
 
     ],
@@ -618,7 +620,7 @@
     "description": "Smooth out Vagrantfiles with some common helpers and shims"
   },
   "vagrant-cachier": {
-    "version": "0.3.3",
+    "version": "0.5.0",
     "dependents": [
 
     ],
@@ -639,7 +641,7 @@
     "description": "A Vagrant plugin to add simple chef-apply provisioner"
   },
   "vagrant-chef-zero": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "dependents": [
 
     ],
@@ -653,7 +655,7 @@
     "description": "Remove nodes and clients from Chef Server when instances are destroyed"
   },
   "vagrant-chefzero": {
-    "version": "0.4.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -665,6 +667,13 @@
 
     ],
     "description": "Copy production resources down to your new VM."
+  },
+  "vagrant-cloudstack": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Enables Vagrant to manage machines in Cloudstack."
   },
   "vagrant-config_builder": {
     "version": "0.6.0",
@@ -712,7 +721,7 @@
     "description": "vagrant-dns is a vagrant plugin that manages DNS records associated with local machines."
   },
   "vagrant-dns-server": {
-    "version": "0.3",
+    "version": "0.4.2",
     "dependents": [
 
     ],
@@ -764,7 +773,7 @@
     "description": "Enables Vagrant to work with VMware ESXi guests"
   },
   "vagrant-exec": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -809,7 +818,7 @@
     "description": "The use case is if you have a vagrant box, stored on S3 (or another storage provider supported by fog) that you don't want to be downloadable publicly that you need to authenticate somehow to get at."
   },
   "vagrant-foodtaster-server": {
-    "version": "0.0.2",
+    "version": "0.0.10",
     "dependents": [
 
     ],
@@ -843,8 +852,15 @@
     ],
     "description": "Generates SSH key and registers it with your gitHub account"
   },
+  "vagrant-github_key_manager": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "vagrant plugin for github key management\n"
+  },
   "vagrant-global-status": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -893,14 +909,14 @@
     "description": "Creates and use a data driven vagrant environment"
   },
   "vagrant-host-path": {
-    "version": "1.3.0",
+    "version": "1.3.1",
     "dependents": [
 
     ],
     "description": "Vagrant plugin that stores the host path to your project in the environment variable in the VM."
   },
   "vagrant-host-shell": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -928,7 +944,7 @@
     "description": "vagrant-hosts is a Vagrant plugin to manage /etc/hosts entries on both the host OS and guest VMs."
   },
   "vagrant-hostmanager": {
-    "version": "1.2.3",
+    "version": "1.3.0",
     "dependents": [
 
     ],
@@ -949,7 +965,7 @@
     "description": "Provision Vagrant boxes with Ruby (on the host machine)"
   },
   "vagrant-hosts": {
-    "version": "2.0.0",
+    "version": "2.1.1",
     "dependents": [
       {
         "name": "oscar",
@@ -959,14 +975,14 @@
     "description": "    Manage static DNS entries and configuration for Vagrant guests.\n"
   },
   "vagrant-hostsupdater": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
     "description": "Enables Vagrant to update hosts file on the host machine"
   },
   "vagrant-hp": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -1029,7 +1045,7 @@
     "description": "A Vagrant plugin to install Puppet modules using Librarian-Puppet."
   },
   "vagrant-libvirt": {
-    "version": "0.0.11",
+    "version": "0.0.12",
     "dependents": [
 
     ],
@@ -1050,7 +1066,7 @@
     "description": "Various Vagrant helpers."
   },
   "vagrant-lxc": {
-    "version": "0.6.3",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -1078,14 +1094,14 @@
     "description": "a vagrant plugin to run a command after vagrant mounts all of the shares, every time the vm boots"
   },
   "vagrant-multi-putty": {
-    "version": "1.2.0",
+    "version": "1.4.1",
     "dependents": [
 
     ],
     "description": "Vagrant plugin to allow VM ssh with PuTTY (multi-vm supported)"
   },
   "vagrant-multiprovider-snap": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
       {
         "name": "vagrant-cucumber",
@@ -1093,6 +1109,13 @@
       }
     ],
     "description": "Multi-provider snapshots for Vagrant"
+  },
+  "vagrant-mutate": {
+    "version": "0.1.4",
+    "dependents": [
+
+    ],
+    "description": "Convert vagrant boxes to work with different providers"
   },
   "vagrant-niftycloud": {
     "version": "0.3.0",
@@ -1123,7 +1146,7 @@
     "description": "A Vagrant plugin that redirects system notifications from guest to host machine."
   },
   "vagrant-ohai": {
-    "version": "0.1.4",
+    "version": "0.1.7",
     "dependents": [
 
     ],
@@ -1179,7 +1202,7 @@
     "description": "Vagrant Package Cache"
   },
   "vagrant-parallels": {
-    "version": "0.0.4",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -1193,7 +1216,7 @@
     "description": "Clean puppet cert"
   },
   "vagrant-pe_build": {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "dependents": [
       {
         "name": "oscar",
@@ -1203,7 +1226,7 @@
     "description": "Vagrant provisioner for installing Puppet Enterprise"
   },
   "vagrant-persistent-storage": {
-    "version": "0.0.4",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -1269,6 +1292,13 @@
     ],
     "description": "Protect vagrant instance from destroying"
   },
+  "vagrant-proxmox": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Enables Vagrant to manage virtual machines on a Proxmox server."
+  },
   "vagrant-proxy": {
     "version": "0.0.1",
     "dependents": [
@@ -1277,7 +1307,7 @@
     "description": "A plugin to proxy HTTP requests made by the Vagrant provisioner, using the TBD proxy kit."
   },
   "vagrant-proxyconf": {
-    "version": "0.6.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -1328,13 +1358,6 @@
     ],
     "description": "Enables Vagrant to manage machines in RackSpace Cloud."
   },
-  "vagrant-rackspace-provision": {
-    "version": "0.1.2",
-    "dependents": [
-
-    ],
-    "description": "FORK OF vagrant-rackspace, with provisioning support merged!  Enables Vagrant to manage machines in RackSpace Cloud."
-  },
   "vagrant-rake": {
     "version": "0.1.0",
     "dependents": [
@@ -1356,6 +1379,13 @@
     ],
     "description": "Vagrant plugin to execute chef recipes"
   },
+  "vagrant-rekey-ssh": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Automatically secure vagrant boxes with a randomly generated SSH key"
+  },
   "vagrant-reload": {
     "version": "0.0.1",
     "dependents": [
@@ -1364,7 +1394,7 @@
     "description": "Enables reloading a vagrant VM as a provisioning step."
   },
   "vagrant-rightscale": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -1406,7 +1436,7 @@
     "description": "see https://github.com/phinze/vagrant-rubydns"
   },
   "vagrant-sakura": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -1440,6 +1470,13 @@
     ],
     "description": "Vagrant plugin to configure serial-ports in vms"
   },
+  "vagrant-serverspec": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Vagrant provisioner that executes serverspec"
+  },
   "vagrant-shell": {
     "version": "0.2.13",
     "dependents": [
@@ -1468,6 +1505,13 @@
     ],
     "description": "vagrant snapshot management plugin"
   },
+  "vagrant-softlayer": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Enables Vagrant to manages SoftLayer CCI."
+  },
   "vagrant-solaris10": {
     "version": "0.0.0",
     "dependents": [
@@ -1495,6 +1539,13 @@
 
     ],
     "description": "A Vagrant plugin that mounts folders with sshfs in the host machine."
+  },
+  "vagrant-syllabus-provisioner": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "This plugin installs a provisioner that allows Syllabus to provision machines."
   },
   "vagrant-symfony": {
     "version": "0.1.5",
@@ -1541,8 +1592,15 @@
     ],
     "description": "Enables Vagrant to manage machines in Tiktalik.com Cloud."
   },
+  "vagrant-tmuxme": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Tmuxme the safe way"
+  },
   "vagrant-triggers": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "dependents": [
 
     ],
@@ -1563,7 +1621,7 @@
     "description": "Upload Provisioner"
   },
   "vagrant-vbguest": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "dependents": [
 
     ],
@@ -1619,7 +1677,7 @@
     "description": "The real gem is in HashiCorp gem servers. Please see http://www.vagrantup.com/vmware"
   },
   "vagrant-vsphere": {
-    "version": "0.5.1",
+    "version": "0.6.0",
     "dependents": [
 
     ],
@@ -1633,7 +1691,7 @@
     "description": "Vyatta Guest Support for Vagrant"
   },
   "vagrant-windows": {
-    "version": "1.2.2",
+    "version": "1.3.2",
     "dependents": [
 
     ],
@@ -1675,7 +1733,7 @@
     "description": "    Vagrant-ZFS is a plugin for Vagrant to automate cloning and sharing\n    ZFS filesystems from the host machine to a guest VM. This is useful\n    for things like bringing up multiple VMs to test database clustering\n    without requiring you to manually copy large amounts of data into\n    multiple locations on your host or syncing data from host to VMs.\n\n    This project is still in the very early stages, so proceed with caution.\n"
   },
   "vagrant-zfs-box": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -1758,6 +1816,13 @@
     ],
     "description": "A gem for easily getting salah times for Turkey"
   },
+  "val_required": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "expect(''.required!).to raise_error(ValRequired::BlankError)"
+  },
   "valcro": {
     "version": "0.1",
     "dependents": [
@@ -1783,11 +1848,11 @@
     "version": "0.7.0",
     "dependents": [
       {
-        "name": "valdemaximus-conduit",
+        "name": "valdemaximus-actionwebservice",
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "valdemaximus-actionwebservice",
+        "name": "valdemaximus-conduit",
         "requirements": "~> 0.7.0"
       }
     ],
@@ -1888,11 +1953,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-oauth",
+        "name": "easy_auth-oauth2",
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-oauth2",
+        "name": "easy_auth-oauth",
         "requirements": ">= 0"
       },
       {
@@ -1996,12 +2061,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "validatable_associations",
-        "requirements": "= 1.6.7"
-      },
-      {
         "name": "validatable_form",
         "requirements": ">= 0"
+      },
+      {
+        "name": "validatable_associations",
+        "requirements": "= 1.6.7"
       },
       {
         "name": "whm_xml",
@@ -2176,7 +2241,7 @@
     "dependents": [
       {
         "name": "beerify",
-        "requirements": "= 0.0.8"
+        "requirements": "~> 0.0.8"
       }
     ],
     "description": "validates provides a set of commonly required validators (such as Email, Url, etc.) for Rails 3 applications"
@@ -2394,7 +2459,7 @@
     "description": "Rails plugin that uses George Carlin's list of seven dirty words (aka swear words, aka cuss words) to check for decency on ActiveRecord model attributes."
   },
   "validates_duplicity_of": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -2624,11 +2689,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts_engine",
+        "name": "has_accounts",
         "requirements": ">= 0"
       },
       {
-        "name": "has_accounts",
+        "name": "has_accounts_engine",
         "requirements": ">= 0"
       },
       {
@@ -2657,7 +2722,7 @@
     "description": "Rails plugin that provides a validates_uri_format_of method to ActiveRecord models. URLs are validated by several options."
   },
   "validates_url_format_of": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -2692,11 +2757,11 @@
     "description": "Workflow is a finite-state-machine-inspired API for modeling and interacting\n    with what we tend to refer to as 'workflow'.\n\n    * nice DSL to describe your states, events and transitions\n    * robust integration with ActiveRecord and non relational data stores\n    * various hooks for single transitions, entering state etc.\n    * convenient access to the workflow specification: list states, possible events\n      for particular state\n    * state and transition dependent validations for ActiveModel\n"
   },
   "validation": {
-    "version": "0.0.6",
+    "version": "0.0.7.1",
     "dependents": [
       {
         "name": "family",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.7"
       },
       {
         "name": "io-nosey",
@@ -2712,10 +2777,10 @@
       },
       {
         "name": "struct-validatable",
-        "requirements": "~> 0.0.3"
+        "requirements": "~> 0.0.7"
       }
     ],
-    "description": "A way of defining validations anywhere."
+    "description": "A way of defining validations on anywhere."
   },
   "validation-mirror": {
     "version": "1.0.1",
@@ -2780,7 +2845,7 @@
     "description": "A collection of various validators for Rails forms"
   },
   "validation_matcher": {
-    "version": "0.1.8",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -2936,11 +3001,11 @@
     "description": "Rails 3 generator plugin that generates validator's skeleton files."
   },
   "validators": {
-    "version": "1.0.0",
+    "version": "2.1.0",
     "dependents": [
 
     ],
-    "description": "Add some nice Rails 3 ActiveRecord validators."
+    "description": "Add some nice ActiveRecord validators."
   },
   "validb": {
     "version": "2.0.0",
@@ -3037,7 +3102,7 @@
     "description": "Transfer data between databases with ease."
   },
   "valle": {
-    "version": "0.0.3",
+    "version": "0.2.2",
     "dependents": [
 
     ],
@@ -3184,7 +3249,7 @@
     "description": "    values_for makes your ActiveRecord-backed class work with an enumerable type.  Instead of existing \n    ActiveRecord plugins such as enum_fu, which store the enumerable attribute as an integer, values_for \n    stores the content of the enumerable attribute in a varchar column of the database.  The field will\n    automatically validate using validates_inclusion_of and accepts all the same options. \n\n    values_for will also optionally create named scopes, predicate methods, and constants defining the \n    possible values for enumerable types on your model.  By default, however, it avoids polluting your\n    model with things you may not need unless these features are specifically requested.\n"
   },
   "valvat": {
-    "version": "0.6.1",
+    "version": "0.6.2",
     "dependents": [
 
     ],
@@ -3268,7 +3333,7 @@
     "description": "Give each of your models a simple 'vanity' URL.\n                                Makes example.com/users/1 into something like example.com/foobar"
   },
   "vanity": {
-    "version": "1.8.1",
+    "version": "1.8.3",
     "dependents": [
 
     ],
@@ -3313,11 +3378,11 @@
     "version": "1.10.1",
     "dependents": [
       {
-        "name": "vapir-ie",
+        "name": "vapir-firefox",
         "requirements": "= 1.10.1"
       },
       {
-        "name": "vapir-firefox",
+        "name": "vapir-ie",
         "requirements": "= 1.10.1"
       }
     ],
@@ -3358,12 +3423,26 @@
     ],
     "description": "A monitoring framework"
   },
+  "vardb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "This gem builds PostgreSQL databases from .matrix files and metadata spreadsheets"
+  },
   "vardetect-vc": {
     "version": "0.0.5",
     "dependents": [
 
     ],
     "description": "A variance calling tool for NGS"
+  },
+  "varexp": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "This Gem exports your environment variables to CSV."
   },
   "varfile": {
     "version": "0.0.3",
@@ -3410,7 +3489,10 @@
   "varint": {
     "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "apk_downloader",
+        "requirements": ">= 0"
+      }
     ],
     "description": "varint C extension"
   },
@@ -3614,11 +3696,18 @@
     "description": "Basic tools for Heroku Vault's Ruby projects"
   },
   "vault-tools": {
-    "version": "0.3.10",
+    "version": "0.4.5",
     "dependents": [
 
     ],
     "description": "Basic tools for Heroku Vault's Ruby projects"
+  },
+  "vault-tree": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Vault Tree is a Ruby library for executing distributed cryptographic contracts."
   },
   "vault-usage-client": {
     "version": "0.0.6",
@@ -3739,7 +3828,7 @@
     "description": "This provides a minimal logging gem to be used across CF components"
   },
   "vcard": {
-    "version": "0.2.11",
+    "version": "0.2.12",
     "dependents": [
       {
         "name": "alchemy_crm",
@@ -3906,11 +3995,11 @@
     "description": "It allows one to right rules for firewall, NAT and load balancer using vcloud API and configure them on the vendor end"
   },
   "vcloud-rest": {
-    "version": "0.3.0",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "knife-vcloud",
-        "requirements": "~> 0.2.1"
+        "requirements": "~> 1.0.0"
       }
     ],
     "description": "Ruby bindings to create, list and manage vCloud servers"
@@ -3923,8 +4012,12 @@
     "description": "A dependency injection framework based in PicoContainer."
   },
   "vcr": {
-    "version": "2.6.0",
+    "version": "2.8.0",
     "dependents": [
+      {
+        "name": "acquia_toolbelt",
+        "requirements": "= 2.7.0"
+      },
       {
         "name": "active_merchant_first_data",
         "requirements": "~> 1.11"
@@ -3962,11 +4055,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ael_tracker",
+        "requirements": ">= 0"
+      },
+      {
         "name": "aeolus-image",
         "requirements": "~> 1.11"
       },
       {
-        "name": "ael_tracker",
+        "name": "aerosol",
         "requirements": ">= 0"
       },
       {
@@ -3979,7 +4076,7 @@
       },
       {
         "name": "airplay",
-        "requirements": "~> 2.0"
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "al_papi",
@@ -4022,6 +4119,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "api-model",
+        "requirements": ">= 0"
+      },
+      {
         "name": "apsis",
         "requirements": ">= 0"
       },
@@ -4034,12 +4135,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "asana-ruby",
-        "requirements": "~> 2.2.4"
-      },
-      {
         "name": "asana",
         "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "asana-ruby",
+        "requirements": "= 2.6.0"
       },
       {
         "name": "asin",
@@ -4054,12 +4155,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "authpds-nyu",
-        "requirements": "~> 2.4.0"
-      },
-      {
         "name": "authpds",
         "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "authpds-nyu",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "avalara",
@@ -4088,6 +4189,10 @@
       {
         "name": "barnie",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "barometer-forecast_io",
+        "requirements": ">= 0"
       },
       {
         "name": "barometer",
@@ -4130,12 +4235,12 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "big_register",
-        "requirements": "~> 2.4.0"
-      },
-      {
         "name": "big_ml",
         "requirements": ">= 0"
+      },
+      {
+        "name": "big_register",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "bigcommerce",
@@ -4214,12 +4319,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "board_game_geek",
-        "requirements": ">= 0"
-      },
-      {
         "name": "board-client",
         "requirements": "~> 1.11.1"
+      },
+      {
+        "name": "board_game_geek",
+        "requirements": ">= 0"
       },
       {
         "name": "boston_marathon",
@@ -4254,11 +4359,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "brm_finance",
+        "requirements": ">= 0"
+      },
+      {
         "name": "browse-everything",
         "requirements": ">= 0"
       },
       {
         "name": "btjunkie",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "btrade",
         "requirements": ">= 0"
       },
       {
@@ -4318,16 +4431,16 @@
         "requirements": "~> 2.1.1"
       },
       {
+        "name": "carbonculture",
+        "requirements": ">= 0"
+      },
+      {
         "name": "carbon",
         "requirements": ">= 0"
       },
       {
         "name": "carquery",
         "requirements": ">= 0"
-      },
-      {
-        "name": "cb-api",
-        "requirements": "~> 2.6.0"
       },
       {
         "name": "census_api",
@@ -4482,16 +4595,20 @@
         "requirements": "~> 1.10"
       },
       {
-        "name": "crowd_rest",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "crowd-client",
         "requirements": ">= 2.0.0.rc1"
       },
       {
+        "name": "crowd_rest",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "crunch-api",
         "requirements": "~> 2.4"
+      },
+      {
+        "name": "curate",
+        "requirements": ">= 0"
       },
       {
         "name": "d3api",
@@ -4516,6 +4633,10 @@
       {
         "name": "dealmap",
         "requirements": "~> 1.7.0"
+      },
+      {
+        "name": "deckard_cain",
+        "requirements": "~> 2.7"
       },
       {
         "name": "deltacloud-client",
@@ -4566,12 +4687,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "docker-api",
+        "requirements": ">= 2.7.0"
+      },
+      {
         "name": "docker-client",
         "requirements": "~> 2.5"
       },
       {
-        "name": "docker-api",
-        "requirements": ">= 2.4.0"
+        "name": "dockly",
+        "requirements": ">= 0"
       },
       {
         "name": "doctor_scrape",
@@ -4614,7 +4739,7 @@
         "requirements": "~> 2.2.4"
       },
       {
-        "name": "easy_auth-facebook",
+        "name": "easy_auth-google",
         "requirements": ">= 0"
       },
       {
@@ -4622,11 +4747,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-google",
+        "name": "easy_auth-linked_in",
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth-linked_in",
+        "name": "easy_auth-facebook",
         "requirements": ">= 0"
       },
       {
@@ -4666,11 +4791,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ember-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "emeril",
         "requirements": ">= 0"
       },
       {
         "name": "emporium",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "endpoint_base",
         "requirements": ">= 0"
       },
       {
@@ -4738,11 +4871,11 @@
         "requirements": "~> 2.4"
       },
       {
-        "name": "exlibris-primo",
+        "name": "exlibris-aleph",
         "requirements": "~> 2.5.0"
       },
       {
-        "name": "exlibris-aleph",
+        "name": "exlibris-primo",
         "requirements": "~> 2.5.0"
       },
       {
@@ -4830,11 +4963,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fleetly",
+        "name": "fletcher",
         "requirements": ">= 0"
       },
       {
-        "name": "fletcher",
+        "name": "fleetly",
         "requirements": ">= 0"
       },
       {
@@ -4854,10 +4987,6 @@
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "fog-maestrodev",
-        "requirements": "~> 2.5.0"
-      },
-      {
         "name": "foot_stats",
         "requirements": ">= 0"
       },
@@ -4867,6 +4996,10 @@
       },
       {
         "name": "forecast_io",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "forex",
         "requirements": ">= 0"
       },
       {
@@ -4894,8 +5027,16 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "freesound_ruby",
+        "requirements": "~> 2.8.0"
+      },
+      {
         "name": "frenetic",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "frizzle",
+        "requirements": ">= 0"
       },
       {
         "name": "full_circle",
@@ -4950,6 +5091,10 @@
         "requirements": "~> 1.5.0"
       },
       {
+        "name": "geokit",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gestpay",
         "requirements": "~> 2.5.0"
       },
@@ -4978,12 +5123,20 @@
         "requirements": "~> 2.0.0"
       },
       {
+        "name": "gistify",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "git_hub_bub",
         "requirements": "~> 2.5.0"
       },
       {
+        "name": "git_snatch",
+        "requirements": "~> 2.7.0"
+      },
+      {
         "name": "github_api",
-        "requirements": ">= 0"
+        "requirements": "~> 2.6"
       },
       {
         "name": "github_api_v3",
@@ -5007,6 +5160,10 @@
       },
       {
         "name": "gmo",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gnome-campfire-notifications",
         "requirements": ">= 0"
       },
       {
@@ -5082,6 +5239,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hall",
+        "requirements": ">= 2.7.0"
+      },
+      {
         "name": "hamburglar",
         "requirements": "~> 1.10"
       },
@@ -5118,16 +5279,20 @@
         "requirements": "~> 2.4.0"
       },
       {
-        "name": "hubspot-ruby",
+        "name": "hubspot_informer",
         "requirements": ">= 0"
       },
       {
-        "name": "hubspot_informer",
+        "name": "hubspot-ruby",
         "requirements": ">= 0"
       },
       {
         "name": "hulu-show",
         "requirements": "~> 1.11.3"
+      },
+      {
+        "name": "hwacha",
+        "requirements": ">= 0"
       },
       {
         "name": "hypem",
@@ -5196,6 +5361,10 @@
       {
         "name": "iprofiler",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "iraq_unrest",
+        "requirements": ">= 0"
       },
       {
         "name": "isbnify",
@@ -5274,12 +5443,12 @@
         "requirements": "~> 1.11.1"
       },
       {
-        "name": "kanbantastic",
-        "requirements": ">= 0"
-      },
-      {
         "name": "kanbantool",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "kanbantastic",
+        "requirements": ">= 0"
       },
       {
         "name": "karotz",
@@ -5302,7 +5471,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ki_pivotal",
+        "name": "ki_youtrack",
         "requirements": "~> 2.2.4"
       },
       {
@@ -5310,7 +5479,7 @@
         "requirements": "~> 2.2.4"
       },
       {
-        "name": "ki_youtrack",
+        "name": "ki_pivotal",
         "requirements": "~> 2.2.4"
       },
       {
@@ -5342,6 +5511,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "layervault",
+        "requirements": ">= 0"
+      },
+      {
         "name": "leadlight",
         "requirements": "~> 2.0"
       },
@@ -5355,10 +5528,14 @@
       },
       {
         "name": "lentil",
-        "requirements": ">= 0"
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "lettr",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "liebert",
         "requirements": ">= 0"
       },
       {
@@ -5378,20 +5555,20 @@
         "requirements": "~> 2.5.0"
       },
       {
-        "name": "linkedin-drspin",
-        "requirements": "~> 1.10"
-      },
-      {
         "name": "linkedin",
         "requirements": "~> 2.5"
       },
       {
-        "name": "linkedin-rb",
-        "requirements": "~> 2.0.0.beta1"
+        "name": "linkedin-drspin",
+        "requirements": "~> 1.10"
       },
       {
         "name": "linkedin-oauth2",
         "requirements": "~> 1.10"
+      },
+      {
+        "name": "linkedin-rb",
+        "requirements": "~> 2.0.0.beta1"
       },
       {
         "name": "linkedin2",
@@ -5423,7 +5600,7 @@
       },
       {
         "name": "logs_tf",
-        "requirements": "~> 2.4.0"
+        "requirements": ">= 0"
       },
       {
         "name": "lumberg",
@@ -5454,6 +5631,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "mapstatic",
+        "requirements": "~> 2.7.0"
+      },
+      {
+        "name": "marmite",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mechanize_content",
         "requirements": "~> 1.11.3"
       },
@@ -5478,11 +5663,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "Missionhub",
+        "name": "MissionHub",
         "requirements": ">= 0"
       },
       {
-        "name": "MissionHub",
+        "name": "Missionhub",
         "requirements": ">= 0"
       },
       {
@@ -5526,11 +5711,11 @@
         "requirements": "~> 2.0.0"
       },
       {
-        "name": "mosaic-facebook",
+        "name": "mosaic-foursquare",
         "requirements": ">= 0"
       },
       {
-        "name": "mosaic-foursquare",
+        "name": "mosaic-facebook",
         "requirements": ">= 0"
       },
       {
@@ -5547,7 +5732,7 @@
       },
       {
         "name": "multi_mail",
-        "requirements": "~> 2.0"
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "muni",
@@ -5618,11 +5803,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nike_v2",
+        "name": "nike_v2_neura",
         "requirements": "~> 2.4.0"
       },
       {
-        "name": "nike_v2_neura",
+        "name": "nike_v2",
         "requirements": "~> 2.4.0"
       },
       {
@@ -5735,14 +5920,14 @@
       },
       {
         "name": "paperclip-dropbox",
-        "requirements": "~> 2.2"
-      },
-      {
-        "name": "parse_resource",
-        "requirements": ">= 0"
+        "requirements": ">= 2.6"
       },
       {
         "name": "parse-ruby-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "parse_resource",
         "requirements": ">= 0"
       },
       {
@@ -5790,12 +5975,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "picasa",
-        "requirements": ">= 2.4.0"
-      },
-      {
         "name": "picasa-downloader",
         "requirements": ">= 0"
+      },
+      {
+        "name": "picasa",
+        "requirements": ">= 2.4.0"
       },
       {
         "name": "pillboxr",
@@ -5803,6 +5988,10 @@
       },
       {
         "name": "pin_up",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pin_up_receipts",
         "requirements": ">= 0"
       },
       {
@@ -5874,12 +6063,12 @@
         "requirements": "~> 2.4.0"
       },
       {
-        "name": "productize",
-        "requirements": ">= 0"
-      },
-      {
         "name": "productwars-api",
         "requirements": "= 1.7.0"
+      },
+      {
+        "name": "productize",
+        "requirements": ">= 0"
       },
       {
         "name": "proteus_client",
@@ -6074,6 +6263,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ruby-stackoverflow",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "ruby_odata",
         "requirements": "~> 2.5.0"
       },
@@ -6086,11 +6279,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "russian_post",
-        "requirements": "~> 2.4.0"
+        "name": "rubyidescat",
+        "requirements": ">= 0"
       },
       {
         "name": "russianpost",
+        "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "russian_post",
         "requirements": "~> 2.4.0"
       },
       {
@@ -6162,6 +6359,10 @@
         "requirements": "~> 2.1.1"
       },
       {
+        "name": "sensor",
+        "requirements": ">= 0"
+      },
+      {
         "name": "sentiment",
         "requirements": ">= 0"
       },
@@ -6170,11 +6371,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "serel",
+        "requirements": ">= 0"
+      },
+      {
         "name": "seran",
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "serel",
+        "name": "sesheta",
         "requirements": ">= 0"
       },
       {
@@ -6214,6 +6419,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "simple_gas",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simple_geocode",
         "requirements": ">= 0"
       },
@@ -6242,11 +6451,11 @@
         "requirements": "~> 2.3"
       },
       {
-        "name": "sisow",
+        "name": "sisow_ideal",
         "requirements": ">= 0"
       },
       {
-        "name": "sisow_ideal",
+        "name": "sisow",
         "requirements": ">= 0"
       },
       {
@@ -6259,6 +6468,10 @@
       },
       {
         "name": "skooby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "skuby",
         "requirements": ">= 0"
       },
       {
@@ -6286,10 +6499,6 @@
         "requirements": "~> 2.5.0"
       },
       {
-        "name": "soundcloud2",
-        "requirements": "~> 1.7.0"
-      },
-      {
         "name": "sparqcode-dnsimple-ruby",
         "requirements": ">= 0"
       },
@@ -6298,12 +6507,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sports_direct",
-        "requirements": "= 1.4.0"
+        "name": "spodunk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sportsdata",
+        "requirements": ">= 0"
       },
       {
         "name": "spot",
         "requirements": ">= 0"
+      },
+      {
+        "name": "sports_direct",
+        "requirements": "= 1.4.0"
       },
       {
         "name": "spotifiery",
@@ -6328,6 +6545,10 @@
       {
         "name": "squall",
         "requirements": "~> 1.8"
+      },
+      {
+        "name": "stacker_bee",
+        "requirements": "~> 2.6"
       },
       {
         "name": "staplegun",
@@ -6370,15 +6591,15 @@
         "requirements": "~> 1.10.0"
       },
       {
-        "name": "stratify-garmin",
-        "requirements": "~> 1.10.0"
-      },
-      {
         "name": "stratify-instapaper",
         "requirements": "~> 1.10.0"
       },
       {
         "name": "stratify-itunes",
+        "requirements": "~> 1.10.0"
+      },
+      {
+        "name": "stratify-garmin",
         "requirements": "~> 1.10.0"
       },
       {
@@ -6542,6 +6763,10 @@
         "requirements": ">= 0.4.1"
       },
       {
+        "name": "tray-checkout",
+        "requirements": "~> 2.6.0"
+      },
+      {
         "name": "trawler",
         "requirements": "~> 2.6"
       },
@@ -6563,6 +6788,10 @@
       },
       {
         "name": "twelve",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "twfy",
         "requirements": ">= 0"
       },
       {
@@ -6590,12 +6819,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "umlaut-primo",
-        "requirements": "~> 2.4.0"
-      },
-      {
         "name": "umlaut",
         "requirements": "~> 2.5.0"
+      },
+      {
+        "name": "umlaut-primo",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "uncoil",
@@ -6650,16 +6879,16 @@
         "requirements": "~> 2.3.0"
       },
       {
-        "name": "vaulted_billing",
-        "requirements": "~> 1.7"
+        "name": "vast_api",
+        "requirements": ">= 0"
       },
       {
         "name": "vaulted_billing-termcap",
         "requirements": "~> 1.7"
       },
       {
-        "name": "vast_api",
-        "requirements": ">= 0"
+        "name": "vaulted_billing",
+        "requirements": "~> 1.7"
       },
       {
         "name": "vcr-xml",
@@ -6696,6 +6925,10 @@
       {
         "name": "viglink",
         "requirements": "~> 2.4.0"
+      },
+      {
+        "name": "viglink-api",
+        "requirements": ">= 0"
       },
       {
         "name": "viki",
@@ -6758,6 +6991,10 @@
         "requirements": "= 1.4.0"
       },
       {
+        "name": "wikiwhat",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wishlist",
         "requirements": ">= 0"
       },
@@ -6786,6 +7023,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ww-postcodeapi",
+        "requirements": "~> 2.4.0"
+      },
+      {
         "name": "xero",
         "requirements": ">= 0"
       },
@@ -6794,11 +7035,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "yahoo-api",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yahoo-placemaker",
         "requirements": ">= 0"
       },
       {
-        "name": "yahoo-api",
+        "name": "yahoo_finance_2",
         "requirements": ">= 0"
       },
       {
@@ -6810,12 +7055,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yipit",
-        "requirements": "~> 1.7.0"
-      },
-      {
         "name": "yipit_n4l",
         "requirements": ">= 0"
+      },
+      {
+        "name": "yipit",
+        "requirements": "~> 1.7.0"
       },
       {
         "name": "yoga_pants",
@@ -6928,6 +7173,13 @@
     ],
     "description": " Elements  Api"
   },
+  "vdns": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Dynamic DNS for developers and teams."
+  },
   "ve": {
     "version": "0.0.2",
     "dependents": [
@@ -7002,7 +7254,7 @@
     "description": "veeru_gem is the best"
   },
   "veewee": {
-    "version": "0.3.7",
+    "version": "0.3.12",
     "dependents": [
       {
         "name": "servitor",
@@ -7038,7 +7290,7 @@
     "description": "Veewee templates updater. Easily update templates in the installed veewee gem."
   },
   "veewee-to-packer": {
-    "version": "0.2.6",
+    "version": "0.3.0",
     "dependents": [
 
     ],
@@ -7235,6 +7487,10 @@
         "requirements": "~> 0.1.2"
       },
       {
+        "name": "resque_signal_from_child",
+        "requirements": "~> 0.1.2"
+      },
+      {
         "name": "restet",
         "requirements": ">= 0"
       },
@@ -7344,6 +7600,13 @@
 
     ],
     "description": "babel offers a filter for hashes and with that comes json/yaml/xml de/serialization of models which provides a hash representationi. possible models are activerecord, activemodel, resources from datamapper, virtus"
+  },
+  "vellum": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "A Rails engine to provide help pages for Concerto"
   },
   "velociraptor": {
     "version": "0.1.0",
@@ -7527,7 +7790,7 @@
     "description": "Various usefull ruby/rails shit"
   },
   "ventriloquist": {
-    "version": "0.2.1",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -7645,6 +7908,20 @@
     ],
     "description": "Monkey patches Hash#fetch to also show the entire hash in the error"
   },
+  "verbose_truth": {
+    "version": "1.0.1",
+    "dependents": [
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rbt",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This tiny module is called verbose_truth.\n    It just has one method called verbose_truth().\n"
+  },
   "verbs": {
     "version": "2.1.3",
     "dependents": [
@@ -7654,6 +7931,10 @@
       },
       {
         "name": "patriarch",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rspec2minitest",
         "requirements": ">= 0"
       },
       {
@@ -7668,14 +7949,6 @@
     "dependents": [
       {
         "name": "latinchart",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "latinirb",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "latinverb",
         "requirements": ">= 0"
       }
     ],
@@ -7752,7 +8025,7 @@
     "description": "Verify preconditions for Rails actions"
   },
   "verified_double": {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "dependents": [
 
     ],
@@ -7764,6 +8037,20 @@
 
     ],
     "description": "Verify is a very simple minitest suite &#224; la Testy containing a primitive stdin/stdout mocker ( Mockify )"
+  },
+  "verify-cfpt": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "CFPT stimuli verification tool"
+  },
+  "verify-ooo": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "OOO stimuli verification tool"
   },
   "verilog": {
     "version": "0.1.0",
@@ -7832,7 +8119,7 @@
     "description": "Generate SQL from a veritas relation"
   },
   "veritrans": {
-    "version": "1.2.2",
+    "version": "1.2.4",
     "dependents": [
 
     ],
@@ -7874,14 +8161,14 @@
     "description": "Ruby gem for Vero"
   },
   "veronic": {
-    "version": "0.0.26",
+    "version": "0.0.27",
     "dependents": [
 
     ],
     "description": "A simple cloud deployer"
   },
   "versacommerce_api": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "dependents": [
       {
         "name": "versacommerce_app",
@@ -7993,7 +8280,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fume-dev",
+        "name": "fume-nav",
         "requirements": ">= 0"
       },
       {
@@ -8001,7 +8288,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fume-nav",
+        "name": "fume-dev",
         "requirements": ">= 0"
       },
       {
@@ -8085,10 +8372,6 @@
         "requirements": "~> 1"
       },
       {
-        "name": "onelogin-ssm",
-        "requirements": ">= 0"
-      },
-      {
         "name": "pbxproject",
         "requirements": ">= 0"
       },
@@ -8121,12 +8404,12 @@
         "requirements": "~> 1.0"
       },
       {
-        "name": "rubylet",
-        "requirements": "~> 1"
-      },
-      {
         "name": "rubylet-jetty",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rubylet",
+        "requirements": "~> 1"
       },
       {
         "name": "rubylet-tasks",
@@ -8251,8 +8534,15 @@
     ],
     "description": "Simply bump your versions"
   },
+  "version_compare": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Version Compare allows you to easily compare if one Version is >, >=, ==, !=, <, or <= to another Version."
+  },
   "version_deploy": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -8287,7 +8577,7 @@
     "description": "A gem-style version checker"
   },
   "version_info": {
-    "version": "1.8.0",
+    "version": "1.8.5",
     "dependents": [
       {
         "name": "nexus_link",
@@ -8342,7 +8632,7 @@
     "description": "Versionable lets a ruby module or class declare multiple numbered versions of itself, and provides a way to select one based on a gem-like requirement."
   },
   "versionable_api": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -8446,6 +8736,10 @@
     "version": "0.4.4",
     "dependents": [
       {
+        "name": "angularjs-rails",
+        "requirements": ">= 0"
+      },
+      {
         "name": "awestructx",
         "requirements": "~> 0.4.3"
       },
@@ -8460,6 +8754,10 @@
       {
         "name": "capistrano-bootstrap",
         "requirements": "~> 0.4.4"
+      },
+      {
+        "name": "capistrano-helpers",
+        "requirements": ">= 0"
       },
       {
         "name": "deployments",
@@ -8490,12 +8788,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "leap_cli",
+        "requirements": ">= 0"
+      },
+      {
         "name": "melai",
         "requirements": ">= 0"
       },
       {
         "name": "not-quite-submodules",
         "requirements": "~> 0.4.4"
+      },
+      {
+        "name": "pact_broker",
+        "requirements": ">= 0"
       },
       {
         "name": "seagull",
@@ -8565,7 +8871,7 @@
     "description": "A library to manage version strings."
   },
   "verso": {
-    "version": "0.0.9",
+    "version": "0.0.10",
     "dependents": [
 
     ],
@@ -8586,8 +8892,16 @@
     "description": "The Versus gem provides a solid Version class along with supporting\nfunctionality, such as version constratints and version dependency\nresolution."
   },
   "vertebrae": {
-    "version": "0.2.2",
+    "version": "0.2.4",
     "dependents": [
+      {
+        "name": "action_kit_rest",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "agra_api",
+        "requirements": ">= 0"
+      },
       {
         "name": "porpoise_external_actions",
         "requirements": ">= 0"
@@ -8607,7 +8921,7 @@
     "description": "Get wrapper for inverted comparisons"
   },
   "vertica": {
-    "version": "0.11.0",
+    "version": "0.11.1",
     "dependents": [
       {
         "name": "activerecord_vertica_adapter",
@@ -8657,11 +8971,11 @@
     "description": "FAMIX export of method visibility statistics in Ruby code"
   },
   "very_first_gem": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
-    "description": "This is a test gem it doesn't do much"
+    "description": "Write a gem description"
   },
   "very_nifty_generators": {
     "version": "0.2.1",
@@ -8761,6 +9075,16 @@
     ],
     "description": "    Vetinari is a multithreaded IRC Bot Framework using the Celluloid::IO\n    library.\n"
   },
+  "veto": {
+    "version": "0.1.2",
+    "dependents": [
+      {
+        "name": "presto",
+        "requirements": "~> 0.1.2"
+      }
+    ],
+    "description": "Validations for ruby objects"
+  },
   "vex": {
     "version": "0.6.2",
     "dependents": [
@@ -8769,7 +9093,7 @@
     "description": "Vex: some ruby extensions"
   },
   "vex_rails": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -8783,7 +9107,7 @@
     "description": "Auto generating ActiveModel validations for hashes"
   },
   "veye": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -8892,6 +9216,13 @@
 
     ],
     "description": "Easy-to-use videogames browser"
+  },
+  "vgrnt": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Speeds up a few common vagrant operations through dirty hacks."
   },
   "vh": {
     "version": "0.0.4",
@@ -9047,7 +9378,7 @@
     "description": "    Transcripts and commentary for long boring videos on YouTube!  \n"
   },
   "viddl-rb": {
-    "version": "0.87",
+    "version": "0.92",
     "dependents": [
 
     ],
@@ -9105,6 +9436,13 @@
     ],
     "description": "Video.js is a JavaScript and CSS library that makes it easier to work with and build on HTML5 video"
   },
+  "video-torrent-info": {
+    "version": "0.1.3",
+    "dependents": [
+
+    ],
+    "description": "It simply loads small part of torrent that contains metadata and processes it with ffmpeg"
+  },
   "video_converter": {
     "version": "0.3.0",
     "dependents": [
@@ -9127,25 +9465,25 @@
     "description": "Quick and easy video attributes -- width, height, bitrate, codec, duration, framerate."
   },
   "video_embed": {
-    "version": "0.0.2",
+    "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "Generate HTML to embed videos based on a URL"
   },
   "video_info": {
-    "version": "1.5.0",
+    "version": "2.0.2",
     "dependents": [
       {
         "name": "media_meta_hash",
-        "requirements": ">= 0"
+        "requirements": "= 1.5.0"
       },
       {
         "name": "tubemp",
         "requirements": "~> 1.1"
       }
     ],
-    "description": "Get video info from youtube and vimeo url."
+    "description": "Get video info from YouTube, Vimeo and VK url."
   },
   "video_parser": {
     "version": "0.1.0",
@@ -9213,12 +9551,29 @@
     ],
     "description": "在video-js框架里，记录用户重复播放视频里各部分的频度。"
   },
+  "videolog": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "This gem makes it easy to integrate Videolog with Ruby projects."
+  },
   "videoreg": {
     "version": "0.1",
     "dependents": [
 
     ],
     "description": "Video Registration scripts. Allows to register continuously"
+  },
+  "videotools": {
+    "version": "0.0.2",
+    "dependents": [
+      {
+        "name": "DIAMOND_SHELL",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "    This library is called videotools.\n    \n    This is my collection of video related scripts.\n    It includes VideoPlayer.rb (which is just a little\n    wrapper over mplayer), copy_missing_video_files.rb (which\n    is supposed to copy my video collection from external\n    HDD devices), ffmpeg_options.rb (which makes using ffmpeg\n    more convenient), find_missing_video_files.rb (which will\n    iterate over my yaml collection of video files, and tells\n    me which one I am missing), find_video.rb (which locates\n    videos), google_video_downloader.rb (which is supposed\n    to download videos, and srt_regex.rb (which should\n    be usable if you need to batch-modify .srt files,\n    when they have the wrong timestamp, for instance).\n"
   },
   "vidibus-api": {
     "version": "0.0.1",
@@ -9248,11 +9603,15 @@
     "version": "0.4.1",
     "dependents": [
       {
+        "name": "vidibus-fileinfo",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vidibus-inheritance",
         "requirements": ">= 0"
       },
       {
-        "name": "vidibus-fileinfo",
+        "name": "vidibus-pureftpd",
         "requirements": ">= 0"
       },
       {
@@ -9261,10 +9620,6 @@
       },
       {
         "name": "vidibus-permalink",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vidibus-pureftpd",
         "requirements": ">= 0"
       },
       {
@@ -9457,15 +9812,15 @@
     "version": "1.0.0",
     "dependents": [
       {
+        "name": "vidibus-category_tag",
+        "requirements": ">= 0"
+      },
+      {
         "name": "vidibus-encoder",
         "requirements": ">= 0"
       },
       {
         "name": "vidibus-inheritance",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "vidibus-category_tag",
         "requirements": ">= 0"
       },
       {
@@ -9598,7 +9953,7 @@
     "description": "Tiny, zero-configuration static file server built on top of rack"
   },
   "vienna_rna": {
-    "version": "0.9.2",
+    "version": "0.11.0",
     "dependents": [
       {
         "name": "rbfam",
@@ -9664,7 +10019,7 @@
     "description": "The missing R to the Rails MVC"
   },
   "view_server": {
-    "version": "0.0.2",
+    "version": "0.0.8",
     "dependents": [
 
     ],
@@ -9813,6 +10168,13 @@
     ],
     "description": "A simple Vigenère Cipher ruby implementation"
   },
+  "vigenere_cipher": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "A gem for vigenère cipher.\nFor detail, See https://github.com/tmaekawa/vigenere_cipher\n"
+  },
   "vigetlabs-routing-filter": {
     "version": "0.2.4",
     "dependents": [
@@ -9848,8 +10210,15 @@
     ],
     "description": "A simple wrapper around the Viglink APIs"
   },
+  "viglink-api": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Viglink API Wrapper"
+  },
   "vignette": {
-    "version": "0.0.3",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -9877,7 +10246,7 @@
     "description": "Viki-gem is an official wrapper gem for the Viki V3 API."
   },
   "viki-api": {
-    "version": "1.6.3",
+    "version": "1.7.3",
     "dependents": [
 
     ],
@@ -9964,7 +10333,7 @@
     "description": "Simple static content pages and blog engine for Rails 3."
   },
   "village_auth": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -9995,7 +10364,7 @@
     "description": "Downloads vim plugins and installs them into the pathogen.vim bundle directory."
   },
   "vim-flavor": {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependents": [
 
     ],
@@ -10072,14 +10441,14 @@
     "description": "Search your vim keybindings precisely by keystroke, mode, description or where they came from. Search vim options by name, alias and description."
   },
   "vimdeck": {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "dependents": [
 
     ],
     "description": "VIM as a presentation tool"
   },
   "vimdo": {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -10088,6 +10457,10 @@
   "vimeo": {
     "version": "1.5.3",
     "dependents": [
+      {
+        "name": "active_public_resources",
+        "requirements": "~> 1.5.3"
+      },
       {
         "name": "easy-vimeo",
         "requirements": ">= 1.0.0"
@@ -10317,12 +10690,8 @@
     "description": "Rotten Tomatoes API Wrapper in Ruby"
   },
   "vines": {
-    "version": "0.4.7",
+    "version": "0.4.8",
     "dependents": [
-      {
-        "name": "vines-couchdb",
-        "requirements": ">= 0.4.5"
-      },
       {
         "name": "vines-agent",
         "requirements": ">= 0.4.6"
@@ -10332,11 +10701,15 @@
         "requirements": ">= 0.4.5"
       },
       {
+        "name": "vines-redis",
+        "requirements": ">= 0.4.5"
+      },
+      {
         "name": "vines-services",
         "requirements": ">= 0.4.7"
       },
       {
-        "name": "vines-redis",
+        "name": "vines-couchdb",
         "requirements": ">= 0.4.5"
       },
       {
@@ -10415,6 +10788,13 @@
     ],
     "description": "Rubygem for interacting w/ Vine's API"
   },
+  "vingd": {
+    "version": "0.1.5",
+    "dependents": [
+
+    ],
+    "description": "Vingd enables users to pay with money or with time. See https://www.vingd.com for more."
+  },
   "vinova_sunspot_autocomplete": {
     "version": "1.0.1",
     "dependents": [
@@ -10450,12 +10830,26 @@
     ],
     "description": "The super slim web framework"
   },
+  "vinted-log4r": {
+    "version": "1.1.11",
+    "dependents": [
+
+    ],
+    "description": "See also: http://logging.apache.org/log4j"
+  },
   "vinted-parallel_tests": {
     "version": "0.13.3",
     "dependents": [
 
     ],
     "description": "Run Test::Unit / RSpec / Cucumber in parallel"
+  },
+  "vinted-thread": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Includes a thread pool, message passing capabilities, a recursive mutex, promise, future and delay."
   },
   "vintner": {
     "version": "1.2",
@@ -10528,7 +10922,7 @@
     "description": "cleanning up Persian text!"
   },
   "virb": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -10647,7 +11041,7 @@
     "description": "Replace keyword implementations with your own functions, for DSLs"
   },
   "virtual_merchant": {
-    "version": "0.2.0",
+    "version": "0.3.5",
     "dependents": [
 
     ],
@@ -10665,19 +11059,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-nirvanix",
-        "requirements": "~> 0.9.1"
-      },
-      {
         "name": "fog-iwd",
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog-sgonyea",
+        "name": "fog-parser-fix",
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog-parser-fix",
+        "name": "fog-nirvanix",
+        "requirements": "~> 0.9.1"
+      },
+      {
+        "name": "fog-sgonyea",
         "requirements": "~> 0.9.1"
       },
       {
@@ -10689,11 +11083,11 @@
         "requirements": "= 0.8.3"
       },
       {
-        "name": "fog_ec2dream",
+        "name": "fog_tractical",
         "requirements": "~> 0.9.1"
       },
       {
-        "name": "fog_tractical",
+        "name": "fog_ec2dream",
         "requirements": "~> 0.9.1"
       },
       {
@@ -10770,7 +11164,7 @@
     "description": "Runs stuff inside of a VirtualBox VM"
   },
   "virtualbox-ws": {
-    "version": "0.0.3",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -10829,8 +11223,12 @@
     "description": "Ruby library for Parallels Virtuozzo Agent's API"
   },
   "virtus": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
+      {
+        "name": "adam_signals",
+        "requirements": "~> 1.0"
+      },
       {
         "name": "adcloud",
         "requirements": ">= 0"
@@ -10852,16 +11250,32 @@
         "requirements": ">= 0"
       },
       {
+        "name": "backsum",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "barometer",
+        "requirements": ">= 1.0.0"
+      },
+      {
         "name": "bishl",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bitbot-trader",
+        "requirements": "~> 1.0"
       },
       {
         "name": "bitbucket-api-extension",
         "requirements": ">= 0"
       },
       {
-        "name": "capsule_crm",
+        "name": "brew_dg",
         "requirements": ">= 0"
+      },
+      {
+        "name": "capsule_crm",
+        "requirements": "~> 0.5.4"
       },
       {
         "name": "cave",
@@ -10884,8 +11298,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "curate",
+        "requirements": ">= 0"
+      },
+      {
         "name": "cut",
         "requirements": "~> 0.5.5"
+      },
+      {
+        "name": "daedal",
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "datamappify",
@@ -10901,7 +11323,7 @@
       },
       {
         "name": "discoverer",
-        "requirements": ">= 0"
+        "requirements": "~> 1.0"
       },
       {
         "name": "dummy_model",
@@ -10937,15 +11359,31 @@
       },
       {
         "name": "funky_form",
-        "requirements": "~> 1.0.0.beta0"
+        "requirements": "~> 1.0"
       },
       {
         "name": "gearman_admin_client",
         "requirements": ">= 0"
       },
       {
+        "name": "geary",
+        "requirements": "< 1"
+      },
+      {
+        "name": "git-pr",
+        "requirements": "~> 1.0"
+      },
+      {
         "name": "grape",
         "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "guacamole",
+        "requirements": "~> 1.0.0.rc2"
+      },
+      {
+        "name": "gummi",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "hightouch",
@@ -10964,11 +11402,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "imperator-ext",
+        "name": "imperator",
         "requirements": ">= 0"
       },
       {
-        "name": "imperator",
+        "name": "imperator-ext",
         "requirements": ">= 0"
       },
       {
@@ -10986,6 +11424,10 @@
       {
         "name": "ixtlan-user-management",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "jdc-planning",
+        "requirements": ">= 0"
       },
       {
         "name": "json-schematized",
@@ -11009,7 +11451,7 @@
       },
       {
         "name": "mention-api",
-        "requirements": "~> 1.0.0.rc1"
+        "requirements": "~> 1.0"
       },
       {
         "name": "microstation",
@@ -11024,7 +11466,27 @@
         "requirements": "~> 0.5.1"
       },
       {
+        "name": "napa",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nmg",
+        "requirements": "~> 1.0.0"
+      },
+      {
         "name": "omnidata",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "openagent",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "otis",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pagerduty-sdk",
         "requirements": ">= 0"
       },
       {
@@ -11037,11 +11499,11 @@
       },
       {
         "name": "pencil_pusher",
-        "requirements": "~> 1.0.0rc2"
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "pipely",
-        "requirements": ">= 0"
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "pollter_geist",
@@ -11053,7 +11515,7 @@
       },
       {
         "name": "pp-adaptive",
-        "requirements": ">= 0.5.1"
+        "requirements": "~> 0.5.5"
       },
       {
         "name": "pullcrusher",
@@ -11061,7 +11523,7 @@
       },
       {
         "name": "punchblock",
-        "requirements": "~> 0.5"
+        "requirements": "~> 1.0"
       },
       {
         "name": "quova",
@@ -11085,11 +11547,15 @@
       },
       {
         "name": "rightnow-client",
-        "requirements": ">= 0.5.3"
+        "requirements": ">= 1.0.0"
       },
       {
         "name": "roar",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rosebud",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "rspec-virtus",
@@ -11120,8 +11586,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "siphon",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "smooth-io",
+        "requirements": "= 0.5.5"
+      },
+      {
         "name": "smshelper",
         "requirements": ">= 0"
+      },
+      {
+        "name": "soulless",
+        "requirements": ">= 1.0"
       },
       {
         "name": "stackexchange-ruby",
@@ -11129,11 +11607,15 @@
       },
       {
         "name": "standalone_validator",
-        "requirements": "~> 0.5"
+        "requirements": "~> 1.0"
       },
       {
         "name": "survey-gizmo-ruby",
-        "requirements": ">= 0"
+        "requirements": ">= 1.0.0"
+      },
+      {
+        "name": "syrup_form_object",
+        "requirements": "~> 1.0"
       },
       {
         "name": "tengai",
@@ -11156,20 +11638,20 @@
         "requirements": "~> 0.5.5"
       },
       {
-        "name": "virtus-uri",
-        "requirements": "< 1.0.0"
-      },
-      {
-        "name": "virtus-matchers",
-        "requirements": ">= 0"
-      },
-      {
         "name": "virtus-dirty",
         "requirements": "~> 0.0.1"
       },
       {
         "name": "virtus-dirty",
         "requirements": ">= 0"
+      },
+      {
+        "name": "virtus-matchers",
+        "requirements": "~> 1.0.0"
+      },
+      {
+        "name": "virtus-uri",
+        "requirements": "~> 1.0.0"
       },
       {
         "name": "webhook-payload",
@@ -11201,7 +11683,7 @@
     "description": "Add dirty tracking of attributes to your ruby objects"
   },
   "virtus-matchers": {
-    "version": "0.0.6",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -11215,9 +11697,12 @@
     "description": "Rspec matcher to virtus gem"
   },
   "virtus-uri": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
-
+      {
+        "name": "geary",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Add a URI attribute type to Virtus."
   },
@@ -11430,11 +11915,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "visor-web",
+        "name": "visor-meta",
         "requirements": ">= 0"
       },
       {
-        "name": "visor-meta",
+        "name": "visor-web",
         "requirements": ">= 0"
       }
     ],
@@ -11475,6 +11960,27 @@
     ],
     "description": "This gem provides a configurable means for showing, via an updated <title> tag or CSS corner banner, what the current runtime environment is (development, staging, test, etc.)  This functionality is never enabled for production, and for all other environments you can exclude specific ones."
   },
+  "visual_migrate": {
+    "version": "4.0.1.5",
+    "dependents": [
+
+    ],
+    "description": "Brings easy way to edit migration files of Ruby on Rails."
+  },
+  "visual_studio_files": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "This library is intended to help when manipulating such things as the files included in a visual studio project. Or verify some condition related to the files in the project."
+  },
+  "visual_width": {
+    "version": "0.0.6",
+    "dependents": [
+
+    ],
+    "description": "Deals with East Asian Width defined in Unicode"
+  },
   "visualcaptcha": {
     "version": "0.0.1.4",
     "dependents": [
@@ -11490,7 +11996,7 @@
     "description": "visualisation-utils provides a number of utilities\n                    for visualising data from the command line."
   },
   "visualruby": {
-    "version": "0.1.2",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -11589,6 +12095,13 @@
 
     ],
     "description": "Standalone version for the VitreousCloud"
+  },
+  "vitrine": {
+    "version": "0.0.11",
+    "dependents": [
+
+    ],
+    "description": " Serves ERB templates with live CoffeeScript and SASS "
   },
   "vitunes": {
     "version": "0.4.9",
@@ -11731,7 +12244,7 @@
     "description": "With query_trace enabled, the Rails logs will contain a partial stack trace for every executed SQL statement, making it easier to find where they are generated in your code."
   },
   "vizzuality-sequel-rails": {
-    "version": "0.3.6",
+    "version": "0.3.7",
     "dependents": [
 
     ],
@@ -11836,19 +12349,19 @@
     "version": "0.11.2",
     "dependents": [
       {
-        "name": "vkhater-social_stream-documents",
-        "requirements": "~> 0.11.1"
-      },
-      {
         "name": "vkhater-social_stream",
         "requirements": "~> 0.11.2"
+      },
+      {
+        "name": "vkhater-social_stream-linkser",
+        "requirements": "~> 0.11.1"
       },
       {
         "name": "vkhater-social_stream-events",
         "requirements": "~> 0.11.2"
       },
       {
-        "name": "vkhater-social_stream-linkser",
+        "name": "vkhater-social_stream-documents",
         "requirements": "~> 0.11.1"
       }
     ],
@@ -11913,7 +12426,7 @@
     "description": "The easiest way to access Vkontakte API and some other utils. "
   },
   "vkontakte_api": {
-    "version": "1.2",
+    "version": "1.3.1",
     "dependents": [
 
     ],
@@ -11927,7 +12440,7 @@
     "description": "For most popular in russia social network, api wrapper"
   },
   "vkpd": {
-    "version": "1.3.5",
+    "version": "1.3.6",
     "dependents": [
 
     ],
@@ -11955,11 +12468,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "if-vlad",
+        "name": "if-vlad-recipes",
         "requirements": ">= 2.0.0"
       },
       {
-        "name": "if-vlad-recipes",
+        "name": "if-vlad",
         "requirements": ">= 2.0.0"
       },
       {
@@ -11979,12 +12492,12 @@
         "requirements": "< 3, >= 2.2.4"
       },
       {
-        "name": "vlad-git",
-        "requirements": ">= 2.1.0"
-      },
-      {
         "name": "vlad-fjpii",
         "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "vlad-git",
+        "requirements": ">= 2.1.0"
       },
       {
         "name": "vlad-hg",
@@ -11995,28 +12508,28 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "vlad-nginx",
-        "requirements": "~> 2"
-      },
-      {
-        "name": "vlad-status",
-        "requirements": "~> 2.0"
-      },
-      {
         "name": "vlad-push",
         "requirements": "~> 2.0"
       },
       {
-        "name": "vlad_freebsd",
-        "requirements": ">= 0"
+        "name": "vlad-nginx",
+        "requirements": "~> 2"
       },
       {
         "name": "vlad-unicorn",
         "requirements": "~> 2.0"
       },
       {
+        "name": "vlad-status",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "VladTheEnterprising",
         "requirements": "> 1.0.0"
+      },
+      {
+        "name": "vlad_freebsd",
+        "requirements": ">= 0"
       }
     ],
     "description": "Vlad the Deployer is pragmatic application deployment automation,\nwithout mercy. Much like Capistrano, but with 1/10th the\ncomplexity. Vlad integrates seamlessly with Rake, and uses familiar\nand standard tools like ssh and rsync.\n\nImpale your application on the heartless spike of the Deployer."
@@ -12343,8 +12856,12 @@
     "description": "Vending machine; this simulator starts a vendingmachine ui which behaviour can be programmed with control code"
   },
   "vmstat": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
+      {
+        "name": "kebab_remote_api",
+        "requirements": "~> 2.1.0"
+      },
       {
         "name": "vcap_common",
         "requirements": "~> 2.0"
@@ -12379,6 +12896,13 @@
 
     ],
     "description": "Reverts a virtual machine to the most current snapshot."
+  },
+  "vn_test_gem2": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Attempt at second gem"
   },
   "vnctools": {
     "version": "0.0.9",
@@ -12425,6 +12949,13 @@
     ],
     "description": "Library for various music analysis thins, e.g. determing from where an artist comes from."
   },
+  "vocalware": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby client for Vocalware REST API"
+  },
   "vocco": {
     "version": "0.2.1",
     "dependents": [
@@ -12436,11 +12967,11 @@
     "description": "vocco is an extra super quick-and-dirty documentation generator based on Vim, written in Ruby."
   },
   "vocker": {
-    "version": "0.3.3",
+    "version": "0.4.0",
     "dependents": [
       {
         "name": "ventriloquist",
-        "requirements": "~> 0.3.1"
+        "requirements": "~> 0.4.0"
       }
     ],
     "description": "Introduces Docker to Vagrant"
@@ -12626,6 +13157,10 @@
     "version": "0.1.0",
     "dependents": [
       {
+        "name": "voluntary_classified_advertisement",
+        "requirements": "= 0.1.0"
+      },
+      {
         "name": "voluntary_text_creation",
         "requirements": "~> 0"
       },
@@ -12635,6 +13170,13 @@
       }
     ],
     "description": "This is a gem which turns your rails application into a crowdsourcing platform to run on your intranet or on the internet."
+  },
+  "voluntary_classified_advertisement": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Classified advertisement product for crowdsourcing engine voluntary."
   },
   "voluntary_text_creation": {
     "version": "0.0.4",
@@ -12682,7 +13224,7 @@
     "description": "Count characters like The Count"
   },
   "voodoo": {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependents": [
 
     ],
@@ -12731,7 +13273,7 @@
     "description": "WebVTT generation, parsing and manipulation"
   },
   "vorax": {
-    "version": "5.3",
+    "version": "5.3.1",
     "dependents": [
 
     ],
@@ -12832,7 +13374,7 @@
     "description": "The voting gem from the Tea Leaf course"
   },
   "votd": {
-    "version": "2.1.6",
+    "version": "2.2.0",
     "dependents": [
 
     ],
@@ -12957,6 +13499,13 @@
     ],
     "description": "Gem allows vote counts"
   },
+  "voteable-joe": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A voting gem"
+  },
   "voteable-jwallace": {
     "version": "0.2.0",
     "dependents": [
@@ -12999,6 +13548,13 @@
     ],
     "description": "A simple gem for adding upvotes and downvotes."
   },
+  "voteable_blaine": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "The best voting gem ever."
+  },
   "voteable_ceconcepcion": {
     "version": "0.0.2",
     "dependents": [
@@ -13006,12 +13562,47 @@
     ],
     "description": "This gem checks total votes with a instance variable that is using a polymorphic votes"
   },
+  "voteable_dave": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "my first gem - for abstracting voting"
+  },
   "voteable_fer_sept": {
     "version": "0.0.0",
     "dependents": [
 
     ],
     "description": "The best shit for voting"
+  },
+  "Voteable_Iank_nov": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ian's version of the voting gem"
+  },
+  "voteable_kent": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "a voting gem for tealeaf academy"
+  },
+  "voteable_kristen_december": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "My first gem"
+  },
+  "voteable_marv_oct": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "A nice additional gem"
   },
   "voteable_marv_sept": {
     "version": "0.4.0",
@@ -13048,12 +13639,33 @@
     ],
     "description": "Renamed to voteable_mongo to support both Mongoid and MongoMapper."
   },
+  "voteable_naveen_dec": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "The best voting gem ever"
+  },
   "voteable_Reed_October": {
     "version": "0.1.0",
     "dependents": [
 
     ],
     "description": "A voting Gem for class project"
+  },
+  "voteable_robert_oct": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "The best voting gem ever."
+  },
+  "voteable_total_votes": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "A voting gem that sums up the difference between up votes and down votes."
   },
   "voter_love": {
     "version": "0.0.5",
@@ -13215,6 +13827,13 @@
     ],
     "description": "Export calls from http://www.voys.nl."
   },
+  "vp": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Remote automate like a bossâ¢."
+  },
   "VPaypal": {
     "version": "0.0.1",
     "dependents": [
@@ -13230,7 +13849,7 @@
     "description": "implements schema partitioning for multi-tenancy support in rails.\n      Currently only supports PostgreSQL and is officially \"experimental\"!"
   },
   "vpim": {
-    "version": "0.695",
+    "version": "13.11.11",
     "dependents": [
       {
         "name": "faceoff",
@@ -13245,7 +13864,7 @@
         "requirements": ">= 0"
       }
     ],
-    "description": "This is a pure-ruby library for decoding and encoding vCard and iCalendar data (&quot;personal information&quot;) called vPim."
+    "description": "This is a pure-ruby library for decoding and encoding vCard and iCalendar data\n(\"personal information\") called vPim.\n"
   },
   "vpim-rails": {
     "version": "0.665",
@@ -13317,6 +13936,13 @@
     ],
     "description": "VRaptor scaffold extension to make it easier configuring new projects and plugins."
   },
+  "vrb": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "MVC of View for Ruby"
+  },
   "vremya": {
     "version": "1.0",
     "dependents": [
@@ -13349,6 +13975,10 @@
       },
       {
         "name": "tangsalesparser",
+        "requirements": ">= 0.0.1"
+      },
+      {
+        "name": "tictactoe-randall",
         "requirements": ">= 0.0.1"
       },
       {
@@ -13409,7 +14039,7 @@
     "description": "Collects host and cluster metrics from vsphere and outputs json"
   },
   "vsql_parser": {
-    "version": "0.2",
+    "version": "0.3",
     "dependents": [
 
     ],
@@ -13544,7 +14174,7 @@
     "description": "Even delivering email to the local machine may take too long when you have to send hundreds of messages.  ar_mailer allows you to store messages into the database for later delivery by a separate process, ar_sendmail."
   },
   "vvm-rb": {
-    "version": "0.0.5",
+    "version": "0.0.13",
     "dependents": [
 
     ],

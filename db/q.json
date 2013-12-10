@@ -1,17 +1,17 @@
 {
+  "q": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": " A universal interface for Ruby queueing backends. "
+  },
   "Q": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Fast, fun, east HTML generation from Ruby"
-  },
-  "q": {
-    "version": "0.0.0",
-    "dependents": [
-
-    ],
-    "description": "q is a command line activity logger/time tracker."
   },
   "q-defer": {
     "version": "0.0.1",
@@ -56,7 +56,7 @@
     "description": "Extends String with a 'translate' method. Returned value is the according translated text for a Wordpress Post translated by QTranslate plugin."
   },
   "qa": {
-    "version": "0.0.1",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -96,13 +96,6 @@
 
     ],
     "description": "An [almost] one command solution for adding admin interfaces/resources to a Rails app."
-  },
-  "qaol": {
-    "version": "1.1.1",
-    "dependents": [
-
-    ],
-    "description": "This gem is a ruby implementation of the classic game 'Pong'. The word 'qaol' is pronounced like 'quail'."
   },
   "qarioz-confluencer": {
     "version": "0.6.0",
@@ -253,11 +246,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "assay-minitest",
+        "name": "assay",
         "requirements": ">= 0"
       },
       {
-        "name": "assay",
+        "name": "assay-minitest",
         "requirements": ">= 0"
       },
       {
@@ -500,7 +493,7 @@
     "description": "QED (Quality Ensured Demonstrations) is a TDD/BDD framework\nutilizing Literate Programming techniques."
   },
   "qedproject": {
-    "version": "0.6.2",
+    "version": "0.6.2.1",
     "dependents": [
 
     ],
@@ -570,7 +563,7 @@
     "description": "A ruby library for qif file processing."
   },
   "qihu360": {
-    "version": "0.3.15",
+    "version": "0.3.16",
     "dependents": [
 
     ],
@@ -637,6 +630,10 @@
         "requirements": "~> 3.1"
       },
       {
+        "name": "blast_off",
+        "requirements": "~> 3.4.6"
+      },
+      {
         "name": "carrierwave-qiniu",
         "requirements": "~> 3.4.2"
       },
@@ -679,6 +676,13 @@
     ],
     "description": "Qiwi payments solution"
   },
+  "qlab-ruby": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Interact with QLab in Ruby."
+  },
   "qless": {
     "version": "0.9.3",
     "dependents": [
@@ -691,11 +695,11 @@
         "requirements": "~> 0.9"
       },
       {
-        "name": "qless-growl",
+        "name": "qless-pool",
         "requirements": "~> 0.9"
       },
       {
-        "name": "qless-pool",
+        "name": "qless-growl",
         "requirements": "~> 0.9"
       },
       {
@@ -768,7 +772,7 @@
     "description": "Ruby bindings for QuickLZ."
   },
   "qm": {
-    "version": "1.1.0",
+    "version": "1.1.5",
     "dependents": [
 
     ],
@@ -789,7 +793,7 @@
     "description": "Simple framwork to coordinate background tasks"
   },
   "qmore": {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "dependents": [
 
     ],
@@ -827,16 +831,16 @@
     "version": "0.3.3",
     "dependents": [
       {
-        "name": "qor_layout",
-        "requirements": ">= 0.3.0"
-      },
-      {
         "name": "qor_cache",
         "requirements": ">= 0"
       },
       {
         "name": "qor_test",
         "requirements": ">= 0"
+      },
+      {
+        "name": "qor_layout",
+        "requirements": ">= 0.3.0"
       }
     ],
     "description": "Qor DSL is designed to be as flexible as possible while helping you to create your DSLs."
@@ -873,7 +877,7 @@
     "description": "Qpid management library"
   },
   "qpid_messaging": {
-    "version": "0.24.0",
+    "version": "0.24.2",
     "dependents": [
       {
         "name": "qpid_management",
@@ -989,6 +993,13 @@
 
     ],
     "description": "A library for generating QRDA Cat 1."
+  },
+  "qreki": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "qreki"
   },
   "qrencoder": {
     "version": "1.4.1",
@@ -1238,7 +1249,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "qu-mongo",
+        "name": "qu-delayed",
+        "requirements": "= 0.1.4"
+      },
+      {
+        "name": "qu-airbrake",
         "requirements": "= 0.2.0"
       },
       {
@@ -1246,15 +1261,7 @@
         "requirements": "= 0.2.0"
       },
       {
-        "name": "qu-delayed",
-        "requirements": "= 0.1.4"
-      },
-      {
-        "name": "qu-mongoid",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "qu-airbrake",
+        "name": "qu-mongo",
         "requirements": "= 0.2.0"
       },
       {
@@ -1262,15 +1269,19 @@
         "requirements": "= 0.2.0"
       },
       {
+        "name": "qu-mongoid",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "qu_mailer",
+        "requirements": ">= 0.1.3"
+      },
+      {
         "name": "qu-redis",
         "requirements": "= 0.2.0"
       },
       {
         "name": "qu-spec",
-        "requirements": ">= 0.1.3"
-      },
-      {
-        "name": "qu_mailer",
         "requirements": ">= 0.1.3"
       },
       {
@@ -1391,8 +1402,15 @@
     ],
     "description": "longer description of your gem"
   },
+  "QuadraticEquation_MS": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Quadratic Equation solution, pass the 3 values a, b, c and results pass back as an array"
+  },
   "quaff": {
-    "version": "0.2.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -1444,7 +1462,7 @@
     "description": "Quality is a tool that runs quality checks on Ruby\ncode using rubocop, cane, reek, flog and flay, and makes sure \nyour numbers don't get any worse over time.\n"
   },
   "quality-measure-engine": {
-    "version": "2.5.1",
+    "version": "2.5.3",
     "dependents": [
 
     ],
@@ -1504,6 +1522,37 @@
     ],
     "description": "A collection of reusable Ruby methods developed by QualitySmith."
   },
+  "quandl_babelfish": {
+    "version": "0.0.4",
+    "dependents": [
+      {
+        "name": "quandl_data",
+        "requirements": "~> 0.0"
+      },
+      {
+        "name": "quandl_format",
+        "requirements": "~> 0.0"
+      }
+    ],
+    "description": "Quandl Data Cleaner"
+  },
+  "quandl_cassandra": {
+    "version": "1.2.3",
+    "dependents": [
+      {
+        "name": "quandl_cassandra_models",
+        "requirements": "~> 1.1"
+      }
+    ],
+    "description": "Quandl cassandra interface. CQL."
+  },
+  "quandl_cassandra_models": {
+    "version": "0.3.14",
+    "dependents": [
+
+    ],
+    "description": "Quandl cassandra interface. CQL."
+  },
   "quandl_cassinatra": {
     "version": "0.2.3",
     "dependents": [
@@ -1512,14 +1561,24 @@
     "description": "An orm for the cassinatra rest interface."
   },
   "quandl_client": {
-    "version": "0.1.17",
+    "version": "2.3.1",
     "dependents": [
-
+      {
+        "name": "quandl_format",
+        "requirements": "~> 2.3"
+      }
     ],
     "description": "An orm for the cassinatra rest interface."
   },
+  "quandl_command": {
+    "version": "0.2.5",
+    "dependents": [
+
+    ],
+    "description": "Quandl CLI"
+  },
   "quandl_data": {
-    "version": "0.1.11",
+    "version": "1.3.4",
     "dependents": [
       {
         "name": "quandl_cassinatra",
@@ -1527,57 +1586,74 @@
       },
       {
         "name": "quandl_client",
-        "requirements": "~> 0.1"
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "quandl_cassandra",
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "quandl_sandbox",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "quandl_operation",
+        "requirements": ">= 0"
       }
     ],
     "description": "Data will be interfaced"
   },
+  "quandl_format": {
+    "version": "0.1.5",
+    "dependents": [
+      {
+        "name": "quandl_command",
+        "requirements": "~> 0.1"
+      }
+    ],
+    "description": "Data will be loaded and dumped."
+  },
   "quandl_location": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
     "description": "Provides a library for accessing data from arbitrary key-value storage"
   },
   "quandl_logger": {
-    "version": "0.1.1",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "quandl_cassinatra",
         "requirements": "~> 0.1"
       },
       {
-        "name": "quandl_client",
-        "requirements": "~> 0.1"
-      },
-      {
-        "name": "quandl_data",
-        "requirements": "~> 0.1"
-      },
-      {
         "name": "quandl_operation",
-        "requirements": "~> 0.1"
+        "requirements": "~> 0.2"
       }
     ],
     "description": "Quandl logger class for use in quandl gems."
   },
   "quandl_operation": {
-    "version": "0.1.11",
+    "version": "0.3.1",
     "dependents": [
       {
         "name": "quandl_cassinatra",
         "requirements": "~> 0.1"
       },
       {
-        "name": "quandl_client",
-        "requirements": "~> 0.1"
-      },
-      {
         "name": "quandl_data",
-        "requirements": "~> 0.1"
+        "requirements": "~> 0.3.1"
       }
     ],
     "description": "Data will be operated"
+  },
+  "quandl_sandbox": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Launch and execute code inside an ec2 instance. Supports vpc private subnet via ssh gateway. Use webhooks to notify success or failure."
   },
   "quant": {
     "version": "0.0.5",
@@ -1608,11 +1684,21 @@
     "description": "Quantify extension which configures units for use with the AMEE platform"
   },
   "quantile": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "prometheus-client",
+        "requirements": "~> 0.1.0"
+      }
+    ],
+    "description": "Graham Cormode and S. Muthukrishnan's Effective Computation of Biased Quantiles over Data Streams in ICDE’05"
+  },
+  "quantile_estimator": {
     "version": "0.0.2",
     "dependents": [
 
     ],
-    "description": "Graham Cormode and S. Muthukrishnan's Effective Computation of Biased Quantiles over Data Streams in ICDE’05"
+    "description": "\n    Implementation of quantile estimators based on.\n\n    Cormode et. al.: \"Effective Computation of Biased Quantiles over Data Streams\"\n  "
   },
   "quantipay-acts_as_secure": {
     "version": "1.0.4",
@@ -1643,7 +1729,7 @@
     "description": "Adds a quantize() method to the Integer class"
   },
   "quantum": {
-    "version": "0.0.7",
+    "version": "0.0.10",
     "dependents": [
 
     ],
@@ -1733,10 +1819,30 @@
     ],
     "description": "From {Quartz Scheduler's website}[http://www.quartz-scheduler.org/]\n\nQuartz is a full-featured, open source job scheduling service that can be integrated with, or used along side virtually any Java EE or Java SE application - from the smallest stand-alone application to the largest e-commerce system. Quartz can be used to create simple or complex schedules for executing tens, hundreds, or even tens-of-thousands of jobs; jobs whose tasks are defined as standard Java components that may executed virtually anything you may program them to do. The Quartz Scheduler includes many enterprise-class features, such as JTA transactions and clustering.\n\nThis gem makes these available in a ruby friendly syntax"
   },
-  "quartz_torrent": {
-    "version": "0.0.2",
+  "quartz_flow": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "quartz_flow_plugin_shows",
+        "requirements": "~> 0.0.2"
+      }
+    ],
+    "description": "A web-based bittorrent client"
+  },
+  "quartz_flow_plugin_shows": {
+    "version": "0.0.3",
     "dependents": [
 
+    ],
+    "description": "Plugin for quartz_flow that displays downloaded shows"
+  },
+  "quartz_torrent": {
+    "version": "0.1.1",
+    "dependents": [
+      {
+        "name": "quartz_flow",
+        "requirements": "~> 0.1"
+      }
     ],
     "description": "A pure ruby bittorrent library"
   },
@@ -1761,8 +1867,15 @@
     ],
     "description": "Qudea API"
   },
+  "que": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A job queue that uses PostgreSQL's advisory locks for speed and reliability."
+  },
   "quebert": {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "dependents": [
 
     ],
@@ -1870,7 +1983,7 @@
     "description": "Rails database query counter that stays out of your way"
   },
   "query_report": {
-    "version": "1.0.10",
+    "version": "1.0.18",
     "dependents": [
 
     ],
@@ -1963,7 +2076,7 @@
     "description": "\n    Queryalize lets you use Rails 3 to build queries just like with ActiveRecord::QueryMethods,\n    except you can serialize the end result. This is useful for running queries that potentially\n    return large result sets in the background using something like Resque or Delayed::Job.\n  "
   },
   "querybuilder": {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "dependents": [
       {
         "name": "zena",
@@ -2061,11 +2174,18 @@
     "description": "Easily add method helpers for testing instance variables"
   },
   "questionable_surveys": {
-    "version": "0.3.1",
+    "version": "0.3.2",
     "dependents": [
 
     ],
     "description": "Makes it easy to add and edit forms programatically, specifying select, radio, checkbox, or string input, and recordings users' answers. Questions can be associated with specific objects or with string labels. A form template and controller are including for displaying questions and recording answers, and ActiveAdmin is supported for editing the questions and options on the back-end."
+  },
+  "questionaire": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "A rails gem to enable surveys in your application as easy as possible"
   },
   "questioning_authority": {
     "version": "0.0.1",
@@ -2096,7 +2216,7 @@
     "description": "Allows queue work to be distributed to seperate threads that need a consistent end point.   Allows you to provide a hashing algorithm for which thread handles the work."
   },
   "queue_classic": {
-    "version": "2.2.2",
+    "version": "2.2.3",
     "dependents": [
       {
         "name": "devise-async",
@@ -2133,7 +2253,7 @@
     "description": "Do things later with queue_classic"
   },
   "queue_classic_admin": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -2199,7 +2319,7 @@
     "description": "Queued client library for Ruby"
   },
   "queued_mail": {
-    "version": "0.2.7",
+    "version": "0.2.9",
     "dependents": [
 
     ],
@@ -2227,7 +2347,7 @@
     "description": "Queueing proxy backed by EM/Beanstalk for a very weird purpose."
   },
   "queueing_rabbit": {
-    "version": "0.3.0",
+    "version": "0.3.1",
     "dependents": [
 
     ],
@@ -2236,7 +2356,10 @@
   "queuel": {
     "version": "0.2.0",
     "dependents": [
-
+      {
+        "name": "sync_client",
+        "requirements": "~> 0.2.0"
+      }
     ],
     "description": "Light Queue wrapper tool"
   },
@@ -2359,6 +2482,13 @@
 
     ],
     "description": "Gem for backend authorization"
+  },
+  "quick_benchmark": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Quick Benchmark"
   },
   "quick_captcha": {
     "version": "3.2.0",
@@ -2543,6 +2673,13 @@
     ],
     "description": "The only comprehensive Ruby interface to Quickbooks. THIS IS A DEMO VERSION. Visit behindlogic.com for the full version, which works with all versions of QuickBooks."
   },
+  "quickbooks-ruby": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "REST API to Quickbooks Online via Intuit Data Services v3"
+  },
   "quickbooks_api": {
     "version": "0.1.7",
     "dependents": [
@@ -2554,7 +2691,7 @@
     "description": "A QuickBooks QBXML wrapper for Ruby"
   },
   "quickbooks_web_connector": {
-    "version": "0.0.6",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -2575,7 +2712,7 @@
     "description": "Quickly connect to a Rails database by inspecting the database.yml of the current application directory."
   },
   "quickeebooks": {
-    "version": "0.1.21",
+    "version": "0.1.22",
     "dependents": [
 
     ],
@@ -2639,6 +2776,10 @@
       {
         "name": "alf-shell",
         "requirements": "~> 0.4.3"
+      },
+      {
+        "name": "coleslaw",
+        "requirements": ">= 0"
       },
       {
         "name": "gisele",
@@ -2790,6 +2931,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "dust-cms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "flaming-ironman",
         "requirements": ">= 0"
       },
@@ -2865,7 +3010,7 @@
     "description": "gem for setting up projects"
   },
   "quilb": {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "dependents": [
 
     ],
@@ -3042,6 +3187,13 @@
     ],
     "description": "    QuoraNotify provides basic access to one of the few API's Quora.com has opened to the public.\n    It uses local quora cookies to access this API as a logged-in user.\n\n    See https://www.quora.com/Edmond-Lau/Edmond-Laus-Posts/Quora-Extension-API for more information about this Alpha API.\n"
   },
+  "quorable": {
+    "version": "0.1.8",
+    "dependents": [
+
+    ],
+    "description": "Still need to add some more functionality. Right now, all this does is get the 10 (or fewer) most recent paths for a given topic."
+  },
   "quorum": {
     "version": "0.8.2",
     "dependents": [
@@ -3137,11 +3289,11 @@
     "description": "Provides a high-level client for the Quova API"
   },
   "qup": {
-    "version": "1.4.0",
+    "version": "1.4.1",
     "dependents": [
 
     ],
-    "description": "Qup is a generalized API for Message Queue and Publish/Subscribe messaging patterns with the ability to plug in an appropriate messaging infrastructure based upon your needs. Qup ships with support for Kestrel, Redis, and a filesystem infrastructure based on Maildir. Additional Adapters will be developed as needs arise. Please submit an Issue to have a new Adapter created. Pull requests gladly accepted."
+    "description": "Qup is a generalized API for Message Queue and Publish/Subscribe messaging patterns with the ability to plug in an appropriate messaging infrastructure based upon your needs. Qup ships with support for (https://github.com/robey/kestrel), (http://redis.io), and a filesystem infrastructure based on (https://rubygems.org/gems/maildir). Additional Adapters will be developed as needs arise. (https://github.com/copiousfreetime/qup/issues) to have a new Adapter created. Pull requests gladly accepted."
   },
   "quredis": {
     "version": "0.5.2",
@@ -3200,7 +3352,7 @@
     "description": "Retrieves data using the Qwerly application"
   },
   "qwester": {
-    "version": "0.2.2",
+    "version": "0.3.1",
     "dependents": [
 
     ],
