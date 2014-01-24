@@ -6,13 +6,6 @@
     ],
     "description": "A Tool to Upload 0xffffff Images to Flickr"
   },
-  "10xengineer-node": {
-    "version": "0.0.10",
-    "dependents": [
-
-    ],
-    "description": "10xEngineer.me hostnode management toolchain"
-  },
   "1234567890_": {
     "version": "1.1",
     "dependents": [
@@ -111,7 +104,7 @@
     "description": "Generate a report from the 3months staff schedule"
   },
   "3scale_client": {
-    "version": "2.3.3",
+    "version": "2.3.4",
     "dependents": [
 
     ],

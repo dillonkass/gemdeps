@@ -41,6 +41,13 @@
     ],
     "description": "Ditch your unweildy and heavyset build. Use Z'Build module with Rake/Thor/etc and make a light-weight alternative, written in pure Ruby."
   },
+  "Z_HTMLgen.rb": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Enables you to generate HTML pages easily from text files"
+  },
   "za-id-validator": {
     "version": "0.1.2",
     "dependents": [
@@ -73,7 +80,7 @@
     "version": "0.4.0",
     "dependents": [
       {
-        "name": "fluent-plugin-zabbix",
+        "name": "fluent-plugin-zabbix-simple",
         "requirements": ">= 0"
       },
       {
@@ -81,15 +88,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fluent-plugin-zabbix-simple",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "zabbix_pusher",
-        "requirements": "~> 0.3.0"
+        "name": "fluent-plugin-zabbix",
+        "requirements": ">= 0.4"
       },
       {
         "name": "zabbix_nudge",
+        "requirements": "~> 0.3.0"
+      },
+      {
+        "name": "zabbix_pusher",
         "requirements": "~> 0.3.0"
       }
     ],
@@ -103,7 +110,7 @@
     "description": "A library for getting cloudwatch metrics into Zabbix\n\nPlease see http://github.com/randywallace/zabbix-cloudwatch for more details\n"
   },
   "zabbix-ruby-client": {
-    "version": "0.0.17",
+    "version": "0.0.20",
     "dependents": [
 
     ],
@@ -193,6 +200,13 @@
     ],
     "description": "Zactor"
   },
+  "zafarnote": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "now manage all tour notes easily"
+  },
   "zafu": {
     "version": "0.8.6",
     "dependents": [
@@ -280,7 +294,10 @@
   "zaru": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "klipp",
+        "requirements": "~> 0"
+      }
     ],
     "description": "Zaru takes a given filename (a string) and normalizes, filters and truncates it, so it can be safely used as a filename in modern operating systems. Zaru doesn't remove Unicode characters when not necessary."
   },
@@ -417,7 +434,7 @@
     "description": "yet another zabbix api wrapper and a dsl"
   },
   "zbxapi": {
-    "version": "0.3.2",
+    "version": "0.3.3",
     "dependents": [
       {
         "name": "zabcon",
@@ -493,7 +510,7 @@
     "description": "Zebra Datepicker packaged for rails"
   },
   "zebra-epl": {
-    "version": "0.0.2",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -583,7 +600,7 @@
     "version": "0.9.6",
     "dependents": [
       {
-        "name": "zeevex_cluster",
+        "name": "zeevex_delayed",
         "requirements": ">= 0"
       },
       {
@@ -591,11 +608,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_threadsafe",
+        "name": "zeevex_cluster",
         "requirements": ">= 0"
       },
       {
-        "name": "zeevex_delayed",
+        "name": "zeevex_threadsafe",
         "requirements": ">= 0"
       }
     ],
@@ -737,6 +754,13 @@
     ],
     "description": "Send your user information to our hosted service and zenbox your inbox."
   },
+  "zencms": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "ZENCMS as rails engine"
+  },
   "zencodable": {
     "version": "0.2.1",
     "dependents": [
@@ -745,7 +769,7 @@
     "description": "provides a `has_video_encodings` class method to your models that   allows you to configure and set up any Zencoder settings you will need   to create multiple output video container formats (mp4, ogg, wmv, etc) from a single   uploaded source file. Uses the Zencoder API (zencoder.com) and (as of now) expects   you to have an S3 bucket where we can ask zencoder to place the generated files."
   },
   "zencoder": {
-    "version": "2.4.4",
+    "version": "2.4.5",
     "dependents": [
       {
         "name": "alula",
@@ -756,12 +780,12 @@
         "requirements": "= 2.4.4"
       },
       {
-        "name": "forge-rad20",
-        "requirements": "~> 2.4.4"
-      },
-      {
         "name": "forge-rad",
         "requirements": "= 2.4.4"
+      },
+      {
+        "name": "forge-rad20",
+        "requirements": "~> 2.4.4"
       },
       {
         "name": "phocoder-rails",
@@ -793,12 +817,12 @@
         "requirements": "= 0.2.8"
       },
       {
-        "name": "forge-rad20",
-        "requirements": "~> 0.2.8"
-      },
-      {
         "name": "forge-rad",
         "requirements": "= 0.2.8"
+      },
+      {
+        "name": "forge-rad20",
+        "requirements": "~> 0.2.8"
       }
     ],
     "description": "Fetches notifications from Zencoder for local development where Zencoder is unable to communicate to the server, usually because it's localhost."
@@ -823,6 +847,13 @@
 
     ],
     "description": "A simple parser for yaml application zend framework file"
+  },
+  "zendeath": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Zendeath is a command line client for Zendesk, primarily focused on Puppet Labs' use case. It may be made more generic in the future."
   },
   "zendesk": {
     "version": "0.1.9",
@@ -867,8 +898,12 @@
     "description": "Zendesk V2 API client"
   },
   "zendesk_api": {
-    "version": "1.2.1",
+    "version": "1.2.4",
     "dependents": [
+      {
+        "name": "gds_zendesk",
+        "requirements": "= 1.0.2"
+      },
       {
         "name": "killbill-zendesk",
         "requirements": "~> 0.3.10"
@@ -892,17 +927,17 @@
     "description": "A wrapper for Zendesk Apps Manager"
   },
   "zendesk_apps_support": {
-    "version": "1.8.0",
+    "version": "1.11.0",
     "dependents": [
       {
         "name": "zendesk_apps_tools",
-        "requirements": "~> 1.8.0"
+        "requirements": "~> 1.11.0"
       }
     ],
     "description": "Support to help you develop Zendesk Apps."
   },
   "zendesk_apps_tools": {
-    "version": "1.8.0",
+    "version": "1.13.0",
     "dependents": [
 
     ],
@@ -923,7 +958,7 @@
     "description": "Allow users to authenticate remotely"
   },
   "zenflow": {
-    "version": "0.8.3",
+    "version": "0.8.5",
     "dependents": [
 
     ],
@@ -1079,11 +1114,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "autotest-fsevent",
+        "requirements": ">= 0"
+      },
+      {
         "name": "autotest-emacs",
         "requirements": "> 4.0.0"
       },
       {
-        "name": "autotest-fsevent",
+        "name": "autotest-growl",
         "requirements": ">= 0"
       },
       {
@@ -1091,7 +1130,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "autotest-growl",
+        "name": "autotest-images",
         "requirements": ">= 0"
       },
       {
@@ -1099,16 +1138,12 @@
         "requirements": ">= 4.0.0"
       },
       {
-        "name": "autotest-images",
-        "requirements": ">= 0"
+        "name": "autotest-rails",
+        "requirements": "~> 4.5"
       },
       {
         "name": "autotest-notifyosd",
         "requirements": ">= 4.0.0"
-      },
-      {
-        "name": "autotest-rails",
-        "requirements": "~> 4.5"
       },
       {
         "name": "autotest-run_dependencies",
@@ -1209,10 +1244,6 @@
       {
         "name": "edboxra",
         "requirements": "~> 4.4"
-      },
-      {
-        "name": "edtf",
-        "requirements": "~> 4.6"
       },
       {
         "name": "elasticshell",
@@ -1392,7 +1423,7 @@
       },
       {
         "name": "namae",
-        "requirements": ">= 0"
+        "requirements": "~> 4.9"
       },
       {
         "name": "nephele",
@@ -1423,6 +1454,10 @@
         "requirements": "~> 4.4.2"
       },
       {
+        "name": "panjiva-oauth2",
+        "requirements": "~> 4.5"
+      },
+      {
         "name": "pdf-reader",
         "requirements": "~> 4.4.2"
       },
@@ -1439,6 +1474,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "piet-binary",
+        "requirements": ">= 0"
+      },
+      {
         "name": "piet",
         "requirements": ">= 0"
       },
@@ -1451,7 +1490,15 @@
         "requirements": "~> 4.4.2"
       },
       {
+        "name": "prime_lib",
+        "requirements": "~> 4.3"
+      },
+      {
         "name": "qcourses",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rack-mini-profiler",
         "requirements": ">= 0"
       },
       {
@@ -1467,12 +1514,12 @@
         "requirements": ">= 3.4.2"
       },
       {
-        "name": "rbbt-util",
-        "requirements": "= 4.3"
+        "name": "rate_theme",
+        "requirements": ">= 0"
       },
       {
-        "name": "rdoc",
-        "requirements": "~> 4"
+        "name": "rbbt-util",
+        "requirements": "= 4.3"
       },
       {
         "name": "rea-netscaler-cli",
@@ -1520,11 +1567,15 @@
       },
       {
         "name": "rspec-rails",
-        "requirements": "= 4.9.0"
+        "requirements": "~> 4.9.5"
       },
       {
         "name": "RssMangler",
         "requirements": "~> 4.4.0"
+      },
+      {
+        "name": "ruby-lol",
+        "requirements": ">= 0"
       },
       {
         "name": "rubygems-update",
@@ -1607,7 +1658,7 @@
         "requirements": "~> 4.5.0"
       },
       {
-        "name": "tengine_job",
+        "name": "tengine_core",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1615,7 +1666,7 @@
         "requirements": "~> 4.9.0"
       },
       {
-        "name": "tengine_core",
+        "name": "tengine_job",
         "requirements": "~> 4.9.0"
       },
       {
@@ -1743,6 +1794,10 @@
         "requirements": ">= 4.5.0"
       },
       {
+        "name": "xiami_cloner",
+        "requirements": "= 4.8.3"
+      },
+      {
         "name": "xn-octokit",
         "requirements": "~> 4.5"
       },
@@ -1804,19 +1859,19 @@
     "description": " Ruby API for send sms with Zenvia"
   },
   "zenweb": {
-    "version": "3.3.0",
+    "version": "3.3.1",
     "dependents": [
       {
         "name": "zenweb-autolink",
         "requirements": "= 3.0.0.b3"
       },
       {
-        "name": "zenweb-template",
-        "requirements": "~> 3.0"
-      },
-      {
         "name": "zenweb-haml",
         "requirements": ">= 3.0.0.b1"
+      },
+      {
+        "name": "zenweb-template",
+        "requirements": "~> 3.0"
       },
       {
         "name": "zenweb-textile",
@@ -1873,6 +1928,13 @@
 
     ],
     "description": "AWS tools for common needs"
+  },
+  "zepto-for-rails": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "Provides a the zepto.js for the rails asset pipeline"
   },
   "zepto-rails": {
     "version": "0.1.0",
@@ -1936,11 +1998,11 @@
         "requirements": ">= 0.0.9"
       },
       {
-        "name": "zergling",
+        "name": "zerg",
         "requirements": ">= 0.0.1"
       },
       {
-        "name": "zerg",
+        "name": "zergling",
         "requirements": ">= 0.0.1"
       }
     ],
@@ -2023,6 +2085,13 @@
     ],
     "description": "A gem that dramatically decreases your deployemnt time by improving all key actions like assets precompilation and gems installation"
   },
+  "zero_fill": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Add missing dates from a date series, such as days in a month."
+  },
   "zero_generators": {
     "version": "0.0.1",
     "dependents": [
@@ -2031,7 +2100,7 @@
     "description": "Coletânea de geradores de código para Rails."
   },
   "zero_push": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
 
     ],
@@ -2066,7 +2135,7 @@
     "description": "This gem provides a Ruby API for the ZeroMQ messaging library."
   },
   "zeromqrb": {
-    "version": "0.1.1",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -2123,6 +2192,14 @@
       },
       {
         "name": "guard-zeus-client",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ro_commands",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rrjj",
         "requirements": ">= 0"
       },
       {
@@ -2363,6 +2440,20 @@
     ],
     "description": "A highly flexible hexdump implementation."
   },
+  "zhongwen_tools": {
+    "version": "0.3.1",
+    "dependents": [
+
+    ],
+    "description": "Chinese tools for romanization conversions and other helpful string functions for Chinese."
+  },
+  "zhrb": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Program Ruby in Chinese"
+  },
   "zidian": {
     "version": "0.3.0",
     "dependents": [
@@ -2474,7 +2565,10 @@
   "zimdb": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "movieDB",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Access movie information from IMDb via the API offered by http://www.imdbapi.com/"
   },
@@ -2493,7 +2587,7 @@
     "description": "Zimt downloads and adds files to your .xcodeproj."
   },
   "zinbei": {
-    "version": "0.1.6.13.1",
+    "version": "0.1.6.14.2",
     "dependents": [
 
     ],
@@ -2656,6 +2750,10 @@
         "requirements": "~> 2.0.2"
       },
       {
+        "name": "nail_polish",
+        "requirements": ">= 0"
+      },
+      {
         "name": "paperclip_archive_processor",
         "requirements": ">= 2.0.2"
       },
@@ -2725,12 +2823,19 @@
     ],
     "description": "The data has been collected from wikipedia and stored in a yml file. This gem does not use an external service."
   },
+  "zip-codes": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Simple gem to get city, state, and time zone for a given zip code"
+  },
   "zip-container": {
-    "version": "0.9.0",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "ucf",
-        "requirements": "~> 0.9.0"
+        "requirements": ">= 0.9.0"
       }
     ],
     "description": "A Ruby library for working with ZIP Container Format files. See http://www.idpf.org/epub/30/spec/epub30-ocf.html for the OCF specification and https://learn.adobe.com/wiki/display/PDFNAV/Universal+Container+Format for the UCF specification."
@@ -2738,7 +2843,14 @@
   "zip-zip": {
     "version": "0.2",
     "dependents": [
-
+      {
+        "name": "excel-import",
+        "requirements": "= 0.2"
+      },
+      {
+        "name": "zipping",
+        "requirements": "~> 0.2"
+      }
     ],
     "description": "\nIn Gem hell migrating to RubyZip v1.0.0?\nInclude zip-zip in your Gemfile and everything's coming up roses!\n"
   },
@@ -2913,6 +3025,16 @@
     ],
     "description": "API Testing Done Right"
   },
+  "zipping": {
+    "version": "0.2.3",
+    "dependents": [
+      {
+        "name": "send_zip",
+        "requirements": "~> 0.2.3"
+      }
+    ],
+    "description": "This gem is for compressing files as a zip and outputting to a stream (or a stream-like interface object). The output to a stream proceeds little by little, as files are compressed."
+  },
   "zipply": {
     "version": "0.0.1",
     "dependents": [
@@ -2926,6 +3048,13 @@
 
     ],
     "description": "An (almost) pure-ruby Zip library"
+  },
+  "zippopotamus-client": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Client for zippopotam.us API"
   },
   "zippy": {
     "version": "0.2.1",
@@ -2957,6 +3086,10 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "ballmer",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bob_the_builder",
         "requirements": ">= 0"
       },
@@ -2970,10 +3103,6 @@
       },
       {
         "name": "doc_template",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "elastic-beanstalk",
         "requirements": ">= 0"
       },
       {
@@ -2993,7 +3122,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "geonames_api",
+        "name": "genecache",
         "requirements": ">= 0"
       },
       {
@@ -3025,6 +3154,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rack-archive-zip-extract",
+        "requirements": "~> 0.3"
+      },
+      {
         "name": "rgit",
         "requirements": ">= 0"
       },
@@ -3047,10 +3180,6 @@
       {
         "name": "subdl",
         "requirements": ">= 0"
-      },
-      {
-        "name": "sufia-models",
-        "requirements": "= 0.3.6"
       },
       {
         "name": "transcriptic",
@@ -3157,7 +3286,7 @@
     "description": "static site generator and deployment tool."
   },
   "zk": {
-    "version": "1.9.2",
+    "version": "1.9.3",
     "dependents": [
       {
         "name": "bluster",
@@ -3188,6 +3317,10 @@
         "requirements": "< 2.0, >= 1.7.4"
       },
       {
+        "name": "poseidon_cluster",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rebuy_deployment",
         "requirements": ">= 1.8.0"
       },
@@ -3216,12 +3349,12 @@
         "requirements": ">= 1.6.4"
       },
       {
-        "name": "zk-group",
-        "requirements": "~> 1.6.0"
-      },
-      {
         "name": "zk-eventmachine",
         "requirements": "~> 1.6.2"
+      },
+      {
+        "name": "zk-group",
+        "requirements": "~> 1.6.0"
       },
       {
         "name": "zknrg",
@@ -3324,6 +3457,13 @@
 
     ],
     "description": "Add Zlib's crc32_combine and adler32_combine to Ruby's Zlib"
+  },
+  "zlib-socs": {
+    "version": "0.1",
+    "dependents": [
+
+    ],
+    "description": "ZLibs::Социализм\nПростая либа для работы с ресурсами социализма.\nРазбавляется методами по мере потребновсти в них.\n"
   },
   "Zliby": {
     "version": "0.0.5",
@@ -3480,6 +3620,13 @@
 
     ],
     "description": "Zoanthid is a library that interfaces with Rails and RSpec to help you write expressive tests for your HAL API."
+  },
+  "zobi": {
+    "version": "4.0.0",
+    "dependents": [
+
+    ],
+    "description": "Keep your rails controllers DRY while using devise, inherited_resources, has_scope, kaminari, pundit and draper"
   },
   "zobjinspect": {
     "version": "1.0.0",
@@ -3678,7 +3825,7 @@
     "description": "A collection of useful Rails generator scripts for scaffolding, layout files, authentication, and more.\n\n  I shamelessly stole this whole project from Ryan Bates nifty generators and default everything to haml, \n  added factory_girl factories and formtastic. I also deleted the Rails 2 generators because I will never use that."
   },
   "zoo-service-discovery": {
-    "version": "1.0.1",
+    "version": "1.1.1",
     "dependents": [
 
     ],
@@ -3926,7 +4073,7 @@
     "description": "improved string scanner, respects anchors and lookbehinds, supports codepoint positioning"
   },
   "zscheduler": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
       {
         "name": "graphite-api",
@@ -3964,7 +4111,7 @@
     "description": "Automatically shows git status on file changes"
   },
   "ztk": {
-    "version": "1.9.1",
+    "version": "1.10.6",
     "dependents": [
       {
         "name": "cucumber-chef",
@@ -4052,11 +4199,11 @@
     "version": "13.1",
     "dependents": [
       {
-        "name": "docbook_files",
+        "name": "docbook_status",
         "requirements": ">= 12.1"
       },
       {
-        "name": "docbook_status",
+        "name": "docbook_files",
         "requirements": ">= 12.1"
       },
       {
@@ -4077,7 +4224,7 @@
       },
       {
         "name": "wirb",
-        "requirements": ">= 12.1"
+        "requirements": "~> 13"
       }
     ],
     "description": "Sweetens your Ruby code with syntactic sugar, which you do not want to miss again."
@@ -4218,16 +4365,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fidelity",
-        "requirements": ">= 0"
+        "name": "faalis",
+        "requirements": "~> 4.0.0"
       },
       {
-        "name": "foundation_scaffold",
+        "name": "fidelity",
         "requirements": ">= 0"
       },
       {
         "name": "foundationize",
         "requirements": "~> 4.2.3"
+      },
+      {
+        "name": "foundation_scaffold",
+        "requirements": ">= 0"
       },
       {
         "name": "helios",
@@ -4252,6 +4403,10 @@
       {
         "name": "rbbt-rest",
         "requirements": ">= 0"
+      },
+      {
+        "name": "red_base",
+        "requirements": "~> 4.0.0"
       },
       {
         "name": "reimagine2",
@@ -4341,7 +4496,10 @@
   "zxcvbn-ruby": {
     "version": "0.0.2",
     "dependents": [
-
+      {
+        "name": "devise_zxcvbn",
+        "requirements": ">= 0.0.2"
+      }
     ],
     "description": "Ruby port of Dropboxs zxcvbn.js"
   },

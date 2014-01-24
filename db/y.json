@@ -1,11 +1,4 @@
 {
-  "y": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Y U NO GEM?"
-  },
   "y2r": {
     "version": "1.0.1",
     "dependents": [
@@ -75,24 +68,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "i18n_kit",
-        "requirements": ">= 0"
-      },
-      {
         "name": "i18n_locale_editor",
         "requirements": ">= 0.26"
+      },
+      {
+        "name": "i18n_kit",
+        "requirements": ">= 0"
       },
       {
         "name": "i18n_sync",
         "requirements": ">= 0"
       },
       {
-        "name": "i18n_translation_spawner",
-        "requirements": ">= 0.3"
-      },
-      {
         "name": "i18n_tools",
         "requirements": ">= 0"
+      },
+      {
+        "name": "i18n_translation_spawner",
+        "requirements": ">= 0.3"
       },
       {
         "name": "i18nliner",
@@ -147,11 +140,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "translate-rails3-plus",
+        "name": "translate-rails3",
         "requirements": "~> 0.30"
       },
       {
-        "name": "translate-rails3",
+        "name": "translate-rails3-plus",
         "requirements": "~> 0.30"
       },
       {
@@ -221,6 +214,23 @@
     ],
     "description": "RegEx validate an email address"
   },
+  "ya_queen": {
+    "version": "0.0.7",
+    "dependents": [
+      {
+        "name": "ya_queen_role_fontana",
+        "requirements": "~> 0.0.5"
+      }
+    ],
+    "description": "ya_queen supports to define complicated capistrano tasks and roles"
+  },
+  "ya_queen_role_fontana": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "defines server deployment role for fontana"
+  },
   "ya_yahoo_geocode": {
     "version": "0.0.4",
     "dependents": [
@@ -274,7 +284,7 @@
     "description": "Mirror, mirror on the wall ..."
   },
   "yaccl": {
-    "version": "0.0.34",
+    "version": "0.1.3",
     "dependents": [
 
     ],
@@ -358,7 +368,7 @@
     "description": "Pulls current and historical data from Yahoo Finance. Requires net/http and csv"
   },
   "yafr": {
-    "version": "0.0.0",
+    "version": "0.0.1",
     "dependents": [
 
     ],
@@ -399,7 +409,7 @@
     "description": "Yahag is just a little gem for HockeyApp API endpoints. For now it supports only Team endpoint."
   },
   "yahns": {
-    "version": "0.0.3",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -611,6 +621,13 @@
     ],
     "description": "Get nba stats using yahoo api"
   },
+  "yahoo_parse_api": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "yahoo parse API client"
+  },
   "yahoo_quote": {
     "version": "0.0.6",
     "dependents": [
@@ -638,6 +655,13 @@
 
     ],
     "description": "Ruby library for parsing stats from Yahoo! Sports pages. Currently supports MLB, NBA, NFL and NHL stats and info."
+  },
+  "yahoo_sports_ff": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "asdgasdg"
   },
   "yahoo_stock": {
     "version": "1.0.2",
@@ -763,7 +787,7 @@
     "dependents": [
       {
         "name": "couchbase",
-        "requirements": "~> 0.3.2"
+        "requirements": ">= 0.3.2, ~> 0.3"
       }
     ],
     "description": "YAJI is a ruby wrapper to YAJL providing iterator interface to streaming JSON parser"
@@ -774,10 +798,6 @@
       {
         "name": "189seg",
         "requirements": ">= 0.8.3"
-      },
-      {
-        "name": "10xengineer-node",
-        "requirements": "~> 1.1.0"
       },
       {
         "name": "_bushido-faye",
@@ -817,7 +837,7 @@
       },
       {
         "name": "agent_client",
-        "requirements": ">= 0"
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "agharta",
@@ -828,12 +848,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "analysand",
-        "requirements": ">= 0"
-      },
-      {
         "name": "analytico",
         "requirements": "~> 0.7.7"
+      },
+      {
+        "name": "analysand",
+        "requirements": ">= 0"
       },
       {
         "name": "angel_list",
@@ -888,10 +908,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "avro",
-        "requirements": ">= 0"
-      },
-      {
         "name": "backbone_extensions",
         "requirements": ">= 0"
       },
@@ -918,6 +934,10 @@
       {
         "name": "banjo-apn_sender",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bank_routing",
+        "requirements": "~> 1.2"
       },
       {
         "name": "barcoder-client",
@@ -969,7 +989,7 @@
       },
       {
         "name": "board-linuxfr",
-        "requirements": "~> 1.0"
+        "requirements": "~> 1.2"
       },
       {
         "name": "bomb_defuser",
@@ -980,8 +1000,32 @@
         "requirements": "~> 1.1.0"
       },
       {
+        "name": "bosh-core",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "bosh-director",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "bosh-monitor",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "bosh-release",
+        "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "bosh-registry",
+        "requirements": "~> 1.1.0"
+      },
+      {
         "name": "bosh_aws_cpi",
         "requirements": ">= 0.8.2"
+      },
+      {
+        "name": "bosh_agent",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "bosh_aws_registry",
@@ -992,12 +1036,12 @@
         "requirements": ">= 0.8.2"
       },
       {
-        "name": "bosh_vcloud_cpi",
-        "requirements": ">= 0.8.2"
-      },
-      {
         "name": "bosh_openstack_registry",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bosh_vcloud_cpi",
+        "requirements": ">= 0.8.2"
       },
       {
         "name": "botsy",
@@ -1008,23 +1052,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bpl",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "bpl",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bp-fnordmetric",
         "requirements": ">= 0"
       },
       {
-        "name": "browserstack",
-        "requirements": "= 1.1.0"
+        "name": "bpl",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bpl",
+        "requirements": ">= 0"
       },
       {
         "name": "browserstack-screenshot",
+        "requirements": "= 1.1.0"
+      },
+      {
+        "name": "browserstack",
         "requirements": "= 1.1.0"
       },
       {
@@ -1036,16 +1080,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "buscalibre",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bushido-faye",
         "requirements": ">= 1.0.0"
       },
       {
         "name": "c3po",
         "requirements": "~> 0.8.2"
+      },
+      {
+        "name": "buscalibre",
+        "requirements": ">= 0"
       },
       {
         "name": "calamum",
@@ -1181,7 +1225,11 @@
       },
       {
         "name": "couchbase",
-        "requirements": "~> 1.1.0"
+        "requirements": ">= 1.1.0, ~> 1.1"
+      },
+      {
+        "name": "couchrest_changes",
+        "requirements": ">= 0"
       },
       {
         "name": "couchup",
@@ -1202,6 +1250,10 @@
       {
         "name": "csdn-tire",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "ctags.rb",
+        "requirements": ">= 0"
       },
       {
         "name": "currency_updater",
@@ -1272,6 +1324,10 @@
         "requirements": "= 1.1.0"
       },
       {
+        "name": "dscli",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dungeon_master",
         "requirements": ">= 0"
       },
@@ -1308,12 +1364,12 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "em-jsonrpc",
-        "requirements": ">= 1.1.0"
-      },
-      {
         "name": "em-kafka",
         "requirements": ">= 0.8.2"
+      },
+      {
+        "name": "em-jsonrpc",
+        "requirements": ">= 1.1.0"
       },
       {
         "name": "em-mailer",
@@ -1368,11 +1424,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "execache",
+        "name": "executer",
         "requirements": "~> 1.0.0"
       },
       {
-        "name": "executer",
+        "name": "execache",
         "requirements": "~> 1.0.0"
       },
       {
@@ -1412,10 +1468,6 @@
         "requirements": "~> 0.8.3"
       },
       {
-        "name": "fernet",
-        "requirements": ">= 0"
-      },
-      {
         "name": "firejab",
         "requirements": "~> 0.8.2"
       },
@@ -1438,6 +1490,10 @@
       {
         "name": "flexmls_api",
         "requirements": "~> 0.8.2"
+      },
+      {
+        "name": "fluent-funplus-s3",
+        "requirements": "~> 1.0"
       },
       {
         "name": "fluent-logger",
@@ -1476,11 +1532,11 @@
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "fnord-client",
+        "name": "fnordmetric",
         "requirements": ">= 0"
       },
       {
-        "name": "fnordmetric",
+        "name": "fnord-client",
         "requirements": ">= 0"
       },
       {
@@ -1680,6 +1736,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hcl",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hdo-storting-importer",
         "requirements": ">= 0"
       },
@@ -1836,12 +1896,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "JSONRecord",
-        "requirements": "~> 1.1.0"
-      },
-      {
         "name": "jsonpipe",
         "requirements": ">= 0.8.2"
+      },
+      {
+        "name": "JSONRecord",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "junkie",
@@ -1865,7 +1925,15 @@
       },
       {
         "name": "knife-inspect",
+        "requirements": "~> 1.1"
+      },
+      {
+        "name": "knife-podnix",
         "requirements": ">= 0"
+      },
+      {
+        "name": "knife-tar",
+        "requirements": "~> 1.1"
       },
       {
         "name": "komba_google_currency",
@@ -1888,14 +1956,6 @@
         "requirements": "~> 0.7.8"
       },
       {
-        "name": "labs",
-        "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "labs-win32",
-        "requirements": "~> 1.1.0"
-      },
-      {
         "name": "langusta",
         "requirements": "= 0.8.2"
       },
@@ -1916,12 +1976,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "librato-storm-kafka",
-        "requirements": ">= 0"
-      },
-      {
         "name": "librato-metrics-memcached",
         "requirements": "~> 1.1.0"
+      },
+      {
+        "name": "librato-storm-kafka",
+        "requirements": ">= 0"
       },
       {
         "name": "lionel_richie",
@@ -1969,7 +2029,7 @@
       },
       {
         "name": "megam_api",
-        "requirements": ">= 0"
+        "requirements": "~> 1.2"
       },
       {
         "name": "meldd-linklist",
@@ -1990,10 +2050,6 @@
       {
         "name": "metrika",
         "requirements": ">= 0"
-      },
-      {
-        "name": "microcloud",
-        "requirements": "~> 1.1.0"
       },
       {
         "name": "micropayment",
@@ -2024,11 +2080,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "mneme",
+        "name": "mn_client",
         "requirements": ">= 0"
       },
       {
-        "name": "mn_client",
+        "name": "mneme",
         "requirements": ">= 0"
       },
       {
@@ -2128,16 +2184,16 @@
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "noise",
-        "requirements": ">= 0.8.1"
-      },
-      {
-        "name": "noise",
-        "requirements": ">= 0.8.1"
-      },
-      {
         "name": "nomnomnom-client",
         "requirements": ">= 0.7.8"
+      },
+      {
+        "name": "npolar-api-client-ruby",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nugget",
+        "requirements": ">= 0"
       },
       {
         "name": "numerics",
@@ -2200,11 +2256,11 @@
         "requirements": ">= 0.8.2"
       },
       {
-        "name": "overwatch-cli",
+        "name": "overwatch-collection",
         "requirements": ">= 0.8.2"
       },
       {
-        "name": "overwatch-collection",
+        "name": "overwatch-cli",
         "requirements": ">= 0.8.2"
       },
       {
@@ -2232,16 +2288,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pebblebed",
-        "requirements": ">= 0"
-      },
-      {
         "name": "peaty",
         "requirements": ">= 0"
       },
       {
-        "name": "picky-client",
+        "name": "pebblebed",
         "requirements": ">= 0"
+      },
+      {
+        "name": "picky-client",
+        "requirements": "~> 1.2"
       },
       {
         "name": "pictor",
@@ -2316,11 +2372,11 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "quandl_cassinatra",
+        "name": "quandl_client",
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "quandl_client",
+        "name": "quandl_cassinatra",
         "requirements": "~> 1.1.0"
       },
       {
@@ -2356,8 +2412,16 @@
         "requirements": ">= 0.7.0"
       },
       {
+        "name": "ragios-client",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rdoc-generator-fivefish",
         "requirements": "~> 1.1"
+      },
+      {
+        "name": "react-jsx-sprockets",
+        "requirements": ">= 0"
       },
       {
         "name": "readability-engine",
@@ -2412,16 +2476,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "restful_press",
-        "requirements": "~> 0.7.7"
-      },
-      {
         "name": "restful_metrics",
         "requirements": ">= 0.8.1"
       },
       {
+        "name": "restful_press",
+        "requirements": "~> 0.7.7"
+      },
+      {
         "name": "resto",
         "requirements": ">= 0.8.2"
+      },
+      {
+        "name": "restpack-core-client",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "restpack-group-client",
@@ -2432,15 +2500,11 @@
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "restpack-core-client",
+        "name": "restpack_activity",
         "requirements": "~> 1.1.0"
       },
       {
         "name": "restpack_core_client",
-        "requirements": "~> 1.1.0"
-      },
-      {
-        "name": "restpack_activity",
         "requirements": "~> 1.1.0"
       },
       {
@@ -2484,12 +2548,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rocket_cms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rollout-zk",
         "requirements": ">= 0"
       },
       {
         "name": "rollout_rest_api",
         "requirements": ">= 0"
+      },
+      {
+        "name": "ronin-wrapper",
+        "requirements": "~> 1.2.0"
       },
       {
         "name": "rorra-twitter",
@@ -2508,12 +2580,12 @@
         "requirements": "= 1.1.0"
       },
       {
-        "name": "runkeeper-activities",
-        "requirements": ">= 0.8.2"
-      },
-      {
         "name": "runit-man",
         "requirements": "~> 1.0"
+      },
+      {
+        "name": "runkeeper-activities",
+        "requirements": ">= 0.8.2"
       },
       {
         "name": "rvs",
@@ -2828,6 +2900,10 @@
         "requirements": "~> 1.0"
       },
       {
+        "name": "tongue",
+        "requirements": ">= 0"
+      },
+      {
         "name": "townhog",
         "requirements": "~> 0.8.1"
       },
@@ -2844,20 +2920,20 @@
         "requirements": "~> 0.7.6"
       },
       {
-        "name": "trubl",
-        "requirements": "~> 1.1.0"
-      },
-      {
         "name": "truck",
         "requirements": "~> 1.1.0"
       },
       {
-        "name": "true_queue",
-        "requirements": ">= 0"
+        "name": "trubl",
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "true-web",
         "requirements": ">= 0.8.1"
+      },
+      {
+        "name": "true_queue",
+        "requirements": ">= 0"
       },
       {
         "name": "twelve",
@@ -2960,6 +3036,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "wintermute",
+        "requirements": ">= 0"
+      },
+      {
         "name": "wishlist",
         "requirements": "= 1.1.0"
       },
@@ -2996,11 +3076,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "zabbix_pusher",
+        "name": "zabbix_nudge",
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "zabbix_nudge",
+        "name": "zabbix_pusher",
         "requirements": "~> 0.8.2"
       },
       {
@@ -3048,13 +3128,6 @@
     ],
     "description": "Ruby C bindings to the excellent Yajl JSON stream-based parser library."
   },
-  "yajobse": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "A redis sorted-set based job queue with option for scheduling and executing recurring jobs"
-  },
   "yak": {
     "version": "1.0.8",
     "dependents": [
@@ -3083,6 +3156,13 @@
     ],
     "description": "Yakr is a minimalist network tool for forwarding command output or arbitrary data to a remote host."
   },
+  "yaks": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Serialize to JSON-API and similar"
+  },
   "yakstrap": {
     "version": "0.0.6",
     "dependents": [
@@ -3105,11 +3185,23 @@
     "description": "This is using OpenOffice SpreadSheet document file via ruby"
   },
   "yam": {
-    "version": "2.0.1",
+    "version": "2.1.1",
     "dependents": [
+      {
+        "name": "fluent-plugin-yammer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fluent-plugin-yammer",
+        "requirements": ">= 0"
+      },
       {
         "name": "yamwow",
         "requirements": "~> 0.0.6"
+      },
+      {
+        "name": "yapper",
+        "requirements": "= 2.0.1"
       }
     ],
     "description": "A Ruby wrapper for accessing Yammer's REST API"
@@ -3156,6 +3248,13 @@
     ],
     "description": "Leverages the json2graphite gem to connect to a munin-node process and convert all available data to a format that is Graphite friendly.  After data has been converted it is sent off to the Graphite server of your choice."
   },
+  "yamakozawa": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "yamakozawa_first_commit"
+  },
   "yamato": {
     "version": "0.0.2",
     "dependents": [
@@ -3171,7 +3270,7 @@
     "description": "Load YAML files with symbolized keys. Simple. Easy"
   },
   "yamd": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -3321,12 +3420,12 @@
         "requirements": "= 0.2.3"
       },
       {
-        "name": "forge-rad20",
-        "requirements": "~> 0.2.3"
-      },
-      {
         "name": "forge-rad",
         "requirements": "= 0.2.3"
+      },
+      {
+        "name": "forge-rad20",
+        "requirements": "~> 0.2.3"
       },
       {
         "name": "kit_cms",
@@ -3361,6 +3460,13 @@
     ],
     "description": "\nYamlDb is a database-independent format for dumping and restoring data.  It complements the the database-independent schema format found in db/schema.rb.  The data is saved into db/data.yml.\nThis can be used as a replacement for mysqldump or pg_dump, but only for the databases typically used by Rails apps.  Users, permissions, schemas, triggers, and other advanced database features are not supported - by design.\nAny database that has an ActiveRecord adapter should work\n"
   },
+  "yaml_db_with_schema_tables": {
+    "version": "0.2.4",
+    "dependents": [
+
+    ],
+    "description": "\nYamlDb is a database-independent format for dumping and restoring data.  It complements the the database-independent schema format found in db/schema.rb.  The data is saved into db/data.yml.\nThis can be used as a replacement for mysqldump or pg_dump, but only for the databases typically used by Rails apps.  Users, permissions, schemas, triggers, and other advanced database features are not supported - by design.\nAny database that has an ActiveRecord adapter should work\n"
+  },
   "yaml_form_helper": {
     "version": "0.0.5",
     "dependents": [
@@ -3377,6 +3483,13 @@
       }
     ],
     "description": "Ansible YAML inventory parser"
+  },
+  "yaml_locales_jsonizer": {
+    "version": "0.1.2",
+    "dependents": [
+
+    ],
+    "description": "Simple generation of JSON data for the frontend based on Rails-style YAML locales"
   },
   "yaml_model": {
     "version": "0.0.4",
@@ -3717,8 +3830,15 @@
     ],
     "description": "Use JSON api on Yandex api side and automatically manages access token refresh"
   },
+  "yandex-dictionary": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Library for Yandex Dictionary API"
+  },
   "yandex-disk": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
 
     ],
@@ -3888,6 +4008,13 @@
     ],
     "description": "YANSER (Yahoo! ANSwers harvestER) is a convinient search tool providing access to the Yahoo! Answers Q&A collection. Based on YANAPI it provides a simple CLI and helps to search for Questions and Answers which contain a set of key words, belong to a specific semantic domain or are posted by a certain user. Yanser is a research tool in the field of Computational Linguistics e.g for Question Answering."
   },
+  "yaoc": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Yet another object converter"
+  },
   "yaop": {
     "version": "0.2.0",
     "dependents": [
@@ -3922,12 +4049,26 @@
     ],
     "description": "yappconfig provides your application with a global configuration based on the environment. The configuration is loaded in from YAML. It has sensible defaults for Rails applications"
   },
+  "yapper": {
+    "version": "0.1.7",
+    "dependents": [
+
+    ],
+    "description": "A Ruby wrapper for the Yammer REST API"
+  },
   "yapra": {
     "version": "0.2.2",
     "dependents": [
 
     ],
     "description": "Yet another pragger implementation."
+  },
+  "yapt": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "A command line app for navigating Pivotal Tracker. WIP"
   },
   "yapv": {
     "version": "1.0",
@@ -3987,12 +4128,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "abstract_method",
-        "requirements": ">= 0"
-      },
-      {
         "name": "abstractstack",
         "requirements": "~> 0.8.1"
+      },
+      {
+        "name": "abstract_method",
+        "requirements": ">= 0"
       },
       {
         "name": "accessibility_bridge",
@@ -4035,20 +4176,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "active_admin-acts_as_list",
-        "requirements": ">= 0"
-      },
-      {
         "name": "active_admin_acts_as_list_integration",
         "requirements": ">= 0"
       },
       {
-        "name": "active_column",
+        "name": "active_admin-acts_as_list",
         "requirements": ">= 0"
       },
       {
         "name": "active_conductor",
         "requirements": "~> 0.7.2"
+      },
+      {
+        "name": "active_column",
+        "requirements": ">= 0"
       },
       {
         "name": "active_configuration",
@@ -4076,6 +4217,10 @@
       },
       {
         "name": "active_model-better_errors",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "active_record_rollout",
         "requirements": ">= 0"
       },
       {
@@ -4108,6 +4253,10 @@
       },
       {
         "name": "activesambaldap",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "actress",
         "requirements": ">= 0"
       },
       {
@@ -4155,11 +4304,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "addressive",
+        "requirements": ">= 0"
+      },
+      {
         "name": "addresslogic_rails",
         "requirements": "~> 0.7"
       },
       {
-        "name": "addressive",
+        "name": "addy",
         "requirements": ">= 0"
       },
       {
@@ -4167,12 +4320,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "addy",
+        "name": "adhearsion",
         "requirements": ">= 0"
       },
       {
-        "name": "adhearsion",
-        "requirements": ">= 0"
+        "name": "adhearsion-asterisk",
+        "requirements": "~> 0.6"
       },
       {
         "name": "adhearsion-ims",
@@ -4183,16 +4336,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "adhearsion-asterisk",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "adility",
         "requirements": "~> 0.6"
       },
       {
         "name": "adjustn",
-        "requirements": ">= 0.8.2.1"
+        "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
         "name": "adobe_connect",
@@ -4205,6 +4354,10 @@
       {
         "name": "agharta",
         "requirements": ">= 0"
+      },
+      {
+        "name": "agilib",
+        "requirements": "~> 0.7"
       },
       {
         "name": "aids_info",
@@ -4275,14 +4428,6 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "amp",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "amp-front",
-        "requirements": ">= 0"
-      },
-      {
         "name": "amp-core",
         "requirements": ">= 0"
       },
@@ -4291,12 +4436,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "amqp-boilerplate",
-        "requirements": "~> 0.7"
+        "name": "amp",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "amp-front",
+        "requirements": ">= 0"
       },
       {
         "name": "amqp-failover",
         "requirements": ">= 0.6.3"
+      },
+      {
+        "name": "amqp-boilerplate",
+        "requirements": "~> 0.7"
       },
       {
         "name": "amqp-subscribe-many",
@@ -4315,12 +4468,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "angellist_api",
-        "requirements": "~> 0.8"
-      },
-      {
         "name": "angelf-thinking-sphinx",
         "requirements": ">= 0"
+      },
+      {
+        "name": "angellist_api",
+        "requirements": "~> 0.8"
       },
       {
         "name": "angus-sdoc",
@@ -4379,6 +4532,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "appium_lib",
+        "requirements": "~> 0.8.7.3"
+      },
+      {
         "name": "appsent",
         "requirements": ">= 0"
       },
@@ -4407,11 +4564,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "ashikawa-ar",
+        "name": "ashton",
         "requirements": "~> 0.8.2.1"
       },
       {
-        "name": "ashton",
+        "name": "ashikawa-ar",
         "requirements": "~> 0.8.2.1"
       },
       {
@@ -4419,16 +4576,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "assembly_line",
-        "requirements": "= 0.5.3"
-      },
-      {
         "name": "assembly_pipe",
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "assembly-objectfile",
+        "requirements": ">= 0"
+      },
+      {
         "name": "assert-response",
         "requirements": ">= 0"
+      },
+      {
+        "name": "assembly_line",
+        "requirements": "= 0.5.3"
       },
       {
         "name": "assert_difference",
@@ -4487,11 +4648,19 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "attune",
+        "requirements": ">= 0"
+      },
+      {
         "name": "audio_glue",
         "requirements": ">= 0"
       },
       {
         "name": "audio_glue-sox_adapter",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "audio_waveform-ruby",
         "requirements": ">= 0"
       },
       {
@@ -4547,11 +4716,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "aviator_session_pool",
+        "name": "aviator",
         "requirements": "~> 0.8.0"
       },
       {
-        "name": "aviator",
+        "name": "aviator_session_pool",
         "requirements": "~> 0.8.0"
       },
       {
@@ -4560,6 +4729,10 @@
       },
       {
         "name": "awesome_nested_set-tools",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "awesome_spawn",
         "requirements": ">= 0"
       },
       {
@@ -4635,6 +4808,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "bank_routing",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "barney",
         "requirements": ">= 0"
       },
@@ -4679,15 +4856,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bean",
-        "requirements": ">= 0"
-      },
-      {
         "name": "beaker",
         "requirements": ">= 0"
       },
       {
         "name": "beaker-rspec",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "bean",
         "requirements": ">= 0"
       },
       {
@@ -4697,6 +4874,10 @@
       {
         "name": "beanstalk-worker",
         "requirements": "> 0.8"
+      },
+      {
+        "name": "bearclaws",
+        "requirements": ">= 0"
       },
       {
         "name": "beatport",
@@ -4719,12 +4900,12 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "beholder",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bel",
         "requirements": "~> 0.8.7.0"
+      },
+      {
+        "name": "beholder",
+        "requirements": ">= 0"
       },
       {
         "name": "bellite",
@@ -4744,6 +4925,10 @@
       },
       {
         "name": "berkshelf",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "berkshelf-api-client",
         "requirements": "~> 0.8"
       },
       {
@@ -4827,11 +5012,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bixby-common",
+        "name": "bixby_common",
         "requirements": "~> 0.8"
       },
       {
-        "name": "bixby_common",
+        "name": "bixby-common",
         "requirements": "~> 0.8"
       },
       {
@@ -4845,6 +5030,10 @@
       {
         "name": "blather",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "blogr",
+        "requirements": ">= 0"
       },
       {
         "name": "bloomer",
@@ -4861,6 +5050,10 @@
       {
         "name": "bluepill-nagios",
         "requirements": ">= 0"
+      },
+      {
+        "name": "bluepill-rwgps",
+        "requirements": "~> 0.7"
       },
       {
         "name": "boffin",
@@ -4919,6 +5112,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bootstrap_it",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "bosdk",
         "requirements": ">= 0"
       },
@@ -4936,6 +5133,10 @@
       },
       {
         "name": "breadcrumbs_on_rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "breadcrumbs_on_rails_microdata_builder",
         "requirements": ">= 0"
       },
       {
@@ -4959,6 +5160,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "browshot",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bryanl-gherkin",
         "requirements": ">= 0.8.0"
       },
@@ -4971,12 +5176,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "bugzyrb",
-        "requirements": ">= 0.5"
-      },
-      {
         "name": "build-tool",
         "requirements": ">= 0.7.5"
+      },
+      {
+        "name": "bugzyrb",
+        "requirements": ">= 0.5"
       },
       {
         "name": "buildpack-utils",
@@ -5039,6 +5244,10 @@
         "requirements": "~> 0.7"
       },
       {
+        "name": "capistrano-slack",
+        "requirements": ">= 0"
+      },
+      {
         "name": "capstrap",
         "requirements": "~> 0.6.3"
       },
@@ -5053,6 +5262,10 @@
       {
         "name": "capybara-rails-2-2",
         "requirements": ">= 0.5.8"
+      },
+      {
+        "name": "capybara-table",
+        "requirements": ">= 0.8.7.3, ~> 0.8"
       },
       {
         "name": "capybarbecue",
@@ -5083,6 +5296,14 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "caruby-small",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "caruby-core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "caruby-scat",
         "requirements": ">= 0"
       },
@@ -5091,19 +5312,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "caruby-core",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "caruby-small",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "casecumber",
+        "name": "casecumber-rails",
         "requirements": "= 0.7.1"
       },
       {
-        "name": "casecumber-rails",
+        "name": "casecumber",
         "requirements": "= 0.7.1"
       },
       {
@@ -5119,11 +5332,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "castanet",
+        "name": "castanet-testing",
         "requirements": ">= 0"
       },
       {
-        "name": "castanet-testing",
+        "name": "castanet",
         "requirements": ">= 0"
       },
       {
@@ -5155,11 +5368,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "celerity",
+        "name": "celerity_thingista",
         "requirements": ">= 0"
       },
       {
-        "name": "celerity_thingista",
+        "name": "celerity",
         "requirements": ">= 0"
       },
       {
@@ -5177,6 +5390,10 @@
       {
         "name": "cequel",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "cexio",
+        "requirements": ">= 0"
       },
       {
         "name": "chalk-odm",
@@ -5203,11 +5420,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "chatterbot",
+        "name": "chatter",
         "requirements": ">= 0"
       },
       {
-        "name": "chatter",
+        "name": "chatterbot",
         "requirements": ">= 0"
       },
       {
@@ -5239,12 +5456,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "chefkitchen_cli",
-        "requirements": "~> 0.7"
-      },
-      {
         "name": "chefspec",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "chefkitchen_cli",
+        "requirements": "~> 0.7"
       },
       {
         "name": "chemspider",
@@ -5267,12 +5484,12 @@
         "requirements": "~> 0.7.2"
       },
       {
-        "name": "childprocess",
-        "requirements": ">= 0"
-      },
-      {
         "name": "childprocess-server",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "childprocess",
+        "requirements": ">= 0"
       },
       {
         "name": "china-express",
@@ -5291,12 +5508,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "chuck",
-        "requirements": ">= 0"
-      },
-      {
         "name": "chubasaweber",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "chuck",
+        "requirements": ">= 0"
       },
       {
         "name": "chunky_baconfile",
@@ -5423,11 +5640,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cmu-person",
+        "name": "cmu_person",
         "requirements": ">= 0"
       },
       {
-        "name": "cmu_person",
+        "name": "cmu-person",
         "requirements": ">= 0"
       },
       {
@@ -5453,6 +5670,10 @@
       {
         "name": "code_zauker",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "codemodels",
+        "requirements": "~> 0.8.7"
       },
       {
         "name": "coderwall_api",
@@ -5504,7 +5725,7 @@
       },
       {
         "name": "command-runner",
-        "requirements": ">= 0"
+        "requirements": "~> 0.8"
       },
       {
         "name": "commandant",
@@ -5524,6 +5745,10 @@
       },
       {
         "name": "complexity",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "compo",
         "requirements": ">= 0"
       },
       {
@@ -5555,12 +5780,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "configliere",
-        "requirements": ">= 0.7"
-      },
-      {
         "name": "configoro",
         "requirements": ">= 0"
+      },
+      {
+        "name": "configliere",
+        "requirements": ">= 0.7"
       },
       {
         "name": "configuration-blocks",
@@ -5643,19 +5868,7 @@
         "requirements": ">= 0.5.2"
       },
       {
-        "name": "coral",
-        "requirements": "~> 0.8"
-      },
-      {
         "name": "coral_cloud",
-        "requirements": "~> 0.8"
-      },
-      {
-        "name": "coral_core",
-        "requirements": "~> 0.8"
-      },
-      {
-        "name": "coral_vagrant",
         "requirements": "~> 0.8"
       },
       {
@@ -5663,11 +5876,23 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "corkboard",
-        "requirements": ">= 0"
+        "name": "coral",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "coral_vagrant",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "coral_core",
+        "requirements": "~> 0.8"
       },
       {
         "name": "corefoundation",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "corkboard",
         "requirements": ">= 0"
       },
       {
@@ -5715,6 +5940,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cowtech-extensions",
+        "requirements": "~> 0.8.0"
+      },
+      {
         "name": "crafting_table",
         "requirements": ">= 0"
       },
@@ -5735,8 +5964,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cowtech-extensions",
-        "requirements": "~> 0.8.0"
+        "name": "crochets",
+        "requirements": ">= 0"
       },
       {
         "name": "crubyflie",
@@ -5779,12 +6008,12 @@
         "requirements": "~> 0.8.5.2"
       },
       {
-        "name": "cucumber-value",
-        "requirements": ">= 0"
-      },
-      {
         "name": "cucumber-voip",
         "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "cucumber-value",
+        "requirements": ">= 0"
       },
       {
         "name": "cudd-rb",
@@ -5807,20 +6036,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "cupcakinator",
+        "name": "curb_threadpool",
         "requirements": ">= 0"
       },
       {
-        "name": "curb_threadpool",
+        "name": "currencies",
         "requirements": ">= 0"
       },
       {
         "name": "currency_converter",
         "requirements": "~> 0.8"
-      },
-      {
-        "name": "currencies",
-        "requirements": ">= 0"
       },
       {
         "name": "currency_parser",
@@ -5839,11 +6064,11 @@
         "requirements": ">= 0.2.3.5"
       },
       {
-        "name": "dacs",
+        "name": "dacpclient",
         "requirements": ">= 0"
       },
       {
-        "name": "dacpclient",
+        "name": "dacs",
         "requirements": ">= 0"
       },
       {
@@ -5915,12 +6140,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dca",
-        "requirements": ">= 0"
-      },
-      {
         "name": "dcache",
         "requirements": ">= 0.5"
+      },
+      {
+        "name": "dca",
+        "requirements": ">= 0"
       },
       {
         "name": "dealmap",
@@ -5975,6 +6200,10 @@
         "requirements": "~> 0.6"
       },
       {
+        "name": "detour",
+        "requirements": ">= 0"
+      },
+      {
         "name": "detroit-yard",
         "requirements": ">= 0"
       },
@@ -6023,12 +6252,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "digest-crc",
-        "requirements": "~> 0.8"
-      },
-      {
         "name": "digest-ed2k",
         "requirements": ">= 0"
+      },
+      {
+        "name": "digest-crc",
+        "requirements": "~> 0.8"
       },
       {
         "name": "digital_ocean",
@@ -6103,16 +6332,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "dm-is-checksumed",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "dm-is-indexed",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "dm-is-localizable",
-        "requirements": "~> 0.5"
+        "name": "dm-is-checksumed",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "dm-is-page-by-page",
@@ -6125,6 +6350,10 @@
       {
         "name": "dm-is-read_only",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "dm-is-localizable",
+        "requirements": "~> 0.5"
       },
       {
         "name": "dm-is-schemaless",
@@ -6191,12 +6420,12 @@
         "requirements": "~> 0.8.6.1"
       },
       {
-        "name": "docile",
-        "requirements": ">= 0"
-      },
-      {
         "name": "docify",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "docile",
+        "requirements": ">= 0"
       },
       {
         "name": "docparser",
@@ -6215,10 +6444,6 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "dolarblue",
-        "requirements": ">= 0.8.5.2"
-      },
-      {
         "name": "doku",
         "requirements": ">= 0"
       },
@@ -6231,11 +6456,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dor-workflow-service",
+        "name": "dor-services",
         "requirements": ">= 0"
       },
       {
         "name": "dorsal",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "dor-workflow-service",
         "requirements": ">= 0"
       },
       {
@@ -6395,7 +6624,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ecm_downloads",
+        "name": "ecm_cms_core",
         "requirements": ">= 0"
       },
       {
@@ -6403,7 +6632,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ecm_cms_core",
+        "name": "ecm_downloads",
         "requirements": ">= 0"
       },
       {
@@ -6427,11 +6656,11 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "el_finder_ftp",
+        "name": "el_finder",
         "requirements": "~> 0.8.1"
       },
       {
-        "name": "el_finder",
+        "name": "el_finder_ftp",
         "requirements": "~> 0.8.1"
       },
       {
@@ -6447,15 +6676,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "elasticsearch-transport",
+        "requirements": ">= 0"
+      },
+      {
         "name": "elasticsearch-api",
         "requirements": ">= 0"
       },
       {
         "name": "elasticsearch-extensions",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "elasticsearch-transport",
         "requirements": ">= 0"
       },
       {
@@ -6471,16 +6700,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "em-ftpd-fsd",
-        "requirements": "~> 0.8.2.1"
+        "name": "em-mqtts",
+        "requirements": ">= 0.7.2"
       },
       {
         "name": "em-mqtt",
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "em-mqtts",
-        "requirements": ">= 0.7.2"
+        "name": "em-ftpd-fsd",
+        "requirements": "~> 0.8.2.1"
       },
       {
         "name": "em-rack-mongrel2",
@@ -6583,12 +6812,12 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "envi",
-        "requirements": ">= 0"
-      },
-      {
         "name": "envfile",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "envi",
+        "requirements": ">= 0"
       },
       {
         "name": "eoat",
@@ -6627,12 +6856,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "epubinfo_with_toc",
-        "requirements": "~> 0.8.7"
-      },
-      {
         "name": "epubinfo",
         "requirements": "~> 0.8.1"
+      },
+      {
+        "name": "epubinfo_with_toc",
+        "requirements": "~> 0.8.7"
       },
       {
         "name": "equatable",
@@ -6651,7 +6880,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "eventify",
+        "requirements": ">= 0"
+      },
+      {
         "name": "eventmachine",
+        "requirements": ">= 0.8.5.2"
+      },
+      {
+        "name": "eventmachine-le",
         "requirements": ">= 0.8.5.2"
       },
       {
@@ -6659,11 +6896,7 @@
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "eventmachine-le",
-        "requirements": ">= 0.8.5.2"
-      },
-      {
-        "name": "eventually",
+        "name": "evernote_oauth",
         "requirements": ">= 0"
       },
       {
@@ -6671,7 +6904,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "evernote_oauth",
+        "name": "eventually",
         "requirements": ">= 0"
       },
       {
@@ -6703,12 +6936,12 @@
         "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
-        "name": "exchange-rates-generator",
-        "requirements": ">= 0"
+        "name": "exchange",
+        "requirements": "~> 0.8"
       },
       {
-        "name": "exchange",
-        "requirements": ">= 0.7.4"
+        "name": "exchange-rates-generator",
+        "requirements": ">= 0"
       },
       {
         "name": "exchanger",
@@ -6743,10 +6976,6 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "factory_girl",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fake_home",
         "requirements": ">= 0"
       },
@@ -6765,6 +6994,10 @@
       {
         "name": "family",
         "requirements": "< 0.9, >= 0.8.7.3"
+      },
+      {
+        "name": "factory_girl",
+        "requirements": ">= 0"
       },
       {
         "name": "faraday_cage",
@@ -6799,10 +7032,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fdb_object",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fear-of-callbacks",
         "requirements": ">= 0"
       },
@@ -6811,20 +7040,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fech",
-        "requirements": ">= 0"
-      },
-      {
         "name": "fed_spending",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "fech",
+        "requirements": ">= 0"
       },
       {
         "name": "fedora-fs",
         "requirements": ">= 0"
       },
       {
-        "name": "ffi-bit_masks",
-        "requirements": "~> 0.8"
+        "name": "ffi-http-parser",
+        "requirements": "~> 0.7"
+      },
+      {
+        "name": "ffi-hunspell",
+        "requirements": "~> 0.7"
       },
       {
         "name": "ffi-aspell",
@@ -6835,12 +7068,8 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "ffi-http-parser",
-        "requirements": "~> 0.7"
-      },
-      {
-        "name": "ffi-hunspell",
-        "requirements": "~> 0.7"
+        "name": "ffi-bit_masks",
+        "requirements": "~> 0.8"
       },
       {
         "name": "ffi-libc",
@@ -6919,6 +7148,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "flat_map",
+        "requirements": ">= 0"
+      },
+      {
         "name": "fleetly",
         "requirements": ">= 0"
       },
@@ -6939,10 +7172,6 @@
         "requirements": "~> 0.7.2"
       },
       {
-        "name": "fluq",
-        "requirements": ">= 0"
-      },
-      {
         "name": "flustered",
         "requirements": ">= 0"
       },
@@ -6953,6 +7182,10 @@
       {
         "name": "flv-dl",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "fluq",
+        "requirements": ">= 0"
       },
       {
         "name": "flyweight",
@@ -6967,11 +7200,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-dragonfly",
+        "name": "fog",
         "requirements": ">= 0"
       },
       {
-        "name": "fog",
+        "name": "fog-maestrodev",
         "requirements": ">= 0"
       },
       {
@@ -6979,7 +7212,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fog-maestrodev",
+        "name": "fog-dragonfly",
         "requirements": ">= 0"
       },
       {
@@ -7015,12 +7248,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "formtastic",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "formstack",
         "requirements": ">= 0"
+      },
+      {
+        "name": "formtastic",
+        "requirements": "~> 0.6"
       },
       {
         "name": "formulator",
@@ -7099,15 +7332,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fullcontacter",
-        "requirements": "~> 0.7"
-      },
-      {
         "name": "fullcontact",
         "requirements": "~> 0.7"
       },
       {
+        "name": "fullcontacter",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "furnace",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "fusebox",
         "requirements": ">= 0"
       },
       {
@@ -7211,12 +7448,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gem-mirror",
-        "requirements": ">= 0"
-      },
-      {
         "name": "gem-newgem",
         "requirements": ">= 0.8"
+      },
+      {
+        "name": "gem-mirror",
+        "requirements": ">= 0"
       },
       {
         "name": "gem_locate",
@@ -7247,7 +7484,15 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "geohydra",
+        "requirements": ">= 0"
+      },
+      {
         "name": "geoloqi",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "geonames-wrapper",
         "requirements": ">= 0"
       },
       {
@@ -7331,16 +7576,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "githooker",
-        "requirements": "~> 0.7"
-      },
-      {
         "name": "gitgolem",
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "githooker",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "github-api-client",
         "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "github-pivotal-flow",
+        "requirements": "~> 0.8"
       },
       {
         "name": "give",
@@ -7357,6 +7606,14 @@
       {
         "name": "gmaps_geocoding",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gnucash",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gnuside-custom_fields",
+        "requirements": "~> 0.7.3"
       },
       {
         "name": "gocardless",
@@ -7383,11 +7640,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gongren",
+        "name": "gongren-rails",
         "requirements": ">= 0"
       },
       {
-        "name": "gongren-rails",
+        "name": "gongren",
         "requirements": ">= 0"
       },
       {
@@ -7423,11 +7680,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "google_currency",
+        "name": "google_currency_rails_cache",
         "requirements": ">= 0.5.8"
       },
       {
-        "name": "google_currency_rails_cache",
+        "name": "google_currency",
         "requirements": ">= 0.5.8"
       },
       {
@@ -7447,12 +7704,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "gorillib",
-        "requirements": ">= 0.7"
-      },
-      {
         "name": "gorm",
         "requirements": ">= 0"
+      },
+      {
+        "name": "gorillib",
+        "requirements": ">= 0.7"
       },
       {
         "name": "gpgme",
@@ -7471,11 +7728,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "grape-entity",
+        "name": "grape-entity-matchers",
         "requirements": ">= 0"
       },
       {
-        "name": "grape-entity-matchers",
+        "name": "grape-entity",
         "requirements": ">= 0"
       },
       {
@@ -7488,10 +7745,6 @@
       },
       {
         "name": "graphite-notify",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "graphiterb",
         "requirements": ">= 0"
       },
       {
@@ -7511,11 +7764,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "groonga-command",
+        "name": "graphiterb",
         "requirements": ">= 0"
       },
       {
         "name": "groonga-query-log",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "groonga-command",
         "requirements": ">= 0"
       },
       {
@@ -7535,12 +7792,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "groupon2",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "groupon",
         "requirements": ">= 0"
+      },
+      {
+        "name": "groupon2",
+        "requirements": "~> 0.6"
       },
       {
         "name": "gscraper",
@@ -7567,11 +7824,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "guard-phpunit2",
+        "name": "guard-phpunit",
         "requirements": ">= 0"
       },
       {
-        "name": "guard-phpunit",
+        "name": "guard-phpunit2",
         "requirements": ">= 0"
       },
       {
@@ -7607,11 +7864,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hack_tree",
+        "name": "hacker_news_search",
         "requirements": ">= 0"
       },
       {
-        "name": "hacker_news_search",
+        "name": "hack_tree",
         "requirements": ">= 0"
       },
       {
@@ -7619,24 +7876,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hakon-lacquer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "haku",
         "requirements": "~> 0.8.6.1"
+      },
+      {
+        "name": "hakon-lacquer",
+        "requirements": ">= 0"
       },
       {
         "name": "hallelujah-cassandra-cql",
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "haml-coderay",
-        "requirements": ">= 0"
-      },
-      {
         "name": "haml-edge",
         "requirements": ">= 0.5.3"
+      },
+      {
+        "name": "haml-coderay",
+        "requirements": ">= 0"
       },
       {
         "name": "haml_ejs",
@@ -7659,12 +7916,12 @@
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "hansolo",
-        "requirements": ">= 0"
-      },
-      {
         "name": "hanswurst",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "hansolo",
+        "requirements": ">= 0"
       },
       {
         "name": "happy_fun_time_bot",
@@ -7691,12 +7948,12 @@
         "requirements": ">= 0.7.0"
       },
       {
-        "name": "has_bootstrap",
-        "requirements": "~> 0.8.2.1"
-      },
-      {
         "name": "has_barcode",
         "requirements": ">= 0"
+      },
+      {
+        "name": "has_bootstrap",
+        "requirements": "~> 0.8.2.1"
       },
       {
         "name": "has_cache",
@@ -7707,19 +7964,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "has_metadata",
-        "requirements": ">= 0"
-      },
-      {
         "name": "has_metadata_column",
         "requirements": ">= 0"
       },
       {
+        "name": "has_metadata",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hash-keyable",
-        "requirements": "~> 0.8"
+        "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
         "name": "hash-that-tree",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hash_digest",
         "requirements": ">= 0"
       },
       {
@@ -7751,6 +8012,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "hatena-bookmark-restful",
+        "requirements": ">= 0"
+      },
+      {
         "name": "hatetepe",
         "requirements": ">= 0"
       },
@@ -7765,6 +8030,10 @@
       {
         "name": "heatmap",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "hebrew_date",
+        "requirements": ">= 0"
       },
       {
         "name": "hellhound",
@@ -7787,16 +8056,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hexabat",
-        "requirements": ">= 0"
-      },
-      {
         "name": "hex",
         "requirements": "~> 0.7.1"
       },
       {
         "name": "hex_string",
         "requirements": "~> 0.6.4"
+      },
+      {
+        "name": "hexabat",
+        "requirements": ">= 0"
       },
       {
         "name": "hexagonly",
@@ -7935,10 +8204,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hydra-head",
-        "requirements": ">= 0"
-      },
-      {
         "name": "hydra-core",
         "requirements": ">= 0"
       },
@@ -7951,11 +8216,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hydra-testing",
+        "name": "hydra-head",
         "requirements": ">= 0"
       },
       {
         "name": "hydraulic_brake",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "hydra-testing",
         "requirements": ">= 0"
       },
       {
@@ -8043,6 +8312,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "imobis_api",
+        "requirements": "~> 0.7.5"
+      },
+      {
         "name": "impact",
         "requirements": ">= 0"
       },
@@ -8103,10 +8376,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "inline_encryption",
-        "requirements": ">= 0"
-      },
-      {
         "name": "inochi",
         "requirements": "< 1, >= 0.5.8"
       },
@@ -8151,12 +8420,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "intrinsic",
-        "requirements": "= 0.7.4"
-      },
-      {
         "name": "intervention",
         "requirements": ">= 0"
+      },
+      {
+        "name": "intrinsic",
+        "requirements": "= 0.7.4"
       },
       {
         "name": "inu",
@@ -8171,11 +8440,11 @@
         "requirements": "~> 0.8.7"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 0.8.0"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 0.8.0"
       },
       {
@@ -8195,12 +8464,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ipdb",
-        "requirements": ">= 0.2.3.5"
+        "name": "ipaccess",
+        "requirements": ">= 0.8.2"
       },
       {
-        "name": "iq-acl",
-        "requirements": ">= 0"
+        "name": "ipdb",
+        "requirements": ">= 0.2.3.5"
       },
       {
         "name": "iq-html",
@@ -8208,6 +8477,10 @@
       },
       {
         "name": "iq-color",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "iq-acl",
         "requirements": ">= 0"
       },
       {
@@ -8307,6 +8580,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "jcache",
+        "requirements": ">= 0"
+      },
+      {
         "name": "jello",
         "requirements": ">= 0"
       },
@@ -8327,12 +8604,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jeweler2",
-        "requirements": ">= 0"
+        "name": "jeweler",
+        "requirements": ">= 0.8.5"
       },
       {
-        "name": "jeweler",
-        "requirements": "~> 0.8.5"
+        "name": "jeweler2",
+        "requirements": ">= 0"
       },
       {
         "name": "jhove-service",
@@ -8367,11 +8644,11 @@
         "requirements": "= 0.5.3"
       },
       {
-        "name": "josh_cutler-thinking-sphinx",
+        "name": "joshcutler-thinking-sphinx",
         "requirements": ">= 0"
       },
       {
-        "name": "joshcutler-thinking-sphinx",
+        "name": "josh_cutler-thinking-sphinx",
         "requirements": ">= 0"
       },
       {
@@ -8383,11 +8660,11 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "jprotobuf_rpc_pro",
+        "name": "jprotobuf",
         "requirements": ">= 0"
       },
       {
-        "name": "jprotobuf",
+        "name": "jprotobuf_rpc_pro",
         "requirements": ">= 0"
       },
       {
@@ -8407,12 +8684,16 @@
         "requirements": ">= 0.5.3"
       },
       {
-        "name": "jruby_threach",
-        "requirements": "~> 0.6.0"
+        "name": "jruby-safe",
+        "requirements": ">= 0"
       },
       {
         "name": "jruby_sandbox",
         "requirements": ">= 0"
+      },
+      {
+        "name": "jruby_threach",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "jruby_streaming_update_solr_server",
@@ -8463,16 +8744,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "junkfood",
+        "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "junkfood",
+        "requirements": "~> 0.6.0"
+      },
+      {
         "name": "junior",
         "requirements": "~> 0.5.2"
-      },
-      {
-        "name": "junkfood",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "junkfood",
-        "requirements": "~> 0.6.0"
       },
       {
         "name": "justified",
@@ -8485,6 +8766,10 @@
       {
         "name": "kangaroo",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kankri",
+        "requirements": "~> 0.8"
       },
       {
         "name": "kappa",
@@ -8503,12 +8788,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "keepass-password-generator",
-        "requirements": ">= 0"
-      },
-      {
         "name": "keeper",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "keepass-password-generator",
+        "requirements": ">= 0"
       },
       {
         "name": "kennedy",
@@ -8543,6 +8828,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "kinetic",
+        "requirements": ">= 0"
+      },
+      {
         "name": "kioku",
         "requirements": "~> 0.6.0"
       },
@@ -8553,6 +8842,10 @@
       {
         "name": "kitchen-bluebox",
         "requirements": ">= 0"
+      },
+      {
+        "name": "km-export-processor",
+        "requirements": "~> 0.8"
       },
       {
         "name": "knife-zcloudjp",
@@ -8691,6 +8984,10 @@
         "requirements": "~> 0.8"
       },
       {
+        "name": "libmspack",
+        "requirements": ">= 0"
+      },
+      {
         "name": "libnotify",
         "requirements": "~> 0.8.6.1"
       },
@@ -8699,11 +8996,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "librato-metrics",
+        "name": "librarything-api",
         "requirements": ">= 0"
       },
       {
-        "name": "librarything-api",
+        "name": "librato-metrics",
         "requirements": ">= 0"
       },
       {
@@ -8727,12 +9024,12 @@
         "requirements": "~> 0.8.7.2"
       },
       {
-        "name": "linebreak-cli",
-        "requirements": "~> 0.8.2.1"
-      },
-      {
         "name": "linebreak",
         "requirements": ">= 0"
+      },
+      {
+        "name": "linebreak-cli",
+        "requirements": "~> 0.8.2.1"
       },
       {
         "name": "link-checker",
@@ -8741,6 +9038,10 @@
       {
         "name": "linkeddata",
         "requirements": ">= 0.8.7"
+      },
+      {
+        "name": "linkedin2",
+        "requirements": ">= 0"
       },
       {
         "name": "linnaeus",
@@ -8791,11 +9092,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "llt-form_builder",
+        "name": "llt-db_handler",
         "requirements": ">= 0"
       },
       {
-        "name": "llt-db_handler",
+        "name": "llt-form_builder",
         "requirements": ">= 0"
       },
       {
@@ -8851,12 +9152,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "log_switch",
-        "requirements": ">= 0.7.2"
-      },
-      {
         "name": "log_weaver",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "log_switch",
+        "requirements": ">= 0.7.2"
       },
       {
         "name": "logg",
@@ -8884,6 +9185,10 @@
       },
       {
         "name": "loops",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "LP-Exporter",
         "requirements": ">= 0"
       },
       {
@@ -8967,6 +9272,10 @@
         "requirements": "~> 0.7"
       },
       {
+        "name": "mailcannon",
+        "requirements": ">= 0"
+      },
+      {
         "name": "maluuba_napi",
         "requirements": ">= 0"
       },
@@ -8976,14 +9285,10 @@
       },
       {
         "name": "mango",
-        "requirements": "~> 0.8.7.3"
+        "requirements": ">= 0.8.7.3, ~> 0.8"
       },
       {
         "name": "manifest-rails",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "marc2solr",
         "requirements": ">= 0"
       },
       {
@@ -8992,6 +9297,10 @@
       },
       {
         "name": "marc-marc4j",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "marc2solr",
         "requirements": ">= 0"
       },
       {
@@ -9167,6 +9476,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "memtf",
+        "requirements": ">= 0"
+      },
+      {
         "name": "mensario",
         "requirements": "~> 0.7.1"
       },
@@ -9200,7 +9513,7 @@
       },
       {
         "name": "method_visibility",
-        "requirements": "~> 0.8"
+        "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
         "name": "methodcache",
@@ -9231,6 +9544,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "milenage",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "milk_cap",
+        "requirements": ">= 0"
+      },
+      {
         "name": "milkshake",
         "requirements": ">= 0"
       },
@@ -9247,16 +9568,16 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "mince_dynamo_db",
-        "requirements": "~> 0.7.5"
-      },
-      {
         "name": "mince",
         "requirements": "~> 0.7"
       },
       {
         "name": "mince_migrator",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "mince_dynamo_db",
+        "requirements": "~> 0.7.5"
       },
       {
         "name": "mince_mongo_db",
@@ -9271,6 +9592,14 @@
         "requirements": ">= 0"
       },
       {
+        "name": "minitest-vcr",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "minitest_vcr",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "minjector",
         "requirements": "~> 0.6.0"
       },
@@ -9283,12 +9612,12 @@
         "requirements": ">= 0.8.7"
       },
       {
-        "name": "mixlib-log-json",
-        "requirements": ">= 0.8"
-      },
-      {
         "name": "mixlib-json",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mixlib-log-json",
+        "requirements": ">= 0.8"
       },
       {
         "name": "mkdtemp",
@@ -9343,11 +9672,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "module-interface",
-        "requirements": "~> 0.8"
+        "name": "module-mixy",
+        "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
-        "name": "module-mixy",
+        "name": "module-interface",
         "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
@@ -9375,20 +9704,20 @@
         "requirements": "~> 0.8.1"
       },
       {
-        "name": "mongestry",
+        "name": "mongar",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "mongify",
-        "requirements": ">= 0.5.3"
-      },
-      {
-        "name": "mongar",
+        "name": "mongestry",
         "requirements": "~> 0.6.0"
       },
       {
         "name": "mongify-mongoid",
         "requirements": ">= 0"
+      },
+      {
+        "name": "mongify",
+        "requirements": ">= 0.5.3"
       },
       {
         "name": "mongo-graph",
@@ -9415,12 +9744,12 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "mongoid-graph",
-        "requirements": "~> 0.8.1"
+        "name": "mongoid-giza",
+        "requirements": ">= 0.8.7"
       },
       {
-        "name": "mongoid-history-patched",
-        "requirements": ">= 0"
+        "name": "mongoid-graph",
+        "requirements": "~> 0.8.1"
       },
       {
         "name": "mongoid-included",
@@ -9429,6 +9758,14 @@
       {
         "name": "mongoid-kraken",
         "requirements": ">= 0.6.5"
+      },
+      {
+        "name": "mongoid-history-patched",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "mongoid-history",
+        "requirements": ">= 0"
       },
       {
         "name": "mongoid-lookup",
@@ -9447,10 +9784,6 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "mongoid-sleeping_king_studios",
-        "requirements": ">= 0"
-      },
-      {
         "name": "mongoid-simplify",
         "requirements": "~> 0.8.3"
       },
@@ -9464,6 +9797,10 @@
       },
       {
         "name": "mongoid-verbalize",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "mongoid-uuid",
         "requirements": "~> 0.8"
       },
       {
@@ -9495,11 +9832,11 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "mongoid_taggable_with_context-meta",
+        "name": "mongoid_taggable_with_context",
         "requirements": ">= 0"
       },
       {
-        "name": "mongoid_taggable_with_context",
+        "name": "mongoid_taggable_with_context-meta",
         "requirements": ">= 0"
       },
       {
@@ -9508,7 +9845,7 @@
       },
       {
         "name": "mongoid_userstamp",
-        "requirements": ">= 0.8.2.1"
+        "requirements": ">= 0"
       },
       {
         "name": "mongomapper-sweatshop",
@@ -9659,20 +9996,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "naether",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nagira",
         "requirements": "~> 0.8"
       },
       {
-        "name": "namae",
+        "name": "namaste",
         "requirements": ">= 0"
       },
       {
-        "name": "namaste",
-        "requirements": ">= 0"
+        "name": "namae",
+        "requirements": "~> 0.8"
       },
       {
         "name": "named-parameters",
@@ -9683,11 +10016,11 @@
         "requirements": "~> 0.8.2.1"
       },
       {
-        "name": "naming",
+        "name": "namey",
         "requirements": ">= 0"
       },
       {
-        "name": "namey",
+        "name": "naming",
         "requirements": ">= 0"
       },
       {
@@ -9711,11 +10044,15 @@
         "requirements": "~> 0.8.2"
       },
       {
-        "name": "natives",
-        "requirements": ">= 0"
+        "name": "nationbuilder-ruby",
+        "requirements": "~> 0.8.7.3"
       },
       {
         "name": "natives-catalog",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "natives",
         "requirements": ">= 0"
       },
       {
@@ -9739,7 +10076,7 @@
         "requirements": ">= 0.5.2"
       },
       {
-        "name": "ncs_mdes_warehouse",
+        "name": "ncs_navigator_configuration",
         "requirements": "~> 0.7.2"
       },
       {
@@ -9747,7 +10084,7 @@
         "requirements": "~> 0.7.2"
       },
       {
-        "name": "ncs_navigator_configuration",
+        "name": "ncs_mdes_warehouse",
         "requirements": "~> 0.7.2"
       },
       {
@@ -9760,6 +10097,10 @@
       },
       {
         "name": "neoassets-ui",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "neon",
         "requirements": "~> 0.8"
       },
       {
@@ -9843,10 +10184,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "nexop",
-        "requirements": ">= 0"
-      },
-      {
         "name": "nextday",
         "requirements": ">= 0"
       },
@@ -9915,20 +10252,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "noise",
-        "requirements": ">= 0.6.5"
-      },
-      {
-        "name": "noitehoje",
-        "requirements": ">= 0"
-      },
-      {
         "name": "noisrev",
         "requirements": ">= 0.8"
       },
       {
         "name": "nokogiri-diff",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "noitehoje",
+        "requirements": ">= 0"
       },
       {
         "name": "nom-xml",
@@ -9948,6 +10281,10 @@
       },
       {
         "name": "nordea",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "nordea-filetransfer",
         "requirements": ">= 0"
       },
       {
@@ -10019,11 +10356,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "oa-enterprise",
-        "requirements": "~> 0.7"
+        "name": "oa-mailru",
+        "requirements": ">= 0"
       },
       {
-        "name": "oa-more",
+        "name": "oa-enterprise",
         "requirements": "~> 0.7"
       },
       {
@@ -10031,23 +10368,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oa-mailru",
-        "requirements": ">= 0"
+        "name": "oa-openid",
+        "requirements": "~> 0.7"
       },
       {
         "name": "oa-oauth",
         "requirements": "~> 0.7"
       },
       {
-        "name": "oa-openid",
+        "name": "oa-more",
         "requirements": "~> 0.7"
       },
       {
-        "name": "oa-vkontakte_alexandrov",
+        "name": "oa-vkontakte",
         "requirements": ">= 0"
       },
       {
-        "name": "oa-vkontakte",
+        "name": "oa-vkontakte_alexandrov",
         "requirements": ">= 0"
       },
       {
@@ -10063,11 +10400,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "oba_client",
+        "name": "oba-client",
         "requirements": ">= 0"
       },
       {
-        "name": "oba-client",
+        "name": "oba_client",
         "requirements": ">= 0"
       },
       {
@@ -10175,11 +10512,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "omniauth-gplus-signin",
+        "name": "omniauth-gplus",
         "requirements": ">= 0"
       },
       {
-        "name": "omniauth-gplus",
+        "name": "omniauth-gplus-signin",
         "requirements": ">= 0"
       },
       {
@@ -10255,11 +10592,11 @@
         "requirements": "~> 0.8.2.1"
       },
       {
-        "name": "open-uri-s3",
+        "name": "open-temporary",
         "requirements": "~> 0.7"
       },
       {
-        "name": "open-temporary",
+        "name": "open-uri-s3",
         "requirements": "~> 0.7"
       },
       {
@@ -10287,12 +10624,12 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "openlayers-sprockets",
-        "requirements": ">= 0.8.6.1"
-      },
-      {
         "name": "openkvk",
         "requirements": ">= 0"
+      },
+      {
+        "name": "openlayers-sprockets",
+        "requirements": ">= 0.8.6.1"
       },
       {
         "name": "openlogic-rdf",
@@ -10305,6 +10642,10 @@
       {
         "name": "openpgp",
         "requirements": ">= 0.5.8"
+      },
+      {
+        "name": "openpayu",
+        "requirements": ">= 0"
       },
       {
         "name": "opensecrets",
@@ -10324,11 +10665,7 @@
       },
       {
         "name": "opsview_rest",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "opsview_rest",
-        "requirements": ">= 0"
+        "requirements": "~> 0.8.7.3"
       },
       {
         "name": "optionalargument",
@@ -10363,19 +10700,19 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "ore-tasks",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "ore-example",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "orm_adapter-sequel",
-        "requirements": ">= 0.6.0"
+        "name": "ore-tasks",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "orm_adapter",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "orm_adapter-sequel",
         "requirements": ">= 0.6.0"
       },
       {
@@ -10388,6 +10725,10 @@
       },
       {
         "name": "otter-rb",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ourpc",
         "requirements": ">= 0"
       },
       {
@@ -10463,6 +10804,10 @@
         "requirements": "~> 0.8"
       },
       {
+        "name": "panjiva-oauth2",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "pants",
         "requirements": ">= 0.7.2"
       },
@@ -10493,6 +10838,10 @@
       {
         "name": "parameters",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "params_sanitizer",
+        "requirements": ">= 0"
       },
       {
         "name": "params_validator",
@@ -10527,16 +10876,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "passbook",
+        "requirements": ">= 0"
+      },
+      {
         "name": "passbook-ios",
         "requirements": ">= 0"
       },
       {
         "name": "password_generator",
         "requirements": "< 0.9, >= 0.8.6.1"
-      },
-      {
-        "name": "passbook",
-        "requirements": ">= 0"
       },
       {
         "name": "paypal-brazil",
@@ -10619,12 +10968,12 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "phonetic",
-        "requirements": ">= 0"
-      },
-      {
         "name": "phonenumber-client",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "phonetic",
+        "requirements": ">= 0"
       },
       {
         "name": "php",
@@ -10639,15 +10988,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pickle-has_many_support",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pickle",
         "requirements": ">= 0"
       },
       {
         "name": "pickle-surprise",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pickle-has_many_support",
         "requirements": ">= 0"
       },
       {
@@ -10695,12 +11044,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pius-rdfs",
-        "requirements": ">= 0.5.6"
-      },
-      {
         "name": "pivit",
         "requirements": ">= 0"
+      },
+      {
+        "name": "pius-rdfs",
+        "requirements": ">= 0.5.6"
       },
       {
         "name": "pivotal-tracker-speedchart",
@@ -10739,8 +11088,8 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pling",
-        "requirements": ">= 0.7"
+        "name": "pliable",
+        "requirements": "~> 0.8"
       },
       {
         "name": "pling-actionmailer",
@@ -10748,6 +11097,10 @@
       },
       {
         "name": "pling-mobilant",
+        "requirements": ">= 0.7"
+      },
+      {
+        "name": "pling",
         "requirements": ">= 0.7"
       },
       {
@@ -10779,15 +11132,15 @@
         "requirements": "~> 0.8.0"
       },
       {
+        "name": "pocketknife_puppet",
+        "requirements": "~> 0.6.0"
+      },
+      {
         "name": "pocketknife_ec2dream",
         "requirements": "~> 0.6.0"
       },
       {
         "name": "pocketknife_windows",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "pocketknife_puppet",
         "requirements": "~> 0.6.0"
       },
       {
@@ -10823,15 +11176,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "poseidon_cluster",
+        "requirements": ">= 0"
+      },
+      {
         "name": "postbin",
         "requirements": ">= 0"
       },
       {
-        "name": "postcodeanywhere_banking",
+        "name": "posterboard",
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "posterboard",
+        "name": "postcodeanywhere_banking",
         "requirements": "~> 0.6.0"
       },
       {
@@ -10852,6 +11209,10 @@
       },
       {
         "name": "praise",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "prawn",
         "requirements": ">= 0"
       },
       {
@@ -10927,10 +11288,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "proto_light",
-        "requirements": ">= 0"
-      },
-      {
         "name": "protobuf-rspec",
         "requirements": "~> 0.7"
       },
@@ -10951,10 +11308,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "public_activity",
-        "requirements": "~> 0.8"
-      },
-      {
         "name": "public_suffix",
         "requirements": ">= 0"
       },
@@ -10963,16 +11316,12 @@
         "requirements": ">= 0"
       },
       {
+        "name": "public_activity",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "publishable",
         "requirements": "~> 0.7"
-      },
-      {
-        "name": "pulse_meter_cli",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "pulse_meter_core",
-        "requirements": ">= 0"
       },
       {
         "name": "pulse-meter-client-backport",
@@ -10987,7 +11336,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "pulse_meter_core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pulse_meter_visualizer",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "pulse_meter_cli",
         "requirements": ">= 0"
       },
       {
@@ -10999,12 +11356,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "punchblock",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "punchblock-console",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "punchblock",
+        "requirements": "~> 0.6"
       },
       {
         "name": "pundit",
@@ -11015,16 +11372,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "puppet-rundeck",
-        "requirements": ">= 0"
-      },
-      {
         "name": "puppet-rundeck-2013",
         "requirements": ">= 0"
       },
       {
+        "name": "puppet-rundeck",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "puppet_transplant",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pusher-fake",
-        "requirements": "= 0.8.7.2"
+        "requirements": "= 0.8.7.3"
       },
       {
         "name": "pushlayer",
@@ -11035,11 +11396,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "pvwatts-ee",
+        "name": "pvwatts",
         "requirements": ">= 0.6.4"
       },
       {
-        "name": "pvwatts",
+        "name": "pvwatts-ee",
         "requirements": ">= 0.6.4"
       },
       {
@@ -11053,6 +11414,10 @@
       {
         "name": "qiwi",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "qipowl",
+        "requirements": ">= 0"
       },
       {
         "name": "qlg",
@@ -11105,6 +11470,10 @@
       {
         "name": "rack-acceptable",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rack-archive-zip-extract",
+        "requirements": "~> 0.8"
       },
       {
         "name": "rack-gauges",
@@ -11279,24 +11648,24 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rally",
-        "requirements": "~> 0.7"
-      },
-      {
         "name": "ralbum",
         "requirements": ">= 0"
       },
       {
-        "name": "ramaze",
-        "requirements": ">= 0"
+        "name": "rally",
+        "requirements": "~> 0.7"
+      },
+      {
+        "name": "ramaze-asset",
+        "requirements": ">= 0.7.2"
       },
       {
         "name": "ramaze-fnordmetric",
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "ramaze-asset",
-        "requirements": ">= 0.7.2"
+        "name": "ramaze",
+        "requirements": ">= 0"
       },
       {
         "name": "rambling-trie",
@@ -11327,12 +11696,12 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "rapper",
-        "requirements": "~> 0.6.4"
-      },
-      {
         "name": "rapper_lite",
         "requirements": ">= 0"
+      },
+      {
+        "name": "rapper",
+        "requirements": "~> 0.6.4"
       },
       {
         "name": "rare_map",
@@ -11341,10 +11710,6 @@
       {
         "name": "rateme",
         "requirements": "~> 0.7.5"
-      },
-      {
-        "name": "ratis",
-        "requirements": ">= 0"
       },
       {
         "name": "rattler",
@@ -11363,10 +11728,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rb-inotify",
-        "requirements": ">= 0.4.0"
-      },
-      {
         "name": "rb-kqueue-burke",
         "requirements": ">= 0.4.0"
       },
@@ -11375,12 +11736,16 @@
         "requirements": ">= 0.4.0"
       },
       {
-        "name": "rbacanable",
-        "requirements": ">= 0"
+        "name": "rb-inotify",
+        "requirements": ">= 0.4.0"
       },
       {
         "name": "rb-pygments",
         "requirements": "~> 0.5.3"
+      },
+      {
+        "name": "rbacanable",
+        "requirements": ">= 0"
       },
       {
         "name": "rbtags",
@@ -11419,6 +11784,10 @@
         "requirements": ">= 0.8"
       },
       {
+        "name": "rdf-agraph",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "rdf-aggregate-repo",
         "requirements": ">= 0.8"
       },
@@ -11427,28 +11796,52 @@
         "requirements": ">= 0.8.3"
       },
       {
-        "name": "rdf-agraph",
-        "requirements": "~> 0.8"
+        "name": "rdf-isomorphic",
+        "requirements": ">= 0.8.7"
+      },
+      {
+        "name": "rdf-json",
+        "requirements": ">= 0.8.5"
+      },
+      {
+        "name": "rdf-mongo",
+        "requirements": ">= 0.8.7"
+      },
+      {
+        "name": "rdf-n3",
+        "requirements": ">= 0.8.6"
       },
       {
         "name": "rdf-microdata",
         "requirements": ">= 0.8.7"
       },
       {
+        "name": "rdf-rdfobjects",
+        "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "rdf-raptor",
+        "requirements": ">= 0.8.6"
+      },
+      {
+        "name": "rdf-rdfa",
+        "requirements": ">= 0.8.5"
+      },
+      {
         "name": "rdf-rdfxml",
         "requirements": ">= 0.8.5"
+      },
+      {
+        "name": "rdf-sesame",
+        "requirements": ">= 0.6.0"
       },
       {
         "name": "rdf-redstore",
         "requirements": ">= 0.5.3"
       },
       {
-        "name": "rdf-rdfobjects",
-        "requirements": ">= 0.6.0"
-      },
-      {
-        "name": "rdf-rdfa",
-        "requirements": ">= 0.8.5"
+        "name": "rdf-spec",
+        "requirements": ">= 0.8"
       },
       {
         "name": "rdf-trig",
@@ -11467,44 +11860,16 @@
         "requirements": ">= 0.8.5"
       },
       {
-        "name": "rdfbus",
-        "requirements": ">= 0.5.3"
-      },
-      {
-        "name": "rdf-n3",
-        "requirements": ">= 0.8.6"
+        "name": "rdf_context",
+        "requirements": ">= 0"
       },
       {
         "name": "rdfgrid",
         "requirements": ">= 0.5.3"
       },
       {
-        "name": "rdf-raptor",
-        "requirements": ">= 0.8.6"
-      },
-      {
-        "name": "rdf-isomorphic",
-        "requirements": ">= 0.8.7"
-      },
-      {
-        "name": "rdf-mongo",
-        "requirements": ">= 0.8.7"
-      },
-      {
-        "name": "rdf-sesame",
-        "requirements": ">= 0.6.0"
-      },
-      {
-        "name": "rdf-spec",
-        "requirements": ">= 0.8"
-      },
-      {
-        "name": "rdf_context",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "rdf-json",
-        "requirements": ">= 0.8.5"
+        "name": "rdfbus",
+        "requirements": ">= 0.5.3"
       },
       {
         "name": "reaction",
@@ -11643,12 +12008,12 @@
         "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
-        "name": "repo_manager",
-        "requirements": ">= 0.7.4"
-      },
-      {
         "name": "report",
         "requirements": ">= 0"
+      },
+      {
+        "name": "repo_manager",
+        "requirements": ">= 0.7.4"
       },
       {
         "name": "reps_client",
@@ -11679,12 +12044,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "respect-rails",
+        "requirements": "~> 0.8.5.2"
+      },
+      {
         "name": "respect",
         "requirements": "~> 0.8.5.2"
       },
       {
-        "name": "respect-rails",
-        "requirements": "~> 0.8.5.2"
+        "name": "resque-exceptional",
+        "requirements": ">= 0"
       },
       {
         "name": "resque-enqueue-lock-timeout",
@@ -11692,10 +12061,6 @@
       },
       {
         "name": "resque-exponential-backoff",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "resque-exceptional",
         "requirements": ">= 0"
       },
       {
@@ -11744,10 +12109,6 @@
       },
       {
         "name": "retries",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "retryable",
         "requirements": ">= 0"
       },
       {
@@ -11883,6 +12244,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "rmpv",
+        "requirements": ">= 0"
+      },
+      {
         "name": "robot_remote_server",
         "requirements": ">= 0.6.3"
       },
@@ -11915,12 +12280,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rodent",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rodders",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "rodent",
+        "requirements": ">= 0"
       },
       {
         "name": "roe",
@@ -11931,16 +12296,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ronin",
-        "requirements": "~> 0.8"
+        "name": "ronin-dorks",
+        "requirements": ">= 0.2.3.5"
       },
       {
         "name": "ronin-exploits",
         "requirements": ">= 0.2.3.5"
       },
       {
-        "name": "ronin-dorks",
-        "requirements": ">= 0.2.3.5"
+        "name": "ronin",
+        "requirements": "~> 0.8"
       },
       {
         "name": "ronin-asm",
@@ -11948,6 +12313,10 @@
       },
       {
         "name": "ronin-gen",
+        "requirements": "~> 0.8"
+      },
+      {
+        "name": "ronin-sql",
         "requirements": "~> 0.8"
       },
       {
@@ -11959,8 +12328,12 @@
         "requirements": "~> 0"
       },
       {
-        "name": "ronin-sql",
+        "name": "roqua-healthy",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "rory",
+        "requirements": ">= 0"
       },
       {
         "name": "rose",
@@ -11973,10 +12346,6 @@
       {
         "name": "routing_filter_locale_unless_api",
         "requirements": "~> 0.8"
-      },
-      {
-        "name": "rpc_object",
-        "requirements": ">= 0"
       },
       {
         "name": "rprogram",
@@ -12003,11 +12372,11 @@
         "requirements": ">= 0.6.0"
       },
       {
-        "name": "rscons",
+        "name": "rscribd",
         "requirements": ">= 0"
       },
       {
-        "name": "rscribd",
+        "name": "rscons",
         "requirements": ">= 0"
       },
       {
@@ -12055,11 +12424,11 @@
         "requirements": ">= 0.5.4"
       },
       {
-        "name": "rss-atom-feed_history",
+        "name": "rss-dcterms",
         "requirements": ">= 0"
       },
       {
-        "name": "rss-dcterms",
+        "name": "rss-atom-feed_history",
         "requirements": ">= 0"
       },
       {
@@ -12075,32 +12444,28 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rswt",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "rsx",
         "requirements": "~> 0.6.4"
+      },
+      {
+        "name": "rswt",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "rt_sphinx",
         "requirements": ">= 0.7.2"
       },
       {
-        "name": "rtfm",
-        "requirements": ">= 0"
-      },
-      {
         "name": "rtfd",
         "requirements": "= 0.8.3"
       },
       {
-        "name": "rtmidi",
-        "requirements": "~> 0.8"
+        "name": "rtfm",
+        "requirements": ">= 0"
       },
       {
-        "name": "rtp-connect",
-        "requirements": "~> 0.8.5"
+        "name": "rtmidi",
+        "requirements": "~> 0.8"
       },
       {
         "name": "rtp",
@@ -12109,6 +12474,10 @@
       {
         "name": "rtsp",
         "requirements": ">= 0.6.0"
+      },
+      {
+        "name": "rtp-connect",
+        "requirements": "~> 0.8.5"
       },
       {
         "name": "ru_pol",
@@ -12127,6 +12496,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "rubicure",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rubikon",
         "requirements": "~> 0.6.4"
       },
@@ -12139,6 +12512,14 @@
         "requirements": "~> 0.8"
       },
       {
+        "name": "ruby-bandwidth",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rtsp_server",
+        "requirements": ">= 0.6.0"
+      },
+      {
         "name": "ruby-conf",
         "requirements": ">= 0"
       },
@@ -12147,11 +12528,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-gsl-ng",
+        "name": "ruby-gsl-ngx",
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-gsl-ngx",
+        "name": "ruby-gsl-ng",
         "requirements": ">= 0"
       },
       {
@@ -12168,6 +12549,14 @@
       },
       {
         "name": "ruby-llvm",
+        "requirements": "~> 0.8.3"
+      },
+      {
+        "name": "ruby-lol",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "ruby-mpfi",
         "requirements": ">= 0"
       },
       {
@@ -12176,10 +12565,6 @@
       },
       {
         "name": "ruby-mpfr",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "ruby-mpfi",
         "requirements": ">= 0"
       },
       {
@@ -12227,12 +12612,12 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "ruby_apk",
-        "requirements": ">= 0"
-      },
-      {
         "name": "ruby_ami",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "ruby_apk",
+        "requirements": ">= 0"
       },
       {
         "name": "ruby_cop",
@@ -12263,16 +12648,12 @@
         "requirements": "= 0.5.3"
       },
       {
-        "name": "rubybits",
-        "requirements": "~> 0.8.0"
-      },
-      {
         "name": "rubybooty",
         "requirements": "~> 0.7.0"
       },
       {
-        "name": "rubycom",
-        "requirements": ">= 0"
+        "name": "rubybits",
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "rubycop",
@@ -12291,12 +12672,12 @@
         "requirements": "~> 0.4.0"
       },
       {
-        "name": "rubygems-tasks",
-        "requirements": "~> 0.7"
-      },
-      {
         "name": "rubygems-yardoc",
         "requirements": "~> 0.8.5"
+      },
+      {
+        "name": "rubygems-tasks",
+        "requirements": "~> 0.7"
       },
       {
         "name": "rubyhorn",
@@ -12315,8 +12696,12 @@
         "requirements": ">= 0"
       },
       {
+        "name": "rubycom",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rubytree",
-        "requirements": ">= 0.8.2.1"
+        "requirements": "~> 0.8"
       },
       {
         "name": "rufus-decision",
@@ -12347,20 +12732,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "runnable",
-        "requirements": ">= 0.6.8"
-      },
-      {
         "name": "runit-man",
         "requirements": "~> 0.7.5"
       },
       {
-        "name": "ruote-nats",
-        "requirements": ">= 0"
+        "name": "runnable",
+        "requirements": ">= 0.6.8"
       },
       {
         "name": "ruote-registry",
         "requirements": "~> 0.7"
+      },
+      {
+        "name": "ruote-nats",
+        "requirements": ">= 0"
       },
       {
         "name": "ruote-resque",
@@ -12383,6 +12768,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "RZM",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "saasu",
         "requirements": ">= 0"
       },
@@ -12399,11 +12788,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sage_one",
+        "name": "sage_party",
         "requirements": ">= 0"
       },
       {
-        "name": "sage_party",
+        "name": "sage_one",
         "requirements": ">= 0"
       },
       {
@@ -12423,7 +12812,15 @@
         "requirements": ">= 0.8"
       },
       {
+        "name": "sandie",
+        "requirements": "~> 0.8"
+      },
+      {
         "name": "sander",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "Sandrbox",
         "requirements": ">= 0"
       },
       {
@@ -12431,15 +12828,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sandyw-active_configuration",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sandwich",
         "requirements": ">= 0"
       },
       {
-        "name": "Sandrbox",
+        "name": "sandyw-active_configuration",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "sanitize",
+        "requirements": "~> 0.8.7"
+      },
+      {
+        "name": "sanitized_msisdns",
         "requirements": ">= 0"
       },
       {
@@ -12475,11 +12876,11 @@
         "requirements": "~> 0.8.0"
       },
       {
-        "name": "scaffolder-tools",
+        "name": "scaffolder-test-helpers",
         "requirements": "~> 0.6"
       },
       {
-        "name": "scaffolder-test-helpers",
+        "name": "scaffolder-tools",
         "requirements": "~> 0.6"
       },
       {
@@ -12487,12 +12888,12 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "schema",
-        "requirements": ">= 0"
-      },
-      {
         "name": "scheduling",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "schema",
+        "requirements": ">= 0"
       },
       {
         "name": "schema_comments",
@@ -12515,12 +12916,16 @@
         "requirements": "~> 0.8.3"
       },
       {
+        "name": "scrobbler-ng-utils",
+        "requirements": ">= 0"
+      },
+      {
         "name": "scrobbler-ng",
         "requirements": ">= 0"
       },
       {
-        "name": "scrobbler-ng-utils",
-        "requirements": ">= 0"
+        "name": "sdl-ng",
+        "requirements": "~> 0.8.7.3"
       },
       {
         "name": "sdl2_ffi",
@@ -12563,12 +12968,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "selldotcom",
-        "requirements": "~> 0.7.4"
-      },
-      {
         "name": "sem4r",
         "requirements": ">= 0"
+      },
+      {
+        "name": "selldotcom",
+        "requirements": "~> 0.7.4"
       },
       {
         "name": "semantic-crawler",
@@ -12695,10 +13100,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sickbeard",
-        "requirements": ">= 0.8.2.1"
-      },
-      {
         "name": "sidekiq-encryptor",
         "requirements": ">= 0"
       },
@@ -12739,6 +13140,10 @@
         "requirements": "~> 0.7.2"
       },
       {
+        "name": "silverpop",
+        "requirements": ">= 0"
+      },
+      {
         "name": "simple-auth",
         "requirements": ">= 0"
       },
@@ -12767,16 +13172,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "simple_site",
+        "name": "simple_shipping",
         "requirements": ">= 0"
       },
       {
-        "name": "simpleconfig",
+        "name": "simple_site",
         "requirements": ">= 0"
       },
       {
         "name": "simplecolor",
         "requirements": "~> 0.8"
+      },
+      {
+        "name": "simpleconfig",
+        "requirements": ">= 0"
       },
       {
         "name": "simplecov-console",
@@ -12847,12 +13256,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "sinatra_warden",
-        "requirements": ">= 0.5.4"
-      },
-      {
         "name": "sinatra_resource",
         "requirements": "~> 0.6.1"
+      },
+      {
+        "name": "sinatra_warden",
+        "requirements": ">= 0.5.4"
       },
       {
         "name": "site_checker",
@@ -12891,10 +13300,6 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "sloe",
-        "requirements": ">= 0"
-      },
-      {
         "name": "slugalicious",
         "requirements": ">= 0"
       },
@@ -12903,16 +13308,20 @@
         "requirements": ">= 0"
       },
       {
-        "name": "smart_diff",
+        "name": "smart_hash",
         "requirements": ">= 0"
       },
       {
-        "name": "smart_hash",
+        "name": "smart_diff",
         "requirements": ">= 0"
       },
       {
         "name": "smartdict-core",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "sloe",
+        "requirements": ">= 0"
       },
       {
         "name": "smartystreets",
@@ -12955,15 +13364,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "socialization",
-        "requirements": ">= 0"
-      },
-      {
         "name": "socialcastr",
         "requirements": ">= 0"
       },
       {
         "name": "socialite",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "socialization",
         "requirements": ">= 0"
       },
       {
@@ -12979,10 +13388,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "solrj_wrapper",
-        "requirements": ">= 0"
-      },
-      {
         "name": "solr_sail",
         "requirements": ">= 0"
       },
@@ -12991,11 +13396,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "solrmarc_wrapper",
+        "name": "solrizer-fedora",
         "requirements": ">= 0"
       },
       {
-        "name": "solrizer-fedora",
+        "name": "solrj_wrapper",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "solrmarc_wrapper",
         "requirements": ">= 0"
       },
       {
@@ -13003,12 +13412,12 @@
         "requirements": "~> 0.6.7"
       },
       {
-        "name": "sorm",
-        "requirements": ">= 0"
-      },
-      {
         "name": "sorcery",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "sorm",
+        "requirements": ">= 0"
       },
       {
         "name": "Soroban",
@@ -13123,10 +13532,6 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "squash_ios_symbolicator",
-        "requirements": ">= 0"
-      },
-      {
         "name": "squash_java",
         "requirements": ">= 0"
       },
@@ -13135,15 +13540,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "squash_ios_symbolicator",
+        "requirements": ">= 0"
+      },
+      {
         "name": "squash_uploader",
         "requirements": ">= 0"
       },
       {
-        "name": "squash_rails",
+        "name": "squash_ruby",
         "requirements": ">= 0"
       },
       {
-        "name": "squash_ruby",
+        "name": "squash_rails",
         "requirements": ">= 0"
       },
       {
@@ -13157,10 +13566,6 @@
       {
         "name": "ssh_voodoo",
         "requirements": "~> 0.7"
-      },
-      {
-        "name": "sshkit",
-        "requirements": ">= 0"
       },
       {
         "name": "ssvm_cli",
@@ -13207,12 +13612,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "steam-condenser",
-        "requirements": "~> 0.8.0"
-      },
-      {
         "name": "steam_codec",
         "requirements": ">= 0"
+      },
+      {
+        "name": "steam-condenser",
+        "requirements": "~> 0.8.0"
       },
       {
         "name": "stellar",
@@ -13251,10 +13656,6 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "struct-for_pairs",
-        "requirements": "< 0.9, >= 0.8.7.3"
-      },
-      {
         "name": "struct-alias_member",
         "requirements": "< 0.9, >= 0.8.7.3"
       },
@@ -13263,12 +13664,16 @@
         "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
+        "name": "struct-for_pairs",
+        "requirements": "< 0.9, >= 0.8.7.3"
+      },
+      {
         "name": "struct-validatable",
         "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
         "name": "structable",
-        "requirements": "~> 0.8.2.1"
+        "requirements": "< 0.9, >= 0.8.7.3"
       },
       {
         "name": "structx",
@@ -13283,11 +13688,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "subcommand-optparse",
+        "name": "subcommand",
         "requirements": ">= 0"
       },
       {
-        "name": "subcommand",
+        "name": "subcommand-optparse",
         "requirements": ">= 0"
       },
       {
@@ -13295,11 +13700,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "subj3ct",
+        "name": "subject",
         "requirements": ">= 0"
       },
       {
-        "name": "subject",
+        "name": "subj3ct",
         "requirements": ">= 0"
       },
       {
@@ -13311,12 +13716,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "summarizer",
-        "requirements": ">= 0"
-      },
-      {
         "name": "summaryse",
         "requirements": "~> 0.7.2"
+      },
+      {
+        "name": "summarizer",
+        "requirements": ">= 0"
       },
       {
         "name": "sundbp-extlib",
@@ -13360,6 +13765,10 @@
       },
       {
         "name": "surveyor",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "svn-downloader",
         "requirements": ">= 0"
       },
       {
@@ -13503,7 +13912,7 @@
         "requirements": "~> 0.6.4"
       },
       {
-        "name": "tengine_job",
+        "name": "tengine_core",
         "requirements": ">= 0"
       },
       {
@@ -13511,7 +13920,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tengine_core",
+        "name": "tengine_job",
         "requirements": ">= 0"
       },
       {
@@ -13627,16 +14036,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "thingtank",
-        "requirements": "~> 0.6.0"
+        "name": "thinking-sphinx-raspell",
+        "requirements": "= 0.6.8"
       },
       {
         "name": "thinking-sphinx-allen",
         "requirements": ">= 0"
       },
       {
-        "name": "thinking-sphinx-raspell",
-        "requirements": "= 0.6.8"
+        "name": "thingtank",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "thinreports",
@@ -13663,11 +14072,11 @@
         "requirements": "~> 0.7"
       },
       {
-        "name": "tickspot",
+        "name": "tickle",
         "requirements": ">= 0"
       },
       {
-        "name": "tickle",
+        "name": "tickspot",
         "requirements": ">= 0"
       },
       {
@@ -13677,10 +14086,6 @@
       {
         "name": "time-unit",
         "requirements": "~> 0.7.5"
-      },
-      {
-        "name": "time_ago_in_words",
-        "requirements": ">= 0.8.5.2"
       },
       {
         "name": "time_ext",
@@ -13703,11 +14108,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "timemaster",
+        "name": "timeout-interrupt",
         "requirements": ">= 0"
       },
       {
-        "name": "timeout-interrupt",
+        "name": "timemaster",
         "requirements": ">= 0"
       },
       {
@@ -13759,12 +14164,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "tobias-rack-webconsole",
-        "requirements": ">= 0"
-      },
-      {
         "name": "todo-gist",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "tobias-rack-webconsole",
+        "requirements": ">= 0"
       },
       {
         "name": "tokenizer_project_uni-trier_j-v",
@@ -13783,12 +14188,20 @@
         "requirements": ">= 0.8.3"
       },
       {
+        "name": "top_n",
+        "requirements": "~> 0.7"
+      },
+      {
         "name": "toppr",
         "requirements": ">= 0"
       },
       {
         "name": "tor",
         "requirements": ">= 0.5.8"
+      },
+      {
+        "name": "torg_mailru_api",
+        "requirements": ">= 0"
       },
       {
         "name": "totally_tabular",
@@ -13807,12 +14220,12 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "trace_visualization",
-        "requirements": "~> 0.7.5"
-      },
-      {
         "name": "tracelogger",
         "requirements": ">= 0"
+      },
+      {
+        "name": "trace_visualization",
+        "requirements": "~> 0.8.7.3"
       },
       {
         "name": "trackable_tasks",
@@ -13875,11 +14288,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "traject_umich_format",
+        "name": "traject_alephsequential_reader",
         "requirements": ">= 0"
       },
       {
-        "name": "traject_alephsequential_reader",
+        "name": "traject_umich_format",
         "requirements": ">= 0"
       },
       {
@@ -13887,11 +14300,11 @@
         "requirements": "~> 0.8.3"
       },
       {
-        "name": "transcribeme",
+        "name": "transdifflation",
         "requirements": ">= 0"
       },
       {
-        "name": "transdifflation",
+        "name": "transcribeme",
         "requirements": ">= 0"
       },
       {
@@ -13935,23 +14348,23 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "tropo-rest",
-        "requirements": ">= 0"
-      },
-      {
         "name": "tropo-provisioning",
         "requirements": "= 0.8.1"
+      },
+      {
+        "name": "tropo-rest",
+        "requirements": ">= 0"
       },
       {
         "name": "tropo_rest",
         "requirements": "~> 0.6.4"
       },
       {
-        "name": "trubl",
+        "name": "trucker",
         "requirements": ">= 0"
       },
       {
-        "name": "trucker",
+        "name": "trubl",
         "requirements": ">= 0"
       },
       {
@@ -14023,6 +14436,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "typogrowth",
+        "requirements": ">= 0"
+      },
+      {
         "name": "u",
         "requirements": "~> 0.8.0"
       },
@@ -14040,6 +14457,10 @@
       },
       {
         "name": "ucb_rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "unboolean",
         "requirements": ">= 0"
       },
       {
@@ -14064,6 +14485,10 @@
       },
       {
         "name": "uninhibited",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "unisender_api",
         "requirements": ">= 0"
       },
       {
@@ -14235,7 +14660,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vault-test-tools",
+        "name": "vault-tools",
         "requirements": ">= 0"
       },
       {
@@ -14263,15 +14688,15 @@
         "requirements": "~> 0.7.2"
       },
       {
+        "name": "veritas-sql-generator",
+        "requirements": "~> 0.7.2"
+      },
+      {
         "name": "veritas-do-adapter",
         "requirements": "~> 0.7.2"
       },
       {
         "name": "veritas-optimizer",
-        "requirements": "~> 0.7.2"
-      },
-      {
-        "name": "veritas-sql-generator",
         "requirements": "~> 0.7.2"
       },
       {
@@ -14291,12 +14716,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vertigo",
-        "requirements": "< 1.0.0"
-      },
-      {
         "name": "verveine-ruby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "vertigo",
+        "requirements": "< 1.0.0"
       },
       {
         "name": "vgh",
@@ -14340,10 +14765,22 @@
       },
       {
         "name": "visibility_predicates",
-        "requirements": "~> 0.8"
+        "requirements": "< 0.9, >= 0.8.7.3"
+      },
+      {
+        "name": "vision_mate",
+        "requirements": ">= 0"
       },
       {
         "name": "visor-auth",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "visor-common",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "visor-web",
         "requirements": ">= 0"
       },
       {
@@ -14352,14 +14789,6 @@
       },
       {
         "name": "visor-meta",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "visor-web",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "visor-common",
         "requirements": ">= 0"
       },
       {
@@ -14379,7 +14808,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vlc-client",
+        "name": "vocalware",
         "requirements": ">= 0"
       },
       {
@@ -14387,12 +14816,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vocalware",
-        "requirements": ">= 0"
-      },
-      {
         "name": "voicemail",
         "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "volt",
+        "requirements": "~> 0.8.7.0"
       },
       {
         "name": "votd",
@@ -14459,11 +14888,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "watir-rails",
+        "name": "watir-rspec",
         "requirements": ">= 0"
       },
       {
-        "name": "watir-rspec",
+        "name": "watir-rails",
         "requirements": ">= 0"
       },
       {
@@ -14475,12 +14904,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "waw",
-        "requirements": "~> 0.6.4"
-      },
-      {
         "name": "waveinfo",
         "requirements": ">= 0.7.2"
+      },
+      {
+        "name": "waw",
+        "requirements": "~> 0.6.4"
       },
       {
         "name": "wbem",
@@ -14547,6 +14976,10 @@
         "requirements": ">= 0.5.8"
       },
       {
+        "name": "whenner",
+        "requirements": ">= 0"
+      },
+      {
         "name": "whiskey",
         "requirements": ">= 0"
       },
@@ -14611,12 +15044,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "wo_oo_util",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "wobble",
         "requirements": "~> 0"
+      },
+      {
+        "name": "wo_oo_util",
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "wocket",
@@ -14669,6 +15102,10 @@
       {
         "name": "wortsammler",
         "requirements": "~> 0.8.5.2"
+      },
+      {
+        "name": "wrap_it",
+        "requirements": "~> 0.8"
       },
       {
         "name": "wriggle",
@@ -14731,16 +15168,16 @@
         "requirements": "~> 0.8.3"
       },
       {
-        "name": "yahoo_sports",
-        "requirements": ">= 0"
-      },
-      {
         "name": "yahoo_sports19",
         "requirements": ">= 0"
       },
       {
+        "name": "yahoo_sports",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yam",
-        "requirements": ">= 0.8.7.3"
+        "requirements": ">= 0.8"
       },
       {
         "name": "yam-db-charmer",
@@ -14763,6 +15200,10 @@
         "requirements": "~> 0.6.0"
       },
       {
+        "name": "yard-amp",
+        "requirements": ">= 0.4.0"
+      },
+      {
         "name": "yard-activerecord2",
         "requirements": ">= 0.8.3"
       },
@@ -14783,11 +15224,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "yard-amp",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "yard-bird",
+        "name": "yard-blame",
         "requirements": ">= 0"
       },
       {
@@ -14795,12 +15232,8 @@
         "requirements": "~> 0.8"
       },
       {
-        "name": "yard-blame",
+        "name": "yard-bird",
         "requirements": ">= 0"
-      },
-      {
-        "name": "yard-cucumber",
-        "requirements": ">= 0.8.1"
       },
       {
         "name": "yard-components",
@@ -14811,35 +15244,15 @@
         "requirements": ">= 0.4.0"
       },
       {
-        "name": "yard-different-rspec",
-        "requirements": ">= 0"
+        "name": "yard-cucumber",
+        "requirements": ">= 0.8.1"
       },
       {
         "name": "yard-delegate",
         "requirements": ">= 0"
       },
       {
-        "name": "yard-docco",
-        "requirements": "~> 0.8.3"
-      },
-      {
-        "name": "yard-dm-is-predefined",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "yard-examples-from-rspec",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "yard-examples-from-rspec",
-        "requirements": "~> 0.6.0"
-      },
-      {
-        "name": "yard-dm-predefined",
-        "requirements": ">= 0.4.0"
-      },
-      {
-        "name": "yard-doc-core",
+        "name": "yard-different-rspec",
         "requirements": ">= 0"
       },
       {
@@ -14847,28 +15260,52 @@
         "requirements": ">= 0.4.0"
       },
       {
-        "name": "yard-heuristics",
-        "requirements": "~> 0.8.7"
+        "name": "yard-dm-predefined",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "yard-dm-is-predefined",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "yard-doc-core",
+        "requirements": ">= 0"
       },
       {
         "name": "yard-gobject",
         "requirements": ">= 0.5.2"
       },
       {
-        "name": "yard-mongoid",
-        "requirements": "~> 0.8.4"
+        "name": "yard-docco",
+        "requirements": "~> 0.8.3"
       },
       {
-        "name": "yard-method-overrides",
-        "requirements": "~> 0.7.0"
+        "name": "yard-examples-from-rspec",
+        "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "yard-examples-from-rspec",
+        "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "yard-heuristics",
+        "requirements": "~> 0.8.7"
       },
       {
         "name": "yard-is-monkey",
         "requirements": ">= 0"
       },
       {
+        "name": "yard-mongoid",
+        "requirements": "~> 0.8.4"
+      },
+      {
         "name": "yard-method-decorators",
         "requirements": ">= 0"
+      },
+      {
+        "name": "yard-method-overrides",
+        "requirements": "~> 0.7.0"
       },
       {
         "name": "yard-minitest-spec",
@@ -14883,11 +15320,27 @@
         "requirements": ">= 0"
       },
       {
+        "name": "yard-parameters",
+        "requirements": ">= 0.4.0"
+      },
+      {
+        "name": "yard-padrino",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yard-pygmentsrb",
         "requirements": "~> 0.8.3"
       },
       {
-        "name": "yard-padrino",
+        "name": "yard-rest",
+        "requirements": "~> 0.8.1"
+      },
+      {
+        "name": "yard-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yard-rails",
         "requirements": ">= 0"
       },
       {
@@ -14899,10 +15352,6 @@
         "requirements": "~> 0.5.3"
       },
       {
-        "name": "yard-rest",
-        "requirements": "~> 0.8.1"
-      },
-      {
         "name": "yard-qed",
         "requirements": ">= 0"
       },
@@ -14911,20 +15360,16 @@
         "requirements": "~> 0.6.1"
       },
       {
-        "name": "yard-rails",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "yard-rails",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "yard-parameters",
-        "requirements": ">= 0.4.0"
-      },
-      {
         "name": "yard-restful",
         "requirements": "~> 0.8.3"
+      },
+      {
+        "name": "yard-rubicle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yard-rubicle",
+        "requirements": ">= 0"
       },
       {
         "name": "yard-rspec",
@@ -14935,24 +15380,8 @@
         "requirements": "~> 0.8.6.2"
       },
       {
-        "name": "yard-rubicle",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "yard-rubicle",
-        "requirements": ">= 0"
-      },
-      {
         "name": "yard-sinatra",
         "requirements": "~> 0.7"
-      },
-      {
-        "name": "yard-thor",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "yard-struct",
-        "requirements": ">= 0.4.0"
       },
       {
         "name": "yard-slipstream",
@@ -14967,12 +15396,16 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "yard-tomdoc",
-        "requirements": ">= 0"
+        "name": "yard-struct",
+        "requirements": ">= 0.4.0"
       },
       {
         "name": "yard-state_machine",
         "requirements": "~> 0.7.3"
+      },
+      {
+        "name": "yard-thor",
+        "requirements": ">= 0"
       },
       {
         "name": "yard-value",
@@ -14983,11 +15416,19 @@
         "requirements": "~> 0.6.1"
       },
       {
+        "name": "yard-tomdoc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "yard-xml",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yard_ast_editable",
         "requirements": "= 0.6.3"
       },
       {
-        "name": "yard-xml",
+        "name": "yard_gems",
         "requirements": ">= 0"
       },
       {
@@ -14995,12 +15436,8 @@
         "requirements": ">= 0.8.3"
       },
       {
-        "name": "yard_gems",
-        "requirements": ">= 0"
-      },
-      {
         "name": "yardstick",
-        "requirements": ">= 0.8.7, ~> 0.8"
+        "requirements": ">= 0.8.7.2, ~> 0.8"
       },
       {
         "name": "yellow_api",
@@ -15011,12 +15448,12 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "yipit_n4l",
-        "requirements": ">= 0"
-      },
-      {
         "name": "yipit",
         "requirements": "~> 0.6"
+      },
+      {
+        "name": "yipit_n4l",
+        "requirements": ">= 0"
       },
       {
         "name": "ymaps",
@@ -15035,16 +15472,20 @@
         "requirements": "~> 0.7"
       },
       {
+        "name": "youtube_dlhelper",
+        "requirements": ">= 0"
+      },
+      {
         "name": "yql-query",
         "requirements": "~> 0.7"
       },
       {
-        "name": "yui",
-        "requirements": ">= 0.5"
-      },
-      {
         "name": "YubiRuby",
         "requirements": ">= 0"
+      },
+      {
+        "name": "yui",
+        "requirements": ">= 0.5"
       },
       {
         "name": "yup",
@@ -15108,6 +15549,10 @@
   "yard-activerecord": {
     "version": "0.0.11",
     "dependents": [
+      {
+        "name": "blogr",
+        "requirements": ">= 0"
+      },
       {
         "name": "shoppe",
         "requirements": ">= 0"
@@ -15192,6 +15637,10 @@
     "version": "2.3.2",
     "dependents": [
       {
+        "name": "crochets",
+        "requirements": ">= 0"
+      },
+      {
         "name": "indy",
         "requirements": ">= 2.1.1"
       },
@@ -15208,11 +15657,19 @@
         "requirements": ">= 0"
       },
       {
+        "name": "qipowl",
+        "requirements": ">= 0"
+      },
+      {
         "name": "repo_manager",
         "requirements": ">= 2.1.7"
       },
       {
         "name": "rmagick-screwdrivers",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "typogrowth",
         "requirements": ">= 0"
       },
       {
@@ -15321,11 +15778,11 @@
         "requirements": "~> 1.2"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 1.1"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 1.1"
       },
       {
@@ -15357,6 +15814,13 @@
 
     ],
     "description": "YARD plugin for use with is-monkey gem."
+  },
+  "yard-js": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "YARD plugin for documenting JavaScript source code"
   },
   "yard-kramdown": {
     "version": "0.0.1",
@@ -15476,6 +15940,10 @@
       },
       {
         "name": "reg.api2",
+        "requirements": "~> 0.0.3"
+      },
+      {
+        "name": "sdl-ng",
         "requirements": "~> 0.0.3"
       }
     ],
@@ -15783,6 +16251,13 @@
     ],
     "description": "Replaces the default string based Ruby on Rails logging system with a JSON based one"
   },
+  "yardmarshal": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "Yardmarshal inspects rails, allowing deep inspection of routes, racks, and more"
+  },
   "yardocco": {
     "version": "0.1.0",
     "dependents": [
@@ -15791,8 +16266,12 @@
     "description": "Docco-style YARD template"
   },
   "yardstick": {
-    "version": "0.9.7",
+    "version": "0.9.9",
     "dependents": [
+      {
+        "name": "compo",
+        "requirements": ">= 0"
+      },
       {
         "name": "detroit-yardstick",
         "requirements": ">= 0"
@@ -15808,6 +16287,10 @@
       {
         "name": "holla_back",
         "requirements": ">= 0"
+      },
+      {
+        "name": "kankri",
+        "requirements": "~> 0.9"
       },
       {
         "name": "ligo",
@@ -15937,7 +16420,7 @@
     "description": "Gem to use Yast API"
   },
   "yast-rake": {
-    "version": "0.1.2",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -15970,6 +16453,13 @@
 
     ],
     "description": "Yauth is a extremely simple authentication solution for prototipes, developed as a warden strategy. It uses a yaml file to store usernames and hashed password. It provides a better-than-nothing security."
+  },
+  "yawl": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Yet Another Workflow Library for Ruby"
   },
   "yawn": {
     "version": "1.1.0",
@@ -16139,7 +16629,7 @@
     "description": "This gem provides a set of wrappers designed to make it easy to work with \nthe Google Data APIs. This fork enables OAuth authentication\n"
   },
   "yell": {
-    "version": "2.0.1",
+    "version": "2.0.2",
     "dependents": [
       {
         "name": "ellington",
@@ -16174,6 +16664,10 @@
         "requirements": "~> 1"
       },
       {
+        "name": "RZM",
+        "requirements": "~> 2.0.2"
+      },
+      {
         "name": "traject_alephsequential_reader",
         "requirements": ">= 0"
       },
@@ -16186,11 +16680,15 @@
         "requirements": "~> 1.3.0"
       },
       {
-        "name": "yell-adapters-syslog",
+        "name": "yell-adapters-fluentd",
         "requirements": "~> 2.0"
       },
       {
         "name": "yell-adapters-gelf",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "yell-adapters-syslog",
         "requirements": "~> 2.0"
       },
       {
@@ -16203,6 +16701,13 @@
       }
     ],
     "description": "Yell - Your Extensible Logging Library. Define multiple adapters, various log level combinations or message formatting options like you've never done before"
+  },
+  "yell-adapters-fluentd": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "Fluentd adapter for Yell"
   },
   "yell-adapters-gelf": {
     "version": "2.0.0",
@@ -16344,7 +16849,7 @@
     "description": "this is convert integer to yen."
   },
   "yEnc": {
-    "version": "0.0.31",
+    "version": "0.0.32",
     "dependents": [
 
     ],
@@ -16558,7 +17063,7 @@
     "description": "A simple wrapper around a SOAP client for the YieldStar AppExchange web service."
   },
   "yieldmanager": {
-    "version": "0.9.6",
+    "version": "0.9.11",
     "dependents": [
 
     ],
@@ -16906,7 +17411,7 @@
     "description": "A super lightweight interface to ElasticSearch's HTTP REST API"
   },
   "yogi_berra": {
-    "version": "0.0.15",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -16947,11 +17452,11 @@
     "version": "0.1.2",
     "dependents": [
       {
-        "name": "yogo-db",
+        "name": "yogo-datamapper",
         "requirements": ">= 0"
       },
       {
-        "name": "yogo-datamapper",
+        "name": "yogo-db",
         "requirements": ">= 0"
       },
       {
@@ -17021,7 +17526,7 @@
     "description": "The gateway to pay."
   },
   "yolo": {
-    "version": "1.3.3",
+    "version": "1.3.5",
     "dependents": [
 
     ],
@@ -17180,6 +17685,13 @@
 
     ],
     "description": "open.youku.com 的ruby实现"
+  },
+  "youku_video_utility": {
+    "version": "0.2.3",
+    "dependents": [
+
+    ],
+    "description": "youku video utility"
   },
   "younker-blog": {
     "version": "0.0.1",
@@ -17377,6 +17889,13 @@
 
     ],
     "description": "Youtube video downloader"
+  },
+  "youtube_dlhelper": {
+    "version": "0.1.6",
+    "dependents": [
+
+    ],
+    "description": "This is a Youtube Downloadhelper who downloads a file, rips it to mp3 and placed it in a organized form"
   },
   "youtube_embed": {
     "version": "0.0.5",
@@ -17872,12 +18391,12 @@
         "requirements": "~> 0.12.0"
       },
       {
-        "name": "jammit-jcarnegie",
-        "requirements": ">= 0.9.3"
-      },
-      {
         "name": "jammit-core",
         "requirements": ">= 0"
+      },
+      {
+        "name": "jammit-jcarnegie",
+        "requirements": ">= 0.9.3"
       },
       {
         "name": "jammit-mitio",
@@ -17952,12 +18471,12 @@
         "requirements": ">= 0.9.3"
       },
       {
-        "name": "rapper",
-        "requirements": "~> 0.9.4"
-      },
-      {
         "name": "rapper_lite",
         "requirements": "~> 0.9.6"
+      },
+      {
+        "name": "rapper",
+        "requirements": "~> 0.9.4"
       },
       {
         "name": "rbbt-views",
@@ -18097,7 +18616,7 @@
     "description": "YUI css reset for rails 3 projects"
   },
   "yuicompressor": {
-    "version": "1.2.1",
+    "version": "1.3.0",
     "dependents": [
       {
         "name": "jsus",
@@ -18116,6 +18635,13 @@
 
     ],
     "description": "    The YUICSSMIN gem provides CSS compression using YUI compressor from Yahoo. Unlike other gems it doesn't use the Java applet YUI compressor but instead uses the Javascript port via ExecJS.\n"
+  },
+  "yukata": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A light weight key value object storage system"
   },
   "yuki": {
     "version": "0.1.2",
@@ -18142,7 +18668,7 @@
     "description": "A tool to colorize your console application."
   },
   "yummly": {
-    "version": "0.0.12",
+    "version": "0.0.13",
     "dependents": [
 
     ],

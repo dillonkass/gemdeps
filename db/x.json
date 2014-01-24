@@ -7,7 +7,7 @@
     "description": "Ruby utilities."
   },
   "x-editable-rails": {
-    "version": "1.5.1",
+    "version": "1.5.2",
     "dependents": [
 
     ],
@@ -16,7 +16,10 @@
   "x-real-ip": {
     "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "rocket_cms",
+        "requirements": ">= 0"
+      }
     ],
     "description": "Replace REMOTE_IP with X-Real-Ip if it's trusted (useful for Nginx)"
   },
@@ -34,19 +37,19 @@
     ],
     "description": "X11 client"
   },
-  "x12": {
-    "version": "0.1.0",
-    "dependents": [
-
-    ],
-    "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
-  },
   "X12": {
     "version": "1.1.0",
     "dependents": [
 
     ],
     "description": "Library to parse X12 messages and manipulate their loops, segments, fields, composites, and validation tables."
+  },
+  "x12": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "EDI x12 is a standard format for parsing and reading Invoices, Orders, etc.  This library makes that easier."
   },
   "x12edi": {
     "version": "0.0.3",
@@ -75,6 +78,13 @@
 
     ],
     "description": "A tool for converting XML data to CSV. Generally meant for entities with fields, as supposed to many nodes deep."
+  },
+  "x3ro": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "x3ro's first 'Hello world!' gem"
   },
   "x86dis": {
     "version": "0.0.3",
@@ -126,19 +136,19 @@
     "description": "A lightweight Ruby DSL for building text-stream filters"
   },
   "xamarin-test-cloud": {
-    "version": "0.9.26",
+    "version": "0.9.28",
     "dependents": [
-      {
-        "name": "calabash-android",
-        "requirements": ">= 0.9.23"
-      },
       {
         "name": "calabash",
         "requirements": "~> 0.9.25"
       },
       {
         "name": "calabash-cucumber",
-        "requirements": "~> 0.9.25"
+        "requirements": "~> 0.9.27"
+      },
+      {
+        "name": "calabash-android",
+        "requirements": ">= 0.9.23"
       }
     ],
     "description": "Xamarin Test Cloud lets you automatically test your app on hundreds of mobile devices"
@@ -164,11 +174,11 @@
     "version": "1.2.0",
     "dependents": [
       {
-        "name": "xamplr",
+        "name": "xamplr-gen",
         "requirements": ">= 1.2.0"
       },
       {
-        "name": "xamplr-gen",
+        "name": "xamplr",
         "requirements": ">= 1.2.0"
       }
     ],
@@ -287,7 +297,7 @@
     "description": "xapian libraries and ruby bindings"
   },
   "xapian_db": {
-    "version": "1.3.5.1",
+    "version": "1.3.5.2",
     "dependents": [
 
     ],
@@ -484,6 +494,13 @@
     ],
     "description": "xcal displays a japan calendar like cal, ncal"
   },
+  "xcal-parktronic": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "OIV API gem"
+  },
   "xcapclient": {
     "version": "1.4.1",
     "dependents": [
@@ -533,6 +550,13 @@
     ],
     "description": "Xrono Command Line Client"
   },
+  "xclisten": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Zero configuration file watcher for Objective-C that runs tests, installs Pods each time you save a file"
+  },
   "xcode": {
     "version": "0.1.5",
     "dependents": [
@@ -541,7 +565,7 @@
     "description": "Rake tasks to deploy xcode project"
   },
   "xcode-installer": {
-    "version": "0.2.3",
+    "version": "0.2.6",
     "dependents": [
 
     ],
@@ -598,7 +622,7 @@
     "description": "Build Xcode projects using Rake"
   },
   "xcodebuilder": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
 
     ],
@@ -734,9 +758,12 @@
     "description": "Restructures .xcodeproj directory structures to match the .pbxproj tree."
   },
   "xcpretty": {
-    "version": "0.0.3",
+    "version": "0.1.2",
     "dependents": [
-
+      {
+        "name": "xclisten",
+        "requirements": "~> 0.1"
+      }
     ],
     "description": "\n  Xcodebuild formatter designed to be piped with `xcodebuild`,\n  and thus keeping 100% compatibility.\n\n  It has modes for CI, running tests (RSpec dot-style),\n  and it can also mine Bitcoins.\n  "
   },
@@ -746,6 +773,13 @@
 
     ],
     "description": "A more user friendly interface to the xcode-select command showing more info, xcsim - access the simulator application folders quickly"
+  },
+  "xctest-runner": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "The unit tests runner for xctest"
   },
   "XDCC-Fetch": {
     "version": "1.409",
@@ -792,6 +826,10 @@
       {
         "name": "stickyflag",
         "requirements": ">= 0"
+      },
+      {
+        "name": "user_space",
+        "requirements": ">= 2.2.3, ~> 2.2"
       }
     ],
     "description": "XDG provides a module for supporting the XDG Base Directory Standard. See http://standards.freedesktop.org/basedir-spec/basedir-spec-0.6.html"
@@ -1099,6 +1137,13 @@
     ],
     "description": "A Compiler-Compiler"
   },
+  "xiami_cloner": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A gem for downloading music from Xiami. "
+  },
   "xiami_sauce": {
     "version": "0.0.2",
     "dependents": [
@@ -1326,6 +1371,13 @@
     ],
     "description": "Allows easy interactions with the 'xkcd-unofficial-api'."
   },
+  "xkcd_sfw_generator": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "An XKCD-inspired phrase generator."
+  },
   "xkeys": {
     "version": "1.0.1",
     "dependents": [
@@ -1360,6 +1412,13 @@
 
     ],
     "description": "A command line utilty for working with data in Excel."
+  },
+  "xls-split": {
+    "version": "0.2",
+    "dependents": [
+
+    ],
+    "description": "Tools for splitting Excel files into CSV files"
   },
   "xls2csv": {
     "version": "0.2.0",
@@ -1669,7 +1728,7 @@
     "description": "XML SAX Machines"
   },
   "xml-simple": {
-    "version": "1.1.2",
+    "version": "1.1.3",
     "dependents": [
       {
         "name": "abiquo-chef-agent",
@@ -1792,7 +1851,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "blogr",
+        "requirements": ">= 0"
+      },
+      {
         "name": "boomi-ruby",
+        "requirements": "= 1.0.12"
+      },
+      {
+        "name": "buildr-appengine",
         "requirements": "= 1.0.12"
       },
       {
@@ -1810,6 +1877,10 @@
       {
         "name": "bvm",
         "requirements": "~> 1.0.12"
+      },
+      {
+        "name": "bvr",
+        "requirements": "~> 1.1.3"
       },
       {
         "name": "campgrounds",
@@ -1937,6 +2008,10 @@
       },
       {
         "name": "gems-status",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "genZPK",
         "requirements": ">= 0"
       },
       {
@@ -2113,7 +2188,7 @@
       },
       {
         "name": "onering-client",
-        "requirements": ">= 0"
+        "requirements": "= 1.1.2"
       },
       {
         "name": "oodle",
@@ -2204,11 +2279,11 @@
         "requirements": ">= 1.1.1"
       },
       {
-        "name": "restrack-client",
+        "name": "restrack",
         "requirements": ">= 1.0.13"
       },
       {
-        "name": "restrack",
+        "name": "restrack-client",
         "requirements": ">= 1.0.13"
       },
       {
@@ -2284,15 +2359,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "salesforce_bulk_quickfix",
-        "requirements": ">= 0"
-      },
-      {
         "name": "salesforce_bulk_oauth2",
         "requirements": ">= 0"
       },
       {
         "name": "salesforcebulk",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "salesforce_bulk_quickfix",
         "requirements": ">= 0"
       },
       {
@@ -2358,6 +2433,10 @@
       {
         "name": "solusvm",
         "requirements": "~> 1.1.1"
+      },
+      {
+        "name": "sonice",
+        "requirements": ">= 0"
       },
       {
         "name": "spree_exactor",
@@ -2468,6 +2547,10 @@
         "requirements": ">= 1.0.12"
       },
       {
+        "name": "WatirCats",
+        "requirements": "~> 1.1"
+      },
+      {
         "name": "whm_xml",
         "requirements": ">= 1.0.12"
       },
@@ -2557,6 +2640,13 @@
     ],
     "description": "XML Active is an extension of ActiveRecord that provides features to synchronise an ActiveRecord Model with a supplied XML document"
   },
+  "xml_contacts_extractor": {
+    "version": "0.0.5",
+    "dependents": [
+
+    ],
+    "description": "Extracts contact information from XML. Dictionary based information extractor from any valid XML."
+  },
   "xml_convert": {
     "version": "0.1.0",
     "dependents": [
@@ -2570,6 +2660,13 @@
 
     ],
     "description": "XmlDataBuilder renders Ruby data structures as XML using Builder."
+  },
+  "xml_escape": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Encodes and decodes xml text"
   },
   "xml_fixtures": {
     "version": "0.1.1",
@@ -2807,7 +2904,7 @@
     "description": "A really easy xml-api."
   },
   "xmlenc": {
-    "version": "0.1.2",
+    "version": "0.1.3",
     "dependents": [
       {
         "name": "libsaml",
@@ -3223,10 +3320,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "hipbot",
-        "requirements": "~> 0.5"
-      },
-      {
         "name": "hipchat_bot",
         "requirements": ">= 0"
       },
@@ -3243,12 +3336,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "jabbot",
-        "requirements": "~> 0.4"
-      },
-      {
         "name": "jabot",
         "requirements": ">= 0"
+      },
+      {
+        "name": "jabbot",
+        "requirements": "~> 0.4"
       },
       {
         "name": "jacha",
@@ -3359,28 +3452,32 @@
         "requirements": ">= 0.5"
       },
       {
-        "name": "xmpp4em",
-        "requirements": ">= 0"
-      },
-      {
         "name": "xmpp4r-hipchat",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "xmpp4em",
+        "requirements": ">= 0"
       },
       {
         "name": "xmpp4r-observable",
         "requirements": ">= 0.5.0"
       },
       {
+        "name": "xmpp4r-robot",
+        "requirements": "~> 0.5"
+      },
+      {
         "name": "xmpp4r-simple",
+        "requirements": ">= 0.3.2"
+      },
+      {
+        "name": "xmpp4r-simple-19",
         "requirements": ">= 0.3.2"
       },
       {
         "name": "xmpp4r_facebook",
         "requirements": ">= 0"
-      },
-      {
-        "name": "xmpp4r-simple-19",
-        "requirements": ">= 0.3.2"
       },
       {
         "name": "xmpp_server",
@@ -3396,7 +3493,10 @@
   "xmpp4r-hipchat": {
     "version": "0.0.4",
     "dependents": [
-
+      {
+        "name": "hipbot",
+        "requirements": "= 0.0.4"
+      }
     ],
     "description": "HipChat client extension to XMPP4R"
   },
@@ -3406,6 +3506,13 @@
 
     ],
     "description": "Jabber::Observable builds on the strong foundation of XMPP4R and use a customized version of Ruby's builtin Observer pattern to expose XMPP observable things (as messages, pubsub events, presence, etc)."
+  },
+  "xmpp4r-robot": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "Simple XMPP client built upon xmpp4r. Intended for building simple robots."
   },
   "xmpp4r-simple": {
     "version": "0.8.8",
@@ -3482,6 +3589,13 @@
     ],
     "description": "This is a simple implementation on top of StropheRuby 'http://github.com/flamontagne/strophe_ruby/'. It's for those who want to build xmpp bots quickly. It features only the essential : - auto accept subscriptions - callback for received messages - callback for received presences - a method to send messages and presences - That's about it  Warning : StropheRuby is quite experimental at the moment. It is definitely NOT ready for production!"
   },
+  "xmppify": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "We have extracted out the logic from IdleCampus and built xmppify because I want to help anyone built a real time communication platform or a product as soon as possible. I am also working on creating a service so that mobile developers could easily implement all the required libraries and functionalities without much work which I had to do in the last 3 years. "
+  },
   "xmvc": {
     "version": "0.1.12",
     "dependents": [
@@ -3511,11 +3625,21 @@
     "description": "XML-Object Mapper with many built-in XML formats supported"
   },
   "xooie": {
-    "version": "1.0.6",
+    "version": "1.0.8",
     "dependents": [
 
     ],
     "description": "A highly modular, extensible JavaScript UI framework."
+  },
+  "xorg_buffer": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "cookbooks",
+        "requirements": ">= 1.0.0"
+      }
+    ],
+    "description": "    This library is called xorg_buffer\n"
   },
   "xot": {
     "version": "0.1.6",
@@ -3718,13 +3842,6 @@
     ],
     "description": "Ruby wrapper/enhancer for xrandr, the Linux CLI monitor manager."
   },
-  "XRay": {
-    "version": "1.0.3",
-    "dependents": [
-
-    ],
-    "description": "Dump backtrace for all threads."
-  },
   "xray": {
     "version": "1.1",
     "dependents": [
@@ -3739,8 +3856,15 @@
     ],
     "description": "Dump backtrace for all threads."
   },
+  "XRay": {
+    "version": "1.0.3",
+    "dependents": [
+
+    ],
+    "description": "Dump backtrace for all threads."
+  },
   "xray-rails": {
-    "version": "0.1.10",
+    "version": "0.1.12",
     "dependents": [
 
     ],
@@ -3899,6 +4023,13 @@
     ],
     "description": "Ruby String extensions - currently only one extension: to_class"
   },
+  "xsys": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ],
+    "description": "Get data from xsys api"
+  },
   "xtdo": {
     "version": "0.2.2",
     "dependents": [
@@ -3966,7 +4097,7 @@
     "description": "XTrace is a gem to evaluate .xt trace files generated by the XDebug PHP extension"
   },
   "xtrn": {
-    "version": "0.1.4",
+    "version": "0.1.6",
     "dependents": [
 
     ],
@@ -4029,7 +4160,7 @@
     "description": "ruby-xurrency is a wrapper library for API xurrency(http://xurrency.com/api)."
   },
   "xvideos_helper": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],

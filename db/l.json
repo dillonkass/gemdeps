@@ -7,7 +7,7 @@
     "description": "l is a frontend for ls and less, invoking either depending on if it is fed directories or files. This makes navigating a shell a bit smoother and easier, as it is common to switch between the two commands while poking around the file system (see Sample session).  The program filters the switches for ls and less, keeping the most useful and common for each.  Sample session:  user@box:~ l Documents Music Projects  user@box:~ l Documents/ Personal some_doc.pdf example.txt Work  user@box:~ l Documents/example.txt This is just an example Documents/example.txt (END)  user@box:~ l Documents/Work/ proposal.odt document.pdf  user@box:~ l -l Documents/Work/ -rw-r--r--  1 user user  32974 2006-03-31 12:29 proposal.odt -rw-r--r--  1 user user 451726 2006-04-13 10:33 document.pdf  Aliases:  Most aliases for ls as used in .bashrc will work as usual if ls is replaced with l, but there's more: you can combine switches for both ls and less in your alias and l will filter out the inappropriate ones. The following will set ll to use long lists for directories and to ignore case for searches when displaying files:  alias ll='l -I -l'  Because ls and less can't safely share the same switches, there are a few cases where a workaround is needed:  For ls: -i doesn't work, use --inode instead -I doesn't work, use --ignore=PATTERN  For less: -r and -R doesn't work, use --raw-control-chars instead"
   },
   "l10n": {
-    "version": "0.0.12",
+    "version": "1.0.0",
     "dependents": [
 
     ],
@@ -66,7 +66,7 @@
     "description": "Make your output look l33t"
   },
   "l5m-tools": {
-    "version": "0.0.10",
+    "version": "0.0.11",
     "dependents": [
 
     ],
@@ -146,7 +146,7 @@
     "description": "Hash, Dir and more extensions"
   },
   "lab42_options": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
       {
         "name": "lab42_tmux",
@@ -212,7 +212,7 @@
     "description": "Open source list of label sizes."
   },
   "label_factory": {
-    "version": "1.0.3",
+    "version": "1.0.5",
     "dependents": [
 
     ],
@@ -309,13 +309,6 @@
     ],
     "description": "A binary installation utility"
   },
-  "labs": {
-    "version": "0.16.0",
-    "dependents": [
-
-    ],
-    "description": "10xEngineer Labs client library and command line tools"
-  },
   "labs-deployer": {
     "version": "0.0.7",
     "dependents": [
@@ -323,12 +316,12 @@
     ],
     "description": "Thor tasks to package chef solo cookbooks"
   },
-  "labs-win32": {
-    "version": "0.16.0",
+  "lace": {
+    "version": "0.3.3",
     "dependents": [
 
     ],
-    "description": "10xEngineer Labs client library and command line tools"
+    "description": "This is a simple/unfinished tool which i use to manage my dotfiles on all the different machines"
   },
   "laces": {
     "version": "0.1.0",
@@ -383,7 +376,7 @@
     "description": "    WWW::Delicious is a del.icio.us API client implemented in Ruby.     It provides access to all available del.icio.us API queries     and returns the original XML response as a friendly Ruby object.\n"
   },
   "lacquer": {
-    "version": "0.5.8",
+    "version": "0.6.0",
     "dependents": [
       {
         "name": "radiant-lacquer-extension",
@@ -483,13 +476,6 @@
     ],
     "description": "Laika is a simple script to monitor an RSS or Atom feed, and post to Yammer when new articles are detected."
   },
-  "lair_drone_blacksheepwall": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": "Import blacksheepwall JSON output into Lair"
-  },
   "lam_auth": {
     "version": "2.0.1",
     "dependents": [
@@ -547,16 +533,26 @@
     "description": "A collection of lambdas for your enjoyment"
   },
   "lambert_ruby": {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "dependents": [
 
     ],
     "description": "Ruby wrapper for the lambert library"
   },
+  "lambom": {
+    "version": "0.4.3",
+    "dependents": [
+
+    ],
+    "description": "Riyic is a server configuration service based on chef (http://riyic.com).\nThe lambom gem is a tool to apply chef configurations generated with the riyic service, or defined in a pair of plain text files \n(a json attributes file where the server configuration is detailed and a berkshelf file which specifies cookbooks restrictions and sources).\n"
+  },
   "lame": {
     "version": "0.0.3",
     "dependents": [
-
+      {
+        "name": "crossfader",
+        "requirements": ">= 0"
+      }
     ],
     "description": "FFI powered library for the LAME MP3 encoder."
   },
@@ -637,6 +633,13 @@
     ],
     "description": "Minimal, flexible, unobstrusive rails 4 engine for an email subscription form. It collects name, email and locale used. Optional integration with Campaign Monitor. Ready for I18n."
   },
+  "landlady": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Using a subdomain mapping design pattern, Landlady takes advantage of PostgresQL SCHEMA_SEARCH_PATH and using naming conventions will map tenants with complete data segregation to the required data namespace."
+  },
   "landlord": {
     "version": "0.1.0",
     "dependents": [
@@ -645,7 +648,7 @@
     "description": "A command-line tool for managing multiple virtual-host configurations on a web server"
   },
   "landrush": {
-    "version": "0.7.1",
+    "version": "0.9.0",
     "dependents": [
 
     ],
@@ -666,7 +669,7 @@
     "description": "A small HTTP configuration server. Eats YAML, returns JSON, XML, YAML and rb. Restricts requests to local subnet."
   },
   "lanekit": {
-    "version": "0.4.3",
+    "version": "0.4.5",
     "dependents": [
 
     ],
@@ -877,6 +880,13 @@
       }
     ],
     "description": "A list of languages based upon ISO-639-1 and ISO-639-3 with functions to retrieve only common languages."
+  },
+  "language_select": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Provides a simple helper to get an HTML select list of ISO-639-1 languages.  The list of languages is obtained from Wikipedia (http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)."
   },
   "language_sniffer": {
     "version": "1.0.2",
@@ -1250,7 +1260,7 @@
     "description": "Simple wrapper for the last.fm API. Will return raw API results in an HTTParty hash."
   },
   "lastfm": {
-    "version": "1.21.0",
+    "version": "1.22.0",
     "dependents": [
       {
         "name": "lastfm-path-finder",
@@ -1290,7 +1300,7 @@
     "description": "Last.fm API client"
   },
   "lastfm-m3u": {
-    "version": "0.2.5.1",
+    "version": "0.3",
     "dependents": [
 
     ],
@@ -1339,7 +1349,7 @@
     "description": "Now you can scrobble Grooveshark music!"
   },
   "lastpass": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -1388,12 +1398,12 @@
         "requirements": "= 0.3.3"
       },
       {
-        "name": "forge-rad20",
-        "requirements": "~> 0.3.3"
-      },
-      {
         "name": "forge-rad",
         "requirements": "= 0.3.3"
+      },
+      {
+        "name": "forge-rad20",
+        "requirements": "~> 0.3.3"
       }
     ],
     "description": "LaterDude is a small calendar helper plugin for Rails with i18n support."
@@ -1420,7 +1430,7 @@
     "description": "Return the most-recently-updated folder starting with a common prefix."
   },
   "latest_ruby": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
       {
         "name": "pry-doc",
@@ -1474,6 +1484,13 @@
     ],
     "description": "The latex-tools gem is a collection of classes that facilitate the writing of various elements of Latex code.  It is not designed for authoring entire Latex files, merely their component parts.  Right now, it only consists of one such 'tool', LatexTable, which provides an easy and convenient way of outputting Latex code for tables from data in a ruby script."
   },
+  "latex_document": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Latex document generator"
+  },
   "lathe": {
     "version": "0.0.9",
     "dependents": [
@@ -1513,12 +1530,12 @@
     "version": "0.9.5",
     "dependents": [
       {
-        "name": "latinchart",
-        "requirements": ">= 0.9.0"
-      },
-      {
         "name": "latinirb",
         "requirements": "~> 0.9.5"
+      },
+      {
+        "name": "latinchart",
+        "requirements": ">= 0.9.0"
       }
     ],
     "description": "This gem takes the four principal parts of a standard Latin verb and then fully conjugates that verb based on the heristics of the Latin language."
@@ -1809,15 +1826,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "brightcontent-core",
+        "requirements": ">= 0"
+      },
+      {
         "name": "brightcontent-attachments",
         "requirements": ">= 0"
       },
       {
         "name": "brightcontent-pages",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "brightcontent-core",
         "requirements": ">= 0"
       },
       {
@@ -1851,6 +1868,10 @@
       {
         "name": "cadenero",
         "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "cafe",
+        "requirements": ">= 0"
       },
       {
         "name": "capybara",
@@ -1941,6 +1962,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "cssbuttongenerator-css-rails",
+        "requirements": "~> 2.4.2"
+      },
+      {
         "name": "csv_import",
         "requirements": ">= 0"
       },
@@ -2029,11 +2054,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "dropbox-utility",
+        "name": "dropbox-folder-sync",
         "requirements": ">= 0"
       },
       {
-        "name": "dropbox-folder-sync",
+        "name": "dropbox-utility",
         "requirements": ">= 0"
       },
       {
@@ -2045,15 +2070,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "easy_auth",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "easy_auth-google",
-        "requirements": ">= 0"
-      },
-      {
         "name": "easy_auth-github",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "easy_auth",
         "requirements": ">= 0"
       },
       {
@@ -2062,6 +2083,10 @@
       },
       {
         "name": "easy_auth-facebook",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "easy_auth-google",
         "requirements": ">= 0"
       },
       {
@@ -2081,12 +2106,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "email_spy",
+        "requirements": ">= 0"
+      },
+      {
         "name": "email_spec",
         "requirements": "~> 2.1"
       },
       {
-        "name": "email_spy",
-        "requirements": ">= 0"
+        "name": "enableplaceholder-jquery-rails",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "engagecsm",
@@ -2101,15 +2130,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "evergreen",
-        "requirements": ">= 0"
-      },
-      {
         "name": "everbox_client",
         "requirements": ">= 0"
       },
       {
         "name": "everqueen",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "evergreen",
         "requirements": ">= 0"
       },
       {
@@ -2193,6 +2222,10 @@
         "requirements": "= 2.1.2"
       },
       {
+        "name": "geomodel",
+        "requirements": ">= 0"
+      },
+      {
         "name": "gh-trend",
         "requirements": "~> 2.3.0"
       },
@@ -2203,6 +2236,10 @@
       {
         "name": "gigawatt",
         "requirements": "~> 2.3.0"
+      },
+      {
+        "name": "giphy",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "giraffes",
@@ -2225,11 +2262,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "git-forks",
+        "name": "git-flattr",
         "requirements": ">= 0"
       },
       {
-        "name": "git-flattr",
+        "name": "git-forks",
         "requirements": ">= 0"
       },
       {
@@ -2265,6 +2302,10 @@
         "requirements": "~> 2.0.2"
       },
       {
+        "name": "github-css-rails",
+        "requirements": "~> 2.4.2"
+      },
+      {
         "name": "gitmine",
         "requirements": ">= 0.3.7"
       },
@@ -2298,7 +2339,7 @@
       },
       {
         "name": "guard-rspec",
-        "requirements": ">= 0"
+        "requirements": "~> 2.4"
       },
       {
         "name": "guard-webrick",
@@ -2314,6 +2355,10 @@
       },
       {
         "name": "gyaazle",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "gyazo",
         "requirements": ">= 0"
       },
       {
@@ -2343,10 +2388,6 @@
       {
         "name": "heroku",
         "requirements": ">= 0.3.2"
-      },
-      {
-        "name": "heroku_config_vars",
-        "requirements": "~> 2.2.0"
       },
       {
         "name": "hiroshimarb",
@@ -2423,6 +2464,10 @@
       {
         "name": "john_stamos",
         "requirements": "~> 2.3"
+      },
+      {
+        "name": "jqgrid-jquery-rails",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "jumpstart_auth",
@@ -2505,8 +2550,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "logger-jquery-rails",
+        "requirements": "~> 2.4.2"
+      },
+      {
         "name": "lolcommits",
         "requirements": "~> 2.2.0"
+      },
+      {
+        "name": "lolcommits-mpv",
+        "requirements": ">= 0"
       },
       {
         "name": "ltsvr",
@@ -2565,6 +2618,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "meteo_pl",
+        "requirements": ">= 0"
+      },
+      {
         "name": "micro_sessions",
         "requirements": ">= 0"
       },
@@ -2609,11 +2666,11 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "mvn-plugin-config",
+        "name": "mvn_plugin_config",
         "requirements": ">= 0"
       },
       {
-        "name": "mvn_plugin_config",
+        "name": "mvn-plugin-config",
         "requirements": ">= 0"
       },
       {
@@ -2721,6 +2778,10 @@
         "requirements": ">= 0.4.0"
       },
       {
+        "name": "pocketbeuter",
+        "requirements": ">= 0"
+      },
+      {
         "name": "pogo",
         "requirements": ">= 0.3.2"
       },
@@ -2742,7 +2803,7 @@
       },
       {
         "name": "pra",
-        "requirements": "~> 2.3.0"
+        "requirements": "~> 2.4"
       },
       {
         "name": "pry-github",
@@ -2755,6 +2816,10 @@
       {
         "name": "qless",
         "requirements": "~> 2.1.0"
+      },
+      {
+        "name": "qtip2-jquery-rails",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "quo_vadis",
@@ -2961,6 +3026,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "smithycms",
+        "requirements": ">= 0"
+      },
+      {
         "name": "snap",
         "requirements": ">= 0.3.5"
       },
@@ -2982,6 +3051,10 @@
       },
       {
         "name": "spree_size_chart",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "spree_terms_and_conditions",
         "requirements": ">= 0"
       },
       {
@@ -3025,12 +3098,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "surveyor",
-        "requirements": "~> 2.0.5"
-      },
-      {
         "name": "suse-git-pulls",
         "requirements": ">= 0"
+      },
+      {
+        "name": "surveyor",
+        "requirements": "~> 2.0.5"
       },
       {
         "name": "sword",
@@ -3041,12 +3114,20 @@
         "requirements": "~> 2.2.0"
       },
       {
-        "name": "t",
+        "name": "sync-sf",
         "requirements": "~> 2.3"
+      },
+      {
+        "name": "t",
+        "requirements": "~> 2.4"
       },
       {
         "name": "t2-server",
         "requirements": "~> 2.2.0"
+      },
+      {
+        "name": "tablecloth-rails",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "tabulous",
@@ -3071,6 +3152,10 @@
       {
         "name": "test_frame",
         "requirements": ">= 0"
+      },
+      {
+        "name": "the1kbgrid-css-rails",
+        "requirements": "~> 2.4.2"
       },
       {
         "name": "Thimblr",
@@ -3113,6 +3198,10 @@
         "requirements": ">= 2.0.0"
       },
       {
+        "name": "tw",
+        "requirements": ">= 2.4.2"
+      },
+      {
         "name": "tweetskim",
         "requirements": ">= 0"
       },
@@ -3141,11 +3230,15 @@
         "requirements": ">= 0"
       },
       {
-        "name": "user_announcements",
+        "name": "user_impersonate",
         "requirements": ">= 0"
       },
       {
-        "name": "user_impersonate",
+        "name": "user_impersonate2",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "user_announcements",
         "requirements": ">= 0"
       },
       {
@@ -3213,11 +3306,11 @@
         "requirements": "= 2.3.0"
       },
       {
-        "name": "wicked-with-previous-support",
+        "name": "wicked-focused",
         "requirements": ">= 0"
       },
       {
-        "name": "wicked-focused",
+        "name": "wicked-with-previous-support",
         "requirements": ">= 0"
       },
       {
@@ -3373,6 +3466,13 @@
     ],
     "description": "1. A robot may not index staging servers\n2. A robot must obey the sitemap\n3. A robot may not injure SEO or, through inaction, cause SEO to come to harm."
   },
+  "lawyer": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Strong Duck Typing for Ruby"
+  },
   "lax": {
     "version": "0.2.3",
     "dependents": [
@@ -3467,6 +3567,13 @@
     ],
     "description": "Need an easy way to manage multiple layouts? Done."
   },
+  "layout_values": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Add helpers to indicate page titles and meta description."
+  },
   "layout_yullio_generator": {
     "version": "0.9.0",
     "dependents": [
@@ -3505,6 +3612,10 @@
   "lazier": {
     "version": "3.3.10",
     "dependents": [
+      {
+        "name": "ballast",
+        "requirements": "~> 3.3.10"
+      },
       {
         "name": "bovem",
         "requirements": "~> 3.3.9"
@@ -3607,7 +3718,7 @@
     "description": "Gem for lazy caching"
   },
   "lazy_columns": {
-    "version": "0.5.5",
+    "version": "0.5.6",
     "dependents": [
 
     ],
@@ -3652,7 +3763,7 @@
     "description": "google analytics api access for the lazy ones"
   },
   "lazy_high_charts": {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "dependents": [
       {
         "name": "artisan-core",
@@ -3672,6 +3783,10 @@
       },
       {
         "name": "rails_admin_charts",
+        "requirements": ">= 1.4.3"
+      },
+      {
+        "name": "third_prestige_rails_admin_charts",
         "requirements": ">= 1.4.3"
       }
     ],
@@ -3699,14 +3814,18 @@
     "description": "LazyLoad is a slightly more elaborate alternative\n                    to the autoload method. It provides custom callbacks,\n                    \"best available\" dependency selection, and an optional\n                    simple wrapper mechanism."
   },
   "lazy_loader": {
-    "version": "0.1.20131209.19.28.23",
+    "version": "1.1.20140120.17.44.28",
     "dependents": [
+      {
+        "name": "jprotobuf",
+        "requirements": ">= 0"
+      },
       {
         "name": "smartystreets",
         "requirements": ">= 0"
       }
     ],
-    "description": "Lazy loading for Ruby and JRuby"
+    "description": "Lazy loading for Ruby and JRuby, uses double-locking/volatile variable for JRuby, ||= otherwise"
   },
   "lazy_mail": {
     "version": "0.1.0",
@@ -3925,7 +4044,7 @@
     "description": "Request and parse product, store, inventory, and product search pages directly from the official LCBO website."
   },
   "lcclasses": {
-    "version": "0.0.4",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -3990,7 +4109,10 @@
   "ldap_fluff": {
     "version": "0.2.2",
     "dependents": [
-
+      {
+        "name": "katello",
+        "requirements": ">= 0.2.2"
+      }
     ],
     "description": "Simple library for binding & group querying on top of various ldap implementations"
   },
@@ -4040,7 +4162,7 @@
     "description": "Linked Data Platform client library"
   },
   "lds-cf-plugin": {
-    "version": "0.3.5",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -4203,7 +4325,7 @@
     "description": "Rake on steroids"
   },
   "leaflet": {
-    "version": "0.0.5",
+    "version": "0.0.6",
     "dependents": [
       {
         "name": "gummi",
@@ -4227,7 +4349,7 @@
     "description": "Integrates the Leaflet GeoSearch plugin with Rails asset pipeline"
   },
   "leaflet-js": {
-    "version": "0.7.0.3",
+    "version": "0.7.0.4",
     "dependents": [
 
     ],
@@ -4241,7 +4363,7 @@
     "description": "Cluster markers to improve performance of leaflet rendering with large sets."
   },
   "leaflet-rails": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "dependents": [
       {
         "name": "angular-leaflet-rails",
@@ -4432,11 +4554,11 @@
     "version": "0.0.1",
     "dependents": [
       {
-        "name": "leap_web_certs",
+        "name": "leap_web_users",
         "requirements": "~> 0.0.1"
       },
       {
-        "name": "leap_web_users",
+        "name": "leap_web_certs",
         "requirements": "~> 0.0.1"
       }
     ],
@@ -4488,7 +4610,7 @@
     "description": "A gem for learning ruby and http"
   },
   "learn_couleurs_game": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -4620,14 +4742,14 @@
     ],
     "description": "Easy Lua scripting for Redis"
   },
-  "leDelay": {
+  "LeDelay": {
     "version": "0.2",
     "dependents": [
 
     ],
     "description": "Logentries plugin"
   },
-  "LeDelay": {
+  "leDelay": {
     "version": "0.2",
     "dependents": [
 
@@ -4659,7 +4781,7 @@
     "description": "Redis backed account activity streams"
   },
   "ledger-rest": {
-    "version": "2.0.3",
+    "version": "4.0.2",
     "dependents": [
 
     ],
@@ -4879,7 +5001,7 @@
     "description": "Create ActiveRecord models from an existing database"
   },
   "legacy_enum": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -4956,7 +5078,7 @@
     "description": "A simple ruby wrapper around the RightSignature API"
   },
   "legato": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "dependents": [
       {
         "name": "omnom",
@@ -5000,15 +5122,15 @@
     ],
     "description": "A collection of scripts for common git tasks to simplify and improve workflow."
   },
-  "Legit-the-Git": {
-    "version": "0.0.3",
+  "legit-the-git": {
+    "version": "0.0.7",
     "dependents": [
 
     ],
     "description": "Git hooks to help keep accurev and git in sync"
   },
-  "legit-the-git": {
-    "version": "0.0.7",
+  "Legit-the-Git": {
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -5183,7 +5305,7 @@
     "description": "Generates sprites on the fly by using `background: sprite-image(\"sprites/logo.png\")`. No Photoshop, no RMagick, no Rake task, save your time and have a lemonade."
   },
   "lemondrop": {
-    "version": "0.1.0",
+    "version": "0.1.2",
     "dependents": [
 
     ],
@@ -5232,7 +5354,7 @@
     "description": "some photography stuff ;)"
   },
   "lentil": {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "dependents": [
 
     ],
@@ -5256,7 +5378,7 @@
     "description": "Generic classes to write anything"
   },
   "leo_manager_client": {
-    "version": "0.4.8",
+    "version": "0.4.10",
     "dependents": [
 
     ],
@@ -5463,12 +5585,16 @@
         "requirements": "~> 2.1.0"
       },
       {
+        "name": "rack-less",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "rack-lesscss",
         "requirements": ">= 0"
       },
       {
-        "name": "rack-less",
-        "requirements": "~> 2.0"
+        "name": "rack-mini-profiler",
+        "requirements": ">= 0"
       },
       {
         "name": "rake-pipeline-web-filters",
@@ -5504,7 +5630,7 @@
       },
       {
         "name": "sprockets-less",
-        "requirements": "~> 2.3.0"
+        "requirements": "~> 2.4"
       },
       {
         "name": "sproutcore",
@@ -5628,12 +5754,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "bootstrap_v3",
-        "requirements": ">= 0"
-      },
-      {
         "name": "bootstrapped",
         "requirements": "~> 2.1.6"
+      },
+      {
+        "name": "bootstrap_v3",
+        "requirements": ">= 0"
       },
       {
         "name": "burp_cms",
@@ -5664,15 +5790,19 @@
         "requirements": ">= 0"
       },
       {
-        "name": "font-awesome-more",
-        "requirements": "~> 2.2.3"
-      },
-      {
         "name": "font-awesome-less",
         "requirements": ">= 2.4.2"
       },
       {
+        "name": "font-awesome-more",
+        "requirements": "~> 2.2.3"
+      },
+      {
         "name": "fuelux-rails",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "katello",
         "requirements": ">= 0"
       },
       {
@@ -5696,12 +5826,12 @@
         "requirements": "~> 2.2.3"
       },
       {
-        "name": "metro-rails",
-        "requirements": ">= 0"
-      },
-      {
         "name": "metro-ui-rails-cn",
         "requirements": "~> 2.2.3"
+      },
+      {
+        "name": "metro-rails",
+        "requirements": ">= 0"
       },
       {
         "name": "metro-ui-rails",
@@ -5740,11 +5870,11 @@
         "requirements": "~> 2.2"
       },
       {
-        "name": "twbs_sass_rails",
+        "name": "twbs_less_rails",
         "requirements": ">= 0"
       },
       {
-        "name": "twbs_less_rails",
+        "name": "twbs_sass_rails",
         "requirements": ">= 0"
       },
       {
@@ -5752,12 +5882,12 @@
         "requirements": "~> 2.0.1"
       },
       {
-        "name": "twitter-bootswatch-rails",
-        "requirements": ">= 2.3"
-      },
-      {
         "name": "twitter-bootstrap-turbo",
         "requirements": "~> 2.2.3"
+      },
+      {
+        "name": "twitter-bootswatch-rails",
+        "requirements": ">= 2.3"
       },
       {
         "name": "twitter-bootswatch-rails-fontawesome",
@@ -5980,7 +6110,7 @@
     "description": "Ruby client for letsfreckle.com API that supports entries, projects, tags, and users"
   },
   "letsrate": {
-    "version": "1.0.8",
+    "version": "1.0.9",
     "dependents": [
 
     ],
@@ -5993,19 +6123,19 @@
     ],
     "description": "Let's Shop Mapper is a Ruby library that allows to search and parse on Let's Shop Service."
   },
-  "Letter": {
-    "version": "0.0.1",
-    "dependents": [
-
-    ],
-    "description": " Sinatra Based Markdown blog. "
-  },
   "letter": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Add rspec style lets to controllers"
+  },
+  "Letter": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": " Sinatra Based Markdown blog. "
   },
   "letter-mx": {
     "version": "1.0.0",
@@ -6022,7 +6152,7 @@
     "description": "Preview mailer templates in the browser."
   },
   "letter_opener": {
-    "version": "1.1.2",
+    "version": "1.2.0",
     "dependents": [
       {
         "name": "devel",
@@ -6041,12 +6171,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "letter_opener_web",
-        "requirements": "~> 1.0"
-      },
-      {
         "name": "letter_opener-iso-2022-jp",
         "requirements": ">= 0"
+      },
+      {
+        "name": "letter_opener_web",
+        "requirements": "~> 1.0"
       },
       {
         "name": "mail_room",
@@ -6069,7 +6199,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "voluntary_classified_advertisement",
+        "name": "smithycms",
         "requirements": ">= 0"
       },
       {
@@ -6078,6 +6208,10 @@
       },
       {
         "name": "voluntary",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "voluntary_classified_advertisement",
         "requirements": ">= 0"
       }
     ],
@@ -6091,7 +6225,7 @@
     "description": "This patch provides 'letter_opener' gem with iso-2022-jp conversion capability."
   },
   "letter_opener_web": {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "dependents": [
 
     ],
@@ -6206,7 +6340,7 @@
     "description": "A rails engine to structure, run and manage asynchronous jobs"
   },
   "leveldb": {
-    "version": "0.1.8",
+    "version": "0.1.9",
     "dependents": [
 
     ],
@@ -6256,6 +6390,13 @@
       }
     ],
     "description": "LevelDB-Ruby is a Ruby binding to LevelDB."
+  },
+  "leveldbjni-jars": {
+    "version": "unknown",
+    "dependents": [
+
+    ],
+    "description": "Gem package of leveldbjni"
   },
   "levels": {
     "version": "0.1.0",
@@ -6406,7 +6547,7 @@
     "description": "Ruby library for Levitation"
   },
   "levtera": {
-    "version": "0.2.3",
+    "version": "0.2.6",
     "dependents": [
       {
         "name": "fipe",
@@ -6449,6 +6590,13 @@
     ],
     "description": "lexically-stortable string representations of BigDecimal"
   },
+  "lexigrapher": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Find the type of data a string contains"
+  },
   "lexis_nexis_api": {
     "version": "1.0.7",
     "dependents": [
@@ -6484,6 +6632,13 @@
 
     ],
     "description": "Words to pythagorean lexarithm converter"
+  },
+  "lexster": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Extend Ruby on Rails ActiveRecord with Titan nodes. Keep RDBMS and utilize the power of Gremlin queries. Fork of Neoid."
   },
   "lfd": {
     "version": "0.0.5",
@@ -6685,6 +6840,10 @@
     "version": "unknown",
     "dependents": [
       {
+        "name": "akabei",
+        "requirements": ">= 0"
+      },
+      {
         "name": "assetify",
         "requirements": ">= 0"
       },
@@ -6755,6 +6914,20 @@
     ],
     "description": "Ruby bindings for CDB Constant Databases."
   },
+  "libcgroup": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "bindings for libcgroup"
+  },
+  "libciel": {
+    "version": "0.0.0.2",
+    "dependents": [
+
+    ],
+    "description": "ciel's useful libraries of Ruby"
+  },
   "libconfig": {
     "version": "0.0.1",
     "dependents": [
@@ -6798,7 +6971,7 @@
     "description": "Add library paths"
   },
   "libdolt": {
-    "version": "0.33.11",
+    "version": "0.33.14",
     "dependents": [
       {
         "name": "dolt",
@@ -6878,7 +7051,7 @@
     "description": "A library that create Xml Excel documents"
   },
   "libfchat": {
-    "version": "1.7",
+    "version": "1.8",
     "dependents": [
 
     ],
@@ -6909,7 +7082,7 @@
     "description": "LibGems is essentially a clone of RubyGems but with a unique namespace to run side-by-side with it."
   },
   "libgss": {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "dependents": [
 
     ],
@@ -6992,6 +7165,16 @@
     ],
     "description": " Uses libmpq to provie access to read, decrypting and unpacking\n      MPQ files in Ruby "
   },
+  "libmspack": {
+    "version": "0.0.3",
+    "dependents": [
+      {
+        "name": "LP-Exporter",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "A library for compressing and decompressing some loosely related Microsoft compression formats, CAB, CHM, HLP, LIT, KWAJ and SZDD."
+  },
   "libnet4r": {
     "version": "0.2",
     "dependents": [
@@ -7002,10 +7185,6 @@
   "libnotify": {
     "version": "unknown",
     "dependents": [
-      {
-        "name": "acts_as_defaultable",
-        "requirements": ">= 0"
-      },
       {
         "name": "amazon_seller_central",
         "requirements": ">= 0"
@@ -7071,6 +7250,10 @@
         "requirements": "~> 0.8.0"
       },
       {
+        "name": "device-cloud",
+        "requirements": ">= 0"
+      },
+      {
         "name": "dm-rspec",
         "requirements": ">= 0"
       },
@@ -7119,6 +7302,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "homesick",
+        "requirements": ">= 0"
+      },
+      {
         "name": "ipod_db",
         "requirements": ">= 0"
       },
@@ -7131,11 +7318,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lunas-minitest-formatters",
+        "name": "luna-rspec-formatters",
         "requirements": "~> 0.8"
       },
       {
-        "name": "luna-rspec-formatters",
+        "name": "lunas-minitest-formatters",
         "requirements": "~> 0.8"
       },
       {
@@ -7211,10 +7398,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ordered_tree",
-        "requirements": ">= 0"
-      },
-      {
         "name": "paperclip-defaults",
         "requirements": ">= 0"
       },
@@ -7267,11 +7450,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "rubygems-source",
+        "name": "rubygems-source-cli",
         "requirements": ">= 0"
       },
       {
-        "name": "rubygems-source-cli",
+        "name": "rubygems-source",
         "requirements": ">= 0"
       },
       {
@@ -7280,6 +7463,10 @@
       },
       {
         "name": "seedable",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "signaly-notify",
         "requirements": ">= 0"
       },
       {
@@ -7377,6 +7564,13 @@
     ],
     "description": "Simple and fast calculator'"
   },
+  "libr": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Digital books framework based on abstract xml definitions"
+  },
   "librarian": {
     "version": "0.1.1",
     "dependents": [
@@ -7397,11 +7591,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-librarian-puppet",
+        "name": "vagrant-librarian",
         "requirements": ">= 0"
       },
       {
-        "name": "vagrant-librarian",
+        "name": "vagrant-librarian-puppet",
         "requirements": ">= 0"
       },
       {
@@ -7424,6 +7618,10 @@
       },
       {
         "name": "lockpick",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "philbot",
         "requirements": ">= 0"
       },
       {
@@ -7450,6 +7648,10 @@
       },
       {
         "name": "freighthop",
+        "requirements": "~> 0.9.10"
+      },
+      {
+        "name": "puppet-library",
         "requirements": ">= 0"
       },
       {
@@ -7471,7 +7673,7 @@
     "description": "[Added proxy support.] Simplify deployment of your Puppet infrastructure by\n  automatically pulling in modules from the forge and git repositories with\n  a single command."
   },
   "librarian-puppet-maestrodev": {
-    "version": "0.9.10.1",
+    "version": "0.9.11.4",
     "dependents": [
 
     ],
@@ -7581,16 +7783,20 @@
         "requirements": "~> 1.1"
       },
       {
-        "name": "librato-storm-kafka",
-        "requirements": ">= 0"
-      },
-      {
         "name": "librato-metrics-memcached",
         "requirements": "~> 0.5.0"
       },
       {
         "name": "librato-metrics-taps",
         "requirements": "~> 1.0.4"
+      },
+      {
+        "name": "librato-rake-deploytrack",
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "librato-storm-kafka",
+        "requirements": ">= 0"
       },
       {
         "name": "libratonator",
@@ -7649,6 +7855,13 @@
 
     ],
     "description": "Report key app statistics to the Librato Metrics service and easily track your own custom metrics."
+  },
+  "librato-rake-deploytrack": {
+    "version": "0.0.7",
+    "dependents": [
+
+    ],
+    "description": "Rake tasks to keep track of your deploys in Librato Metrics, using the Annotationstreams! Librato Rake Deploytrack is a collection of raketasks. So you should be able to include them in every application utilizing rake."
   },
   "librato-sidekiq": {
     "version": "0.1.2",
@@ -7710,7 +7923,7 @@
     "description": "Adds a service layer on top of the Libreconv gem"
   },
   "librevox": {
-    "version": "0.6",
+    "version": "0.7",
     "dependents": [
 
     ],
@@ -7776,7 +7989,7 @@
     "description": "Provides a wrapper for the librtmp library in Ruby to allow use of the RTMP streaming protocols"
   },
   "libsaml": {
-    "version": "2.1.4",
+    "version": "2.1.9",
     "dependents": [
 
     ],
@@ -7842,7 +8055,7 @@
     "description": "SVM operations."
   },
   "libtcod": {
-    "version": "0.0.8",
+    "version": "0.0.9",
     "dependents": [
 
     ],
@@ -7854,6 +8067,10 @@
       {
         "name": "blaster",
         "requirements": ">= 0"
+      },
+      {
+        "name": "blinkstick",
+        "requirements": ">= 0.4.0"
       },
       {
         "name": "blinky",
@@ -7918,15 +8135,19 @@
     "description": "libuuidrb uses libuuid to generate DCE compatible universally unique identifiers"
   },
   "libuv": {
-    "version": "0.11.5",
+    "version": "0.11.21",
     "dependents": [
       {
         "name": "spider-gazelle",
         "requirements": ">= 0"
       },
       {
-        "name": "uv-rays",
+        "name": "uv-priority-queue",
         "requirements": ">= 0"
+      },
+      {
+        "name": "uv-rays",
+        "requirements": ">= 0.11.20"
       }
     ],
     "description": "An opinionated wrapper around libuv for Ruby"
@@ -7948,6 +8169,10 @@
       },
       {
         "name": "therubyracer",
+        "requirements": "~> 3.16.14.0"
+      },
+      {
+        "name": "therubyracer-discourse",
         "requirements": "~> 3.16.14.0"
       }
     ],
@@ -7980,6 +8205,10 @@
   "libvirt": {
     "version": "0.2.0",
     "dependents": [
+      {
+        "name": "vamboo",
+        "requirements": ">= 0"
+      },
       {
         "name": "virtuoso",
         "requirements": "~> 0.2"
@@ -8015,18 +8244,18 @@
     "version": "0.1.8",
     "dependents": [
       {
-        "name": "pusher-client-nc",
-        "requirements": "~> 0.1.3"
-      },
-      {
         "name": "pusher-client-merman",
         "requirements": "= 0.1.0"
+      },
+      {
+        "name": "pusher-client-nc",
+        "requirements": "~> 0.1.3"
       }
     ],
     "description": "Universal Ruby library to handle WebSocket protocol"
   },
   "libxml-ext": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "dependents": [
 
     ],
@@ -8188,11 +8417,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "docbook_files",
+        "name": "docbook_status",
         "requirements": ">= 2.4.0"
       },
       {
-        "name": "docbook_status",
+        "name": "docbook_files",
         "requirements": ">= 2.4.0"
       },
       {
@@ -8220,15 +8449,15 @@
         "requirements": ">= 0"
       },
       {
+        "name": "etvnet_seek",
+        "requirements": ">= 1.1.3"
+      },
+      {
         "name": "etvnet-seek",
         "requirements": ">= 0"
       },
       {
         "name": "etvnet-seek",
-        "requirements": ">= 1.1.3"
-      },
-      {
-        "name": "etvnet_seek",
         "requirements": ">= 1.1.3"
       },
       {
@@ -8316,20 +8545,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "happymapper-swanandp",
+        "name": "happymapper",
         "requirements": "~> 2.0"
       },
       {
-        "name": "happymapper",
+        "name": "happymapper-swanandp",
         "requirements": "~> 2.0"
       },
       {
         "name": "hornairs-scrobbler",
         "requirements": ">= 0"
-      },
-      {
-        "name": "hq-check-site",
-        "requirements": ">= 2.6.0"
       },
       {
         "name": "hq-aws-check-sqs-queue",
@@ -8340,15 +8565,19 @@
         "requirements": ">= 2.6.0"
       },
       {
+        "name": "hq-check-site",
+        "requirements": ">= 2.6.0"
+      },
+      {
         "name": "hq-engine",
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-engine-xqilla",
+        "name": "hq-grapher-icinga-perfdata",
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-grapher-icinga-perfdata",
+        "name": "hq-engine-xqilla",
         "requirements": ">= 2.6.0"
       },
       {
@@ -8364,11 +8593,11 @@
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-tools",
+        "name": "hq-web",
         "requirements": ">= 2.6.0"
       },
       {
-        "name": "hq-web",
+        "name": "hq-tools",
         "requirements": ">= 2.6.0"
       },
       {
@@ -8412,11 +8641,15 @@
         "requirements": ">= 1.1.3"
       },
       {
+        "name": "libxml-feed",
+        "requirements": "> 0.0.0"
+      },
+      {
         "name": "libxml-ext",
         "requirements": ">= 0.9.3"
       },
       {
-        "name": "libxml-feed",
+        "name": "libxml-xmlrpc",
         "requirements": "> 0.0.0"
       },
       {
@@ -8424,20 +8657,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "libxml-xmlrpc",
-        "requirements": "> 0.0.0"
-      },
-      {
         "name": "libxml4r",
         "requirements": ">= 1.1.3"
       },
       {
-        "name": "libxsl-ruby",
-        "requirements": ">= 0.3.6"
-      },
-      {
         "name": "libxslt-ruby",
         "requirements": ">= 2.4.0"
+      },
+      {
+        "name": "libxsl-ruby",
+        "requirements": ">= 0.3.6"
       },
       {
         "name": "LitleOnline",
@@ -8460,6 +8689,10 @@
         "requirements": ">= 1.1.3"
       },
       {
+        "name": "mg2en",
+        "requirements": ">= 0"
+      },
+      {
         "name": "moip-transparente",
         "requirements": "~> 2.3.3"
       },
@@ -8480,15 +8713,15 @@
         "requirements": ">= 1.1.4"
       },
       {
-        "name": "ncbo_resource_index",
-        "requirements": "~> 2.2.0"
-      },
-      {
         "name": "ncbo_annotator",
         "requirements": "~> 2.2.0"
       },
       {
         "name": "ncbo_resource_index_client",
+        "requirements": "~> 2.2.0"
+      },
+      {
+        "name": "ncbo_resource_index",
         "requirements": "~> 2.2.0"
       },
       {
@@ -8548,6 +8781,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ratom-ssl",
+        "requirements": ">= 1.1.2"
+      },
+      {
         "name": "ratom-instructure",
         "requirements": ">= 1.1.2"
       },
@@ -8556,16 +8793,12 @@
         "requirements": "~> 2.6.0"
       },
       {
-        "name": "ratom-ssl",
-        "requirements": ">= 1.1.2"
-      },
-      {
         "name": "raus22-happymapper",
         "requirements": "= 1.1.3"
       },
       {
         "name": "rb-dayone",
-        "requirements": "~> 2.3.3"
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "rbbt-sources",
@@ -8756,12 +8989,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "voruby",
-        "requirements": ">= 0.5.4"
-      },
-      {
         "name": "voruby2-preview",
         "requirements": ">= 0.5.2.0"
+      },
+      {
+        "name": "voruby",
+        "requirements": ">= 0.5.4"
       },
       {
         "name": "wannabeparser",
@@ -8970,6 +9203,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "organization_license_audit",
+        "requirements": ">= 0.9.4"
+      },
+      {
         "name": "rails-audit",
         "requirements": ">= 0"
       },
@@ -9040,7 +9277,7 @@
     "description": "Lidia is a yml based command contructor class. Aims to be easy to use and to provide an easy way to remember tons of commands"
   },
   "liebert": {
-    "version": "0.0.6",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -9110,7 +9347,7 @@
     "description": "Allow the rails portlet app to read and configure database with liferay portal-ext.properties"
   },
   "lifesaver": {
-    "version": "0.0.1",
+    "version": "0.1.0",
     "dependents": [
 
     ],
@@ -9157,6 +9394,13 @@
 
     ],
     "description": "CLI for setting up new Xcode projects."
+  },
+  "lifx": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby client for LIFX"
   },
   "ligature-symbols-rails": {
     "version": "2.1.1.0",
@@ -9363,6 +9607,13 @@
     ],
     "description": "An API adapter for Phillips Hue lighting system"
   },
+  "lightside": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Ruby wrapper for LightSide Web API"
+  },
   "lighttpd_pathinfo_fix": {
     "version": "1.0.2",
     "dependents": [
@@ -9404,6 +9655,13 @@
 
     ],
     "description": "Extensible line oriented jabber client"
+  },
+  "like": {
+    "version": "0.2.0",
+    "dependents": [
+
+    ],
+    "description": "A simple Rails engine for liking ActiveRecord objects."
   },
   "like-structure": {
     "version": "0.0.1",
@@ -9495,6 +9753,13 @@
 
     ],
     "description": "test"
+  },
+  "lilly": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Lilly"
   },
   "lilp": {
     "version": "0.2.2",
@@ -9611,9 +9876,19 @@
   "limesurvey": {
     "version": "1.0.0",
     "dependents": [
-
+      {
+        "name": "limesurvey-rails",
+        "requirements": ">= 0"
+      }
     ],
     "description": "LimeSurvey API to communicate with the JSONPRC RemoteControl2"
+  },
+  "limesurvey-rails": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "An ORM-like layer to Limesurvey"
   },
   "limgur": {
     "version": "2.0.0",
@@ -9637,7 +9912,7 @@
     "description": "Learn and adapt from you test metrics. Used with the www.limited-red.com service. Tests are priorited by the probability of failure"
   },
   "limited_sessions": {
-    "version": "4.0.0",
+    "version": "4.0.1",
     "dependents": [
 
     ],
@@ -9651,11 +9926,21 @@
     "description": "Write a gem description"
   },
   "limitless-led": {
-    "version": "0.1.2",
+    "version": "0.1.4",
     "dependents": [
 
     ],
     "description": "A Ruby gem for controlling the LimitlessLED v3.0 RGBW color-changing light bulbs, based on the official LimitlessLED API documentation."
+  },
+  "limits": {
+    "version": "1.0.0",
+    "dependents": [
+      {
+        "name": "overflow",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Const Collections of limits.h."
   },
   "limores_hopstop": {
     "version": "0.2.1",
@@ -9670,6 +9955,13 @@
 
     ],
     "description": "Parser for contract bridge board lin notation"
+  },
+  "linalg": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "A Fortran-based linear algebra package"
   },
   "linamack": {
     "version": "0.1.0",
@@ -9694,6 +9986,13 @@
       }
     ],
     "description": "Tuple and TupleSpace implementation of Linda - coordinational language for parallel processing"
+  },
+  "linda-socket.io-client": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "linda-socket.io client for Ruby"
   },
   "lindo": {
     "version": "1.0.0",
@@ -9756,6 +10055,13 @@
     ],
     "description": "A little mixin to change the line endings of files. Supports Mac, Unix and Windows ending conversions."
   },
+  "line_iterator": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Provides methods to more easily work with line-oriented text file and records within those files"
+  },
   "line_send_button": {
     "version": "0.1.0",
     "dependents": [
@@ -9771,7 +10077,7 @@
     "description": "No more need to maintain two separate redis connections when using namespaces. LineUp does not even need Resque itself."
   },
   "lineage": {
-    "version": "0.6.0",
+    "version": "0.7.0",
     "dependents": [
 
     ],
@@ -9877,10 +10183,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "fech",
-        "requirements": ">= 0"
-      },
-      {
         "name": "hanswurst",
         "requirements": ">= 0"
       },
@@ -9893,11 +10195,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ruby-debug-base19",
+        "name": "ruby-debug-base19x",
         "requirements": ">= 0.5.11"
       },
       {
-        "name": "ruby-debug-base19x",
+        "name": "ruby-debug-base19",
         "requirements": ">= 0.5.11"
       },
       {
@@ -9943,6 +10245,10 @@
     "version": "0.3.1",
     "dependents": [
       {
+        "name": "hashrate",
+        "requirements": "~> 0.3.1"
+      },
+      {
         "name": "radiation",
         "requirements": ">= 0"
       }
@@ -9969,6 +10275,13 @@
 
     ],
     "description": "Process data one step at a time."
+  },
+  "liner": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "A liner for Ruby objects. Add attribute, inspection, and equality methods."
   },
   "lines": {
     "version": "0.2.0",
@@ -10085,7 +10398,7 @@
     "description": "This rubygem does not have a description or summary."
   },
   "linguist": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
 
     ],
@@ -10098,6 +10411,16 @@
     ],
     "description": "Client library and command-line tool to translate Rails apps with Linguist."
   },
+  "Linguistics": {
+    "version": "1.0.5",
+    "dependents": [
+      {
+        "name": "mathcha",
+        "requirements": ">= 1.0.5"
+      }
+    ],
+    "description": "A generic, language-neutral framework for extending Ruby objects with linguistic methods."
+  },
   "linguistics": {
     "version": "2.0.3",
     "dependents": [
@@ -10107,6 +10430,10 @@
       },
       {
         "name": "confabulator",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "csstainable_grid",
         "requirements": ">= 0"
       },
       {
@@ -10168,18 +10495,8 @@
     ],
     "description": "Linguistics is a framework for building linguistic utilities for Ruby\nobjects in any language. It includes a generic language-independant\nfront end, a module for mapping language codes into language names, and\na module which contains various English-language utilities."
   },
-  "Linguistics": {
-    "version": "1.0.5",
-    "dependents": [
-      {
-        "name": "mathcha",
-        "requirements": ">= 1.0.5"
-      }
-    ],
-    "description": "A generic, language-neutral framework for extending Ruby objects with linguistic methods."
-  },
   "linguistics_latin": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
       {
         "name": "latinverb",
@@ -10333,7 +10650,7 @@
     "description": "Fetches meta and embed information for any link."
   },
   "link_shrink": {
-    "version": "0.0.6",
+    "version": "0.0.8",
     "dependents": [
       {
         "name": "endi_feed",
@@ -10405,12 +10722,26 @@
     ],
     "description": "link_to_function with ujs magic"
   },
+  "link_url": {
+    "version": "0.0.4",
+    "dependents": [
+
+    ],
+    "description": "Convert all the url from the string or text into the links as <a href=\"...\">...</a> Need to install this gem and use LinkUrl.convert(\"Guys come at www.ashishprajapati.com and http://www.bookofskills.com\")"
+  },
   "link_with_icon": {
     "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "Wrapper for the link_to method to include icons."
+  },
+  "linkadd": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "substitutes keywords with a hyperkink"
   },
   "linkage": {
     "version": "0.0.8",
@@ -10430,11 +10761,11 @@
     "description": "Visualization tool for viewing results from the Linkage library"
   },
   "linked-list": {
-    "version": "0.0.7",
+    "version": "0.0.9",
     "dependents": [
 
     ],
-    "description": "Ruby implementation of Linked List, following some Ruby idioms."
+    "description": "Ruby implementation of Doubly Linked List, following some Ruby idioms."
   },
   "linked_in": {
     "version": "0.0.21",
@@ -10451,7 +10782,7 @@
     "description": "A simple linked list implementation that follows Ruby's conventions."
   },
   "linkeddata": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "dependents": [
       {
         "name": "dowl",
@@ -10491,7 +10822,7 @@
       },
       {
         "name": "spread2rdf",
-        "requirements": "~> 1.0.0"
+        "requirements": "~> 1.1.0"
       },
       {
         "name": "spreadskos",
@@ -10501,7 +10832,7 @@
     "description": "A metadistribution of RDF.rb including a full set of parsing/serialization plugins."
   },
   "linkedin": {
-    "version": "0.4.4",
+    "version": "0.4.6",
     "dependents": [
       {
         "name": "muck-oauth",
@@ -10509,7 +10840,7 @@
       },
       {
         "name": "sinatra-linkedin",
-        "requirements": "~> 0.3.6"
+        "requirements": "~> 0.4.4"
       },
       {
         "name": "socialshare",
@@ -10582,7 +10913,7 @@
     "description": "Given a keyword, an industry and a zipcode, retrieves top companies"
   },
   "linkedin2": {
-    "version": "0.0.3",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -10601,6 +10932,13 @@
 
     ],
     "description": "Find linkedin profile based on name and company of profile and scrapes data if profile is found"
+  },
+  "linkedindata": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Scrapes all LinkedIn profiles including terms you specify."
   },
   "linkemperor-api": {
     "version": "1.0.2",
@@ -10774,7 +11112,7 @@
     "description": "Linnaeus provides a redis-backed Bayesian classifier. Words are stemmed, stopwords are stopped, and redis is used to allow for persistent and concurrent training and classification."
   },
   "linner": {
-    "version": "0.6.0",
+    "version": "0.6.3",
     "dependents": [
 
     ],
@@ -10807,6 +11145,13 @@
 
     ],
     "description": "Capistrano script for restarting multiple servers behind Linode NodeBalancer without causing downtime."
+  },
+  "linodeapi": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Wraps the Linode API with multiple levels of interaction"
   },
   "linotype": {
     "version": "0.0.6",
@@ -10851,11 +11196,11 @@
     "description": "Common *NIX tools and commands which can be used easily in irb"
   },
   "linux_admin": {
-    "version": "0.5.6",
+    "version": "0.5.7",
     "dependents": [
       {
         "name": "ruby_bugzilla",
-        "requirements": "~> 0.2.1"
+        "requirements": "~> 0.5.7"
       }
     ],
     "description": "\nLinuxAdmin is a module to simplify management of linux systems.\nIt should be a single place to manage various system level configurations,\nregistration, updates, etc.\n"
@@ -10910,7 +11255,7 @@
     "description": "This is the game created through the online course by the Pragmatic Studio.  It was built using Ruby code.  "
   },
   "lionel_richie": {
-    "version": "0.1.5.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -11004,14 +11349,14 @@
     "description": "Capistrano integration for running Java Liquibase updates on remote hosts."
   },
   "liquid": {
-    "version": "2.6.0",
+    "version": "2.6.1",
     "dependents": [
       {
-        "name": "activeadmin_cms",
+        "name": "activeadmin-selleo-cms",
         "requirements": ">= 0"
       },
       {
-        "name": "activeadmin-selleo-cms",
+        "name": "activeadmin_cms",
         "requirements": ">= 0"
       },
       {
@@ -11112,7 +11457,7 @@
       },
       {
         "name": "github-pages",
-        "requirements": "= 2.5.4"
+        "requirements": "= 2.5.5"
       },
       {
         "name": "gitstuff-preview",
@@ -11147,16 +11492,20 @@
         "requirements": ">= 1.9.0"
       },
       {
+        "name": "japr",
+        "requirements": "~> 2.4"
+      },
+      {
         "name": "jberkel-jekyll",
         "requirements": ">= 1.9.0"
       },
       {
-        "name": "jekyll-asset-pipeline",
-        "requirements": "~> 2.4"
+        "name": "jekyll",
+        "requirements": "~> 2.5.5"
       },
       {
-        "name": "jekyll",
-        "requirements": "~> 2.5.2"
+        "name": "jekyll-asset-pipeline",
+        "requirements": "~> 2.4"
       },
       {
         "name": "jekyll-beastiepress",
@@ -11175,12 +11524,20 @@
         "requirements": "~> 2.2"
       },
       {
+        "name": "jekyll-scientific",
+        "requirements": "~> 2.5.2"
+      },
+      {
         "name": "jekyll-ultraviolet",
         "requirements": ">= 0"
       },
       {
         "name": "jhindle-jekyll",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "kirgudu_base",
+        "requirements": ">= 0"
       },
       {
         "name": "kublog",
@@ -11199,16 +11556,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liquid-eval",
-        "requirements": ">= 0"
+        "name": "liquid-validations",
+        "requirements": "~> 2.4.1"
       },
       {
         "name": "liquid-jetpack",
         "requirements": ">= 0"
       },
       {
-        "name": "liquid-validations",
-        "requirements": "~> 2.4.1"
+        "name": "liquid-eval",
+        "requirements": ">= 0"
       },
       {
         "name": "liquid-validator",
@@ -11219,16 +11576,12 @@
         "requirements": ">= 0"
       },
       {
-        "name": "liquid_stream",
-        "requirements": "~> 2.2"
-      },
-      {
         "name": "liquid_loader",
         "requirements": ">= 0"
       },
       {
-        "name": "liquify",
-        "requirements": ">= 2.2.2"
+        "name": "liquid_stream",
+        "requirements": "~> 2.2"
       },
       {
         "name": "liquidizer",
@@ -11239,12 +11592,20 @@
         "requirements": "~> 2.5"
       },
       {
+        "name": "liquify",
+        "requirements": ">= 2.2.2"
+      },
+      {
         "name": "loco-liquid-filters",
         "requirements": ">= 0"
       },
       {
         "name": "lonnon-jekyll",
         "requirements": ">= 1.9.0"
+      },
+      {
+        "name": "lookout-rack-test",
+        "requirements": ">= 0"
       },
       {
         "name": "mail_engine",
@@ -11264,7 +11625,7 @@
       },
       {
         "name": "mango",
-        "requirements": "~> 2.2.2"
+        "requirements": ">= 2.6.0, ~> 2.6"
       },
       {
         "name": "manuscript",
@@ -11399,6 +11760,10 @@
         "requirements": "= 2.4.1"
       },
       {
+        "name": "smithycms",
+        "requirements": "~> 2.5.3"
+      },
+      {
         "name": "spreefinery_core",
         "requirements": ">= 2.4.1"
       },
@@ -11431,15 +11796,11 @@
         "requirements": ">= 1.9.0"
       },
       {
-        "name": "tb_banners",
-        "requirements": ">= 0"
+        "name": "sync-sf",
+        "requirements": "~> 2.5.5"
       },
       {
-        "name": "tb_blog",
-        "requirements": ">= 0"
-      },
-      {
-        "name": "tb_cms",
+        "name": "tb_liquid",
         "requirements": ">= 0"
       },
       {
@@ -11500,7 +11861,7 @@
     "description": "Command line interface to the Liquid gem by Shopify"
   },
   "liquid-development": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -11514,7 +11875,7 @@
     "description": "Exexcutes code blocks and appends the generated output after the example code."
   },
   "liquid-ext": {
-    "version": "1.2.0",
+    "version": "1.2.6",
     "dependents": [
       {
         "name": "zmachine",
@@ -11639,11 +12000,11 @@
     "description": "A wrapper for Liquid Markup to make it easier to use"
   },
   "liquor": {
-    "version": "0.1.1",
+    "version": "0.9.3",
     "dependents": [
 
     ],
-    "description": "Liquor is a safe (not evaling) template language based on Liquid template language"
+    "description": "Liquor is a template system based on well-defined, strongly dynamically typed language which is fun to use and easy to debug."
   },
   "lircr": {
     "version": "0.0.3",
@@ -11681,7 +12042,7 @@
     "description": "Sunspot is a library providing a powerful, all-ruby API for the Solr search engine. Sunspot manages the configuration of persistent Ruby classes for search and indexing and exposes Solr's most powerful features through a collection of DSLs. Complex search operations can be performed without hand-writing any boolean queries or building Solr parameters by hand.\n"
   },
   "lisbn": {
-    "version": "0.1.3",
+    "version": "0.2.0",
     "dependents": [
       {
         "name": "enju_ndl",
@@ -11800,7 +12161,7 @@
       },
       {
         "name": "auto_response",
-        "requirements": ">= 0"
+        "requirements": "~> 0.6.0"
       },
       {
         "name": "automated-commands",
@@ -11809,6 +12170,10 @@
       {
         "name": "awestruct",
         "requirements": ">= 0.7.3"
+      },
+      {
+        "name": "bgotink-hyde",
+        "requirements": "~> 1.3"
       },
       {
         "name": "blacksmith-js",
@@ -11853,6 +12218,10 @@
       {
         "name": "develry",
         "requirements": "~> 1.3.0"
+      },
+      {
+        "name": "dirwait",
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "doubleshot",
@@ -11924,7 +12293,7 @@
       },
       {
         "name": "ghpreview",
-        "requirements": ">= 0"
+        "requirements": "~> 2.4.0"
       },
       {
         "name": "gina-conveyor",
@@ -11940,7 +12309,7 @@
       },
       {
         "name": "github-markdown-preview",
-        "requirements": "~> 1.3.1"
+        "requirements": "= 1.3.1"
       },
       {
         "name": "guard",
@@ -11957,6 +12326,10 @@
       {
         "name": "hullapp",
         "requirements": ">= 0"
+      },
+      {
+        "name": "hyla",
+        "requirements": "~> 1.3.1"
       },
       {
         "name": "ichiban",
@@ -11999,15 +12372,15 @@
         "requirements": "~> 0.6.0"
       },
       {
-        "name": "metro",
-        "requirements": "~> 0.6.0"
-      },
-      {
         "name": "metro-ld26",
         "requirements": "~> 0.6.0"
       },
       {
         "name": "metro-ld25",
+        "requirements": "~> 0.6.0"
+      },
+      {
+        "name": "metro",
         "requirements": "~> 0.6.0"
       },
       {
@@ -12079,8 +12452,16 @@
         "requirements": ">= 0"
       },
       {
+        "name": "ramdev",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "rdoc-view",
         "requirements": "~> 1.1.4"
+      },
+      {
+        "name": "readingme",
+        "requirements": ">= 0"
       },
       {
         "name": "reloadlive",
@@ -12092,7 +12473,11 @@
       },
       {
         "name": "rivendell-import",
-        "requirements": "~> 1.2.1"
+        "requirements": "~> 1.3.1"
+      },
+      {
+        "name": "roqua-healthy",
+        "requirements": "~> 2.1"
       },
       {
         "name": "rsrc",
@@ -12119,20 +12504,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "shopify_theme",
-        "requirements": "~> 2.0"
+        "name": "slinky",
+        "requirements": ">= 0.4.5"
       },
       {
         "name": "slimwatch",
         "requirements": ">= 0"
       },
       {
-        "name": "slinky",
-        "requirements": ">= 0.4.5"
-      },
-      {
         "name": "snooper",
-        "requirements": ">= 1.2"
+        "requirements": "~> 2.0"
       },
       {
         "name": "softcover",
@@ -12160,6 +12541,10 @@
       },
       {
         "name": "surely",
+        "requirements": "~> 1.3"
+      },
+      {
+        "name": "sync-sf",
         "requirements": "~> 1.3"
       },
       {
@@ -12199,11 +12584,11 @@
         "requirements": "~> 0.5"
       },
       {
-        "name": "waddup",
-        "requirements": ">= 0"
+        "name": "volt",
+        "requirements": "~> 2.4.0"
       },
       {
-        "name": "wake-assets",
+        "name": "waddup",
         "requirements": ">= 0"
       },
       {
@@ -12213,6 +12598,10 @@
       {
         "name": "worktrack",
         "requirements": ">= 0"
+      },
+      {
+        "name": "xclisten",
+        "requirements": "~> 2.4"
       },
       {
         "name": "ztatus",
@@ -12269,6 +12658,13 @@
 
     ],
     "description": "A simple gem for creating simple lists"
+  },
+  "listjs-rails": {
+    "version": "1.0.2",
+    "dependents": [
+
+    ],
+    "description": "List.js automated install for Rails 3.1+"
   },
   "listlace": {
     "version": "0.0.9",
@@ -12334,7 +12730,7 @@
     "description": "Translate your apps with pleasure (sort of...) and for free. It's simple i18n web interface, build on top of twitter bootstrap, that one may find helpful in translating app by non-technicals. "
   },
   "lita": {
-    "version": "2.7.0",
+    "version": "2.7.1",
     "dependents": [
       {
         "name": "lita-boobs",
@@ -12345,10 +12741,6 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "lita-campfire",
-        "requirements": "~> 2.6.0"
-      },
-      {
         "name": "lita-bor",
         "requirements": "~> 2.5"
       },
@@ -12357,40 +12749,52 @@
         "requirements": "~> 2.5"
       },
       {
-        "name": "lita-coin",
-        "requirements": "~> 2.3"
+        "name": "lita-campfire",
+        "requirements": "~> 2.7.0"
       },
       {
         "name": "lita-catfacts",
         "requirements": "~> 2.3"
       },
       {
-        "name": "lita-excuses",
-        "requirements": "~> 2.2"
-      },
-      {
-        "name": "lita-eightball",
-        "requirements": "~> 2.0"
+        "name": "lita-coin",
+        "requirements": "~> 2.3"
       },
       {
         "name": "lita-console",
         "requirements": "~> 2.2"
       },
       {
+        "name": "lita-excuses",
+        "requirements": "~> 2.2"
+      },
+      {
+        "name": "lita-eval",
+        "requirements": "~> 2.6"
+      },
+      {
         "name": "lita-flip",
         "requirements": ">= 0"
       },
       {
-        "name": "lita-gitcamp",
+        "name": "lita-eightball",
+        "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-gems",
         "requirements": "~> 2.6"
+      },
+      {
+        "name": "lita-giphy",
+        "requirements": "~> 2.0"
       },
       {
         "name": "lita-google",
         "requirements": "~> 2.6"
       },
       {
-        "name": "lita-giphy",
-        "requirements": "~> 2.0"
+        "name": "lita-gitcamp",
+        "requirements": "~> 2.6"
       },
       {
         "name": "lita-github-commits",
@@ -12399,6 +12803,18 @@
       {
         "name": "lita-google-images",
         "requirements": "~> 2.0"
+      },
+      {
+        "name": "lita-hello",
+        "requirements": "~> 2.6"
+      },
+      {
+        "name": "lita-info_table",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-karma",
+        "requirements": "~> 2.6"
       },
       {
         "name": "lita-hipchat",
@@ -12413,32 +12829,24 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "lita-info_table",
-        "requirements": "~> 2.3"
-      },
-      {
         "name": "lita-latex",
         "requirements": ">= 0"
-      },
-      {
-        "name": "lita-karma",
-        "requirements": "~> 2.6"
-      },
-      {
-        "name": "lita-literally-lita",
-        "requirements": "~> 2.3"
-      },
-      {
-        "name": "lita-location-decision",
-        "requirements": "~> 2.3"
       },
       {
         "name": "lita-likeaboss",
         "requirements": "~> 2.0"
       },
       {
-        "name": "lita-memegen",
-        "requirements": "~> 2.0"
+        "name": "lita-location-decision",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-literally-lita",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-key-value",
+        "requirements": "~> 2.7"
       },
       {
         "name": "lita-monit",
@@ -12453,16 +12861,24 @@
         "requirements": "~> 2.0"
       },
       {
+        "name": "lita-memegen",
+        "requirements": "~> 2.0"
+      },
+      {
         "name": "lita-reminder",
         "requirements": "~> 2.4"
       },
       {
-        "name": "lita-replace",
-        "requirements": "~> 2.5"
+        "name": "lita-slack-handler",
+        "requirements": "~> 2.7"
       },
       {
-        "name": "lita-stocks",
-        "requirements": "~> 2.3"
+        "name": "lita-slack",
+        "requirements": "~> 2.7"
+      },
+      {
+        "name": "lita-replace",
+        "requirements": "~> 2.5"
       },
       {
         "name": "lita-schedule",
@@ -12473,6 +12889,10 @@
         "requirements": "~> 2.4"
       },
       {
+        "name": "lita-stocks",
+        "requirements": "~> 2.3"
+      },
+      {
         "name": "lita-totems",
         "requirements": "~> 2.4"
       },
@@ -12481,16 +12901,20 @@
         "requirements": "~> 2.5"
       },
       {
-        "name": "lita-weather",
-        "requirements": "~> 2.3"
-      },
-      {
         "name": "lita-urban-dictionary",
         "requirements": "~> 2.1"
       },
       {
-        "name": "lita-xkcd",
-        "requirements": "~> 2.2"
+        "name": "lita-weather",
+        "requirements": "~> 2.3"
+      },
+      {
+        "name": "lita-whois",
+        "requirements": "~> 2.4"
+      },
+      {
+        "name": "lita-youtube",
+        "requirements": "~> 2.6"
       },
       {
         "name": "lita-wordnik",
@@ -12501,12 +12925,8 @@
         "requirements": "~> 2.0"
       },
       {
-        "name": "lita-youtube",
-        "requirements": "~> 2.6"
-      },
-      {
-        "name": "lita-whois",
-        "requirements": "~> 2.4"
+        "name": "lita-xkcd",
+        "requirements": "~> 2.2"
       }
     ],
     "description": "A multi-service chat bot with extendable behavior."
@@ -12533,7 +12953,7 @@
     "description": "Lita handler for http://bash.im"
   },
   "lita-campfire": {
-    "version": "0.1.2",
+    "version": "0.1.4",
     "dependents": [
 
     ],
@@ -12547,7 +12967,7 @@
     "description": "A Lita handler that provides very interesting facts about cats"
   },
   "lita-coin": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -12574,6 +12994,13 @@
     ],
     "description": "A Lita handler for shaking an eightball."
   },
+  "lita-eval": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Lita handler for evaluating ruby code."
+  },
   "lita-excuses": {
     "version": "0.0.3",
     "dependents": [
@@ -12587,6 +13014,13 @@
 
     ],
     "description": "A handler for Lita that angrily flips your text."
+  },
+  "lita-gems": {
+    "version": "1.0.1",
+    "dependents": [
+
+    ],
+    "description": "lita handler for rubygems.org querying"
   },
   "lita-giphy": {
     "version": "1.0.1",
@@ -12610,21 +13044,28 @@
     "description": "A Lita handler that will display GitHub commit messages in the channel"
   },
   "lita-google": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "A Lita handler for returning Google search results."
   },
   "lita-google-images": {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "dependents": [
 
     ],
     "description": "A Lita handler for fetching images from Google."
   },
+  "lita-hello": {
+    "version": "0.0.8",
+    "dependents": [
+
+    ],
+    "description": "This rubygem does not have a description or summary."
+  },
   "lita-hipchat": {
-    "version": "1.2.1",
+    "version": "1.2.3",
     "dependents": [
 
     ],
@@ -12645,18 +13086,25 @@
     "description": "Lita handler for providing basic infos"
   },
   "lita-irc": {
-    "version": "1.2.1",
+    "version": "1.2.3",
     "dependents": [
 
     ],
     "description": "An IRC adapter for Lita."
   },
   "lita-karma": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "dependents": [
 
     ],
     "description": "A Lita handler for tracking karma points for arbitrary terms."
+  },
+  "lita-key-value": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A Lita handler for storing snippets of text."
   },
   "lita-latex": {
     "version": "0.0.3",
@@ -12673,7 +13121,7 @@
     "description": "A Lita handler for outputting random 'like a boss' images."
   },
   "lita-literally-lita": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -12701,7 +13149,7 @@
     "description": "Lita handler for accepting and forwarding monit alerts"
   },
   "lita-pls": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -12735,6 +13183,23 @@
     ],
     "description": "Add base class for scheduled job(cron) to Lita"
   },
+  "lita-slack": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Lita adapter for Slack"
+  },
+  "lita-slack-handler": {
+    "version": "0.2.0",
+    "dependents": [
+      {
+        "name": "lita-slack",
+        "requirements": "~> 0.2"
+      }
+    ],
+    "description": "Lita handler for Slack"
+  },
   "lita-stocks": {
     "version": "0.0.5",
     "dependents": [
@@ -12757,14 +13222,14 @@
     "description": "Totems handler for Lita)"
   },
   "lita-travis": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
     "description": "A Lita handler for receiving notifications from Travis CI."
   },
   "lita-urban-dictionary": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -12785,7 +13250,7 @@
     "description": "WHOIS handler for lita chat bot"
   },
   "lita-wordnik": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -12806,7 +13271,7 @@
     "description": "A XMPP adapter for Lita."
   },
   "lita-youtube": {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependents": [
 
     ],
@@ -12833,6 +13298,13 @@
     ],
     "description": "Simple access control system\n"
   },
+  "lite_config": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Lightweight configuration for your ruby app.  Reads Rails-style YAML files from your config directory.  Features include optional environment namespacing, local convention-based override files, and indifferent (symbol vs string) access."
+  },
   "litecoin_tools": {
     "version": "0.0.4",
     "dependents": [
@@ -12848,7 +13320,7 @@
     "description": "This plugin adds helpers for the reCAPTCHA API "
   },
   "literal_parser": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -13132,6 +13604,13 @@
     ],
     "description": "Ruby gem for the Live Search API"
   },
+  "live_address": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Ruby wrapper for the SmartyStreets LiveAddress API"
+  },
   "live_api": {
     "version": "0.9.0",
     "dependents": [
@@ -13142,10 +13621,6 @@
   "live_ast": {
     "version": "1.0.2",
     "dependents": [
-      {
-        "name": "gir_ffi-pretty_printer",
-        "requirements": "~> 1.0.2"
-      },
       {
         "name": "Moby",
         "requirements": ">= 1.0.2, ~> 1.0"
@@ -13259,7 +13734,7 @@
     "description": "Find out how your soccer team is going right now!"
   },
   "livecd": {
-    "version": "1.0",
+    "version": "1.0.1",
     "dependents": [
 
     ],
@@ -13593,7 +14068,7 @@
     "version": "0.0.3",
     "dependents": [
       {
-        "name": "llt-form_builder",
+        "name": "llt-db_handler",
         "requirements": ">= 0"
       },
       {
@@ -13601,7 +14076,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "llt-db_handler",
+        "name": "llt-form_builder",
         "requirements": ">= 0"
       },
       {
@@ -13629,11 +14104,11 @@
     "version": "0.0.1",
     "dependents": [
       {
-        "name": "llt-form_builder",
+        "name": "llt-db_handler",
         "requirements": ">= 0"
       },
       {
-        "name": "llt-db_handler",
+        "name": "llt-form_builder",
         "requirements": ">= 0"
       },
       {
@@ -13667,11 +14142,11 @@
     "version": "0.0.4",
     "dependents": [
       {
-        "name": "llt-form_builder",
+        "name": "llt-db_handler",
         "requirements": ">= 0"
       },
       {
-        "name": "llt-db_handler",
+        "name": "llt-form_builder",
         "requirements": ">= 0"
       },
       {
@@ -13733,7 +14208,7 @@
     "description": "apn_on_rails was developed by: markbates"
   },
   "lmdb": {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "dependents": [
 
     ],
@@ -13991,7 +14466,7 @@
     "description": "Description of LoadmasterAssets."
   },
   "loady": {
-    "version": "0.7.2",
+    "version": "0.8.0",
     "dependents": [
 
     ],
@@ -14005,7 +14480,7 @@
     "description": "Loaf helps you manage breadcrumbs in your rails app. It aims to handle crumb data through easy dsl and expose it through view helpers without any assumptions about markup."
   },
   "lob": {
-    "version": "1.1",
+    "version": "1.2",
     "dependents": [
 
     ],
@@ -14019,9 +14494,12 @@
     "description": "A commandline tool to quickly push a directory to AWS S3"
   },
   "lobby": {
-    "version": "0.0.3",
+    "version": "0.0.22",
     "dependents": [
-
+      {
+        "name": "accountly",
+        "requirements": "~> 0.0.6"
+      }
     ],
     "description": "Lightweight authentication for my projects"
   },
@@ -14161,11 +14639,11 @@
     "description": "Gives you tools to find out which ports on your system are free to use"
   },
   "local_time": {
-    "version": "0.1.0",
+    "version": "0.2.0",
     "dependents": [
 
     ],
-    "description": "Rails engine for displaying local times using JavaScript"
+    "description": "Rails engine for client-side local time"
   },
   "local_unfuddle_notebook": {
     "version": "1.0.0",
@@ -14203,7 +14681,7 @@
     "description": "Simple build output (drop) tasks for Rake."
   },
   "locale": {
-    "version": "2.0.9",
+    "version": "2.1.0",
     "dependents": [
       {
         "name": "activeldap",
@@ -14441,7 +14919,7 @@
     "description": "Serve web apps from your localhost to the Internet"
   },
   "localio": {
-    "version": "0.0.9",
+    "version": "0.0.12",
     "dependents": [
 
     ],
@@ -14478,10 +14956,7 @@
   "locality-uuid": {
     "version": "1.0.0",
     "dependents": [
-      {
-        "name": "centzy_common",
-        "requirements": ">= 0"
-      }
+
     ],
     "description": "This is a UUID class intended to help control data locality when inserting into a distributed data system, such as MongoDB or HBase. There is also a Java implementation. This version does not conform to any external standard or spec. Developed at Groupon in Palo Alto by Peter Bakkum and Michael Craig."
   },
@@ -14500,7 +14975,7 @@
     "description": "An easy way to localize fields of MongoMapper::Document classes"
   },
   "localization": {
-    "version": "2.0.1",
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -14725,6 +15200,10 @@
       {
         "name": "jasmine-selenium-sauce",
         "requirements": "~> 0.3"
+      },
+      {
+        "name": "money_talks",
+        "requirements": ">= 0"
       }
     ],
     "description": "instant public tunnel to your local web server"
@@ -14768,7 +15247,7 @@
     "description": "Cliente para o serviço de disparo de SMS da LocaSMS"
   },
   "locat": {
-    "version": "0.2.0",
+    "version": "0.2.4",
     "dependents": [
       {
         "name": "detroit-locat",
@@ -14780,10 +15259,6 @@
   "location-one": {
     "version": "0.0.10",
     "dependents": [
-      {
-        "name": "calabash-cucumber",
-        "requirements": "~> 0.0.10"
-      },
       {
         "name": "testautoi",
         "requirements": "~> 0.0.10"
@@ -14875,6 +15350,10 @@
     "version": "0.7.5",
     "dependents": [
       {
+        "name": "hdfs-viking",
+        "requirements": ">= 0"
+      },
+      {
         "name": "solr_sail",
         "requirements": "~> 0.7.0"
       }
@@ -14903,7 +15382,7 @@
     "description": "Like alias_method, but it's lock_method!"
   },
   "lock_ness_monster": {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "dependents": [
 
     ],
@@ -15001,15 +15480,19 @@
         "requirements": ">= 1.4.3"
       },
       {
+        "name": "pwkeep",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rbbt-util",
         "requirements": ">= 0"
       },
       {
-        "name": "rq-ruby1.8",
+        "name": "rq",
         "requirements": ">= 0"
       },
       {
-        "name": "rq",
+        "name": "rq-ruby1.8",
         "requirements": ">= 0"
       },
       {
@@ -15018,6 +15501,10 @@
       },
       {
         "name": "sup",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "turkee-mongoid",
         "requirements": ">= 0"
       },
       {
@@ -15042,7 +15529,7 @@
     "description": "A ruby implementation of LockIt: A Simple File-based Convention for Resource Locking"
   },
   "lockitron": {
-    "version": "1.0.2",
+    "version": "1.1",
     "dependents": [
 
     ],
@@ -15076,19 +15563,19 @@
     ],
     "description": "Disallow processes from trying to run on top of each other when they share resources"
   },
-  "Locksmith": {
-    "version": "0.1.1",
-    "dependents": [
-
-    ],
-    "description": "SSL Based separation of duties 4 rails"
-  },
   "locksmith": {
     "version": "0.1.1",
     "dependents": [
 
     ],
     "description": "Given a private password, domain name and optionally username, this library will generate a new password using a combination of alphabets, numbers and symbols."
+  },
+  "Locksmith": {
+    "version": "0.1.1",
+    "dependents": [
+
+    ],
+    "description": "SSL Based separation of duties 4 rails"
   },
   "lockstep": {
     "version": "0.0.3",
@@ -15098,11 +15585,11 @@
     "description": "Tools for testing threaded code in lockstep"
   },
   "lockup": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "dependents": [
 
     ],
-    "description": "A simple gem to more elegantly place a staging server or other in-progress application behind a basic codeword. It’s easy to implement, share with clients/collaborators, and more beautiful than the typical password-protection sheet."
+    "description": "A simple gem to more elegantly place a staging server or other in-progress application behind a basic codeword. Itâs easy to implement, share with clients/collaborators, and more beautiful than the typical password-protection sheet."
   },
   "loco": {
     "version": "0.0.6",
@@ -15446,7 +15933,7 @@
     "description": "LogMe is a simple way to configure log in your gem. It's especially useful when you need to log Web Service calls or HTTP requests and responses."
   },
   "log2counter": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
@@ -15603,6 +16090,10 @@
         "requirements": ">= 1.0.6"
       },
       {
+        "name": "blondy-dhcpd",
+        "requirements": ">= 0"
+      },
+      {
         "name": "bmhatfield-vagrant",
         "requirements": "~> 1.1.9"
       },
@@ -15641,6 +16132,10 @@
       {
         "name": "cirrocumulus",
         "requirements": ">= 0"
+      },
+      {
+        "name": "cloudwatchtographite",
+        "requirements": "~> 1.1.10"
       },
       {
         "name": "cockatoo",
@@ -15700,7 +16195,7 @@
       },
       {
         "name": "derelict",
-        "requirements": ">= 0"
+        "requirements": "!= 1.1.11, ~> 1.1.0"
       },
       {
         "name": "docgenerator",
@@ -15771,10 +16266,6 @@
         "requirements": ">= 0"
       },
       {
-        "name": "filestore",
-        "requirements": ">= 1.0, ~> 1.1.10"
-      },
-      {
         "name": "firewall-agent",
         "requirements": ">= 1.1.2"
       },
@@ -15807,11 +16298,11 @@
         "requirements": ">= 1.1.4"
       },
       {
-        "name": "kelredd-mailer",
+        "name": "kelredd-resourceful",
         "requirements": ">= 0"
       },
       {
-        "name": "kelredd-resourceful",
+        "name": "kelredd-mailer",
         "requirements": ">= 0"
       },
       {
@@ -15831,15 +16322,11 @@
         "requirements": ">= 1.1.10"
       },
       {
-        "name": "log4r-fluent",
+        "name": "log4r-exceptionable",
         "requirements": ">= 0"
       },
       {
-        "name": "log4r-gelf",
-        "requirements": "~> 1.1.10"
-      },
-      {
-        "name": "log4r-exceptionable",
+        "name": "log4r-fluent",
         "requirements": ">= 0"
       },
       {
@@ -15851,15 +16338,23 @@
         "requirements": ">= 0"
       },
       {
-        "name": "log4r_remote_syslog_outputter",
-        "requirements": ">= 1.1.9"
-      },
-      {
         "name": "log4r_hipchat_outputter",
         "requirements": ">= 0"
       },
       {
+        "name": "log4r-gelf",
+        "requirements": "~> 1.1.10"
+      },
+      {
+        "name": "log4r_remote_syslog_outputter",
+        "requirements": ">= 1.1.9"
+      },
+      {
         "name": "lolitra",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "lookout-rack-utils",
         "requirements": ">= 0"
       },
       {
@@ -15899,10 +16394,6 @@
         "requirements": ">= 1.1.9"
       },
       {
-        "name": "nexop",
-        "requirements": ">= 0"
-      },
-      {
         "name": "notes_mailer",
         "requirements": ">= 1.0.5"
       },
@@ -15927,7 +16418,7 @@
         "requirements": ">= 0"
       },
       {
-        "name": "omf_web",
+        "name": "omf_sfa",
         "requirements": "~> 1.1.10"
       },
       {
@@ -15959,11 +16450,11 @@
         "requirements": ">= 0"
       },
       {
-        "name": "powcloud-firewall-agent",
+        "name": "powcloud-insurance",
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "powcloud-insurance",
+        "name": "powcloud-firewall-agent",
         "requirements": ">= 1.1.2"
       },
       {
@@ -16119,6 +16610,10 @@
         "requirements": "= 1.1.7"
       },
       {
+        "name": "spcap",
+        "requirements": "~> 1.1.10"
+      },
+      {
         "name": "stracer",
         "requirements": ">= 0"
       },
@@ -16199,6 +16694,10 @@
         "requirements": "~> 1.1.9"
       },
       {
+        "name": "vagrant14",
+        "requirements": "~> 1.1.9"
+      },
+      {
         "name": "veridit-vagrant",
         "requirements": "~> 1.1.9"
       },
@@ -16207,11 +16706,11 @@
         "requirements": ">= 1.1.2"
       },
       {
-        "name": "wakame-vdc-dcmgr",
+        "name": "wakame-vdc-agents",
         "requirements": ">= 0"
       },
       {
-        "name": "wakame-vdc-agents",
+        "name": "wakame-vdc-dcmgr",
         "requirements": ">= 0"
       },
       {
@@ -16282,7 +16781,7 @@
     "description": "Log4R Outputter for fluent"
   },
   "log4r-gelf": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "dependents": [
       {
         "name": "stracer",
@@ -16334,11 +16833,18 @@
     "description": "A logging system for Ruby applications inspired by Java's logging API."
   },
   "log_book": {
-    "version": "0.0.1",
+    "version": "0.1.1",
     "dependents": [
 
     ],
     "description": "Storing an events log book"
+  },
+  "log_box": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "group Rails log by Web transaction or any other grouping"
   },
   "log_buddy": {
     "version": "0.7.0",
@@ -16497,7 +17003,7 @@
     "description": "The LogMixin module provides (you guessed it) a mixin to make logging more\nconvenient.  It is intended to work both with and without Rails, to silence\nlogging in tests by default but provide access to it when explicitly\nrequested, to log to stderr (or Rails.logger) by default but accept other\nlogging targets, and other conveniences.\n"
   },
   "log_plus": {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "dependents": [
 
     ],
@@ -16731,7 +17237,7 @@
     "description": "Log-related code and tools that are used cross different applications"
   },
   "logcast": {
-    "version": "0.2.1",
+    "version": "1.0.1",
     "dependents": [
       {
         "name": "request_recorder",
@@ -16765,7 +17271,7 @@
     "description": "A simple logger for Ruby"
   },
   "logfile_interval": {
-    "version": "1.1.0",
+    "version": "1.2.1",
     "dependents": [
 
     ],
@@ -16796,7 +17302,7 @@
     "description": "A simple message dispatcher (aka. logger) for your ruby applications."
   },
   "loggability": {
-    "version": "0.8.1",
+    "version": "0.9.0",
     "dependents": [
       {
         "name": "confabulator",
@@ -16835,12 +17341,12 @@
         "requirements": "~> 0.6"
       },
       {
-        "name": "strelka",
-        "requirements": "~> 0.6"
-      },
-      {
         "name": "strelka-fancyerrors",
         "requirements": "~> 0.5"
+      },
+      {
+        "name": "strelka",
+        "requirements": "~> 0.6"
       },
       {
         "name": "treequel",
@@ -16896,6 +17402,10 @@
       },
       {
         "name": "bottesque",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "carrierwave_encrypter_decrypter",
         "requirements": ">= 0"
       },
       {
@@ -17047,6 +17557,10 @@
         "requirements": ">= 0"
       },
       {
+        "name": "toggl-reports",
+        "requirements": ">= 0"
+      },
+      {
         "name": "tokenr",
         "requirements": ">= 1.2.8"
       },
@@ -17072,7 +17586,7 @@
       },
       {
         "name": "wordpress-client",
-        "requirements": "~> 1.2"
+        "requirements": ">= 1.2"
       },
       {
         "name": "wortsammler",
@@ -17084,6 +17598,13 @@
       }
     ],
     "description": "simple logging utility"
+  },
+  "logger-better": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Simple monkey patch to stdlib's Logger to make it easier to use."
   },
   "logger-color": {
     "version": "0.1.1",
@@ -17111,7 +17632,7 @@
     "description": "Colorizes the output of the usual standard library logger, depending on the logger level: require 'logger/colors'"
   },
   "logger-jquery-rails": {
-    "version": "1.2.0.3",
+    "version": "1.2.004",
     "dependents": [
 
     ],
@@ -17146,7 +17667,7 @@
     "description": "Interface for Logapper application"
   },
   "logger_pipe": {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependents": [
 
     ],
@@ -17215,16 +17736,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "bosh-monitor",
+        "requirements": "~> 1.5.0"
+      },
+      {
         "name": "build-tool",
         "requirements": ">= 1.6.0"
       },
       {
-        "name": "camper_van",
-        "requirements": "~> 1.5.1"
-      },
-      {
         "name": "campfire-bot",
         "requirements": "~> 1.4.3"
+      },
+      {
+        "name": "camper_van",
+        "requirements": "~> 1.5.1"
       },
       {
         "name": "campfire-bot_alexchee",
@@ -17323,8 +17848,20 @@
         "requirements": ">= 0"
       },
       {
+        "name": "katello",
+        "requirements": ">= 1.8.0"
+      },
+      {
         "name": "kindle_util",
         "requirements": ">= 0"
+      },
+      {
+        "name": "knife-chop",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "logging-couchdb",
+        "requirements": ">= 1.2.0"
       },
       {
         "name": "logging-rails-kiriyenko",
@@ -17337,10 +17874,6 @@
       {
         "name": "logging-rails",
         "requirements": "~> 1.6"
-      },
-      {
-        "name": "logging-couchdb",
-        "requirements": ">= 1.2.0"
       },
       {
         "name": "logsly",
@@ -17620,7 +18153,7 @@
     "description": "loggr-rb is the Ruby gem for communicating with http://loggr.net (hosted logging service)."
   },
   "loggregator_emitter": {
-    "version": "2.0.3",
+    "version": "3.0.0",
     "dependents": [
 
     ],
@@ -17738,6 +18271,13 @@
     ],
     "description": "Logicea supports Euruko 2013 because we believe in Ruby and its growing passionate community which matches our principles and culture."
   },
+  "logick": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "It's my first gem."
+  },
   "logicle": {
     "version": "0.1.1",
     "dependents": [
@@ -17819,7 +18359,7 @@
     "description": "LogJam is a library to simplify the use of logging across libraries and applications."
   },
   "logjam_agent": {
-    "version": "0.9.4",
+    "version": "0.9.6",
     "dependents": [
 
     ],
@@ -17899,7 +18439,7 @@
     "description": "A client and library for Logplex"
   },
   "logpoop": {
-    "version": "1.0.1",
+    "version": "1.1.0",
     "dependents": [
 
     ],
@@ -17950,6 +18490,13 @@
 
     ],
     "description": "A tagged LogSubscriber for Lograge."
+  },
+  "logripper": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Tool for parsing metrics from logs"
   },
   "logrotate": {
     "version": "1.2.1",
@@ -18023,8 +18570,16 @@
         "requirements": "~> 1.1.0"
       },
       {
+        "name": "rack-logstasher",
+        "requirements": ">= 0"
+      },
+      {
         "name": "rails-logstasher",
         "requirements": "~> 1.2.02"
+      },
+      {
+        "name": "resque-logstash",
+        "requirements": "~> 1.2"
       },
       {
         "name": "stasher",
@@ -18050,6 +18605,13 @@
 
     ],
     "description": "Logstash formatters for Ruby Logger"
+  },
+  "logstash-lib": {
+    "version": "1.3.2",
+    "dependents": [
+
+    ],
+    "description": "gem containing logstash code mainly for the purposes of doing programmatic validation of configuration. This gem aims to include all plugins but just enough rubygem dependencies to permit validation."
   },
   "logstash-lite": {
     "version": "0.2.20110505142231",
@@ -18080,7 +18642,7 @@
     "description": "Logstash SQS Client"
   },
   "logstasher": {
-    "version": "0.3.1",
+    "version": "0.4.5",
     "dependents": [
       {
         "name": "logstash_sqs",
@@ -18360,6 +18922,13 @@
     ],
     "description": "A simple collection of language names and abbreviations for Rails apps (includes replacements for language_select)"
   },
+  "lolapi": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "A wrapper for the League of Legends API desc"
+  },
   "LOLastfm": {
     "version": "0.0.3.7",
     "dependents": [
@@ -18367,9 +18936,20 @@
     ],
     "description": "LOL a scrobbler."
   },
+  "lolbase": {
+    "version": "0.4.1",
+    "dependents": [
+
+    ],
+    "description": "A basic Ruby wrapper for the League of Legends API."
+  },
   "lolcat": {
     "version": "42.0.99",
     "dependents": [
+      {
+        "name": "cowspeak",
+        "requirements": ">= 0"
+      },
       {
         "name": "rainbros",
         "requirements": ">= 0"
@@ -18377,8 +18957,22 @@
     ],
     "description": "Rainbows and unicorns!"
   },
+  "lolcode": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "LOLCODE interpreter for English and Chinese"
+  },
   "lolcommits": {
     "version": "0.5.2",
+    "dependents": [
+
+    ],
+    "description": "Takes a snapshot with your webcam every time you git commit code, and archives a lolcat style image with it."
+  },
+  "lolcommits-mpv": {
+    "version": "0.5.3",
     "dependents": [
 
     ],
@@ -18399,27 +18993,27 @@
     "description": "Outputs lorem ipsum, with some lolz put in for good measure"
   },
   "lolita": {
-    "version": "3.3.6",
+    "version": "3.3.7",
     "dependents": [
       {
-        "name": "lolita-editable-list",
-        "requirements": "~> 3.0.7"
+        "name": "lolita-file-upload",
+        "requirements": "~> 3.2"
       },
       {
         "name": "lolita-editable-list",
         "requirements": "~> 3.0.7"
       },
       {
-        "name": "lolita-menu",
-        "requirements": "~> 3.3.1"
+        "name": "lolita-editable-list",
+        "requirements": "~> 3.0.7"
       },
       {
         "name": "lolita-i18n",
         "requirements": "~> 3.2"
       },
       {
-        "name": "lolita-file-upload",
-        "requirements": "~> 3.2"
+        "name": "lolita-menu",
+        "requirements": ">= 3.3.1, ~> 3.3"
       },
       {
         "name": "lolita-report",
@@ -18461,7 +19055,7 @@
     "description": "Lolita plugin, that enables .yml files management from administrative interface. Also faster access to translations, that DB store"
   },
   "lolita-menu": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "dependents": [
 
     ],
@@ -18475,7 +19069,7 @@
     "description": "Enable configuration and generate HTML view for Lolita resources, and also has ability to export to different formats."
   },
   "lolita-translation": {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "dependents": [
 
     ],
@@ -18554,6 +19148,13 @@
 
     ],
     "description": "Translates English text into LOLspeak."
+  },
+  "LoLStat": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "A barebones League of Legends API Wrapper"
   },
   "lomadee": {
     "version": "0.0.5",
@@ -18655,12 +19256,12 @@
         "requirements": ">= 0.4.2"
       },
       {
-        "name": "feedzirra",
-        "requirements": "~> 1.2.1"
-      },
-      {
         "name": "feedzirra-etag-patch",
         "requirements": ">= 0.3.1"
+      },
+      {
+        "name": "feedzirra",
+        "requirements": "~> 1.2.1"
       },
       {
         "name": "jashmenn-feedzirra",
@@ -18685,6 +19286,10 @@
       {
         "name": "lstoll-feedzirra",
         "requirements": ">= 0.3.1"
+      },
+      {
+        "name": "makeup",
+        "requirements": "~> 1.2"
       },
       {
         "name": "mcbean",
@@ -18761,11 +19366,11 @@
         "requirements": "~> 3.0"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 3.0"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 3.0"
       },
       {
@@ -18817,6 +19422,13 @@
     ],
     "description": "It's a small library to provide the Rails I18n translations on the Javascript."
   },
+  "lookout-jruby": {
+    "version": "1.2.1",
+    "dependents": [
+
+    ],
+    "description": "JRuby hacks"
+  },
   "lookout-mongo_mapper": {
     "version": "0.11.3",
     "dependents": [
@@ -18838,6 +19450,20 @@
     ],
     "description": "                                 Lookout-Rack\n\n  Lookout-Rack provides easy interaction with Rack┬╣ from Lookout┬▓.  It provides\n  you with a session connected to your Rack application through which you can\n  make requests, check responses, follow redirects and set, inspect, and clear\n  cookies.\n\n┬╣ See http://rack.rubyforge.org/\n┬▓ See http://disu.se/software/lookout/\n\n┬º Installation\n\n    Install Lookout-Rack with\n\n    % gem install lookout-rack\n\n┬º Usage\n\n    Include the following code in your ΓÇ╣RakefileΓÇ║ (provided that youΓÇÖre using\n    Lookout-Rake┬╣):\n\n      require 'lookout-rack-3.0'\n\n      Lookout::Rake::Tasks::Test.new do |t|\n        t.requires << 'lookout-rack-3.0'\n      end\n\n  ┬╣ See http://disu.se/software/lookout-rake/\n\n    Then set up a ΓÇ╣fixtures/config.ruΓÇ║ file that Lookout-Rack\n    will use for loading your Rack app.\n\n      load 'path/to/app.rb'\n      use Rack::Lint\n      run Path::To::App\n\n    This file, if it exists, will be loaded during the first call to #session.\n    If it doesnΓÇÖt exist, ΓÇ╣config.ruΓÇ║ will be used instead.\n\n    You can now test your app:\n\n      Expectations do\n        expect 200 do\n          session.get('/').response.status\n        end\n      end\n\n    The #session method returns an object that lets you #get, #post, #put, and\n    #delete resources from the Rack app.  You call these method with a URI┬╣\n    that you want to access/modify together with any parameters that you want\n    to pass and any Rack environment that you want to use (which isnΓÇÖt very\n    common).  For example, letΓÇÖs get ΓÇ╣/pizzas/ΓÇ║ with olives on them:\n\n      expect 200 do\n        session.get('/pizzas/', 'olives' => '1').response.status\n      end\n\n  ┬╣ Abbreviation for Uniform Resource Identifier\n\n    The #response method on #session returns a mock Rack response object that\n    can be queried for results.  Similarly, thereΓÇÖs a #request method that lets\n    you inspect the request that was made.\n\n    Lookout-Rack also deals with cookies.  Assuming that ΓÇ╣/cookies/set/ΓÇ║ will\n    set any cookies that we pass it and that ΓÇ╣/cookies/show/ΓÇ║ will simply do\n    nothing relevant, the following expectation will pass:\n\n      expect 'value' => '1' do\n        session.\n          get('/cookies/set/', 'value' => '1').\n          get('/cookies/show/').request.cookies\n      end\n\n    Sometimes you may want to set cookies yourself before making a request.\n    You then use the #cookie method, which takes a String of ΓÇ╣KEY=VALUEΓÇ║ pairs\n    separated by newlines, commas, and/or semicolons and sets those cookies in\n    the session:\n\n      expect 'value' => '1', 'other' => '2' do\n        session.\n          cookie(\"value=1\\n\\nother=2\").\n          get('/cookies/show/').request.cookies\n      end\n\n    You may also want to clear all cookies in your session using #clear:\n\n      expect({}) do\n        session.\n          get('/cookies/set', 'value' => '1').\n          clear.\n          get('/cookies/show').request.cookies\n      end\n\n    Finally, to test redirects, call the #redirect! method on the session\n    object, assuming that ΓÇ╣/redirected/ΓÇ║ redirects to another location:\n\n      expect result.redirect? do\n        session.get('/redirected/').response\n      end\n\n      expect result.not.redirect? do\n        session.get('/redirected/').redirect!.response\n      end\n\n    ThatΓÇÖs basically all thereΓÇÖs to it.  You can check the {API documentation}┬╣\n    for more information.\n\n┬╣ See http://disu.se/software/lookout-rack/api/Lookout/Rack/\n\n┬º Financing\n\n    Currently, most of my time is spent at my day job and in my rather busy\n    private life.  Please motivate me to spend time on this piece of software\n    by donating some of your money to this project.  Yeah, I realize that\n    requesting money to develop software is a bit, well, capitalistic of me.\n    But please realize that I live in a capitalistic society and I need money\n    to have other people give me the things that I need to continue living\n    under the rules of said society.  So, if you feel that this piece of\n    software has helped you out enough to warrant a reward, please PayPal a\n    donation to now@disu.se┬╣.  Thanks!  Your support wonΓÇÖt go unnoticed!\n\n┬╣ Send a donation:\n  https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=now@disu.se&item_name=Lookout-Rack\n\n┬º Reporting Bugs\n\n    Please report any bugs that you encounter to the {issue tracker}┬╣.\n\n  ┬╣ See https://github.com/now/lookout-rack/issues\n\n┬º Authors\n\n    Nikolai Weibull wrote the code, the tests, the documentation, and this\n    README.\n\n┬º Licensing\n\n    Lookout-Rack is free software: you may redistribute it and/or modify it\n    under the terms of the {GNU Lesser General Public License, version 3}┬╣ or\n    later┬▓, as published by the {Free Software Foundation}┬│.\n\n┬╣ See http://disu.se/licenses/lgpl-3.0/\n┬▓ See http://gnu.org/licenses/\n┬│ See http://fsf.org/\n"
   },
+  "lookout-rack-test": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ],
+    "description": "RSpec and Cucumber helpers"
+  },
+  "lookout-rack-utils": {
+    "version": "1.2.0",
+    "dependents": [
+
+    ],
+    "description": "A collection of rack utils."
+  },
   "lookout-rake": {
     "version": "3.1.0",
     "dependents": [
@@ -18846,11 +19472,11 @@
         "requirements": "~> 3.1"
       },
       {
-        "name": "inventory-rake",
+        "name": "inventory-rake-tasks-yard",
         "requirements": "~> 3.1"
       },
       {
-        "name": "inventory-rake-tasks-yard",
+        "name": "inventory-rake",
         "requirements": "~> 3.1"
       },
       {
@@ -18888,6 +19514,10 @@
     "version": "0.9.0",
     "dependents": [
       {
+        "name": "lookout-rack-utils",
+        "requirements": ">= 0.7.0"
+      },
+      {
         "name": "rack-graphite",
         "requirements": ">= 0"
       }
@@ -18902,7 +19532,7 @@
     "description": "Mirror, mirror on the wall ..."
   },
   "looks": {
-    "version": "0.1.1",
+    "version": "0.2.0",
     "dependents": [
 
     ],
@@ -18911,10 +19541,6 @@
   "looksee": {
     "version": "unknown",
     "dependents": [
-      {
-        "name": "bitcoin",
-        "requirements": ">= 0"
-      },
       {
         "name": "brick_house",
         "requirements": ">= 0"
@@ -18929,7 +19555,7 @@
       },
       {
         "name": "irbtools-more",
-        "requirements": "~> 1.1.0"
+        "requirements": "~> 2.0"
       },
       {
         "name": "kitty_gen",
@@ -18983,6 +19609,13 @@
       }
     ],
     "description": "Use database lookup tables in AR models."
+  },
+  "lookup_table": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "use database table as a hash table"
   },
   "looky-lu": {
     "version": "0.0.4",
@@ -19131,11 +19764,11 @@
     "description": "Ruby wrapper for Loquendo TTS using sample SaveFile[-alaw] command."
   },
   "loquor": {
-    "version": "0.5.1",
+    "version": "1.0.0",
     "dependents": [
       {
         "name": "meducation_sdk",
-        "requirements": "~> 0.5.1"
+        "requirements": "~> 1.0"
       }
     ],
     "description": "An API dispatcher for Meducation"
@@ -19307,11 +19940,18 @@
     "description": "ipsum"
   },
   "lorempixel": {
-    "version": "0.0.0",
+    "version": "0.0.1",
     "dependents": [
 
     ],
     "description": "A Ruby gem for making dummy images from www.lorempixel.com"
+  },
+  "lorempixel_rails": {
+    "version": "1.0.0",
+    "dependents": [
+
+    ],
+    "description": "Custom image placeholders for Ruby on Rails 4 views with pictures provided by http://lorempixel.com"
   },
   "lorempixum": {
     "version": "0.0.3",
@@ -19432,12 +20072,57 @@
     ],
     "description": "This gem allows easier implementation and utilization of distributed, federated social networks."
   },
+  "lotus-controller": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Controller layer for Lotus"
+  },
+  "lotus-model": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Model layer for Lotus"
+  },
+  "lotus-router": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "HTTP Router for Lotus"
+  },
+  "lotus-utils": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "lotus-router",
+        "requirements": "~> 0"
+      }
+    ],
+    "description": "Lotus utilities"
+  },
+  "lotus-view": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "View layer for Lotus"
+  },
   "lotus_notes_calendar": {
     "version": "0.0.2",
     "dependents": [
 
     ],
     "description": "Given a Lutus Notes calendar url, parse events into ruby class. Includes basic query options."
+  },
+  "lotusrb": {
+    "version": "0.0.0",
+    "dependents": [
+
+    ],
+    "description": "Full stack web framework for Ruby"
   },
   "loudmouth": {
     "version": "0.2.4",
@@ -19740,6 +20425,13 @@
     ],
     "description": "Stops EC2 Instance"
   },
+  "LP-Exporter": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Application to export langauge data from Microsoft language pack lp.cab files"
+  },
   "lp_email_reply_parser": {
     "version": "0.6.1",
     "dependents": [
@@ -19825,7 +20517,7 @@
     "description": "Rate-controlled loop execution"
   },
   "lpxc": {
-    "version": "0.0.5",
+    "version": "0.0.7",
     "dependents": [
 
     ],
@@ -19837,6 +20529,13 @@
 
     ],
     "description": "This gem was created for the web programming course at http://rubylearning.org"
+  },
+  "lrcat": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "ActiveRecord mappings for the Lightroom Catalog."
   },
   "lrd_dev_tools": {
     "version": "0.0.1",
@@ -20026,6 +20725,13 @@
     ],
     "description": "authlogic-connect fork to solve a few nagging issues, while an update is not (business-)viable"
   },
+  "lse_courses": {
+    "version": "0.0.3",
+    "dependents": [
+
+    ],
+    "description": "Access to data on courses at the London School of Economics and Political Science (LSE)"
+  },
   "lsh": {
     "version": "unknown",
     "dependents": [
@@ -20053,6 +20759,10 @@
       },
       {
         "name": "selenium-rc",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "selenium-rc-latest",
         "requirements": ">= 0"
       }
     ],
@@ -20090,10 +20800,7 @@
   "lstrip-on-steroids": {
     "version": "1.0.2",
     "dependents": [
-      {
-        "name": "bitcoin",
-        "requirements": ">= 1.0.0"
-      }
+
     ],
     "description": "Sane indent-aware multiline strings"
   },
@@ -20125,6 +20832,27 @@
     ],
     "description": "LtiProvider is a mountable engine for handling the LTI launch and exposing LTI parameters in your rails app."
   },
+  "lti_public_resources": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Public Resources LTI app"
+  },
+  "lti_skydrive": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Microsoft SkydrivePro integration"
+  },
+  "lti_twitter_engine": {
+    "version": "0.1.0",
+    "dependents": [
+
+    ],
+    "description": "Embed a Twitter widget into your LMS with this LTI App."
+  },
   "ltree_hierarchy": {
     "version": "0.0.5",
     "dependents": [
@@ -20140,12 +20868,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "ltsview",
+        "name": "fluent-plugin-file-sprintf",
         "requirements": ">= 0"
       },
       {
         "name": "ltsv_logger",
         "requirements": "~> 0.1.0"
+      },
+      {
+        "name": "ltsview",
+        "requirements": ">= 0"
       },
       {
         "name": "ltsvr",
@@ -20286,39 +21018,39 @@
     "description": "Ruby wrapper for the chargify.com SAAS and billing API"
   },
   "lucie": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
 
     ],
     "description": "Command line utility framework"
   },
   "lucie-bin": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
       {
         "name": "lucie",
-        "requirements": "= 0.0.18"
+        "requirements": "= 0.0.19"
       }
     ],
     "description": "Command line utility framework"
   },
   "lucie-cmd": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
 
     ],
     "description": "Shell command for Lucie command line utility framework"
   },
   "lucie-lib": {
-    "version": "0.0.18",
+    "version": "0.0.19",
     "dependents": [
       {
         "name": "lucie",
-        "requirements": "= 0.0.18"
+        "requirements": "= 0.0.19"
       },
       {
         "name": "lucie-bin",
-        "requirements": "= 0.0.18"
+        "requirements": "= 0.0.19"
       }
     ],
     "description": "Command line utility framework"
@@ -20421,11 +21153,11 @@
     "description": "A small implementation of the Luhn algorithm."
   },
   "luhn-check": {
-    "version": "0.0.4",
+    "version": "0.0.5",
     "dependents": [
 
     ],
-    "description": "Luhn algorithm checker"
+    "description": "A Ruby gem to validate numbers with the Luhn algoritme"
   },
   "luhn-ruby": {
     "version": "1.0.0",
@@ -20433,6 +21165,16 @@
 
     ],
     "description": "Very simple library to calculate and validate Luhn numbers"
+  },
+  "luhn_checksum": {
+    "version": "0.1.0",
+    "dependents": [
+      {
+        "name": "credit_card_sanitizer",
+        "requirements": ">= 0"
+      }
+    ],
+    "description": "Efficient Luhn checksum validator"
   },
   "luhn_validation": {
     "version": "1.0.1",
@@ -20525,7 +21267,7 @@
     "description": "\"Lumbar supports building Backbone (JS) applications.\""
   },
   "lumber": {
-    "version": "1.1.1",
+    "version": "1.1.3",
     "dependents": [
 
     ],
@@ -20550,16 +21292,16 @@
         "requirements": ">= 0"
       },
       {
-        "name": "lumberjack_heroku_device",
-        "requirements": "~> 1.0"
+        "name": "lumberjack_multi-device",
+        "requirements": ">= 0"
       },
       {
         "name": "lumberjack_mongo_device",
         "requirements": "~> 1.0"
       },
       {
-        "name": "lumberjack_multi-device",
-        "requirements": ">= 0"
+        "name": "lumberjack_heroku_device",
+        "requirements": "~> 1.0"
       },
       {
         "name": "lumberjack_syslog_device",
@@ -20585,6 +21327,16 @@
 
     ],
     "description": "Lumberjack is best summed up as a generic DSL for constructing object trees."
+  },
+  "lumberjack_aziz_light": {
+    "version": "1.0.6",
+    "dependents": [
+      {
+        "name": "shlog",
+        "requirements": "= 1.0.6"
+      }
+    ],
+    "description": "A simple, powerful, and very fast logging utility that can be a drop in replacement for Logger or ActiveSupport::BufferedLogger. Provides support for automatically rolling log files even with multiple processes writing the same log file."
   },
   "lumberjack_heroku_device": {
     "version": "0.0.4",
@@ -20629,7 +21381,7 @@
     "description": "Project directory temple renderer"
   },
   "luna-rspec-formatters": {
-    "version": "0.4.3",
+    "version": "1.0.2",
     "dependents": [
       {
         "name": "active_record_mocks",
@@ -20641,23 +21393,19 @@
       },
       {
         "name": "clippy",
-        "requirements": "~> 0.4"
+        "requirements": "~> 0"
       },
       {
         "name": "content-pipeline",
-        "requirements": "~> 0.4"
+        "requirements": "~> 0"
       },
       {
         "name": "feralchimp",
-        "requirements": "~> 0.4"
+        "requirements": "~> 0"
       },
       {
         "name": "mongoid-find_by",
-        "requirements": "~> 0.4"
-      },
-      {
-        "name": "mongoid-find_by",
-        "requirements": ">= 0"
+        "requirements": "~> 0"
       },
       {
         "name": "pry-vterm_aliases",
@@ -20668,7 +21416,7 @@
         "requirements": "~> 0.4"
       }
     ],
-    "description": "A couple of RSpec formatters."
+    "description": "@envygeeks RSpec formatters that are dedicated to Luna."
   },
   "luna_api": {
     "version": "0.2.3",
@@ -20814,6 +21562,13 @@
     ],
     "description": "luoxin"
   },
+  "lupo": {
+    "version": "0.0.1",
+    "dependents": [
+
+    ],
+    "description": "Adds an #each method to your objects"
+  },
   "lupus": {
     "version": "0.1",
     "dependents": [
@@ -20860,11 +21615,11 @@
     "version": "0.1.0",
     "dependents": [
       {
-        "name": "lustr-mxml",
+        "name": "lustr-jruby",
         "requirements": ">= 0.1"
       },
       {
-        "name": "lustr-jruby",
+        "name": "lustr-mxml",
         "requirements": ">= 0.1"
       },
       {
@@ -20994,7 +21749,7 @@
     "description": "simple core extensions"
   },
   "lxc": {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "dependents": [
       {
         "name": "testlab",
@@ -21045,6 +21800,13 @@
     ],
     "description": "First gem for linux summer camp"
   },
+  "lyle_gem_test": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "This is a test of gem"
+  },
   "lymbix": {
     "version": "0.4.5",
     "dependents": [
@@ -21082,6 +21844,13 @@
 
     ],
     "description": "Song Lyrics for your Ruby apps"
+  },
+  "lyricit": {
+    "version": "0.0.2",
+    "dependents": [
+
+    ],
+    "description": "Update lyrics on iTunes from command line."
   },
   "lyricli": {
     "version": "0.0.1",
